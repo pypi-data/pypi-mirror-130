@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+nicagemap/__init__.py
+nicagemap/nicagemap.py
+nicagemap.egg-info/PKG-INFO
+nicagemap.egg-info/SOURCES.txt
+nicagemap.egg-info/dependency_links.txt
+nicagemap.egg-info/not-zip-safe
+nicagemap.egg-info/top_level.txt
