@@ -1,0 +1,10 @@
+.gitignore
+LICENSE
+Makefile
+README.md
+setup.py
+colorbox/__init__.py
+colorbox.egg-info/PKG-INFO
+colorbox.egg-info/SOURCES.txt
+colorbox.egg-info/dependency_links.txt
+colorbox.egg-info/top_level.txt
