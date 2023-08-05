@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+src/PythonStarterPackage.egg-info/PKG-INFO
+src/PythonStarterPackage.egg-info/SOURCES.txt
+src/PythonStarterPackage.egg-info/dependency_links.txt
+src/PythonStarterPackage.egg-info/requires.txt
+src/PythonStarterPackage.egg-info/top_level.txt
+src/python_starter_package/__init__.py
+src/python_starter_package/handler.py
+src/python_starter_package/utils/__init__.py
+src/python_starter_package/utils/commoncmd.py
+test/test_client.py

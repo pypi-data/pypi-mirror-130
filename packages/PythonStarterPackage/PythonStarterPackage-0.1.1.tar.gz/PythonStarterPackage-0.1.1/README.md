@@ -1,0 +1,92 @@
+# Python Starter Package
+This is a basic python starter package to be used as a template for creating your own python packages. This project is inspired by Sigma-Coding (https://github.com/areed1192/sigma-coding), it is a great detailed guide on deploying python packages.
+
+## Installation
+Currently, this library is not hosted on PyPi. Once it is available, you would be able to install via ```pip```:
+```
+pip install PythonStarterPackage
+```
+For manual install, see below.
+
+### Manual Install
+To manually install this package, clone this repo to your local system. After you clone the repo, navigate into the package to where the ```setup.py``` file is. Then use ```pip install -e .``` command. This will install the package and all its dependencies editable mode. Then you can use the package locally or use it as the starting point for building out your own package.
+```
+pip install -e .
+```
+
+## Usage
+You can run this app in your terminal with:
+```
+./app.py
+```
+Alternatively, you can import this app in your own project and run it within your program. For example:
+```
+from python_starter_package import *
+
+python_starter = PythonStarterPackage()
+python_starter.run()
+```
+
+## Documentation
+The purpose of this guide is to show how to create this standard python package from scratch. See packaging.python.org for more details: https://packaging.python.org/tutorials/packaging-projects/.
+
+### Setup
+In order to setup the your own standard python package from scratch do the following:
+
+1. Setup the starter package with the files and folders below:
+* config - Directory containing all configuration files for your package.
+* src/python_starter_package - Core directory containing all the files that make up your program as well as ```__init__.py``` which is the entry point to our package.
+  * utils - Sub-directory of python_starter_package containing any utility files for your program.
+* test - Directory containing all your test scripts.
+* app.py - Script to run your application.
+* LICENSE - File defining your package's license.
+* README.md - Readme file for documentation.
+* requirements.txt - File defining all the requirements of your package.
+* setup.py - Script to build your package.
+
+2. Once setup, add the contents and code to the files and directories you created. Copy the contents and code from the PythonStarterPackage available in this repo: https://github.com/mystic-repo/PythonStarterPackage.
+
+### Deployment
+Create the deployment for this package.
+
+1. Create (or overwrite) the requirements.txt document with ```pipreqs```. This is an extremely useful tool because it automatically finds all of the relavent versions of dependencies your package relies on and puts them into the ```requirements.txt``` file. If you don't have ```pipreqs```, install it with ```pip install pipreqs```.
+```
+pipreqs --force --encoding utf-8
+```
+2. Upgrade ```setuptools```, ```wheel```, and ```twine``` (```twine``` will be used in the next part).
+```
+pip3 install --upgrade setuptools wheel twine
+pip3 install --user --upgrade setuptools wheel twine
+```
+3. Build the package with ```setup.py```.
+```
+python3 setup.py sdist bdist_wheel
+```
+4. Test the install of the package.
+```
+pip3 install e .
+```
+5. Run ```app.py``` to test that the package is working.
+```
+./app.py
+```
+6. After testing that it is working, uninstall the package from pip3.
+```
+pip3 uninstall PythonStarterPackage
+```
+
+### Upload to PyPi
+In order to upload to PyPi make sure to setup your PyPi account first. See PyPi Setup Guide.md in ```doc/``` for more details. You will also need to have ```twine``` installed and upgraded. Once you have your account setup do the following:
+
+1. Upload using ```twine```.
+```
+twine upload dist/*
+```
+2. Check PyPi for your package.
+3. Install your package with ```pip```.
+```
+pip install PythonStarterPackage
+```
+
+## Support and Contributions
+If you would like to support this project financially feel free to donate to this direct bitcoin address: 1GZQY6hMwszqxCmbC6uGxkyD5HKPhK1Pmf
