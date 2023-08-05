@@ -1,0 +1,26 @@
+ms1searchpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms1searchpy/combine.py,sha256=suH9pMnOzJmH31yox47pYoqlX3I4YDaK8SJ-K5FsmnA,3050
+ms1searchpy/combine_scores.py,sha256=x4jQbjeDSrWzm0CqyQtwzdXzSQ394Dx_9JFnXwIAn7g,4101
+ms1searchpy/directms1quant copy 2.py,sha256=I2OqA8eakZWYPcInWqHy-pXm27GC8JzswxHCb_zxWlE,16044
+ms1searchpy/directms1quant copy 3.py,sha256=a7yK6rRe131QVf9ma0HqxpjbmWY2iWx3QEskI_Z2Z0g,15767
+ms1searchpy/directms1quant copy.py,sha256=0vAfvj-18whXxwUxZlTZmQE6ssknFex9dpRL6KxG2Zc,15769
+ms1searchpy/directms1quant.py,sha256=IuYvr6xuKTKl29iqphc9llGlxzHqYGZZoTvydPgYX-4,12601
+ms1searchpy/main copy 2.py,sha256=funHwaN6bWBfG4Z6y3LCNCiQvreDhNt2nf32w7p0fZ8,72672
+ms1searchpy/main copy.py,sha256=7vuwd8GQ5gGY9j0A6vr8O8g6YhZzfpngpzlHO_B49no,70820
+ms1searchpy/main.py,sha256=jq-7eJgoYxR9dzxGlAt4BBmqzhvTeFyaHHMjSg6vY_o,71985
+ms1searchpy/main_copy_qpredstry.py,sha256=3a1_JBaD9sVz2jnAFER9Xqa9SF-R28jEibYA0hNtNTE,74182
+ms1searchpy/ms1todiffacto.py,sha256=EHI-y81_G5oo_gAjtMuChes9ISJrSo3NIHQKn6ZHkhY,9919
+ms1searchpy/ms1tonsaf copy.py,sha256=YLcWXjLxhllkkuIvtFwpMVO_nK0_KxFhPLObDAbR1Q8,6481
+ms1searchpy/ms1tonsaf.py,sha256=y7xwbdvPZDw1fT9NIuX8XicLgLZk2uwZV5_YPZAnVd4,11212
+ms1searchpy/ms1tonsaf_custom.py,sha256=MfWgoqUveWDCj5B2RYr6L5dX7FZCnoaTk7kG6ree4sY,6547
+ms1searchpy/rundeeplc.py,sha256=X92qfM9lTRqCJNmQSp0xxOcbM97hIDLVzTEmyPHGz5o,329
+ms1searchpy/search.py,sha256=FLw-8a8X5Idvd3PndxBRJyKfLo8LkVVq9P3MVDwRblc,2943
+ms1searchpy/search_fast.py,sha256=zGDJfEZ-dVi2ZdVPCeP_wmm1CYJudxB-WnOYSRUbkh4,2778
+ms1searchpy/utils.py,sha256=37hVeKxEagi6znPzDi5aHS12sCsPntG88wodFq-exUU,13463
+ms1searchpy/utils_figures.py,sha256=8COdbQsgrHcmaiVzPiEVge3PTAAvdk2TMrZkx-vz9cI,12868
+ms1searchpy-2.2.7.dist-info/LICENSE,sha256=WanbJHdVmtsm-QgIuB0GDMrtkwBHY6WmTzwvX6ZZtgs,551
+ms1searchpy-2.2.7.dist-info/METADATA,sha256=uqOh06sEf-5810Pgy-y_PFGfi5WV3jmeuvOrLgCK3lM,7634
+ms1searchpy-2.2.7.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+ms1searchpy-2.2.7.dist-info/entry_points.txt,sha256=w1pqZrHpJGomt1ukaGODtjb5aHXWQQAbE4bVLOR6Y3g,225
+ms1searchpy-2.2.7.dist-info/top_level.txt,sha256=pyjbWV_odwavqf6q4mSj2P0L0zLqKEDftX53QvxeJlc,12
+ms1searchpy-2.2.7.dist-info/RECORD,,
