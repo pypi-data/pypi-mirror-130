@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: FileManagerPro
+Version: 1.0.1
+Summary: A Python package with extensive file managing capabilities
+Home-page: https://github.com/arpansahu/FileManagerPro
+Author: Arpan Sahu
+Author-email: arpanrocks95@gmail.com
+License: BSD 2-clause
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+File Manager Pro currently Support Find a file and copy it to a particular 
+path
+
+Features:
+*search files with/without extensions
+*search and copy with/without extensions
+
