@@ -1,0 +1,3 @@
+[console_scripts]
+datasource-contributor = rommon.__main__:main
+
