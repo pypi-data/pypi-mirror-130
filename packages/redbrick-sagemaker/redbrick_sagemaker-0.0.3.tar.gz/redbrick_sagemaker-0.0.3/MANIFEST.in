@@ -1,0 +1,5 @@
+include LICENSE
+recursive-include redbrick_sagemaker *.py
+include setup.py
+exclude examples
+include redbrick_sagemaker/VERSION
