@@ -1,0 +1,7 @@
+setup.py
+cadwangpackage1/__init__.py
+cadwangpackage1/__main__.py
+cadwangpagckage1.egg-info/PKG-INFO
+cadwangpagckage1.egg-info/SOURCES.txt
+cadwangpagckage1.egg-info/dependency_links.txt
+cadwangpagckage1.egg-info/top_level.txt
