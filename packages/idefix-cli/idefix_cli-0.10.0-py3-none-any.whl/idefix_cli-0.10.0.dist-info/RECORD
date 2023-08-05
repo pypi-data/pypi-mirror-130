@@ -1,0 +1,17 @@
+idefix_cli/__init__.py,sha256=v4zmKjsKOPZbp6BrWoz7iK4ST0sdZdUh9bQSJmluZ5o,23
+idefix_cli/_commons.py,sha256=S2NrU2k1ookHchEQhLY6Vjz4zOIg82V3uSJ7sgex1CY,5568
+idefix_cli/_main.py,sha256=f0Xr_IrLlCBlQIh6T3-bL63CQlnz8_CuGiNAEodkAXE,2407
+idefix_cli/_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idefix_cli/_commands/clean.py,sha256=oIiTEM9QALrMuJNe_iRqiuJfCfVFW_LuwkdDHqPDXdM,2712
+idefix_cli/_commands/clone.py,sha256=Ojp-D-g8u1VFl62eYk-Wc_UQGCBuo6cMEXLVIy_Kba8,2790
+idefix_cli/_commands/conf.py,sha256=fJPLmxYp-zI8vxtKmP1qbZeRvG1xSWB6SZYST9NkzJA,6411
+idefix_cli/_commands/read.py,sha256=2dZjLt9Y143q29r3OU4CNhJ9oJ5dvH9zy134wwHnSfs,666
+idefix_cli/_commands/run.py,sha256=xrr5DuyPQiC-H9F3_alELjFg0GklewFRUKMiO7cOCZw,2557
+idefix_cli/_commands/stamp.py,sha256=v_IJzBpha4gT2tadyOFJESA5_PpwJ8TBVeNNGMP9ue8,721
+idefix_cli/_commands/write.py,sha256=ZFllHWQ1JO1eePT72CZeyII_dyzBPcwEM_5pmzKiThc,1222
+idefix_cli-0.10.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+idefix_cli-0.10.0.dist-info/METADATA,sha256=1uWUjHYeTL98mO_k8NKp2HtI0U_tl0GXmjWg4LyMw0U,8978
+idefix_cli-0.10.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+idefix_cli-0.10.0.dist-info/entry_points.txt,sha256=Nw-_lcaY9ucAl-RXai2N38bxixhbqLF-ddaySyt0kiU,48
+idefix_cli-0.10.0.dist-info/top_level.txt,sha256=pyZt1wyA2RPHXGDNHyn3K8c9lILAKSZb0QKqtoW-Rwk,11
+idefix_cli-0.10.0.dist-info/RECORD,,
