@@ -1,0 +1,12 @@
+aws_log_parser/__init__.py,sha256=USvcpClTfmq91BRI2iwVUAEk0Fi8omhBNEfmKpX_BLM,92
+aws_log_parser/exceptions.py,sha256=JXWiZbJvZkUmcdTezWZYZEE0EsijtnoxdK88puB44uU,86
+aws_log_parser/fields.py,sha256=p8YuMXzlKE5cM-tx5zpAR1idg1tMHlPoU-JWasdoRN0,4698
+aws_log_parser/interface.py,sha256=czJAbnJjcnZMe3qPG8N4s-mHw08IyikCSbPYi4-6X_M,3415
+aws_log_parser/models.py,sha256=Nuumy7cxRxNTAHz6rIZ64rZbpbWinP7F-XpSBNESH3E,5185
+aws_log_parser/parser.py,sha256=WSgEBo5QmporvWRWNmqRIce8ItT530JZ8BBZHARhR-8,2232
+aws_log_parser-2.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+aws_log_parser-2.0.0.dist-info/METADATA,sha256=a6Ath5rkx5LH4h6rE9znLibhhXluy_SweGqzyizYFZw,6687
+aws_log_parser-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_log_parser-2.0.0.dist-info/entry_points.txt,sha256=HhKIJSbU0LxGaiF8loLnEy9x8OehD0T5Ng7J0HIypio,65
+aws_log_parser-2.0.0.dist-info/top_level.txt,sha256=owvaosreGCs6EnSfogTAHDn0QszxSTFJPiIsxWNMI2M,15
+aws_log_parser-2.0.0.dist-info/RECORD,,
