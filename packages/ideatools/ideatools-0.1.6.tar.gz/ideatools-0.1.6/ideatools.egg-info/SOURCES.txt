@@ -1,0 +1,7 @@
+setup.py
+ideatools/Logger.py
+ideatools/__init__.py
+ideatools.egg-info/PKG-INFO
+ideatools.egg-info/SOURCES.txt
+ideatools.egg-info/dependency_links.txt
+ideatools.egg-info/top_level.txt
