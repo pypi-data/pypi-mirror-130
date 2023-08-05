@@ -1,0 +1,6 @@
+Mymail.py
+setup.py
+lzy_Mymail.egg-info/PKG-INFO
+lzy_Mymail.egg-info/SOURCES.txt
+lzy_Mymail.egg-info/dependency_links.txt
+lzy_Mymail.egg-info/top_level.txt
