@@ -1,0 +1,16 @@
+pylodata/__init__.py,sha256=rG0pezwu-KVbnlH0SnIOKHX75FhSKczpEuTEeW9Xg5c,2104
+pylodata/patterns.py,sha256=OoC3nps18-77lzA02EUJnbtzobaw-u4tudMYWem5Hdg,1659
+pylodata/wordlist.py,sha256=Wm_qe5rJMOJ8t74pkJ_ET7QX46L8eV1PAI3Me5dtswc,1819
+pylodata/data/liusinitic.tsv,sha256=Fn-CePzidoPgt5k5AVQLOvJi_q-zuDPw-cxYyXbNZ9E,438451
+pylodata/data/nj-tree.tre,sha256=kRBq5YMbZdsdlJv5aweDqPjZLZDiF87vQ-43aLGKos4,278
+pylodata/data/nj-tree.tre.rooted,sha256=N5mwerGvlKWOTyBMs6oAFNU_Du8TMMLnEd6e_XlYA_E,287
+pylodata/data/sagart2005.tre,sha256=2K6jtpZvlPLgT8_HrMryZEzWkHTXaJ7jlzX-WarPk4g,189
+pylodata/data/wichmannmixezoquean-aligned.tsv,sha256=AvM7YFCBosZx1y31X1WjmQ6iHncP-B9ILm3Pjv_ZF2E,203152
+pylodata/data/wichmannmixezoquean-correspondences.tsv,sha256=BIxWV3rNGNeaGJ1AiqM3qT48jPTzWmH7IvuhEwHBJLY,19253
+pylodata/data/wichmannmixezoquean-patterns.tsv,sha256=Oy4wyptR3wK0_QZ9jsEk5GcbrMC4ITLCuRLQZDYgFBc,238502
+pylodata/data/wichmannmixezoquean.tsv,sha256=cDTcP1Vl5e6uz4rkqa0DMukYmHghcSiU828-vB990AY,180593
+pylodata-0.1.0.dist-info/LICENSE,sha256=tBvL2mB_mSvw0SFX-7MapXgLHQxYu0hEKki1cC82lB0,1065
+pylodata-0.1.0.dist-info/METADATA,sha256=u1alyrg9CVHm_E4CryBTqlnHOPdCArGNn0NB2yXTbwE,1432
+pylodata-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pylodata-0.1.0.dist-info/top_level.txt,sha256=-3hsYeufP1K0bCx5M-q--704XJkdIgCOnh3um1YmxEs,9
+pylodata-0.1.0.dist-info/RECORD,,
