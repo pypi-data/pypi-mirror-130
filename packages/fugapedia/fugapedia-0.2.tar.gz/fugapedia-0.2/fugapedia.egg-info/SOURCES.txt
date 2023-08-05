@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+fugapedia.egg-info/PKG-INFO
+fugapedia.egg-info/SOURCES.txt
+fugapedia.egg-info/dependency_links.txt
+fugapedia.egg-info/not-zip-safe
+fugapedia.egg-info/top_level.txt
