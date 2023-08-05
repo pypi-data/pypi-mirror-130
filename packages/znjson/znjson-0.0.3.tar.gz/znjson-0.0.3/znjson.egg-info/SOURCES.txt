@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+znjson/__init__.py
+znjson/base.py
+znjson/config.py
+znjson/main.py
+znjson.egg-info/PKG-INFO
+znjson.egg-info/SOURCES.txt
+znjson.egg-info/dependency_links.txt
+znjson.egg-info/top_level.txt
+znjson/converter/__init__.py
+znjson/converter/numpy_converter.py
+znjson/converter/pandas_converter.py
+znjson/converter/pathlib_converter.py
