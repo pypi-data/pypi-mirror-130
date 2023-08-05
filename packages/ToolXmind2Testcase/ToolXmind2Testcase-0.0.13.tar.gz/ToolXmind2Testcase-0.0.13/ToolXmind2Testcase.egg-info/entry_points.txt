@@ -1,0 +1,3 @@
+[console_scripts]
+ToolXmind2Testcase = ToolXmind2Testcase.convert_xmind_to_excel:convert
+
