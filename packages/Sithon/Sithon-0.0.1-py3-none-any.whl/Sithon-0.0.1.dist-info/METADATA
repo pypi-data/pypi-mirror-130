@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Sithon
+Version: 0.0.1
+Summary: Sithon is a testing library for Python!
+Home-page: https://github.com/barrack-obama/Sithon
+Author: Simon G.
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.10
+Requires-Dist: aiofiles
+
+UNKNOWN
+
+
