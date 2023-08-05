@@ -1,0 +1,6 @@
+lxml
+pyyaml>=5.1
+rdflib==5.0.0
+docopt
+pathlib
+pyparsing==2.4.7
