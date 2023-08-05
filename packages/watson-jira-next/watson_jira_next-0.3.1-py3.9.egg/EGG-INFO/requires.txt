@@ -1,0 +1,8 @@
+td-watson
+python-dateutil
+click<8.0,>=7.0
+simplejson
+colorama
+jira
+pyyaml
+pyxdg
