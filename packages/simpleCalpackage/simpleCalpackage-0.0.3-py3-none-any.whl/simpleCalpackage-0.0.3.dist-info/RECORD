@@ -1,0 +1,10 @@
+simpleCalpackage/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleCalpackage/add.py,sha256=OGKiAQ92hVikOQ8N5KjjmPifsn-HGkST2InXW69EmEo,29
+simpleCalpackage/subtract.py,sha256=34IEOrxyOHuSlzLKYo-3GY-eHwksA3vV5CI4N0sCIxI,34
+simpleCalpackage/extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simpleCalpackage/extras/divide.py,sha256=Lk57_AJg5YisqQHuuaRerzJ8fDfYzgUQ9-I-cKVrsHU,32
+simpleCalpackage/extras/multiply.py,sha256=zKnJJtZAQ61V6jH8597z-kM7prGRgKncT2ApQ-vnOtI,31
+simpleCalpackage-0.0.3.dist-info/METADATA,sha256=1Hc5hWHdcBB1oiQY39I50gDaDIOUxZNRrOLWguSQIMs,588
+simpleCalpackage-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+simpleCalpackage-0.0.3.dist-info/top_level.txt,sha256=V96RMA1x1EtEmETLZm0BwQCfF3KmSXliPqwtXD8ZUnQ,17
+simpleCalpackage-0.0.3.dist-info/RECORD,,
