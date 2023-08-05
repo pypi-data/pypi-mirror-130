@@ -1,0 +1,11 @@
+README.md
+setup.py
+Sithon.egg-info/PKG-INFO
+Sithon.egg-info/SOURCES.txt
+Sithon.egg-info/dependency_links.txt
+Sithon.egg-info/requires.txt
+Sithon.egg-info/top_level.txt
+sithon/__init__.py
+sithon/__main__.py
+sithon/log.py
+sithon/testing.py
