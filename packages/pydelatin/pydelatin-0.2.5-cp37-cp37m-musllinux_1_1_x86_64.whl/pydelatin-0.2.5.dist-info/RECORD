@@ -1,0 +1,11 @@
+_pydelatin.cpython-37m-x86_64-linux-gnu.so,sha256=B4U9GshswimySMcaElXkMR2go3shLHP-d0zGCifaDec,6721584
+pydelatin/__init__.py,sha256=b6Fn80tBWIxjyKm_eKo7xrmVCrYWDzQcrzuldpctrPE,178
+pydelatin/util.py,sha256=znc_S0LlJqGBtWUVz0yrL9r_ALVG-vXclo5RQChJYJ8,2653
+pydelatin/delatin.py,sha256=eIIg_DoTYEBLv_9_WhSTdUmQ1XJtADEqPSKN_XhYa4A,2624
+pydelatin.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+pydelatin.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+pydelatin-0.2.5.dist-info/LICENSE,sha256=nibXnqSIeJlpfnQR5MVbs8vUPl-FZQQeoZjiEko4vnY,1068
+pydelatin-0.2.5.dist-info/RECORD,,
+pydelatin-0.2.5.dist-info/top_level.txt,sha256=IqYA-uufehdU9pHdj2P87jTGDW8dsH1x3WEVnpTbAYw,21
+pydelatin-0.2.5.dist-info/WHEEL,sha256=AwCV1FkWdYpjfcoaK7n6p6fj_Id8GAo6XowTK5Ts_YM,112
+pydelatin-0.2.5.dist-info/METADATA,sha256=LLcmzzf7A3Mw-ALZtv8OE65tAXMniIAgta2iHlN8urU,8908
