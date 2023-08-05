@@ -1,0 +1,270 @@
+{
+  "src/components/Box.jsx": {
+    "description": "Box component from Material UI\nhttps://mui.com/components/box/",
+    "displayName": "Box",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "sx": {
+        "type": {
+          "name": "object"
+        },
+        "required": false,
+        "description": "All Material system properties are available via the `sx prop`\nAllow additional css styles to be applied to the component",
+        "defaultValue": {
+          "value": "{}",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Card.jsx": {
+    "description": "Card component\nDashboard > Page > Section > Card\nhttps://github.com/danielfrg/jupyter-flex/blob/main/js/src/Card/index.js",
+    "displayName": "Card",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "title": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Card overall title",
+        "defaultValue": {
+          "value": "''",
+          "computed": false
+        }
+      },
+      "size": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Card container size (0 < grid size <= 12)",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Container.jsx": {
+    "description": "Container component from Material UI\nhttps://mui.com/components/container/",
+    "displayName": "Container",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "maxWidth": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Maximum width boundary for the container",
+        "defaultValue": {
+          "value": "'sm'",
+          "computed": false
+        }
+      },
+      "fixed": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "If true, the container max-width will be fixed",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Dashboard.jsx": {
+    "description": "Main dasboard component, initializing a Material UI theme\nhttps://mui.com/customization/theming/",
+    "displayName": "Dashboard",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/NavBar.jsx": {
+    "description": "Dashboard navigation bar component\nhttps://mui.com/components/app-bar/",
+    "displayName": "NavBar",
+    "methods": [],
+    "props": {
+      "title": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Dashboard navigation bar title",
+        "defaultValue": {
+          "value": "'Neptune dashboard'",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Page.jsx": {
+    "description": "Page component\nDashboard > Page\nhttps://github.com/danielfrg/jupyter-flex/blob/main/js/src/Section/index.js",
+    "displayName": "Page",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "orientation": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "Dashboard general orientation (rows or columns)",
+        "defaultValue": {
+          "value": "'columns'",
+          "computed": false
+        }
+      },
+      "verticalLayout": {
+        "type": {
+          "name": "custom",
+          "raw": "PropTypes.string"
+        },
+        "required": false,
+        "description": "Dashboard general layout (fill or scroll)",
+        "defaultValue": {
+          "value": "'fill'",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Paper.jsx": {
+    "description": "Paper component from Material UI\nhttps://mui.com/components/paper/",
+    "displayName": "Paper",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "elevation": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "This number represents the elevation of the paper shadow",
+        "defaultValue": {
+          "value": "1",
+          "computed": false
+        }
+      },
+      "square": {
+        "type": {
+          "name": "bool"
+        },
+        "required": false,
+        "description": "By default, the paper will have a border radius.\nSet this to true to generate a paper with sharp corners.",
+        "defaultValue": {
+          "value": "false",
+          "computed": false
+        }
+      }
+    }
+  },
+  "src/components/Section.jsx": {
+    "description": "Section component\nDashboard > Page > Section\nhttps://github.com/danielfrg/jupyter-flex/blob/main/js/src/Section/index.js",
+    "displayName": "Section",
+    "methods": [],
+    "props": {
+      "children": {
+        "type": {
+          "name": "node"
+        },
+        "required": false,
+        "description": "Can be used to render elements inside the component",
+        "defaultValue": {
+          "value": "null",
+          "computed": false
+        }
+      },
+      "size": {
+        "type": {
+          "name": "number"
+        },
+        "required": false,
+        "description": "Section container size (0 < grid size <= 12)",
+        "defaultValue": {
+          "value": "0",
+          "computed": false
+        }
+      },
+      "orientation": {
+        "type": {
+          "name": "string"
+        },
+        "required": false,
+        "description": "Section general orientation (rows or columns)",
+        "defaultValue": {
+          "value": "'rows'",
+          "computed": false
+        }
+      }
+    }
+  }
+}
