@@ -1,0 +1,13 @@
+tekigo/LICENCE_GatherScatter,sha256=QjdonAw5zCH7Vb9VAkLo7hzbgXQWwUZl1m9WPYrYtxw,1118
+tekigo/__init__.py,sha256=grdO9T0aOJJZMjIyRHL8D7n9RKaDveFWuHykne_HVUY,171
+tekigo/base.py,sha256=W2mCleIJFlUBmA1ItrCECILqUL9VTc6QdZNDn4rSjFE,15048
+tekigo/front.py,sha256=f1mVR8Q5d_QHN6BgL3ncgzvy_NxUD4hM4FTbY2IXEYo,31331
+tekigo/hip_Darwin,sha256=ZrEXtTEGi1c-LsugWvCnaieBZmdOLZ4iks8_AUfc4wQ,6845736
+tekigo/hip_Linux,sha256=_zaIZUaw_6sio5huNVsYFM8_4Dp_3dNL3aopFkCB_C4,7702408
+tekigo/hipster.py,sha256=_8bu3XslCRburnhaBvaAQX5AY-XqP8bRZJ98iHJR190,4883
+tekigo/tools.py,sha256=2GCdsXcc5Tl5ULT8Vrpj61BwCcRBcLJG5oK0LlF9_-k,10471
+tekigo-0.9.9.dist-info/LICENSE.txt,sha256=n1bP_Mhs3ukoJCuAA-uTjZpXAfniS08jJsc7fKhAEQ8,1060
+tekigo-0.9.9.dist-info/METADATA,sha256=WD9EaKYoUg5mlnXndZohuq3UH27GBG4XO2ZRq2vBeZA,14586
+tekigo-0.9.9.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tekigo-0.9.9.dist-info/top_level.txt,sha256=Dlpc6kLbi_o0cZ5v_xvw1THOQG86HtJVA1_Jpe2Yd6g,7
+tekigo-0.9.9.dist-info/RECORD,,
