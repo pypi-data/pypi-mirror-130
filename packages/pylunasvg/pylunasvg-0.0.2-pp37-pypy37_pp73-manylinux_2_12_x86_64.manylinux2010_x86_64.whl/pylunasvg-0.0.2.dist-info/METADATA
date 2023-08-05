@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: pylunasvg
+Version: 0.0.2
+Summary: Bindings for lunasvg
+Home-page: https://github.com/erentknn/pylunasvg
+Author: Eren Tekin
+Author-email: erntkn4@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+
+UNKNOWN
+
