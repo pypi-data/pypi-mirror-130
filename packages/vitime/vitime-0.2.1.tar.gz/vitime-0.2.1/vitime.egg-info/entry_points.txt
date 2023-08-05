@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    vitime = VITimeCLI.main:vitime
+    

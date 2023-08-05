@@ -1,0 +1,13 @@
+README.md
+setup.py
+VITimeCLI/Slotdata.py
+VITimeCLI/__init__.py
+VITimeCLI/functions.py
+VITimeCLI/initialize.py
+VITimeCLI/main.py
+vitime.egg-info/PKG-INFO
+vitime.egg-info/SOURCES.txt
+vitime.egg-info/dependency_links.txt
+vitime.egg-info/entry_points.txt
+vitime.egg-info/requires.txt
+vitime.egg-info/top_level.txt
