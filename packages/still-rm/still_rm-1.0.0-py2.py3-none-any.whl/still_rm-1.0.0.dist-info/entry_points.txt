@@ -1,0 +1,3 @@
+[console_scripts]
+still-rm = still_rm.__main__:main
+

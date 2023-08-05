@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: still-rm
+Version: 1.0.0
+Summary: A utility for removing still frames from video files.
+Home-page: https://github.com/joy2fun/still-rm
+Author: Chiao
+Author-email: php@html.js.cn
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: opencv-python (>=4.0)
+Requires-Dist: ffmpeg-python (>=0.1)
+
+
+# still-rm
+
+A utility for removing still frames from video files using ffmpeg & opencv.
+
+## Requirements
+ - ffmpeg
+
+## Installation
+
+```
+pip3 install still-rm
+```
+
+## Usage
+
+```sh
+still-rm /path/to/input.file /path/to/output.file
+
+# options
+still-rm -h
+```
+
+
