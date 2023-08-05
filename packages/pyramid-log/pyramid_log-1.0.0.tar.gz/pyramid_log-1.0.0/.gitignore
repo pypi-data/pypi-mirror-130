@@ -1,0 +1,12 @@
+*~
+*.pyc
+__pycache__/
+
+/pyramid_log.egg-info/
+/build/
+/dist/
+
+/.tox/
+/.coverage
+/htmlcov/
+
