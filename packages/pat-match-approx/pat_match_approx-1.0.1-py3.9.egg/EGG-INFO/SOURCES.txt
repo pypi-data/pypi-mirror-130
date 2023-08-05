@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+pat_match_approx.egg-info/PKG-INFO
+pat_match_approx.egg-info/SOURCES.txt
+pat_match_approx.egg-info/dependency_links.txt
+pat_match_approx.egg-info/entry_points.txt
+pat_match_approx.egg-info/not-zip-safe
+pat_match_approx.egg-info/requires.txt
+pat_match_approx.egg-info/top_level.txt
+scripts/__init__.py
+scripts/approx.py
+scripts/gen_lcp.py
+scripts/search_st2.py
+scripts/utils.py
