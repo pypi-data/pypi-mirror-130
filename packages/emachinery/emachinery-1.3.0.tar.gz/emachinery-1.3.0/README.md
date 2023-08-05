@@ -1,0 +1,167 @@
+# [emachinery](https://pypi.org/project/emachinery/)
+
+*<u>A package for analysis of electric machinery.</u>*
+
+## [A]. Functions
+
+### 1. Machine Quantities Calculations & Conversion
+
+### 2. PI Regulator Tuner based on Texas Instruments' InstaSPIN
+
+### 3. Run C-based Numerical Integration Simulation
+
+### 4. Sweep Frequency Analysis
+
+### 5. Run Python- and Numba-based Realtime Numerical Integration Simulation
+
+### 6. FEA based Machine Design and Multi-Objective Optimization (develop)
+
+### 7. PC User GUI for Serial Communication to DSP (develop)
+
+
+## [B]. Installation and Requirements
+
+The package can be installed via pip.
+```shell
+pip install emachinery
+```
+To make it work, one needs to take care of the dependencies, which will be detailed below.
+
+The package requires the following free softwares to work as expected:
+- gcc (comes with [Minimalist GNU for Windows](https://sourceforge.net/projects/mingw/)---See this [awesome page](https://www3.ntu.edu.sg/home/ehchua/programming/howto/Cygwin_HowTo.html) for info)
+- gmake.exe (I use the one from [TI's CCS](https://www.ti.com/tool/download/CCSTUDIO), it is located at somewhere like: `D:\ti\ccs930\ccs\utils\bin\gmake.exe`. Anyway, I decided to just copy-paste gmake.exe to `/emachinery/acmsimc/c/gmake.exe`. So no need to install CCS anymore.)
+  - It also works with CMake with some minor modification.
+- **pip install**
+  - [control](https://pypi.org/project/control/)
+  - [PySide2](https://pypi.org/project/PySide2/)
+  - [qtconsole](https://github.com/jupyter/qtconsole)
+  - numpy, matplotlib, rich, and numba.
+- [Optional, to view .ui file] [Qt Designer](https://build-system.fman.io/qt-designer-download)
+
+A list of python dependency is as follows (tested with Python 3.9.5):
+```c++
+  backcall==0.2.0
+  colorama==0.4.4
+  commonmark==0.9.1
+  control==0.9.0
+  cycler==0.10.0
+  decorator==5.0.9
+  ipykernel==5.5.5
+  ipython==7.24.1
+  ipython-genutils==0.2.0
+  jedi==0.18.0
+  jupyter-client==6.1.12
+  jupyter-core==4.7.1
+  kiwisolver==1.3.1
+  llvmlite==0.36.0
+  matplotlib==3.4.2
+  matplotlib-inline==0.1.2
+  numba==0.53.1
+  numpy==1.20.3
+  pandas==1.2.4
+  parso==0.8.2
+  pickleshare==0.7.5
+  Pillow==8.2.0
+  prompt-toolkit==3.0.18
+  pycairo==1.20.1
+  Pygments==2.9.0
+  pyparsing==2.4.7
+  PySide2==5.15.2
+  python-dateutil==2.8.1
+  pytz==2021.1
+  pywin32==301
+  pyzmq==22.1.0
+  qtconsole==5.1.0
+  QtPy==1.9.0
+  rich==10.2.2
+  scipy==1.6.3
+  shiboken2==5.15.2
+  six==1.16.0
+  tornado==6.1
+  traitlets==5.0.5
+  typing-extensions==3.10.0.0
+  wcwidth==0.2.5
+```
+Save the above list as a file named, e.g., `req.txt`.
+
+I recommend to use virtual env, e.g., on Windows prompt:
+```shell
+pip install virtualenv
+virtualenv .my_venv
+cd .my_venv/Scripts && activate
+pip install -r req.txt
+pip install --upgrade emachinery
+emy
+```
+Command `emy` is an entry point for starting the main program of this package, which is equivalent to `python guiv2/main.py`
+
+## [C]. Simulation Tips
+
+1. Field oriented control is an asymptotic input-output linearizing (IOL) control. This means the IOL is achieved only when flux modulus is regulated to its reference. So before motor starts, we must wait for the motor to build up its magnetic air gap field or else the starting transient would be disturbed. Refer to the figure below.![1](https://github.com/horychen/emachinery/blob/main/gallery/readme-pic-flux-to-build.png?raw=true)
+2. The inductance of the motor matters. For a small "DC" servo PM motor, the inductance is relatively designed to be low because the DC source is usually only 24 V or 48 V. However, an induction motor usually has higher inductance, which limits the bandwidth of the current loop, I think. For example, this is what happens to d-axis current regulation when I set desired velocity loop bandwidth from 50 Hz up to 100 Hz. Refer to the figure below.![2](https://github.com/horychen/emachinery/blob/main/gallery/readme-pic-comparison-d-axis-current-regulation-per-inductance.png?raw=true)
+
+
+
+## [D]. Known Issues
+
+### GNU Make failed to create process
+After adding installing CCS and MinGW, you might need to restart the PC.
+
+```
+gcc -o main pmsm_comm.c im_controller.c ... -I. -L.
+process_begin: CreateProcess(NULL, gcc -o main pmsm_comm.c im_controller.c... -I. -L., ...) failed.
+make (e=2): The system cannot find the file specified.
+makefile:11: recipe for target 'main' failed
+gmake: *** [main] Error 2
+```
+
+See this [question](https://stackoverflow.com/questions/3848357/createprocess-no-such-file-or-directory)
+
+### Anaconda3 Python Version
+Anaconda3 (Python 3.8) comes with qtconsole now, but it will cause [problems](https://github.com/jupyter/qtconsole/issues/400). My code was developed with Anaconda3 (Python 3.7). 
+
+One silly fix is to revert back to Python 3.7 for now: 
+
+```conda install python=3.7 anaconda=custom```
+
+However, it seems upgrade jupyterlab would fix this issue:
+
+```pip install --upgrade jupyterlab```
+
+### Jupyterlab/Qtconsole Version
+After I upgrade my jupyterlab to version 3, qtconsole (version 4.6.0) starts to not work well. Below is some error message.
+```
+Traceback (most recent call last):
+  File "D:\DrH\Codes\emachineryTestPYPI\emachinery\gui\main.py", line 947, in <module>
+    main()
+  ...
+  ...
+  ...
+  File "D:\DrH\Codes\emachineryTestPYPI\emachinery\gui\consolewidget.py", line 31, in __init__
+    self.kernel_client = kernel_client = self._kernel_manager.client()
+  File "D:\Users\horyc\Anaconda3\lib\site-packages\qtconsole\base_frontend_mixin.py", line 63, in kernel_client
+    if kernel_client.channels_running:
+  File "D:\Users\horyc\Anaconda3\lib\site-packages\jupyter_client\client.py", line 141, in channels_running
+    self.control_channel.is_alive())
+  File "D:\Users\horyc\Anaconda3\lib\site-packages\jupyter_client\client.py", line 200, in control_channel
+    socket, self.session, self.ioloop
+TypeError: ChannelABC() takes no arguments
+```
+I found a related discussion here: https://github.com/jupyter/jupyter_client/issues/523
+Reading the webpage, I fix this problem by first uninstalling ipykernel and install it back to a higher version.
+```
+pip uninstall ipykernel
+Found existing installation: ipykernel 5.1.4
+Uninstalling ipykernel-5.1.4:
+
+pip install ipykernel
+Collecting ipykernel
+  Downloading ipykernel-5.4.2-py3-none-any.whl (119 kB)
+```
+
+## [E] Other Information
+
+_This package is published to PYPI following https://www.youtube.com/watch?v=Qs91v2Tofys_
+
+----
+

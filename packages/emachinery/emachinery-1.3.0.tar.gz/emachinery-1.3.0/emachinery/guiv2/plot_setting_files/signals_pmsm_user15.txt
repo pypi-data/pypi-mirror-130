@@ -1,0 +1,6 @@
+ENC.theta_d_elec, AFE_USED.theta_d, esoaf.x[0]
+sin(ENC.theta_d_elec - esoaf.x[0])
+CTRL.I->rpm, esoaf.x[1]*ELEC_RAD_PER_SEC_2_RPM
+esoaf.xTem, esoaf.x[2]
+esoaf.x[3]
+esoaf.output_error, esoaf.output_error_sine

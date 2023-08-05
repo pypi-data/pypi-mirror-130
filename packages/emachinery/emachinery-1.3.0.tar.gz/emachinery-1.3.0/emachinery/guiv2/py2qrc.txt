@@ -1,0 +1,5 @@
+:: https://www.youtube.com/watch?v=0x4eVUMbkWA
+::Comando para converter .QRC para .PY:
+::pyrcc5 -o ARQUIVO_PYTHON.py ARQUIVOS.qrc
+
+pyrcc5 -o files_rc.py files.qrc

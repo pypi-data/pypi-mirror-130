@@ -1,0 +1,9 @@
+ACM.rpm_cmd, ACM.rpm, cjheemf.xOmg*ELEC_RAD_PER_SEC_2_RPM
+ACM.x[3]/M_PI*180, cjheemf.theta_d/M_PI*180
+CTRL.I->iab[0], cjheemf.xPsi[0]/CTRL.motor->Ld
+cjheemf.effective_output_error[0], cjheemf.effective_output_error[1]
+cjheemf.xUpsilon[0], cjheemf.xUpsilon[1]
+cjheemf.xEemf[0], cjheemf.xEemf[1]
+(cjheemf.xUpsilon[0]*cjheemf.effective_output_error[0] + cjheemf.xUpsilon[1]*cjheemf.effective_output_error[1])
+(cjheemf.xUpsilon[0]*-cjheemf.effective_output_error[1] + cjheemf.xUpsilon[1]*cjheemf.effective_output_error[0])
+cjheemf.xUpsilon[0]*cjheemf.xUpsilon[0] + cjheemf.xUpsilon[1]*cjheemf.xUpsilon[1]

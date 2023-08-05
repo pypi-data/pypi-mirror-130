@@ -1,0 +1,11 @@
+Load Torque [Nm]
+Speed [rpm]
+Offset [V]
+Flux Alpha Error [Wb]
+Flux Alpha [Wb]
+average
+Delta_t
+saturation time
+extra_limit
+Flux Modulus [Wb]
+Flux Ctrl Error [Wb]

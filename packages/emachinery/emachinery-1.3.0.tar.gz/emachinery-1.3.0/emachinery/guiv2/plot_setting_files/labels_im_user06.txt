@@ -1,0 +1,16 @@
+Speed [rpm]
+psi_2[0]
+psi_2[1]
+al
+be
+top, butt
+filtered-psi-compensation
+u_offset(exact)
+u_offset(exact)2
+REAL Out[0]
+REAL Out[1]
+iD*cosT
+iQ*cosT
+FME
+FME Error
+FME Error Accu

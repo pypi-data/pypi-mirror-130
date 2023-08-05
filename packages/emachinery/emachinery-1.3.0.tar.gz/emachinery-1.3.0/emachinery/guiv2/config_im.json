@@ -1,0 +1,31 @@
+{
+    "MachineNameIndex": 0,
+    "CLTS": "1/20e3",
+    "VLTS": "4/20e3",
+    "EndTime": "16",
+    "LoadInertiaPercentage": "16",
+    "LoadTorque": "5",
+    "ViscousCoefficient": "0.7e-2",
+    "FluxCmdDetails": "(100,0, 10)",
+    "OutputDataFileName": "IM_Marino05_IFE_Comparison",
+    "im-PlotSettingSelect": "10",
+    "im-PlotSettingNameDict": {
+        "07": "Discover PI correction by cmd_psi works",
+        "09": "Holtz-2003-Debug",
+        "00": "Classic Marino05",
+        "08": "VM Flux Estimator Comparison",
+        "ug": "Holtz-2003-Debug",
+        "10": "Flux Estimator Simulation Report",
+        "12": "IFE02. Holtz (2002)"
+    },
+    "PANames": "(\"IFE\",)",
+    "PAValues": "[(\"htz\",), \n(\"ohtani\",),\n(\"picorr\",),\n(\"lascu\",),\n(\"clest\",)]",
+    "MachineTypeIndex": 0,
+    "ControlStrategy": "MARINO_2005_ADAPTIVE_SENSORLESS_CONTROL",
+    "uncertainty": {
+        "rs": "100",
+        "rreq": "100",
+        "Lmu": "100",
+        "Lsigma": "100"
+    }
+}

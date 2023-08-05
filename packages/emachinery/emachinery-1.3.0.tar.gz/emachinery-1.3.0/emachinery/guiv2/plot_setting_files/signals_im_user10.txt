@@ -1,0 +1,7 @@
+ACM.TLoad, marino.xTL
+marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm, ACM.rpm_cmd
+watch.offset[0], watch.offset_compensation[0], watch.offset[1], watch.offset_compensation[1]
+ACM.psi_Amu - watch.psi_2[0]
+ACM.psi_Amu, watch.psi_2[0]
+marino.e_psi_Dmu, marino.e_psi_Qmu
+ACM.rpm - marino.xOmg*ELEC_RAD_PER_SEC_2_RPM

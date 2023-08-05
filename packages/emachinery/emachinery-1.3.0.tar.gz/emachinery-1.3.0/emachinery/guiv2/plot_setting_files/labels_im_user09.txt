@@ -1,0 +1,15 @@
+Speed [rpm]
+Flux Modulus [Wb]
+Flux Ctrl Error [Wb]
+Load Torque [Nm]
+Rotor Current [A]
+Beta for Lissajous
+EMF Compensate [0] [V]
+EMF Compensate [1] [V]
+Holtz 2003 [Wb]
+Error [Wb]
+ampl [Wb]
+average
+Delta_t
+saturation time
+extra_limit

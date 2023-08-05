@@ -1,0 +1,25 @@
+Speed [rpm]
+psi_2[0]
+psi_2[1]
+REAL Out[0]
+REAL Out[1]
+harnefors [0]
+harnefors [1]
+1
+2
+iD*cosT
+iQ*cosT
+FME
+FME Error
+FME Error Accu
+v2[0]
+v2[1]
+CM
+e
+e2
+e3
+emf
+emf_DQ
+flux ctrl error
+integral term
+PI input error

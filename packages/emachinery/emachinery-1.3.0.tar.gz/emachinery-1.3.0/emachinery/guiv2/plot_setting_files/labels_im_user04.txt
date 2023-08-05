@@ -1,0 +1,13 @@
+Speed [rpm]
+Ohtani psi_2[0]
+Ohtani psi_2[0] ABS
+Ohtani psi_2 Error ABS
+maxmin_diff
+offset_voltage
+Delta_t
+Period
+Time
+Lissajous
+ZERO
+u_offset by sumup
+u_offset by top-change

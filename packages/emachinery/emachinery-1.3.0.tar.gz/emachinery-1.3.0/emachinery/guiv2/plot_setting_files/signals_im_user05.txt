@@ -1,0 +1,15 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+ACM.psi_Amu, ohtani.psi_2[0], (float)ohtani.flag_top2top[0], (float)ohtani.flag_butt2butt[0]
+fabs(ACM.psi_Amu), fabs(ohtani.psi_2[0])
+fabs(ACM.psi_Amu - ohtani.psi_2[0]), fabs(ACM.psi_Bmu - ohtani.psi_2[1]), 
+ohtani.u_offset_estimated_by_psi_2_top_change[0], ohtani.u_offset_estimated_by_psi_2_top_change[1]
+ohtani.u_offset_estimated_by_psi_2_butt_change[0], ohtani.u_offset_estimated_by_psi_2_butt_change[1]
+ohtani.psi_2_last_top[0],ohtani.psi_2_last_top[1], ohtani.psi_2_last_butt[0],ohtani.psi_2_last_butt[1]
+0.5*(ohtani.psi_2_last_top[0]+ohtani.psi_2_last_butt[0])
+ohtani.top2top_count[0],ohtani.top2top_count[1]
+(ohtani.u_offset_estimated_by_psi_2_top_change[0] + ohtani.u_offset_estimated_by_psi_2_butt_change[0] )/2, ohtani.u_offset[0]
+(ohtani.u_offset_estimated_by_psi_2_top_change[1] + ohtani.u_offset_estimated_by_psi_2_butt_change[1] )/2, ohtani.u_offset[1]
+ohtani.offset_voltage_compensation[0], ohtani.offset_voltage_compensation[1]
+ACM.psi_Amu - (ohtani.psi_2[0] - 0.5*(ohtani.psi_2_last_top[0]+ohtani.psi_2_last_butt[0]))
+ACM.psi_Bmu, (ohtani.psi_2[1] - 0.5*(ohtani.psi_2_last_top[1]+ohtani.psi_2_last_butt[1]))
+ohtani.filtered_compensation[0], 0.5*(ohtani.psi_2_last_top[0]+ohtani.psi_2_last_butt[0])
