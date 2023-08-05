@@ -1,0 +1,6 @@
+numpy
+
+[dev]
+Cython
+pytest
+build
