@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/apollo/__init__.py
+src/apollo/apollo.py
+src/apollo/arguments.py
+src/apollo/diff_checker.py
+src/apollo/epsilon_checker.py
+src/apollo/token_checker.py
+src/apollo/verdict.py
+src/apollo_tylerhm.egg-info/PKG-INFO
+src/apollo_tylerhm.egg-info/SOURCES.txt
+src/apollo_tylerhm.egg-info/dependency_links.txt
+src/apollo_tylerhm.egg-info/entry_points.txt
+src/apollo_tylerhm.egg-info/top_level.txt
