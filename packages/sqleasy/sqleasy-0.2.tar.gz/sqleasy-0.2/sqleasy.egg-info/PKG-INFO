@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: sqleasy
+Version: 0.2
+Summary: A simple SQL system for beginners
+Home-page: UNKNOWN
+Author: sk4yx
+Author-email: skayz.oficial3@gmail.com
+License: UNKNOWN
+Keywords: python,sqlite,database,sql3,mysql,sqleasy
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+UNKNOWN
+
