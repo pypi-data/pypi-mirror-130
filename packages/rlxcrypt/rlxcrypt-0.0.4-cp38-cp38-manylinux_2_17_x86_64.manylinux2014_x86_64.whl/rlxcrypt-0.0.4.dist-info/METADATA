@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: rlxcrypt
+Version: 0.0.4
+Summary: seamlessly encrypt, distribute and load python modules
+Home-page: https://github.com/rramosp/rlxcrypt/
+Author: rramosp
+Author-email: rramosp@unal.edu.co
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: imphook
+Requires-Dist: cython
+Requires-Dist: pycryptodome
+Requires-Dist: cryptography
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+
+rlxcrypt
+========
+
+
+seamlessly encrypt, distribute and load python modules
+
+## Usage
+
+you have a `.py` file that you want to distribute such as
+    
+     |
+     +- mymodule.py
+     +- main.py
+
+and in `main.py` you use it:
+
+    # main.py
+    import mymodule as m  
+    m.some_func()
+
+to distribute `module.py` encrypted (in a shell):
+
+    > rlxcrypt encrypt mymodule.py
+    > mv mymodule.py some_private_folder
+
+so you have
+
+    |
+    +- mymodule.pye
+    +- main.py
+
+and then in `main.py`
+
+    # main.py
+    import rlxcrypt
+    import mymodule as m  
+    m.some_func()
+
+
+## Notes
+
+- `rlxcrypt` uses RSA encryption as part of the import hooks to detect encrypted files and decrypts them on the fly during the import process.
+- `rlxcrypt` is distributed only as a binary for your architecture, which contains all mechanics to encrypt and decrypt.
+- `rlxcrypt` sources are obfuscated in several custom steps (no public obfuscation library is used) and then compiled into binary code.
+- it is not 100% bullet proof, it just makes it very hard to crack as it would require to reverse engineer the binary file AND the obfuscation logic.
+
+
