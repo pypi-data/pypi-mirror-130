@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/NIB_utils/NIB_utils.py
+src/NIB_utils/__init__.py
+src/example_pkg_nib_utils.egg-info/PKG-INFO
+src/example_pkg_nib_utils.egg-info/SOURCES.txt
+src/example_pkg_nib_utils.egg-info/dependency_links.txt
+src/example_pkg_nib_utils.egg-info/top_level.txt
