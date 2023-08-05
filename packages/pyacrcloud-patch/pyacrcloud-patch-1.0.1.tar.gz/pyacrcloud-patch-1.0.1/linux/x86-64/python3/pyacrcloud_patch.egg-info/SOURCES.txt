@@ -1,0 +1,10 @@
+README.md
+setup.py
+./linux/x86-64/python3/acrcloud/__init__.py
+./linux/x86-64/python3/acrcloud/acrcloud_extr_tool.so
+./linux/x86-64/python3/acrcloud/recognizer.py
+./linux/x86-64/python3/pyacrcloud_patch.egg-info/PKG-INFO
+./linux/x86-64/python3/pyacrcloud_patch.egg-info/SOURCES.txt
+./linux/x86-64/python3/pyacrcloud_patch.egg-info/dependency_links.txt
+./linux/x86-64/python3/pyacrcloud_patch.egg-info/not-zip-safe
+./linux/x86-64/python3/pyacrcloud_patch.egg-info/top_level.txt
