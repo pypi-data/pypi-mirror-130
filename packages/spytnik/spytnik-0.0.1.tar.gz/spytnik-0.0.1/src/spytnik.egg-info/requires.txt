@@ -1,0 +1,8 @@
+folium
+matplotlib
+numpy
+pyqt5==5.14.0
+pyqt-darktheme==1.2.4
+pyqtwebengine==5.14.0
+pyqtgraph==0.12.2
+skyfield==1.36
