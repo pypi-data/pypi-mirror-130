@@ -1,0 +1,13 @@
+phip/__init__.py,sha256=IZIZxoaUbfz7R0tnQSJtGlb4mowisCiIO5eMpaJY5vs,576
+phip/cli.py,sha256=E7A8AL0B1ftYbnnmtpSJlMUU_vQhq7TzxmR8kVWPZ2E,33134
+phip/clipped_factorization.py,sha256=DJqMT__IIFZDt16fmpiYOoyJN1301V5y73OiUQxP3aU,6954
+phip/gampois.py,sha256=g3C--tWB12Ho6fWlJTCeuSEUaNeE9aJXySSxMDLtF08,3790
+phip/genpois.py,sha256=JeHID2-i1i3OG8BV3JjMYfwJfGs6b1H34o-cJnC_FAM,4536
+phip/hit_calling.py,sha256=t-tjHKcBzLwJaXWz89gciwFB9KLL4K9iNDI7eGkrgCQ,12471
+phip/utils.py,sha256=hVomiDT-g_2ay2033tIMNj3dYUnd0TwIR7MU3pBBBcs,5147
+phip_stat-0.5.1.dist-info/LICENSE.txt,sha256=Yk9xGe4GxGQnDteSVp25rUtqVubDi5fFOJAkHz5PTPk,11342
+phip_stat-0.5.1.dist-info/METADATA,sha256=Tu0an02ktAHBmLfgwjv0gVhMW5lvswxH3rFxLvJARPc,6322
+phip_stat-0.5.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+phip_stat-0.5.1.dist-info/entry_points.txt,sha256=f3LXN7-Dv1rLh5GgaVRxQK5OLUvcqfaBsFDh1x7XX2k,39
+phip_stat-0.5.1.dist-info/top_level.txt,sha256=WODLpmKUYUR8u6MijwpLzmLC9Z05z6gadcNC_00_h_E,5
+phip_stat-0.5.1.dist-info/RECORD,,
