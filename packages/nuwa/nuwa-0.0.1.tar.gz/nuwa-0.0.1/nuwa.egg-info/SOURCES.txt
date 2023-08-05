@@ -1,0 +1,6 @@
+setup.py
+nuwa.egg-info/PKG-INFO
+nuwa.egg-info/SOURCES.txt
+nuwa.egg-info/dependency_links.txt
+nuwa.egg-info/not-zip-safe
+nuwa.egg-info/top_level.txt
