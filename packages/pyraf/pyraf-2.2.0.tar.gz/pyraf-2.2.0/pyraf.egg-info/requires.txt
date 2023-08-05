@@ -1,0 +1,11 @@
+numpy
+stsci.tools>=4.0.1
+
+[docs]
+astropy-sphinx-theme
+numpydoc
+sphinx
+
+[test]
+astropy
+pytest
