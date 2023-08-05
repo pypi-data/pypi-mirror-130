@@ -1,0 +1,16 @@
+dojahcore/__init__.py,sha256=-41St-uvT61NIsOy6wSSdW1EMxXYKQdr-UvM_Q33zoc,388
+dojahcore/_app.py,sha256=ifYQtSlTObHy7vJNOxfD93oYYGgJptFFKAC_RctFDA4,621
+dojahcore/core.py,sha256=a2itTlUgm1lhIoCas5W6pH6MBHlbtTg_PRyMN7TrzUs,2483
+dojahcore/dojah.py,sha256=Vs1F7D2frdgnxUlmgO07zgchD7QPkY6s3LE9GMbRSuc,843
+dojahcore/financial.py,sha256=UhaQhYK-LF_bwRyf0H16haZXmwAVEJ0z_Y0tpWWvuy4,10128
+dojahcore/general.py,sha256=6VKMbfMquRaeM4I-uCa69uXRyfRM6X3SOLBjNMLb82g,3007
+dojahcore/identification.py,sha256=uiHCR31amJovgcDKvXVwniB3AxvNksM4dT13snPUPng,6575
+dojahcore/messaging.py,sha256=Drhec50IWCibU_9zLLdhUFt6GrLJtkVSU14dcL6alcg,4950
+dojahcore/server_error.py,sha256=3KdFUSK5RqWrhjC-vsfy46Ng2k-3momJ58tKBU9HCIc,103
+dojahcore/verification.py,sha256=sWAS22x87O-xTeHkeAaMxz2cPpEw55fQzfW9N955TbQ,4011
+dojahcore/wallet.py,sha256=xXcJj8sHEweY-pmcj0bsltPybZNXKN25XbPgs3TMlJQ,3693
+dojahcore-0.0.5.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dojahcore-0.0.5.dist-info/METADATA,sha256=US0obmTiBdMxPc4nLPwnyF9_bnlddF4Y0jFV1-8tbvo,782
+dojahcore-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dojahcore-0.0.5.dist-info/top_level.txt,sha256=f8cYbmKSZdXmsLvW_pz_Mgl3GbYVwY7CDb7_2gqTOB8,10
+dojahcore-0.0.5.dist-info/RECORD,,
