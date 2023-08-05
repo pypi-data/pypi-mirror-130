@@ -1,0 +1,13 @@
+scikit-learn
+matplotlib
+pymorphy2
+lightgbm
+xgboost
+typing
+gensim
+optuna
+numpy
+shap
+TPOT
+tqdm
+nltk
