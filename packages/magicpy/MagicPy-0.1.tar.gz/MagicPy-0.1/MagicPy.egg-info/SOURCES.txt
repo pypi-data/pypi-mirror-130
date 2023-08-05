@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+MagicPy.egg-info/PKG-INFO
+MagicPy.egg-info/SOURCES.txt
+MagicPy.egg-info/dependency_links.txt
+MagicPy.egg-info/requires.txt
+MagicPy.egg-info/top_level.txt
+magicpy/__init__.py
+magicpy/magicpy.py
+magicpy/utils.py
