@@ -1,0 +1,10 @@
+ACM.rpm_cmd, CTRL.I->rpm, qiaoxia.xOmg*ELEC_RAD_PER_SEC_2_RPM
+CTRL.I->theta_d_elec, qiaoxia.theta_d
+sin(CTRL.I->theta_d_elec - qiaoxia.theta_d)
+CTRL.I->iab[0], qiaoxia.xIab[0]
+CTRL.I->iab[0] - qiaoxia.xIab[0], CTRL.I->iab[1] - qiaoxia.xIab[1]
+IN.omg_elec*MOTOR.KE*sin(IN.theta_d_elec), qiaoxia.xEmf[0]
+qiaoxia.xEmf_raw[0], qiaoxia.xEmf_raw[1]
+(qiaoxia.xEmf_raw[0] - qiaoxia.xEmf[0])*qiaoxia.xEmf[1], (qiaoxia.xEmf_raw[1] - qiaoxia.xEmf[1])*qiaoxia.xEmf[0]
+(qiaoxia.xEmf_raw[0] - qiaoxia.xEmf[0])*-qiaoxia.xEmf[1] + (qiaoxia.xEmf_raw[1] - qiaoxia.xEmf[1])*qiaoxia.xEmf[0]
+

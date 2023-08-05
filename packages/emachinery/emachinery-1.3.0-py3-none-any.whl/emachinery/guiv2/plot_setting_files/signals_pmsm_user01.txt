@@ -1,0 +1,13 @@
+ACM.rpm_cmd, CTRL.I->rpm, nsoaf.xOmg*ELEC_RAD_PER_SEC_2_RPM
+ACM.x[3]/M_PI*180, AFE_USED.theta_d/M_PI*180, ACM.theta_d_activeFlux/M_PI*180, ENC.theta_d_elec/M_PI*180
+AFE_USED.psi_2[0], AFE_USED.psi_2[1]
+CTRL.I->idq[1], nsoaf.xIq
+nsoaf.active_power_real, nsoaf.active_power_est
+nsoaf.active_power_error, nsoaf.output_error
+ACM.TLoad, nsoaf.xTL, nsoaf.LoadTorquePI
+AFE_USED.u_offset[0], AFE_USED.u_offset[1]
+ACM.ube, CTRL.O->uab_cmd[1], CTRL.O->uab_cmd_to_inverter[1], CTRL.O->uab_cmd_to_inverter[1]-CTRL.O->uab_cmd[1]
+CTRL.O->uab_cmd_to_inverter[0]-CTRL.O->uab_cmd[0], CTRL.O->uab_cmd_to_inverter[1]-CTRL.O->uab_cmd[1]
+(REAL)ENC.encoder_incremental_cnt
+(REAL)ENC.encoder_abs_cnt
+INV.theta_trapezoidal/M_PI*180

@@ -1,0 +1,9 @@
+Speed [rpm]
+Flux Modulus [Wb]
+Flux Ctrl Error [Wb]
+Load Torque [Nm]
+Rotor Current [A]
+EMF Integral Term [V]
+Flux Error [Wb]
+clest ampl [Wb]
+Beta for Lissajous

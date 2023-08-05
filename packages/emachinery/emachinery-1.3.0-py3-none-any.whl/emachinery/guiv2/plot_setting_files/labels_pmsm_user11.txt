@@ -1,0 +1,12 @@
+Speed [rpm]
+Position [rad]
+Position Error [rad]
+V_plateau [V]
+I_plateau [V]
+Harmonics in current [A]
+LPF(Harmonics) [A]
+iDQ at A
+uDQ at A
+AFEOE.output_error
+AFEOE ampl error
+Flux Ampl

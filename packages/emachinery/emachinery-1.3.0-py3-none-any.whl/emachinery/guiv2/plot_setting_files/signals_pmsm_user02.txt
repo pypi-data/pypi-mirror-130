@@ -1,0 +1,10 @@
+CTRL.I->cmd_speed_rpm, CTRL.I->omg_elec*ELEC_RAD_PER_SEC_2_RPM, qep.omg_elec*ELEC_RAD_PER_SEC_2_RPM
+ACM.theta_d, qep.theta_d
+(double)qep.RoundedPosInCnt, (double)qep.RoundedPosInCnt_Previous
+CTRL.I->iab[0], CTRL.I->iab[1]
+CTRL.I->idq[0], CTRL.I->idq[1]
+pid1_spd.Ref - pid1_spd.Fbk
+(double)qep.number_of_revolution
+(double)qep.difference_in_cnt
+0*(double)(qep.ActualPosInCnt-qep.ActualPosInCnt_Previous), 0*(double)(qep.RoundedPosInCnt-qep.RoundedPosInCnt_Previous)
+qep.QPOSLAT/(2*M_PI*1e-4), ACM.theta_d_accum_increment/(2*M_PI*1e-4)

@@ -1,0 +1,8 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+ACM.psi_Amu, holtz.psi_D2_ode1*CTRL.S->cosT - holtz.psi_Q2_ode1*CTRL.S->sinT
+(float)htz.flag_limit_too_low
+htz.psi_2_nonSat[0],  htz.psi_2_min[0], htz.psi_2_max[0]
+ACM.psi_Dmu, ohtani.psi_DQ2[0]
+ACM.psi_Qmu, ohtani.psi_DQ2[1]
+ACM.psi_Amu, ohtani.psi_2[0]
+ACM.psi_Bmu, ohtani.psi_2[1]

@@ -1,0 +1,10 @@
+ACM.rpm_cmd, CTRL.I->rpm
+CTRL.I->theta_d_elec, huwu.theta_d
+sin(CTRL.I->theta_d_elec-huwu.theta_d)
+huwu.x[0]
+huwu.x[1]
+huwu.x[2]
+huwu.inner_product_normalized
+CTRL.I->idq_cmd[0], CTRL.I->idq[0]
+CTRL.I->idq_cmd[1], CTRL.I->idq[1]
+huwu.stator_flux_ampl_limited, huwu.active_flux_ampl_limited
