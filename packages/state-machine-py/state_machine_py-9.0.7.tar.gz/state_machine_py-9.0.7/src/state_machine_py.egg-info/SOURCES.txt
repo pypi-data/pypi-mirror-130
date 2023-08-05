@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/state_machine_py/__init__.py
+src/state_machine_py/abstract_state.py
+src/state_machine_py/intermachine.py
+src/state_machine_py/multiple_state_machine.py
+src/state_machine_py/request.py
+src/state_machine_py/state_machine.py
+src/state_machine_py.egg-info/PKG-INFO
+src/state_machine_py.egg-info/SOURCES.txt
+src/state_machine_py.egg-info/dependency_links.txt
+src/state_machine_py.egg-info/top_level.txt
