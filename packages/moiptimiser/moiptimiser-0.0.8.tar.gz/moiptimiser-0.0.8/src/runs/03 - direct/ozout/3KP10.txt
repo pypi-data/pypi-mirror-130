@@ -1,0 +1,13 @@
+(361, 316, 410)
+(404, 255, 369)
+(408, 270, 364)
+(423, 292, 358)
+(427, 307, 353)
+(474, 336, 344)
+: 1 rows, 10 columns, 10 nonzeros
+Academic license - for non-commercial use only - expires 2022-01-15
+Non-dominated vectors found: 6
+Read LP format model from file ../tests/examples/3KP10.lp
+Reading time = 0.00 seconds
+Set parameter Username
+Solver calls: 13

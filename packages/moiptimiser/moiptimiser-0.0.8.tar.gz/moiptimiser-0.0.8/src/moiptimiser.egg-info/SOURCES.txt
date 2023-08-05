@@ -1,0 +1,231 @@
+.bumpversion.cfg
+.cookiecutterrc
+.coveragerc
+.editorconfig
+.pre-commit-config.yaml
+.readthedocs.yml
+AUTHORS.rst
+CHANGELOG.rst
+CONTRIBUTING.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+tox.ini
+ci/bootstrap.py
+ci/requirements.txt
+docs/authors.rst
+docs/changelog.rst
+docs/conf.py
+docs/contributing.rst
+docs/index.rst
+docs/installation.rst
+docs/readme.rst
+docs/requirements.txt
+docs/spelling_wordlist.txt
+docs/usage.rst
+docs/reference/index.rst
+docs/reference/moiptimiser.rst
+src/.DS_Store
+src/playground.py
+src/runall.sh
+src/moiptimiser/__init__.py
+src/moiptimiser/__main__.py
+src/moiptimiser/base.py
+src/moiptimiser/cli.py
+src/moiptimiser/impl.py
+src/moiptimiser/ozlen_2014_moiptimiser.py
+src/moiptimiser/tamby_2020_direct_moiptimiser.py
+src/moiptimiser/tamby_2020_moiptimiser.py
+src/moiptimiser/tamby_2020_two_stage_moiptimiser.py
+src/moiptimiser/utilities.py
+src/moiptimiser.egg-info/PKG-INFO
+src/moiptimiser.egg-info/SOURCES.txt
+src/moiptimiser.egg-info/dependency_links.txt
+src/moiptimiser.egg-info/entry_points.txt
+src/moiptimiser.egg-info/not-zip-safe
+src/moiptimiser.egg-info/requires.txt
+src/moiptimiser.egg-info/top_level.txt
+src/runs/.DS_Store
+src/runs/01/ozout/2AP05.txt
+src/runs/01/ozout/2KP50.txt
+src/runs/01/ozout/3AP-10-1.txt
+src/runs/01/ozout/3AP-10-2.txt
+src/runs/01/ozout/3AP-10-3.txt
+src/runs/01/ozout/3AP-10-4.txt
+src/runs/01/ozout/3AP-10-5.txt
+src/runs/01/ozout/3AP-15-1.txt
+src/runs/01/ozout/3AP-15-2.txt
+src/runs/01/ozout/3AP05.txt
+src/runs/01/ozout/3KP10.txt
+src/runs/01/ozout/4AP05.txt
+src/runs/01/ozout/4KP10.txt
+src/runs/01/ozout/ozlen_2014_paper.as.max.txt
+src/runs/01/ozout/ozlen_2014_paper.txt
+src/runs/01/ozout/tamby_vanderpooten_2020.txt
+src/runs/01/ozout/times.txt
+src/runs/01/tbout/2AP05.txt
+src/runs/01/tbout/2KP50.txt
+src/runs/01/tbout/3AP-10-1.txt
+src/runs/01/tbout/3AP-10-2.txt
+src/runs/01/tbout/3AP-10-3.txt
+src/runs/01/tbout/3AP-10-4.txt
+src/runs/01/tbout/3AP-10-5.txt
+src/runs/01/tbout/3AP-15-1.txt
+src/runs/01/tbout/3AP-15-2.txt
+src/runs/01/tbout/3AP05.txt
+src/runs/01/tbout/3KP10.txt
+src/runs/01/tbout/4AP05.txt
+src/runs/01/tbout/4KP10.txt
+src/runs/01/tbout/ozlen_2014_paper.as.max.txt
+src/runs/01/tbout/ozlen_2014_paper.txt
+src/runs/01/tbout/tamby_vanderpooten_2020.txt
+src/runs/01/tbout/times.txt
+src/runs/02 - two stage/.DS_Store
+src/runs/02 - two stage/ozout/2AP05.txt
+src/runs/02 - two stage/ozout/2KP50.txt
+src/runs/02 - two stage/ozout/3AP-10-1.txt
+src/runs/02 - two stage/ozout/3AP-10-2.txt
+src/runs/02 - two stage/ozout/3AP-10-3.txt
+src/runs/02 - two stage/ozout/3AP-10-4.txt
+src/runs/02 - two stage/ozout/3AP-10-5.txt
+src/runs/02 - two stage/ozout/3AP-15-1.txt
+src/runs/02 - two stage/ozout/3AP-15-2.txt
+src/runs/02 - two stage/ozout/3AP-15-3.txt
+src/runs/02 - two stage/ozout/3AP-15-4.txt
+src/runs/02 - two stage/ozout/3AP-15-5.txt
+src/runs/02 - two stage/ozout/3AP-20-1.txt
+src/runs/02 - two stage/ozout/3AP-20-2.txt
+src/runs/02 - two stage/ozout/3AP-20-3.txt
+src/runs/02 - two stage/ozout/3AP-20-4.txt
+src/runs/02 - two stage/ozout/3AP-20-5.txt
+src/runs/02 - two stage/ozout/3AP05.txt
+src/runs/02 - two stage/ozout/3KP10.txt
+src/runs/02 - two stage/ozout/4AP05.txt
+src/runs/02 - two stage/ozout/4KP10.txt
+src/runs/02 - two stage/ozout/ozlen_2014_paper.as.max.txt
+src/runs/02 - two stage/ozout/ozlen_2014_paper.txt
+src/runs/02 - two stage/ozout/tamby_vanderpooten_2020.txt
+src/runs/02 - two stage/ozout/times.txt
+src/runs/02 - two stage/tbout/2AP05.txt
+src/runs/02 - two stage/tbout/2KP50.txt
+src/runs/02 - two stage/tbout/3AP-10-1.txt
+src/runs/02 - two stage/tbout/3AP-10-2.txt
+src/runs/02 - two stage/tbout/3AP-10-3.txt
+src/runs/02 - two stage/tbout/3AP-10-4.txt
+src/runs/02 - two stage/tbout/3AP-10-5.txt
+src/runs/02 - two stage/tbout/3AP-15-1.txt
+src/runs/02 - two stage/tbout/3AP-15-2.txt
+src/runs/02 - two stage/tbout/3AP-15-3.txt
+src/runs/02 - two stage/tbout/3AP-15-4.txt
+src/runs/02 - two stage/tbout/3AP-15-5.txt
+src/runs/02 - two stage/tbout/3AP-20-1.txt
+src/runs/02 - two stage/tbout/3AP-20-2.txt
+src/runs/02 - two stage/tbout/3AP-20-3.txt
+src/runs/02 - two stage/tbout/3AP-20-4.txt
+src/runs/02 - two stage/tbout/3AP-20-5.txt
+src/runs/02 - two stage/tbout/3AP05.txt
+src/runs/02 - two stage/tbout/3KP10.txt
+src/runs/02 - two stage/tbout/4AP05.txt
+src/runs/02 - two stage/tbout/4KP10.txt
+src/runs/02 - two stage/tbout/ozlen_2014_paper.as.max.txt
+src/runs/02 - two stage/tbout/ozlen_2014_paper.txt
+src/runs/02 - two stage/tbout/tamby_vanderpooten_2020.txt
+src/runs/02 - two stage/tbout/times.txt
+src/runs/03 - direct/ozout/2AP05.txt
+src/runs/03 - direct/ozout/2KP50.txt
+src/runs/03 - direct/ozout/3AP-10-1.txt
+src/runs/03 - direct/ozout/3AP-10-2.txt
+src/runs/03 - direct/ozout/3AP-10-3.txt
+src/runs/03 - direct/ozout/3AP-10-4.txt
+src/runs/03 - direct/ozout/3AP-10-5.txt
+src/runs/03 - direct/ozout/3AP-15-1.txt
+src/runs/03 - direct/ozout/3AP-15-2.txt
+src/runs/03 - direct/ozout/3AP-15-3.txt
+src/runs/03 - direct/ozout/3AP-15-4.txt
+src/runs/03 - direct/ozout/3AP-15-5.txt
+src/runs/03 - direct/ozout/3AP-20-1.txt
+src/runs/03 - direct/ozout/3AP-20-2.txt
+src/runs/03 - direct/ozout/3AP-20-3.txt
+src/runs/03 - direct/ozout/3AP-20-4.txt
+src/runs/03 - direct/ozout/3AP-20-5.txt
+src/runs/03 - direct/ozout/3AP05.txt
+src/runs/03 - direct/ozout/3KP10.txt
+src/runs/03 - direct/ozout/4AP05.txt
+src/runs/03 - direct/ozout/4KP10.txt
+src/runs/03 - direct/ozout/ozlen_2014_paper.as.max.txt
+src/runs/03 - direct/ozout/ozlen_2014_paper.txt
+src/runs/03 - direct/ozout/tamby_vanderpooten_2020.txt
+src/runs/03 - direct/ozout/times.txt
+src/runs/03 - direct/tbout/2AP05.txt
+src/runs/03 - direct/tbout/2KP50.txt
+src/runs/03 - direct/tbout/3AP-10-1.txt
+src/runs/03 - direct/tbout/3AP-10-2.txt
+src/runs/03 - direct/tbout/3AP-10-3.txt
+src/runs/03 - direct/tbout/3AP-10-4.txt
+src/runs/03 - direct/tbout/3AP-10-5.txt
+src/runs/03 - direct/tbout/3AP-15-1.txt
+src/runs/03 - direct/tbout/3AP-15-2.txt
+src/runs/03 - direct/tbout/3AP-15-3.txt
+src/runs/03 - direct/tbout/3AP-15-4.txt
+src/runs/03 - direct/tbout/3AP-15-5.txt
+src/runs/03 - direct/tbout/3AP-20-1.txt
+src/runs/03 - direct/tbout/3AP-20-2.txt
+src/runs/03 - direct/tbout/3AP-20-3.txt
+src/runs/03 - direct/tbout/3AP-20-4.txt
+src/runs/03 - direct/tbout/3AP-20-5.txt
+src/runs/03 - direct/tbout/3AP05.txt
+src/runs/03 - direct/tbout/3KP10.txt
+src/runs/03 - direct/tbout/4AP05.txt
+src/runs/03 - direct/tbout/4KP10.txt
+src/runs/03 - direct/tbout/ozlen_2014_paper.as.max.txt
+src/runs/03 - direct/tbout/ozlen_2014_paper.txt
+src/runs/03 - direct/tbout/tamby_vanderpooten_2020.txt
+src/runs/03 - direct/tbout/times.txt
+tests/.DS_Store
+tests/test_moiptimiser.py
+tests/examples/.DS_Store
+tests/examples/2AP05.lp
+tests/examples/2KP50.lp
+tests/examples/3AP-10-1.lp
+tests/examples/3AP-10-2.lp
+tests/examples/3AP-10-3.lp
+tests/examples/3AP-10-4.lp
+tests/examples/3AP-10-5.lp
+tests/examples/3AP-15-1.lp
+tests/examples/3AP-15-2.lp
+tests/examples/3AP-15-3.lp
+tests/examples/3AP-15-4.lp
+tests/examples/3AP-15-5.lp
+tests/examples/3AP-20-1.lp
+tests/examples/3AP-20-2.lp
+tests/examples/3AP-20-3.lp
+tests/examples/3AP-20-4.lp
+tests/examples/3AP-20-5.lp
+tests/examples/3AP-25-1.lp
+tests/examples/3AP-25-2.lp
+tests/examples/3AP-25-3.lp
+tests/examples/3AP-25-4.lp
+tests/examples/3AP-25-5.lp
+tests/examples/3AP-30-1.lp
+tests/examples/3AP-30-2.lp
+tests/examples/3AP-30-3.lp
+tests/examples/3AP-30-4.lp
+tests/examples/3AP-30-5.lp
+tests/examples/3AP-40-1.lp
+tests/examples/3AP-40-2.lp
+tests/examples/3AP-40-3.lp
+tests/examples/3AP-40-4.lp
+tests/examples/3AP-40-5.lp
+tests/examples/3AP05.lp
+tests/examples/3KP10.lp
+tests/examples/4AP05.lp
+tests/examples/4KP10.lp
+tests/examples/gurobi.log
+tests/examples/ozlen_2014_paper.as.max.lp
+tests/examples/ozlen_2014_paper.lp
+tests/examples/tamby_vanderpooten_2020.lp
+tests/moiptimiser/test_ozlen_2014_moiptimiser.py
+tests/moiptimiser/test_tamby_2020_direct_moiptimiser.py
+tests/moiptimiser/test_tamby_2020_two_stage_moiptimiser.py

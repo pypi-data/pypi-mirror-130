@@ -1,0 +1,14 @@
+(-2518, -3866, -3191)
+(-2706, -3857, -3304)
+(-2854, -3570, -3714)
+(-2854, -4636, -3076)
+(-2997, -3539, -3509)
+(-3042, -4627, -3189)
+(-3394, -3817, -3408)
+: 1 rows, 10 columns, 10 nonzeros
+Academic license - for non-commercial use only - expires 2022-01-15
+Non-dominated vectors found: 7
+Read LP format model from file ../tests/examples/tamby_vanderpooten_2020.lp
+Reading time = 0.00 seconds
+Set parameter Username
+Solver calls: 33
