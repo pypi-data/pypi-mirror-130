@@ -1,0 +1,15 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+karawun/__init__.py
+karawun/_version.py
+karawun/ciedicom.py
+karawun/commandline.py
+karawun/karawun.py
+karawun.egg-info/PKG-INFO
+karawun.egg-info/SOURCES.txt
+karawun.egg-info/dependency_links.txt
+karawun.egg-info/entry_points.txt
+karawun.egg-info/requires.txt
+karawun.egg-info/top_level.txt
