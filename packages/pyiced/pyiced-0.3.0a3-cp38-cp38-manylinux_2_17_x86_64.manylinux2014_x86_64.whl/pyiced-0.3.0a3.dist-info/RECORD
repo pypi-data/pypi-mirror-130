@@ -1,0 +1,8 @@
+pyiced-0.3.0a3.dist-info/LICENSE,sha256=ksJDB9tKH_eZTHR1G-Ekww8SbqBkycv5-aOR4DrK9tY,1089
+pyiced-0.3.0a3.dist-info/RECORD,,
+pyiced-0.3.0a3.dist-info/top_level.txt,sha256=OQbPQTnzEOmLZ8iQ8KRXhvoS4fyH5SkbUjb30gjJu7A,7
+pyiced-0.3.0a3.dist-info/WHEEL,sha256=paN2rHE-sLfyg0Z4YvQnentMRWXxZnkclRDH8E5J6qk,148
+pyiced-0.3.0a3.dist-info/METADATA,sha256=Ifu_QqSY_kTl-EgvuUtC2YBCfyWKJpqVCep9yLCQLRE,4680
+pyiced/_pyiced.cpython-38-x86_64-linux-gnu.so,sha256=9YL06NDWnkw3x6Mri6HxLSFZ6R24ST2u1d004L0OaYU,15183736
+pyiced/__init__.py,sha256=CTro_O1HRMPNAXXhFSgnxfC350x0SSn4IfjRHm-zDlg,10229
+pyiced/css_color.py,sha256=k68SPyKM9IXZDG4Nabn1NnaJ9bloi1ZAlaE6tZjT6yc,3620
