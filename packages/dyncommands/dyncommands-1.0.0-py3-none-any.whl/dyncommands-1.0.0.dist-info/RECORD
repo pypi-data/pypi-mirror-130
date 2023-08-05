@@ -1,0 +1,12 @@
+dyncommands/__init__.py,sha256=dzHoY1ec6pfrM017LFKYkft0yroz3nKWW3pV10BwJvE,1983
+dyncommands/_version.py,sha256=8aOvTsUth0uFmHn3YCG4ekIXjFOdtXJrpZGYUUPT5Zo,2185
+dyncommands/exceptions.py,sha256=8tSvuSMGCy01A9UhF6F27qoKTxXfskgyO6dNDN-RrVA,2303
+dyncommands/models.py,sha256=n0QZmgyNQ5u1fKA8aNCJm1KYt63L1d-2l8U7K2WpNjY,6107
+dyncommands/parser.py,sha256=E3rm42k2zaOC9yP-swuLWd5ySLt07PLKCYiuYJZukcQ,16109
+dyncommands/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyncommands/utils.py,sha256=cbglALjiqNh93MjGo0Hu8McGJrj8COhtEHFy9mqgb9c,3579
+dyncommands-1.0.0.dist-info/LICENSE,sha256=4KL1mgkC0DJ9Dhh4ztV8-uTW_ioDZLGcWJFVxkKvzQc,1070
+dyncommands-1.0.0.dist-info/METADATA,sha256=308rBg4d6sj1TyIrSU2JMsiIGwDsqCC0Lyty8P1_v6w,7788
+dyncommands-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dyncommands-1.0.0.dist-info/top_level.txt,sha256=uEQlwcD-jMxP40GKY_fYAWPQbnJvjrdiGXl_K3eulvo,12
+dyncommands-1.0.0.dist-info/RECORD,,
