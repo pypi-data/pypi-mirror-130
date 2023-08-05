@@ -1,0 +1,13 @@
+pytekukko/__init__.py,sha256=wUcG4D72mDsExZsCsN_lJpt86gJXFR7wtjkCQzwCCSU,5976
+pytekukko/models.py,sha256=Yt4FF7DYRyvCM61YaEWBHzH3zoh1YRd9lX20PtWaPq8,2235
+pytekukko/examples/__init__.py,sha256=_kFAhyqDkXtd4qcksZL1E2K9Y12_rnwZI7uHfYuH1Zc,2342
+pytekukko/examples/print_collection_schedules.py,sha256=eQUeE4Y-50gFcD4mRLEs_dT4bWHvaYY_CyQFmqv7aQg,1057
+pytekukko/examples/print_invoice_headers.py,sha256=o9_rIwFCy3tou_V4kQ_0U4XSRjvYVE0zzDe1NE51ysE,976
+pytekukko/examples/print_next_collections.py,sha256=NlxzCOIAqOdKL4MmrbGRWmmetFMwgeup26CLiusryoc,1000
+pytekukko/examples/update_google_calendar.py,sha256=QTxcayu_5KoSm1-gZGrtN-KbVZxTVH84tJL4d6oxWW4,6852
+pytekukko-0.9.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pytekukko-0.9.0.dist-info/METADATA,sha256=_t5fVnHBXQd8FFueN-sRpuXSz07D4c0RZUQDgBz4pTg,3132
+pytekukko-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytekukko-0.9.0.dist-info/entry_points.txt,sha256=9GeeHk21qAhEYnxZnwDIaE_EIJbrH9iI4rU2AZojgNs,379
+pytekukko-0.9.0.dist-info/top_level.txt,sha256=CozVPCHdY-e4oxKq01MVWfy3ge_5BlV0I465LUsfchk,10
+pytekukko-0.9.0.dist-info/RECORD,,
