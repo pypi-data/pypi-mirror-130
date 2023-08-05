@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: docker-buddy
+Version: 0.0.1
+Summary: A lightweight python interface for Docker that combines multiple libraries into an easy-to-use and visually appealing docker runtime
+Home-page: https://github.com/muellerzr/docker_buddy/tree/master/
+Author: Zachary Mueller
+Author-email: muellerzr@gmail.com
+License: Apache Software License 2.0
+Keywords: rich docker bash python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: rich
+Requires-Dist: docker
+Requires-Dist: fastcore
+Provides-Extra: dev
+
+# Docker Buddy
+> Your friendly python -> Docker interface
+
+
+

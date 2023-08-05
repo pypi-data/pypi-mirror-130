@@ -1,0 +1,10 @@
+docker_buddy/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+docker_buddy/_nbdev.py,sha256=oYqKaHNDfgZYd3x1J1gqXuX0xKSP5TIhvf5S5SSH8WA,644
+docker_buddy/cli_colors.py,sha256=VkUVMMNy1oHIXPoWABZNCl6eicqn_G_sNqxTISc-uow,4943
+docker_buddy/docker_startup.py,sha256=UCiR8ibuv7ysaG9OGswuEliTCp6GEFTqvn09i9153OA,2254
+docker_buddy-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+docker_buddy-0.0.1.dist-info/METADATA,sha256=aqL-yBmK7H6OwdeOj7iv6AlfaJOu3JFun0KRSb5siBM,1029
+docker_buddy-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+docker_buddy-0.0.1.dist-info/entry_points.txt,sha256=iXZ0mueaXclf-52aOJWeoa5lTmU88kWgIuWNGZ06-Wk,163
+docker_buddy-0.0.1.dist-info/top_level.txt,sha256=0Y7EJsOA0UVZV8ly805vymGAAUL_7z3dJKLz91Qi3mY,13
+docker_buddy-0.0.1.dist-info/RECORD,,
