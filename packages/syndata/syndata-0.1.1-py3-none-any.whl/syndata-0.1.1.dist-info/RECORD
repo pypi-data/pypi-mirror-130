@@ -1,0 +1,11 @@
+syndata/__init__.py,sha256=S4HdB4V4eDsKaVPk_hrYTVihbUV-HveLwy-HOcCwD6w,69
+syndata/centers.py,sha256=Amtcj49mf88lne9Jj_j1UMKxqNxKku2xyc_zwCb07bg,14409
+syndata/core.py,sha256=ui4MpaI4NLjIRjkJDtUQgU2r2HRHyyBYAX6s9jqXSFE,19252
+syndata/distributions.py,sha256=J7gP2ts6fkeV_JCz0-aBJEb0U2um8F9Nj6AKEmEXIPg,5271
+syndata/maxmin.py,sha256=RP_x4I9PFKAKIBGsVqmhaDZnI-P6wXz8lJ2sbA6eEkM,16462
+syndata/validation.py,sha256=R2JwweIImR5qz3oIZfISvpdEepikd4sFM6kQhUHcdP0,2652
+syndata-0.1.1.dist-info/LICENSE,sha256=GfGyv9N_LtKZNeUF-fvaYIybqovtSVu8TXCphExYInQ,1063
+syndata-0.1.1.dist-info/METADATA,sha256=OC_OByl05aKM2q5haCribHCrAt-0-NJzxQWp1xpNBLM,681
+syndata-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+syndata-0.1.1.dist-info/top_level.txt,sha256=YDvwcAaHzUL3G8u9vaCwT6wMBLodXOh-549g8Xwy2eo,8
+syndata-0.1.1.dist-info/RECORD,,
