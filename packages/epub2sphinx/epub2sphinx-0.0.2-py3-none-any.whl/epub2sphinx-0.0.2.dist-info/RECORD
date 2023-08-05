@@ -1,0 +1,17 @@
+cli.py,sha256=BLiopUFh-vPmefJPwXizncK-JcCJ9ONxOvuTARw1Kq8,3462
+epub2sphinx/__init__.py,sha256=G_AquAcbItw_RGJpZy-yqfEfeF_84jq8aY_W_EEohKc,83
+epub2sphinx/book.py,sha256=o5NW-6bc0Ygw7osQIO42yd5uwddTj86tLjpJ6CqjUCM,2475
+epub2sphinx/chapter.py,sha256=xeWJADd1JmyH5OIGsRX3iUrMPgTl0OV-hQ1XaHPj_PM,2313
+epub2sphinx/constants.py,sha256=2Gcq6f-5n0G7g7btmbIFQYYBi1U-PacV-Sb8VmXe6cQ,918
+epub2sphinx/convert.py,sha256=p53w077Ik4X4Ql8cJZ9nu34Ttk-IC8dM7ReT4kL9hfc,5439
+epub2sphinx/templates/Makefile,sha256=4zv3TVkTACm6JBaKgTES3ZI9cETXgM6ULbZkXZP1as8,638
+epub2sphinx/templates/conf.py,sha256=7cMrdL1IoMyPAseiaSZ8zDzYltDOtcmkJ4hUbtqAqSk,2030
+epub2sphinx/templates/index.rst,sha256=wNhO1LWwhgj0GSekRREg6ip-3uDOg6ezXyGue89fwhg,346
+epub2sphinx/templates/make.bat,sha256=9UgKGb4SdP006622fJiFxeFT1BeycYAs6hDbV1xwPy8,804
+epub2sphinx-0.0.2.dist-info/AUTHORS,sha256=9O6S8bkew2yzlTvGanB5sHof9vVVc1tsnHjo-UlF108,148
+epub2sphinx-0.0.2.dist-info/LICENSE,sha256=VihngozHJP6UN9k1DBW-Dsw62rUt6CErWuxpe7aJLws,1063
+epub2sphinx-0.0.2.dist-info/METADATA,sha256=7mBkSwgRyQFt2dquqoV7W7gmDm6EnUQI-DYvd1Ou7ro,4882
+epub2sphinx-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+epub2sphinx-0.0.2.dist-info/entry_points.txt,sha256=BaNOfQNa10pV_NgNOSawqoy_Ntb5Pq9fUErC36Wfwms,63
+epub2sphinx-0.0.2.dist-info/top_level.txt,sha256=9LCnkyE2ODlhNlFJnNV_DaTxlBdhj0PBI_4o_vcVXNg,16
+epub2sphinx-0.0.2.dist-info/RECORD,,
