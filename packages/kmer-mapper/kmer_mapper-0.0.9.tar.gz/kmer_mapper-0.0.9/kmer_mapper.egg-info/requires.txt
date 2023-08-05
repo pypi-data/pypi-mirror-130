@@ -1,0 +1,7 @@
+cython
+graph_kmer_index
+numpy
+pandas
+pathos
+scipy
+shared_memory_wrapper
