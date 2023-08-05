@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+src/plugify/__init__.py
+src/plugify.py.egg-info/PKG-INFO
+src/plugify.py.egg-info/SOURCES.txt
+src/plugify.py.egg-info/dependency_links.txt
+src/plugify.py.egg-info/requires.txt
+src/plugify.py.egg-info/top_level.txt
