@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+
+{% block style %}
+<style>
+  li.htmx-swapping {
+    opacity: 0;
+    transition: opacity 1s ease-out;
+  }
+</style>
+{% endblock %}
+
+{% block content %}
+
+<h1 class="title"> Retrieve Events from Last X Minutes </h1>
+
+<div hx-ext="client-side-list-enabled-nunjucks">
+
+  <div class="box">
+    <form hx-get="/api/last" hx-target="#results" hx-params="*" nunjucks-template="json-response">
+    <div class="field">
+      <label class="label">Minutes</label>
+      <div class="control">
+        <input id="minutes" name="minutes" class="input" type="text" value="15">
+        <label class="checkbox">
+          <input type="checkbox" name="decrypt" class="checkbox" value="true">
+          Decrypt Result
+        </label>
+      </div>
+
+      <input type="submit" class="button is-primary" value="Get Events">
+    </div>
+    </form>
+  </div>
+
+  {% raw %}
+
+  <template id="json-response">
+      {{ data | dump(2) | safe}}
+  </template>
+
+  {% endraw %}
+
+</div>
+
+<div class="box">
+  <pre>
+<code id="results"></code>
+  </pre>
+</div>
+
+
+{% endblock %}
+
+{% block javascript %}
+{% endblock %}
