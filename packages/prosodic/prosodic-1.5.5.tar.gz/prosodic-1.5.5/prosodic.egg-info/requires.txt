@@ -1,0 +1,10 @@
+nltk==3.6.2
+numpy
+Pyphen
+pyparsing
+xlrd
+networkx
+scipy
+xlwt
+levenshtein
+p_tqdm
