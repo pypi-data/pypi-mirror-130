@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: newton-metod-ns
+Version: 1.0.0
+Summary: Newton's method python module
+Home-page: UNKNOWN
+Author: NikitaSamarin
+Author-email: yormungandsam@yandex.ru
+License: UNKNOWN
+Description: Python module for finding the minimum of a function by Newton's method
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

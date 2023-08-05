@@ -1,0 +1,1 @@
+Python module for finding the minimum of a function by Newton's method

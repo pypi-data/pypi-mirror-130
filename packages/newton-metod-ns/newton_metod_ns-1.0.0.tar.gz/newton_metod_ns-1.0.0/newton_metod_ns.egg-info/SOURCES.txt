@@ -1,0 +1,13 @@
+README.txt
+setup.cfg
+setup.py
+newton_metod_ns/__init__.py
+newton_metod_ns/__main__.py
+newton_metod_ns/example.py
+newton_metod_ns/func.py
+newton_metod_ns/tests.py
+newton_metod_ns.egg-info/PKG-INFO
+newton_metod_ns.egg-info/SOURCES.txt
+newton_metod_ns.egg-info/dependency_links.txt
+newton_metod_ns.egg-info/requires.txt
+newton_metod_ns.egg-info/top_level.txt
