@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_etcpasswd/GrpFile.py
+jk_etcpasswd/GrpRecord.py
+jk_etcpasswd/PwdFile.py
+jk_etcpasswd/PwdRecord.py
+jk_etcpasswd/__init__.py
+jk_etcpasswd.egg-info/PKG-INFO
+jk_etcpasswd.egg-info/SOURCES.txt
+jk_etcpasswd.egg-info/dependency_links.txt
+jk_etcpasswd.egg-info/not-zip-safe
+jk_etcpasswd.egg-info/requires.txt
+jk_etcpasswd.egg-info/top_level.txt
