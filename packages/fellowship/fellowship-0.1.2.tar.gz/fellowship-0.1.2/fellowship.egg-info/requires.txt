@@ -1,0 +1,10 @@
+Jinja2
+attrs
+genson
+grpc-requests
+grpcio
+grpcio-tools
+jsonschema
+pyyaml
+requests
+rfc3987
