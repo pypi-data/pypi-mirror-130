@@ -1,0 +1,17 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.rst
+RELEASE.md
+pyproject.toml
+setup.cfg
+setup.py
+test_ipykernel.py
+test_irkernel.py
+jupyter_kernel_test/__init__.py
+jupyter_kernel_test/msgspec_v5.py
+jupyter_kernel_test.egg-info/PKG-INFO
+jupyter_kernel_test.egg-info/SOURCES.txt
+jupyter_kernel_test.egg-info/dependency_links.txt
+jupyter_kernel_test.egg-info/requires.txt
+jupyter_kernel_test.egg-info/top_level.txt
