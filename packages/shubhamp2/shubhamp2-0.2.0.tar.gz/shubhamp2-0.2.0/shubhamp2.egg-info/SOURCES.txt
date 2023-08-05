@@ -1,0 +1,7 @@
+setup.py
+shubhamp2/__init__.py
+shubhamp2.egg-info/PKG-INFO
+shubhamp2.egg-info/SOURCES.txt
+shubhamp2.egg-info/dependency_links.txt
+shubhamp2.egg-info/requires.txt
+shubhamp2.egg-info/top_level.txt
