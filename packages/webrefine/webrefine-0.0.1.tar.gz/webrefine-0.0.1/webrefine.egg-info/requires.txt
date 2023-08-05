@@ -1,0 +1,8 @@
+pip
+packaging
+requests
+joblib
+warcio
+tqdm
+
+[dev]
