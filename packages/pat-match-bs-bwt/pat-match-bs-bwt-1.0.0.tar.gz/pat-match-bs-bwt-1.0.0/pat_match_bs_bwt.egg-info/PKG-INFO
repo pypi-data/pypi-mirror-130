@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pat-match-bs-bwt
+Version: 1.0.0
+Summary: pattern matching tools
+Home-page: https://github.com/balrajsingh9/gsa-projects
+Author: Balraj Singh Saini, Chahat Gupta, Janardhan Jayachandra Kammath
+Author-email: au671472@post.au.dk
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+This package creates a suffix array and then the search can be performed using Improved Binary Searchor using Burrows-Wheeler Transform FM index array
+
