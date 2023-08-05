@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+zjwocr/img_utils.py
+zjwocr/model.py
+zjwocr/model_utils.py
+zjwocr/ocr.py
+zjwocr/user_utils.py
+zjwocr.egg-info/PKG-INFO
+zjwocr.egg-info/SOURCES.txt
+zjwocr.egg-info/dependency_links.txt
+zjwocr.egg-info/requires.txt
+zjwocr.egg-info/top_level.txt
+zjwocr/models/credit_customs_gov_cn.model
