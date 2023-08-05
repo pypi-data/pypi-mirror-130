@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+lzrw1_kh/__init__.py
+python_lzrw1_kh.egg-info/PKG-INFO
+python_lzrw1_kh.egg-info/SOURCES.txt
+python_lzrw1_kh.egg-info/dependency_links.txt
+python_lzrw1_kh.egg-info/top_level.txt
