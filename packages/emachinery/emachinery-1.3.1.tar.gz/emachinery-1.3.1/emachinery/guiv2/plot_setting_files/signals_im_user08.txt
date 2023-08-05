@@ -1,0 +1,9 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+CTRL.I->cmd_psi, ACM.psi_Dmu, marino.psi_Dmu
+marino.e_psi_Dmu, marino.e_psi_Qmu
+ACM.TLoad, marino.xTL
+ACM.iMs-ACM.psi_Dmu/ACM.Lmu, CTRL.I->iDQ_cmd[0]-CTRL.I->cmd_psi/CTRL.motor->Lmu
+picorr.correction_integral_term[0], picorr.correction_integral_term[1], lascu.correction_integral_term[0], lascu.correction_integral_term[1], clest.correction_integral_term[0], clest.correction_integral_term[1]
+ACM.psi_Amu - picorr.psi_2[0], ACM.psi_Amu - lascu.psi_2[0], ACM.psi_Amu - ohtani.psi_2[0], ACM.psi_Amu - holtz02.psi_2[0], ACM.psi_Amu - htz.psi_2_nonSat[0], ACM.psi_Amu - clest.psi_2[0]
+ACM.psi_Dmu, clest.psi_dmu, picorr.psi_2_ampl, lascu.psi_2_ampl, ohtani.psi_2_ampl, holtz02.psi_2_ampl, htz.psi_2_ampl, clest.psi_2_ampl
+ACM.psi_Bmu - clest.psi_2[1]

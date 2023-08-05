@@ -1,0 +1,25 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+ACM.psi_Amu, ohtani.psi_2_output[0], ohtani.psi_2_output_last_top[0], ohtani.psi_2_output_last_butt[0], ohtani.psi_2_output2[0]
+ACM.psi_Bmu, ohtani.psi_2_output[1], ohtani.psi_2_output_last_top[1], ohtani.psi_2_output_last_butt[1], ohtani.psi_2_output2[1]
+ACM.psi_Amu, ohtani.psi_2_real_output[0]
+ACM.psi_Bmu, ohtani.psi_2_real_output[1]
+ACM.psi_Amu, harnefors.psi_2[0]
+ACM.psi_Bmu, harnefors.psi_2[1]
+holtz.psi_D2_ode1, holtz.psi_Q2_ode1
+holtz.psi_D2_ode1_v2, holtz.psi_Q2_ode1_v2
+CTRL.I->iDQ[0]*CTRL.S->cosT
+CTRL.I->iDQ[1]*CTRL.S->cosT
+marino.psi_Dmu, fme.psi_DQ2[0]
+(marino.psi_Dmu - fme.psi_DQ2[0])
+fme.temp
+ACM.psi_Amu, holtz.psi_2[0], 
+ACM.psi_Bmu, holtz.psi_2[1], 
+fme.psi_DQ2[0]* CTRL.S->cosT, fme.psi_DQ2[0]* CTRL.S->sinT
+(marino.psi_Dmu - fme.psi_DQ2[0])
+(marino.psi_Dmu - fme.psi_DQ2[0]) * CTRL.S->cosT
+(marino.psi_Dmu - fme.psi_DQ2[0]) - (marino.psi_Dmu - fme.psi_DQ2[0]) * CTRL.S->cosT
+holtz.emf[0],holtz.emf[1]
+holtz.emf_DQ[0],holtz.emf_DQ[1]
+marino.e_psi_Dmu, marino.e_psi_Qmu
+ohtani.correction_integral_term[0], ohtani.correction_integral_term[1]
+CTRL.I->cmd_psi_ABmu[0] - ohtani.psi_2[0], CTRL.I->cmd_psi_ABmu[1] - ohtani.psi_2[1]

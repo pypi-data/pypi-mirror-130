@@ -1,0 +1,7 @@
+CTRL.O->uab_cmd_to_inverter[0], ACM.ual, CTRL.O->uab_cmd[0], US_P(0)
+ACM.id
+ACM.iq
+ACM.ial
+INV.dist_ua, INV.ia
+INV.dist_ub, INV.ib
+INV.dist_uc, INV.ic

@@ -1,0 +1,8 @@
+Speed [rpm]
+Integral Flux Est [Wb]
+flag
+Htz Flux Est [Wb]
+Ohtani-D [Wb]
+Ohtani-Q [Wb]
+Ohtani-A [Wb]
+Ohtani-B [Wb]

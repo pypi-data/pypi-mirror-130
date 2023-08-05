@@ -1,0 +1,25 @@
+ACM.rpm_cmd, CTRL.I->rpm, nsoaf.xOmg*ELEC_RAD_PER_SEC_2_RPM, harnefors.omg_elec*ELEC_RAD_PER_SEC_2_RPM
+ENC.theta_d_elec, AFE_USED.theta_d, harnefors.theta_d
+sin(ENC.theta_d_elec - AFE_USED.theta_d)
+INV.Vsat, INV.V_plateau
+INV.I_plateau
+INV.I5_plus_I7, INV.I11_plus_I13, INV.I17_plus_I19
+INV.I5_plus_I7_LPF, INV.I11_plus_I13_LPF, INV.I17_plus_I19_LPF
+INV.iD_atA, INV.iQ_atA
+INV.uDcomp_atA, INV.uQcomp_atA
+AFEOE.output_error[0], AFEOE.output_error[1]
+AFEOE.output_error_dq[0], AFEOE.output_error_dq[1]
+AFEOE.active_flux_ampl, parksul.xPsi2_Amplitude, htz.psi_2_ampl, MOTOR.KE
+INV.sig_a3, sig_a3
+INV.sig_a2, sig_a2
+htz.psi_1[0], htz.psi_1[1]
+AFEOE.psi_2[0], parksul.xPsi2[0], htz.psi_2[0], htz.psi_aster_max
+parksul.xPsi2[0], parksul.xPsi1[0]-MOTOR.Lq*IS_C(0)
+AFEOE.psi_2[1], parksul.xPsi2[1]
+CTRL.I->idq_cmd[1], CTRL.I->idq[1]
+INV.ual_comp - ACM.dist_al, ACM.ial
+INV.ube_comp - ACM.dist_be, ACM.ibe
+(double)parksul.limiter_Flag
+AFEOE.u_offset[0], parksul.xD[0]
+AFEOE.u_offset[1], parksul.xD[1]
+AFEOE.dot_product, AFEOE.cross_product

@@ -1,0 +1,11 @@
+ACM.TLoad, marino.xTL
+marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm, ACM.rpm_cmd
+watch.offset[0], htz.u_off[0], watch.offset[1], htz.u_off[1]
+ACM.psi_Amu - htz.psi_2[0]
+ACM.psi_Amu, htz.psi_2[0]
+0.5*(htz.psi_2_min[0] + htz.psi_2_max[0])
+htz.Delta_t, htz.Delta_t_last
+htz.sat_max_time[0], htz.sat_min_time[0]
+htz.extra_limit
+CTRL.I->cmd_psi, ACM.psi_Dmu, marino.psi_Dmu
+marino.e_psi_Dmu, marino.e_psi_Qmu

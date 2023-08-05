@@ -1,0 +1,7 @@
+\\psi_{\\alpha2} [Wb]
+sin(\\tilde\\theta_d) [1]
+Speed [rpm]
+\\left\\|\\psi_2\\right\\| [Wb]
+B [Wb]
+a3
+a2

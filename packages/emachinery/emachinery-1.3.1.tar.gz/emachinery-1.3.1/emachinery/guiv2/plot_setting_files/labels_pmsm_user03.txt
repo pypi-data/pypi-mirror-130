@@ -1,0 +1,9 @@
+Voltage
+Speed [rpm]
+AB Currents [A]
+DQ Currents [A]
+Position [deg]
+IPD Offset [deg]
+change in qep
+ActualPosInCnt
+difference_in_cnt

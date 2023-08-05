@@ -1,0 +1,9 @@
+ACM.rpm_cmd, CTRL.I->rpm, nsoaf.xOmg*ELEC_RAD_PER_SEC_2_RPM, htz.omg_est*ELEC_RAD_PER_SEC_2_RPM
+ENC.theta_d_elec, AFE_USED.theta_d
+sin(ENC.theta_d_elec - AFE_USED.theta_d)
+htz.psi_1[0], htz.psi_1[1]
+htz.psi_1_nonSat[0], htz.psi_1_nonSat[1]
+htz.psi_2_ampl, htz.psi_2_ampl_lpf, MOTOR.KE
+INV.sig_a3, sig_a3
+INV.sig_a2, sig_a2
+ACM.ial, ACM.ibe

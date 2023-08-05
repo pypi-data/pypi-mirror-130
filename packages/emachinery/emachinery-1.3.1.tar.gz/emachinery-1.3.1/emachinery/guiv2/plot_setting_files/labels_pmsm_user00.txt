@@ -1,0 +1,9 @@
+Speed [rpm]
+Absolute Position [deg]
+Current Alpha [0]
+effective error
+xUpsilon
+EEMF
+update to xOmg
+Test
+PE Condition

@@ -1,0 +1,13 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+ACM.psi_Amu, ohtani.psi_2[0], ohtani.psi_2_last_zero_level[0]
+fabs(ACM.psi_Amu), fabs(ohtani.psi_2[0]), fabs(ohtani.psi_2_last_zero_level[0])
+fabs(ACM.psi_Amu - ohtani.psi_2[0]), fabs(ACM.psi_Bmu - ohtani.psi_2[1]), 
+ohtani.psi_2_maxmin_difference[0], ohtani.psi_2_maxmin_difference[1]
+ohtani.offset_voltage[0], ohtani.offset_voltage[1]
+ohtani.Delta_t_PosMinusNeg[0], ohtani.Delta_t_NegMinusPos[0]
+1.0/((CTRL.timebase>1.6)*CTRL.S->omega_syn+0.1)*(2*M_PI), ohtani.Delta_t_PosMinusNeg[0] + ohtani.Delta_t_NegMinusPos[0]
+ohtani.time_Pos[0], ohtani.time_Pos[1], ohtani.time_Neg[0], ohtani.time_Neg[1]
+ohtani.psi_2_moved_distance_in_LissajousPlot[0], ohtani.psi_2_moved_distance_in_LissajousPlot[1]
+ohtani.psi_2_last_zero_level[0], ohtani.psi_2_last_zero_level[1]
+ohtani.u_offset_estimated_by_psi_2_sumup[0], ohtani.u_offset_estimated_by_psi_2_sumup[1]
+ohtani.u_offset_estimated_by_psi_2_top_change[0], ohtani.u_offset_estimated_by_psi_2_top_change[1]

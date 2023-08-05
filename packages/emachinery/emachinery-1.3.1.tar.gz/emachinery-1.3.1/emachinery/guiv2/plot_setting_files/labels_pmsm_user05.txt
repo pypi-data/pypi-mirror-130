@@ -1,0 +1,17 @@
+Speed [rpm]
+Position [rad]
+Position Error [rad]
+theta_t [deg]
+V_plateau [V]
+I_plateau [V]
+Harmonics in current [A]
+LPF(Harmonics) [A]
+iDQ at A
+uDQ at A
+alpha comp and distortion
+alpha comp error
+beta comp and distortion
+beta comp error
+ial, ibe, ampl
+parksul.xD
+AFEOE.output_error
