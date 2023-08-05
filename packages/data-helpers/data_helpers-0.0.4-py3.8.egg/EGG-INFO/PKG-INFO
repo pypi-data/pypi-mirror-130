@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: data-helpers
+Version: 0.0.4
+Summary: A set of helpers for working with various datatypes
+Home-page: UNKNOWN
+Author: sbland
+Author-email: sblandcouk@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Provides-Extra: test
