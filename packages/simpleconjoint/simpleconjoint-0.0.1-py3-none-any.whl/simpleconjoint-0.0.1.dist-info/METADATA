@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simpleconjoint
+Version: 0.0.1
+Summary: A package to perform conjoint in Python
+Home-page: https://github.com/DATasso/simpleconjoint
+Author: DATasso (Daniel Aguilera)
+Author-email: aguilera.t.daniel@gmail.com
+License: MIT
+Requires-Dist: Cython (>=0.22)
+Requires-Dist: numpy (>=1.7)
+Requires-Dist: pandas (>=1.2.4)
+Requires-Dist: pystan (==2.19.1.1)
+Requires-Dist: XlsxWriter (>=3.0.1)
+
+
+# simpleconjoint [Work in progress]
+
