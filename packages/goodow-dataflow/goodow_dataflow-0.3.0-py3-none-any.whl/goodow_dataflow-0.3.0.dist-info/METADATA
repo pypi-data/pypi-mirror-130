@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: goodow-dataflow
+Version: 0.3.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: importlib ; python_version == "3.10"
+
+UNKNOWN
+
