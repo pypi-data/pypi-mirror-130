@@ -1,0 +1,13 @@
+pytorch_bigtable/__init__.py,sha256=LXy3W5Ghz7ep50jk6_JCY1SQrq00l60bdR0Duku5wD4,733
+pytorch_bigtable/bigtable_dataset.py,sha256=T6qEgEuB7TrWFJYVKP7vq1bPLDu53j6XojpWJjPIpJI,8156
+pytorch_bigtable/pbt_C.cpython-37m-x86_64-linux-gnu.so,sha256=P4QXSxQCI0SoIF5-fpuTSTUstr5zWh2_ThVgr09Cx7Q,25608320
+pytorch_bigtable/row_range.py,sha256=U7kp8y0jFP_ElC4_-IJxvBHBqbTESb-UtgsWOD9OwKs,3281
+pytorch_bigtable/row_set.py,sha256=CWL234PVI3mbUW8DGtDha4bnVa814xP54pOKhjoDB7s,1844
+pytorch_bigtable/version_filters.py,sha256=OBm0ePehxqKtrWC6QvI4ZR8c2Hz1h0ZfSQl_cVsN4eM,2638
+pytorch_bigtable/lib/libcrypto.so.10,sha256=3by29xWxn_crUkCJBwlM13RUIClpu7HYKj3bohM_2r8,2521336
+pytorch_bigtable/lib/libssl.so.10,sha256=6d1_bWRTjIasxmE2aJVdOcvJESJ0sxb4xAVpsNsH2lI,470376
+pytorch_bigtable-0.4.0.dist-info/LICENSE,sha256=oX8h3karNYpBE33kMRNZCKPcjrqJ7tadokWj2WndFKc,15504
+pytorch_bigtable-0.4.0.dist-info/METADATA,sha256=GyHaKt5XjpFEbG0U_BWhYxdvwAJLOupuAx8NQWB6QFo,9646
+pytorch_bigtable-0.4.0.dist-info/WHEEL,sha256=f7P6z0Dw9BaMW8tOX1QV9QgI5xUJsD3jCwAxmDG4-E0,104
+pytorch_bigtable-0.4.0.dist-info/top_level.txt,sha256=lgNHEmi9vz54Yu_0h6LFeipkO_QHF_1ud6GtyBLCspE,17
+pytorch_bigtable-0.4.0.dist-info/RECORD,,
