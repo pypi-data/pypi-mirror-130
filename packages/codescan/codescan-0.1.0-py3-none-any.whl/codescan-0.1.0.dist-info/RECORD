@@ -1,0 +1,10 @@
+codescan/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codescan/__main__.py,sha256=alJFveUz7La0S419jjSTWWc3kl51HjbDHbdt1IFYYWE,1792
+codescan/file.py,sha256=nqHYZQe0eeQgllGab169Trzv3x8FjWpqUjA1_POysB4,4230
+codescan/patterns.py,sha256=1o8mq-HMGb_2o3QAXMYKsSZDoOb4xgvScNPWC1NkOLM,811
+codescan/print.py,sha256=I4AAazHS5gsxpN-ZQF4ROH_ZIZI6FWScRkJS2rulv1M,482
+codescan/scan.py,sha256=POoe9SdULwxJ3ERDffKHjtnMV03BBIm-_L3zP9H9CHM,2191
+codescan-0.1.0.dist-info/METADATA,sha256=v2aworAb136-lWk564rUyUN86RYhD3z6uZbINvMMXgI,1502
+codescan-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codescan-0.1.0.dist-info/top_level.txt,sha256=D7mpJEPFWNEan06i8vpDtvNWrsUkhAKtLWWT50r8ah0,9
+codescan-0.1.0.dist-info/RECORD,,
