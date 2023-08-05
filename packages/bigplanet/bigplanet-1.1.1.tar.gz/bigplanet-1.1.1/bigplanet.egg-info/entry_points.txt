@@ -1,0 +1,4 @@
+[console_scripts]
+bigplanet = bigplanet.bigplanet:Arguments
+bpstatus = bigplanet.bpstatus:main
+
