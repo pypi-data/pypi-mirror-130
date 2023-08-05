@@ -1,0 +1,3 @@
+[console_scripts]
+afwf_devbind = afwfcfg.devbind:main
+
