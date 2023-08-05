@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pylunasvg/__init__.py
+pylunasvg/__main__.py
+pylunasvg/extensions.py
+pylunasvg/pylunasvg.pyi
+pylunasvg.egg-info/PKG-INFO
+pylunasvg.egg-info/SOURCES.txt
+pylunasvg.egg-info/dependency_links.txt
+pylunasvg.egg-info/entry_points.txt
+pylunasvg.egg-info/not-zip-safe
+pylunasvg.egg-info/top_level.txt
