@@ -1,0 +1,20 @@
+[console_scripts]
+yt2avi = yt2mp4.__main__:avi
+yt2flv = yt2mp4.__main__:flv
+yt2m4v = yt2mp4.__main__:m4v
+yt2mkv = yt2mp4.__main__:mkv
+yt2movie = yt2mp4.__main__:mov
+yt2mp3 = yt2mp4.__main__:mp3
+yt2mp4 = yt2mp4.__main__:mp4
+yt2webm = yt2mp4.__main__:webm
+yt2wmv = yt2mp4.__main__:wmv
+ytp2avi = yt2mp4.__main__:pavi
+ytp2flv = yt2mp4.__main__:pflv
+ytp2m4v = yt2mp4.__main__:pm4v
+ytp2mkv = yt2mp4.__main__:pmkv
+ytp2movie = yt2mp4.__main__:pmov
+ytp2mp3 = yt2mp4.__main__:pmp3
+ytp2mp4 = yt2mp4.__main__:pmp4
+ytp2webm = yt2mp4.__main__:pwebm
+ytp2wmv = yt2mp4.__main__:pwmv
+
