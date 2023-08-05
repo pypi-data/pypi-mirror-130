@@ -1,0 +1,11 @@
+Pixel Tools - The Python Pixel Art Manipulation Toolset
+-------------------------------------------------------
+TODO: Description
+
+Building this Package
+---------------------
+To build package:
+python3 setup.py sdist bdist_wheel
+
+To upload:
+python3 -m twine upload dist/*
