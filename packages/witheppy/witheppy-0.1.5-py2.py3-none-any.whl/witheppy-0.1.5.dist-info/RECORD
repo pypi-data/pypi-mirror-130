@@ -1,0 +1,16 @@
+witheppy/__init__.py,sha256=xXM95I6Vl7LVz4KmNErrTIbSmk4mhN6X0Vlr3twvpJo,154
+witheppy/iddcurrent.py,sha256=PjVv6daHAYbeJg8FYIw_1bSsYYvflfndnrHZbYM_G5w,368
+witheppy/iddv800.py,sha256=d3g2qHhJf7sXqBxu9RBkFbFXECTTne7MW7PVIdXUg2A,3320915
+witheppy/iddv960.py,sha256=0O7A9l5LhaxVPRddQoBN5m8yqO7Mv1SIoBcCt62E10I,4391404
+witheppy/runandget.py,sha256=xa9fCOUBdCnsMxwJFGyHhhLD5Bt4AGsg1zX4BEse4mI,10683
+witheppy/runner.py,sha256=Ygt4oP1s9vapUvB7vtl_M8LypVH1O86DXMBxMk4t7Y8,1468
+witheppy/eppyhelpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+witheppy/eppyhelpers/extfields.py,sha256=Kh0PDZw4P9pNhu8KpWpK_7xpP1V8TRpj0p0hPCkWoUA,3756
+witheppy/eppyhelpers/geometry.py,sha256=eezQDLJNgNziSApMzw5UDF8pDcKZ3sY53dQG30OPDUg,8467
+witheppy/eppyhelpers/iddhelpers.py,sha256=_q2TiAhV-0IFL5U6NmbkA_6RxnpigeZJJNNak31m3is,2779
+witheppy-0.1.5.dist-info/AUTHORS.rst,sha256=oG2_lqrc0_V0MYD69jjO3pqqfAM1Sf0u1OZXqXuaCdw,159
+witheppy-0.1.5.dist-info/LICENSE,sha256=C36PHFE7EOUaMjchp9FXJ2whWAFghSXFQMo84ZJoomg,1073
+witheppy-0.1.5.dist-info/METADATA,sha256=M-Hw3k9gxp1DbzOJMBDKeJhTFxjqrPgTLlmDK2m5KDY,3664
+witheppy-0.1.5.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+witheppy-0.1.5.dist-info/top_level.txt,sha256=iOq0ejOkMCyEOoc6Txo6i36zKsxdquT2Pu-coduBKQ4,9
+witheppy-0.1.5.dist-info/RECORD,,
