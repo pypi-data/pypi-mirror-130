@@ -1,0 +1,13 @@
+README.md
+setup.py
+aeseg/Encoder.py
+aeseg/__init__.py
+aeseg/core.py
+aeseg/optimizers.py
+aeseg/test.py
+aeseg.egg-info/PKG-INFO
+aeseg.egg-info/SOURCES.txt
+aeseg.egg-info/dependency_links.txt
+aeseg.egg-info/top_level.txt
+aeseg/tests/__init__.py
+aeseg/tests/test_encoder.py

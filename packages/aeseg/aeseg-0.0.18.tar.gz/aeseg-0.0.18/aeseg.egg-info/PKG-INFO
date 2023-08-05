@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aeseg
+Version: 0.0.18
+Summary: A python package for Sound Event Detection post-processing and optimization
+Home-page: https://github.com/aeseg/aeseg.git
+Author: Leo Cances
+Author-email: leo.cances@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
