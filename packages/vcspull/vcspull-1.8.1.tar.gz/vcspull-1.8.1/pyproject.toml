@@ -1,0 +1,79 @@
+[tool.black]
+skip-string-normalization = true
+
+[tool.poetry]
+name = "vcspull"
+version = "1.8.1"
+description = "synchronize your projects via yaml / json files"
+license = "MIT"
+authors = ["Tony Narlock <tony@git-pull.com>"]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "License :: OSI Approved :: MIT License",
+  "Environment :: Web Environment",
+  "Intended Audience :: Developers",
+  "Operating System :: POSIX",
+  "Operating System :: MacOS :: MacOS X",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Topic :: Utilities",
+  "Topic :: System :: Shells"
+]
+packages = [
+    { include = "vcspull" }
+]
+readme = 'README.md'
+keywords = ["vcspull", "git", "vcs", "json", "yaml"]
+
+homepage = "https://vcspull.git-pull.com"
+
+[tool.poetry.urls]
+"Bug Tracker" = "https://github.com/vcs-python/vcspull/issues"
+Documentation = "https://vcspull.git-pull.com"
+Repository = "https://github.com/vcs-python/vcspull"
+
+[tool.poetry.scripts]
+vcspull = 'vcspull:cli.cli'
+
+[tool.poetry.dependencies]
+python = "^3.6"
+click = ">=7<8"
+kaptan = "*"
+libvcs = "~0.10.1"
+colorama = ">=0.3.9"
+
+[tool.poetry.dev-dependencies]
+### Docs ###
+sphinx = "*"
+alagitpull = "^0.1.0"
+sphinx-issues = "^1.2.0"
+sphinx-click = "*"
+sphinx-autodoc-typehints = "^1.12.0"
+myst_parser = "^0.15.0"
+
+### Testing ###
+pytest = "*"
+pytest-rerunfailures = "*"
+
+### Coverage ###
+codecov = "*"
+coverage = "*"
+pytest-cov = "*"
+
+### Format ###
+black = {version="==21.9b0", python="^3.6.2"}
+isort = "*"
+
+### Lint ###
+flake8 = "*"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx-issues", "sphinx-click", "sphinx-autodoc-typehints", "myst_parser", "alagitpull"]
+test = ["pytest", "pytest-rerunfailures"]
+coverage = ["codecov", "coverage", "pytest-cov"]
+format = ["black", "isort"]
+lint = ["flake8"]
