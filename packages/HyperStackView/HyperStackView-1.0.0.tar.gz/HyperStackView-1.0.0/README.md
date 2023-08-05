@@ -1,0 +1,38 @@
+HyperStackView
+==============
+
+HyperStackView is an application that allows interactive rendering of 3-dimensional projection of voxel bitmap or
+time series of such bitmaps. It uses OpenGL API to process data. Real-time rendering of animations is also
+possible (tested with 1024×1024 output image, and 1000 z-samples).
+
+![Screenshot of the main window](https://gita.utia.cas.cz/schier/hyperstackview/-/raw/master/screenshot.png)
+
+The application allows for simultaneous preview of one image in the maximum-intensity projection and of the other one
+that contains (possibly labeled) objects to be rendered with shading and diffuse lighting.
+
+The former is used for maximum- or average-intensity projection with adjustable brightness, contrast and gamma.
+It can contain floating-point or integer values. The latter can contain boolean values, where *true* denotes
+object presence and *false* background, or integer values where zeroes represent background whereas positive values
+represent the object. If an image with integer values is used, the preview can be limited to voxels with user-specified
+value (use *File→Object Selector*, Ctrl-Shift-O).
+
+The view can be rotated and zoomed using the mouse and keyboard controls. When time series are being viewed, keyboard
+shortcuts or *Next*/*Prev* buttons (on a five-button mouse) can be used to change the currently viewed frame.
+
+It is possible to render animations of rotating 3D bitmap or to play time-series in real time on consumer hardware.
+
+Rendering quality (and hence its speed) can be adjusted using two controls: the *Z-axis sample count* control allows
+to decrease sample count on the axis perpendicular to the projection plane, the *Intermediate buffer resolution* menu
+can be used to decrease resolution of the preview.
+
+[Overview of rendering pipeline](https://gita.utia.cas.cz/schier/hyperstackview/-/raw/master/pipeline.md)
+
+---
+
+This package has been developed within in the frame of my internship in [the Institute of Information Theory and Automation
+(ÚTIA)](https://www.utia.cas.cz), under the supervision of [Dr. Jan Schier](https://www.utia.cas.cz/people/schier).
+
+The internship has been supported by the [“Open Science” project (linked page in Czech)](https://otevrenaveda.cz/)
+of the Academy of Sciences of the Czech Republic, which provides support for the scientific internships of the
+Czech secondary-school students.
+

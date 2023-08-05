@@ -1,0 +1,3 @@
+include HyperStackView/*.glsl
+include HyperStackView/*.png
+include HyperStackView/*.yaml

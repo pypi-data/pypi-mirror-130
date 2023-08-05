@@ -1,0 +1,234 @@
+near_plane_screen_z:
+  save_with_file: true
+  save_to_config: false
+  value: 1.44
+
+far_plane_screen_z:
+  save_with_file: true
+  save_to_config: false
+  value: -0.44
+
+perspective:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+z_samples:
+  save_with_file: true
+  save_to_config: false
+  value: 500
+
+scale:
+  save_with_file: true
+  save_to_config: false
+  value: .7
+
+projection_type:
+  save_with_file: true
+  save_to_config: false
+  value: 3d
+
+rotation:
+  save_with_file: true
+  save_to_config: false
+  value: [-2.335, 0, -0.2616]
+
+base_file_path:
+  save_with_file: false
+  save_to_config: false
+  value: ~
+
+base_img:
+  save_with_file: false
+  save_to_config: false
+  value: ~
+
+binary_file_path:
+  save_with_file: false
+  save_to_config: false
+  value: ~
+
+binary_img:
+  save_with_file: false
+  save_to_config: false
+  value: ~
+
+input_min:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+input_max:
+  save_with_file: true
+  save_to_config: false
+  value: 65535
+
+current_frame:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+show_grid:
+  save_with_file: true
+  save_to_config: true
+  value: true
+
+grid_alpha:
+  save_with_file: true
+  save_to_config: true
+  value: .3
+
+show_bg_cube:
+  save_with_file: true
+  save_to_config: true
+  value: false
+
+bg_cube_alpha:
+  save_with_file: true
+  save_to_config: true
+  value: .2
+
+show_rotation_osd:
+  save_with_file: false
+  save_to_config: true
+  value: true
+
+show_rotation_osd_bounds:
+  save_with_file: false
+  save_to_config: true
+  value: true
+
+clip_rotation_osd:
+  save_with_file: false
+  save_to_config: true
+  value: true
+
+animation_interval:
+  save_with_file: false
+  save_to_config: true
+  value: 200
+
+animation_step:
+  save_with_file: true
+  save_to_config: false
+  value: [0, 0, 0, 1]
+
+animation_running:
+  save_with_file: false
+  save_to_config: false
+  value: false
+
+max_color:
+  save_with_file: true
+  save_to_config: true
+  value: [0.596, 1.0, 0.949]
+
+avg_color:
+  save_with_file: true
+  save_to_config: true
+  value: [0.632, 1.0, 0.723]
+
+binary_object_color:
+  save_with_file: true
+  save_to_config: true
+  value: [1.0, 1.0, 1.0]
+
+max_enabled:
+  save_with_file: true
+  save_to_config: false
+  value: true
+
+max_brightness:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+max_contrast:
+  save_with_file: true
+  save_to_config: false
+  value: 1
+
+max_gamma:
+  save_with_file: true
+  save_to_config: false
+  value: 0.4
+
+avg_enabled:
+  save_with_file: true
+  save_to_config: false
+  value: false
+
+avg_brightness:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+avg_contrast:
+  save_with_file: true
+  save_to_config: false
+  value: 1
+
+avg_gamma:
+  save_with_file: true
+  save_to_config: false
+  value: 1
+
+binary_enabled:
+  save_with_file: true
+  save_to_config: false
+  value: true
+
+binary_smoothness:
+  save_with_file: true
+  save_to_config: false
+  value: 0.005
+
+binary_sample_size:
+  save_with_file: true
+  save_to_config: false
+  value: 0.05
+
+binary_contrast:
+  save_with_file: true
+  save_to_config: false
+  value: 0.2
+
+intermediate_resolution:
+  save_with_file: false
+  save_to_config: true
+  value: 1024
+
+mask_enabled:
+  save_with_file: true
+  save_to_config: false
+  value: false
+
+mask_object:
+  save_with_file: true
+  save_to_config: false
+  value: 0
+
+mask_mode:
+  save_with_file: true
+  save_to_config: false
+  value: filter
+
+mask_highlight_blink:
+  save_with_file: true
+  save_to_config: false
+  value: true
+
+mask_highlight_blink_state:
+  save_with_file: true
+  save_to_config: false
+  value: true
+
+mask_highlight_color:
+  save_with_file: true
+  save_to_config: false
+  value: [1, 0, 0]
+
+save_config_to_tiff_dir:
+  save_with_file: false
+  save_to_config: false
+  value: false
