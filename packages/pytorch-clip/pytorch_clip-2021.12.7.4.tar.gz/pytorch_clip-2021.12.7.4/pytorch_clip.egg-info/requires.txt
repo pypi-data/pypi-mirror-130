@@ -1,0 +1,10 @@
+wheel
+Cython
+cython
+omegaconf
+torch
+transformers
+huggingface_hub
+youtokentome
+googletrans
+numpy
