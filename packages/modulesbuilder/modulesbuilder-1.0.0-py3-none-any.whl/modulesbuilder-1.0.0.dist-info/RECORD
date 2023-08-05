@@ -1,0 +1,9 @@
+modulesbuilder/__init__.py,sha256=IUqrExUcmdQQ4xu8tGr1YTc97Hd1tWIk4STynQLotzM,47
+modulesbuilder/build.py,sha256=Cf0bdZUOO6m3tLu9K-IxLinOdizoYI_KmWbSSZoffk0,12469
+modulesbuilder/module.py,sha256=GHqLFuMQZn6G0a3jO0FQLY4RMO6zfdiU549W4C98oZ4,7442
+modulesbuilder/modules.py,sha256=DiUgPjPI59hKubXGZ-KbahQTHG4RWCLmg6onvzOSbkM,3244
+modulesbuilder-1.0.0.dist-info/LICENSE.txt,sha256=K5eovM9S1VTIJpFxHab0V-8_7E7tTxdrQm5kJApUG80,1076
+modulesbuilder-1.0.0.dist-info/METADATA,sha256=g15-gsodEHWSMJ2dfeKepgnMETZpkGLotEDdBbU1_KU,982
+modulesbuilder-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+modulesbuilder-1.0.0.dist-info/top_level.txt,sha256=Cg7E0xHToCaIlBgLhgsfMiJ5bVRRqzqNtT44g31aokE,15
+modulesbuilder-1.0.0.dist-info/RECORD,,
