@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: triangler-patch
+Version: 0.1.2
+Summary: triangler dependencies version patch
+Home-page: https://github.com/tdh8316/triangler
+Author: djkcyl
+Author-email: cyl@cyllive.cn
+Requires-Python: >=3.9,<3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numba (>=0.53.1,<0.54.0)
+Requires-Dist: numpy (==1.21.4)
+Requires-Dist: scikit-image (>=0.19.0,<0.20.0)
+Project-URL: Repository, https://github.com/tdh8316/triangler
