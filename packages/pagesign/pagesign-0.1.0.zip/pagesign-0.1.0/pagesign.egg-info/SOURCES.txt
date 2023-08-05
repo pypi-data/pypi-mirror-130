@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+pagesign.py
+setup.cfg
+setup.py
+test_pagesign.py
+pagesign.egg-info/PKG-INFO
+pagesign.egg-info/SOURCES.txt
+pagesign.egg-info/dependency_links.txt
+pagesign.egg-info/top_level.txt
