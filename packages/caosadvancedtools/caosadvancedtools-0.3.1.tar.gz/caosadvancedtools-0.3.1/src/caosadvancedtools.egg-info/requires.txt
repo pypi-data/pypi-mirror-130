@@ -1,0 +1,8 @@
+caosdb>=0.6.0
+openpyxl>=3.0.0
+pandas>=1.2.0
+numpy>=1.17.3
+xlrd>=2.0
+
+[h5-crawler]
+h5py>=3.3.0
