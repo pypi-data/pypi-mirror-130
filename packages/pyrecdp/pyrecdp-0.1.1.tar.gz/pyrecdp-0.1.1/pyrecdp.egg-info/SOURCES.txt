@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+ScalaProcessUtils/built/recdp-scala-extensions-0.1.0-jar-with-dependencies-30-spark.jar
+ScalaProcessUtils/built/recdp-scala-extensions-0.1.0-jar-with-dependencies-latest-spark.jar
+pyrecdp/__init__.py
+pyrecdp/data_processor.py
+pyrecdp/encoder.py
+pyrecdp/init_spark.py
+pyrecdp/utils.py
+pyrecdp.egg-info/PKG-INFO
+pyrecdp.egg-info/SOURCES.txt
+pyrecdp.egg-info/dependency_links.txt
+pyrecdp.egg-info/not-zip-safe
+pyrecdp.egg-info/requires.txt
+pyrecdp.egg-info/top_level.txt
