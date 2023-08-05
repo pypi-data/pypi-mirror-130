@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mypydot
+Version: 2021.0.1
+Summary: 
+Author: John Smith
+Author-email: john@example.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (==6.0)
