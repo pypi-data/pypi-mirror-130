@@ -1,0 +1,3 @@
+[pytest11]
+is_running = pytest_is_running.plugin
+
