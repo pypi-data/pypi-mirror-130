@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: snakefusion
+Version: 0.1.3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: numpy
+Summary: Read and use many word embedding formats
+Home-Page: https://github.com/danieldk/snakefusion
+Author: Daniël de Kok <me@danieldk.eu>
+Author-email: Daniël de Kok <me@danieldk.eu>
+License: MIT OR Apache-2.0
+Project-URL: Source Code, https://github.com/danieldk/snakefusion.git
