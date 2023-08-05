@@ -1,0 +1,7 @@
+[datasets.executors]
+metaflow_executor=datasets.plugins:MetaflowExecutor
+
+[datasets.plugins]
+batch_dataset=datasets.plugins:BatchDatasetPlugin
+batch_flow_dataset=datasets.plugins:BatchFlowDatasetPlugin
+
