@@ -1,0 +1,5 @@
+[console_scripts]
+ABCENTH = ABCENTH.__main__:main
+HAPpy = HAPpy.__main__:main
+thammerin = HAPpy.thammerin:main
+
