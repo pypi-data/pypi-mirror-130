@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cvertools/__init__.py
+src/cvertools/example.py
+src/cvertools.egg-info/PKG-INFO
+src/cvertools.egg-info/SOURCES.txt
+src/cvertools.egg-info/dependency_links.txt
+src/cvertools.egg-info/top_level.txt
