@@ -1,0 +1,10 @@
+judoka/__init__.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+judoka/cli.py,sha256=c5uLwpA4hILdbu8LoRH-QKDkXy7cbyc1Sqn2XO_BjrU,122
+judoka/command.py,sha256=mUjbWhwti7hyYyacIo60V0DmGN0nvFkkO234Fvf4GaQ,2137
+judoka/config.py,sha256=a2_g99ec9ci3qY0wtU-9lAHYQSsfkcCyRgWzJuui2bE,819
+judoka-0.1.dist-info/LICENSE,sha256=BV4gTV_yEceZZEfPd5sYeMA1Gh2wjjAvpx9oZqb2egs,1074
+judoka-0.1.dist-info/METADATA,sha256=NSV_vSx-T30NgLIY3JTZY6htfDOC7aN8g9BQhHpiQ9M,2096
+judoka-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+judoka-0.1.dist-info/entry_points.txt,sha256=k9vIoiuT-sBjZo9l2OXJc12v0ruPA0On2rMFRaQNYk0,41
+judoka-0.1.dist-info/top_level.txt,sha256=DuIbwLNKlyPr4JLKGKSv4EBXWDAGhcopwxSmZk8h3nA,7
+judoka-0.1.dist-info/RECORD,,
