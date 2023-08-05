@@ -1,0 +1,5 @@
+include *.txt
+include LICENSE
+include VERSION
+recursive-include kafka_processor *.py
+recursive-include tests *.py
