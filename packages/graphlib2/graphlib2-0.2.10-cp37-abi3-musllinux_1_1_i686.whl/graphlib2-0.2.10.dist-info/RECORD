@@ -1,0 +1,9 @@
+graphlib2/graphlib2.pyi,sha256=Fk0rSTH1bYD6XXY3jH2NJcGKAhEm5so-m8xQW2ldal0,609
+graphlib2/__init__.py,sha256=soVZQUmLJ189x0Ty8RkIk06Pzsh0pZSQ1vPE98XobqY,197
+graphlib2/_types.py,sha256=qigD2AAyEHGn-rwMgZKnq9ncsykxkHg5NdAGYWfbZiw,431
+graphlib2/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphlib2/graphlib2.abi3.so,sha256=xrlIhonRUDZbYVPhKS_RiikhyI_26RlQn43BfgRKYUs,533072
+graphlib2-0.2.10.dist-info/RECORD,,
+graphlib2-0.2.10.dist-info/WHEEL,sha256=s9stpJY_Su04jyvo96nAIbz4-GHrbzMjWp1EzdU-pw8,112
+graphlib2-0.2.10.dist-info/METADATA,sha256=pKwlnEvJFdz_v-NM3hOYuH-a9xgP_GCQLBMGSrgYI4M,3250
+graphlib2.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
