@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: dsi-cookbook
+Version: 0.1.0
+Summary: 
+Author: Qiushi Yan
+Author-email: qiushi.yann@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Description-Content-Type: text/markdown
+
+# `dsirecipes`
+
+Awesome Portal Gun
+
+**Usage**:
+
+```console
+$ dsirecipes [OPTIONS] COMMAND [ARGS]...
+```
+
+**Options**:
+
+* `--install-completion`: Install completion for the current shell.
+* `--show-completion`: Show completion for the current shell, to copy it or customize the installation.
+* `--help`: Show this message and exit.
+
+**Commands**:
+
+* `load`: Load the portal gun
+* `shoot`: Shoot the portal gun
+
+## `dsirecipes load`
+
+Load the portal gun
+
+**Usage**:
+
+```console
+$ dsirecipes load [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
+## `dsirecipes shoot`
+
+Shoot the portal gun
+
+**Usage**:
+
+```console
+$ dsirecipes shoot [OPTIONS]
+```
+
+**Options**:
+
+* `--help`: Show this message and exit.
+
