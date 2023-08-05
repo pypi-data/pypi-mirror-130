@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="data selection" position="(234.0, 315.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.dataselection.DataSelectionWidgetOW" title="data selection" version="" />
+		<node id="1" name="roi selection" position="(614.0, 318.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.roiselection.RoiSelectionWidgetOW" title="roi selection" version="" />
+		<node id="2" name="noise removal" position="(850.0, 320.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.noiseremoval.NoiseRemovalWidgetOW" title="noise removal" version="" />
+		<node id="3" name="shift correction" position="(1034.0, 317.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.shiftcorrection.ShiftCorrectionWidgetOW" title="shift correction" version="" />
+		<node id="4" name="z sum" position="(1214.0, 323.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.zsum.ZSumWidgetOW" title="z sum" version="" />
+		<node id="5" name="dimension definition" position="(423.0, 325.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.dimensions.DimensionWidgetOW" title="dimension definition" version="" />
+		<node id="6" name="metadata" position="(347.0, 216.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.metadata.MetadataWidgetOW" title="metadata" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="dataset" sink_node_id="6" source_channel="dataset" source_node_id="0" />
+		<link enabled="true" id="1" sink_channel="dataset" sink_node_id="1" source_channel="dataset" source_node_id="5" />
+		<link enabled="true" id="2" sink_channel="dataset" sink_node_id="2" source_channel="dataset" source_node_id="1" />
+		<link enabled="true" id="3" sink_channel="dataset" sink_node_id="3" source_channel="dataset" source_node_id="2" />
+		<link enabled="true" id="4" sink_channel="dataset" sink_node_id="4" source_channel="dataset" source_node_id="3" />
+		<link enabled="true" id="5" sink_channel="dataset" sink_node_id="5" source_channel="dataset" source_node_id="0" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'dark_filename': '', 'filenames': [], 'in_disk': False, 'raw_filename': '/users/garrigaf/Documents/git/darfix/orangecontrib/darfix/tutorials/strain_0000.edf', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x99\x00\x00\x01\xb5\x00\x00\x06\x1e\x00\x00\x03\xb4\x00\x00\x03\x9c\x00\x00\x01\xd2\x00\x00\x06\x1b\x00\x00\x03\xb1\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x9c\x00\x00\x01\xd2\x00\x00\x06\x1b\x00\x00\x03\xb1', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'controlAreaVisible': True, 'roi_origin': [787.8301572617945, 979.7965936739661], 'roi_size': [500.0, 500.0], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\t\xff\x00\x00\x05n\x00\x00\x03\x92\x00\x00\x01\xd1\x00\x00\x06%\x00\x00\x03\xb0\x00\x00\x00\x00\x02\x00\x00\x00\n\x00\x00\x00\x00\x00\x00\x00\x00&lt;\x00\x00\t\xff\x00\x00\x05n', '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'background_type': 'Data', 'bottom_threshold': '0', 'chunks': [100, 100], 'controlAreaVisible': True, 'kernel_size': '3', 'method': 'median', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x8f\x00\x00\x01\x95\x00\x00\x08H\x00\x00\x05\x0b\x00\x00\x03\x92\x00\x00\x01\xb2\x00\x00\x08E\x00\x00\x05\x08\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x92\x00\x00\x01\xb2\x00\x00\x08E\x00\x00\x05\x08', 'step': '1', '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03+\x00\x00\x01\xb3\x00\x00\x08\xf6\x00\x00\x05n\x00\x00\x03.\x00\x00\x01\xd0\x00\x00\x08\xf3\x00\x00\x05k\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03.\x00\x00\x01\xd0\x00\x00\x08\xf3\x00\x00\x05k', 'shift': [0, 0], '__version__': 1}</properties>
+		<properties format="literal" node_id="4">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x03\x99\x00\x00\x01\xb5\x00\x00\x08p\x00\x00\x05\x15\x00\x00\x03\x9c\x00\x00\x01\xd2\x00\x00\x08m\x00\x00\x05\x12\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x03\x9c\x00\x00\x01\xd2\x00\x00\x08m\x00\x00\x05\x12', '__version__': 1}</properties>
+		<properties format="literal" node_id="5">{'_dims': {0: {'name': 'obpitch', 'kind': 2, 'size': 2, 'range': [25.1023, 25.1024, 0.0001], 'tolerance': 1e-09}}, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x02\xda\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\xd7\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\xd7\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="6">{'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
