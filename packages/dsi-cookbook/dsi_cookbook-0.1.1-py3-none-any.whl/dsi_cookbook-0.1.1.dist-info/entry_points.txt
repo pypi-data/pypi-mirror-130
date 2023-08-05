@@ -1,0 +1,3 @@
+[console_scripts]
+dsi-cookbook=dsi_cookbook.main:app
+

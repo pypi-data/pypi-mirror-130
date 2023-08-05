@@ -1,0 +1,9 @@
+dsi_cookbook/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+dsi_cookbook/__main__.py,sha256=H16QgXpxRt36JNeQdtd2Y1CZesIZg76Gr2fyx5Zr2Xc,53
+dsi_cookbook/commands/ingredient.py,sha256=XpyGK8cESrNqWFDStdX6TavAHQSUeYnZfgkek0mMIeE,268
+dsi_cookbook/commands/recipe.py,sha256=pzocGaTZmiBAWWg_VlgoAtfHv1OyiAv5Irl4ljdgnRk,232
+dsi_cookbook/main.py,sha256=o-CFwbB1QOo0BTB8cUN2AsQpF7Mdq5yDpDJh_RUqbQM,328
+dsi_cookbook-0.1.1.dist-info/entry_points.txt,sha256=k9GDVGWVRwERaLSQ90cLSIigD7CpDRFdu7zvNQmtgwI,54
+dsi_cookbook-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dsi_cookbook-0.1.1.dist-info/METADATA,sha256=XKWjiRL-Cd1Mf7EXN86IF7YmTVUZRAdQo39deDfTz6Y,1791
+dsi_cookbook-0.1.1.dist-info/RECORD,,
