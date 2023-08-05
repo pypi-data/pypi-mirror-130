@@ -1,0 +1,3 @@
+[console_scripts]
+tele-muninn=tele_muninn.console:cli
+
