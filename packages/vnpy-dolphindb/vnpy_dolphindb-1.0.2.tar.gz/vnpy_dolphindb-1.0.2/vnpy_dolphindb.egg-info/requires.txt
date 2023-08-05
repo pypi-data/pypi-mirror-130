@@ -1,0 +1,3 @@
+
+[:platform_system == "Windows" or platform_system == "Linux"]
+dolphindb
