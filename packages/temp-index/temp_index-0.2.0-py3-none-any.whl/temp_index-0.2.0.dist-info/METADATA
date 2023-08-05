@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: temp-index
+Version: 0.2.0
+Summary: 
+Author: automatist
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: calibrestekje (>=0.0.3,<0.0.4)
+Requires-Dist: reportlab (>=3.6.3,<4.0.0)
