@@ -1,0 +1,6 @@
+six>=1.10.0
+protobuf>=3.1.0
+paddle-serving-client==0.4.0
+paddlepaddle>=1.8.5
+numpy
+unittest2
