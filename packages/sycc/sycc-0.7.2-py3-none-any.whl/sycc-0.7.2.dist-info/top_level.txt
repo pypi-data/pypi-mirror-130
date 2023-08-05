@@ -1,0 +1,10 @@
+__init__
+colorama
+core
+e
+k
+p
+p/tqdm
+pip_check
+sycc
+v
