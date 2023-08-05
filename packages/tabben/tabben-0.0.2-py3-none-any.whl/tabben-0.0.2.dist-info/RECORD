@@ -1,0 +1,10 @@
+tabben/__init__.py,sha256=KKi5yWOw_kGWL3sR4HS8a2oLbIl5LDeG7Cf1PLYm9rE,210
+tabben/datasets/__init__.py,sha256=jZCKlgWKFIe1tMpe8Gq9HpZLe49_yMKQWLLMQHxYT4o,315
+tabben/datasets/data.toml,sha256=uFKJTLk7DmHqJkdFngIiFFZssDhwvlXOMd1__NbUfhc,1003
+tabben/datasets/image_datasets.py,sha256=b2mK1A3fqPTFFk4Y5ufSNxGUcM08y_vFM4P8Qxh8uj4,1535
+tabben/datasets/pytorch_datasets.py,sha256=RK5uuMdLLCornbBZ7n1-4o6hNgM8RPH1mwllKMk7usE,15412
+tabben/datasets/utils.py,sha256=F49Ot07iLC_WJNpkFOqKhSjcbIlbW4opftoA0z6KdAU,578
+tabben-0.0.2.dist-info/METADATA,sha256=cFoX9z5dpFtt_Mn51_-PePjFbQ_boxH-MU6vQ3V1Mcs,2817
+tabben-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tabben-0.0.2.dist-info/top_level.txt,sha256=WCK_hpHQ2bq5N65glm_kmT9YlxwEY-Ccf7KzZpftPqs,7
+tabben-0.0.2.dist-info/RECORD,,
