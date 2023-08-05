@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: pyunicodedata
+Version: 0.0.6
+Summary: A package including Unicode UCD.zip and Unihan.zip
+Home-page: https://github.com/zenkr/pyunicodedata
+Author: ZENKR
+Author-email: zenkr@qq.com
+License: UNKNOWN
+Project-URL: Document, https://github.com/zenkr/pyunicodedata
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyUnicodeData
+
+This is a simple package including Unicode UCD.zip and Unihan.zip
+
+# Develop
+
+[Packaging Python Projects](https://packaging.python.org/tutorials/packaging-projects/)
+
+```shell
+py -m build
+# twine upload --repository testpypi dist/*
+twine upload dist/*
+```
+
