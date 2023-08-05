@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pycloudmusic163/__init__.py
+pycloudmusic163/music163.py
+pycloudmusic163/object.py
+pycloudmusic163/py_API.py
+pycloudmusic163.egg-info/PKG-INFO
+pycloudmusic163.egg-info/SOURCES.txt
+pycloudmusic163.egg-info/dependency_links.txt
+pycloudmusic163.egg-info/requires.txt
+pycloudmusic163.egg-info/top_level.txt
