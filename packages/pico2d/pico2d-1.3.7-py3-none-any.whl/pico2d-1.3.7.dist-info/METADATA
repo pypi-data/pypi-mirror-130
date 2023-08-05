@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pico2d
+Version: 1.3.7
+Summary: Light weight PySDL wrapper
+Home-page: https://github.com/game-lecture
+Author: Dae-Hyun (Dustin) Lee
+Author-email: daehyun.lee@gmail.com
+License: MIT
+Keywords: SDL 2D
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: PySDL2
+Requires-Dist: PySDL2-DLL
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+Lightweight 2D SDL Library in Python
+
