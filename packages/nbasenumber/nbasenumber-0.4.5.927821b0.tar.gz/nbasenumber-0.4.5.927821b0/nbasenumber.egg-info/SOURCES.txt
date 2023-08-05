@@ -1,0 +1,9 @@
+README.md
+setup.py
+nbasenumber/__init__.py
+nbasenumber/example.py
+nbasenumber.egg-info/PKG-INFO
+nbasenumber.egg-info/SOURCES.txt
+nbasenumber.egg-info/dependency_links.txt
+nbasenumber.egg-info/top_level.txt
+nbasenumber.egg-info/zip-safe
