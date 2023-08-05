@@ -1,0 +1,3 @@
+[console_scripts]
+pylunasvg = pylunasvg.__main__:main
+
