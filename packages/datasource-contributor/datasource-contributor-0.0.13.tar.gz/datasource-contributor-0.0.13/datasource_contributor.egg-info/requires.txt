@@ -1,0 +1,4 @@
+gitpython
+Scrapy
+requests
+fake-useragent
