@@ -1,0 +1,5 @@
+AFEOE.psi_2[0]
+sin(ENC.theta_d_elec - AFE_USED.theta_d)
+CTRL.I->rpm, nsoaf.xOmg*ELEC_RAD_PER_SEC_2_RPM
+MOTOR.KE, AFEOE.active_flux_ampl
+AFEOE.output_error_dq[0]

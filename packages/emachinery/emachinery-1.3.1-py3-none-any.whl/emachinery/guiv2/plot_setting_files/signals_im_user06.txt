@@ -1,0 +1,16 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+ACM.psi_Amu, ohtani.psi_2_output[0], ohtani.psi_2_output_last_top[0], ohtani.psi_2_output_last_butt[0], ohtani.psi_2_output2[0]
+ACM.psi_Bmu, ohtani.psi_2_output[1], ohtani.psi_2_output_last_top[1], ohtani.psi_2_output_last_butt[1], ohtani.psi_2_output2[1]
+ACM.psi_Amu, (ohtani.psi_2[0]) , 0.5*(ohtani.psi_2_last_top[0]+ohtani.psi_2_last_butt[0]), ohtani.psi_2_last_top[0]
+ACM.psi_Bmu, (ohtani.psi_2[1]) , 0.5*(ohtani.psi_2_last_top[1]+ohtani.psi_2_last_butt[1])
+ohtani.psi_2_last_top[0], ohtani.psi_2_last_butt[0]
+ohtani.filtered_compensation[0], 0.5*(ohtani.psi_2_last_top[0]+ohtani.psi_2_last_butt[0])
+ohtani.u_offset_estimated_by_integration_correction[0], ohtani.u_offset_estimated_by_integration_correction[1]
+0.5*( ohtani.psi_2_output_last_top[0]+ohtani.psi_2_output_last_butt[0] ), 0.5*( ohtani.psi_2_output2_last_top[0]+ohtani.psi_2_output2_last_butt[0] )
+ACM.psi_Amu, ohtani.psi_2_real_output[0]
+ACM.psi_Bmu, ohtani.psi_2_real_output[1]
+CTRL.I->iDQ[0]*CTRL.S->cosT
+CTRL.I->iDQ[1]*CTRL.S->cosT
+marino.psi_Dmu, fme.psi_DQ2[0]
+(marino.psi_Dmu - fme.psi_DQ2[0])
+fme.temp

@@ -1,0 +1,10 @@
+Speed [rpm]
+Position [rad]
+Pulse [1]
+AB Currents [A]
+DQ Currents [A]
+Speed Error [rad/s]
+Rev [1]
+Difference in Cnt [1]
+Sometimes this works
+bad model

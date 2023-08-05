@@ -1,0 +1,41 @@
+{
+    "MachineNameIndex": 5,
+    "CLTS": "1/10e3",
+    "VLTS": "5/10e3",
+    "EndTime": "25",
+    "LoadInertiaPercentage": "0",
+    "LoadTorque": "3",
+    "ViscousCoefficient": "0.7e-3",
+    "FluxCmdDetails": "(100, 0, 0)",
+    "OutputDataFileName": "SlessInv-OverEstimated-a2-NL",
+    "pmsm-PlotSettingSelect": "14",
+    "pmsm-PlotSettingNameDict": {
+        "lt": "sensored control with harnefors06",
+        "00": "eemfaod",
+        "01": "nsoaf",
+        "02": "comm-qep-debug",
+        "03": "comm-inverter-nonlinearity",
+        "04": "test",
+        "05": "Inverter",
+        "06": "EMF_SMO",
+        "07": "EMF_SMO2",
+        "08": "ParkSul2014",
+        "09": "HuWu1998",
+        "10": "Test",
+        "11": "SlessInv",
+        "12": "Holtz4PMSM",
+        "13": "SlessInv-PaperWriting-Linear",
+        "14": "SlessInv-PaperWriting-NL",
+        "15": "ESO4"
+    },
+    "PANames": "(\"QIAO_XIA_SIGMOID_COEFF\",)",
+    "PAValues": "[(1,), \n(5,),\n(20,),\n(200,),\n(500,)]",
+    "MachineTypeIndex": 1,
+    "ControlStrategy": "NULL_D_AXIS_CURRENT_CONTROL",
+    "uncertainty": {
+        "R": "100",
+        "Ld": "100",
+        "Lq": "100",
+        "KE": "100"
+    }
+}

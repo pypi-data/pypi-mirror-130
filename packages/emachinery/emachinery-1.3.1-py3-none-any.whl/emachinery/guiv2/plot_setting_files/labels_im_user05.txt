@@ -1,0 +1,15 @@
+Speed [rpm]
+Ohtani psi_2[0]
+Ohtani psi_2[0] ABS
+Ohtani psi_2 Error ABS
+u_offset by top-change
+u_offset by butt-change
+top or butt
+top + butt
+Top-Count
+AVG-A
+AVG-B
+filtered-u-compensation
+al
+be
+filtered-psi-compensation

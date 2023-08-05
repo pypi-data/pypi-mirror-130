@@ -1,0 +1,15 @@
+ACM.rpm_cmd, marino.xOmg*ELEC_RAD_PER_SEC_2_RPM, ACM.rpm
+CTRL.I->cmd_psi, ACM.psi_Dmu, marino.psi_Dmu
+marino.e_psi_Dmu, marino.e_psi_Qmu
+ACM.TLoad, marino.xTL
+ACM.iMs-ACM.psi_Dmu/ACM.Lmu, CTRL.I->iDQ_cmd[0]-CTRL.I->cmd_psi/CTRL.motor->Lmu
+ACM.psi_Bmu, clest.psi_2[1]
+-clest.correction_integral_term[0], htz.u_off[0], htz.u_off_calculated_increment[0]
+-clest.correction_integral_term[1], htz.u_off[1], htz.u_off_calculated_increment[1]
+ACM.psi_Amu, htz.psi_2[0]
+ACM.psi_Amu - htz.psi_2[0]
+ACM.psi_Dmu, htz.psi_2_ampl
+0.5*(htz.psi_2_min[0] + htz.psi_2_max[0])
+htz.Delta_t, htz.Delta_t_last
+htz.sat_max_time[0], htz.sat_min_time[0]
+htz.extra_limit

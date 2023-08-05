@@ -1,0 +1,6 @@
+Position [rad]
+Position Error [rad]
+Speed [rpm]
+Load Torque [Nm]
+pTL [Nm/s]
+Output Error [rad]

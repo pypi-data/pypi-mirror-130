@@ -1,0 +1,6 @@
+Speed [rpm]
+Position [rad]
+Position error A [1]
+Position error B [1]
+Current [A]
+Current error [A]

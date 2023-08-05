@@ -1,0 +1,10 @@
+AFEOE.psi_2[0]
+sin(ENC.theta_d_elec - AFE_USED.theta_d)
+CTRL.I->rpm, nsoaf.xOmg*ELEC_RAD_PER_SEC_2_RPM
+MOTOR.KE, htz.psi_2_ampl
+(MOTOR.KActive - htz.psi_2_ampl_lpf)
+INV.sig_a3, sig_a3
+INV.sig_a2, sig_a2
+CTRL.I->idq_cmd[0], CTRL.I->idq[0], CTRL.I->idq_cmd[1], CTRL.I->idq[1]
+INV.iD_atA, INV.iQ_atA
+CTRL.I->theta_d_elec, ELECTRICAL_POSITION_FEEDBACK
