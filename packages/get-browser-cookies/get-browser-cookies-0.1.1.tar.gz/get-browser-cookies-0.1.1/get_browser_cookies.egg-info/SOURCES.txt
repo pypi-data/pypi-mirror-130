@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+get_browser_cookies/__init__.py
+get_browser_cookies/cli.py
+get_browser_cookies/version.py
+get_browser_cookies.egg-info/PKG-INFO
+get_browser_cookies.egg-info/SOURCES.txt
+get_browser_cookies.egg-info/dependency_links.txt
+get_browser_cookies.egg-info/entry_points.txt
+get_browser_cookies.egg-info/requires.txt
+get_browser_cookies.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+get-browser-cookies = get_browser_cookies.cli:main
+
