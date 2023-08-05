@@ -1,0 +1,3 @@
+include LICENSE* README* tredparse/data/* tredparse/ssw/* tredparse/ssw/* tredparse/ssw/sse2neon/* requirements.txt setup_helper.py
+include versioneer.py
+include tredparse/_version.py

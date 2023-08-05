@@ -1,0 +1,12 @@
+cython
+matplotlib
+numpy
+pandas
+pyfaidx
+pysam
+pytest
+pyvcf
+requests
+rich
+scipy
+seaborn
