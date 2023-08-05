@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: labgraph
+Version: 2.0.0
+Summary: LabGraph is a Python framework for rapidly prototyping experimental systems for real-time streaming applications
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: appdirs (>=1.4.3)
+Requires-Dist: click (>=7.0)
+Requires-Dist: h5py (>=3.3.0)
+Requires-Dist: matplotlib (>=3.1.2)
+Requires-Dist: mypy (>=0.910)
+Requires-Dist: numpy (>=1.19.5)
+Requires-Dist: psutil (>=5.6.7)
+Requires-Dist: pytest (>=3.10.1)
+Requires-Dist: pytest-mock (>=2.0.0)
+Requires-Dist: pyzmq (>=19.0.2)
+Requires-Dist: typeguard (>=2.10.0)
+Requires-Dist: typing-extensions (>=3.7.4)
+Requires-Dist: websockets (>=8.1)
+Requires-Dist: yappi (>=1.2.5)
+
+UNKNOWN
+
+
