@@ -1,0 +1,15 @@
+future
+numpy
+scipy
+matplotlib
+GPy
+sklearn
+torch
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[test]
+pytest
+pytest-cov
