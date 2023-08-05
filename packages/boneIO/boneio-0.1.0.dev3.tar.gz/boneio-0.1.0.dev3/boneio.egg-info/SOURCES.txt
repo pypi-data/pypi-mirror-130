@@ -1,0 +1,8 @@
+README.md
+setup.py
+boneio.egg-info/PKG-INFO
+boneio.egg-info/SOURCES.txt
+boneio.egg-info/dependency_links.txt
+boneio.egg-info/entry_points.txt
+boneio.egg-info/requires.txt
+boneio.egg-info/top_level.txt
