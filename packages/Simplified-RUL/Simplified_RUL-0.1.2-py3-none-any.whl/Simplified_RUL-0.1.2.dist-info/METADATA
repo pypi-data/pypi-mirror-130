@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: Simplified-RUL
+Version: 0.1.2
+Summary: Simplified_RUL_
+Home-page: https://github.com/gavbdheiver/RUL_simplified-0.1.1.tar.gz
+Author: Dheiver Santos
+Author-email: dheiver.santos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+
+README.rst
+
