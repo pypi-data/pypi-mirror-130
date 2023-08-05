@@ -1,0 +1,11 @@
+jupyter_server~=1.0
+prometheus_client
+psutil~=5.6
+
+[dev]
+autopep8
+black
+pytest
+flake8
+pytest-cov>=2.6.1
+mock
