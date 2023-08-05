@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: asyncx
+Version: 0.0.1
+Summary: Utility library for asyncio
+Home-page: https://github.com/bonprosoft/asyncx
+Author: Yuki Igarashi
+Author-email: me@bonprosoft.com
+License: MIT License
+Description: # asyncx: Utility library for asyncio
+        
+        [![Documentation Status](https://readthedocs.org/projects/asyncx/badge/?version=latest)](https://asyncx.readthedocs.io/en/latest/?badge=latest)
+        
+        - [Docs](https://asyncx.readthedocs.io/)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+Provides-Extra: docs
