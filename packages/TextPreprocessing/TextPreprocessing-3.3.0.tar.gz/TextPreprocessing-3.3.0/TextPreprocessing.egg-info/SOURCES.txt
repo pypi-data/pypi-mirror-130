@@ -1,0 +1,10 @@
+README.md
+setup.py
+TextPreprocessing/__init__.py
+TextPreprocessing/preprocess.py
+TextPreprocessing/utility.py
+TextPreprocessing.egg-info/PKG-INFO
+TextPreprocessing.egg-info/SOURCES.txt
+TextPreprocessing.egg-info/dependency_links.txt
+TextPreprocessing.egg-info/requires.txt
+TextPreprocessing.egg-info/top_level.txt
