@@ -1,0 +1,213 @@
+[
+  {
+    "path": "gn/gn/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "mac-arm64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "git_revision:e0afadf7a743d5b14737bd454df45d5f1caf0d23"
+    ]
+  },
+  {
+    "path": "infra/3pp/tools/ninja/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "mac-arm64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:2@1.10.2"
+    ]
+  },
+  {
+    "path": "infra/cmake/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:3.16.1"
+    ]
+  },
+  {
+    "path": "pigweed/third_party/bloaty-embedded/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64"
+    ],
+    "tags": [
+      "git_revision:2d87d204057b419f5290f8d38b61b9c2c5b4fb52-2"
+    ]
+  },
+  {
+    "path": "pigweed/third_party/gcc-arm-none-eabi/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:10-2020-q4-major"
+    ]
+  },
+  {
+    "path": "infra/3pp/tools/protoc/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:2@3.17.3"
+    ]
+  },
+  {
+    "_comment": "Until there's an arm64 Mac version, get the amd64 Mac version on arm64 Macs.",
+    "path": "infra/3pp/tools/protoc/mac-amd64",
+    "platforms": [
+      "mac-arm64"
+    ],
+    "tags": [
+      "version:2@3.17.3"
+    ]
+  },
+  {
+    "path": "fuchsia/third_party/clang/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "git_revision:e3a7f0e2f9ab566bd9b71fb54fe77e947b061a12"
+    ]
+  },
+  {
+    "path": "infra/3pp/tools/go/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "mac-arm64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:2@1.17.4"
+    ]
+  },
+  {
+    "path": "pigweed/third_party/protoc-gen-go/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:1.3.2"
+    ]
+  },
+  {
+    "_comment": "TODO(pwbug/66) Put openocd in cipd for Windows.",
+    "path": "pigweed/third_party/openocd/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64"
+    ],
+    "tags": [
+      "git_revision:e41c0f4906e46d1076ce62a0da5518aa1ca280b8"
+    ]
+  },
+  {
+    "path": "pigweed/third_party/mingw64-x86_64-win32-seh/${platform}",
+    "platforms": [
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:10.2.0-11"
+    ]
+  },
+  {
+    "path": "pigweed/host_tools/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "mac-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "git_revision:273e2fff664483ccc0f4069412433e837c878bef"
+    ]
+  },
+  {
+    "path": "infra/rbe/client/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "re_client_version:0.41.4.3f0d8bb"
+    ]
+  },
+  {
+    "path": "fuchsia/third_party/qemu/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64"
+    ],
+    "tags": [
+      "git_revision:d80b96f149ebdd2ee530da1cc6245e0888080e7e"
+    ]
+  },
+  {
+    "path": "fuchsia/third_party/kythe",
+    "platforms": [
+      "linux-amd64"
+    ],
+    "subdir": "kythe",
+    "tags": [
+      "version:1.0.3"
+    ]
+  },
+  {
+    "path": "fuchsia/third_party/kythe-libs/${platform}",
+    "platforms": [
+      "linux-amd64"
+    ],
+    "subdir": "kythe",
+    "tags": [
+      "version:2020-08-05"
+    ]
+  },
+  {
+    "path": "infra/3pp/tools/renode/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64"
+    ],
+    "tags": [
+      "version:2@renode-1.11.0+20210306gite7897c1"
+    ]
+  },
+  {
+    "path": "infra/3pp/tools/buildifier/${platform}",
+    "platforms": [
+      "linux-amd64",
+      "linux-arm64",
+      "mac-amd64",
+      "mac-arm64",
+      "windows-amd64"
+    ],
+    "tags": [
+      "version:2@4.2.4"
+    ]
+  }
+]
