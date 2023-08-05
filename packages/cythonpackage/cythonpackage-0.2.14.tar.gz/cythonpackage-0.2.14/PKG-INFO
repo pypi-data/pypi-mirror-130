@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cythonpackage
+Version: 0.2.14
+Summary: Compile a package in one .so file and remove source code
+Home-page: https://github.com/pprados/cythonpackage
+Author: Philippe PRADOS
+Author-email: cythonpackage@prados.fr
+License: Apache-2.0
+Project-URL: Bug Tracker, https://github.com/pprados/cythonpackage/issues
+Project-URL: Documentation, https://github.com/pprados/cythonpackage/
+Project-URL: Source Code, https://github.com/pprados/cythonpackage/
+Description: Compile a package in one .so file and remove source code
+Keywords: cython
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown ; charset=UTF-8
+Provides-Extra: dev
+Provides-Extra: build
+Provides-Extra: poetry
