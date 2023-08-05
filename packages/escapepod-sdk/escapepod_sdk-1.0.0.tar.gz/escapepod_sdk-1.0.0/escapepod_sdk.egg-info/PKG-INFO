@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: escapepod-sdk
+Version: 1.0.0
+Summary: The EscapePod SDK for Cyb3rVector's EscapePod Extension Proxy
+Home-page: https://github.com/cyb3rdog/escapepod_python_sdk
+Author: cyb3rdog
+Author-email: 
+License: Apache License, Version 2.0
+Keywords: anki,ddl,vector,cyb3rvector,robot,escapepod,extension,proxy,sdk,python
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: docs
+Provides-Extra: experimental
+Provides-Extra: test
+License-File: LICENSE
+License-File: LICENSE.txt
+
+
+EscapePod Extension SDK:
+    by cyb3rdog
+
+For more information, please visit the project Github site: https://github.com/cyb3rdog/escapepod_python_sdk
+It's powerful but easy to use, complex but not complicated, and versatile enough.
+
+Requirements:
+    * Python 3.6.1
+    * Python 3.7
+    * Python 3.8
+    * Python 3.9
+
+
