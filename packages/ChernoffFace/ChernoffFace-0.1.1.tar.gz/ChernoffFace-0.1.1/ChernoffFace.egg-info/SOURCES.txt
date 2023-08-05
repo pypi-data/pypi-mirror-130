@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+ChernoffFace/ChernoffFace.py
+ChernoffFace/ChernoffFunctions.py
+ChernoffFace/DataLoaders.py
+ChernoffFace/__init__.py
+ChernoffFace.egg-info/PKG-INFO
+ChernoffFace.egg-info/SOURCES.txt
+ChernoffFace.egg-info/dependency_links.txt
+ChernoffFace.egg-info/requires.txt
+ChernoffFace.egg-info/top_level.txt
+ChernoffFace/resources/dfEmployeeAttitude.csv
+ChernoffFace/resources/dfUSAArrests.csv
