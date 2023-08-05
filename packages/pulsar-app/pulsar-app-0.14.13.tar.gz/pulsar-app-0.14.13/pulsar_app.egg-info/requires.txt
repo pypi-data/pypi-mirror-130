@@ -1,0 +1,17 @@
+webob
+psutil
+PasteDeploy
+pyyaml
+galaxy-job-metrics>=19.9.0.dev1
+galaxy-objectstore>=19.9.0.dev1
+galaxy-tool-util>=19.9.0.dev3
+galaxy-util>=19.9.0.dev1
+paramiko
+
+[galaxy_extended_metadata]
+galaxy-job-execution>=19.9.0.dev0
+galaxy-util[template]
+
+[web]
+Paste
+PasteScript
