@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Perceptron_PyPi-manan-bedi2908
+Version: 0.0.2
+Summary: It is the implementation of Perceptron Algorithm in Python
+Home-page: https://github.com/manan-bedi2908/Perceptron_PyPi
+Author: manan-bedi2908
+Author-email: mananbedilps@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/manan-bedi2908/Perceptron_PyPi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Perceptron_PyPi
+
+```python
+from perceptron.perceptron import Perceptron
+model = Perceptron(eta=eta, epochs=epochs)
+model.fit(X, y)
+```
+
