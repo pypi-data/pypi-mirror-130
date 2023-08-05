@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+waltzpdf/__init__.py
+waltzpdf/pdf2image.py
+waltzpdf/pdf2text.py
+waltzpdf.egg-info/PKG-INFO
+waltzpdf.egg-info/SOURCES.txt
+waltzpdf.egg-info/dependency_links.txt
+waltzpdf.egg-info/top_level.txt
