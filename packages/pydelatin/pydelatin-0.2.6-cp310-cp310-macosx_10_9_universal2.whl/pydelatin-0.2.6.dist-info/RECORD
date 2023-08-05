@@ -1,0 +1,9 @@
+_pydelatin.cpython-310-darwin.so,sha256=0bmPzNgA1ULo3C2oJimZAvZ0jqjsx3kA_pYg0iJiq5g,1063580
+pydelatin/__init__.py,sha256=odJ-1TSTShGQxSsWH15s531tUMm12LN6PWPlq41rBzY,178
+pydelatin/delatin.py,sha256=eIIg_DoTYEBLv_9_WhSTdUmQ1XJtADEqPSKN_XhYa4A,2624
+pydelatin/util.py,sha256=znc_S0LlJqGBtWUVz0yrL9r_ALVG-vXclo5RQChJYJ8,2653
+pydelatin-0.2.6.dist-info/LICENSE,sha256=nibXnqSIeJlpfnQR5MVbs8vUPl-FZQQeoZjiEko4vnY,1068
+pydelatin-0.2.6.dist-info/METADATA,sha256=BOqVFBbQ_CsjZMpD0E-JO4Y2TKaTrLEGE0mFrlCJ5qw,8908
+pydelatin-0.2.6.dist-info/WHEEL,sha256=K9uXIc6oIZviKXIosvLmJ-uuGuBRuat3blAiqiaC13M,115
+pydelatin-0.2.6.dist-info/top_level.txt,sha256=IqYA-uufehdU9pHdj2P87jTGDW8dsH1x3WEVnpTbAYw,21
+pydelatin-0.2.6.dist-info/RECORD,,
