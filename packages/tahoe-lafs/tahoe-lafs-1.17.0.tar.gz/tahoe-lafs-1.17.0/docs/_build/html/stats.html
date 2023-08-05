@@ -1,0 +1,489 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tahoe Statistics &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Debian and Ubuntu Support" href="debian.html" />
+    <link rel="prev" title="Tahoe Logging" href="logging.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tahoe Statistics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#statistics-categories">Statistics Categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#using-munin-to-graph-stats-values">Using Munin To Graph Stats Values</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Tahoe Statistics</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/stats.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tahoe-statistics">
+<h1>Tahoe Statistics<a class="headerlink" href="#tahoe-statistics" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#statistics-categories">Statistics Categories</a></li>
+<li><a class="reference internal" href="#using-munin-to-graph-stats-values">Using Munin To Graph Stats Values</a></li>
+</ol>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Each Tahoe node collects and publishes statistics about its operations as it
+runs. These include counters of how many files have been uploaded and
+downloaded, CPU usage information, performance numbers like latency of
+storage server operations, and available disk space.</p>
+<p>The easiest way to see the stats for any given node is use the web interface.
+From the main “Welcome Page”, follow the “Operational Statistics” link inside
+the small “This Client” box. If the welcome page lives at
+<a class="reference external" href="http://localhost:3456/">http://localhost:3456/</a>, then the statistics page will live at
+<a class="reference external" href="http://localhost:3456/statistics">http://localhost:3456/statistics</a> . This presents a summary of the stats
+block, along with a copy of the raw counters. To obtain just the raw counters
+(in JSON format), use /statistics?t=json instead.</p>
+</div>
+<div class="section" id="statistics-categories">
+<h2>Statistics Categories<a class="headerlink" href="#statistics-categories" title="Permalink to this headline">¶</a></h2>
+<p>The stats dictionary contains two keys: ‘counters’ and ‘stats’. ‘counters’
+are strictly counters: they are reset to zero when the node is started, and
+grow upwards. ‘stats’ are non-incrementing values, used to measure the
+current state of various systems. Some stats are actually booleans, expressed
+as ‘1’ for true and ‘0’ for false (internal restrictions require all stats
+values to be numbers).</p>
+<p>Under both the ‘counters’ and ‘stats’ dictionaries, each individual stat has
+a key with a dot-separated name, breaking them up into groups like
+‘cpu_monitor’ and ‘storage_server’.</p>
+<p>The currently available stats (as of release 1.6.0 or so) are described here:</p>
+<p><strong>counters.storage_server.*</strong></p>
+<blockquote>
+<div><p>this group counts inbound storage-server operations. They are not provided
+by client-only nodes which have been configured to not run a storage server
+(with [storage]enabled=false in tahoe.cfg)</p>
+<dl class="docutils">
+<dt>allocate, write, close, abort</dt>
+<dd>these are for immutable file uploads. ‘allocate’ is incremented when a
+client asks if it can upload a share to the server. ‘write’ is
+incremented for each chunk of data written. ‘close’ is incremented when
+the share is finished. ‘abort’ is incremented if the client abandons
+the upload.</dd>
+<dt>get, read</dt>
+<dd>these are for immutable file downloads. ‘get’ is incremented
+when a client asks if the server has a specific share. ‘read’ is
+incremented for each chunk of data read.</dd>
+<dt>readv, writev</dt>
+<dd>these are for immutable file creation, publish, and retrieve. ‘readv’
+is incremented each time a client reads part of a mutable share.
+‘writev’ is incremented each time a client sends a modification
+request.</dd>
+<dt>add-lease, renew, cancel</dt>
+<dd>these are for share lease modifications. ‘add-lease’ is incremented
+when an ‘add-lease’ operation is performed (which either adds a new
+lease or renews an existing lease). ‘renew’ is for the ‘renew-lease’
+operation (which can only be used to renew an existing one). ‘cancel’
+is used for the ‘cancel-lease’ operation.</dd>
+<dt>bytes_freed</dt>
+<dd>this counts how many bytes were freed when a ‘cancel-lease’
+operation removed the last lease from a share and the share
+was thus deleted.</dd>
+<dt>bytes_added</dt>
+<dd>this counts how many bytes were consumed by immutable share
+uploads. It is incremented at the same time as the ‘close’
+counter.</dd>
+</dl>
+</div></blockquote>
+<p><strong>stats.storage_server.*</strong></p>
+<blockquote>
+<div><dl class="docutils">
+<dt>allocated</dt>
+<dd>this counts how many bytes are currently ‘allocated’, which
+tracks the space that will eventually be consumed by immutable
+share upload operations. The stat is increased as soon as the
+upload begins (at the same time the ‘allocated’ counter is
+incremented), and goes back to zero when the ‘close’ or ‘abort’
+message is received (at which point the ‘disk_used’ stat should
+incremented by the same amount).</dd>
+<dt>disk_total, disk_used, disk_free_for_root, disk_free_for_nonroot, disk_avail, reserved_space</dt>
+<dd>these all reflect disk-space usage policies and status.
+‘disk_total’ is the total size of disk where the storage
+server’s BASEDIR/storage/shares directory lives, as reported
+by /bin/df or equivalent. ‘disk_used’, ‘disk_free_for_root’,
+and ‘disk_free_for_nonroot’ show related information.
+‘reserved_space’ reports the reservation configured by the
+tahoe.cfg [storage]reserved_space value. ‘disk_avail’
+reports the remaining disk space available for the Tahoe
+server after subtracting reserved_space from disk_avail. All
+values are in bytes.</dd>
+<dt>accepting_immutable_shares</dt>
+<dd>this is ‘1’ if the storage server is currently accepting uploads of
+immutable shares. It may be ‘0’ if a server is disabled by
+configuration, or if the disk is full (i.e. disk_avail is less than
+reserved_space).</dd>
+<dt>total_bucket_count</dt>
+<dd>this counts the number of ‘buckets’ (i.e. unique
+storage-index values) currently managed by the storage
+server. It indicates roughly how many files are managed
+by the server.</dd>
+<dt>latencies.*.*</dt>
+<dd>these stats keep track of local disk latencies for
+storage-server operations. A number of percentile values are
+tracked for many operations. For example,
+‘storage_server.latencies.readv.50_0_percentile’ records the
+median response time for a ‘readv’ request. All values are in
+seconds. These are recorded by the storage server, starting
+from the time the request arrives (post-deserialization) and
+ending when the response begins serialization. As such, they
+are mostly useful for measuring disk speeds. The operations
+tracked are the same as the counters.storage_server.* counter
+values (allocate, write, close, get, read, add-lease, renew,
+cancel, readv, writev). The percentile values tracked are:
+mean, 01_0_percentile, 10_0_percentile, 50_0_percentile,
+90_0_percentile, 95_0_percentile, 99_0_percentile,
+99_9_percentile. (the last value, 99.9 percentile, means that
+999 out of the last 1000 operations were faster than the
+given number, and is the same threshold used by Amazon’s
+internal SLA, according to the Dynamo paper).
+Percentiles are only reported in the case of a sufficient
+number of observations for unambiguous interpretation. For
+example, the 99.9th percentile is (at the level of thousandths
+precision) 9 thousandths greater than the 99th
+percentile for sample sizes greater than or equal to 1000,
+thus the 99.9th percentile is only reported for samples of 1000
+or more observations.</dd>
+</dl>
+</div></blockquote>
+<p><strong>counters.uploader.files_uploaded</strong></p>
+<p><strong>counters.uploader.bytes_uploaded</strong></p>
+<p><strong>counters.downloader.files_downloaded</strong></p>
+<p><strong>counters.downloader.bytes_downloaded</strong></p>
+<blockquote>
+<div>These count client activity: a Tahoe client will increment these when it
+uploads or downloads an immutable file. ‘files_uploaded’ is incremented by
+one for each operation, while ‘bytes_uploaded’ is incremented by the size of
+the file.</div></blockquote>
+<p><strong>counters.mutable.files_published</strong></p>
+<p><strong>counters.mutable.bytes_published</strong></p>
+<p><strong>counters.mutable.files_retrieved</strong></p>
+<p><strong>counters.mutable.bytes_retrieved</strong></p>
+<blockquote>
+<div>These count client activity for mutable files. ‘published’ is the act of
+changing an existing mutable file (or creating a brand-new mutable file).
+‘retrieved’ is the act of reading its current contents.</div></blockquote>
+<p><strong>counters.chk_upload_helper.*</strong></p>
+<blockquote>
+<div><p>These count activity of the “Helper”, which receives ciphertext from clients
+and performs erasure-coding and share upload for files that are not already
+in the grid. The code which implements these counters is in
+src/allmydata/immutable/offloaded.py .</p>
+<dl class="docutils">
+<dt>upload_requests</dt>
+<dd>incremented each time a client asks to upload a file
+upload_already_present: incremented when the file is already in the grid</dd>
+<dt>upload_need_upload</dt>
+<dd>incremented when the file is not already in the grid</dd>
+<dt>resumes</dt>
+<dd>incremented when the helper already has partial ciphertext for
+the requested upload, indicating that the client is resuming an
+earlier upload</dd>
+<dt>fetched_bytes</dt>
+<dd>this counts how many bytes of ciphertext have been fetched
+from uploading clients</dd>
+<dt>encoded_bytes</dt>
+<dd>this counts how many bytes of ciphertext have been
+encoded and turned into successfully-uploaded shares. If no
+uploads have failed or been abandoned, encoded_bytes should
+eventually equal fetched_bytes.</dd>
+</dl>
+</div></blockquote>
+<p><strong>stats.chk_upload_helper.*</strong></p>
+<blockquote>
+<div><p>These also track Helper activity:</p>
+<dl class="docutils">
+<dt>active_uploads</dt>
+<dd>how many files are currently being uploaded. 0 when idle.</dd>
+<dt>incoming_count</dt>
+<dd>how many cache files are present in the incoming/ directory,
+which holds ciphertext files that are still being fetched
+from the client</dd>
+<dt>incoming_size</dt>
+<dd>total size of cache files in the incoming/ directory</dd>
+<dt>incoming_size_old</dt>
+<dd>total size of ‘old’ cache files (more than 48 hours)</dd>
+<dt>encoding_count</dt>
+<dd>how many cache files are present in the encoding/ directory,
+which holds ciphertext files that are being encoded and
+uploaded</dd>
+<dt>encoding_size</dt>
+<dd>total size of cache files in the encoding/ directory</dd>
+<dt>encoding_size_old</dt>
+<dd>total size of ‘old’ cache files (more than 48 hours)</dd>
+</dl>
+</div></blockquote>
+<dl class="docutils">
+<dt><strong>stats.node.uptime</strong></dt>
+<dd>how many seconds since the node process was started</dd>
+</dl>
+<p><strong>stats.cpu_monitor.*</strong></p>
+<blockquote>
+<div><dl class="docutils">
+<dt>1min_avg, 5min_avg, 15min_avg</dt>
+<dd>estimate of what percentage of system CPU time was consumed by the
+node process, over the given time interval. Expressed as a float, 0.0
+for 0%, 1.0 for 100%</dd>
+<dt>total</dt>
+<dd>estimate of total number of CPU seconds consumed by node since
+the process was started. Ticket #472 indicates that .total may
+sometimes be negative due to wraparound of the kernel’s counter.</dd>
+</dl>
+</div></blockquote>
+</div>
+<div class="section" id="using-munin-to-graph-stats-values">
+<h2>Using Munin To Graph Stats Values<a class="headerlink" href="#using-munin-to-graph-stats-values" title="Permalink to this headline">¶</a></h2>
+<p>The misc/operations_helpers/munin/ directory contains various plugins to
+graph stats for Tahoe nodes. They are intended for use with the <a class="reference external" href="http://munin-monitoring.org/">Munin</a>
+system-management tool, which typically polls target systems every 5 minutes
+and produces a web page with graphs of various things over multiple time
+scales (last hour, last month, last year).</p>
+<p>Most of the plugins are designed to pull stats from a single Tahoe node, and
+are configured with the e.g. <a class="reference external" href="http://localhost:3456/statistics?t=json">http://localhost:3456/statistics?t=json</a> URL. The
+“tahoe_stats” plugin is designed to read from the JSON file created by the
+stats-gatherer. Some plugins are to be used with the disk watcher, and a few
+(like tahoe_nodememory) are designed to watch the node processes directly
+(and must therefore run on the same host as the target node).</p>
+<p>Please see the docstrings at the beginning of each plugin for details, and
+the “tahoe-conf” file for notes about configuration and installing these
+plugins into a Munin environment.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="debian.html" class="btn btn-neutral float-right" title="Debian and Ubuntu Support" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="logging.html" class="btn btn-neutral float-left" title="Tahoe Logging" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

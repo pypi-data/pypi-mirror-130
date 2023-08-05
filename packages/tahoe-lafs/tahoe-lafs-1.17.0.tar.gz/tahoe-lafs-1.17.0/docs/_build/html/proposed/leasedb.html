@@ -1,0 +1,517 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Lease database design &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Storage Node Protocol (“Great Black Swamp”, “GBS”)" href="http-storage-node-protocol.html" />
+    <link rel="prev" title="Proposed Specifications" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/index.html">Specifications</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Proposed Specifications</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Lease database design</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#motivation">Motivation</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#design-constraints">Design constraints</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accounting-crawler">Accounting crawler</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#accounts">Accounts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#share-states">Share states</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#state-transitions">State transitions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#unresolved-design-issues">Unresolved design issues</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#future-directions">Future directions</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="http-storage-node-protocol.html">Storage Node Protocol (“Great Black Swamp”, “GBS”)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Proposed Specifications</a> &raquo;</li>
+        
+      <li>Lease database design</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/proposed/leasedb.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lease-database-design">
+<h1>Lease database design<a class="headerlink" href="#lease-database-design" title="Permalink to this headline">¶</a></h1>
+<p>The target audience for this document is developers who wish to understand
+the new lease database (leasedb) planned to be added in Tahoe-LAFS v1.11.0.</p>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>A “lease” is a request by an account that a share not be deleted before a
+specified time. Each storage server stores leases in order to know which
+shares to spare from garbage collection.</p>
+</div>
+<div class="section" id="motivation">
+<h2>Motivation<a class="headerlink" href="#motivation" title="Permalink to this headline">¶</a></h2>
+<p>The leasedb will replace the current design in which leases are stored in
+the storage server’s share container files. That design has several
+disadvantages:</p>
+<ul class="simple">
+<li>Updating a lease requires modifying a share container file (even for
+immutable shares). This complicates the implementation of share classes.
+The mixing of share contents and lease data in share files also led to a
+security bug (ticket <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1528">#1528</a>).</li>
+<li>When only the disk backend is supported, it is possible to read and
+update leases synchronously because the share files are stored locally
+to the storage server. For the cloud backend, accessing share files
+requires an HTTP request, and so must be asynchronous. Accepting this
+asynchrony for lease queries would be both inefficient and complex.
+Moving lease information out of shares and into a local database allows
+lease queries to stay synchronous.</li>
+</ul>
+<p>Also, the current cryptographic protocol for renewing and cancelling leases
+(based on shared secrets derived from secure hash functions) is complex,
+and the cancellation part was never used.</p>
+<p>The leasedb solves the first two problems by storing the lease information in
+a local database instead of in the share container files. The share data
+itself is still held in the share container file.</p>
+<p>At the same time as implementing leasedb, we devised a simpler protocol for
+allocating and cancelling leases: a client can use a public key digital
+signature to authenticate access to a foolscap object representing the
+authority of an account. This protocol is not yet implemented; at the time
+of writing, only an “anonymous” account is supported.</p>
+<p>The leasedb also provides an efficient way to get summarized information,
+such as total space usage of shares leased by an account, for accounting
+purposes.</p>
+</div>
+<div class="section" id="design-constraints">
+<h2>Design constraints<a class="headerlink" href="#design-constraints" title="Permalink to this headline">¶</a></h2>
+<p>A share is stored as a collection of objects. The persistent storage may be
+remote from the server (for example, cloud storage).</p>
+<p>Writing to the persistent store objects is in general not an atomic
+operation. So the leasedb also keeps track of which shares are in an
+inconsistent state because they have been partly written. (This may
+change in future when we implement a protocol to improve atomicity of
+updates to mutable shares.)</p>
+<p>Leases are no longer stored in shares. The same share format is used as
+before, but the lease slots are ignored, and are cleared when rewriting a
+mutable share. The new design also does not use lease renewal or cancel
+secrets. (They are accepted as parameters in the storage protocol interfaces
+for backward compatibility, but are ignored. Cancel secrets were already
+ignored due to the fix for <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1528">#1528</a>.)</p>
+<p>The new design needs to be fail-safe in the sense that if the lease database
+is lost or corruption is detected, no share data will be lost (even though
+the metadata about leases held by particular accounts has been lost).</p>
+</div>
+<div class="section" id="accounting-crawler">
+<h2>Accounting crawler<a class="headerlink" href="#accounting-crawler" title="Permalink to this headline">¶</a></h2>
+<p>A “crawler” is a long-running process that visits share container files at a
+slow rate, so as not to overload the server by trying to visit all share
+container files one after another immediately.</p>
+<p>The accounting crawler replaces the previous “lease crawler”. It examines
+each share container file and compares it with the state of the leasedb, and
+may update the state of the share and/or the leasedb.</p>
+<p>The accounting crawler may perform the following functions (but see ticket
+#1834 for a proposal to reduce the scope of its responsibility):</p>
+<ul class="simple">
+<li>Remove leases that are past their expiration time. (Currently, this is
+done automatically before deleting shares, but we plan to allow expiration
+to be performed separately for individual accounts in future.)</li>
+<li>Delete the objects containing unleased shares — that is, shares that have
+stable entries in the leasedb but no current leases (see below for the
+definition of “stable” entries).</li>
+<li>Discover shares that have been manually added to storage, via <code class="docutils literal notranslate"><span class="pre">scp</span></code> or
+some other out-of-band means.</li>
+<li>Discover shares that are present when a storage server is upgraded to
+a leasedb-supporting version from a previous version, and give them
+“starter leases”.</li>
+<li>Recover from a situation where the leasedb is lost or detectably
+corrupted. This is handled in the same way as upgrading from a previous
+version.</li>
+<li>Detect shares that have unexpectedly disappeared from storage.  The
+disappearance of a share is logged, and its entry and leases are removed
+from the leasedb.</li>
+</ul>
+</div>
+<div class="section" id="accounts">
+<h2>Accounts<a class="headerlink" href="#accounts" title="Permalink to this headline">¶</a></h2>
+<p>An account holds leases for some subset of shares stored by a server. The
+leasedb schema can handle many distinct accounts, but for the time being we
+create only two accounts: an anonymous account and a starter account. The
+starter account is used for leases on shares discovered by the accounting
+crawler; the anonymous account is used for all other leases.</p>
+<p>The leasedb has at most one lease entry per account per (storage_index,
+shnum) pair. This entry stores the times when the lease was last renewed and
+when it is set to expire (if the expiration policy does not force it to
+expire earlier), represented as Unix UTC-seconds-since-epoch timestamps.</p>
+<p>For more on expiration policy, see <a class="reference internal" href="../garbage-collection.html"><span class="doc">Garbage Collection in Tahoe</span></a>.</p>
+</div>
+<div class="section" id="share-states">
+<h2>Share states<a class="headerlink" href="#share-states" title="Permalink to this headline">¶</a></h2>
+<p>The leasedb holds an explicit indicator of the state of each share.</p>
+<p>The diagram and descriptions below give the possible values of the “state”
+indicator, what that value means, and transitions between states, for any
+(storage_index, shnum) pair on each server:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#        STATE_STABLE -------.</span>
+<span class="c1">#         ^   |   ^ |         |</span>
+<span class="c1">#         |   v   | |         v</span>
+<span class="c1">#    STATE_COMING | |    STATE_GOING</span>
+<span class="c1">#         ^       | |         |</span>
+<span class="c1">#         |       | v         |</span>
+<span class="c1">#         &#39;----- NONE &lt;------&#39;</span>
+</pre></div>
+</div>
+<p><strong>NONE</strong>: There is no entry in the <code class="docutils literal notranslate"><span class="pre">shares</span></code> table for this (storage_index,
+shnum) in this server’s leasedb. This is the initial state.</p>
+<p><strong>STATE_COMING</strong>: The share is being created or (if a mutable share)
+updated. The store objects may have been at least partially written, but
+the storage server doesn’t have confirmation that they have all been
+completely written.</p>
+<p><strong>STATE_STABLE</strong>: The store objects have been completely written and are
+not in the process of being modified or deleted by the storage server. (It
+could have been modified or deleted behind the back of the storage server,
+but if it has, the server has not noticed that yet.) The share may or may not
+be leased.</p>
+<p><strong>STATE_GOING</strong>: The share is being deleted.</p>
+</div>
+<div class="section" id="state-transitions">
+<h2>State transitions<a class="headerlink" href="#state-transitions" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p class="first"><strong>STATE_GOING</strong> → <strong>NONE</strong></p>
+<blockquote>
+<div><p>trigger: The storage server gains confidence that all store objects for
+the share have been removed.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Remove the entry in the leasedb.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>STATE_STABLE</strong> → <strong>NONE</strong></p>
+<blockquote>
+<div><p>trigger: The accounting crawler noticed that all the store objects for
+this share are gone.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Remove the entry in the leasedb.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>NONE</strong> → <strong>STATE_COMING</strong></p>
+<blockquote>
+<div><p>triggers: A new share is being created, as explicitly signalled by a
+client invoking a creation command, <em>or</em> the accounting crawler discovers
+an incomplete share.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Add an entry to the leasedb with <strong>STATE_COMING</strong>.</li>
+<li>(In case of explicit creation) begin writing the store objects to hold
+the share.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>STATE_STABLE</strong> → <strong>STATE_COMING</strong></p>
+<blockquote>
+<div><p>trigger: A mutable share is being modified, as explicitly signalled by a
+client invoking a modification command.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Add an entry to the leasedb with <strong>STATE_COMING</strong>.</li>
+<li>Begin updating the store objects.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>STATE_COMING</strong> → <strong>STATE_STABLE</strong></p>
+<blockquote>
+<div><p>trigger: All store objects have been written.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Change the state value of this entry in the leasedb from
+<strong>STATE_COMING</strong> to <strong>STATE_STABLE</strong>.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>NONE</strong> → <strong>STATE_STABLE</strong></p>
+<blockquote>
+<div><p>trigger: The accounting crawler discovers a complete share.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Add an entry to the leasedb with <strong>STATE_STABLE</strong>.</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p class="first"><strong>STATE_STABLE</strong> → <strong>STATE_GOING</strong></p>
+<blockquote>
+<div><p>trigger: The share should be deleted because it is unleased.</p>
+<p>implementation:</p>
+<ol class="arabic simple">
+<li>Change the state value of this entry in the leasedb from
+<strong>STATE_STABLE</strong> to <strong>STATE_GOING</strong>.</li>
+<li>Initiate removal of the store objects.</li>
+</ol>
+</div></blockquote>
+</li>
+</ul>
+<p>The following constraints are needed to avoid race conditions:</p>
+<ul class="simple">
+<li>While a share is being deleted (entry in <strong>STATE_GOING</strong>), we do not accept
+any requests to recreate it. That would result in add and delete requests
+for store objects being sent concurrently, with undefined results.</li>
+<li>While a share is being added or modified (entry in <strong>STATE_COMING</strong>), we
+treat it as leased.</li>
+<li>Creation or modification requests for a given mutable share are serialized.</li>
+</ul>
+</div>
+<div class="section" id="unresolved-design-issues">
+<h2>Unresolved design issues<a class="headerlink" href="#unresolved-design-issues" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li>What happens if a write to store objects for a new share fails
+permanently?  If we delete the share entry, then the accounting crawler
+will eventually get to those store objects and see that their lengths
+are inconsistent with the length in the container header. This will cause
+the share to be treated as corrupted. Should we instead attempt to
+delete those objects immediately? If so, do we need a direct
+<strong>STATE_COMING</strong> → <strong>STATE_GOING</strong> transition to handle this case?</li>
+<li>What happens if only some store objects for a share disappear
+unexpectedly?  This case is similar to only some objects having been
+written when we get an unrecoverable error during creation of a share, but
+perhaps we want to treat it differently in order to preserve information
+about the storage service having lost data.</li>
+<li>Does the leasedb need to track corrupted shares?</li>
+</ul>
+</div>
+<div class="section" id="future-directions">
+<h2>Future directions<a class="headerlink" href="#future-directions" title="Permalink to this headline">¶</a></h2>
+<p>Clients will have key pairs identifying accounts, and will be able to add
+leases for a specific account. Various space usage policies can be defined.</p>
+<p>Better migration tools (‘tahoe storage export’?) will create export files
+that include both the share data and the lease data, and then an import tool
+will both put the share in the right place and update the recipient node’s
+leasedb.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="http-storage-node-protocol.html" class="btn btn-neutral float-right" title="Storage Node Protocol (“Great Black Swamp”, “GBS”)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Proposed Specifications" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

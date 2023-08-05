@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tahoe URIs &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="File Encoding" href="file-encoding.html" />
+    <link rel="prev" title="URLs" href="url.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Specifications</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="outline.html">Specification Document Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html">URLs</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Tahoe URIs</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#file-uris">File URIs</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#chk-uris">CHK URIs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#lit-uris">LIT URIs</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#mutable-file-uris">Mutable File URIs</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#directory-uris">Directory URIs</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#internal-usage-of-uris">Internal Usage of URIs</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="file-encoding.html">File Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="URI-extension.html">URI Extension Block</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mutable.html">Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dirnodes.html">Tahoe-LAFS Directory Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers-of-happiness.html">Servers of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers-of-happiness.html#upload-strategy-of-happiness">Upload Strategy of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="backends/raic.html">Redundant Array of Independent Clouds: Share To Cloud Mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Specifications</a> &raquo;</li>
+        
+      <li>Tahoe URIs</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/specifications/uri.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tahoe-uris">
+<h1>Tahoe URIs<a class="headerlink" href="#tahoe-uris" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#file-uris">File URIs</a><ol class="arabic">
+<li><a class="reference internal" href="#chk-uris">CHK URIs</a></li>
+<li><a class="reference internal" href="#lit-uris">LIT URIs</a></li>
+<li><a class="reference internal" href="#mutable-file-uris">Mutable File URIs</a></li>
+</ol>
+</li>
+<li><a class="reference internal" href="#directory-uris">Directory URIs</a></li>
+<li><a class="reference internal" href="#internal-usage-of-uris">Internal Usage of URIs</a></li>
+</ol>
+<p>Each file and directory in a Tahoe-LAFS file store is described by a “URI”.
+There are different kinds of URIs for different kinds of objects, and there
+are different kinds of URIs to provide different kinds of access to those
+objects. Each URI is a string representation of a “capability” or “cap”, and
+there are read-caps, write-caps, verify-caps, and others.</p>
+<p>Each URI provides both <code class="docutils literal notranslate"><span class="pre">location</span></code> and <code class="docutils literal notranslate"><span class="pre">identification</span></code> properties.
+<code class="docutils literal notranslate"><span class="pre">location</span></code> means that holding the URI is sufficient to locate the data it
+represents (this means it contains a storage index or a lookup key, whatever
+is necessary to find the place or places where the data is being kept).
+<code class="docutils literal notranslate"><span class="pre">identification</span></code> means that the URI also serves to validate the data: an
+attacker who wants to trick you into into using the wrong data will be
+limited in their abilities by the identification properties of the URI.</p>
+<p>Some URIs are subsets of others. In particular, if you know a URI which
+allows you to modify some object, you can produce a weaker read-only URI and
+give it to someone else, and they will be able to read that object but not
+modify it. Directories, for example, have a read-cap which is derived from
+the write-cap: anyone with read/write access to the directory can produce a
+limited URI that grants read-only access, but not the other way around.</p>
+<p>src/allmydata/uri.py is the main place where URIs are processed. It is
+the authoritative definition point for all the the URI types described
+herein.</p>
+<div class="section" id="file-uris">
+<h2>File URIs<a class="headerlink" href="#file-uris" title="Permalink to this headline">¶</a></h2>
+<p>The lowest layer of the Tahoe architecture (the “key-value store”) is
+reponsible for mapping URIs to data. This is basically a distributed
+hash table, in which the URI is the key, and some sequence of bytes is
+the value.</p>
+<p>There are two kinds of entries in this table: immutable and mutable. For
+immutable entries, the URI represents a fixed chunk of data. The URI itself
+is derived from the data when it is uploaded into the grid, and can be used
+to locate and download that data from the grid at some time in the future.</p>
+<p>For mutable entries, the URI identifies a “slot” or “container”, which can be
+filled with different pieces of data at different times.</p>
+<p>It is important to note that the values referenced by these URIs are just
+sequences of bytes, and that <strong>no</strong> filenames or other metadata is retained at
+this layer. The file store layer (which sits above the key-value store layer)
+is entirely responsible for directories and filenames and the like.</p>
+<div class="section" id="chk-uris">
+<h3>CHK URIs<a class="headerlink" href="#chk-uris" title="Permalink to this headline">¶</a></h3>
+<p>CHK (Content Hash Keyed) files are immutable sequences of bytes. They are
+uploaded in a distributed fashion using a “storage index” (for the “location”
+property), and encrypted using a “read key”. A secure hash of the data is
+computed to help validate the data afterwards (providing the “identification”
+property). All of these pieces, plus information about the file’s size and
+the number of shares into which it has been distributed, are put into the
+“CHK” uri. The storage index is derived by hashing the read key (using a
+tagged SHA-256d hash, then truncated to 128 bits), so it does not need to be
+physically present in the URI.</p>
+<p>The current format for CHK URIs is the concatenation of the following
+strings:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">CHK</span><span class="p">:(</span><span class="n">key</span><span class="p">):(</span><span class="nb">hash</span><span class="p">):(</span><span class="n">needed</span><span class="o">-</span><span class="n">shares</span><span class="p">):(</span><span class="n">total</span><span class="o">-</span><span class="n">shares</span><span class="p">):(</span><span class="n">size</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Where (key) is the base32 encoding of the 16-byte AES read key, (hash) is the
+base32 encoding of the SHA-256 hash of the URI Extension Block,
+(needed-shares) is an ascii decimal representation of the number of shares
+required to reconstruct this file, (total-shares) is the same representation
+of the total number of shares created, and (size) is an ascii decimal
+representation of the size of the data represented by this URI. All base32
+encodings are expressed in lower-case, with the trailing ‘=’ signs removed.</p>
+<p>For example, the following is a CHK URI, generated from a previous version of
+the contents of <a class="reference internal" href="../architecture.html"><span class="doc">architecture.rst</span></a>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">CHK</span><span class="p">:</span><span class="n">ihrbeov7lbvoduupd4qblysj7a</span><span class="p">:</span><span class="n">bg5agsdt62jb34hxvxmdsbza6do64f4fg5anxxod2buttbo6udzq</span><span class="p">:</span><span class="mi">3</span><span class="p">:</span><span class="mi">10</span><span class="p">:</span><span class="mi">28733</span>
+</pre></div>
+</div>
+<p>Historical note: The name “CHK” is somewhat inaccurate and continues to be
+used for historical reasons. “Content Hash Key” means that the encryption key
+is derived by hashing the contents, which gives the useful property that
+encoding the same file twice will result in the same URI. However, this is an
+optional step: by passing a different flag to the appropriate API call, Tahoe
+will generate a random encryption key instead of hashing the file: this gives
+the useful property that the URI or storage index does not reveal anything
+about the file’s contents (except filesize), which improves privacy. The
+URI:CHK: prefix really indicates that an immutable file is in use, without
+saying anything about how the key was derived.</p>
+</div>
+<div class="section" id="lit-uris">
+<h3>LIT URIs<a class="headerlink" href="#lit-uris" title="Permalink to this headline">¶</a></h3>
+<p>LITeral files are also an immutable sequence of bytes, but they are so short
+that the data is stored inside the URI itself. These are used for files of 55
+bytes or shorter, which is the point at which the LIT URI is the same length
+as a CHK URI would be.</p>
+<p>LIT URIs do not require an upload or download phase, as their data is stored
+directly in the URI.</p>
+<p>The format of a LIT URI is simply a fixed prefix concatenated with the base32
+encoding of the file’s data:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">LIT</span><span class="p">:</span><span class="n">bjuw4y3movsgkidbnrwg26lemf2gcl3xmvrc6kropbuhi3lmbi</span>
+</pre></div>
+</div>
+<p>The LIT URI for an empty file is “URI:LIT:”, and the LIT URI for a 5-byte
+file that contains the string “hello” is “URI:LIT:nbswy3dp”.</p>
+</div>
+<div class="section" id="mutable-file-uris">
+<h3>Mutable File URIs<a class="headerlink" href="#mutable-file-uris" title="Permalink to this headline">¶</a></h3>
+<p>The other kind of DHT entry is the “mutable slot”, in which the URI names a
+container to which data can be placed and retrieved without changing the
+identity of the container.</p>
+<p>These slots have write-caps (which allow read/write access), read-caps (which
+only allow read-access), and verify-caps (which allow a file checker/repairer
+to confirm that the contents exist, but does not let it decrypt the
+contents).</p>
+<p>Mutable slots use public key technology to provide data integrity, and put a
+hash of the public key in the URI. As a result, the data validation is
+limited to confirming that the data retrieved matches <em>some</em> data that was
+uploaded in the past, but not _which_ version of that data.</p>
+<p>The format of the write-cap for mutable files is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">SSK</span><span class="p">:(</span><span class="n">writekey</span><span class="p">):(</span><span class="n">fingerprint</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Where (writekey) is the base32 encoding of the 16-byte AES encryption key
+that is used to encrypt the RSA private key, and (fingerprint) is the base32
+encoded 32-byte SHA-256 hash of the RSA public key. For more details about
+the way these keys are used, please see <a class="reference internal" href="mutable.html"><span class="doc">Mutable Files</span></a>.</p>
+<p>The format for mutable read-caps is:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">SSK</span><span class="o">-</span><span class="n">RO</span><span class="p">:(</span><span class="n">readkey</span><span class="p">):(</span><span class="n">fingerprint</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>The read-cap is just like the write-cap except it contains the other AES
+encryption key: the one used for encrypting the mutable file’s contents. This
+second key is derived by hashing the writekey, which allows the holder of a
+write-cap to produce a read-cap, but not the other way around. The
+fingerprint is the same in both caps.</p>
+<p>Historical note: the “SSK” prefix is a perhaps-inaccurate reference to
+“Sub-Space Keys” from the Freenet project, which uses a vaguely similar
+structure to provide mutable file access.</p>
+</div>
+</div>
+<div class="section" id="directory-uris">
+<h2>Directory URIs<a class="headerlink" href="#directory-uris" title="Permalink to this headline">¶</a></h2>
+<p>The key-value store layer provides a mapping from URI to data. To turn this
+into a graph of directories and files, the “file store” layer (which sits on
+top of the key-value store layer) needs to keep track of “directory nodes”,
+or “dirnodes” for short. <a class="reference internal" href="dirnodes.html"><span class="doc">Tahoe-LAFS Directory Nodes</span></a> describes how these work.</p>
+<p>Dirnodes are contained inside mutable files, and are thus simply a particular
+way to interpret the contents of these files. As a result, a directory
+write-cap looks a lot like a mutable-file write-cap:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">DIR2</span><span class="p">:(</span><span class="n">writekey</span><span class="p">):(</span><span class="n">fingerprint</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Likewise directory read-caps (which provide read-only access to the
+directory) look much like mutable-file read-caps:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">URI</span><span class="p">:</span><span class="n">DIR2</span><span class="o">-</span><span class="n">RO</span><span class="p">:(</span><span class="n">readkey</span><span class="p">):(</span><span class="n">fingerprint</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>Historical note: the “DIR2” prefix is used because the non-distributed
+dirnodes in earlier Tahoe releases had already claimed the “DIR” prefix.</p>
+</div>
+<div class="section" id="internal-usage-of-uris">
+<h2>Internal Usage of URIs<a class="headerlink" href="#internal-usage-of-uris" title="Permalink to this headline">¶</a></h2>
+<p>The classes in source:src/allmydata/uri.py are used to pack and unpack these
+various kinds of URIs. Three Interfaces are defined (IURI, IFileURI, and
+IDirnodeURI) which are implemented by these classes, and string-to-URI-class
+conversion routines have been registered as adapters, so that code which
+wants to extract e.g. the size of a CHK or LIT uri can do:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span> <span class="n">IFileURI</span><span class="p">(</span><span class="n">uri</span><span class="p">)</span><span class="o">.</span><span class="n">get_size</span><span class="p">()</span>
+</pre></div>
+</div>
+<p>If the URI does not represent a CHK or LIT uri (for example, if it was for a
+directory instead), the adaptation will fail, raising a TypeError inside the
+IFileURI() call.</p>
+<p>Several utility methods are provided on these objects. The most important is
+<code class="docutils literal notranslate"><span class="pre">to_string()</span></code>, which returns the string form of the URI. Therefore
+<code class="docutils literal notranslate"><span class="pre">IURI(uri).to_string</span> <span class="pre">==</span> <span class="pre">uri</span></code> is true for any valid URI. See the IURI class
+in source:src/allmydata/interfaces.py for more details.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="file-encoding.html" class="btn btn-neutral float-right" title="File Encoding" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="url.html" class="btn btn-neutral float-left" title="URLs" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

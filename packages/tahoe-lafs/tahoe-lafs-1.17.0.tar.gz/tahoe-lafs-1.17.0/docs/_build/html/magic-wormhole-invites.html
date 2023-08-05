@@ -1,0 +1,313 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Magic Wormhole Invites &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Configuring a Tahoe-LAFS node" href="configuration.html" />
+    <link rel="prev" title="How To Run Tahoe-LAFS" href="running.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Magic Wormhole Invites</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#magic-wormhole">Magic Wormhole</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#invites-and-joins">Invites and Joins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tahoe-lafs-secret-exchange">Tahoe-LAFS Secret Exchange</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Magic Wormhole Invites</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/magic-wormhole-invites.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="magic-wormhole-invites">
+<h1>Magic Wormhole Invites<a class="headerlink" href="#magic-wormhole-invites" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="magic-wormhole">
+<h2>Magic Wormhole<a class="headerlink" href="#magic-wormhole" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="https://github.com/warner/magic-wormhole#design">magic wormhole</a> is a server and a client which together use Password
+Authenticated Key Exchange (PAKE) to use a short code to establish a
+secure channel between two computers. These codes are one-time use and
+an attacker gets at most one “guess”, thus allowing low-entropy codes
+to be used.</p>
+</div>
+<div class="section" id="invites-and-joins">
+<h2>Invites and Joins<a class="headerlink" href="#invites-and-joins" title="Permalink to this headline">¶</a></h2>
+<p>Inside Tahoe-LAFS we are using a channel created using <a class="reference external" href="https://github.com/warner/magic-wormhole#design">magic
+wormhole</a> to exchange configuration and the secret fURL of the
+Introducer with new clients.</p>
+<p>This is a two-part process. Alice runs a grid and wishes to have her
+friend Bob use it as a client. She runs <code class="docutils literal notranslate"><span class="pre">tahoe</span> <span class="pre">invite</span> <span class="pre">bob</span></code> which
+will print out a short “wormhole code” like <code class="docutils literal notranslate"><span class="pre">2-unicorn-quiver</span></code>. You
+may also include some options for total, happy and needed shares if
+you like.</p>
+<p>Alice then transmits this one-time secret code to Bob. Alice must keep
+her command running until Bob has done his step as it is waiting until
+a secure channel is established before sending the data.</p>
+<p>Bob then runs <code class="docutils literal notranslate"><span class="pre">tahoe</span> <span class="pre">create-client</span> <span class="pre">--join</span> <span class="pre">&lt;secret</span> <span class="pre">code&gt;</span></code> with any
+other options he likes. This will “use up” the code establishing a
+secure session with Alice’s computer. If an attacker tries to guess
+the code, they get only once chance to do so (and then Bob’s side will
+fail). Once Bob’s computer has connected to Alice’s computer, the two
+computers performs the protocol described below, resulting in some
+JSON with the Introducer fURL, nickname and any other options being
+sent to Bob’s computer. The <code class="docutils literal notranslate"><span class="pre">tahoe</span> <span class="pre">create-client</span></code> command then uses
+these options to set up Bob’s client.</p>
+</div>
+<div class="section" id="tahoe-lafs-secret-exchange">
+<h2>Tahoe-LAFS Secret Exchange<a class="headerlink" href="#tahoe-lafs-secret-exchange" title="Permalink to this headline">¶</a></h2>
+<p>The protocol that the Alice (the one doing the invite) and Bob (the
+one being invited) sides perform once a magic wormhole secure channel
+has been established goes as follows:</p>
+<p>Alice and Bob both immediately send an “abilities” message as
+JSON. For Alice this is <code class="docutils literal notranslate"><span class="pre">{&quot;abilities&quot;:</span> <span class="pre">{&quot;server-v1&quot;:</span> <span class="pre">{}}}</span></code>. For Bob,
+this is <code class="docutils literal notranslate"><span class="pre">{&quot;abilities&quot;:</span> <span class="pre">{&quot;client-v1&quot;:</span> <span class="pre">{}}}</span></code>.</p>
+<p>After receiving the message from the other side and confirming the
+expected protocol, Alice transmits the configuration JSON:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span>
+    <span class="s2">&quot;needed&quot;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span>
+    <span class="s2">&quot;total&quot;</span><span class="p">:</span> <span class="mi">10</span><span class="p">,</span>
+    <span class="s2">&quot;happy&quot;</span><span class="p">:</span> <span class="mi">7</span><span class="p">,</span>
+    <span class="s2">&quot;nickname&quot;</span><span class="p">:</span> <span class="s2">&quot;bob&quot;</span><span class="p">,</span>
+    <span class="s2">&quot;introducer&quot;</span><span class="p">:</span> <span class="s2">&quot;pb://xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx@example.com:41505/yyyyyyyyyyyyyyyyyyyyyyy&quot;</span>
+<span class="p">}</span>
+</pre></div>
+</div>
+<p>Both sides then disconnect.</p>
+<p>As you can see, there is room for future revisions of the protocol but
+as of yet none have been sketched out.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="configuration.html" class="btn btn-neutral float-right" title="Configuring a Tahoe-LAFS node" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="running.html" class="btn btn-neutral float-left" title="How To Run Tahoe-LAFS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

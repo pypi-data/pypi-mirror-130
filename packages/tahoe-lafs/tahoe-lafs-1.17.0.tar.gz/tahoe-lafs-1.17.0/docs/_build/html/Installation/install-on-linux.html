@@ -1,0 +1,347 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Building Tahoe-LAFS on Linux &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Building Tahoe-LAFS On A Desert Island" href="install-on-desert-island.html" />
+    <link rel="prev" title="Building Tahoe-LAFS on Windows" href="install-on-windows.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building Tahoe-LAFS on Linux</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#install-the-latest-tahoe-lafs-release">Install the Latest Tahoe-LAFS Release</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Building Tahoe-LAFS on Linux</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/Installation/install-on-linux.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="building-tahoe-lafs-on-linux">
+<h1>Building Tahoe-LAFS on Linux<a class="headerlink" href="#building-tahoe-lafs-on-linux" title="Permalink to this headline">¶</a></h1>
+<p>Tahoe-LAFS has made packages available for installing on many linux and BSD distributions.
+Debian and Ubuntu users can use <code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">tahoe-lafs</span></code>.
+If you are working on a Linux distribution which does not have Tahoe-LAFS or are looking to hack on the source code, you can build Tahoe-LAFS yourself:</p>
+<div class="section" id="prerequisites">
+<h2>Prerequisites<a class="headerlink" href="#prerequisites" title="Permalink to this headline">¶</a></h2>
+<p>Make sure the following are installed:</p>
+<ul>
+<li><p class="first"><strong>Python 3’s latest version</strong>: Check for the version by running <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">--version</span></code>.</p>
+</li>
+<li><p class="first"><strong>pip</strong>: Most python installations already include <code class="docutils literal notranslate"><span class="pre">pip</span></code>. However, if your installation does not, see <a class="reference external" href="https://pip.pypa.io/en/stable/installing/">pip installation</a>.</p>
+</li>
+<li><p class="first"><strong>virtualenv</strong>: Use <code class="docutils literal notranslate"><span class="pre">pip</span></code> to install virtualenv:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">user</span> <span class="n">virtualenv</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first"><strong>C compiler and libraries</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">python-dev</span></code>: Python development headers.</li>
+<li><code class="docutils literal notranslate"><span class="pre">libffi-dev</span></code>: Foreign Functions Interface library.</li>
+<li><code class="docutils literal notranslate"><span class="pre">libssl-dev</span></code>: SSL library, Tahoe-LAFS needs OpenSSL version 1.1.1c or greater.</li>
+</ul>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p>If you are working on Debian or Ubuntu, you can install the necessary libraries using <code class="docutils literal notranslate"><span class="pre">apt-get</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">python</span><span class="o">-</span><span class="n">dev</span> <span class="n">libffi</span><span class="o">-</span><span class="n">dev</span> <span class="n">libssl</span><span class="o">-</span><span class="n">dev</span>
+</pre></div>
+</div>
+<p class="last">On an RPM-based system such as Fedora, you can install the necessary libraries using <code class="docutils literal notranslate"><span class="pre">yum</span></code> or <code class="docutils literal notranslate"><span class="pre">rpm</span></code>. However, the packages may be named differently.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="install-the-latest-tahoe-lafs-release">
+<h2>Install the Latest Tahoe-LAFS Release<a class="headerlink" href="#install-the-latest-tahoe-lafs-release" title="Permalink to this headline">¶</a></h2>
+<p>If you are looking to hack on the source code or run pre-release code, we recommend you install Tahoe-LAFS directly from source by creating a <code class="docutils literal notranslate"><span class="pre">virtualenv</span></code> instance:</p>
+<ol class="arabic">
+<li><p class="first">Clone the Tahoe-LAFS repository:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">git</span> <span class="n">clone</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">github</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">tahoe</span><span class="o">-</span><span class="n">lafs</span><span class="o">/</span><span class="n">tahoe</span><span class="o">-</span><span class="n">lafs</span><span class="o">.</span><span class="n">git</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Move into the tahoe-lafs directory:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">tahoe</span><span class="o">-</span><span class="n">lafs</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">Create a fresh virtualenv for your Tahoe-LAFS install:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">virtualenv</span> <span class="n">venv</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">venv is the name of the virtual environment in this example. Use any name for your environment.</p>
+</div>
+<ol class="arabic" start="4">
+<li><p class="first">Upgrade <code class="docutils literal notranslate"><span class="pre">pip</span></code> and <code class="docutils literal notranslate"><span class="pre">setuptools</span></code> on the newly created virtual environment:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">pip</span> <span class="n">install</span> <span class="o">-</span><span class="n">U</span> <span class="n">pip</span> <span class="n">setuptools</span>
+</pre></div>
+</div>
+</li>
+<li><p class="first">If you’d like to modify the Tahoe source code, you need to install Tahoe-LAFS with the <code class="docutils literal notranslate"><span class="pre">--editable</span></code> flag with the <code class="docutils literal notranslate"><span class="pre">test</span></code> extra:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">pip</span> <span class="n">install</span> <span class="o">--</span><span class="n">editable</span> <span class="o">.</span><span class="p">[</span><span class="n">test</span><span class="p">]</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<div class="admonition note">
+<p class="first admonition-title">Note</p>
+<p class="last">Tahoe-LAFS provides extra functionality when requested explicitly at installation using the “extras” feature of setuptools. To learn more about the extras which Tahoe supports, see Tahoe extras.</p>
+</div>
+<ol class="arabic" start="6">
+<li><p class="first">Verify installation by checking for the version:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">venv</span><span class="o">/</span><span class="nb">bin</span><span class="o">/</span><span class="n">tahoe</span> <span class="o">--</span><span class="n">version</span>
+</pre></div>
+</div>
+</li>
+</ol>
+<p>If you do not want to use the full path, i.e., <code class="docutils literal notranslate"><span class="pre">venv/bin/tahoe</span></code> everytime you want to run tahoe, you can activate the <code class="docutils literal notranslate"><span class="pre">virtualenv</span></code>:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span> . venv/bin/activate
+
+This will generate a subshell with a ``$PATH`` that includes the ``venv/bin/`` directory.
+</pre></div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="install-on-desert-island.html" class="btn btn-neutral float-right" title="Building Tahoe-LAFS On A Desert Island" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="install-on-windows.html" class="btn btn-neutral float-left" title="Building Tahoe-LAFS on Windows" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

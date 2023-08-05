@@ -1,0 +1,367 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Welcome to Tahoe-LAFS! &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Installing Tahoe-LAFS" href="Installation/install-tahoe.html" />
+    <link rel="prev" title="Tahoe-LAFS" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Welcome to Tahoe-LAFS!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-tahoe-lafs">What is Tahoe-LAFS?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-is-provider-independent-security">What is “provider-independent security”?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#access-control">Access Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#get-started">Get Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#license">License</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Welcome to Tahoe-LAFS!</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/about-tahoe.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="welcome-to-tahoe-lafs">
+<h1>Welcome to Tahoe-LAFS!<a class="headerlink" href="#welcome-to-tahoe-lafs" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="what-is-tahoe-lafs">
+<h2>What is Tahoe-LAFS?<a class="headerlink" href="#what-is-tahoe-lafs" title="Permalink to this headline">¶</a></h2>
+<p>Welcome to <a class="reference external" href="https://tahoe-lafs.org">Tahoe-LAFS</a>, the first decentralized storage system with
+<em>provider-independent security</em>.</p>
+<p>Tahoe-LAFS is a system that helps you to store files. You run a client
+program on your computer, which talks to one or more storage servers on other
+computers. When you tell your client to store a file, it will encrypt that
+file, encode it into multiple pieces, then spread those pieces out among
+multiple servers. The pieces are all encrypted and protected against
+modifications. Later, when you ask your client to retrieve the file, it will
+find the necessary pieces, make sure they haven’t been corrupted, reassemble
+them, and decrypt the result.</p>
+<p>The client creates more pieces (or “shares”) than it will eventually need, so
+even if some of the servers fail, you can still get your data back. Corrupt
+shares are detected and ignored, so the system can tolerate server-side
+hard-drive errors. All files are encrypted (with a unique key) before
+uploading, so even a malicious server operator cannot read your data. The
+only thing you ask of the servers is that they can (usually) provide the
+shares when you ask for them: you aren’t relying upon them for
+confidentiality, integrity, or absolute availability.</p>
+</div>
+<div class="section" id="what-is-provider-independent-security">
+<h2>What is “provider-independent security”?<a class="headerlink" href="#what-is-provider-independent-security" title="Permalink to this headline">¶</a></h2>
+<p>Every seller of cloud storage services will tell you that their service is
+“secure”.  But what they mean by that is something fundamentally different
+from what we mean.  What they mean by “secure” is that after you’ve given
+them the power to read and modify your data, they try really hard not to let
+this power be abused.  This turns out to be difficult!  Bugs,
+misconfigurations, or operator error can accidentally expose your data to
+another customer or to the public, or can corrupt your data.  Criminals
+routinely gain illicit access to corporate servers.  Even more insidious is
+the fact that the employees themselves sometimes violate customer privacy out
+of carelessness, avarice, or mere curiosity.  The most conscientious of
+these service providers spend considerable effort and expense trying to
+mitigate these risks.</p>
+<p>What we mean by “security” is something different.  <em>The service provider
+never has the ability to read or modify your data in the first place: never.</em>
+If you use Tahoe-LAFS, then all of the threats described above are non-issues
+to you.  Not only is it easy and inexpensive for the service provider to
+maintain the security of your data, but in fact they couldn’t violate its
+security if they tried.  This is what we call <em>provider-independent
+security</em>.</p>
+<p>This guarantee is integrated naturally into the Tahoe-LAFS storage system and
+doesn’t require you to perform a manual pre-encryption step or cumbersome key
+management.  (After all, having to do cumbersome manual operations when
+storing or accessing your data would nullify one of the primary benefits of
+using cloud storage in the first place: convenience.)</p>
+<p>Here’s how it works:</p>
+<img alt="_images/network-and-reliance-topology.svg" src="_images/network-and-reliance-topology.svg" /><p>A “storage grid” is made up of a number of storage servers.  A storage server
+has direct attached storage (typically one or more hard disks).  A “gateway”
+communicates with storage nodes, and uses them to provide access to the
+grid over protocols such as HTTP(S) and SFTP.</p>
+<p>Note that you can find “client” used to refer to gateway nodes (which act as
+a client to storage servers), and also to processes or programs connecting to
+a gateway node and performing operations on the grid – for example, a CLI
+command, Web browser, or SFTP client.</p>
+<p>Users do not rely on storage servers to provide <em>confidentiality</em> nor
+<em>integrity</em> for their data – instead all of the data is encrypted and
+integrity-checked by the gateway, so that the servers can neither read nor
+modify the contents of the files.</p>
+<p>Users do rely on storage servers for <em>availability</em>.  The ciphertext is
+erasure-coded into <code class="docutils literal notranslate"><span class="pre">N</span></code> shares distributed across at least <code class="docutils literal notranslate"><span class="pre">H</span></code> distinct
+storage servers (the default value for <code class="docutils literal notranslate"><span class="pre">N</span></code> is 10 and for <code class="docutils literal notranslate"><span class="pre">H</span></code> is 7) so
+that it can be recovered from any <code class="docutils literal notranslate"><span class="pre">K</span></code> of these servers (the default
+value of <code class="docutils literal notranslate"><span class="pre">K</span></code> is 3).  Therefore only the failure of <code class="docutils literal notranslate"><span class="pre">H-K+1</span></code> (with the
+defaults, 5) servers can make the data unavailable.</p>
+<p>In the typical deployment mode each user runs her own gateway on her own
+machine.  This way she relies on her own machine for the confidentiality and
+integrity of the data.</p>
+<p>An alternate deployment mode is that the gateway runs on a remote machine and
+the user connects to it over HTTPS or SFTP.  This means that the operator of
+the gateway can view and modify the user’s data (the user <em>relies on</em> the
+gateway for confidentiality and integrity), but the advantage is that the
+user can access the Tahoe-LAFS grid with a client that doesn’t have the
+gateway software installed, such as an Internet kiosk or cell phone.</p>
+</div>
+<div class="section" id="access-control">
+<h2>Access Control<a class="headerlink" href="#access-control" title="Permalink to this headline">¶</a></h2>
+<p>There are two kinds of files: immutable and mutable. When you upload a file
+to the storage grid you can choose which kind of file it will be in the
+grid. Immutable files can’t be modified once they have been uploaded.  A
+mutable file can be modified by someone with read-write access to it. A user
+can have read-write access to a mutable file or read-only access to it, or no
+access to it at all.</p>
+<p>A user who has read-write access to a mutable file or directory can give
+another user read-write access to that file or directory, or they can give
+read-only access to that file or directory.  A user who has read-only access
+to a file or directory can give another user read-only access to it.</p>
+<p>When linking a file or directory into a parent directory, you can use a
+read-write link or a read-only link.  If you use a read-write link, then
+anyone who has read-write access to the parent directory can gain read-write
+access to the child, and anyone who has read-only access to the parent
+directory can gain read-only access to the child.  If you use a read-only
+link, then anyone who has either read-write or read-only access to the parent
+directory can gain read-only access to the child.</p>
+<p>For more technical detail, please see the <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/Doc">the doc page</a> on the Wiki.</p>
+</div>
+<div class="section" id="get-started">
+<h2>Get Started<a class="headerlink" href="#get-started" title="Permalink to this headline">¶</a></h2>
+<p>To use Tahoe-LAFS, please see <a class="reference internal" href="Installation/install-tahoe.html"><span class="doc">Installing Tahoe-LAFS</span></a>.</p>
+</div>
+<div class="section" id="license">
+<h2>License<a class="headerlink" href="#license" title="Permalink to this headline">¶</a></h2>
+<p>Tahoe-LAFS is an open-source project; please see the <a class="reference external" href="https://github.com/tahoe-lafs/tahoe-lafs/blob/master/README.rst">top-level README</a> for
+details.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="Installation/install-tahoe.html" class="btn btn-neutral float-right" title="Installing Tahoe-LAFS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Tahoe-LAFS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

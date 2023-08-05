@@ -1,0 +1,495 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Release Checklist &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="How To Configure A Server" href="servers.html" />
+    <link rel="prev" title="Contributor Code of Conduct" href="CODE_OF_CONDUCT.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Release Checklist</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#any-contributor">Any Contributor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#prepare-for-the-release">Prepare for the Release</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-branch-and-apply-updates">Create Branch and Apply Updates</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#create-release-candidate">Create Release Candidate</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#privileged-contributor">Privileged Contributor</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#hack-tahoe-lafs">Hack Tahoe-LAFS</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sign-git-tag">Sign Git Tag</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#upload-artifacts">Upload Artifacts</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#announcing-the-release-candidate">Announcing the Release Candidate</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#is-the-release-done-yet">Is The Release Done Yet?</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#announcing-the-release">Announcing the Release</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#mailing-lists">mailing-lists</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#wiki">wiki</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Release Checklist</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/release-checklist.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="release-checklist">
+<h1>Release Checklist<a class="headerlink" href="#release-checklist" title="Permalink to this headline">¶</a></h1>
+<p>These instructions were produced while making the 1.15.0 release. They
+are based on the original instructions (in old revisions in the file
+<cite>docs/how_to_make_a_tahoe-lafs_release.org</cite>).</p>
+<p>Any contributor can do the first part of the release preparation. Only
+certain contributors can perform other parts. These are the two main
+sections of this checklist (and could be done by different people).</p>
+<p>A final section describes how to announce the release.</p>
+<div class="section" id="any-contributor">
+<h2>Any Contributor<a class="headerlink" href="#any-contributor" title="Permalink to this headline">¶</a></h2>
+<p>Anyone who can create normal PRs should be able to complete this
+portion of the release process.</p>
+<div class="section" id="prepare-for-the-release">
+<h3>Prepare for the Release<a class="headerlink" href="#prepare-for-the-release" title="Permalink to this headline">¶</a></h3>
+<p>The <cite>master</cite> branch should always be releasable.</p>
+<p>It may be worth asking (on IRC or mailing-ist) if anything will be
+merged imminently (for example, “I will prepare a release this coming
+Tuesday if you want to get anything in”).</p>
+<ul class="simple">
+<li>Create a ticket for the release in Trac</li>
+<li>Ticket number needed in next section</li>
+</ul>
+</div>
+<div class="section" id="create-branch-and-apply-updates">
+<h3>Create Branch and Apply Updates<a class="headerlink" href="#create-branch-and-apply-updates" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>Create a branch for release-candidates (e.g. <cite>XXXX.release-1.15.0.rc0</cite>)</li>
+<li>run <cite>tox -e news</cite> to produce a new NEWS.txt file (this does a commit)</li>
+<li>create the news for the release<ul>
+<li>newsfragments/&lt;ticket number&gt;.minor</li>
+<li>commit it</li>
+</ul>
+</li>
+<li>manually fix NEWS.txt<ul>
+<li>proper title for latest release (“Release 1.15.0” instead of “Release …post1432”)</li>
+<li>double-check date (maybe release will be in the future)</li>
+<li>spot-check the release notes (these come from the newsfragments
+files though so don’t do heavy editing)</li>
+<li>commit these changes</li>
+</ul>
+</li>
+<li>update “relnotes.txt”<ul>
+<li>update all mentions of 1.14.0 -&gt; 1.15.0</li>
+<li>update “previous release” statement and date</li>
+<li>summarize major changes</li>
+<li>commit it</li>
+</ul>
+</li>
+<li>update “nix/tahoe-lafs.nix”<ul>
+<li>change the value given for <cite>version</cite> from <cite>OLD.post1</cite> to <cite>NEW.post1</cite></li>
+</ul>
+</li>
+<li>update “CREDITS”<ul>
+<li>are there any new contributors in this release?</li>
+<li>one way: git log release-1.14.0.. | grep Author | sort | uniq</li>
+<li>commit it</li>
+</ul>
+</li>
+<li>update “docs/known_issues.rst” if appropriate</li>
+<li>update “docs/Installation/install-tahoe.rst” references to the new release</li>
+<li>Push the branch to github</li>
+<li>Create a (draft) PR; this should trigger CI (note that github
+doesn’t let you create a PR without some changes on the branch so
+running + committing the NEWS.txt file achieves that without changing
+any code)</li>
+<li>Confirm CI runs successfully on all platforms</li>
+</ul>
+</div>
+<div class="section" id="create-release-candidate">
+<h3>Create Release Candidate<a class="headerlink" href="#create-release-candidate" title="Permalink to this headline">¶</a></h3>
+<p>Before “officially” tagging any release, we will make a
+release-candidate available. So there will be at least 1.15.0rc0 (for
+example). If there are any problems, an rc1 or rc2 etc may also be
+released. Anyone can sign these releases (ideally they’d be signed
+“officially” as well, but it’s better to get them out than to wait for
+that).</p>
+<p>Typically expert users will be the ones testing release candidates and
+they will need to evaluate which contributors’ signatures they trust.</p>
+<ul>
+<li><p class="first">(all steps above are completed)</p>
+</li>
+<li><p class="first">sign the release</p>
+<ul class="simple">
+<li>git tag -s -u 0xE34E62D06D0E69CFCA4179FFBDE0D31D68666A7A -m “release Tahoe-LAFS-1.15.0rc0” tahoe-lafs-1.15.0rc0</li>
+<li>(replace the key-id above with your own)</li>
+</ul>
+</li>
+<li><p class="first">build all code locally
+- these should all pass:</p>
+<blockquote>
+<div><ul class="simple">
+<li>tox -e py27,codechecks,docs,integration</li>
+</ul>
+</div></blockquote>
+<ul class="simple">
+<li>these can fail (ideally they should not of course):<ul>
+<li>tox -e deprecations,upcoming-deprecations</li>
+</ul>
+</li>
+</ul>
+</li>
+<li><p class="first">build tarballs</p>
+<ul class="simple">
+<li>tox -e tarballs</li>
+<li>confirm it at least exists:</li>
+<li>ls dist/ | grep 1.15.0rc0</li>
+</ul>
+</li>
+<li><p class="first">inspect and test the tarballs</p>
+<ul class="simple">
+<li>install each in a fresh virtualenv</li>
+<li>run <cite>tahoe</cite> command</li>
+</ul>
+</li>
+<li><p class="first">when satisfied, sign the tarballs:</p>
+<ul class="simple">
+<li>gpg –pinentry=loopback –armor –detach-sign dist/tahoe_lafs-1.15.0rc0-py2-none-any.whl</li>
+<li>gpg –pinentry=loopback –armor –detach-sign dist/tahoe_lafs-1.15.0rc0.tar.bz2</li>
+<li>gpg –pinentry=loopback –armor –detach-sign dist/tahoe_lafs-1.15.0rc0.tar.gz</li>
+<li>gpg –pinentry=loopback –armor –detach-sign dist/tahoe_lafs-1.15.0rc0.zip</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="privileged-contributor">
+<h2>Privileged Contributor<a class="headerlink" href="#privileged-contributor" title="Permalink to this headline">¶</a></h2>
+<p>Steps in this portion require special access to keys or
+infrastructure. For example, <strong>access to tahoe-lafs.org</strong> to upload
+binaries or edit HTML.</p>
+<div class="section" id="hack-tahoe-lafs">
+<h3>Hack Tahoe-LAFS<a class="headerlink" href="#hack-tahoe-lafs" title="Permalink to this headline">¶</a></h3>
+<p>Did anyone contribute a hack since the last release? If so, then
+<a class="reference external" href="https://tahoe-lafs.org/hacktahoelafs/">https://tahoe-lafs.org/hacktahoelafs/</a> needs to be updated.</p>
+</div>
+<div class="section" id="sign-git-tag">
+<h3>Sign Git Tag<a class="headerlink" href="#sign-git-tag" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li>git tag -s -u 0xE34E62D06D0E69CFCA4179FFBDE0D31D68666A7A -m “release Tahoe-LAFS-X.Y.Z” tahoe-lafs-X.Y.Z</li>
+</ul>
+</div>
+<div class="section" id="upload-artifacts">
+<h3>Upload Artifacts<a class="headerlink" href="#upload-artifacts" title="Permalink to this headline">¶</a></h3>
+<p>Any release-candidate or actual release plus signature (.asc file)
+need to be uploaded to <a class="reference external" href="https://tahoe-lafs.org">https://tahoe-lafs.org</a> in <cite>~source/downloads</cite></p>
+<ul class="simple">
+<li>secure-copy all release artifacts to the download area on the
+tahoe-lafs.org host machine. <cite>~source/downloads</cite> on there maps to
+<a class="reference external" href="https://tahoe-lafs.org/downloads/">https://tahoe-lafs.org/downloads/</a> on the Web.</li>
+<li>scp dist/<em>1.15.0</em> <a class="reference external" href="mailto:username&#37;&#52;&#48;tahoe-lafs&#46;org">username<span>&#64;</span>tahoe-lafs<span>&#46;</span>org</a>:/home/source/downloads</li>
+<li>the following developers have access to do this:<ul>
+<li>exarkun</li>
+<li>meejah</li>
+<li>warner</li>
+</ul>
+</li>
+</ul>
+<p>For the actual release, the tarball and signature files need to be
+uploaded to PyPI as well.</p>
+<ul class="simple">
+<li>how to do this?</li>
+<li>(original guide says only <cite>twine upload dist/*</cite>)</li>
+<li>the following developers have access to do this:<ul>
+<li>warner</li>
+<li>exarkun (partial?)</li>
+<li>meejah (partial?)</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="announcing-the-release-candidate">
+<h3>Announcing the Release Candidate<a class="headerlink" href="#announcing-the-release-candidate" title="Permalink to this headline">¶</a></h3>
+<p>The release-candidate should be announced by posting to the
+mailing-list (<a class="reference external" href="mailto:tahoe-dev&#37;&#52;&#48;tahoe-lafs&#46;org">tahoe-dev<span>&#64;</span>tahoe-lafs<span>&#46;</span>org</a>). For example:
+<a class="reference external" href="https://tahoe-lafs.org/pipermail/tahoe-dev/2020-October/009995.html">https://tahoe-lafs.org/pipermail/tahoe-dev/2020-October/009995.html</a></p>
+</div>
+<div class="section" id="is-the-release-done-yet">
+<h3>Is The Release Done Yet?<a class="headerlink" href="#is-the-release-done-yet" title="Permalink to this headline">¶</a></h3>
+<p>If anyone reports a problem with a release-candidate then a new
+release-candidate should be made once a fix has been merged to
+master. Repeat the above instructions with <cite>rc1</cite> or <cite>rc2</cite> or whatever
+is appropriate.</p>
+<p>Once a release-candidate has marinated for some time then it can be
+made into a the actual release.</p>
+<p>The actual release follows the same steps as above, with some differences:</p>
+<ul class="simple">
+<li>there is no “-rcX” on the end of release names</li>
+<li>the release is uploaded to PyPI (using Twine)</li>
+<li>the version is tagged in Git (ideally using “the tahoe release key”
+but can be done with any of the authorized core developers’ personal
+key)</li>
+<li>the release-candidate branches must be merged back to master after
+the release is official (e.g. causing newsfragments to be deleted on
+master, etc)</li>
+</ul>
+</div>
+</div>
+<div class="section" id="announcing-the-release">
+<h2>Announcing the Release<a class="headerlink" href="#announcing-the-release" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="mailing-lists">
+<h3>mailing-lists<a class="headerlink" href="#mailing-lists" title="Permalink to this headline">¶</a></h3>
+<p>A new Tahoe release is traditionally announced on our mailing-list
+(<a class="reference external" href="mailto:tahoe-dev&#37;&#52;&#48;tahoe-lafs&#46;org">tahoe-dev<span>&#64;</span>tahoe-lafs<span>&#46;</span>org</a>). The former version of these instructions
+also announced the release on the following other lists:</p>
+<ul class="simple">
+<li><a class="reference external" href="mailto:tahoe-announce&#37;&#52;&#48;tahoe-lafs&#46;org">tahoe-announce<span>&#64;</span>tahoe-lafs<span>&#46;</span>org</a></li>
+<li><a class="reference external" href="mailto:twisted-python&#37;&#52;&#48;twistedmatrix&#46;com">twisted-python<span>&#64;</span>twistedmatrix<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:liberationtech&#37;&#52;&#48;lists&#46;stanford&#46;edu">liberationtech<span>&#64;</span>lists<span>&#46;</span>stanford<span>&#46;</span>edu</a></li>
+<li><a class="reference external" href="mailto:lwn&#37;&#52;&#48;lwn&#46;net">lwn<span>&#64;</span>lwn<span>&#46;</span>net</a></li>
+<li><a class="reference external" href="mailto:p2p-hackers&#37;&#52;&#48;lists&#46;zooko&#46;com">p2p-hackers<span>&#64;</span>lists<span>&#46;</span>zooko<span>&#46;</span>com</a></li>
+<li><a class="reference external" href="mailto:python-list&#37;&#52;&#48;python&#46;org">python-list<span>&#64;</span>python<span>&#46;</span>org</a></li>
+<li><a class="reference external" href="http://listcultures.org/pipermail/p2presearch_listcultures.org/">http://listcultures.org/pipermail/p2presearch_listcultures.org/</a></li>
+<li><a class="reference external" href="mailto:cryptopp-users&#37;&#52;&#48;googlegroups&#46;com">cryptopp-users<span>&#64;</span>googlegroups<span>&#46;</span>com</a></li>
+</ul>
+</div>
+<div class="section" id="wiki">
+<h3>wiki<a class="headerlink" href="#wiki" title="Permalink to this headline">¶</a></h3>
+<p>Edit the “News” section of the front page of <a class="reference external" href="https://tahoe-lafs.org">https://tahoe-lafs.org</a>
+with a link to the mailing-list archive of the announcement message.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="servers.html" class="btn btn-neutral float-right" title="How To Configure A Server" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="CODE_OF_CONDUCT.html" class="btn btn-neutral float-left" title="Contributor Code of Conduct" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,424 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tahoe-LAFS SFTP Frontend &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Download status" href="download-status.html" />
+    <link rel="prev" title="The Tahoe REST-ful Web API" href="webapi.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Tahoe-LAFS SFTP Frontend</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sftp-background">SFTP Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#tahoe-lafs-support">Tahoe-LAFS Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#creating-an-account-file">Creating an Account File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#configuring-sftp-access">Configuring SFTP Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#immutable-and-mutable-files">Immutable and Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#known-issues">Known Issues</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#known-issues-in-the-sftp-frontend">Known Issues in the SFTP Frontend</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Tahoe-LAFS SFTP Frontend</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/frontends/FTP-and-SFTP.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tahoe-lafs-sftp-frontend">
+<h1>Tahoe-LAFS SFTP Frontend<a class="headerlink" href="#tahoe-lafs-sftp-frontend" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#sftp-background">SFTP Background</a></li>
+<li><a class="reference internal" href="#tahoe-lafs-support">Tahoe-LAFS Support</a></li>
+<li><a class="reference internal" href="#creating-an-account-file">Creating an Account File</a></li>
+<li><a class="reference internal" href="#configuring-sftp-access">Configuring SFTP Access</a></li>
+<li><a class="reference internal" href="#dependencies">Dependencies</a></li>
+<li><a class="reference internal" href="#immutable-and-mutable-files">Immutable and Mutable Files</a></li>
+<li><a class="reference internal" href="#known-issues">Known Issues</a></li>
+</ol>
+<div class="section" id="sftp-background">
+<h2>SFTP Background<a class="headerlink" href="#sftp-background" title="Permalink to this headline">¶</a></h2>
+<p>FTP is the venerable internet file-transfer protocol, first developed in
+1971. The FTP server usually listens on port 21. A separate connection is
+used for the actual data transfers, either in the same direction as the
+initial client-to-server connection (for PORT mode), or in the reverse
+direction (for PASV) mode. Connections are unencrypted, so passwords, file
+names, and file contents are visible to eavesdroppers.</p>
+<p>SFTP is the modern replacement, developed as part of the SSH “secure shell”
+protocol, and runs as a subchannel of the regular SSH connection. The SSH
+server usually listens on port 22. All connections are encrypted.</p>
+<p>Both FTP and SFTP were developed assuming a UNIX-like server, with accounts
+and passwords, octal file modes (user/group/other, read/write/execute), and
+ctime/mtime timestamps.</p>
+<p>Previous versions of Tahoe-LAFS supported FTP, but now only the superior SFTP
+frontend is supported. See <a class="reference internal" href="#known-issues">Known Issues</a>, below, for details on the
+limitations of SFTP.</p>
+</div>
+<div class="section" id="tahoe-lafs-support">
+<h2>Tahoe-LAFS Support<a class="headerlink" href="#tahoe-lafs-support" title="Permalink to this headline">¶</a></h2>
+<p>All Tahoe-LAFS client nodes can run a frontend SFTP server, allowing regular
+SFTP clients (like <code class="docutils literal notranslate"><span class="pre">/usr/bin/sftp</span></code>, the <code class="docutils literal notranslate"><span class="pre">sshfs</span></code> FUSE plugin, and many
+others) to access the file store.</p>
+<p>Since Tahoe-LAFS does not use user accounts or passwords, the SFTP
+servers must be configured with a way to first authenticate a user (confirm
+that a prospective client has a legitimate claim to whatever authorities we
+might grant a particular user), and second to decide what directory cap
+should be used as the root directory for a log-in by the authenticated user.
+A username and password can be used; as of Tahoe-LAFS v1.11, RSA or DSA
+public key authentication is also supported.</p>
+<p>Tahoe-LAFS provides two mechanisms to perform this user-to-cap mapping.
+The first (recommended) is a simple flat file with one account per line.
+The second is an HTTP-based login mechanism.</p>
+</div>
+<div class="section" id="creating-an-account-file">
+<h2>Creating an Account File<a class="headerlink" href="#creating-an-account-file" title="Permalink to this headline">¶</a></h2>
+<p>To use the first form, create a file (for example <code class="docutils literal notranslate"><span class="pre">BASEDIR/private/accounts</span></code>)
+in which each non-comment/non-blank line is a space-separated line of
+(USERNAME, PASSWORD, ROOTCAP), like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">%</span> <span class="n">cat</span> <span class="n">BASEDIR</span><span class="o">/</span><span class="n">private</span><span class="o">/</span><span class="n">accounts</span>
+<span class="c1"># This is a password line: username password cap</span>
+<span class="n">alice</span> <span class="n">password</span> <span class="n">URI</span><span class="p">:</span><span class="n">DIR2</span><span class="p">:</span><span class="n">ioej8xmzrwilg772gzj4fhdg7a</span><span class="p">:</span><span class="n">wtiizszzz2rgmczv4wl6bqvbv33ag4kvbr6prz3u6w3geixa6m6a</span>
+<span class="n">bob</span> <span class="n">sekrit</span> <span class="n">URI</span><span class="p">:</span><span class="n">DIR2</span><span class="p">:</span><span class="mi">6</span><span class="n">bdmeitystckbl9yqlw7g56f4e</span><span class="p">:</span><span class="n">serp5ioqxnh34mlbmzwvkp3odehsyrr7eytt5f64we3k9hhcrcja</span>
+
+<span class="c1"># This is a public key line: username keytype pubkey cap</span>
+<span class="c1"># (Tahoe-LAFS v1.11 or later)</span>
+<span class="n">carol</span> <span class="n">ssh</span><span class="o">-</span><span class="n">rsa</span> <span class="n">AAAA</span><span class="o">...</span> <span class="n">URI</span><span class="p">:</span><span class="n">DIR2</span><span class="p">:</span><span class="n">ovjy4yhylqlfoqg2vcze36dhde</span><span class="p">:</span><span class="mi">4</span><span class="n">d4f47qko2xm5g7osgo2yyidi5m4muyo2vjjy53q4vjju2u55mfa</span>
+</pre></div>
+</div>
+<p>For public key authentication, the keytype may be either “ssh-rsa” or “ssh-dsa”.
+To avoid ambiguity between passwords and public key types, a password cannot
+start with “ssh-“.</p>
+<p>Now add an <code class="docutils literal notranslate"><span class="pre">accounts.file</span></code> directive to your <code class="docutils literal notranslate"><span class="pre">tahoe.cfg</span></code> file, as described in
+the next sections.</p>
+</div>
+<div class="section" id="configuring-sftp-access">
+<h2>Configuring SFTP Access<a class="headerlink" href="#configuring-sftp-access" title="Permalink to this headline">¶</a></h2>
+<p>The Tahoe-LAFS SFTP server requires a host keypair, just like the regular SSH
+server. It is important to give each server a distinct keypair, to prevent
+one server from masquerading as different one. The first time a client
+program talks to a given server, it will store the host key it receives, and
+will complain if a subsequent connection uses a different key. This reduces
+the opportunity for man-in-the-middle attacks to just the first connection.</p>
+<p>Exercise caution when connecting to the SFTP server remotely. The AES
+implementation used by the SFTP code does not have defenses against timing
+attacks. The code for encrypting the SFTP connection was not written by the
+Tahoe-LAFS team, and we have not reviewed it as carefully as we have reviewed
+the code for encrypting files and directories in Tahoe-LAFS itself. (See
+<a class="reference external" href="https://twistedmatrix.com/trac/ticket/4633">Twisted ticket #4633</a> for a possible fix to this issue.)</p>
+<p>If you can connect to the SFTP server (which is provided by the Tahoe-LAFS
+gateway) only from a client on the same host, then you would be safe from any
+problem with the SFTP connection security. The examples given below enforce
+this policy by including “:interface=127.0.0.1” in the “port” option, which
+causes the server to only accept connections from localhost.</p>
+<p>You will use directives in the tahoe.cfg file to tell the SFTP code where to
+find these keys. To create one, use the <code class="docutils literal notranslate"><span class="pre">ssh-keygen</span></code> tool (which comes with
+the standard OpenSSH client distribution):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">%</span> <span class="n">cd</span> <span class="n">BASEDIR</span>
+<span class="o">%</span> <span class="n">ssh</span><span class="o">-</span><span class="n">keygen</span> <span class="o">-</span><span class="n">f</span> <span class="n">private</span><span class="o">/</span><span class="n">ssh_host_rsa_key</span>
+</pre></div>
+</div>
+<p>The server private key file must not have a passphrase.</p>
+<p>Then, to enable the SFTP server with an accounts file, add the following
+lines to the BASEDIR/tahoe.cfg file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">sftpd</span><span class="p">]</span>
+<span class="n">enabled</span> <span class="o">=</span> <span class="n">true</span>
+<span class="n">port</span> <span class="o">=</span> <span class="n">tcp</span><span class="p">:</span><span class="mi">8022</span><span class="p">:</span><span class="n">interface</span><span class="o">=</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span>
+<span class="n">host_pubkey_file</span> <span class="o">=</span> <span class="n">private</span><span class="o">/</span><span class="n">ssh_host_rsa_key</span><span class="o">.</span><span class="n">pub</span>
+<span class="n">host_privkey_file</span> <span class="o">=</span> <span class="n">private</span><span class="o">/</span><span class="n">ssh_host_rsa_key</span>
+<span class="n">accounts</span><span class="o">.</span><span class="n">file</span> <span class="o">=</span> <span class="n">private</span><span class="o">/</span><span class="n">accounts</span>
+</pre></div>
+</div>
+<p>The SFTP server will listen on the given port number and on the loopback
+interface only. The “accounts.file” pathname will be interpreted relative to
+the node’s BASEDIR.</p>
+<p>Or, to use an account server instead, do this:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">sftpd</span><span class="p">]</span>
+<span class="n">enabled</span> <span class="o">=</span> <span class="n">true</span>
+<span class="n">port</span> <span class="o">=</span> <span class="n">tcp</span><span class="p">:</span><span class="mi">8022</span><span class="p">:</span><span class="n">interface</span><span class="o">=</span><span class="mf">127.0</span><span class="o">.</span><span class="mf">0.1</span>
+<span class="n">host_pubkey_file</span> <span class="o">=</span> <span class="n">private</span><span class="o">/</span><span class="n">ssh_host_rsa_key</span><span class="o">.</span><span class="n">pub</span>
+<span class="n">host_privkey_file</span> <span class="o">=</span> <span class="n">private</span><span class="o">/</span><span class="n">ssh_host_rsa_key</span>
+<span class="n">accounts</span><span class="o">.</span><span class="n">url</span> <span class="o">=</span> <span class="n">https</span><span class="p">:</span><span class="o">//</span><span class="n">example</span><span class="o">.</span><span class="n">com</span><span class="o">/</span><span class="n">login</span>
+</pre></div>
+</div>
+<p>You can provide both accounts.file and accounts.url, although it probably
+isn’t very useful except for testing.</p>
+<p>For further information on SFTP compatibility and known issues with various
+clients and with the sshfs filesystem, see <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/SftpFrontend">wiki:SftpFrontend</a></p>
+</div>
+<div class="section" id="dependencies">
+<h2>Dependencies<a class="headerlink" href="#dependencies" title="Permalink to this headline">¶</a></h2>
+<p>The Tahoe-LAFS SFTP server requires the Twisted “Conch” component (a “conch”
+is a twisted shell, get it?). Many Linux distributions package the Conch code
+separately: debian puts it in the “python-twisted-conch” package.</p>
+</div>
+<div class="section" id="immutable-and-mutable-files">
+<h2>Immutable and Mutable Files<a class="headerlink" href="#immutable-and-mutable-files" title="Permalink to this headline">¶</a></h2>
+<p>All files created via SFTP are immutable files. However, files can
+only be created in writeable directories, which allows the directory entry to
+be relinked to a different file. Normally, when the path of an immutable file
+is opened for writing by SFTP, the directory entry is relinked to another
+file with the newly written contents when the file handle is closed. The old
+file is still present on the grid, and any other caps to it will remain
+valid. (See <a class="reference internal" href="../garbage-collection.html"><span class="doc">Garbage Collection in Tahoe</span></a> for how to reclaim the space used by
+files that are no longer needed.)</p>
+<p>The ‘no-write’ metadata field of a directory entry can override this
+behaviour. If the ‘no-write’ field holds a true value, then a permission
+error will occur when trying to write to the file, even if it is in a
+writeable directory. This does not prevent the directory entry from being
+unlinked or replaced.</p>
+<p>When using sshfs, the ‘no-write’ field can be set by clearing the ‘w’ bits in
+the Unix permissions, for example using the command <code class="docutils literal notranslate"><span class="pre">chmod</span> <span class="pre">444</span> <span class="pre">path/to/file</span></code>.
+Note that this does not mean that arbitrary combinations of Unix permissions
+are supported. If the ‘w’ bits are cleared on a link to a mutable file or
+directory, that link will become read-only.</p>
+<p>If SFTP is used to write to an existing mutable file, it will publish a new
+version when the file handle is closed.</p>
+</div>
+<div class="section" id="known-issues">
+<h2>Known Issues<a class="headerlink" href="#known-issues" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="known-issues-in-the-sftp-frontend">
+<h3>Known Issues in the SFTP Frontend<a class="headerlink" href="#known-issues-in-the-sftp-frontend" title="Permalink to this headline">¶</a></h3>
+<p>Upload errors may not be reported when writing files using SFTP via sshfs
+(<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1059">ticket #1059</a>).</p>
+<p>Non-ASCII filenames are supported with SFTP only if the client encodes
+filenames as UTF-8 (<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1089">ticket #1089</a>).</p>
+<p>See also <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/wiki/SftpFrontend">wiki:SftpFrontend</a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="download-status.html" class="btn btn-neutral float-right" title="Download status" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="webapi.html" class="btn btn-neutral float-left" title="The Tahoe REST-ful Web API" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

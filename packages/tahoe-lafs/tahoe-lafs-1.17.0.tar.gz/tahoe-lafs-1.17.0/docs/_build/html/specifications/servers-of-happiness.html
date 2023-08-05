@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Servers of Happiness &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Redundant Array of Independent Clouds: Share To Cloud Mapping" href="backends/raic.html" />
+    <link rel="prev" title="Tahoe-LAFS Directory Nodes" href="dirnodes.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Specifications</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="outline.html">Specification Document Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html">URLs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uri.html">Tahoe URIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file-encoding.html">File Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="URI-extension.html">URI Extension Block</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mutable.html">Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dirnodes.html">Tahoe-LAFS Directory Nodes</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Servers of Happiness</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#measuring-servers-of-happiness">Measuring Servers of Happiness</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#issues">Issues</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#upload-strategy-of-happiness">Upload Strategy of Happiness</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#calculating-share-placements">Calculating Share Placements</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#properties-of-upload-strategy-of-happiness">Properties of Upload Strategy of Happiness</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="backends/raic.html">Redundant Array of Independent Clouds: Share To Cloud Mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Specifications</a> &raquo;</li>
+        
+      <li>Servers of Happiness</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/specifications/servers-of-happiness.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="servers-of-happiness">
+<h1>Servers of Happiness<a class="headerlink" href="#servers-of-happiness" title="Permalink to this headline">¶</a></h1>
+<p>When you upload a file to a Tahoe-LAFS grid, you expect that it will
+stay there for a while, and that it will do so even if a few of the
+peers on the grid stop working, or if something else goes wrong. An
+upload health metric helps to make sure that this actually happens.
+An upload health metric is a test that looks at a file on a Tahoe-LAFS
+grid and says whether or not that file is healthy; that is, whether it
+is distributed on the grid in such a way as to ensure that it will
+probably survive in good enough shape to be recoverable, even if a few
+things go wrong between the time of the test and the time that it is
+recovered. Our current upload health metric for immutable files is called
+‘servers-of-happiness’; its predecessor was called ‘shares-of-happiness’.</p>
+<p>shares-of-happiness used the number of encoded shares generated by a
+file upload to say whether or not it was healthy. If there were more
+shares than a user-configurable threshold, the file was reported to be
+healthy; otherwise, it was reported to be unhealthy. In normal
+situations, the upload process would distribute shares fairly evenly
+over the peers in the grid, and in that case shares-of-happiness
+worked fine. However, because it only considered the number of shares,
+and not where they were on the grid, it could not detect situations
+where a file was unhealthy because most or all of the shares generated
+from the file were stored on one or two peers.</p>
+<p>servers-of-happiness addresses this by extending the share-focused
+upload health metric to also consider the location of the shares on
+grid. servers-of-happiness looks at the mapping of peers to the shares
+that they hold, and compares the cardinality of the largest happy subset
+of those to a user-configurable threshold. A happy subset of peers has
+the property that any k (where k is as in k-of-n encoding) peers within
+the subset can reconstruct the source file. This definition of file
+health provides a stronger assurance of file availability over time;
+with 3-of-10 encoding, and happy=7, a healthy file is still guaranteed
+to be available even if 4 peers fail.</p>
+<div class="section" id="measuring-servers-of-happiness">
+<h2>Measuring Servers of Happiness<a class="headerlink" href="#measuring-servers-of-happiness" title="Permalink to this headline">¶</a></h2>
+<p>We calculate servers-of-happiness by computing a matching on a
+bipartite graph that is related to the layout of shares on the grid.
+One set of vertices is the peers on the grid, and one set of vertices is
+the shares. An edge connects a peer and a share if the peer will (or
+does, for existing shares) hold the share. The size of the maximum
+matching on this graph is the size of the largest happy peer set that
+exists for the upload.</p>
+<p>First, note that a bipartite matching of size n corresponds to a happy
+subset of size n. This is because a bipartite matching of size n implies
+that there are n peers such that each peer holds a share that no other
+peer holds. Then any k of those peers collectively hold k distinct
+shares, and can restore the file.</p>
+<p>A bipartite matching of size n is not necessary for a happy subset of
+size n, however (so it is not correct to say that the size of the
+maximum matching on this graph is the size of the largest happy subset
+of peers that exists for the upload). For example, consider a file with
+k = 3, and suppose that each peer has all three of those pieces.  Then,
+since any peer from the original upload can restore the file, if there
+are 10 peers holding shares, and the happiness threshold is 7, the
+upload should be declared happy, because there is a happy subset of size
+10, and 10 &gt; 7. However, since a maximum matching on the bipartite graph
+related to this layout has only 3 edges, Tahoe-LAFS declares the upload
+unhealthy. Though it is not unhealthy, a share layout like this example
+is inefficient; for k = 3, and if there are n peers, it corresponds to
+an expansion factor of 10x. Layouts that are declared healthy by the
+bipartite graph matching approach have the property that they correspond
+to uploads that are either already relatively efficient in their
+utilization of space, or can be made to be so by deleting shares; and
+that place all of the shares that they generate, enabling redistribution
+of shares later without having to re-encode the file.  Also, it is
+computationally reasonable to compute a maximum matching in a bipartite
+graph, and there are well-studied algorithms to do that.</p>
+</div>
+<div class="section" id="issues">
+<h2>Issues<a class="headerlink" href="#issues" title="Permalink to this headline">¶</a></h2>
+<p>The uploader is good at detecting unhealthy upload layouts, but it
+doesn’t always know how to make an unhealthy upload into a healthy
+upload if it is possible to do so; it attempts to redistribute shares to
+achieve happiness, but only in certain circumstances. The redistribution
+algorithm isn’t optimal, either, so even in these cases it will not
+always find a happy layout if one can be arrived at through
+redistribution. We are investigating improvements to address these
+issues.</p>
+<p>We don’t use servers-of-happiness for mutable files yet; this fix will
+likely come in Tahoe-LAFS version 1.13.</p>
+</div>
+</div>
+<div class="section" id="upload-strategy-of-happiness">
+<h1>Upload Strategy of Happiness<a class="headerlink" href="#upload-strategy-of-happiness" title="Permalink to this headline">¶</a></h1>
+<p>As mentioned above, the uploader is good at detecting instances which
+do not pass the servers-of-happiness test, but the share distribution algorithm
+is not always successful in instances where happiness can be achieved. A new
+placement algorithm designed to pass the servers-of-happiness test,  titled
+‘Upload Strategy of Happiness’, is meant to fix these instances where the uploader
+is unable to achieve happiness.</p>
+<div class="section" id="calculating-share-placements">
+<h2>Calculating Share Placements<a class="headerlink" href="#calculating-share-placements" title="Permalink to this headline">¶</a></h2>
+<p>We calculate share placement like so:</p>
+<ol class="arabic simple" start="0">
+<li>Start with an ordered list of servers. Maybe <em>2N</em> of them.</li>
+<li>Query all servers for existing shares.</li>
+</ol>
+<dl class="docutils">
+<dt>1a. Query remaining space from all servers. Every server that has</dt>
+<dd>enough free space is considered “readwrite” and every server with too
+little space is “readonly”.</dd>
+</dl>
+<ol class="arabic simple" start="2">
+<li>Construct a bipartite graph G1 of <em>readonly</em> servers to pre-existing
+shares, where an edge exists between an arbitrary readonly server S and an
+arbitrary share T if and only if S currently holds T.</li>
+<li>Calculate a maximum matching graph of G1 (a set of S-&gt;T edges that has or
+is-tied-for the highest “happiness score”). There is a clever efficient
+algorithm for this, named “Ford-Fulkerson”. There may be more than one
+maximum matching for this graph; we choose one of them arbitrarily, but
+prefer earlier servers. Call this particular placement M1. The placement
+maps shares to servers, where each share appears at most once, and each
+server appears at most once.</li>
+<li>Construct a bipartite graph G2 of readwrite servers to pre-existing
+shares. Then remove any edge (from G2) that uses a server or a share found
+in M1. Let an edge exist between server S and share T if and only if S
+already holds T.</li>
+<li>Calculate a maximum matching graph of G2, call this M2, again preferring
+earlier servers.</li>
+<li>Construct a bipartite graph G3 of (only readwrite) servers to
+shares (some shares may already exist on a server). Then remove
+(from G3) any servers and shares used in M1 or M2 (note that we
+retain servers/shares that were in G1/G2 but <em>not</em> in the M1/M2
+subsets)</li>
+<li>Calculate a maximum matching graph of G3, call this M3, preferring earlier
+servers. The final placement table is the union of M1+M2+M3.</li>
+<li>Renew the shares on their respective servers from M1 and M2.</li>
+<li>Upload share T to server S if an edge exists between S and T in M3.</li>
+<li>If any placements from step 9 fail, mark the server as read-only. Go back
+to step 2 (since we may discover a server is/has-become read-only, or has
+failed, during step 9).</li>
+</ol>
+<p>Rationale (Step 4): when we see pre-existing shares on read-only servers, we
+prefer to rely upon those (rather than the ones on read-write servers), so we
+can maybe use the read-write servers for new shares. If we picked the
+read-write server’s share, then we couldn’t re-use that server for new ones
+(we only rely upon each server for one share, more or less).</p>
+</div>
+<div class="section" id="properties-of-upload-strategy-of-happiness">
+<h2>Properties of Upload Strategy of Happiness<a class="headerlink" href="#properties-of-upload-strategy-of-happiness" title="Permalink to this headline">¶</a></h2>
+<p>The size of the maximum bipartite matching is bounded by the size of the smaller
+set of vertices. Therefore in a situation where the set of servers is smaller
+than the set of shares, placement is not generated for a subset of shares. In
+this case the remaining shares are distributed as evenly as possible across the
+set of writable servers.</p>
+<p>If the servers-of-happiness criteria can be met, the upload strategy of
+happiness guarantees that H shares will be placed on the network. During file
+repair, if the set of servers is larger than N, the algorithm will only attempt
+to spread shares over N distinct servers. For both initial file upload and file
+repair, N should be viewed as the maximum number of distinct servers shares
+can be placed on, and H as the minimum amount. The uploader will fail if
+the number of distinct servers is less than H, and it will never attempt to
+exceed N.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="backends/raic.html" class="btn btn-neutral float-right" title="Redundant Array of Independent Clouds: Share To Cloud Mapping" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="dirnodes.html" class="btn btn-neutral float-left" title="Tahoe-LAFS Directory Nodes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

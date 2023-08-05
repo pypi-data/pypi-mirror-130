@@ -1,0 +1,365 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Using Tahoe as a key-value store &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Old Configuration Files" href="historical/configuration.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Using Tahoe as a key-value store</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/key-value-store.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="using-tahoe-as-a-key-value-store">
+<h1>Using Tahoe as a key-value store<a class="headerlink" href="#using-tahoe-as-a-key-value-store" title="Permalink to this headline">¶</a></h1>
+<p>There are several ways you could use Tahoe-LAFS as a key-value store.</p>
+<p>Looking only at things that are <em>already implemented</em>, there are three
+options:</p>
+<ol class="arabic">
+<li><p class="first">Immutable files</p>
+<p>API:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">key ← put(value)</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#writing-uploading-a-file">PUT /uri</a>” in the API.</p>
+<p>Note: the user (client code) of this API does not get to choose the key!
+The key is determined programmatically using secure hash functions and
+encryption of the value and of the optional “added convergence secret”.</p>
+</li>
+<li><p class="first">value ← get(key)</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#viewing-downloading-a-file">GET /uri/$FILECAP</a>” in the API. “$FILECAP” is the
+key.</p>
+</li>
+</ul>
+</div></blockquote>
+<p>For details, see “immutable files” in <a class="reference internal" href="performance.html"><span class="doc">Performance costs for some common operations</span></a>, but in summary:
+the performance is not great but not bad.</p>
+<p>That document doesn’t mention that if the size of the A-byte mutable file
+is less than or equal to <a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/src/allmydata/immutable/upload.py?rev=196bd583b6c4959c60d3f73cdcefc9edda6a38ae#L1504">55 bytes</a> then the performance cost is much
+smaller, because the value gets packed into the key. Added a ticket:
+<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/2226">#2226</a>.</p>
+</li>
+<li><p class="first">Mutable files</p>
+<p>API:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">key ← create()</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#writing-uploading-a-file">PUT /uri?format=mdmf</a>”.</p>
+<p>Note: again, the key cannot be chosen by the user! The key is
+determined programmatically using secure hash functions and RSA public
+key pair generation.</p>
+</li>
+<li><p class="first">set(key, value)</p>
+</li>
+<li><p class="first">value ← get(key)</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#viewing-downloading-a-file">GET /uri/$FILECAP</a>”. Again, the “$FILECAP” is the
+key. This is the same API as for getting the value from an immutable,
+above. Whether the value you get this way is immutable (i.e. it will
+always be the same value) or mutable (i.e. an authorized person can
+change what value you get when you read) depends on the type of the
+key.</p>
+</li>
+</ul>
+</div></blockquote>
+<p>Again, for details, see “mutable files” in <a class="reference internal" href="performance.html"><span class="doc">Performance costs for some common operations</span></a> (and
+<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/query?status=assigned&amp;status=new&amp;status=reopened&amp;keywords=~doc&amp;description=~performance.rst&amp;col=id&amp;col=summary&amp;col=status&amp;col=owner&amp;col=type&amp;col=priority&amp;col=milestone&amp;order=priority">these tickets</a> about how that doc is incomplete), but in summary, the
+performance of the create() operation is <em>terrible</em>! (It involves
+generating a 2048-bit RSA key pair.) The performance of the set and get
+operations are probably merely not great but not bad.</p>
+</li>
+<li><p class="first">Directories</p>
+<p>API:</p>
+<blockquote>
+<div><ul>
+<li><p class="first">directory ← create()</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#creating-a-new-directory">POST /uri?t=mkdir</a>”.</p>
+<p><a class="reference internal" href="performance.html"><span class="doc">Performance costs for some common operations</span></a> does not mention directories (<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/2228">#2228</a>), but in order
+to understand the performance of directories you have to understand how
+they are implemented. Mkdir creates a new mutable file, exactly the
+same, and with exactly the same performance, as the “create() mutable”
+above.</p>
+</li>
+<li><p class="first">set(directory, key, value)</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#creating-a-new-directory">PUT /uri/$DIRCAP/[SUBDIRS../]FILENAME</a>”. “$DIRCAP”
+is the directory, “FILENAME” is the key. The value is the body of the
+HTTP PUT request. The part about “[SUBDIRS../]” in there is for
+optional nesting which you can ignore for the purposes of this
+key-value store.</p>
+<p>This way, you <em>do</em> get to choose the key to be whatever you want (an
+arbitrary unicode string).</p>
+<p>To understand the performance of <code class="docutils literal notranslate"><span class="pre">PUT</span> <span class="pre">/uri/$directory/$key</span></code>,
+understand that this proceeds in two steps: first it uploads the value
+as an immutable file, exactly the same as the “put(value)” API from the
+immutable API above. So right there you’ve already paid exactly the
+same cost as if you had used that API. Then after it has finished
+uploading that, and it has the immutable file cap from that operation
+in hand, it downloads the entire current directory, changes it to
+include the mapping from key to the immutable file cap, and re-uploads
+the entire directory. So that has a cost which is easy to understand:
+you have to download and re-upload the entire directory, which is the
+entire set of mappings from user-chosen keys (Unicode strings) to
+immutable file caps. Each entry in the directory occupies something on
+the order of 300 bytes.</p>
+<p>So the “set()” call from this directory-based API has obviously much
+worse performance than the the equivalent “set()” calls from the
+immutable-file-based API or the mutable-file-based API. This is not
+necessarily worse overall than the performance of the
+mutable-file-based API if you take into account the cost of the
+necessary create() calls.</p>
+</li>
+<li><p class="first">value ← get(directory, key)</p>
+<p>This is spelled “<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/browser/trunk/docs/frontends/webapi.rst#reading-a-file">GET /uri/$DIRCAP/[SUBDIRS../]FILENAME</a>”. As above,
+“$DIRCAP” is the directory, “FILENAME” is the key.</p>
+<p>The performance of this is determined by the fact that it first
+downloads the entire directory, then finds the immutable filecap for
+the given key, then does a GET on that immutable filecap. So again,
+it is strictly worse than using the immutable file API (about twice
+as bad, if the directory size is similar to the value size).</p>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+<p>What about ways to use LAFS as a key-value store that are not yet
+implemented? Well, Zooko has lots of ideas about ways to extend Tahoe-LAFS to
+support different kinds of storage APIs or better performance. One that he
+thinks is pretty promising is just the Keep It Simple, Stupid idea of “store a
+sqlite db in a Tahoe-LAFS mutable”. ☺</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="historical/configuration.html" class="btn btn-neutral float-left" title="Old Configuration Files" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

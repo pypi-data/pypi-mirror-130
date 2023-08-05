@@ -1,0 +1,385 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Building Tahoe-LAFS On A Desert Island &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="How To Run Tahoe-LAFS" href="../running.html" />
+    <link rel="prev" title="Building Tahoe-LAFS on Linux" href="install-on-linux.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building Tahoe-LAFS On A Desert Island</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#how-this-works">How This Works</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#the-pip-wheel-cache">The pip wheel cache</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#where-does-the-cache-live">Where Does The Cache Live?</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#how-can-i-tell-if-it-s-using-the-cache">How Can I Tell If It’s Using The Cache?</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Building Tahoe-LAFS On A Desert Island</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/Installation/install-on-desert-island.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="building-tahoe-lafs-on-a-desert-island">
+<h1>Building Tahoe-LAFS On A Desert Island<a class="headerlink" href="#building-tahoe-lafs-on-a-desert-island" title="Permalink to this headline">¶</a></h1>
+<p>(or an airplane, or anywhere else without internet connectivity)</p>
+<p>Here’s the story: you leave for the airport in an hour, you know you want to
+do some Tahoe hacking on the flight. What can you grab right now that will
+let you install the necessary dependencies later, when you are offline?</p>
+<p>Pip can help, with a technique described in the pip documentation
+<a class="reference external" href="https://pip.pypa.io/en/stable/user_guide/#installing-from-local-packages">https://pip.pypa.io/en/stable/user_guide/#installing-from-local-packages</a> .</p>
+<p>First, do two setup steps:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">mkdir</span> <span class="pre">~/.pip/wheels</span></code></li>
+<li>edit <code class="docutils literal notranslate"><span class="pre">~/.pip/pip.conf</span></code> to set <code class="docutils literal notranslate"><span class="pre">[global]</span> <span class="pre">find-links</span> <span class="pre">=</span> <span class="pre">~/.pip/wheels</span></code></li>
+</ul>
+<p>(the filename may vary on non-unix platforms: check the pip documentation for
+details)</p>
+<p>This instructs all <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span></code> commands to look in your local directory
+for compiled wheels, in addition to asking PyPI and the normal wheel cache.</p>
+<p>Before you get shipwrecked (or leave the internet for a while), do this from
+your tahoe source tree (or any python source tree that you want to hack on):</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">wheel</span> <span class="pre">-w</span> <span class="pre">~/.pip/wheels</span> <span class="pre">.</span></code></li>
+</ul>
+<p>That command will require network and time: it will download and compile
+whatever is necessary right away. Schedule your shipwreck for <em>after</em> it
+completes.</p>
+<p>Specifically, it will get wheels for everything that the current project
+(“.”, i.e. tahoe) needs, and write them to the <code class="docutils literal notranslate"><span class="pre">~/.pip/wheels</span></code> directory.
+It will query PyPI to learn the current version of every dependency, then
+acquire wheels from the first source that has one:</p>
+<ul class="simple">
+<li>copy from our <code class="docutils literal notranslate"><span class="pre">~/.pip/wheels</span></code> directory</li>
+<li>copy from the local wheel cache (see below for where this lives)</li>
+<li>download a wheel from PyPI</li>
+<li>build a wheel from a tarball (cached or downloaded)</li>
+</ul>
+<p>Later, on the plane, do this:</p>
+<ul class="simple">
+<li><code class="docutils literal notranslate"><span class="pre">virtualenv</span> <span class="pre">--no-download</span> <span class="pre">ve</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">.</span> <span class="pre">ve/bin/activate</span></code></li>
+<li><code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">install</span> <span class="pre">--no-index</span> <span class="pre">--editable</span> <span class="pre">.</span></code></li>
+</ul>
+<p>That tells virtualenv/pip to not try to contact PyPI, and your <code class="docutils literal notranslate"><span class="pre">pip.conf</span></code>
+“find-links” tells them to use the wheels in <code class="docutils literal notranslate"><span class="pre">~/.pip/wheels/</span></code> instead.</p>
+<div class="section" id="how-this-works">
+<h2>How This Works<a class="headerlink" href="#how-this-works" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="the-pip-wheel-cache">
+<h3>The pip wheel cache<a class="headerlink" href="#the-pip-wheel-cache" title="Permalink to this headline">¶</a></h3>
+<p>Modern versions of pip and setuptools will, by default, cache both their HTTP
+downloads and their generated wheels. When pip is asked to install a package,
+it will first check with PyPI. If the PyPI index says it needs to download a
+newer version, but it can find a copy of the tarball/zipball/wheel in the
+HTTP cache, it will not actually download anything. Then it tries to build a
+wheel: if it already has one in the wheel cache (downloaded or built
+earlier), it will not actually build anything.</p>
+<p>If it cannot contact PyPI, it will fail. The <code class="docutils literal notranslate"><span class="pre">--no-index</span></code> above is to tell
+it to skip the PyPI step, but that leaves it with no source of packages. The
+<code class="docutils literal notranslate"><span class="pre">find-links</span></code> setting is what provides an alternate source of packages.</p>
+<p>The HTTP and wheel caches are not single flat directories: they use a
+hierarchy of subdirectories, named after a hash of the URL or name of the
+object being stored (this is to avoid filesystem limitations on the size of a
+directory). As a result, the wheel cache is not suitable for use as a
+<code class="docutils literal notranslate"><span class="pre">find-links</span></code> target (but see below).</p>
+<p>There is a command named <code class="docutils literal notranslate"><span class="pre">pip</span> <span class="pre">wheel</span></code> which only creates wheels (and stores
+them in <code class="docutils literal notranslate"><span class="pre">--wheel-dir=</span></code>, which defaults to the current directory). This
+command does not populate the wheel cache: it reads from (and writes to) the
+HTTP cache, and reads from the wheel cache, but will only save the generated
+wheels into the directory you specify with <code class="docutils literal notranslate"><span class="pre">--wheel-dir=</span></code>.</p>
+</div>
+<div class="section" id="where-does-the-cache-live">
+<h3>Where Does The Cache Live?<a class="headerlink" href="#where-does-the-cache-live" title="Permalink to this headline">¶</a></h3>
+<p>Pip’s cache location depends upon the platform. On linux, it defaults to
+~/.cache/pip/ (both http/ and wheels/). On OS-X (homebrew), it uses
+~/Library/Caches/pip/ . On Windows, try ~AppDataLocalpipcache .</p>
+<p>The location can be overridden by <code class="docutils literal notranslate"><span class="pre">pip.conf</span></code>. Look for the “wheel-dir”,
+“cache-dir”, and “find-links” options.</p>
+</div>
+<div class="section" id="how-can-i-tell-if-it-s-using-the-cache">
+<h3>How Can I Tell If It’s Using The Cache?<a class="headerlink" href="#how-can-i-tell-if-it-s-using-the-cache" title="Permalink to this headline">¶</a></h3>
+<p>When “pip install” has to download a source tarball (and build a wheel), it
+will say things like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Collecting zfec
+ Downloading zfec-1.4.24.tar.gz (175kB)
+Building wheels for collected packages: zfec
+ Running setup.py bdist_wheel for zfec ... done
+ Stored in directory: $CACHEDIR
+Successfully built zfec
+Installing collected packages: zfec
+Successfully installed zfec-1.4.24
+</pre></div>
+</div>
+<p>When “pip install” can use a cached downloaded tarball, but does not have a
+cached wheel, it will say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Collecting zfec
+ Using cached zfec-1.4.24.tar.gz
+Building wheels for collected packages: zfec
+ Running setup.py bdist_wheel for zfec ... done
+ Stored in directory: $CACHEDIR
+Successfully built zfec
+Installing collected packages: zfec
+Successfully installed zfec-1.4.24
+</pre></div>
+</div>
+<p>When “pip install” can use a cached wheel, it will just say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Collecting</span> <span class="n">zfec</span>
+<span class="n">Installed</span> <span class="n">collected</span> <span class="n">packages</span><span class="p">:</span> <span class="n">zfec</span>
+<span class="n">Successfully</span> <span class="n">installed</span> <span class="n">zfec</span><span class="o">-</span><span class="mf">1.4</span><span class="o">.</span><span class="mi">24</span>
+</pre></div>
+</div>
+<p>Many packages publish pre-built wheels next to their source tarballs. This is
+common for non-platform-specific (pure-python) packages. It is also common
+for them to provide pre-compiled windows and OS-X wheel, so users do not have
+to have a compiler installed (pre-compiled Linux wheels are not common,
+because there are too many platform variations). When “pip install” can use a
+downloaded wheel like this, it will say:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Collecting</span> <span class="n">six</span>
+ <span class="n">Downloading</span> <span class="n">six</span><span class="o">-</span><span class="mf">1.10</span><span class="o">.</span><span class="mi">0</span><span class="o">-</span><span class="n">py2</span><span class="o">.</span><span class="n">py3</span><span class="o">-</span><span class="n">none</span><span class="o">-</span><span class="nb">any</span><span class="o">.</span><span class="n">whl</span>
+<span class="n">Installing</span> <span class="n">collected</span> <span class="n">packages</span><span class="p">:</span> <span class="n">six</span>
+<span class="n">Successfully</span> <span class="n">installed</span> <span class="n">six</span><span class="o">-</span><span class="mf">1.10</span><span class="o">.</span><span class="mi">0</span>
+</pre></div>
+</div>
+<p>Note that older versions of pip do not always use wheels, or the cache. Pip
+8.0.0 or newer should be ok. The version of setuptools may also be
+significant.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../running.html" class="btn btn-neutral float-right" title="How To Run Tahoe-LAFS" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="install-on-linux.html" class="btn btn-neutral float-left" title="Building Tahoe-LAFS on Linux" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,536 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Tahoe-LAFS &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Welcome to Tahoe-LAFS!" href="about-tahoe.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="#" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul>
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="#">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="#" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Tahoe-LAFS</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tahoe-lafs">
+<h1>Tahoe-LAFS<a class="headerlink" href="#tahoe-lafs" title="Permalink to this headline">¶</a></h1>
+<p>Contents:</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="about-tahoe.html#what-is-tahoe-lafs">What is Tahoe-LAFS?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about-tahoe.html#what-is-provider-independent-security">What is “provider-independent security”?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about-tahoe.html#access-control">Access Control</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about-tahoe.html#get-started">Get Started</a></li>
+<li class="toctree-l2"><a class="reference internal" href="about-tahoe.html#license">License</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installation/install-tahoe.html#microsoft-windows">Microsoft Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation/install-tahoe.html#linux-bsd-or-macos">Linux, BSD, or MacOS</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installation/install-on-linux.html#prerequisites">Prerequisites</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Installation/install-on-linux.html#install-the-latest-tahoe-lafs-release">Install the Latest Tahoe-LAFS Release</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Installation/install-on-desert-island.html#how-this-works">How This Works</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="running.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html#do-stuff-with-it">Do Stuff With It</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html#socialize">Socialize</a></li>
+<li class="toctree-l2"><a class="reference internal" href="running.html#complain">Complain</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="magic-wormhole-invites.html#magic-wormhole">Magic Wormhole</a></li>
+<li class="toctree-l2"><a class="reference internal" href="magic-wormhole-invites.html#invites-and-joins">Invites and Joins</a></li>
+<li class="toctree-l2"><a class="reference internal" href="magic-wormhole-invites.html#tahoe-lafs-secret-exchange">Tahoe-LAFS Secret Exchange</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#node-types">Node Types</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#overall-node-configuration">Overall Node Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#connection-management">Connection Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#client-configuration">Client Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#frontend-configuration">Frontend Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#storage-server-configuration">Storage Server Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#storage-server-plugin-configuration">Storage Server Plugin Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#running-a-helper">Running A Helper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#running-an-introducer">Running An Introducer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#other-files-in-basedir">Other Files in BASEDIR</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#introducer-definitions">Introducer Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#static-server-definitions">Static Server Definitions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#other-files">Other files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#example">Example</a></li>
+<li class="toctree-l2"><a class="reference internal" href="configuration.html#old-configuration-files">Old Configuration Files</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#the-key-value-store">The Key-Value Store</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#file-encoding">File Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#capabilities">Capabilities</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#server-selection">Server Selection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#swarming-download-trickling-upload">Swarming Download, Trickling Upload</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#the-file-store-layer">The File Store Layer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#leases-refreshing-garbage-collection">Leases, Refreshing, Garbage Collection</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#file-repairer">File Repairer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#security">Security</a></li>
+<li class="toctree-l2"><a class="reference internal" href="architecture.html#reliability">Reliability</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#cli-command-overview">CLI Command Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#node-management">Node Management</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#file-store-manipulation">File Store Manipulation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#storage-grid-maintenance">Storage Grid Maintenance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/CLI.html#debugging">Debugging</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#enabling-the-web-api-port">Enabling the web-API port</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#basic-concepts-get-put-delete-post">Basic Concepts: GET, PUT, DELETE, POST</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#urls">URLs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#slow-operations-progress-and-cancelling">Slow Operations, Progress, and Cancelling</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#programmatic-operations">Programmatic Operations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#browser-operations-human-oriented-interfaces">Browser Operations: Human-oriented interfaces</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#other-useful-pages">Other Useful Pages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#static-files-in-public-html">Static Files in /public_html</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#safety-and-security-issues-names-vs-uris">Safety and Security Issues – Names vs. URIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#concurrency-issues">Concurrency Issues</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#access-blacklist">Access Blacklist</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/webapi.html#urls-and-http-and-utf-8">URLs and HTTP and UTF-8</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#sftp-background">SFTP Background</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#tahoe-lafs-support">Tahoe-LAFS Support</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#creating-an-account-file">Creating an Account File</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#configuring-sftp-access">Configuring SFTP Access</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#dependencies">Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#immutable-and-mutable-files">Immutable and Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/FTP-and-SFTP.html#known-issues">Known Issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="frontends/download-status.html#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/download-status.html#what-s-involved-in-a-download">What’s involved in a download?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="frontends/download-status.html#data-on-the-download-status-page">Data on the download-status page</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="known_issues.html#known-issues-in-tahoe-lafs-v1-10-3-released-30-mar-2016">Known Issues in Tahoe-LAFS v1.10.3, released 30-Mar-2016</a></li>
+<li class="toctree-l2"><a class="reference internal" href="known_issues.html#known-issues-in-tahoe-lafs-v1-9-0-released-31-oct-2011">Known Issues in Tahoe-LAFS v1.9.0, released 31-Oct-2011</a></li>
+<li class="toctree-l2"><a class="reference internal" href="known_issues.html#known-issues-in-tahoe-lafs-v1-8-2-released-30-jan-2011">Known Issues in Tahoe-LAFS v1.8.2, released 30-Jan-2011</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="release-checklist.html#any-contributor">Any Contributor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-checklist.html#privileged-contributor">Privileged Contributor</a></li>
+<li class="toctree-l2"><a class="reference internal" href="release-checklist.html#announcing-the-release">Announcing the Release</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="servers.html#manual-configuration">Manual Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers.html#automatic-configuration">Automatic Configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers.html#deployment-scenarios">Deployment Scenarios</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="helper.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helper.html#setting-up-a-helper">Setting Up A Helper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helper.html#using-a-helper">Using a Helper</a></li>
+<li class="toctree-l2"><a class="reference internal" href="helper.html#other-helper-modes">Other Helper Modes</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="convergence-secret.html#what-is-it">What Is It?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="convergence-secret.html#what-if-i-change-my-convergence-secret">What If I Change My Convergence Secret?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="convergence-secret.html#how-to-use-it">How To Use It</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="garbage-collection.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garbage-collection.html#client-side-renewal">Client-side Renewal</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garbage-collection.html#server-side-expiration">Server Side Expiration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garbage-collection.html#expiration-progress">Expiration Progress</a></li>
+<li class="toctree-l2"><a class="reference internal" href="garbage-collection.html#future-directions">Future Directions</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="donations.html#governance">Governance</a></li>
+<li class="toctree-l2"><a class="reference internal" href="donations.html#transparent-accounting">Transparent Accounting</a></li>
+<li class="toctree-l2"><a class="reference internal" href="donations.html#expenditure-addresses">Expenditure Addresses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="donations.html#historical-donation-addresses">Historical Donation Addresses</a></li>
+<li class="toctree-l2"><a class="reference internal" href="donations.html#validation">Validation</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="accepting-donations.html#sending-donations">Sending Donations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accepting-donations.html#receiving-donations">Receiving Donations</a></li>
+<li class="toctree-l2"><a class="reference internal" href="accepting-donations.html#further-reading">Further Reading</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="expenses.html#budget-items">Budget Items</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cautions.html#timing-attacks">Timing Attacks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="backupdb.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="backupdb.html#schema">Schema</a></li>
+<li class="toctree-l2"><a class="reference internal" href="backupdb.html#upload-operation">Upload Operation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="backupdb.html#directory-operations">Directory Operations</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="developer-guide.html#pre-commit-checks">Pre-commit Checks</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ticket-triage.html#process">Process</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#use-cases">Use cases</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#software-dependencies">Software Dependencies</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#connection-configuration">Connection configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#anonymity-configuration">Anonymity configuration</a></li>
+<li class="toctree-l2"><a class="reference internal" href="anonymity-configuration.html#performance-and-security-issues">Performance and security issues</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="nodekeys.html#why-announcements-are-signed">Why Announcements Are Signed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodekeys.html#how-the-node-id-is-computed">How The Node ID Is Computed</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodekeys.html#version-compatibility-fallbacks-for-old-versions">Version Compatibility, Fallbacks For Old Versions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="nodekeys.html#share-placement">Share Placement</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#publishing-an-a-byte-immutable-file">Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#publishing-an-a-byte-mutable-file">Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#downloading-b-bytes-of-an-a-byte-immutable-file">Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#downloading-b-bytes-of-an-a-byte-mutable-file">Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#modifying-b-bytes-of-an-a-byte-mutable-file">Modifying <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#inserting-removing-b-bytes-in-an-a-byte-mutable-file">Inserting/Removing <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes in an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#adding-an-entry-to-an-a-entry-directory">Adding an entry to an <code class="docutils literal notranslate"><span class="pre">A</span></code>-entry directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#listing-an-a-entry-directory">Listing an <code class="docutils literal notranslate"><span class="pre">A</span></code> entry directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#checking-an-a-byte-file">Checking an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#verifying-an-a-byte-file-immutable">Verifying an A-byte file (immutable)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#verifying-an-a-byte-file-mutable">Verifying an A-byte file (mutable)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="performance.html#repairing-an-a-byte-file-mutable-or-immutable">Repairing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file (mutable or immutable)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#realtime-logging">Realtime Logging</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#incidents">Incidents</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#working-with-flogfiles">Working with flogfiles</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#gatherers">Gatherers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#adding-log-messages">Adding log messages</a></li>
+<li class="toctree-l2"><a class="reference internal" href="logging.html#log-messages-during-unit-tests">Log Messages During Unit Tests</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="stats.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stats.html#statistics-categories">Statistics Categories</a></li>
+<li class="toctree-l2"><a class="reference internal" href="stats.html#using-munin-to-graph-stats-values">Using Munin To Graph Stats Values</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="debian.html#overview">Overview</a></li>
+<li class="toctree-l2"><a class="reference internal" href="debian.html#dependency-packages">Dependency Packages</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="build/build-pyOpenSSL.html#download-and-install-microsoft-visual-c-compiler-for-python-2-7">Download and install Microsoft Visual C++ compiler for Python 2.7</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build/build-pyOpenSSL.html#download-and-install-perl">Download and install Perl</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build/build-pyOpenSSL.html#download-and-install-the-latest-openssl-version">Download and install the latest OpenSSL version</a></li>
+<li class="toctree-l2"><a class="reference internal" href="build/build-pyOpenSSL.html#building-pyopenssl">Building PyOpenSSL</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="specifications/outline.html">Specification Document Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/url.html">URLs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/uri.html">Tahoe URIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/file-encoding.html">File Encoding</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/URI-extension.html">URI Extension Block</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/mutable.html">Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/dirnodes.html">Tahoe-LAFS Directory Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/servers-of-happiness.html">Servers of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/servers-of-happiness.html#upload-strategy-of-happiness">Upload Strategy of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="specifications/backends/raic.html">Redundant Array of Independent Clouds: Share To Cloud Mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="proposed/leasedb.html">Lease database design</a></li>
+<li class="toctree-l2"><a class="reference internal" href="proposed/http-storage-node-protocol.html">Storage Node Protocol (“Great Black Swamp”, “GBS”)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="filesystem-notes.html#ext3">ext3</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+</div>
+</div>
+<div class="section" id="indices-and-tables">
+<h1>Indices and tables<a class="headerlink" href="#indices-and-tables" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><a class="reference internal" href="genindex.html"><span class="std std-ref">Index</span></a></li>
+<li><a class="reference internal" href="py-modindex.html"><span class="std std-ref">Module Index</span></a></li>
+<li><a class="reference internal" href="search.html"><span class="std std-ref">Search Page</span></a></li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="about-tahoe.html" class="btn btn-neutral float-right" title="Welcome to Tahoe-LAFS!" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

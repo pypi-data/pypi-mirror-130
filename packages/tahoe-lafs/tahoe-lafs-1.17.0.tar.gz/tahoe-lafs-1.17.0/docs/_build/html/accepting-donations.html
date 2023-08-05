@@ -1,0 +1,331 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Storage Server Donations &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Expenses paid by donated BTC" href="expenses.html" />
+    <link rel="prev" title="Donations" href="donations.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Storage Server Donations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sending-donations">Sending Donations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#find-zcash-shielded-address">Find Zcash Shielded Address</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#send-the-donation">Send the Donation</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#receiving-donations">Receiving Donations</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuring-tahoe-lafs">Configuring Tahoe-LAFS</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#further-reading">Further Reading</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Storage Server Donations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/accepting-donations.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="storage-server-donations">
+<h1>Storage Server Donations<a class="headerlink" href="#storage-server-donations" title="Permalink to this headline">¶</a></h1>
+<p>The following is a configuration convention which allows users to anonymously support the operators of storage servers.
+Donations are made using <a class="reference external" href="https://z.cash/support/security/privacy-security-recommendations.html#transaction">Zcash shielded transactions</a> to limit the amount of personal information incidentally conveyed.</p>
+<div class="section" id="sending-donations">
+<h2>Sending Donations<a class="headerlink" href="#sending-donations" title="Permalink to this headline">¶</a></h2>
+<p>To support a storage server following this convention, you need several things:</p>
+<ul class="simple">
+<li>a Zcash wallet capable of sending shielded transactions
+(at least until Zcash 1.1.1 this requires a Zcash full node)</li>
+<li>a shielded address with sufficient balance</li>
+<li>a running Tahoe-LAFS client node which knows about the recipient storage server</li>
+</ul>
+<p>For additional protection, you may also wish to operate your Zcash wallet and full node using Tor.</p>
+<div class="section" id="find-zcash-shielded-address">
+<h3>Find Zcash Shielded Address<a class="headerlink" href="#find-zcash-shielded-address" title="Permalink to this headline">¶</a></h3>
+<p>To find an address at which a storage server operator wishes to receive donations,
+launch the Tahoe-LAFS web UI:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ tahoe webopen
+</pre></div>
+</div>
+<p>Inspect the page for the storage server area.
+This will have a heading like <em>Connected to N of M known storage servers</em>.
+Each storage server in this section will have a nickname.
+A storage server with a nickname beginning with <code class="docutils literal notranslate"><span class="pre">zcash:</span></code> is signaling it accepts Zcash donations.
+Copy the full address following the <code class="docutils literal notranslate"><span class="pre">zcash:</span></code> prefix and save it for the next step.
+This is the donation address.
+Donation addresses beginning with <code class="docutils literal notranslate"><span class="pre">z</span></code> are shielded.
+It is recommended that all donations be sent from and to shielded addresses.</p>
+</div>
+<div class="section" id="send-the-donation">
+<h3>Send the Donation<a class="headerlink" href="#send-the-donation" title="Permalink to this headline">¶</a></h3>
+<p>First, select a donation amount.
+Next, use a Zcash wallet to send the selected amount to the donation address.
+Using the Zcash cli wallet, this can be done with commands like:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ DONATION_ADDRESS=&quot;...&quot;
+$ AMOUNT=&quot;...&quot;
+$ YOUR_ADDRESS=&quot;...&quot;
+$ zcash-cli z_sendmany $YOUR_ADDRESS &quot;[{\&quot;address\&quot;: \&quot;$DONATION_ADDRESS\&quot;, \&quot;amount\&quot;: $AMOUNT}]&quot;
+</pre></div>
+</div>
+<p>Remember that you must also have funds to pay the transaction fee
+(which defaults to 0.0001 ZEC in mid-2018).</p>
+</div>
+</div>
+<div class="section" id="receiving-donations">
+<h2>Receiving Donations<a class="headerlink" href="#receiving-donations" title="Permalink to this headline">¶</a></h2>
+<p>To receive donations from users following this convention, you need the following:</p>
+<ul class="simple">
+<li>a Zcash shielded address</li>
+</ul>
+<div class="section" id="configuring-tahoe-lafs">
+<h3>Configuring Tahoe-LAFS<a class="headerlink" href="#configuring-tahoe-lafs" title="Permalink to this headline">¶</a></h3>
+<p>The Zcash shielded address is placed in the storage server’s <code class="docutils literal notranslate"><span class="pre">nickname</span></code> field.
+Edit <code class="docutils literal notranslate"><span class="pre">tahoe.cfg</span></code> and edit the <code class="docutils literal notranslate"><span class="pre">nickname</span></code> field in the <code class="docutils literal notranslate"><span class="pre">node</span></code> section like so:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">[</span><span class="n">node</span><span class="p">]</span>
+<span class="n">nickname</span> <span class="o">=</span> <span class="n">zcash</span><span class="p">:</span><span class="n">zcABCDEF</span><span class="o">....</span>
+</pre></div>
+</div>
+<p>Then restart the storage server.</p>
+</div>
+</div>
+<div class="section" id="further-reading">
+<h2>Further Reading<a class="headerlink" href="#further-reading" title="Permalink to this headline">¶</a></h2>
+<p>To acquaint yourself with the security and privacy properties of Zcash,
+refer to the <a class="reference external" href="http://zcash.readthedocs.io/en/latest/">Zcash documentation</a>.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="expenses.html" class="btn btn-neutral float-right" title="Expenses paid by donated BTC" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="donations.html" class="btn btn-neutral float-left" title="Donations" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

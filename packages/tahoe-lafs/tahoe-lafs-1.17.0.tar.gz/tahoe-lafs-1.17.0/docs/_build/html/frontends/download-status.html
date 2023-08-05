@@ -1,0 +1,380 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Download status &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Known Issues" href="../known_issues.html" />
+    <link rel="prev" title="Tahoe-LAFS SFTP Frontend" href="FTP-and-SFTP.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Download status</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#introduction">Introduction</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#what-s-involved-in-a-download">What’s involved in a download?</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#data-on-the-download-status-page">Data on the download-status page</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#dyhb-requests">DYHB Requests</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#read-events">Read Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#segment-events">Segment Events</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#requests">Requests</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Download status</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/frontends/download-status.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="download-status">
+<h1>Download status<a class="headerlink" href="#download-status" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="introduction">
+<h2>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h2>
+<p>The WUI will display the “status” of uploads and downloads.</p>
+<p>The Welcome Page has a link entitled “Recent Uploads and Downloads”
+which goes to this URL:</p>
+<p><a class="reference external" href="http://$GATEWAY/status">http://$GATEWAY/status</a></p>
+<p>Each entry in the list of recent operations has a “status” link which
+will take you to a page describing that operation.</p>
+<p>For immutable downloads, the page has a lot of information, and this
+document is to explain what it all means. It was written by Brian
+Warner, who wrote the v1.8.0 downloader code and the code which
+generates this status report about the v1.8.0 downloader’s
+behavior. Brian posted it to the trac:
+<a class="reference external" href="https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1169#comment:1">https://tahoe-lafs.org/trac/tahoe-lafs/ticket/1169#comment:1</a></p>
+<p>Then Zooko lightly edited it while copying it into the docs/
+directory.</p>
+</div>
+<div class="section" id="what-s-involved-in-a-download">
+<h2>What’s involved in a download?<a class="headerlink" href="#what-s-involved-in-a-download" title="Permalink to this headline">¶</a></h2>
+<p>Downloads are triggered by read() calls, each with a starting offset (defaults
+to 0) and a length (defaults to the whole file). A regular web-API GET request
+will result in a whole-file read() call.</p>
+<p>Each read() call turns into an ordered sequence of get_segment() calls. A
+whole-file read will fetch all segments, in order, but partial reads or
+multiple simultaneous reads will result in random-access of segments. Segment
+reads always return ciphertext: the layer above that (in read()) is responsible
+for decryption.</p>
+<p>Before we can satisfy any segment reads, we need to find some shares. (“DYHB”
+is an abbreviation for “Do You Have Block”, and is the message we send to
+storage servers to ask them if they have any shares for us. The name is
+historical, from Mojo Nation/Mnet/Mountain View, but nicely distinctive.
+Tahoe-LAFS’s actual message name is remote_get_buckets().). Responses come
+back eventually, or don’t.</p>
+<p>Once we get enough positive DYHB responses, we have enough shares to start
+downloading. We send “block requests” for various pieces of the share.
+Responses come back eventually, or don’t.</p>
+<p>When we get enough block-request responses for a given segment, we can decode
+the data and satisfy the segment read.</p>
+<p>When the segment read completes, some or all of the segment data is used to
+satisfy the read() call (if the read call started or ended in the middle of a
+segment, we’ll only use part of the data, otherwise we’ll use all of it).</p>
+</div>
+<div class="section" id="data-on-the-download-status-page">
+<h2>Data on the download-status page<a class="headerlink" href="#data-on-the-download-status-page" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="dyhb-requests">
+<h3>DYHB Requests<a class="headerlink" href="#dyhb-requests" title="Permalink to this headline">¶</a></h3>
+<p>This shows every Do-You-Have-Block query sent to storage servers and their
+results. Each line shows the following:</p>
+<ul class="simple">
+<li>the serverid to which the request was sent</li>
+<li>the time at which the request was sent. Note that all timestamps are
+relative to the start of the first read() call and indicated with a “+” sign</li>
+<li>the time at which the response was received (if ever)</li>
+<li>the share numbers that the server has, if any</li>
+<li>the elapsed time taken by the request</li>
+</ul>
+<p>Also, each line is colored according to the serverid. This color is also used
+in the “Requests” section below.</p>
+</div>
+<div class="section" id="read-events">
+<h3>Read Events<a class="headerlink" href="#read-events" title="Permalink to this headline">¶</a></h3>
+<p>This shows all the FileNode read() calls and their overall results. Each line
+shows:</p>
+<ul class="simple">
+<li>the range of the file that was requested (as [OFFSET:+LENGTH]). A whole-file
+GET will start at 0 and read the entire file.</li>
+<li>the time at which the read() was made</li>
+<li>the time at which the request finished, either because the last byte of data
+was returned to the read() caller, or because they cancelled the read by
+calling stopProducing (i.e. closing the HTTP connection)</li>
+<li>the number of bytes returned to the caller so far</li>
+<li>the time spent on the read, so far</li>
+<li>the total time spent in AES decryption</li>
+<li>total time spend paused by the client (pauseProducing), generally because the
+HTTP connection filled up, which most streaming media players will do to
+limit how much data they have to buffer</li>
+<li>effective speed of the read(), not including paused time</li>
+</ul>
+</div>
+<div class="section" id="segment-events">
+<h3>Segment Events<a class="headerlink" href="#segment-events" title="Permalink to this headline">¶</a></h3>
+<p>This shows each get_segment() call and its resolution. This table is not well
+organized, and my post-1.8.0 work will clean it up a lot. In its present form,
+it records “request” and “delivery” events separately, indicated by the “type”
+column.</p>
+<p>Each request shows the segment number being requested and the time at which the
+get_segment() call was made.</p>
+<p>Each delivery shows:</p>
+<ul class="simple">
+<li>segment number</li>
+<li>range of file data (as [OFFSET:+SIZE]) delivered</li>
+<li>elapsed time spent doing ZFEC decoding</li>
+<li>overall elapsed time fetching the segment</li>
+<li>effective speed of the segment fetch</li>
+</ul>
+</div>
+<div class="section" id="requests">
+<h3>Requests<a class="headerlink" href="#requests" title="Permalink to this headline">¶</a></h3>
+<p>This shows every block-request sent to the storage servers. Each line shows:</p>
+<ul class="simple">
+<li>the server to which the request was sent</li>
+<li>which share number it is referencing</li>
+<li>the portion of the share data being requested (as [OFFSET:+SIZE])</li>
+<li>the time the request was sent</li>
+<li>the time the response was received (if ever)</li>
+<li>the amount of data that was received (which might be less than SIZE if we
+tried to read off the end of the share)</li>
+<li>the elapsed time for the request (RTT=Round-Trip-Time)</li>
+</ul>
+<p>Also note that each Request line is colored according to the serverid it was
+sent to. And all timestamps are shown relative to the start of the first
+read() call: for example the first DYHB message was sent at +0.001393s about
+1.4 milliseconds after the read() call started everything off.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../known_issues.html" class="btn btn-neutral float-right" title="Known Issues" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="FTP-and-SFTP.html" class="btn btn-neutral float-left" title="Tahoe-LAFS SFTP Frontend" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

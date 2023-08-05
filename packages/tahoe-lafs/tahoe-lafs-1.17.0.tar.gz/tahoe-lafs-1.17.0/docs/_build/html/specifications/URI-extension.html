@@ -1,0 +1,321 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>URI Extension Block &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script type="text/javascript" src="../_static/jquery.js"></script>
+        <script type="text/javascript" src="../_static/underscore.js"></script>
+        <script type="text/javascript" src="../_static/doctools.js"></script>
+        <script type="text/javascript" src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Mutable Files" href="mutable.html" />
+    <link rel="prev" title="File Encoding" href="file-encoding.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance.html">Performance costs for some common operations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Specifications</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="outline.html">Specification Document Outline</a></li>
+<li class="toctree-l2"><a class="reference internal" href="url.html">URLs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="uri.html">Tahoe URIs</a></li>
+<li class="toctree-l2"><a class="reference internal" href="file-encoding.html">File Encoding</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">URI Extension Block</a></li>
+<li class="toctree-l2"><a class="reference internal" href="mutable.html">Mutable Files</a></li>
+<li class="toctree-l2"><a class="reference internal" href="dirnodes.html">Tahoe-LAFS Directory Nodes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers-of-happiness.html">Servers of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="servers-of-happiness.html#upload-strategy-of-happiness">Upload Strategy of Happiness</a></li>
+<li class="toctree-l2"><a class="reference internal" href="backends/raic.html">Redundant Array of Independent Clouds: Share To Cloud Mapping</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html">Specifications</a> &raquo;</li>
+        
+      <li>URI Extension Block</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/specifications/URI-extension.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="uri-extension-block">
+<h1>URI Extension Block<a class="headerlink" href="#uri-extension-block" title="Permalink to this headline">¶</a></h1>
+<p>This block is a serialized dictionary with string keys and string values
+(some of which represent numbers, some of which are SHA-256 hashes). All
+buckets hold an identical copy. The hash of the serialized data is kept in
+the URI.</p>
+<p>The download process must obtain a valid copy of this data before any
+decoding can take place. The download process must also obtain other data
+before incremental validation can be performed. Full-file validation (for
+clients who do not wish to do incremental validation) can be performed solely
+with the data from this block.</p>
+<p>At the moment, this data block contains the following keys (and an estimate
+on their sizes):</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">size</span>                <span class="mi">5</span>
+<span class="n">segment_size</span>        <span class="mi">7</span>
+<span class="n">num_segments</span>        <span class="mi">2</span>
+<span class="n">needed_shares</span>       <span class="mi">2</span>
+<span class="n">total_shares</span>        <span class="mi">3</span>
+
+<span class="n">codec_name</span>          <span class="mi">3</span>
+<span class="n">codec_params</span>        <span class="mi">5</span><span class="o">+</span><span class="mi">1</span><span class="o">+</span><span class="mi">2</span><span class="o">+</span><span class="mi">1</span><span class="o">+</span><span class="mi">3</span><span class="o">=</span><span class="mi">12</span>
+<span class="n">tail_codec_params</span>   <span class="mi">12</span>
+
+<span class="n">share_root_hash</span>     <span class="mi">32</span> <span class="p">(</span><span class="n">binary</span><span class="p">)</span> <span class="ow">or</span> <span class="mi">52</span> <span class="p">(</span><span class="n">base32</span><span class="o">-</span><span class="n">encoded</span><span class="p">)</span> <span class="n">each</span>
+<span class="n">plaintext_hash</span>
+<span class="n">plaintext_root_hash</span>
+<span class="n">crypttext_hash</span>
+<span class="n">crypttext_root_hash</span>
+</pre></div>
+</div>
+<p>Some pieces are needed elsewhere (size should be visible without pulling the
+block, the Tahoe3 algorithm needs total_shares to find the right peers, all
+peer selection algorithms need needed_shares to ask a minimal set of peers).
+Some pieces are arguably redundant but are convenient to have present
+(test_encode.py makes use of num_segments).</p>
+<p>The rule for this data block is that it should be a constant size for all
+files, regardless of file size. Therefore hash trees (which have a size that
+depends linearly upon the number of segments) are stored elsewhere in the
+bucket, with only the hash tree root stored in this data block.</p>
+<p>This block will be serialized as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>assert that all keys match ^[a-zA-z_\-]+$
+sort all the keys lexicographically
+for k in keys:
+ write(&quot;%s:&quot; % k)
+ write(netstring(data[k]))
+</pre></div>
+</div>
+<p>Serialized size:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dense</span> <span class="n">binary</span> <span class="p">(</span><span class="n">but</span> <span class="n">decimal</span><span class="p">)</span> <span class="n">packing</span><span class="p">:</span> <span class="mi">160</span><span class="o">+</span><span class="mi">46</span><span class="o">=</span><span class="mi">206</span>
+<span class="n">including</span> <span class="s1">&#39;key:&#39;</span> <span class="p">(</span><span class="mi">185</span><span class="p">)</span> <span class="ow">and</span> <span class="n">netstring</span> <span class="p">(</span><span class="mi">6</span><span class="o">*</span><span class="mi">3</span><span class="o">+</span><span class="mi">7</span><span class="o">*</span><span class="mi">4</span><span class="o">=</span><span class="mi">46</span><span class="p">)</span> <span class="n">on</span> <span class="n">values</span><span class="p">:</span> <span class="mi">231</span>
+<span class="n">including</span> <span class="s1">&#39;key:</span><span class="si">%d</span><span class="se">\n</span><span class="s1">&#39;</span> <span class="p">(</span><span class="mi">185</span><span class="o">+</span><span class="mi">13</span><span class="o">=</span><span class="mi">198</span><span class="p">)</span> <span class="ow">and</span> <span class="n">printable</span> <span class="n">values</span> <span class="p">(</span><span class="mi">46</span><span class="o">+</span><span class="mi">5</span><span class="o">*</span><span class="mi">52</span><span class="o">=</span><span class="mi">306</span><span class="p">)</span><span class="o">=</span><span class="mi">504</span>
+</pre></div>
+</div>
+<p>We’ll go with the 231-sized block, and provide a tool to dump it as text if
+we really want one.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="mutable.html" class="btn btn-neutral float-right" title="Mutable Files" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="file-encoding.html" class="btn btn-neutral float-left" title="File Encoding" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,453 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html4" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Performance costs for some common operations &mdash; Tahoe-LAFS 1.x documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Tahoe Logging" href="logging.html" />
+    <link rel="prev" title="Node Keys in Tahoe-LAFS" href="nodekeys.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> Tahoe-LAFS
+          
+
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.x
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="about-tahoe.html">Welcome to Tahoe-LAFS!</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-tahoe.html">Installing Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-windows.html">Building Tahoe-LAFS on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-linux.html">Building Tahoe-LAFS on Linux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="Installation/install-on-desert-island.html">Building Tahoe-LAFS On A Desert Island</a></li>
+<li class="toctree-l1"><a class="reference internal" href="running.html">How To Run Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="magic-wormhole-invites.html">Magic Wormhole Invites</a></li>
+<li class="toctree-l1"><a class="reference internal" href="configuration.html">Configuring a Tahoe-LAFS node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="architecture.html">Tahoe-LAFS Architecture</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/CLI.html">The Tahoe-LAFS CLI commands</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/webapi.html">The Tahoe REST-ful Web API</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/FTP-and-SFTP.html">Tahoe-LAFS SFTP Frontend</a></li>
+<li class="toctree-l1"><a class="reference internal" href="frontends/download-status.html">Download status</a></li>
+<li class="toctree-l1"><a class="reference internal" href="known_issues.html">Known Issues</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributing.html">Contributing to Tahoe-LAFS</a></li>
+<li class="toctree-l1"><a class="reference internal" href="CODE_OF_CONDUCT.html">Contributor Code of Conduct</a></li>
+<li class="toctree-l1"><a class="reference internal" href="release-checklist.html">Release Checklist</a></li>
+<li class="toctree-l1"><a class="reference internal" href="servers.html">How To Configure A Server</a></li>
+<li class="toctree-l1"><a class="reference internal" href="helper.html">The Tahoe Upload Helper</a></li>
+<li class="toctree-l1"><a class="reference internal" href="convergence-secret.html">The Convergence Secret</a></li>
+<li class="toctree-l1"><a class="reference internal" href="garbage-collection.html">Garbage Collection in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backdoors.html">Statement on Backdoors</a></li>
+<li class="toctree-l1"><a class="reference internal" href="donations.html">Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="accepting-donations.html">Storage Server Donations</a></li>
+<li class="toctree-l1"><a class="reference internal" href="expenses.html">Expenses paid by donated BTC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cautions.html">Things To Be Careful About As We Venture Boldly Forth</a></li>
+<li class="toctree-l1"><a class="reference internal" href="write_coordination.html">Avoiding Write Collisions in Tahoe</a></li>
+<li class="toctree-l1"><a class="reference internal" href="backupdb.html">The Tahoe BackupDB</a></li>
+<li class="toctree-l1"><a class="reference internal" href="developer-guide.html">Developer Guide</a></li>
+<li class="toctree-l1"><a class="reference internal" href="ticket-triage.html">Ticket Triage</a></li>
+<li class="toctree-l1"><a class="reference internal" href="anonymity-configuration.html">Using Tahoe-LAFS with an anonymizing network: Tor, I2P</a></li>
+<li class="toctree-l1"><a class="reference internal" href="nodekeys.html">Node Keys in Tahoe-LAFS</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Performance costs for some common operations</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#publishing-an-a-byte-immutable-file">Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#when-the-file-is-already-uploaded">when the file is already uploaded</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#when-the-file-is-not-already-uploaded">when the file is not already uploaded</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#publishing-an-a-byte-mutable-file">Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#downloading-b-bytes-of-an-a-byte-immutable-file">Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#downloading-b-bytes-of-an-a-byte-mutable-file">Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#modifying-b-bytes-of-an-a-byte-mutable-file">Modifying <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#inserting-removing-b-bytes-in-an-a-byte-mutable-file">Inserting/Removing <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes in an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adding-an-entry-to-an-a-entry-directory">Adding an entry to an <code class="docutils literal notranslate"><span class="pre">A</span></code>-entry directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#listing-an-a-entry-directory">Listing an <code class="docutils literal notranslate"><span class="pre">A</span></code> entry directory</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#checking-an-a-byte-file">Checking an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#verifying-an-a-byte-file-immutable">Verifying an A-byte file (immutable)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#verifying-an-a-byte-file-mutable">Verifying an A-byte file (mutable)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#repairing-an-a-byte-file-mutable-or-immutable">Repairing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file (mutable or immutable)</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="logging.html">Tahoe Logging</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stats.html">Tahoe Statistics</a></li>
+<li class="toctree-l1"><a class="reference internal" href="debian.html">Debian and Ubuntu Support</a></li>
+<li class="toctree-l1"><a class="reference internal" href="build/build-pyOpenSSL.html">Building pyOpenSSL on Windows</a></li>
+<li class="toctree-l1"><a class="reference internal" href="specifications/index.html">Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="proposed/index.html">Proposed Specifications</a></li>
+<li class="toctree-l1"><a class="reference internal" href="filesystem-notes.html">Filesystem-specific notes</a></li>
+<li class="toctree-l1"><a class="reference internal" href="historical/configuration.html">Old Configuration Files</a></li>
+<li class="toctree-l1"><a class="reference internal" href="key-value-store.html">Using Tahoe as a key-value store</a></li>
+</ul>
+
+            
+          
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">Tahoe-LAFS</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li>Performance costs for some common operations</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="_sources/performance.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="performance-costs-for-some-common-operations">
+<h1>Performance costs for some common operations<a class="headerlink" href="#performance-costs-for-some-common-operations" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic simple">
+<li><a class="reference internal" href="#publishing-an-a-byte-immutable-file">Publishing an A-byte immutable file</a></li>
+<li><a class="reference internal" href="#publishing-an-a-byte-mutable-file">Publishing an A-byte mutable file</a></li>
+<li><a class="reference internal" href="#downloading-b-bytes-of-an-a-byte-immutable-file">Downloading B bytes of an A-byte immutable file</a></li>
+<li><a class="reference internal" href="#downloading-b-bytes-of-an-a-byte-mutable-file">Downloading B bytes of an A-byte mutable file</a></li>
+<li><a class="reference internal" href="#modifying-b-bytes-of-an-a-byte-mutable-file">Modifying B bytes of an A-byte mutable file</a></li>
+<li><a class="reference internal" href="#inserting-removing-b-bytes-in-an-a-byte-mutable-file">Inserting/Removing B bytes in an A-byte mutable file</a></li>
+<li><a class="reference internal" href="#adding-an-entry-to-an-a-entry-directory">Adding an entry to an A-entry directory</a></li>
+<li><a class="reference internal" href="#listing-an-a-entry-directory">Listing an A entry directory</a></li>
+<li><a class="reference internal" href="#checking-an-a-byte-file">Checking an A-byte file</a></li>
+<li><a class="reference internal" href="#verifying-an-a-byte-file-immutable">Verifying an A-byte file (immutable)</a></li>
+<li><a class="reference internal" href="#repairing-an-a-byte-file-mutable-or-immutable">Repairing an A-byte file (mutable or immutable)</a></li>
+</ol>
+<p><code class="docutils literal notranslate"><span class="pre">K</span></code> indicates the number of shares required to reconstruct the file
+(default: 3)</p>
+<p><code class="docutils literal notranslate"><span class="pre">N</span></code> indicates the total number of shares produced (default: 10)</p>
+<p><code class="docutils literal notranslate"><span class="pre">S</span></code> indicates the segment size (default: 128 KiB)</p>
+<p><code class="docutils literal notranslate"><span class="pre">A</span></code> indicates the number of bytes in a file</p>
+<p><code class="docutils literal notranslate"><span class="pre">B</span></code> indicates the number of bytes of a file that are being read or
+written</p>
+<p><code class="docutils literal notranslate"><span class="pre">G</span></code> indicates the number of storage servers on your grid</p>
+<p>Most of these cost estimates may have a further constant multiplier: when a
+formula says <code class="docutils literal notranslate"><span class="pre">N/K*S</span></code>, the cost may actually be <code class="docutils literal notranslate"><span class="pre">2*N/K*S</span></code> or <code class="docutils literal notranslate"><span class="pre">3*N/K*S</span></code>.
+Also note that all references to mutable files are for SDMF-formatted files;
+this document has not yet been updated to describe the MDMF format.</p>
+<div class="section" id="publishing-an-a-byte-immutable-file">
+<h2>Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file<a class="headerlink" href="#publishing-an-a-byte-immutable-file" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="when-the-file-is-already-uploaded">
+<h3>when the file is already uploaded<a class="headerlink" href="#when-the-file-is-already-uploaded" title="Permalink to this headline">¶</a></h3>
+<p>If the file is already uploaded with the exact same contents, same
+erasure coding parameters (K, N), and same added convergence secret,
+then it reads the whole file from disk one time while hashing it to
+compute the storage index, then contacts about N servers to ask each
+one to store a share. All of the servers reply that they already have
+a copy of that share, and the upload is done.</p>
+<p>disk: A</p>
+<p>cpu: ~A</p>
+<p>network: ~N</p>
+<p>memory footprint: S</p>
+</div>
+<div class="section" id="when-the-file-is-not-already-uploaded">
+<h3>when the file is not already uploaded<a class="headerlink" href="#when-the-file-is-not-already-uploaded" title="Permalink to this headline">¶</a></h3>
+<p>If the file is not already uploaded with the exact same contents, same
+erasure coding parameters (K, N), and same added convergence secret,
+then it reads the whole file from disk one time while hashing it to
+compute the storage index, then contacts about N servers to ask each
+one to store a share. Then it uploads each share to a storage server.</p>
+<p>disk: 2*A</p>
+<p>cpu: 2*~A</p>
+<p>network: N/K*A</p>
+<p>memory footprint: N/K*S</p>
+</div>
+</div>
+<div class="section" id="publishing-an-a-byte-mutable-file">
+<h2>Publishing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file<a class="headerlink" href="#publishing-an-a-byte-mutable-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A + a large constant for RSA keypair generation</p>
+<p>network: A</p>
+<p>memory footprint: N/K*A</p>
+<p>notes: Tahoe-LAFS generates a new RSA keypair for each mutable file that it
+publishes to a grid. This takes up to 1 or 2 seconds on a typical desktop PC.</p>
+<p>Part of the process of encrypting, encoding, and uploading a mutable file to a
+Tahoe-LAFS grid requires that the entire file be in memory at once. For larger
+files, this may cause Tahoe-LAFS to have an unacceptably large memory footprint
+(at least when uploading a mutable file).</p>
+</div>
+<div class="section" id="downloading-b-bytes-of-an-a-byte-immutable-file">
+<h2>Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte immutable file<a class="headerlink" href="#downloading-b-bytes-of-an-a-byte-immutable-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~B</p>
+<p>network: B</p>
+<p>notes: When Tahoe-LAFS 1.8.0 or later is asked to read an arbitrary
+range of an immutable file, only the S-byte segments that overlap the
+requested range will be downloaded.</p>
+<p>(Earlier versions would download from the beginning of the file up
+until the end of the requested range, and then continue to download
+the rest of the file even after the request was satisfied.)</p>
+</div>
+<div class="section" id="downloading-b-bytes-of-an-a-byte-mutable-file">
+<h2>Downloading <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file<a class="headerlink" href="#downloading-b-bytes-of-an-a-byte-mutable-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A</p>
+<p>network: A</p>
+<p>memory footprint: A</p>
+<p>notes: As currently implemented, mutable files must be downloaded in
+their entirety before any part of them can be read. We are
+exploring fixes for this; see ticket #393 for more information.</p>
+</div>
+<div class="section" id="modifying-b-bytes-of-an-a-byte-mutable-file">
+<h2>Modifying <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes of an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file<a class="headerlink" href="#modifying-b-bytes-of-an-a-byte-mutable-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A</p>
+<p>network: A</p>
+<p>memory footprint: N/K*A</p>
+<p>notes: If you upload a changed version of a mutable file that you
+earlier put onto your grid with, say, ‘tahoe put –mutable’,
+Tahoe-LAFS will replace the old file with the new file on the
+grid, rather than attempting to modify only those portions of the
+file that have changed. Modifying a file in this manner is
+essentially uploading the file over again, except that it re-uses
+the existing RSA keypair instead of generating a new one.</p>
+</div>
+<div class="section" id="inserting-removing-b-bytes-in-an-a-byte-mutable-file">
+<h2>Inserting/Removing <code class="docutils literal notranslate"><span class="pre">B</span></code> bytes in an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte mutable file<a class="headerlink" href="#inserting-removing-b-bytes-in-an-a-byte-mutable-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A</p>
+<p>network: A</p>
+<p>memory footprint: N/K*A</p>
+<p>notes: Modifying any part of a mutable file in Tahoe-LAFS requires that
+the entire file be downloaded, modified, held in memory while it is
+encrypted and encoded, and then re-uploaded. A future version of the
+mutable file layout (“LDMF”) may provide efficient inserts and
+deletes. Note that this sort of modification is mostly used internally
+for directories, and isn’t something that the WUI, CLI, or other
+interfaces will do – instead, they will simply overwrite the file to
+be modified, as described in “Modifying B bytes of an A-byte mutable
+file”.</p>
+</div>
+<div class="section" id="adding-an-entry-to-an-a-entry-directory">
+<h2>Adding an entry to an <code class="docutils literal notranslate"><span class="pre">A</span></code>-entry directory<a class="headerlink" href="#adding-an-entry-to-an-a-entry-directory" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A</p>
+<p>network: ~A</p>
+<p>memory footprint: N/K*~A</p>
+<p>notes: In Tahoe-LAFS, directories are implemented as specialized mutable
+files. So adding an entry to a directory is essentially adding B
+(actually, 300-330) bytes somewhere in an existing mutable file.</p>
+</div>
+<div class="section" id="listing-an-a-entry-directory">
+<h2>Listing an <code class="docutils literal notranslate"><span class="pre">A</span></code> entry directory<a class="headerlink" href="#listing-an-a-entry-directory" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~A</p>
+<p>network: ~A</p>
+<p>memory footprint: N/K*~A</p>
+<p>notes: Listing a directory requires that the mutable file storing the
+directory be downloaded from the grid. So listing an A entry
+directory requires downloading a (roughly) 330 * A byte mutable
+file, since each directory entry is about 300-330 bytes in size.</p>
+</div>
+<div class="section" id="checking-an-a-byte-file">
+<h2>Checking an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file<a class="headerlink" href="#checking-an-a-byte-file" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~G</p>
+<p>network: ~G</p>
+<p>memory footprint: negligible</p>
+<p>notes: To check a file, Tahoe-LAFS queries all the servers that it knows
+about. Note that neither of these values directly depend on the size
+of the file. This is relatively inexpensive, compared to the verify
+and repair operations.</p>
+</div>
+<div class="section" id="verifying-an-a-byte-file-immutable">
+<h2>Verifying an A-byte file (immutable)<a class="headerlink" href="#verifying-an-a-byte-file-immutable" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~N/K*A</p>
+<p>network: N/K*A</p>
+<p>memory footprint: N/K*S</p>
+<p>notes: To verify a file, Tahoe-LAFS downloads all of the ciphertext
+shares that were originally uploaded to the grid and integrity checks
+them. This is (for grids with good redundancy) more expensive than
+downloading an A-byte file, since only a fraction of these shares would
+be necessary to recover the file.</p>
+</div>
+<div class="section" id="verifying-an-a-byte-file-mutable">
+<h2>Verifying an A-byte file (mutable)<a class="headerlink" href="#verifying-an-a-byte-file-mutable" title="Permalink to this headline">¶</a></h2>
+<p>cpu: ~N/K*A</p>
+<p>network: N/K*A</p>
+<p>memory footprint: N/K*A</p>
+<p>notes: To verify a file, Tahoe-LAFS downloads all of the ciphertext
+shares that were originally uploaded to the grid and integrity checks
+them. This is (for grids with good redundancy) more expensive than
+downloading an A-byte file, since only a fraction of these shares would
+be necessary to recover the file.</p>
+</div>
+<div class="section" id="repairing-an-a-byte-file-mutable-or-immutable">
+<h2>Repairing an <code class="docutils literal notranslate"><span class="pre">A</span></code>-byte file (mutable or immutable)<a class="headerlink" href="#repairing-an-a-byte-file-mutable-or-immutable" title="Permalink to this headline">¶</a></h2>
+<p>cpu: variable, between ~A and ~N/K*A</p>
+<p>network: variable; between A and N/K*A</p>
+<dl class="docutils">
+<dt>memory footprint (immutable): (1+N/K)*S</dt>
+<dd>(SDMF mutable): (1+N/K)*A</dd>
+</dl>
+<p>notes: To repair a file, Tahoe-LAFS downloads the file, and
+generates/uploads missing shares in the same way as when it initially
+uploads the file.  So, depending on how many shares are missing, this
+can cost as little as a download or as much as a download followed by
+a full upload.</p>
+<p>Since SDMF files have only one segment, which must be processed in its
+entirety, repair requires a full-file download followed by a full-file
+upload.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="logging.html" class="btn btn-neutral float-right" title="Tahoe Logging" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="nodekeys.html" class="btn btn-neutral float-left" title="Node Keys in Tahoe-LAFS" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2016, The Tahoe-LAFS Developers.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
