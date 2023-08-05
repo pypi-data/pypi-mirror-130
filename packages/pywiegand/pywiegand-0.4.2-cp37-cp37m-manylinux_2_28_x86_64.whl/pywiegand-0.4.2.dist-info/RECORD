@@ -1,0 +1,9 @@
+LICENSE,sha256=9WhaQg4G34IIlE70e9Nxd1T2e5A1ZZ13K3kckJzxduQ,1075
+pywiegand/__init__.py,sha256=Vj4jSfMtaWSDknN_JlkUEcMV_OgPCsWmmHAlwYJalrw,2474
+pywiegand/extension/pywiegand_adapter.cpp,sha256=mM_2dxcQ2q7gLpbdTCzX8JyY7okKCsQRyPf-NXN_WYc,8199
+pywiegand/extension/pywiegand_adapter.h,sha256=fboK1dBtKdYWtAbTFH3w4Dj5R7ejoNwTVYXMHpo5F08,823
+pywiegand/extension/pywiegand_adapter.cpython-37m-x86_64-linux-gnu.so,sha256=kTE9hSlHAUA9RkMVwIQin1u_jWUe_2mdVZZ9DPxkNY4,75240
+pywiegand-0.4.2.dist-info/LICENSE,sha256=9WhaQg4G34IIlE70e9Nxd1T2e5A1ZZ13K3kckJzxduQ,1075
+pywiegand-0.4.2.dist-info/WHEEL,sha256=bpqQPrZdkY-1j8DFEWv1WZytIWwyapFg_NF--jVbED8,104
+pywiegand-0.4.2.dist-info/METADATA,sha256=HNDboXtQKeHudDhBVsIEFXjhssQveTPb7Q0s2jrj6_g,1045
+pywiegand-0.4.2.dist-info/RECORD,,
