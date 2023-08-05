@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            submit=abstractions.submit_training_job:main
+        
