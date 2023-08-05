@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+yt2mp4/__init__.py
+yt2mp4/__main__.py
+yt2mp4.egg-info/PKG-INFO
+yt2mp4.egg-info/SOURCES.txt
+yt2mp4.egg-info/dependency_links.txt
+yt2mp4.egg-info/entry_points.txt
+yt2mp4.egg-info/requires.txt
+yt2mp4.egg-info/top_level.txt
