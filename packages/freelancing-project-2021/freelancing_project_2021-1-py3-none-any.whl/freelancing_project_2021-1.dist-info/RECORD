@@ -1,0 +1,16 @@
+NOWNT/Database.py,sha256=BBof6EJ5ozKK4PeCJTu20PjR9pDul6rDMDZ7is4mn0w,3793
+NOWNT/Task.py,sha256=1JKEJJ5GaX4LVpO5HFvoS5AcD5tnUg0tGOUfJzjGdWM,1795
+NOWNT/Test.py,sha256=DTccLV2xM7DSqmDkKp1aO78FYWTUmucOyv85t786eio,1814
+NOWNT/User.py,sha256=Gen2Yz4prIw73L6q9vvhJDwUt1KCcm5JGPVipwI5AgA,1070
+NOWNT/__init__.py,sha256=WA1JhdfVn8qEPcMgPxO_0cJIwTOssiO4jxIXWrsmn54,163
+NOWNT/web.py,sha256=GWrF-bljyewfGVXZ7zRKqOit3DEfJnwapgUkoHOSEoU,1889
+NOWNT/static/styles/styles.css,sha256=q7MRl6A_1LB2Eb2U-YapjF-RHEd6qnRG5D5pXGnNIe8,1882
+NOWNT/templates/base.html,sha256=aT57TTgnYCUGJPu_4Wo7HHNndT1ZHkHZrBtugNiVErI,692
+NOWNT/templates/index.html,sha256=JXJ7mkfrC-bHzbuuxKsIyiQPPR8glHyFs6-47ctAiAI,523
+NOWNT/templates/previous.html,sha256=xamVAOPO8Z230Q59aesqQb11NzoHUL0KJ6TO9Db3kAI,816
+NOWNT/templates/results.html,sha256=hl80-j6Z0GEMfq_bfFoqiqCCgPZz4cjTjk1yqR00s0o,714
+freelancing_project_2021-1.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freelancing_project_2021-1.dist-info/METADATA,sha256=ZUcWjz4aKVwzEPDQgdEoK8LP1sWjjmnOM6t8-68ETGs,1448
+freelancing_project_2021-1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+freelancing_project_2021-1.dist-info/top_level.txt,sha256=WNqVroKTDbxmL1mnlu9ZvBKlKIqlwWForRW0CcN656M,6
+freelancing_project_2021-1.dist-info/RECORD,,
