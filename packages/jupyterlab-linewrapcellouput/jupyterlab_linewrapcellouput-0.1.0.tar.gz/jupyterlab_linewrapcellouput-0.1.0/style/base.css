@@ -1,0 +1,13 @@
+/** Toggled button background */
+.selected .buttonLineWrapCellOuput {
+    background-color: var(--jp-layout-color2);
+}
+
+/* Toolbar icon */
+.wll-WrapIcon {
+    background-color: var(--jp-inverse-layout-color3);
+    -webkit-mask-image: url(./left-align.png);
+    mask-image: url(./left-align.png);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+}
