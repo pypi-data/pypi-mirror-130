@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+bornly.py
+pyproject.toml
+setup.cfg
+setup.py
+bornly.egg-info/PKG-INFO
+bornly.egg-info/SOURCES.txt
+bornly.egg-info/dependency_links.txt
+bornly.egg-info/requires.txt
+bornly.egg-info/top_level.txt
