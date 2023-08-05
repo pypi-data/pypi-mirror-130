@@ -1,0 +1,10 @@
+app_logger.py,sha256=vEkhXAPphZ4Ljs3y6dYsUWEep6_WOfiOw5FsRgi7gc0,2000
+goose.py,sha256=2uH2pWPPXi23o25hgq9G3T8A56h2CwRJsJQgZIHLSLg,11866
+goose_utils.py,sha256=zRalr1VFxTlrGgD2xEtaemaicdjctw-SKgCacEI-dfM,937
+goose_version.py,sha256=3pdA9p_GyOmQNpSqomeAccr0FwfqV2_aVf1PvNP95rc,23
+postgoose-0.1.1.dist-info/LICENSE,sha256=mq09m1d-Zw2iXTqiX4JF9EyQTjKd7mk8uS6g1_SROwY,555
+postgoose-0.1.1.dist-info/METADATA,sha256=k6Mlrh9om-NeUYX9c_Evwt-hSiKcb2MF_nkHZAMZ-Uk,3379
+postgoose-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+postgoose-0.1.1.dist-info/entry_points.txt,sha256=bK839P-N58TbRQPSA_KoOU6HGTe08o_q5CtEVVwUbbo,38
+postgoose-0.1.1.dist-info/top_level.txt,sha256=-Wcr6P8QtYw8g9XkmyZb_goFQ3rDhqVBQNOXdcPpZ5k,43
+postgoose-0.1.1.dist-info/RECORD,,
