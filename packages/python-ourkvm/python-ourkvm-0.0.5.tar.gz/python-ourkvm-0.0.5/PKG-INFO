@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: python-ourkvm
+Version: 0.0.5
+Summary: Our KVM solution, clulstered and self hosted
+Author-email: Anton Hvornum <anton.feeds+github@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: psutil
+Requires-Dist: fastapi_resource_server
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: mypy ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Project-URL: Documentation, https://ourkvm.readthedocs.io/
+Project-URL: Home, https://github.com/Torxed/ourkvm
+Project-URL: Source, https://github.com/Torxed/ourkvm
+Provides-Extra: test
+
+# ourkvm
+Our KVM solution, clustered and self hosted
+
