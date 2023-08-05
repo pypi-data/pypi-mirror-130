@@ -1,0 +1,9 @@
+README.md
+setup.py
+scorecardpyEC/Bin.py
+scorecardpyEC/__init__.py
+scorecardpyEC.egg-info/PKG-INFO
+scorecardpyEC.egg-info/SOURCES.txt
+scorecardpyEC.egg-info/dependency_links.txt
+scorecardpyEC.egg-info/requires.txt
+scorecardpyEC.egg-info/top_level.txt
