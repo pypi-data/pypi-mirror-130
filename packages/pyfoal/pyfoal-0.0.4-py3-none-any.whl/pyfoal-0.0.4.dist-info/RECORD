@@ -1,0 +1,14 @@
+pyfoal/__init__.py,sha256=q2vphdiLuo4VLdbvI5P475EHuJiS3Qe_vKt_y3wWrhI,64
+pyfoal/__main__.py,sha256=zDqZqwiMx03rz3cwlieJ6GsNn2sXHQghQel0yLEPND0,1042
+pyfoal/convert.py,sha256=CT0wkn41aQaXkzRZw7f5vdEt1uzWZ0SvNX-9ORLBz0Q,871
+pyfoal/core.py,sha256=VcUgRe4WfPCgrOjZiDXeMkXDXsmoZuQr9joWYwnoNmw,9217
+pyfoal/load.py,sha256=_iZuJK5TSYWpT4h1dCkFqD5JHVkSf5ed9SbzeCKb-R8,670
+pyfoal/assets/config,sha256=Qb_WhB3rB4FsCh-pScNwgwh9don2H2lk-i4a81wQwd0,303
+pyfoal/assets/hmmdefs,sha256=blJQqCqa7h1TPKn4KRAebm9NOcymLJDPqHP8B_qBvHY,8164153
+pyfoal/assets/macros,sha256=rgHkzDjsPLqA0MvZwB_fdyAnqV-MTMx3SQyxLLz_gAE,604
+pyfoal/assets/monophones,sha256=yB32h0KWCrnP1CrhG8mxxx86v68-dN5oGA9FXsQgT0I,332
+pyfoal-0.0.4.dist-info/LICENSE,sha256=Lh0LIuZODwk3yyE9vkWwsCyX0njE24uukmrgMTJbJBc,1090
+pyfoal-0.0.4.dist-info/METADATA,sha256=nVwpPPXdsWQxx24iJB80G0m6MnBak8szcTBz0h1UHpM,3514
+pyfoal-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyfoal-0.0.4.dist-info/top_level.txt,sha256=Zl5axT1pemmAUC0eJe96PwdiiE5DBR1pCQ7jbOodU4E,7
+pyfoal-0.0.4.dist-info/RECORD,,
