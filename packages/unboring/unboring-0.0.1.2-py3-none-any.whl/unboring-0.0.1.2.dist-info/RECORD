@@ -1,0 +1,10 @@
+unboring/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unboring/input.py,sha256=0PNSKVzMkmd9-Umk10VotyPJC_BVBhJmcL0UOM4nLoc,673
+unboring/number.py,sha256=MRkdFoibSdy1WgCgbpRYY4i1jiWpLdK34AlQGEXNkrc,473
+unboring/regex.py,sha256=KW9nKuTV_NskX7UQpr8FivwNEnqPIKU7ckMmVWK-OII,411
+unboring/text.py,sha256=ALn3uIY3P--yHKhpWepswlXlBJvEkfZykiAv2duSgls,459
+unboring-0.0.1.2.dist-info/LICENSE,sha256=f-83dPJUCJcxfZPbzdU4SqdTLvGEL9QafA-Rmbo-iro,1065
+unboring-0.0.1.2.dist-info/METADATA,sha256=Dsv17O8-reyVI7M9389U-c2pzIl01br9_UDIZ4YYeAA,623
+unboring-0.0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+unboring-0.0.1.2.dist-info/top_level.txt,sha256=aWpPtADwbC11U0uiR4NXK92DwKvFeiiZ13y92yeL9kc,9
+unboring-0.0.1.2.dist-info/RECORD,,
