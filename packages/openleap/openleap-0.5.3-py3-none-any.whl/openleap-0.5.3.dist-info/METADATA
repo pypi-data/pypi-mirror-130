@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: openleap
+Version: 0.5.3
+Summary: Hand tracking and gesture recognition module
+Home-page: https://github.com/szymciem8/OpenLeap
+Author: Szymon Ciemała
+Author-email: szymciem@protonmail.com
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mediapipe (~=0.8.8)
+Requires-Dist: opencv-python (~=4.5.3.56)
+Requires-Dist: pandas (~=1.3.4)
+
+# OpenLeap
+
+## Table of contents
+* [General Info](#general-info)
+* [Technologies](#technologies)
+* [Setup](#setup)
+
+## General Info
+OpenLeap is an open source project that allows you to add hand gesture control to your Python projects. 
+
+## Technologies
+
+Project was created with technologies:
+
+- Python
+- OpenCV
+- MediaPipe
+- SciKit Learn
+
+## Setup
+OpenLeap can be installed using pip, as shown below.
+
+```
+$ pip install openleap
+```
+
+## Simple Example
+
+Test openleap controller with an example program. Code below will create an instance of opencv window with feed from the camera. 
+
+
+
+```
+import openleap
+
+controller = openleap.OpenLeap(screen_show=True, screeen_type='BLACK', show_data_on_image=True, gesture_model='sign_language')
+
+controller.loop()
+
+```
+
+OpenLeap object can be created with couple of options. 
+- **screen_show** - if set to True, window with camera feed will be created. 
+- **screen_type** - 'cam' or 'black' background. 
+- **show_data_on_image** - descriptive
+- **show_data_in_console** - descriptive
+- **gesture_model** - chose gesture recognition model, 'basic' or 'sign_language'
+
+## Access hand information
+
+Recognized gestures, hand position, tilt and so on are stored in a dictionary called 'data' that consists of two dataclass objects for right and left hand. Dataclass object is of given structure:
+
+```
+@dataclass
+class Data:
+    x : float = 0
+    y : float = 0
+    z : float = 0
+    distance: float = 0.0
+    angle: float = 0.0
+    gesture: str = None
+```
+
+Dataclass containing all of the data above is continuously being updated in **main()** or **loop()** function depending on which one is being used. 
+

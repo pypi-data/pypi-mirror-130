@@ -1,0 +1,9 @@
+openleap/OpenLeap.py,sha256=hPHphdbj_zLn2kzlWNiuwyn8liF2o-kBKQ3KGk3XmLU,14078
+openleap/__init__.py,sha256=JBm1zxDK2QFMMlfB-ifKFe4H1Savm2PDzFrgLkjHoU0,23
+openleap/gesture_recognition.pkl,sha256=j9WVS7djV6Co779XZ91Q2DQ5psijz7-1Y_IjKcKeWAo,3428
+openleap/sign_language_alphabet.pkl,sha256=zaErmPLQKUvimOu0dt54S3yp7CYTVa2LLEHCUEMZoIA,22763631
+openleap-0.5.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+openleap-0.5.3.dist-info/METADATA,sha256=Ph-Mlwd8odHdWk-e1oSRmHrQitIa_Ek0v87lpBbSshU,2212
+openleap-0.5.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+openleap-0.5.3.dist-info/top_level.txt,sha256=Aw0guBsrIOdwS6ubGzpxmj7lNgBy1wqwAUmwuRdw8Os,18
+openleap-0.5.3.dist-info/RECORD,,
