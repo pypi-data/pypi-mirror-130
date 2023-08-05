@@ -1,0 +1,3 @@
+[console_scripts]
+sqlmake = sqlmake.__main__:main
+

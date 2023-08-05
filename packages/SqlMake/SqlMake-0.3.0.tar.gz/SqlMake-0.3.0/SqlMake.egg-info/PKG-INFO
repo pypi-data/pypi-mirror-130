@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: SqlMake
+Version: 0.3.0
+Summary: Command line tool to build a SQL schema
+Home-page: https://github.com/amvtek/SqlMake/
+Author: AmvTek developers
+Author-email: devel@amvtek.com
+License: MIT
+Project-URL: Documentation, https://sqlmake.readthedocs.org/en/latest/
+Project-URL: Source, https://github.com/amvtek/SqlMake/
+Project-URL: Tracker, https://github.com/amvtek/SqlMake/issues
+Project-URL: Download, https://pypi.org/project/SqlMake/#files
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+
+#######
+SqlMake
+#######
+
+Command line tool that builds a SQL schema from a set of sql files.
+
+Who needs SqlMake ?
+===================
+
+You will benefit from SqlMake if you are confortable with SQL and see the value
+of defining your sql schemas (tables, stored functions, indexes, roles...)
+directly in sql and not through an ORM system like the Django ORM, SqlAlchemy or
+Hibernate to name a few.
+
+What SqlMake allows you to do is to split your SQL schema accross multiples sql
+files accurately defining **dependencies** which may exist in between such files by
+mean of special SQL comments. When in need to recreate your database schema, the
+**sqlmake** tool will collect all files resources that composes the schema,
+parse them and emit the SQL commands they contain in optimal order so as to
+respect the dependencies that have been defined. 
+
+Once your schema has been split in between several files, it will be very easy
+to read and maintain. If you archive it in a version control system like git,
+subversion or mercurial it will also be very easy to prepare **migration**
+scripts.
+
+More documentation at : http://sqlmake.readthedocs.org/en/latest/
+
+
