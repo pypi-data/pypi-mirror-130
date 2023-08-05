@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: ddenv
+Version: 0.1.0
+Summary: Docker Dev Environment, easily develop your programs using containers
+Author-email: Sjors Smits <smits.sjors@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click-spinner >=0.1.10
+Requires-Dist: docker >=5.0.3
+Requires-Dist: typer[all] >=0.4.0
+Project-URL: Home, https://github.com/smitssjors/ddenv
+
+# Docker Dev Environment
+Ddenv is a CLI tool to help with using docker as development environment.
+It currently supports the following project management tools:
+- yarn
+
+## Installation
+Ddenv requires Python 3.10+
+```commandline
+pip install ddenv
+```
+
+## Usage
+```
+$ ddenv --help
+Usage: ddenv [OPTIONS] [COMMAND]...
+
+  Run the command in a Docker container with all the dependencies and
+  source code
+
+Arguments:
+  [COMMAND]...  The command to run
+
+Options:
+  -m, --manager TEXT              The project manager your project uses
+                                  [required]
+  -v, --version TEXT              The version of the project
+                                  manager/runtime
+  --install-completion [bash|zsh|fish|powershell|pwsh]
+                                  Install completion for the specified
+                                  shell.
+  --show-completion [bash|zsh|fish|powershell|pwsh]
+                                  Show completion for the specified shell,
+                                  to copy it or customize the installation.
+  --help                          Show this message and exit.
+
+```
+
