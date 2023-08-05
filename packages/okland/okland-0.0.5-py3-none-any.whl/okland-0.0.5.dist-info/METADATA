@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: okland
+Version: 0.0.5
+Summary: Prometheus metrics from static code analysis toolings.
+Home-page: https://github.com/la3mmchen/okland/
+Author: la3mmchen
+Author-email: alex@k3wl.net
+License: MIT
+Project-URL: Documentation, https://github.com/la3mmchen/okland/readme.md
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE.txt
+Requires-Dist: fire (==0.4.0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: pytest (==6.2.5)
+Requires-Dist: pytest-xdist (==2.4.0)
+Requires-Dist: coverage (==6.1.1)
+Requires-Dist: flake8 (==3.8.4)
+Requires-Dist: rich (==10.12.0)
+Requires-Dist: prometheus-client (==0.12.0)
+Requires-Dist: docker (==5.0.3)
+Provides-Extra: testing
+Requires-Dist: setuptools ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+======
+okland
+======
+
+    Prometheus metrics from static code analyses toolings.
+
+
+okland is a wrapper around your probably favorite static code analytics toolings. it creates metrics from those. 
+
+**Why** metrics? Because it might be useful to have a interactive dashboard that shows findings of code analysis that occured during build time.
+
+See project information at `Github la3mmchen/okland <https://github.com/la3mmchen/okland/>`_
+
