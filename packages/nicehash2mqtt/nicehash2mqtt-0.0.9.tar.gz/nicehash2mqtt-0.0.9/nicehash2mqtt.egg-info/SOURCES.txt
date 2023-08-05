@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+nicehash2mqtt.py
+pyproject.toml
+setup.py
+./nicehash2mqtt.py
+nicehash2mqtt.egg-info/PKG-INFO
+nicehash2mqtt.egg-info/SOURCES.txt
+nicehash2mqtt.egg-info/dependency_links.txt
+nicehash2mqtt.egg-info/entry_points.txt
+nicehash2mqtt.egg-info/requires.txt
+nicehash2mqtt.egg-info/top_level.txt
