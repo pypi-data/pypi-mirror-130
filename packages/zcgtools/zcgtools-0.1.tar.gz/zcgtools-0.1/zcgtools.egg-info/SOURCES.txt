@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+zcgtools/__init__.py
+zcgtools/zcgtools.py
+zcgtools.egg-info/PKG-INFO
+zcgtools.egg-info/SOURCES.txt
+zcgtools.egg-info/dependency_links.txt
+zcgtools.egg-info/top_level.txt
