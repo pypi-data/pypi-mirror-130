@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/indieauth_helpers/__init__.py
+src/indieauth_helpers/main.py
+src/indieauth_helpers.egg-info/PKG-INFO
+src/indieauth_helpers.egg-info/SOURCES.txt
+src/indieauth_helpers.egg-info/dependency_links.txt
+src/indieauth_helpers.egg-info/top_level.txt
