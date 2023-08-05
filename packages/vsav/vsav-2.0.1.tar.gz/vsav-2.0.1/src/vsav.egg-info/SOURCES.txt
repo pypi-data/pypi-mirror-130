@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+src/vsav/__init__.py
+src/vsav.egg-info/PKG-INFO
+src/vsav.egg-info/SOURCES.txt
+src/vsav.egg-info/dependency_links.txt
+src/vsav.egg-info/entry_points.txt
+src/vsav.egg-info/top_level.txt

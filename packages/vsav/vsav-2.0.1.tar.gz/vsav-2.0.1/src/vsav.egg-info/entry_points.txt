@@ -1,0 +1,5 @@
+[console_scripts]
+vdif = vsav:vdif
+vres = vsav:vres
+vsav = vsav:vsav
+
