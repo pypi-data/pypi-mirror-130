@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pytypes-env
+Version: 0.0.1
+Summary: Simply calls pytypes.enable_global_typechecked_profiler() when 'PYTYPES' env var is set.
+Home-page: https://github.com/mathewmoon/pytypes-env
+Author: Mathew Moon
+Author-email: me@mathewmoon.net
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# pytypes-env
+
+If PYTYPES env var is set when you import this module then pytypes.enable_global_typechecked_profiler() will be called to enable typechecking.
+
+
