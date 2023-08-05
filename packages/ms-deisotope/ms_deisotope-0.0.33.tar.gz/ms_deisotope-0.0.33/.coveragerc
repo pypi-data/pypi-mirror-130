@@ -1,0 +1,32 @@
+[run]
+concurrency=multiprocessing
+branch = True
+parallel = True
+
+plugins = Cython.Coverage
+omit =
+    */_vendor/*
+    */feature_map/*
+    */interval_viz.py
+    */output/db.py
+    */tools/*
+    ms_deisotope/clustering/peak_clustering.py
+    ms_deisotope/qc/*
+    ms_deisotope/plot.py
+    ms_deisotope/scoring.py
+    ms_deisotope/peak_dependency_network/intervals.py
+    ms_deisotope/test/*
+    */pyteomics/*
+    */ms_peak_picker/*
+    */brainpy/*
+
+[report]
+# Regexes for lines to exclude from consideration
+exclude_lines =
+    # Have to re-enable the standard pragma
+    pragma: no cover
+
+    # Don't complain about missing debug-only code:
+    def __repr__
+
+    if __name__ == '__main__'
