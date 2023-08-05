@@ -1,0 +1,13 @@
+!Flow
+
+pods:
+  - use: yaml/executors/tokenizer.yml
+    name: tokenzier
+    replicas: 2
+
+  - use: yaml/executors/model.yml
+    name: bert
+    replicas: 2
+    timeout_ready: 100000
+
+

@@ -1,0 +1,7 @@
+!BaseExecutor
+
+requests:
+    PredictRequest:
+      - !ForwardDriver {}
+    ControlRequest:
+      - !ControlReqDriver {}

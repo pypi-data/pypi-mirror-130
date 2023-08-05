@@ -1,0 +1,9 @@
+!OpenAIGPTAutoRegressive
+use_with:
+  config: ../../resources/pre_models/GPT_LCCC-base-tf/gpt_config.json
+  pretrained_weights_path: ../../resources/pre_models/GPT_LCCC-base-tf/gpt_model.ckpt
+  end_id: 2
+  top_k: 4
+  min_len: 4
+
+

@@ -1,0 +1,12 @@
+!HuaweiGPTAutoRegressive
+use_with:
+  config: ../../resources/pre_models/huawei-gpt/cn_gpt.json
+  pretrained_weights_path: ../../resources/pre_models/huawei-gpt/cn_gpt
+  end_id: 511
+  min_len: 16
+  top_k: 4
+  num_samples: 1
+
+requests:
+    PredictRequest:
+      - !ARBeamSearchDriver {}

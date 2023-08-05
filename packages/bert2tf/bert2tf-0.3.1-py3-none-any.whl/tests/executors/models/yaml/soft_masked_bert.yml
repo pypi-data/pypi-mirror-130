@@ -1,0 +1,4 @@
+!SoftMaskedBert
+use_with:
+  config: ../../resources/soft_masked_bert/soft_masked_bert_config.json
+  pretrained_weights_path: ../../resources/pre_models/roberta_wwm_ext/bert_model.ckpt

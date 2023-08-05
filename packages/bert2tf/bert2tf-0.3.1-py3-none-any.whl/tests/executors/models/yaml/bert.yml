@@ -1,0 +1,5 @@
+!Bert
+use_with:
+  config: ../../resources/pre_models/roberta_wwm_ext/bert_config.json
+  pretrained_weights_path: ../../resources/pre_models/roberta_wwm_ext/bert_model.ckpt
+  name: bert

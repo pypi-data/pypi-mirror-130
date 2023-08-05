@@ -1,0 +1,5 @@
+!ElectraDiscriminator
+use_with:
+  config: ../../resources/pre_models/electra-chinese-small/electra_small_config.json
+  pretrained_weights_path: ../../resources/pre_models/electra-chinese-small/electra_small
+

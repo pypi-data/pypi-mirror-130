@@ -1,0 +1,3 @@
+!BertTokenizer
+use_with:
+  vocab_file_path: /Users/bytedance/Documents/bytedance/code/bert2tf/tests/resources/pre_models/roberta_wwm_ext/vocab.txt

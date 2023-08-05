@@ -1,0 +1,7 @@
+!BertModel
+use_with:
+  config: /Users/bytedance/Documents/bytedance/code/bert2tf/tests/resources/pre_models/roberta_wwm_ext/bert_config.json
+  pretrained_weights_path: /Users/bytedance/Documents/bytedance/code/bert2tf/tests/resources/pre_models/roberta_wwm_ext/bert_model.ckpt
+
+name: bert
+timeout_ready: 20000

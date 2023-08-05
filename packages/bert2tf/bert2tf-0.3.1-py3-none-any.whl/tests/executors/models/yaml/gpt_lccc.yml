@@ -1,0 +1,6 @@
+!OpenAIGPT
+use_with:
+  config: ../../resources/pre_models/GPT_LCCC-base-tf/gpt_config.json
+  pretrained_weights_path: ../../resources/pre_models/GPT_LCCC-base-tf/gpt_model.ckpt
+
+
