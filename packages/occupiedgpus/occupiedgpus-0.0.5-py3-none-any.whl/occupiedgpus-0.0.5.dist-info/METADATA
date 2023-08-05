@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: occupiedgpus
+Version: 0.0.5
+Summary: The program for occupation of GPUs.
+Home-page: https://github.com/jinzcdev/occupied-gpus.git
+Author: Zhichao Jin
+Author-email: jinzcdev@icloud.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: nvidia-ml-py
+
+# [Occupied GPU](https://github.com/jinzcdev/occupied-gpu.git)
+
+The program used to occupy GPUs.
+
+## Preparation
+
+```shell
+pip install -r requirements.txt
+```
+
+## Usage
+
+To occupy the corresponding GPUs, run:
+
+```shell
+sh train.sh 0,1,2,3
+```
+
+or
+
+```shell
+chmod a+x ./train.sh
+./train.sh 0,1,2,3
+```
+
+where `0,1,2,3` is the required format.
+
+**Note:** if you want to run the code in the background, run:
+
+```shell
+nohup sh train.sh ${GPU_IDS} >> output.log 2>&1 &
+```
+
+
