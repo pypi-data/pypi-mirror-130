@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rawr-python
+Version: 0.1.0
+Summary: Python Riot API Wrapper
+License: MIT
+Author: Ben Dowling
+Author-email: ben.dowling@icloud.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: boltons (>=21.0.0,<22.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
