@@ -1,0 +1,9 @@
+mgwrvisualizer/__init__.py,sha256=v_0NyAfQPp-iB8bMhcoMwoAaWqfY-y9r7x-Egl1WLzM,48
+mgwrvisualizer/data_extractors.py,sha256=U5tvhOVYS_9bh0lxYhNXLBv987RFPit7sbFxVKZNLho,4349
+mgwrvisualizer/main.py,sha256=ufn50Anq998iiw7WASSwv6SOmlu-R2JzfX6OEzYVhP4,7074
+mgwrvisualizer/utils.py,sha256=Hst1yWiM90apg1-zNHix0-Dev2z0H4lTyM5Q6J6YwKU,384
+webclient_dist/favicon.ico,sha256=23SrC3gzjB93j4OYxF9BA8ma6g6EWjEYp3ULTur9NEU,4286
+webclient_dist/index.html,sha256=dyTwIVhrdZrS7z0HkTJbN7AG99efgWy-SjqWU1aAfwY,507
+mgwrvisualizer-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mgwrvisualizer-0.0.2.dist-info/METADATA,sha256=CkKGwPgozztucc8C65QBdqMvhfdt4WvyTl09zzrpLUw,1211
+mgwrvisualizer-0.0.2.dist-info/RECORD,,
