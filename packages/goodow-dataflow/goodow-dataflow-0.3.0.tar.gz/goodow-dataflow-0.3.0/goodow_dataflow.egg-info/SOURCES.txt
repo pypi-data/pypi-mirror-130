@@ -1,0 +1,8 @@
+pyproject.toml
+setup.py
+goodow/__init__.py
+goodow_dataflow.egg-info/PKG-INFO
+goodow_dataflow.egg-info/SOURCES.txt
+goodow_dataflow.egg-info/dependency_links.txt
+goodow_dataflow.egg-info/requires.txt
+goodow_dataflow.egg-info/top_level.txt
