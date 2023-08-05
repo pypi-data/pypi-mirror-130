@@ -1,0 +1,12 @@
+awsaccountmgr/__init__.py,sha256=h7G3yBMxUngQ1G3VcAlKmx8riP4h2bzaC4XAP0a30JY,215
+awsaccountmgr/account.py,sha256=pGVYjjmnFXeLFHR33LGVAxuTip7oC3TzDCu7XtiXlIU,5563
+awsaccountmgr/configparser.py,sha256=IS7gIL0dJRTpoFqyMOjfRbiWxrl1iqEfHb8Qx-wIGrc,3864
+awsaccountmgr/organization.py,sha256=FAEk9Aw9WHSNVc39WR6rHHh6yXAUJUmQ8pGJw5QUhiQ,9395
+awsaccountmgr/sts.py,sha256=iAIpvxa-k--3RNeG_U6t07tHFpJuwBfkeF-h3sil36g,2832
+awsaccountmgr/vpc.py,sha256=RoudXpHc19O3ExKyktMkCbJteBfXiTESWYXflSEzSzQ,3217
+awsaccountmgr-0.0.13.data/scripts/awsaccountmgr,sha256=VNLM_Wcg2jh6vxVZjf5j4oNUMMBw8wgyjEQ5lJBOltM,5729
+awsaccountmgr-0.0.13.dist-info/LICENSE,sha256=6vhxHOa12b2aNLeL5dANc6Apjec-W7EczvtGh4Gmorg,1073
+awsaccountmgr-0.0.13.dist-info/METADATA,sha256=tI8MA9SbPQzrHpVi1PX4nYcAtrot1dzD2uzWxN7b4fI,6666
+awsaccountmgr-0.0.13.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+awsaccountmgr-0.0.13.dist-info/top_level.txt,sha256=jqwqntOBs9gTXeqf1D9vPApyZyTkLQL2sVzuki7DQaA,14
+awsaccountmgr-0.0.13.dist-info/RECORD,,
