@@ -1,0 +1,10 @@
+cycler
+kiwisolver
+matplotlib
+numpy
+opencv-python-headless
+Pillow
+pyparsing
+python-dateutil
+six
+click

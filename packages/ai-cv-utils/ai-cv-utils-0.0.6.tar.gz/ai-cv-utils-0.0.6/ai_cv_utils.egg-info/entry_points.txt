@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        aicv=aicv.main:aicv
+    
