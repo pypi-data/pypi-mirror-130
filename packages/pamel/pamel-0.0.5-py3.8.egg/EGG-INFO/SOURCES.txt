@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.py
+pamel.egg-info/PKG-INFO
+pamel.egg-info/SOURCES.txt
+pamel.egg-info/dependency_links.txt
+pamel.egg-info/requires.txt
+pamel.egg-info/top_level.txt
+pamel.egg-info/zip-safe
+paml/__init__.py
+paml/automl.py
