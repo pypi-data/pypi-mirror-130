@@ -1,0 +1,12 @@
+doubledate/__init__.py,sha256=469QqDBs4IF05rhGdN2iZ5Q1jba1Y2UT_nsC8cNIJu4,551
+doubledate/calendar.py,sha256=dl0ooww1NftITpet4lHZoXlc8l70qOYZEfpCX7S6Gbs,28888
+doubledate/constants.py,sha256=a6evtiywK2vVrKBm9mV4mlgTixZ9jT-b5e2UvKUXwO8,360
+doubledate/utils.py,sha256=F8eh2hPoA-VarziaV6Nd1FOP_bDxAyF0oQXv3GGXY1k,35892
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_calendar.py,sha256=nIDCe3KxOm42HqZ5QpmITuSUqKIIEsb5DrZF6bQOlj8,16977
+tests/test_utils.py,sha256=1SgIR40jInYcECRgrE2HbvS4oYXvbENPSPqVQzLz1mM,16384
+doubledate-0.0.7.dist-info/LICENCE,sha256=uF-phKTg-OT3AAI0as4EuhR2hWrkkQo6jNxppUP3xFU,1097
+doubledate-0.0.7.dist-info/METADATA,sha256=Y1sadJ-8eF46939t4DbNZhbT1ac4qfOtPrgnUPN7mxE,1111
+doubledate-0.0.7.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+doubledate-0.0.7.dist-info/top_level.txt,sha256=CId8y4C02Ghn_x5SjtwOop3_wEXIB3xTeFQisgaJfbU,17
+doubledate-0.0.7.dist-info/RECORD,,
