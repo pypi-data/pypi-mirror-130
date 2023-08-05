@@ -1,0 +1,8 @@
+awgan/__init__.py,sha256=yMQUxn3hWQbSwZVTyhwAK40zHnZnLdWOJxFqN1kxdkc,45
+awgan/model.py,sha256=o98slr3TCRbpb2AT5g-SaHZJGazgOwnLZdM9RXLrxt4,9120
+awgan/preprocessing.py,sha256=DRJzdM2Oi98-dJLBz9pIACm_o8PezETq6g52z46LNc8,1407
+awgan-0.0.6.dist-info/LICENSE,sha256=OKGnbVEJ_TjdFIwcEObA5S5ar1uErzbOjBqOnEqw8lo,1068
+awgan-0.0.6.dist-info/METADATA,sha256=QI2Wye_NlrxVRHNcUTBBET39JxGzOLYkDUO3DrG-6RU,433
+awgan-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+awgan-0.0.6.dist-info/top_level.txt,sha256=ZGkF_nw1u35dr5PuSRu06GqQCS7dLUpQ-naZj_VR4yI,6
+awgan-0.0.6.dist-info/RECORD,,
