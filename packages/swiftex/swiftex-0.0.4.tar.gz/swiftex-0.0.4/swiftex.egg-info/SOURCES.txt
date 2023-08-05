@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+swiftex/__init__.py
+swiftex/symbols.py
+swiftex.egg-info/PKG-INFO
+swiftex.egg-info/SOURCES.txt
+swiftex.egg-info/dependency_links.txt
+swiftex.egg-info/requires.txt
+swiftex.egg-info/top_level.txt
+swiftex/abc/__init__.py
+tests/test_symbols.py
