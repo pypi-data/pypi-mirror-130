@@ -1,0 +1,39 @@
+/*! exports provided: injectScript, loadImJoyBasicApp */
+
+/*! exports provided: loadImJoyCore, latest_rpc_version, loadImJoyRPC, loadImJoyRPCSocketIO, loadImJoyBasicApp */
+
+/*! exports provided: name, version, private, description, author, license, repository, keywords, bugs, homepage, module, scripts, dependencies, devDependencies, eslintConfig, prettier, postcss, browserslist, husky, lint-staged, default */
+
+/*! no static exports found */
+
+/*!**********************!*\
+  !*** ./package.json ***!
+  \**********************/
+
+/*!****************************!*\
+  !*** ./src/imjoyLoader.js ***!
+  \****************************/
+
+/*!******************************!*\
+  !*** ./src/imjoyBasicApp.js ***!
+  \******************************/
+
+/*!****************************************!*\
+  !*** (webpack)/buildin/amd-options.js ***!
+  \****************************************/
+
+/*!****************************************!*\
+  !*** ./src/imjoyBasicApp.template.css ***!
+  \****************************************/
+
+/*!*****************************************!*\
+  !*** ./src/imjoyBasicApp.template.html ***!
+  \*****************************************/
+
+/*!*********************************************!*\
+  !*** ./src/imjoyBasicAppMenu.template.html ***!
+  \*********************************************/
+
+/*!************************************************!*\
+  !*** ./src/imjoyBasicAppWindows.template.html ***!
+  \************************************************/
