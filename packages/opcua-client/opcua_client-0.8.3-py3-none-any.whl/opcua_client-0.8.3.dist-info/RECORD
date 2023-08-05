@@ -1,0 +1,15 @@
+uaclient/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uaclient/connection_dialog.py,sha256=TkbZ8cDueQD9282a44IWzxJ-NI5Uy9_wiD8ggozsftM,3009
+uaclient/connection_ui.py,sha256=ZvDlLTB22kekdxQoXt9hMQIeq0nj2yaEExS5ID2BP9Q,3505
+uaclient/graphwidget.py,sha256=iTqSoP_36BCr8t62GIb4JmTy0Y4eyA_JV6vxu7V1wMs,5147
+uaclient/mainwindow.py,sha256=I9FgIIXYNAxR0iN2vokoSPMm5JjhTrw5LWzpA_7VpSQ,16978
+uaclient/mainwindow_ui.py,sha256=HPssma2prMQ8fpPDmGL-km9R7NGB7UTG31OOE0neSqA,22113
+uaclient/uaclient.py,sha256=aJfpiIelML2BkSuK7sSvcUVAPIZHKByYskA3w_l6MDg,4869
+uaclient/theme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+uaclient/theme/breeze_resources.py,sha256=WIehSzZvUohQ-i6uR3vaMmwdFL_7l0C4TAXj9Lh5WRg,189411
+opcua_client-0.8.3.dist-info/LICENSE,sha256=1i8GWDCqNznMAxFWuWkIBcey6BG0oXjItKzYcl1WHJQ,35142
+opcua_client-0.8.3.dist-info/METADATA,sha256=8IwPgJTLZYihFiNs0vcDHPveszxTMatIYIHHlk4EYWA,330
+opcua_client-0.8.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+opcua_client-0.8.3.dist-info/entry_points.txt,sha256=hzWuMVfLWpLoJ9RhH6cEQPFUH27yCCri6h2VXMUdC8M,59
+opcua_client-0.8.3.dist-info/top_level.txt,sha256=x5kpgJ_AjS4955NaWiLfkJaMwvclR7Capo31k8T6jZ0,9
+opcua_client-0.8.3.dist-info/RECORD,,
