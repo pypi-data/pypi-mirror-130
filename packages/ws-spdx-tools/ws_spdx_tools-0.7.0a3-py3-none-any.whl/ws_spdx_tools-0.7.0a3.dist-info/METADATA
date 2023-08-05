@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ws-spdx-tools
+Version: 0.7.0a3
+Summary: SPDX parser and tools.
+Home-page: https://github.com/spdx/tools-python
+Author: Ahmed H. Ismail
+Author-email: ahm3d.hisham@gmail.com
+Maintainer: Philippe Ombredanne, SPDX group at the Linux Foundation and others
+Maintainer-email: pombredanne@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ply
+Requires-Dist: rdflib
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: xmltodict
+
+# WhiteSource SPDX tools-python fork 
+* This fork of [SPDX tools-python](https://github.com/spdx/tools-python) comes to address issues discovered in the original project that affects [WhiteSource SBOM Generator](https://github.com/whitesource-ps/ws-sbom-generator).
+* The intent is to keep this fork until the issues will be addressed upstream.   
+* This fork will try to keep synchronization with upstream.
+
+
