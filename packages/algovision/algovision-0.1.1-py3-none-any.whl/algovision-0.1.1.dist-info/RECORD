@@ -1,0 +1,11 @@
+algovision/__init__.py,sha256=C8lPm7FhF83lMT8dIW_3sTDuLbzv0GEEoYHU6hH6nyc,315
+algovision/conditions.py,sha256=VwHQoc4LPtVlnkBq-W_HS4qlJUVlwhlumpQ2AoWJPeY,3061
+algovision/control_structures.py,sha256=J_nqejBculcy9JY3HLgXEx6JmuSaYlQ-_IyZBAJa6wY,6792
+algovision/core.py,sha256=uXaYBHkdriPAF5xdkByrfAgcVpZeNHPSI0qhWPxSqxs,22378
+algovision/functions.py,sha256=4MnnpK00N3RWyXWAwXB5l5eV6z76PjVppCSLcd8tudQ,1386
+algovision/instructions.py,sha256=3lIuJhwoaUo-r00skQIYdx44p9Tn9bXNTbXfQFsLjm0,16603
+algovision-0.1.1.dist-info/LICENSE,sha256=JCCLY9Qe4JZE60y237Z8t2T9QJ5hGK68KErF_DHQmMw,1071
+algovision-0.1.1.dist-info/METADATA,sha256=UpBQHvKAwjaalb7EYQcoD1IIO8kW0zMnSDxlxAJoRqY,9504
+algovision-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+algovision-0.1.1.dist-info/top_level.txt,sha256=5OkaKzgjVbsHpCYJRXwJcQB6VbZJo5_Rnzahsv34Tc4,11
+algovision-0.1.1.dist-info/RECORD,,
