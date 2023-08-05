@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/cljbridge.egg-info/PKG-INFO
+src/cljbridge.egg-info/SOURCES.txt
+src/cljbridge.egg-info/dependency_links.txt
+src/cljbridge.egg-info/requires.txt
+src/cljbridge.egg-info/top_level.txt
+src/clojurebridge/__init__.py
+src/clojurebridge/cljbridge.py
