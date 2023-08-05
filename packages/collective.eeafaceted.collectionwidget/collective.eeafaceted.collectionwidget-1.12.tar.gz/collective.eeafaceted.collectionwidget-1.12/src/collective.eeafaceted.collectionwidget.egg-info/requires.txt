@@ -1,0 +1,11 @@
+collective.behavior.talcondition
+eea.facetednavigation>=10.0
+imio.helpers
+plone.api
+plone.app.contenttypes
+setuptools
+
+[test]
+plone.app.robotframework[debug]
+plone.app.testing
+robotframework-selenium2screenshots
