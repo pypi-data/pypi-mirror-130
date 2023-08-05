@@ -1,0 +1,11 @@
+absl-py
+dopamine-rl
+flax
+gin-config
+gym
+opensimplex
+s2sphere
+scikit-learn
+tensorflow
+tensorflow-probability
+transitions
