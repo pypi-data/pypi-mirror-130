@@ -1,0 +1,15 @@
+pyreversi/__init__.py,sha256=o1GCUy7rfbvnUmuLULZs2yf88U5dhLhGCXO6YeMnCY8,639
+pyreversi/args.py,sha256=vZjDKZH6N_Pwcn4ZS7EUDV_OUc1s_aasrXhY-oxu-z8,3161
+pyreversi/bot.py,sha256=dP-RL2lyKDQqRLxdyIGwAjaiQRYd2C-Jxgei18j5oec,12696
+pyreversi/display.py,sha256=PpNsmtlJA9vq2tz8dh2-A5nD8FDByOIQMyvtlZ-L6jw,4951
+pyreversi/game.py,sha256=xDp_eo0s8-zheOhcxQ9aPcmkbOLYmfbz1Y0hiMyS9kk,3086
+pyreversi/human.py,sha256=3M3lGSNMX9weNFQlvR65dzScT87tr-Ywn567e4DBQPU,779
+pyreversi/plateau.py,sha256=HE5BsTQxyoc69N39k8ojKyrCJat9XiZ2-5z0sH8Rjw0,897
+pyreversi/rules.py,sha256=2vtLksvN27F_WX7_D4fr79JvAQ09XCaXccLR8elcUz8,4281
+pyreversi/update.py,sha256=gZWtXMZpv4vzNgLlIfYopRJFiSVhFb0OX8AG7g0LN0I,331
+pyreversi-1.2.0.dist-info/LICENSE.txt,sha256=VOhx48kk-dGXwc7Kgh4TIj_6lA07ODz1yMGNU2WR0NU,1065
+pyreversi-1.2.0.dist-info/METADATA,sha256=dJLP7GntKg37-xeWfAC7xjEp-EaG6tubaQh3hx40JvM,807
+pyreversi-1.2.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyreversi-1.2.0.dist-info/entry_points.txt,sha256=zOFITmO00DddTYaHzY8rFbB7PK2ue2CeLt6RprU12yY,60
+pyreversi-1.2.0.dist-info/top_level.txt,sha256=i7eK49gZtbYbrzZAg2krl_vuG6xbDj8R63HZz1phQPs,10
+pyreversi-1.2.0.dist-info/RECORD,,
