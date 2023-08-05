@@ -1,0 +1,56 @@
+#!python
+import os
+import sys
+
+import toml
+from it.base import Tool
+from it.core import load_tools, tool_list_exists, config_file
+
+help_text="""Pennywise 0.0.1
+
+ ./pennywise list                     - List available tools
+ ./pennywise <tool> <tool-arguments>  - Run the tool you are most afraid to install.
+ ./pennywise install <tool>           - Install <tool>
+ ./pennywise source <github-user>     - Load tool list from <github-user>. If user is not provided loads it from original repository.
+"""
+if __name__ == '__main__':
+    if len(sys.argv) == 1:
+        print(help_text)
+        sys.exit(0)
+
+    if not tool_list_exists():
+        load_tools("voorloopnul", "main")
+
+    available_tools = toml.load(config_file())
+    cmd = sys.argv[1]
+    args = sys.argv[2:]
+
+    if cmd == "list":
+        for tool, value in available_tools.items():
+            help_text = value.get("description", "No help provided")
+            print(f"{tool} - {help_text}")
+
+    elif cmd == "install":
+        if args:
+            tool = args[0]
+            if tool in available_tools.keys():
+                pass
+            else:
+                print(f"Tool <{tool}> not in pennywise.toml")
+        else:
+            print("Which tool you want to install?")
+
+    elif cmd == "source":
+        user = args[0] if args else "voorloopnul"
+        load_tools(user, "main")
+
+    elif cmd in available_tools.keys():
+        current_dir = os.getcwd()
+        image = available_tools[cmd]["image"]
+        prefix_cmd = available_tools[cmd]["prefix_cmd"]
+
+        tool = Tool(image, prefix_cmd)
+        tool.run(args, current_dir)
+
+    else:
+        print("Pennywise doesn't recognize this tool.")
