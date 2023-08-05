@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: singlish
+Version: 0.0.3
+Summary: A language processing tool for Singlish
+Home-page: https://github.com/asanka9/singlish
+Author: asanka9
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE.txt
+
+# A language processing tool for Singlish. 
+
+
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ysenarath/sinling.git/master?filepath=notebooks%2Fexamples.ipynb)
+[![PyPI version](https://badge.fury.io/py/sinling.svg)](https://badge.fury.io/py/sinling)
+
+## Installation
+
+Run the following command in your virtualenv to install this package.
+
+`pip install singlish`
+
+## How to use
+### Sinhala 2 Singlish
+```python
+from singlish.sinhalaToSinglish import SinhalaToSinglish
+
+if __name__ == '__main__':
+    singlish = SinhalaToSinglish()
+    print(singlish.convert('à¶ºà¶­à·”à¶»à·”à¶´à·”à·€à¶»à·”à·€'))
+```
+
+
+Visit [here](https://github.com/asanka9/singlish) .
+
+## Contributions
+- Contact `contactasanka9@gmail.com` if you would like to contribute to this project.
+
+## License
+MIT License
+
+
