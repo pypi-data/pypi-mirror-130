@@ -1,0 +1,7 @@
+niltype<1.0,>=0.3
+th<1.0,>=0.3
+revolt<2.0,>=1.4.0
+valera<2.0,>=1.4.0
+blahblah<2.0,>=1.4.0
+district42<2.0,>=1.4.0
+multidict<6.0,>=4.5
