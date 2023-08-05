@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: morss
+Version: 0.0.0
+Summary: Get full-text RSS feeds
+Home-page: http://morss.it/
+Author: pictuga, Samuel Marks
+Author-email: contact@pictuga.com
+License: AGPL v3
+Download-URL: https://git.pictuga.com/pictuga/morss
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: lxml
+Requires-Dist: bs4
+Requires-Dist: python-dateutil
+Requires-Dist: chardet
+Provides-Extra: dev
+Requires-Dist: pylint ; extra == 'dev'
+Provides-Extra: full
+Requires-Dist: pymysql ; extra == 'full'
+Requires-Dist: redis ; extra == 'full'
+Requires-Dist: diskcache ; extra == 'full'
+Requires-Dist: gunicorn ; extra == 'full'
+
+UNKNOWN
+
