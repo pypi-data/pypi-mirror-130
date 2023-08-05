@@ -1,0 +1,10 @@
+prune sage
+
+global-include all__sagemath_repl.py
+
+graft sage/doctest
+graft sage/repl
+
+include VERSION.txt
+
+global-exclude *.py[co]

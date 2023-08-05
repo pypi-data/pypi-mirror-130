@@ -1,0 +1,3 @@
+sagemath-objects~=9.5b6
+sagemath-environment
+ipython>=7.13.0
