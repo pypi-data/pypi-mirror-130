@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+FileManagerPro/FileManagerPro.py
+FileManagerPro/__init__.py
+FileManagerPro.egg-info/PKG-INFO
+FileManagerPro.egg-info/SOURCES.txt
+FileManagerPro.egg-info/dependency_links.txt
+FileManagerPro.egg-info/top_level.txt
