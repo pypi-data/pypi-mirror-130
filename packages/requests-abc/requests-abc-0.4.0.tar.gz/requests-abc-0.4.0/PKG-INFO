@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: requests-abc
+Version: 0.4.0
+Summary: requests-abc
+Home-page: https://github.com/JustIceQAQ/Introspection/tree/main/code/requests_abc
+Author: justiceqaq
+Author-email: justiceqaq@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: requests-abc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Requires-Python: >=3.5
