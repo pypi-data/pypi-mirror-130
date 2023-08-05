@@ -1,0 +1,15 @@
+d2vs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+d2vs/constants.py,sha256=db8UblhR9CtqmAFqfyEJL8LmfegGLuYLBlhq0Yy6RbE,514
+d2vs/ocr.py,sha256=jVueGIwq-eR7u2YfRknSUh_GE0O7QUQXqGbBRXJESi0,5822
+d2vs/ocr_helpers.py,sha256=OI6OkxOolLnKkDtOCOZlQxhS_6SXNRHN-YZcYCqPenM,654
+d2vs/pickit.py,sha256=5Ya_1Tv6k6iLEgWmWjtH6-wJVZ12GaMbdDpRI9M5r8Q,6035
+d2vs/state_checks.py,sha256=tzXtvapEbrhRgnoz7jRPVZlfTEyxUKq3H0OYc2LiAO8,3698
+d2vs/ocr_model/d2rg.pth,sha256=JngeVVZEnw0kJm1WX4Jc6UCNI4iLEvv4D-RpI1qJqO8,15142879
+d2vs/ocr_network/d2rg.py,sha256=_ajd_bK3sX5WpKitF2zrOxAltPPqKIwFFP8jmtKxWDg,3483
+d2vs/ocr_network/d2rg.yaml,sha256=rRF_BIbJH6xXyIYlybX_tdQl6AT0XAwr9jlMdUTgKQE,224
+d2vs/ocr_network/__pycache__/d2rg.cpython-38.pyc,sha256=Mj6qVF4WlCEGiOInCkUgoOJBnC9U_aZ8Ke2I2xQ05zw,2968
+d2vs-0.0.3.dist-info/LICENSE.txt,sha256=NIAv5GkUkEJbR-J8-tJkQwf1m7qydLHR8VVAgykvGdM,1092
+d2vs-0.0.3.dist-info/METADATA,sha256=WhT4gwu0_jd6h9WOQTzqdz2-feK32OyzOjfQA1EacWk,2513
+d2vs-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+d2vs-0.0.3.dist-info/top_level.txt,sha256=Du5j4tiaNHnTXEAYfM2xcgEQpUJR1S3H0XAeJMgRvOI,5
+d2vs-0.0.3.dist-info/RECORD,,
