@@ -1,0 +1,12 @@
+polidoro_terminal/__init__.py,sha256=2949rwm18u4ME6x8cUjqfwwcuTM5jyRS4F9XmyLMgvA,501
+polidoro_terminal/color.py,sha256=cOKDJdfi2aYq60YtCx8O7RehYNaB1rD3e8AwG6cN97M,1343
+polidoro_terminal/cursor.py,sha256=NnZe2SQSNDCKbG1WBZkGCS7z4Jr83zrQxvfzmjBilDA,111
+polidoro_terminal/format.py,sha256=QFYH29MKUSC2nFCdvk3TQC0qwq6DT8TAWIXHTngoifs,1405
+polidoro_terminal/manipulation.py,sha256=swKu-zJKICRxj7KxN0UOkwtj5FrQ6CSON5THyIX5dpc,257
+polidoro_terminal/question.py,sha256=mP_1To4bXP7y00OcvbaLVYT_58bUxDkZcFCf63WdL6I,295
+polidoro_terminal/size.py,sha256=fsdObY6jYIcmEdeOZUqsuBtyhH8ZA9Q6PgF2hI2rDMQ,903
+polidoro_terminal-0.0.2.dist-info/LICENSE,sha256=Fz_GqaxyXCkn86hRq38ZK9qfBsqc6f8QS3IS9SVFkRQ,1072
+polidoro_terminal-0.0.2.dist-info/METADATA,sha256=PdNMzxakKckk9eLPaNDx1JrkXV-aigqyR3BsPYXjGEg,437
+polidoro_terminal-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+polidoro_terminal-0.0.2.dist-info/top_level.txt,sha256=z-UMnzKarG4Y8_BWD9JzA5U1tXV06perwPQ5AyMOAs4,18
+polidoro_terminal-0.0.2.dist-info/RECORD,,
