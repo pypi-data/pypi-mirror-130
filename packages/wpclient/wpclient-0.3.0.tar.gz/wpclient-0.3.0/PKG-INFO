@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: wpclient
+Version: 0.3.0
+Summary: WordPress REST API client with async support
+Home-page: https://github.com/rguillermo/wpclient
+Author: Guillermo Reyes
+Author-email: jguillermo.dev@gmail.com
+License: MIT license
+Keywords: wpclient,async,aiohttp,requests,wordpress,api
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+License-File: LICENSE
+License-File: AUTHORS.rst
+
+=========
+WP Client
+=========
+
+
+.. image:: https://img.shields.io/pypi/v/wpclient.svg
+        :target: https://pypi.python.org/pypi/wpclient
+
+.. image:: https://img.shields.io/travis/rguillermo/wpclient.svg
+        :target: https://travis-ci.com/rguillermo/wpclient
+
+.. image:: https://readthedocs.org/projects/wpclient/badge/?version=latest
+        :target: https://wpclient.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+WordPress REST API client with async support
+
+
+* Free software: MIT license
+* Documentation: https://wpclient.readthedocs.io.
+
+
+Features
+--------
+
+- Basic and JWT authentication
+- Sync and async operation
+- Full CRUD support for Posts, Pages, Media, Categories and Tags endpoints
+
+=======
+History
+=======
+
+0.1.0 (2021-11-14)
+------------------
+
+* First release on PyPI.
+
+
