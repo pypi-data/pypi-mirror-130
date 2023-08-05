@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: templtest
+Version: 0.2.11
+Summary: A tool for testing Ansible role templates.
+License: GPLv3+
+Author: Alexey Busygin
+Author-email: yaabusygin@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ansible-base (>=2.10,<2.11); python_version >= "3.6" and python_version < "3.7"
+Requires-Dist: ansible-core (>=2.11,<2.12); python_version >= "3.7" and python_version < "3.8"
+Requires-Dist: ansible-core (>=2.12,<3.0); python_version >= "3.8" and python_version < "4.0"
+Requires-Dist: packaging (>=20.9,<21.0)
