@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: spytnik
+Version: 0.0.1
+Summary: SPyTnik STRF Trace Viewer
+Home-page: https://gitlab.com/hb9fxx/spytnik
+Author: Martin Herren (HB9FXX)
+Author-email: cq@hb9fxx.ch
+License: GPLv3
+Project-URL: Bug Tracker, https://gitlab.com/hb9fxx/spytnik
+Keywords: strf,sat,satellite,ham
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Communications :: Ham Radio
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: folium
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pyqt5 (==5.14.0)
+Requires-Dist: pyqt-darktheme (==1.2.4)
+Requires-Dist: pyqtwebengine (==5.14.0)
+Requires-Dist: pyqtgraph (==0.12.2)
+Requires-Dist: skyfield (==1.36)
+
+=========================
+SPyTnik STRF Trace Viewer
+=========================
+
+A simple STRF trace viewer, showing the satellite's ground track and the AZ/EL
+of the observing station of one or several STRF .dat files.
+
+-------
+Install
+-------
+
+Install from PyPi with
+
+    $ sudo pip3 install spytnik
+
+-----------------
+Build from source
+-----------------
+
+Install SPyTnik's requirements, run the following commands::
+
+    $ sudo apt install python3-pip python3-setuptools
+
+Clone the repo::
+
+    $ git clone https://gitlab.com/hb9fxx/spytnik.git
+
+Build::
+
+    $ sudo pip3 install .
+
+
