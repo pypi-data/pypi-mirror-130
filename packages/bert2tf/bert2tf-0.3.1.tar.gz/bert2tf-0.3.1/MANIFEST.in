@@ -1,0 +1,3 @@
+recursive-include bert2tf/resources *
+recursive-include tests *.yml
+

@@ -1,0 +1,8 @@
+tensorflow-gpu
+pyzmq
+pyyaml
+tornado
+grpcio
+uvloop
+GPUtil
+numpy

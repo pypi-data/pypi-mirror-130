@@ -1,0 +1,6 @@
+!HuaweiGPT
+use_with:
+  config: ../../resources/pre_models/huawei-gpt/cn_gpt.json
+  pretrained_weights_path: ../../resources/pre_models/huawei-gpt/cn_gpt
+
+

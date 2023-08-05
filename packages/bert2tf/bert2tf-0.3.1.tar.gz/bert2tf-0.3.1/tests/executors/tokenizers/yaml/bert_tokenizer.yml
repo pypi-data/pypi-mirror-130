@@ -1,0 +1,4 @@
+!BertTokenizer
+use_with:
+  vocab_file_path: ../../resources/pre_models/roberta_wwm_ext/vocab.txt
+  max_length: 5
