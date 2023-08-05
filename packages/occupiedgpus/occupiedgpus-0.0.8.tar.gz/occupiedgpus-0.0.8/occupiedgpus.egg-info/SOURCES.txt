@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+occupiedgpus/__init__.py
+occupiedgpus/core.py
+occupiedgpus.egg-info/PKG-INFO
+occupiedgpus.egg-info/SOURCES.txt
+occupiedgpus.egg-info/dependency_links.txt
+occupiedgpus.egg-info/requires.txt
+occupiedgpus.egg-info/top_level.txt
