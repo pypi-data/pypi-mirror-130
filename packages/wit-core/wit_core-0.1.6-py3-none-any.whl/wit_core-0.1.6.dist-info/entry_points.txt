@@ -1,0 +1,3 @@
+[console_scripts]
+wit-core=wit_core.cli.cli:main
+
