@@ -1,0 +1,5 @@
+include covfee/shared/validator/*.js
+include covfee/shared/schemata.json
+recursive-include covfee/client/bundles *
+
+global-exclude package-lock.json .DS_Store
