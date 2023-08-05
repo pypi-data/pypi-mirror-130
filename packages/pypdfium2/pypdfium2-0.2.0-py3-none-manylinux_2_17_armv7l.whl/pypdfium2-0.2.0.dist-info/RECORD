@@ -1,0 +1,17 @@
+pypdfium2/__init__.py,sha256=mtBiX-k_2b2_ikL6iI-4XQu23J8PMv1MSjwP-y0rXCU,580
+pypdfium2/__main__.py,sha256=QKCDRW4dWW3LquAhXPjEZvRV1F5BpLuSoHt8Q1uakR8,4913
+pypdfium2/_constants.py,sha256=veBhuCjq3vwHiqmVnnRE4GqI7R4aPfAJjiNGZcw9I58,348
+pypdfium2/_exceptions.py,sha256=J5ZjEsegV1fUkE_0Yybh6l7rSnCyHXYNUBfmM4xTSXw,348
+pypdfium2/_helpers.py,sha256=vXUN1teWVa5_bI6qD8w2ec5H71gvnsxpAQHuNALywSA,9368
+pypdfium2/_logging.py,sha256=Q2Hburiqjkgdpmlqh2H9waWmeaMHwlEaRM5StQt-aCQ,301
+pypdfium2/_pypdfium.py,sha256=ct3vYjW4dycsKmjqQGwAshTq9F4M2CjH1RGrRNz9gAw,500686
+pypdfium2/_version.py,sha256=CHZQvceaZy_VI4hS65k3Go6MXdlgMCUcf98DrE2i3Nc,296
+pypdfium2/pdfium,sha256=nMfLlqeQTC0_KwNbPyqfNBMhTr2PZj46io1O4K0FXL8,4257924
+pypdfium2-0.2.0.dist-info/Apache-2.0.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pypdfium2-0.2.0.dist-info/CC-BY-4.0.txt,sha256=QZiWrqUMFdbkDFtLr0vTRveCI7mjVMc1etACYq_cCOw,14527
+pypdfium2-0.2.0.dist-info/LICENSE-PDFium.txt,sha256=7aXkWkl4meEBu-y04Z0isxiPm-T3eAjCX2gK3tn16mo,54092
+pypdfium2-0.2.0.dist-info/METADATA,sha256=xV9f4V9iFRgXxJvHI92AkmyuQ8FrQt0ouPuCGEpVhA4,10655
+pypdfium2-0.2.0.dist-info/WHEEL,sha256=GZpK0fR5_VEDA4bbeUssesXNyZhZVDbh3hkWfLBXQhE,110
+pypdfium2-0.2.0.dist-info/entry_points.txt,sha256=LK9oraMmhMGxRwOpUDm_dTdnH4pqt7eEz1h0Cod_ux0,55
+pypdfium2-0.2.0.dist-info/top_level.txt,sha256=XYjZhkukwXlyHV4rj7RnO94WgqIqz6CjVqHUZLufGww,10
+pypdfium2-0.2.0.dist-info/RECORD,,
