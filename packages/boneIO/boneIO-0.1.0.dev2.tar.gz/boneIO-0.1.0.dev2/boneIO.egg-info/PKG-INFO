@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: boneIO
+Version: 0.1.0.dev2
+Summary: Python Helper for BoneIO
+Home-page: https://github.com/maciejk1984/boneIO
+License: GNU General Public License v3.0
+Download-URL: https://github.com/maciejk1984/boneIO/archive/0.1.0dev2.zip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+Python Helper for BoneIO
+
