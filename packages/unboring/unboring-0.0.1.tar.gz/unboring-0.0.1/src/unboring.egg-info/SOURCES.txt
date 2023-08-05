@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/unboring/__init__.py
+src/unboring/module.py
+src/unboring.egg-info/PKG-INFO
+src/unboring.egg-info/SOURCES.txt
+src/unboring.egg-info/dependency_links.txt
+src/unboring.egg-info/top_level.txt
