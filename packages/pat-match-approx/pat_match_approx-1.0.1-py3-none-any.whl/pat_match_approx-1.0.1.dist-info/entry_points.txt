@@ -1,0 +1,3 @@
+[console_scripts]
+gp9-mapper = scripts.search_st2:main
+
