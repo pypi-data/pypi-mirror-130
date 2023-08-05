@@ -1,0 +1,8 @@
+aiohttp~=3.4
+
+[examples]
+python-dotenv~=0.10
+google-api-python-client>=2.0.2,~=2.0
+
+[examples:python_version < "3.9"]
+backports.zoneinfo~=0.2
