@@ -1,0 +1,4 @@
+pexpect
+pycryptodome
+jupyter_client
+IPython
