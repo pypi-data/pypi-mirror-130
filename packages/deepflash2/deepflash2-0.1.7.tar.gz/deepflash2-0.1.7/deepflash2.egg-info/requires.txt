@@ -1,0 +1,13 @@
+pip
+packaging
+fastai>=2.1.7
+zarr>=2.0
+scikit-image
+imageio
+ipywidgets
+openpyxl
+albumentations>=1.0.0
+natsort>=7.1.1
+numba>=0.52.0
+opencv-python>=4.0
+segmentation_models_pytorch>=0.2
