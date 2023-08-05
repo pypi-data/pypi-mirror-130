@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: invitetools
+Version: 0.1.1
+Summary: A small Python library for getting information about a Discord invite code
+Home-page: https://github.com/onyxcode/invitetools
+Author: onyxcode
+Author-email: me@onyxcode.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/onyxcode/invitetools/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<h1>invitetools</h1>
+
+# ( About:
+A small Python library for getting information about a Discord invite code.
+
+# ( License:
+This project is licensed under the MIT license.
+
+# ( Installation:
+`pip install invitetools`
+
