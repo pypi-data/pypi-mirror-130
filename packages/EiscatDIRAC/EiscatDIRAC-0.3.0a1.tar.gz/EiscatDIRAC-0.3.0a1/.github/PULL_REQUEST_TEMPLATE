@@ -1,0 +1,8 @@
+Thank you for writing the text to appear in the release notes. It will show up exactly as it appears between the two bold lines
+Please follow the template(see release.notes for examples):
+
+BEGINRELEASENOTES
+
+NEW/CHANGE/FIX: explanation
+
+ENDRELEASENOTES

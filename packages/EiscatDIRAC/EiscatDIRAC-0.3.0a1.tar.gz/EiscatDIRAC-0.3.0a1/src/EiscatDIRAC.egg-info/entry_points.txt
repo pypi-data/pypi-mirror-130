@@ -1,0 +1,6 @@
+[console_scripts]
+
+
+[dirac]
+metadata = EiscatDIRAC:extension_metadata
+
