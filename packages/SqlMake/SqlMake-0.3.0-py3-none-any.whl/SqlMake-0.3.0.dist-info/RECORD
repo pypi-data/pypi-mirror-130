@@ -1,0 +1,10 @@
+sqlmake/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlmake/__main__.py,sha256=5Y5h1jxFNuIMV8XlLb1067mLQYO-GYyrKNKnIh964_U,2777
+sqlmake/fileparser.py,sha256=ZcycBloX1uP3iKYhiOTSgR-uy_X5KA6AdrsTLMPI92o,3523
+sqlmake/indexer.py,sha256=E5JDYjOKYnjPrTaJUTFMpFHQ1AdldtB1ugcvzTWvdL8,4801
+SqlMake-0.3.0.dist-info/LICENSE,sha256=NKm2zTtC_2fAev9jESw1FgMvW9GyZ9WtRzOzFAOnBII,1072
+SqlMake-0.3.0.dist-info/METADATA,sha256=0xjUmaJ7h7YWO6awfGCymunEuIi5TVpBUv0i9FGww1A,2331
+SqlMake-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SqlMake-0.3.0.dist-info/entry_points.txt,sha256=04g9Gk4pIHFD7IDZBcE9bUROGWMfDWoF56pLRhy5VzA,51
+SqlMake-0.3.0.dist-info/top_level.txt,sha256=-MwPIw_QMe87hErwWWHhsZtyA1FXjXz-xluO8nlAvww,8
+SqlMake-0.3.0.dist-info/RECORD,,
