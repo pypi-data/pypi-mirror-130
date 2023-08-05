@@ -1,0 +1,10 @@
+napari_multitask/__init__.py,sha256=L9lpJGXcjAf5k-OFijuVVLJcaqs8bnKyIbHu3oxJCIo,88
+napari_multitask/taskpanel.py,sha256=XCxvuuia9Tf530aHkTA6KaMn9cUowVoaO_oTp-i1yBo,3451
+napari_multitask/taskview.py,sha256=GcejSC-cXJkHRJNSAmuzlgYLJZ87a9A40zNRFQUxJTs,3059
+napari_multitask/viewerstate.py,sha256=iDIi1ZTR-yeabW_vW5JVEnwSxBAZgNz-vxKvtd4TZ9g,2968
+napari_multitask-0.0.1.dist-info/LICENSE,sha256=rpxKafH9r42sxLLYYB5VbZBHOdtYeLuYJjVU1LBwrxk,1546
+napari_multitask-0.0.1.dist-info/METADATA,sha256=xpqwo46d_ZjMCEs-ocsl0vE9kfNDhRz4RX7sjELOPJc,841
+napari_multitask-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_multitask-0.0.1.dist-info/entry_points.txt,sha256=o-kPP0jzJNfel8AwvSeSAgq9YAlLSD5R7eKgdAOassw,53
+napari_multitask-0.0.1.dist-info/top_level.txt,sha256=LTSFOhcyQ_Ny7wc8UZosGCRihUof7SrsBRZS3Ze5w2w,17
+napari_multitask-0.0.1.dist-info/RECORD,,
