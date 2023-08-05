@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: ftntdissect
+Version: 1.1
+Summary: Package ftntdissect
+Home-page: https://github.com/cgustave/ftntdissect
+Author: Cedric GUSTAVE
+Author-email: cgustave@free.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+Help on package ftntdissect:
+
+NAME
+    ftntdissect
+
+PACKAGE CONTENTS
+    ftntdissect
+
+FILE
+    /home/cgustave/github/python/packages/ftntdissect/ftntdissect/__init__.py
+
+
+
+
