@@ -1,0 +1,5 @@
+PyJWT[crypto]
+requests
+requests-toolbelt
+furl
+tuspy
