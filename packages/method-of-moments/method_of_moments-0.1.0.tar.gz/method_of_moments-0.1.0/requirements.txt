@@ -1,0 +1,6 @@
+math_round_af==1.0.2
+numpy==1.21.4
+pretty-repr==1.0.1
+pylint-af==1.0.1
+pytest==6.2.5
+scipy==1.7.3
