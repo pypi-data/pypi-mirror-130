@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mr_scraper
+Version: 0.3.0
+Summary: Library to create scrapers in python
+Home-page: UNKNOWN
+Author: fernandojerez
+License: Apache
+Platform: UNKNOWN
+Requires: webpilot
+Requires: requests
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Mr Scraper
+
+Library to define a scraper in python 
+
