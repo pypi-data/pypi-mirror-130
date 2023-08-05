@@ -1,0 +1,9 @@
+ont_guppy_duplex_pipeline/__init__.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+ont_guppy_duplex_pipeline/candidate_filtering.py,sha256=Z8fNqes4-ggXQBILt9MqawfpfdNodpzKUZnNROumYq8,6776
+ont_guppy_duplex_pipeline/channel_neighbours.py,sha256=O9uR9svfrocOqDoaR4N7zbUdvgk48Bd6g0Ak0mk1taI,3828
+ont_guppy_duplex_pipeline/guppy_duplex.py,sha256=6rLWhrtRyFqz5JYg2MrkbMhP8VUNGEzkSy33t7EM9T8,11803
+ont_guppy_duplex_pipeline-1.0.0.dist-info/METADATA,sha256=98H_oR3SoIE4n0xRvmVWx4srsx1kyo1POI0XGUiOP6M,1993
+ont_guppy_duplex_pipeline-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ont_guppy_duplex_pipeline-1.0.0.dist-info/entry_points.txt,sha256=9FB2UMqZqMLqif6UO0D1xeCATpEbR_-QbtWqeWT1JzQ,78
+ont_guppy_duplex_pipeline-1.0.0.dist-info/top_level.txt,sha256=qvSSuNX1qpDQmoxgHt8Tf-rQzLypHJJbrjVINwR7ERA,26
+ont_guppy_duplex_pipeline-1.0.0.dist-info/RECORD,,
