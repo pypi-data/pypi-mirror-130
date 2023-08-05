@@ -1,0 +1,4 @@
+ibmcloudant
+pycapnp
+bokeh
+numpy
