@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Firefly III API Client
+Version: 1.5.4
+Summary: Firefly III API Client
+Home-page: https://github.com/ms32035/firefly-iii-client
+Author: Marcin Szymanski
+Author-email: ms32035@gmail.com
+License: AGPLv3
+Keywords: OpenAPI,OpenAPI-Generator,Firefly III API Client
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+    This is the Python client for Firefly III API
+    
+
