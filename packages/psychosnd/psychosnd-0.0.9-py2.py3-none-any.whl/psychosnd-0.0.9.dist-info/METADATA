@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: psychosnd
+Version: 0.0.9
+Summary: Psychopy sound analysis scripts
+Home-page: https://github.com/gjcooper/psychosnd
+Author: Gavin Cooper
+Author-email: gjcooper@gmail.com
+License: GPLv3
+Keywords: Psychopy,logfile,sound
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: cycler (==0.10.0)
+Requires-Dist: fonttools (==4.28.3)
+Requires-Dist: kiwisolver (==1.3.2)
+Requires-Dist: matplotlib (==3.5.0)
+Requires-Dist: numpy (==1.21.4)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pillow (==8.4.0)
+Requires-Dist: prespy (==0.0.12)
+Requires-Dist: pyparsing (==3.0.6)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: scipy (==1.7.3)
+Requires-Dist: setuptools-scm (==6.3.2)
+Requires-Dist: six (==1.10.0)
+Requires-Dist: tomli (==1.2.2)
+
+psychosnd
+=========
+
+version number: 0.0.7 author: Gavin Cooper
+
+Overview
+--------
+
+Psychopy sound analysis scripts.
+
+It contains one module that is a thin wrapper on the csv module to open
+a `Psychopy <http://www.psychopy.org/>`__ csv data file and provide an
+interface similar to the `prespy <https://github.com/gjcooper/prespy>`__
+library.
+
+The other module relies heavily on the sound card latency analyser
+functionality of the same ``prespy`` library in order to provide a
+similar interface as a command line script.
+
+Installation / Usage
+--------------------
+
+To install use pip:
+
+::
+
+   $ pip install psychosnd
+
+If you have a local version you can also use:
+
+::
+
+   $ pip install <path_to_package>/psychosnd-0.0.7.tar.gz
+
+To use the command line script, once installed you can run
+``psych-scla <soundfile> <logfile>`` to analyse the difference in sound
+presentation times as recorded in each file.
+
+For the full procedure see the write up in the ``prespy`` documentation
+`here <https://github.com/gjcooper/prespy#scla-information>`__.
+
+For more information on the options you can pass to the scla command you
+can type in ``psych-scla --help`` for the full list.
+
+Contributing
+------------
+
+TBD
+
+Example
+-------
+
+TBD
+
+
