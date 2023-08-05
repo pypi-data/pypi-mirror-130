@@ -1,0 +1,15 @@
+csv23/__init__.py,sha256=H0YFdGYaQUGbfOA0WMgvK0zKUC60Pe4_2pJYClNT2Ug,5781
+csv23/_common.py,sha256=v9sVNir6h4Q_o3yVCJpbKrdUz6sosGzBV0j_CzRNRd4,2445
+csv23/_dispatch.py,sha256=wsv_57YtNwCTaMb2h1KdGK6Wt3SYDBCysY69jxhv5JU,1197
+csv23/_workarounds.py,sha256=DZvpy7MyJuYy9zTXE0-VRK338rhIFDWNxYRMH3-qd7U,1198
+csv23/dialects.py,sha256=1FhekmCavEylRNWM7LRypc2P_rgbOkppvSCFZrhj4D4,1126
+csv23/extras.py,sha256=SOWictCBAAMHV8cBWZDrpV-3i86aFFl71MuUgzhpPLU,5580
+csv23/openers.py,sha256=mWAsLmtK5H_umZFAQ32VgQpTkr4D1HrJDLWFZQEhb9g,5167
+csv23/readers.py,sha256=7aXo9JlE10fHjUM5IFwanxF2oISVWFZRkchwJqTYyhI,4919
+csv23/shortcuts.py,sha256=s4l9myg9xn2JJAiUV_mv2rhH8XG28oTx9MhnrMmBpZ8,8604
+csv23/writers.py,sha256=gXQvSxw32o0JBKm2HJsPEc5KbMQuVbRs_uwOuoz14no,6388
+csv23-0.3.3.dist-info/LICENSE.txt,sha256=fZIlOic1McpUXwULZvBLU3hzUDZf3KhHCJo-fFvftMs,1107
+csv23-0.3.3.dist-info/METADATA,sha256=gaZzIwH7Ugf48dl_G97BzaWKr-Edj9qPMO2ACAc6iOY,7157
+csv23-0.3.3.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+csv23-0.3.3.dist-info/top_level.txt,sha256=Wt1-Ors5cieVkmqQCWNt3pT2544qnu78oRm3Grt00XQ,6
+csv23-0.3.3.dist-info/RECORD,,
