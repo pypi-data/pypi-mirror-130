@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+src/iconostasis/__init__.py
+src/iconostasis/__main__.py
+src/iconostasis.egg-info/PKG-INFO
+src/iconostasis.egg-info/SOURCES.txt
+src/iconostasis.egg-info/dependency_links.txt
+src/iconostasis.egg-info/entry_points.txt
+src/iconostasis.egg-info/requires.txt
+src/iconostasis.egg-info/top_level.txt
+tests/__init__.py
+tests/test_main.py
