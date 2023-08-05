@@ -1,0 +1,3 @@
+ai_core_sdk
+integration_tests
+tests
