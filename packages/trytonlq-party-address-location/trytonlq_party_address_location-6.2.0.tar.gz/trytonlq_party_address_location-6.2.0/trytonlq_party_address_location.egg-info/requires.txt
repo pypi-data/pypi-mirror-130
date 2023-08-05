@@ -1,0 +1,3 @@
+trytond<6.3,>=6.2
+trytond_country<6.3,>=6.2
+trytond_party<6.3,>=6.2
