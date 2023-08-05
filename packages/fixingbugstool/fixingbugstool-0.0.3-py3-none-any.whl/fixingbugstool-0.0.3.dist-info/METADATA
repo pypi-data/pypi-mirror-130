@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: fixingbugstool
+Version: 0.0.3
+Summary: A tool for tracking bugs and finding solutions
+Home-page: UNKNOWN
+Author: rtyque
+Author-email: 3hinney@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+
+# fixingbugstool
+
+A tool for tracking bugs and finding solutions
+
+## Installation
+
+```bash
+pip install fixingbugstool
+```
+
+## Usage
+
+There are currently only 3 available commands:
+	1.track: Tracking bugs and finding solutions
+	2.changesrc: Change the source for different solutions
+	3.sources: View all available sources
+
+```python
+from fixingbugstool import *
+
+def main():
+	# your code
+
+# tracking bugs and redirecting to solutions
+track(main)
+
+# change the source to Reddit
+changesrc("reddit")
+
+# view all available sources
+print(sources())
+```
+
+
