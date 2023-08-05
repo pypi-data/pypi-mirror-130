@@ -1,0 +1,15 @@
+demo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demo/aiohttp_server.py,sha256=zxRjT7duyExSBRL_h_-KZk8j93cnZW5CPFct8Woj59c,2977
+demo/graphiql_template.py,sha256=5lZesQvyOz9lCjOEZUHHK9BhuVMjGPScC7ayognSsrY,5945
+graphql_ws/__init__.py,sha256=ePSOJcLZ6oVrC2yse_JVjd-k5YJRqm_PWzDUWdNjjEY,434
+graphql_ws/_version_git.py,sha256=A30PiKhps74N6O_-90aE05tJ68gbDy-vdLIBUAi_sJY,3809
+graphql_ws/abc.py,sha256=RO19qowmgJt0r-znlQXsONlqaXGXKnJv_fKdp76e4zU,1211
+graphql_ws/aiohttp.py,sha256=BnfemPmTwy0t5sv8sKri-LMc03kRXHDgoQwzixniiDs,992
+graphql_ws/protocol.py,sha256=XTyCN2Uk3_4KyBVvzz8mzOkUXPxs5mqJckSV5CCmm8E,3658
+graphql_ws/server.py,sha256=UAtHqIsW6VGgsu6Czf8Wy84QN_ll_08yyykS-F41ThM,8483
+graphql_ws/testing.py,sha256=6gJGRWQGd77m6Cf6AQ8NpGgG6LK9xxrNHExngy_RcYE,2335
+graphql_ws_aiohttp-0.0.1rc0.dist-info/LICENSE,sha256=73j5UX8P3ybuReHjx4ZPfYOoEB2gR1_mEhXrGqrKUMg,1079
+graphql_ws_aiohttp-0.0.1rc0.dist-info/METADATA,sha256=7dk-10asKXpXF4AoKwq8ERfxUjPmusvBJmEjWrxsfGU,5906
+graphql_ws_aiohttp-0.0.1rc0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+graphql_ws_aiohttp-0.0.1rc0.dist-info/top_level.txt,sha256=j_UjzYjn8jGgoNKZM0ZoGo0oqXivNKXrxlTHtjjSFGg,16
+graphql_ws_aiohttp-0.0.1rc0.dist-info/RECORD,,
