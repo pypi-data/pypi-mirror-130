@@ -1,0 +1,3 @@
+blockdiag>=1.5.0
+actdiag>=0.5.3
+Sphinx>=2.0
