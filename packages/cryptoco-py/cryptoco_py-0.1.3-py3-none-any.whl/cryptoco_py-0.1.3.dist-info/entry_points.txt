@@ -1,0 +1,3 @@
+[console_scripts]
+cryptoco-py=cryptoco_py.__main__:app
+
