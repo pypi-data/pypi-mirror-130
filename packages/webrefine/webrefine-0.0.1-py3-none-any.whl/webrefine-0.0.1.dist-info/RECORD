@@ -1,0 +1,15 @@
+webrefine/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+webrefine/_nbdev.py,sha256=4g0Gyb1CqGTLXS8jQsf_-fJ9dyvNT2tUDFETHdxxYHs,1817
+webrefine/cdx.py,sha256=nVh-Txm-KxNz1a77I7r6BUGjeqgU9hC3YontgfrCyiM,12365
+webrefine/core.py,sha256=IYiDNAwuRnxlylTn1KehNyHKWkeqQAz0keJx9CMJr2U,178
+webrefine/engine.py,sha256=c6V0X-SenDSxg6BNbYGWl_gOC1LveuSwMcSGHbc_X8Q,107
+webrefine/query.py,sha256=ytZzG2noqeAihTp4gX3NhKW3ZT7PkA4UL2mdrDLNag4,16401
+webrefine/runners.py,sha256=XUE74i4-wVwEPnaSud1hkrcl575DTAqkKtSzh2qbDIE,1620
+webrefine/util.py,sha256=CSN-_IbTCFZ5Z3Qb8TR2YR2yaXTtHYPmefVm3JUBrqg,1165
+webrefine/warc.py,sha256=8tFRkjPcrRDmqLGIedJ1jxxJf1EW8IK2c85tBVIS7LI,1759
+webrefine-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+webrefine-0.0.1.dist-info/METADATA,sha256=rZ1hj4LgrqdHt3IKzZYZMJ-QaWs1NQOhR0zPOXRCKlg,10562
+webrefine-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+webrefine-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+webrefine-0.0.1.dist-info/top_level.txt,sha256=XuyiaUvi4_nOUPyY2oXUeWcRkJWnEn7B3YWojTMh2xI,10
+webrefine-0.0.1.dist-info/RECORD,,
