@@ -1,0 +1,5 @@
+numpy
+gym
+tianshou==0.3.1
+pyglet
+dyn_rl_benchmarks
