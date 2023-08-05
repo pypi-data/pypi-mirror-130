@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: pip_services3_mqtt
+Version: 3.0.1
+Summary: Communication components for Pip.Services in Python
+Home-page: http://github.com/pip-services3-python/pip-services3-mqtt-python
+Author: Conceptual Vision Consulting LLC
+Author-email: seroukhov@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# <img src="https://uploads-ssl.webflow.com/5ea5d3315186cf5ec60c3ee4/5edf1c94ce4c859f2b188094_logo.svg" alt="Pip.Services Logo" width="200"> <br/> MQTT Messaging for Pip.Services in Python
+
+This module is a part of the [Pip.Services](http://pipservices.org) polyglot microservices toolkit.
+
+The MQTT module contains a set of components for messaging using the Mqtt protocol. Contains the implementation of the components for working with messages: MqttMessageQueue, MqttConnectionResolver.
+
+The module contains the following packages:
+- **Build** - factory default implementation
+- **Connect** - components for setting up the connection to the MQTT broker
+- **Queues** - components of working with a message queue via the MQTT protocol
+
+<a name="links"></a> Quick links:
+
+* [Configuration](https://www.pipservices.org/recipies/configuration)
+* [API Reference](https://pip-services3-python.github.io/pip-services3-mqtt-python/index.html)
+* [Change Log](CHANGELOG.md)
+* [Get Help](https://www.pipservices.org/community/help)
+* [Contribute](https://www.pipservices.org/community/contribute)
+
+## Use
+
+Install the Python package as
+```bash
+pip install pip-services3-mqtt
+```
+
+## Develop
+
+For development you shall install the following prerequisites:
+* Python 3.7+
+* Visual Studio Code or another IDE of your choice
+* Docker
+
+Install dependencies:
+```bash
+pip install -r requirements.txt
+```
+
+Run automated tests:
+```bash
+python test.py
+```
+
+Generate API documentation:
+```bash
+./docgen.ps1
+```
+
+Before committing changes run dockerized build and test as:
+```bash
+./build.ps1
+./test.ps1
+./clear.ps1
+```
+
+## Contacts
+
+The Python version of Pip.Services is created and maintained by
+- **Sergey Seroukhov**
+- **Danil Prisiazhnyi**
+
+
