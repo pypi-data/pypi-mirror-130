@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: occupiedgpus
+Version: 0.0.2
+Summary: occupied gpus
+Home-page: UNKNOWN
+Author: Zhichao Jin
+Author-email: jinzcdev@icloud.com
+License: apache 3.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires: torch
+Requires: nvidia_ml_py
