@@ -1,0 +1,13 @@
+pillow
+tk_html_widgets
+requests
+psutil
+multidict
+cryptography
+attr
+attrs-strict
+cattrs
+aiofiles
+prettyprinter
+aiohttp
+yarl
