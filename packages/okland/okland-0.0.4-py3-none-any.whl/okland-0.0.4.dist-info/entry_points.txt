@@ -1,0 +1,3 @@
+[console_scripts]
+okland = okland.__main__:main
+
