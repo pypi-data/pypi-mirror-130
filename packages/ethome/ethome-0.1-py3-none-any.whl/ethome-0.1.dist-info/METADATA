@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: ethome
+Version: 0.1
+Summary: ethome - a package for multimodal behavioural recordings
+Home-page: https://github.com/alexharston/ethome
+Author: Alex Harston
+Author-email: alex@harston.io
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: argparse
+Requires-Dist: tqdm
+Requires-Dist: h5py
+Requires-Dist: pandas
+Requires-Dist: mypy
+Requires-Dist: bvhtoolbox
+Requires-Dist: transforms3d
+Requires-Dist: matplotlib
+Requires-Dist: mne
+Requires-Dist: mvnx
+
+# ethome
+
+### A library for human behavioural data.
+
+```
+├── README.md
+├── conf               <- YAML files should be placed here for running multiple instances
+├── utilities          <- A series of utility functions for running Ethome, including an MVNX parser, BVH2Biomech ports, SMI libraries etc.
+├── tests              <- Tests for the library
+├── notebooks          <- Jupyter notebooks
+├── devices            <- Device classes which inherit from the base Ethome class. Each piece of equipment should be a subclass and in this folder.
+
+```
+
+This library is still very much a work in progress, and **we very much encourage pull requests**. We are aiming to keep some reasonably consistent rules to allow for interoperability and to prevent code rot.
+
+
+To run the MVNX parser, instantiate a ParseObject, and then parse just the relevant attributes you want in the following manner:
+
+```python
+from mvnx.mvnx import MVNX
+mvnx = MVNX('path/to/file.mvnx')
+mvnx.orientation
+mvnx.jointAngle
+```
+
+or you can access them invididually, with:
+
+```
+from mvnx.mvnx import MVNX
+mvnx = MVNX('path/to/file.mvnx')
+mvnx.parse_modality('orientation')
+mvnx.parse_modality('jointAngle')
+mvnx.parse_segments()
+mvnx.parse_time()
+```
+
+Alternatively, you can do this from the command line:
+
+`python3 mvnx.py path/to/file.mvnx --modality jointAngle`
+
+This package is also published on Docker Hub so can either be pulled directly through `docker pull` or built from scratch using the included Dockerfile using `docker build`.
+
+
+
+**Keep in mind, whilst this is in theory a port of the existing MATLAB Ethome codebase, in practice it is a ground-up rewrite, centered around open standards and using object-oriented Pythonic principles.**
+
+**Until v1.0 is released, this is a highly experimental codebase and is liable to change at any point**
+
+
+For contributing to the ethome library, please consider the following rules:
+
+
+1. Your code should follow PEP8 standards where possible, save for the special cases below:
+    * We have a soft 80 character limit (should be adhered to as much as possible, though if, say, your function arguments would fit on one line and fill 81 characters, that'll be fine. If they take up more like 90 or 100, split your arguments across multiple lines.)
+    * We use CapitalCase for class names, and snake_case for function names
+    * As much as possible, every function name should be a verb (i.e. 
+      'get_file' or 'parse_data'. )
+    *As much as possible, all functions should have a docstring, in the style of existing docstrings, documenting what the argument types should be
+
+2. New devices (say EEG, or Robotic Arms etc) should have their own separate class which subclasses Device. Device is an abstract class which all other subclasses will inherit from. 
+
+3. This library is built around HDF5 as a standard, so where possible will use HDF5's official methods to maintain interoperability.
+
+
+
+
