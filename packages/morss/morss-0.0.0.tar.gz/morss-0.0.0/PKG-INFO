@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: morss
+Version: 0.0.0
+Summary: Get full-text RSS feeds
+Home-page: http://morss.it/
+Author: pictuga, Samuel Marks
+Author-email: contact@pictuga.com
+License: AGPL v3
+Download-URL: https://git.pictuga.com/pictuga/morss
+Platform: UNKNOWN
+Provides-Extra: full
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
