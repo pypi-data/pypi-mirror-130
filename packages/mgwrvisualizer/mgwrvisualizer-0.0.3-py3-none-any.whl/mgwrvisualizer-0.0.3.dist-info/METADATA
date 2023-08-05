@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: mgwrvisualizer
+Version: 0.0.3
+Summary: Visualization Suite for Multiscale Geographically Weighted Regression (MGWR) 
+Home-page: https://github.com/mtralka/MGWRVisualizer
+License: MIT
+Keywords: multiscale geographic weighted regression,MGWR,spatial statistics,education,visualization
+Author: Matthew Tralka
+Author-email: matthew@tralka.xyz
+Requires-Python: >=3.7.1,<3.11
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Project-URL: Repository, https://github.com/mtralka/MGWRVisualizer
+Description-Content-Type: text/markdown
+
+# MGWRVisualizer - Python Client
+
+Work in Progress
+
