@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/correlation_kit/__init__.py
+src/correlation_kit/correlation_kit.py
+src/correlation_kit.egg-info/PKG-INFO
+src/correlation_kit.egg-info/SOURCES.txt
+src/correlation_kit.egg-info/dependency_links.txt
+src/correlation_kit.egg-info/requires.txt
+src/correlation_kit.egg-info/top_level.txt
+src/correlation_kit/__pycache__/correlation_kit.cpython-36.pyc
