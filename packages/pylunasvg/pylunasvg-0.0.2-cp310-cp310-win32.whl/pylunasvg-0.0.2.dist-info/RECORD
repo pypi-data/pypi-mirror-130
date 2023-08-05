@@ -1,0 +1,11 @@
+pylunasvg/__init__.py,sha256=USvesU_weJo2VW7Ga-E_M3UmuYDoca3EzcBeagoMm0Q,712
+pylunasvg/__main__.py,sha256=UILtAbeSS7ZoaTxxqFGhanLQ9V0Nd-fw3bSvbUnAtxA,924
+pylunasvg/extensions.py,sha256=tHXaNMUxcRCa5gTbRbomPeGC063KXCS0SazDrjWWKaU,224
+pylunasvg/pylunasvg.cp310-win32.pyd,sha256=fGOvThAYcXqL70i1IP5rxPwE_YkdxE14HA2TimhL7eE,347648
+pylunasvg/pylunasvg.pyi,sha256=gTPH4u4sEXlI6Bt6IN-5_OcR-6icenBGY8_zNpCZqq8,3687
+pylunasvg-0.0.2.dist-info/LICENSE,sha256=MCez_T-3FBW3VKu2MxQ6KPNqmDE1_tQYSJ0ju0xJ9WE,1082
+pylunasvg-0.0.2.dist-info/METADATA,sha256=eK24ugoF65dLVxi_bzz8Or6TnDD28FmfYrn-JG8F_GQ,797
+pylunasvg-0.0.2.dist-info/WHEEL,sha256=tSadItXON2lZRPOpu8W7fxplRZu7h5BXDS1lU934Tyk,98
+pylunasvg-0.0.2.dist-info/entry_points.txt,sha256=wov6e_Vvku15TK9Vv_Dw-lZTjbs_GxGFZ7FZyGEDgi0,55
+pylunasvg-0.0.2.dist-info/top_level.txt,sha256=FoYb8VxgtoZpXXaNNNy83b19EkYES0B2LbK1o-Gazug,30
+pylunasvg-0.0.2.dist-info/RECORD,,
