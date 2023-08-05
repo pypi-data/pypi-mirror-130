@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: pi-lab-jupyter-extension
+Version: 0.0.1
+Summary: A JupyterLab extension, public by PiLab.
+Home-page: UNKNOWN
+Author: Simeon
+Author-email: 
+License: BSD-3-Clause
+Keywords: Jupyter,JupyterLab,JupyterLab3
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Jupyter :: JupyterLab
+Classifier: Framework :: Jupyter :: JupyterLab :: 3
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions
+Classifier: Framework :: Jupyter :: JupyterLab :: Extensions :: Prebuilt
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter-server (<2,>=1.6)
+
+# pi_service
+
+---
+
+### 调试
+
+##### 调试安装
+
+```bash
+# Clone the repo to your local environment
+# Change directory to the pi_lab_jupyter_extension directory
+# Install package in development mode
+pip install -e .
+
+# Link your development version of the extension with JupyterLab
+jupyter labextension develop . --overwrite
+
+# Rebuild extension Typescript source after making changes
+jlpm run build
+
+# Watch the source directory in one terminal, automatically rebuilding when needed
+jlpm run watch
+
+# Run JupyterLab in another terminal
+jupyter lab --ip 0.0.0.0 --port 8888 --watch
+```
+
+With the watch command running, every saved change will immediately be built locally and available in your running JupyterLab. Refresh JupyterLab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).
+
+By default, the `jlpm run build` command generates the source maps for this extension to make it easier to debug using the browser dev tools. To also generate source maps for the JupyterLab core extensions, you can run the following command:
+
+```bash
+jupyter lab build --minimize=False
+```
+
+##### 卸载
+
+```bash
+# 卸载对应的python包
+pip uninstall pi-lab-jupyter-extension
+
+# 删除 通过`jupyter labextension develop .` 命令创建的软连接, 可以通过 `jupyter labextension list` 命令查看
+jupyter labextension list
+rm <labextension path>
+```
+
+---
+
+### 发布 Pypi 包
+
+This extension can be distributed as Python
+packages. All of the Python
+packaging instructions in the `pyproject.toml` file to wrap your extension in a
+Python package. Before generating a package, we first need to install `build`.
+
+```bash
+# 安装 编译`build`工具, pypi上传工具`twine`
+python3 -m pip install build twine
+
+# 编译
+# To create a Python source package (`.tar.gz`) and the binary package (`.whl`) in the `dist/` directory, do:
+python -m build --wheel
+
+# 上传到 pypi
+twine check dist/*
+```
+
+---
+
+### 安装
+
+```bash
+pip install pi-lab-jupyter-extension
+
+# 指定特定版本
+pip install pi-lab-jupyter-extension==0.0.1
+```
+
+### 使用
+
+```python
+import pi_lab_jupyter_pi_service
+pi_lab_jupyter_pi_service.auth
+```
+
+### 卸载
+
+```bash
+pip uninstall pi-lab-jupyter-extension
+```
+
+
