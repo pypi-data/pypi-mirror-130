@@ -1,0 +1,13 @@
+README.md
+setup.py
+codescan/__init__.py
+codescan/__main__.py
+codescan/file.py
+codescan/patterns.py
+codescan/print.py
+codescan/scan.py
+codescan.egg-info/PKG-INFO
+codescan.egg-info/SOURCES.txt
+codescan.egg-info/dependency_links.txt
+codescan.egg-info/requires.txt
+codescan.egg-info/top_level.txt
