@@ -1,0 +1,34 @@
+{
+  "files": [
+    "CONTRIBUTORS.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "jonrkarr",
+      "name": "Jonathan Karr",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2848297?v=4",
+      "profile": "https://www.karrlab.org",
+      "contributions": [
+        "code"
+      ]
+    },
+    {
+      "login": "z-haiman",
+      "name": "z-haiman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29131681?v=4",
+      "profile": "https://github.com/z-haiman",
+      "contributions": [
+        "tool"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "Biosimulators_MASSpy",
+  "projectOwner": "biosimulators",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true,
+  "commitConvention": "none"
+}
