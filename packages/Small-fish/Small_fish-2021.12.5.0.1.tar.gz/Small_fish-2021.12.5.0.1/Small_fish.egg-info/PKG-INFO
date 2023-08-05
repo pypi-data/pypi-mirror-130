@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Small-fish
+Version: 2021.12.5.0.1
+Summary: 命令行
+Home-page: https://blog.csdn.net/qq_53280175?spm=1000.2115.3001.5343
+Author: PYmili
+Author-email: 2097632843@qq.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.9
+
+Smail fish 文件加密命令行
+
