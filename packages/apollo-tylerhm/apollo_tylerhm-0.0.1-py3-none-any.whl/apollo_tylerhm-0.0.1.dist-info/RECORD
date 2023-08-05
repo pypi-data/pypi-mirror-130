@@ -1,0 +1,13 @@
+apollo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apollo/apollo.py,sha256=gMfyzmjJJZ7iZVKu86gm6eDdbk4PWCsg8m_6MXTi168,578
+apollo/arguments.py,sha256=J8p9GnGGYVKqfKHSlumurEdTUXGzo6o-gPwPDMLHTWw,1509
+apollo/diff_checker.py,sha256=zdjd4CMgIIUw-sFZ4tf4zw8NAUyAAbTpjzJ-Ji_8O9g,1178
+apollo/epsilon_checker.py,sha256=o6sR3PnpHJPaNWRD1NKQyPC-bWitzVSYwqGxVqzqio8,1601
+apollo/token_checker.py,sha256=MJbXCDQiigMgWkUlE8EBGgaOn9G63mTc2awqgjNZ3dc,1217
+apollo/verdict.py,sha256=PkiH7oWC_qrKJ5H6duJsZV1qRmkQmFDe7_6Nhs-Ay2I,676
+apollo_tylerhm-0.0.1.dist-info/LICENSE,sha256=C5kT0q4l1SHk1yOejzIg9_HriqBlEBbATxvXACYDcv4,1077
+apollo_tylerhm-0.0.1.dist-info/METADATA,sha256=SVkoKJuZG6DxHMnvXPHuMGwIItIYUEBnLSM_7cyXg6A,1144
+apollo_tylerhm-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+apollo_tylerhm-0.0.1.dist-info/entry_points.txt,sha256=NMYUEyRhAxwAJYRFV7XmhUYCjeobqEiJBQNkBb7-VkQ,42
+apollo_tylerhm-0.0.1.dist-info/top_level.txt,sha256=q2RhKSzMzXAtBa3SXLNN56X8drDyPzEjfVgLFiHHRKI,7
+apollo_tylerhm-0.0.1.dist-info/RECORD,,
