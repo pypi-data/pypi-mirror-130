@@ -1,0 +1,6 @@
+setup.py
+sqleasy/__init__.py
+sqleasy.egg-info/PKG-INFO
+sqleasy.egg-info/SOURCES.txt
+sqleasy.egg-info/dependency_links.txt
+sqleasy.egg-info/top_level.txt
