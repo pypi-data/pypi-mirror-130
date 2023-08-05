@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: aoc-starter
+Version: 0.1.3
+Summary: "Framework for creating and testing solutions to the Advent of Code."
+Home-page: https://github.com/mbmackenzie/advent-of-code-starter
+Author: Matt Mackenzie
+Author-email: mbm2228@columbia.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Advent of Code Framework
+
+https://adventofcode.com/
+
+A framework for implementing Advent of Code solutions in Python.
+
+## Quick Start
+
+Pip install the project so you have access to the `aoc` command.
+
+```bash
+pip install aoc-starter
+```
+
+Create an empty directory you want to write your solutions in.
+
+```bash
+aoc init
+```
+
+Now, you are ready to start implementing your solutions!
+
+```bash
+aoc create 01 --year 2021
+```
+
+This will create python file, `2021/day01.py`, where you'll implement the solution.
+
+After you've implemented the solution, you can run it with:
+
+```bash
+aoc run 01 --year 2021 -i input.txt
+```
+
+
