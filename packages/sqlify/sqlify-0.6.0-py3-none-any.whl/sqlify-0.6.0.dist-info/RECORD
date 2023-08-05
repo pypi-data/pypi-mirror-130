@@ -1,0 +1,9 @@
+sqlify/__init__.py,sha256=waZ3pdOUHb9yd4ISrRA5t1yMbodMlTojucWOVL00jjo,484
+sqlify/builder.py,sha256=REbjzTNWw6myUSvS-IR9e1FntGxHY7PnMLOeuWHPYX4,12594
+sqlify/operators.py,sha256=EOvkVqNbATx1zcsy51HeD797uc-SIc_Tsdg25oL1zDg,171
+sqlify/session.py,sha256=6GgJvH9rkb4iIUnRvn4kcmy64Edakzo7oT11NSjpa5w,2231
+sqlify/value_objects.py,sha256=v1QcO4k2JcwlZvu6WEBa4V9W0xdp6BtYstQz-zzpx3I,208
+sqlify-0.6.0.dist-info/LICENSE,sha256=0lqypwmUlpSOlCRbo9LiHi2XUDbRY2zzGiuIzeA0xO4,1517
+sqlify-0.6.0.dist-info/WHEEL,sha256=LVOPL_YDMEiGvRLgDK1hLkfhFCnTcxcAYZJtpNFses0,81
+sqlify-0.6.0.dist-info/METADATA,sha256=foooz3HIsUdBxVcDoEs7Q-Te030Kvr7jQxBtgUH9kQ8,10707
+sqlify-0.6.0.dist-info/RECORD,,
