@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/still_rm/__init__.py
+src/still_rm/__main__.py
+src/still_rm.egg-info/PKG-INFO
+src/still_rm.egg-info/SOURCES.txt
+src/still_rm.egg-info/dependency_links.txt
+src/still_rm.egg-info/entry_points.txt
+src/still_rm.egg-info/requires.txt
+src/still_rm.egg-info/top_level.txt
