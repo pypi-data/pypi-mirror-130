@@ -1,0 +1,14 @@
+myver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+myver/__main__.py,sha256=naFMSOdWS1QZNdpGZZipFXk40oKVv-vNT10xMI8MJIY,564
+myver/cli.py,sha256=UxYi5Z5SWhGb1b1BnSCiqXMprEvMN8R6cfpsZk9kg9Q,3476
+myver/config.py,sha256=dZKxzKmspYik_FBXUpD_VCVmuxV9C-52hDtlsDuPPqo,9012
+myver/error.py,sha256=4blCsGLXG2OmBAbISa3xqRmK6vlZol2RNvafw4r4j6g,310
+myver/files.py,sha256=xtJsa4e8I82K1OHPT3om_S55AzYBD-1us7Pp3lBvm-k,2667
+myver/part.py,sha256=XUxfhJqQ-LjdxoxBPSydOD0M_iXJAonMZQn-bS3UKNk,10308
+myver/version.py,sha256=hp3o3DBfUwN1-QNqNznInAlNhtDchs80OPK-40FeFAM,5271
+myver-1.1.0.dist-info/LICENSE.md,sha256=eB7GY74cxCJedPN79QNetANZUtcSnLF3fJ9qgwPnCyc,1069
+myver-1.1.0.dist-info/METADATA,sha256=RNFNCMv7yYvFq_0WNGQCe_xjH4qZdaj3Rt2Heq8ZwTA,19867
+myver-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+myver-1.1.0.dist-info/entry_points.txt,sha256=Uw0ju5biFp2Ut3ihiAq8uhLIQ6ziaas_vPKh1rDR6Yc,47
+myver-1.1.0.dist-info/top_level.txt,sha256=uxRA3fGqWOMWUAyGYgNh6ZsU7Wm5ossQRoYTYXqYjOo,6
+myver-1.1.0.dist-info/RECORD,,
