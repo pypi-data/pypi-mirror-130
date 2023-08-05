@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sizebytes_tools/__init__.py
+sizebytes_tools.egg-info/PKG-INFO
+sizebytes_tools.egg-info/SOURCES.txt
+sizebytes_tools.egg-info/dependency_links.txt
+sizebytes_tools.egg-info/top_level.txt
+sizebytes_tools/functions/__init__.py
+sizebytes_tools/functions/sizebytes.py
