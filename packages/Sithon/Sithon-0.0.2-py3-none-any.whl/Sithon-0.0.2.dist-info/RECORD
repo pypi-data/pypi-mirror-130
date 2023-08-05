@@ -1,0 +1,10 @@
+sithon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sithon/__main__.py,sha256=79cTnTePWUxWbvvkNTTqK8tzEmHxA3FycMTMc5e8rlY,112
+sithon/log.py,sha256=wZaCL4M0yd5PnKdTvK7Ofx_0nDz2FiFStHULtJcoLRI,873
+sithon/sithon.py,sha256=svtauNBAM0ng8GlJXpRNBn2ZNjewog_2Jf-GubuL1yA,257
+sithon/testing.py,sha256=PsHvOreA42Vq9uhvLx_uSfFWyv9mE1hHjTS_txV3HtU,11064
+Sithon-0.0.2.dist-info/LICENSE,sha256=av050sWFD8OEAoxqPN1dDDXiZhJ02egKxBiQJk1PUsM,1061
+Sithon-0.0.2.dist-info/METADATA,sha256=SBjn7qH_V_JG_bWmFmWrnfMFxgWalEGc-McvWUxHPgc,575
+Sithon-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+Sithon-0.0.2.dist-info/top_level.txt,sha256=1USPoY0zGtG_f8kvaxn6UkRXpSOkv1w717DRNhCC5Vg,7
+Sithon-0.0.2.dist-info/RECORD,,
