@@ -1,0 +1,12 @@
+templtest/__init__.py,sha256=l6rzDefVl-Ft6AwmroWAu7fJZ4GZOKz2FT6g_gk01P0,731
+templtest/__main__.py,sha256=YW7vwclluAIcBRg7L_RCafALk7xStQxlXX-424idt5Y,796
+templtest/cli.py,sha256=InVyeyRYa5Ee5FqAgELa6TkEZLGp9E0GM4UMjVWx-j8,2113
+templtest/discovery.py,sha256=6iMboNXQRTX9RzM1_2tw8IKX85pE504H6Rn_V4mmkMs,9191
+templtest/exception.py,sha256=JRtuPW2-Wq8VWCIH0mQhsI1FjY4f0cr4meJZ7fzDITk,868
+templtest/template.py,sha256=53gSHF7XrHf4taRdmEyMr3xJv5eDwukMy2VBYN3IkpE,3937
+templtest/test.py,sha256=sRJi4EUMbxAOta_uBiiWRklEHs4sktKqVpnWOenxPnQ,3216
+templtest-0.2.11.dist-info/entry_points.txt,sha256=1uD9OmA0--Cy-Ae_4imihg7UiQZh-mH3erf3SYGU2dc,48
+templtest-0.2.11.dist-info/COPYING,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+templtest-0.2.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+templtest-0.2.11.dist-info/METADATA,sha256=9RqaGFrpSm8K9lh-SaJqoMYriTVxVdVEaf70gmeSReA,880
+templtest-0.2.11.dist-info/RECORD,,
