@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='utf-8'?>
+<scheme description="" title="" version="2.0">
+	<nodes>
+		<node id="0" name="data selection" position="(81.0, 282.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.dataselection.DataSelectionWidgetOW" title="data selection" version="" />
+		<node id="1" name="roi selection" position="(279.0, 282.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.roiselection.RoiSelectionWidgetOW" title="roi selection" version="" />
+		<node id="2" name="noise removal" position="(391.0, 281.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.noiseremoval.NoiseRemovalWidgetOW" title="noise removal" version="" />
+		<node id="3" name="shift correction" position="(517.0, 281.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.shiftcorrection.ShiftCorrectionWidgetOW" title="shift correction" version="" />
+		<node id="4" name="z sum" position="(706.0, 227.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.zsum.ZSumWidgetOW" title="z sum" version="" />
+		<node id="5" name="dimension definition" position="(177.0, 282.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.dimensions.DimensionWidgetOW" title="dimension definition" version="" />
+		<node id="6" name="grain plot" position="(718.0, 345.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.grainplot.GrainPlotWidgetOW" title="grain plot" version="" />
+		<node id="7" name="rocking curves" position="(834.0, 346.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.rockingcurves.RockingCurvesWidgetOW" title="rocking curves" version="" />
+		<node id="8" name="blind source separation" position="(709.0, 506.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.blindsourceseparation.BlindSourceSeparationWidgetOW" title="blind source separation" version="" />
+		<node id="9" name="flash" position="(421.0, 445.0)" project_name="darfix" qualified_name="orangecontrib.darfix.widgets.flash.FlashWidgetOW" title="flash" version="" />
+	</nodes>
+	<links>
+		<link enabled="true" id="0" sink_channel="dataset" sink_node_id="2" source_channel="dataset" source_node_id="1" />
+		<link enabled="true" id="1" sink_channel="dataset" sink_node_id="3" source_channel="dataset" source_node_id="2" />
+		<link enabled="true" id="2" sink_channel="dataset" sink_node_id="4" source_channel="dataset" source_node_id="3" />
+		<link enabled="true" id="3" sink_channel="dataset" sink_node_id="5" source_channel="dataset" source_node_id="0" />
+		<link enabled="true" id="4" sink_channel="dataset" sink_node_id="1" source_channel="dataset" source_node_id="5" />
+		<link enabled="true" id="5" sink_channel="dataset" sink_node_id="7" source_channel="dataset" source_node_id="6" />
+		<link enabled="true" id="6" sink_channel="dataset" sink_node_id="6" source_channel="dataset" source_node_id="3" />
+		<link enabled="true" id="7" sink_channel="dataset" sink_node_id="9" source_channel="dataset" source_node_id="1" />
+		<link enabled="true" id="8" sink_channel="dataset" sink_node_id="8" source_channel="dataset" source_node_id="3" />
+	</links>
+	<annotations />
+	<thumbnail />
+	<node_properties>
+		<properties format="literal" node_id="0">{'controlAreaVisible': True, 'dark_filename': '', 'filenames': [], 'in_disk': False, 'raw_filename': '/users/garrigaf/Documents/datasets/id06/strain/strain_0000.edf', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x02\x85\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x82\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x82\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="1">{'controlAreaVisible': True, 'roi_origin': [735.7172690763052, 616.022820919176], 'roi_size': [477.04417670682733, 884.7201146089451], 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x06\xc3\x00\x00\x03\xa0\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x06\xc0\x00\x00\x03\x9d\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x06\xc0\x00\x00\x03\x9d', '__version__': 1}</properties>
+		<properties format="literal" node_id="2">{'background_type': 'Data', 'bottom_threshold': '8', 'chunks': [100, 100], 'controlAreaVisible': True, 'kernel_size': '3', 'method': 'median', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x02\x8e\x00\x00\x02t\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x8b\x00\x00\x02q\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x8b\x00\x00\x02q', 'step': '1', '__version__': 1}</properties>
+		<properties format="literal" node_id="3">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x03\xb8\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x03\xb5\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x03\xb5\x00\x00\x02\x1b', 'shift': [0.16512, -0.00935], '__version__': 1}</properties>
+		<properties format="literal" node_id="4">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x02\x85\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x82\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\x82\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="5">{'_dims': {0: {'name': 'diffry', 'kind': 2, 'size': 31, 'range': [-23.176, -23.146, 0.001], 'tolerance': 1e-09}, 1: {'name': 'obpitch', 'kind': 2, 'size': 31, 'range': [25.1023, 25.1623, 0.002], 'tolerance': 1e-09}}, 'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x02\xda\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\xd7\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x02\xd7\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="6">{'controlAreaVisible': True, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x06-\x00\x00\x03\x19\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x06*\x00\x00\x03\x16\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x06*\x00\x00\x03\x16', '__version__': 1}</properties>
+		<properties format="literal" node_id="7">{'controlAreaVisible': True, 'dimension': [[1], [0]], 'int_thresh': '15', 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x04x\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x04u\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x04u\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="8">{'controlAreaVisible': True, 'method': 'NICA_NMF', 'n_comp': 5, 'savedWidgetGeometry': b'\x01\xd9\xd0\xcb\x00\x03\x00\x00\x00\x00\x00\x00\x00\x00\x00\x1f\x00\x00\x04\xbb\x00\x00\x02\x1e\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x04\xb8\x00\x00\x02\x1b\x00\x00\x00\x00\x00\x00\x00\x00\n\x00\x00\x00\x00\x03\x00\x00\x00&lt;\x00\x00\x04\xb8\x00\x00\x02\x1b', '__version__': 1}</properties>
+		<properties format="literal" node_id="9">{'controlAreaVisible': True, 'savedWidgetGeometry': None, '__version__': 1}</properties>
+	</node_properties>
+	<session_state>
+		<window_groups />
+	</session_state>
+</scheme>
