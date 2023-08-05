@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools >= 46.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+line-length = 89
+target-version = ["py38", "py39"]
+exclude = '''
+(
+    src/textacy/preprocessing/resources.py
+)
+'''
+
+[tool.mypy]
+files = [
+  "src/**/*.py",
+  "tests/**/*.py",
+]
+python_version = "3.8"
+ignore_missing_imports = true
+follow_imports = "silent"
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -v"
+testpaths = ["tests"]
