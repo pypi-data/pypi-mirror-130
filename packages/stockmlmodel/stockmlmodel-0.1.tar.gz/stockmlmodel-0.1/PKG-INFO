@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: stockmlmodel
+Version: 0.1
+Summary: Stock Market Analysis
+Home-page: UNKNOWN
+Author: Vedant Jolly, Rishabh Jain, Sakshi Mahadik
+Author-email: vedantjolly2001@gmail.com,rishabhjainrj0110@gmail.com,sakshimahadik2511@gmail.com
+License: MIT
+Keywords: stock market
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+# Python package for stock market analysis
+
+Change Log
+==========
+
+0.0.1 (05/12/2021)
+-------------------
+- First Release
+

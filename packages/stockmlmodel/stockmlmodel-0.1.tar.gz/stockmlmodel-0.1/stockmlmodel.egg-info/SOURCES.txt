@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+stockmlmodel/__init__.py
+stockmlmodel.egg-info/PKG-INFO
+stockmlmodel.egg-info/SOURCES.txt
+stockmlmodel.egg-info/dependency_links.txt
+stockmlmodel.egg-info/requires.txt
+stockmlmodel.egg-info/top_level.txt
