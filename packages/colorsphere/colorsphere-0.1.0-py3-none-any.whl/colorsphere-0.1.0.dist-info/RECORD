@@ -1,0 +1,10 @@
+colorsphere/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+colorsphere/__main__.py,sha256=H6YJETvOI_W0tralQuvUFnf8k9-7fOMox2EDgDJdX-A,153
+colorsphere/colorsphere.py,sha256=mEaL6RWBg2FUta_R1SfCso2qBdwemAVvTN3MS_eew0A,15345
+colorsphere/launcher.py,sha256=rY73379m6KdNl2q6wwhDCMJmxP1UpsXEU9_lOrTvwAs,1171
+colorsphere/windowmgr.py,sha256=PTMAC9j707Dluyxe1WWIAIKf6Cm7JV-6WnEkqalrMmI,5673
+colorsphere-0.1.0.dist-info/LICENSE,sha256=Myan4sYa1pi3X4-J4MZ5KPzVU22NkSJN72Qy5kcC18k,1069
+colorsphere-0.1.0.dist-info/METADATA,sha256=c3jk314HzHCUjs8wqkKp4pjRpHjGACRniMvC4ARTF1c,2007
+colorsphere-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+colorsphere-0.1.0.dist-info/top_level.txt,sha256=vuZLiHt6EHb6TGQmBhWPbF1U_w-D2N7jJY0YjbRgT_8,12
+colorsphere-0.1.0.dist-info/RECORD,,
