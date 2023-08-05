@@ -1,0 +1,13 @@
+afwfcfg/__init__.py,sha256=nNM1C82iyTlJBZXSOB9CFgT1kA9k2ZkPVChomm-SRNA,37
+afwfcfg/afwf_config.py,sha256=KWrZbjq-8qv144BGhgVX1TxY8iZl_QniAmEmz9-N8lY,9774
+afwfcfg/afwf_evilTypeAction_config.py,sha256=mw-A561lzdCuMB_CDYF1IYnuQyPu0T8hejF9ELoPW_Q,5894
+afwfcfg/afwf_get_update_count.py,sha256=P7OjmWGLgupU9fxx5FLXUzf_--VP9Xe0fMp77yXb6Tg,1816
+afwfcfg/afwf_log.py,sha256=9RknO5uVRF_7e7Z3HuAz9gDEdIPsAiKir40QBa_0lrs,1783
+afwfcfg/black_white_list.py,sha256=1Hr9SD-e7SjEhLnQbx394WoSU7zh8SuPnjFI0tmM3Lo,16360
+afwfcfg/devbind.py,sha256=KeSYDqxwGW3_0v5SacQhw-Pmh90EzPMjIz2dS61C50s,25341
+afwfcfg/version_config.py,sha256=qs9-uGBnYZarabpq4wqC4FJOrUQxW3wNkIGjzsGm6-8,7658
+afwfcfg-2.0.1.dist-info/METADATA,sha256=2fMGZnxgZz_HlqGu6AxmlaMSdog_WeAyoFwiW4dd0T0,182
+afwfcfg-2.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+afwfcfg-2.0.1.dist-info/entry_points.txt,sha256=QEi5QuDE-Jof7qeGX9zqZIOXYl-gzyPTKiXygdHkFcQ,55
+afwfcfg-2.0.1.dist-info/top_level.txt,sha256=nMWTBlp8Ymmc8ZiaAPz_BAcGVtwJFRPRdMrqPNTDmUk,8
+afwfcfg-2.0.1.dist-info/RECORD,,
