@@ -1,0 +1,10 @@
+README.md
+setup.py
+communebot_fr/__init__.py
+communebot_fr/profile.py
+communebot_fr.egg-info/PKG-INFO
+communebot_fr.egg-info/SOURCES.txt
+communebot_fr.egg-info/dependency_links.txt
+communebot_fr.egg-info/entry_points.txt
+communebot_fr.egg-info/requires.txt
+communebot_fr.egg-info/top_level.txt
