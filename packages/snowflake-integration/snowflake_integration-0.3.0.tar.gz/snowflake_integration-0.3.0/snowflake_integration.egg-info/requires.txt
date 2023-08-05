@@ -1,0 +1,5 @@
+numpy
+pandas
+snowflake
+boto3
+snowflake-connector-python[pandas,secure-local-storage]
