@@ -1,0 +1,5 @@
+[console_scripts]
+di = docker_buddy.docker_startup:inspect_container
+dls = docker_buddy.cli_colors:docker_container_ls
+ds = docker_buddy.cli_colors:docker_search
+

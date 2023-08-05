@@ -1,0 +1,7 @@
+pip
+packaging
+rich
+docker
+fastcore
+
+[dev]
