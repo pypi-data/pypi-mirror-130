@@ -1,0 +1,9 @@
+LICENSE
+README.md
+hashtags_extract.py
+setup.py
+Hashtags_Extract.egg-info/PKG-INFO
+Hashtags_Extract.egg-info/SOURCES.txt
+Hashtags_Extract.egg-info/dependency_links.txt
+Hashtags_Extract.egg-info/not-zip-safe
+Hashtags_Extract.egg-info/top_level.txt
