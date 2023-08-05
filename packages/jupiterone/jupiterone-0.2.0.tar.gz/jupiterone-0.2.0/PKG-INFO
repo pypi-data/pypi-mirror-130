@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: jupiterone
+Version: 0.2.0
+Summary: A Python client for the JupiterOne API
+Home-page: https://github.com/auth0/jupiterone-python-sdk
+Author: George Vauter
+Author-email: george.vauter@auth0.com
+Maintainer: Auth0
+License: MIT License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Security
