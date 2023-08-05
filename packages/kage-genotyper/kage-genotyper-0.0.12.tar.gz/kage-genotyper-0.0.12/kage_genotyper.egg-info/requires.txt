@@ -1,0 +1,11 @@
+cython
+graph_kmer_index
+graph_read_simulator
+kmer_mapper
+numpy
+obgraph
+pathos
+pyfaidx
+scipy
+shared_memory_wrapper
+tqdm
