@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: run-sql-job
+Version: 1.0.0
+Summary: Job that run sql script
+Home-page: https://github.com/mantis-software-company/rabbitmq2psql-as-json
+Author: Derya Pelin Deniz
+Author-email: info@mantis.com.tr
+License: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.8.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: psycopg2-binary
+
+# Run Sql Job
+
+Project is for running sql script from a path and change db according to sql script.
+
+## Environment Variables
+
+* DB_USER = Set username of db
+* DB_PASSWORD = Set password of db
+* DB_HOST = Set host name of db
+* DB_PORT = Set port number of db
+* DB_DATABASE = Set database name of db
+* SQL_PATH = Set sql path 
+
+

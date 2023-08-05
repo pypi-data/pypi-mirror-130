@@ -1,0 +1,7 @@
+run_sql_job/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+run_sql_job/main.py,sha256=35_zvPElvzXjcU1mOLfUFDyKOe-HkL6V96Tp2o3GIck,877
+run_sql_job-1.0.0.data/scripts/run-sql-job,sha256=mz4pNqxsGhS2kCmx6-wkAED34MF3tHFrgAWMTlfHkhY,81
+run_sql_job-1.0.0.dist-info/METADATA,sha256=D5GhdRdzPixRRZIj66sVvwZILksVC8EybcDUKgHbDjA,867
+run_sql_job-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+run_sql_job-1.0.0.dist-info/top_level.txt,sha256=SAvxdRRL49TLRLdvDXha_slcal_6p2fnUatKh9Do0sE,12
+run_sql_job-1.0.0.dist-info/RECORD,,
