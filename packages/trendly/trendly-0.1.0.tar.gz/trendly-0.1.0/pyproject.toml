@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "trendly"
+version = "0.1.0"
+description = "Real time trend analysis"
+authors = ["jonirap"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+searchtweets-v2 = "^1.1.1"
+
+[tool.poetry.dev-dependencies]
+ipython = "^7.30.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
