@@ -1,0 +1,65 @@
+Metadata-Version: 1.2
+Name: singularity-tunel
+Version: 1.0.0
+Summary: commander and viewer to tunnel commands for HPC
+Home-page: https://github.com/singularityhub/tunel
+Author: Vanessa Sochat
+Author-email: vsochat@users.noreply.github.com
+Maintainer: Vanessa Sochat
+Maintainer-email: vsochat@users.noreply.github.com
+License: LICENSE
+Description: # Singularity Tunel
+        
+        Application and general cluster tools using Singularity containers.
+        
+        ## Introduction
+        
+        Manager and recipe generator for local Singularity containers
+        
+        ## Deployment
+        You should clone the repo, and build the container (or you can also just clone and then use docker-compose and it will be pulled from Docker Hub).
+        
+        
+        ```bash
+        git clone https://github.com/singularityhub/singularity-tunel
+        cd singularity-tunel
+        docker build -t vanessa/tunel .
+        ```
+        
+        ## Deployment
+        You can use docker compose to deploy:
+        
+        ```bash          
+        docker-compose up -d
+        ```
+        and then go to `127.0.0.1` (localhost).
+        
+        
+        ## Endpoints
+        Here are some useful endpoints:
+        
+        ### Views
+         - `/`: the root will show all containers available. When the user selects, he/she is taken to a screen to see input arguments. 
+         - `/containers/random`: will return a random container
+         - `/container/container.img`: will show metadata about a container.
+        
+        ### API
+        The following are considered API, meaning they return a text or json response, not intended for the user to interact with.
+        
+         - `/api/containers`: a list of all available containers
+         - `/api/container/<string:name>`: a json object with container args, labels, and links.
+         - `/api/container/args/<string:name>`: json of just container args
+         - `/api/container/labels/<string:name>`: json of juist container labels
+         - `/container/run/container.img`: Is the base for running a container, this one would be container.img. Arguments can be added as POST (eg, `?name=Amy`)
+        
+Keywords: commander,viewer,hpc,cluster,computing
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
