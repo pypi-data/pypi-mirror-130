@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "challange-model"
+version = "0.1.0"
+description = "Challange"
+authors = ["Kleiner Matias <kleiner.matias@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+matplotlib = "*"
+seaborn = "*"
+loguru = "*"
+sklearn = "*"
+click = "*"
+pandas = "*"
+numpy = "*"
+xlrd = "*"
+ipdb = "*"
+pytest = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
