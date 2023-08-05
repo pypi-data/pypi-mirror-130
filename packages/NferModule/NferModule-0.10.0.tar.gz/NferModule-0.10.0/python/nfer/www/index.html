@@ -1,0 +1,294 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>nfer Interval Stream</title>
+  <link rel="shortcut icon" href="/static/favicon.ico">
+  <style>
+  body {
+    background-color: #fff;
+  }
+  button {
+    display: inline;
+  }
+  .chartTitle {
+    font-size: 18px;
+    font-weight: bold;
+    text-anchor: middle; 
+  }
+  .title {
+    font: 16px sans-serif;
+    font-weight: bold;
+    text-anchor: middle;
+  }
+  .nav .area {
+    fill: lightgrey;
+    stroke-width: 0px;
+  }
+  .nav .line {
+    fill: none;
+    stroke: darkgrey;
+    stroke-width: 1px;
+  }
+  .viewport {
+    stroke: grey;
+    fill: black;
+    fill-opacity: 0.3;
+  }
+  .viewport .selection {
+    fill: green;
+  }
+  .viewport .overlay {
+    visibility: hidden;
+  }
+  h1 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  #intervalDiv {
+    position: relative;
+    left: 1220px;
+    top: -10px;
+    border: 1px solid lightgray;
+    padding: 10px;
+    width: 240px;
+    max-height: 530px;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+  }
+  th, td {
+    border-bottom: 1px solid lightgray;
+    padding: 3px;
+    text-align: left;
+  }
+  .intervalname {
+    overflow: hidden;
+    text-overflow: fade;
+    white-space: nowrap;
+    width: 135px;
+  }
+  tr:hover .intervalname {
+    overflow: visible;
+    white-space: normal;
+  }
+  tr:hover .count {
+    visibility: hidden;
+  }
+  /* below is for adding tooltip functionality to the canvas */
+  div#tooltip {
+    position: absolute;
+    display: inline-block;
+    padding: 10px;
+    font-family: 'Open Sans' sans-serif;
+    color: #000;
+    background-color: #fff;
+    border: 1px solid #999;
+    border-radius: 2px;
+    pointer-events: none;
+    opacity: 0;
+    z-index: 5;
+    width: 12em;
+  }
+  </style>
+<body>
+
+<div>
+  <button id="pause" type="button" onclick="chart.pause(); this.disabled = true; document.getElementById('resume').disabled = false;">Pause</button>
+  <button id="resume" type="button" disabled="disabled" onclick="chart.resume(); this.disabled = true; document.getElementById('pause').disabled = false;">Resume</button>
+</div>
+
+<div style="max-width: 1200px; max-height: 600px; padding: 10px">
+
+  <h1>nfer Interval Stream</h1>
+
+  <div id="viewDiv"></div>
+
+</div>
+<div id="intervalDiv">
+  <table id="intervalList">
+    <tr><th>Show</th><th class="intervalname">Interval</th><th>Count</th></tr>
+  </table>
+</div>
+
+<script src="static/d3.min.js"></script>
+<script src="static/socket.io.min.js"></script>
+<script src="static/nfergui.js"></script>
+<script>
+'use strict';
+
+// for adding intervals to the list
+var ilist = document.getElementById("intervalList");
+
+var createIntervalNode = function(name) {
+    // create the new elements
+    var newrow = document.createElement("tr"),
+        newchk = document.createElement("input"),
+        newchkcell = document.createElement("td"),
+        newname = document.createElement("label"),
+        newnamecell = document.createElement("td"),
+        newct = document.createElement("td"),
+        // get the counts for reading
+        counts = chart.counts(),
+        // get currently selected intervals
+        selected = chart.yDomain();
+
+    // set up the checkbox
+    newchk.type = "checkbox";
+    newchk.name = name;
+    newchk.checked = selected.includes(name);
+    newchk.addEventListener("change", function(evt) {
+      if (evt.target.checked) {
+        // references the chart internal variable, but still needs passed in
+        selected.push(name);
+        chart.yDomain(selected);
+      } else {
+        selected.splice(selected.indexOf(name), 1);
+        chart.yDomain(selected);
+      }
+      // update the chart
+      chart.refresh();
+    });
+
+    // set the name
+    newname.textContent = name;
+    newname.htmlFor = name;
+
+    // set the count
+    if (name in counts) {
+        newct.textContent = "" + counts[name];
+    } else {
+        newct.textContent = "0";
+    }
+
+    // append children
+    newchkcell.appendChild(newchk)
+    newchkcell.className = "checkbox";
+    newrow.appendChild(newchkcell);
+    newnamecell.appendChild(newname);
+    newnamecell.className = "intervalname";
+    newrow.appendChild(newnamecell);
+    newrow.appendChild(newct);
+    newct.className = "count";
+
+    return newrow;
+}
+
+var resetIList = function() {
+    // copy the counts to a local object
+    var i, nodes = ilist.childNodes;
+
+    // iterate over elements of the list
+    for (i = 0; i < nodes.length; i++) {
+        // avoid index errors
+        if (nodes[i].childElementCount >= 3) {
+                // get the checkbox
+            let chknode = nodes[i].childNodes[0].firstChild,
+                // get the name for the row
+                ename   = nodes[i].childNodes[1].textContent,
+                // get the count node
+                cnode   = nodes[i].childNodes[2];
+
+            // set the count to zero
+            cnode.textContent = "0";
+
+            // set checked if the ydomain includes the name
+            chknode.checked = chart.yDomain().includes(ename);
+        }
+    }
+}
+
+var refreshIList = function() {
+    // copy the counts to a local object
+    var counts = chart.counts(),
+        locounts = {},
+        i, key, nint,
+        nodes = ilist.childNodes;
+
+    for (key in counts) {
+        locounts[key] = counts[key];
+    }
+
+    // iterate over elements of the list
+    for (i = 0; i < nodes.length; i++) {
+        // avoid index errors
+        if (nodes[i].childElementCount >= 3) {
+                // get the name for the row
+            let ename   = nodes[i].childNodes[1].textContent,
+                // get the count node
+                cnode   = nodes[i].childNodes[2];
+
+            // get the count from copied counts and delete
+            if (ename in locounts) {
+                cnode.textContent = "" + locounts[ename];
+                delete locounts[ename];
+            } else {
+                cnode.textContent = "0";
+            }
+        }
+    }
+
+    // any counts left, add them at the end
+    for (nint in locounts) {
+        ilist.appendChild(createIntervalNode(nint));
+    }
+
+};
+
+// create the real time chart
+var chart = intervalUI()
+    .title("Interval Stream")
+    .yTitle("Intervals")
+    .xTitle("Time")
+    .border(true)
+    .width(1200)
+    .height(550)
+    .maxSeconds(30)
+    .viewportSeconds(3);
+
+// invoke the chart
+var chartDiv = d3.select("#viewDiv").append("div")
+    .attr("id", "chartDiv")
+    .style("position", "relative")
+    .call(chart);
+
+var socket = io();
+socket.on("connect", function() {
+  // tell the server and get back config info
+  socket.emit("init", {data: "connected!"}, function(data) {
+    // clear the data and set any configuration
+    chart.data([])
+         .yDomain(data.intervals)
+         .tooltips(data.tooltips)
+         .refresh();
+    // clear the interval counts
+    var lcounts = chart.counts(), key;
+    for (key in lcounts) {
+      lcounts[key] = 0;
+    }
+    chart.counts(lcounts);
+    // update the list of intervals
+    resetIList();
+  });
+});
+
+socket.on("interval", function(i) {
+  chart.add({name: i.name, start: new Date(i.start), end: new Date(i.end), data: i.data});
+  refreshIList();
+});
+
+socket.on("batch", function(b) {
+  var toJS = [];
+  for (var i = 0; i < b.length; i++) {
+    var interval = b[i];
+    toJS.push({name: interval.name, start: new Date(interval.start), end: new Date(interval.end), data: interval.data});
+  }
+  chart.batch(toJS);
+  refreshIList();
+});
+
+</script>
