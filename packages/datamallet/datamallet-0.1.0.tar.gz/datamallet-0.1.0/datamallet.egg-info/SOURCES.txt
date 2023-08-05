@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+datamallet/__init__.py
+datamallet.egg-info/PKG-INFO
+datamallet.egg-info/SOURCES.txt
+datamallet.egg-info/dependency_links.txt
+datamallet.egg-info/requires.txt
+datamallet.egg-info/top_level.txt
