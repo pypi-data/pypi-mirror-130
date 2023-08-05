@@ -1,0 +1,7 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+fastapi_resource_server
+python-multipart
+pydantic
+psutil
