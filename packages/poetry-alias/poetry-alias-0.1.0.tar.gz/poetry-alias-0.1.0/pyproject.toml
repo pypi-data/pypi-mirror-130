@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "poetry-alias"
+version = "0.1.0"
+description = "Pew-style project management for Poetry"
+authors = ["Clemens Kaposi <clemens.kaposi@obda.net>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+poetry = "^1.2.0a2"
+tomlkit = "^0.7.2"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.15.0"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+radon = "^5.1.0"
+
+[tool.poetry.plugins."poetry.application.plugin"]
+alias = "poetry_alias:AliasPlugin"
+
+[tool.black]
+line-length = 79
+exclude = '''
+/(
+    \.eggs
+  | \.git
+  | \.tox
+  | build
+  | dist
+
+)/
+'''
+
+[build-system]
+requires = ["poetry>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

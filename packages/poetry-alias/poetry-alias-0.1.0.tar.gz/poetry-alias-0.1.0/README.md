@@ -1,0 +1,66 @@
+poetry-alias
+============
+
+[Pew][]-style project management for [Poetry][] 1.2 and higher.
+
+poetry-alias introduces a new `alias` command suite for Poetry which allows
+you to define short names (“aliases”) for you Poetry-based projects, and then
+use these to switch to the project directories from wherever you are.
+
+    $ cd $HOME/src/myproject
+    [~/src/myproject]$ poetry alias add myproject
+    [~/src/myproject]$ cd
+    $ poetry alias go myproject
+    Spawning shell within /home/user/.cache/pypoetry/virtualenvs/myproject-Hyrvhkrx-py3.8
+    [~/src/myproject]$ . /home/user/.cache/pypoetry/virtualenvs/myproject-Hyrvhkrx-py3.8/bin/activate
+    [~/src/myproject]$
+
+[Pew]: https://github.com/berdario/pew
+[Poetry]: https://python-poetry.org/
+
+
+Installation
+------------
+
+Install poetry-alias by running:
+
+    poetry plugin add poetry-alias
+
+
+Commands
+--------
+
+  * `poetry alias add eggs` — define “eggs” as alias for the current project.
+    If a different project already used “eggs” as its alias, the command would
+    abort with a corresponding error message.  Multiple aliases can be defined
+    per project.
+
+  * `poetry alias show` — show all aliases for the current project.
+
+  * `poetry alias list` — list all project aliases in alphabetical order along
+    with their assigned project directories.
+
+  * `poetry alias go eggs` — change to the directory of the project aliased
+    “eggs”, and activate the virtualenv.
+
+  * `poetry alias rm eggs` — remove the “eggs” project alias.  The alias name
+    is optional for this command; if omitted, the current projects’ aliases
+    will be removed.
+
+  * `poetry alias prune` — remove all aliases that no longer point to a
+    project directory.
+
+  * `poetry alias clean` — remove all alias definitions.
+
+
+Contribute
+----------
+
+  * Issue Tracker: https://gitlab.com/obda/poetry-alias/-/issues
+  * Source Code: https://gitlab.com/obda/poetry-alias
+
+
+License
+-------
+
+The project is licensed under the MIT license.
