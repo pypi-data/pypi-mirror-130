@@ -1,0 +1,15 @@
+mobio_mail_client_sdk-0.1.3-py3.8-nspkg.pth,sha256=digZj_vKBO5BD5o7-vMSBQjpHYuxWIGNVCORAYbmwCY,534
+mobio/sdks/mail_client/__init__.py,sha256=Y_uWr67KM5EzL5V30BXS1MjWISyW9zD9QFqh07AcnXo,510
+mobio/sdks/mail_client/consts.py,sha256=iGBqu04h8-tOcsnedNwpfaM5XhAV6PkO8duCde-pDyU,1415
+mobio/sdks/mail_client/errors.py,sha256=kJrNtwKq8MLOyHWvlyRoeny0zI4dI5nIEJcI1qiDVTY,2002
+mobio/sdks/mail_client/folder.py,sha256=GfbAsv4g24T9z6gKc-EWqsv_AIjOZZo0KfgHVJ1tSRQ,7054
+mobio/sdks/mail_client/imap_utf7.py,sha256=I9EC-ZL2q7G4uRGMnY7PXeJhx2AxlEbyEpA2II-xSno,2059
+mobio/sdks/mail_client/mailbox.py,sha256=gmnOydrxHhAuOoCR9YKumU2Q086fUYOwVDUq28KLols,17088
+mobio/sdks/mail_client/message.py,sha256=vf8gUoWf7QhcTv9_ogBqedJ4KGqkX2gM6zxnALBemR8,10721
+mobio/sdks/mail_client/query.py,sha256=JmurRPw-1hNOwpDvc_mWGDnsUr6-sl7XUZZipjq9A80,16182
+mobio/sdks/mail_client/utils.py,sha256=fdti-vbZvc7HTkH5dVHi0JaJejinBTzByo9DmvHINYk,7389
+mobio_mail_client_sdk-0.1.3.dist-info/METADATA,sha256=y5q1bZEDT3Yx0q8_9wCwn-VQgIJbTyRWQLncb9wp1OY,1195
+mobio_mail_client_sdk-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mobio_mail_client_sdk-0.1.3.dist-info/namespace_packages.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_mail_client_sdk-0.1.3.dist-info/top_level.txt,sha256=aDRCg1NQKxwVo4upz2Jiwm_Qm1Yw57mFFYdDaGu4b8c,6
+mobio_mail_client_sdk-0.1.3.dist-info/RECORD,,
