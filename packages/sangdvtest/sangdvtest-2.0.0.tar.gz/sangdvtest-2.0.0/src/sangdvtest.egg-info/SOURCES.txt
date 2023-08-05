@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+data/data_file
+src/sample/__init__.py
+src/sample/package_data.dat
+src/sample/simple.py
+src/sangdvtest.egg-info/PKG-INFO
+src/sangdvtest.egg-info/SOURCES.txt
+src/sangdvtest.egg-info/dependency_links.txt
+src/sangdvtest.egg-info/entry_points.txt
+src/sangdvtest.egg-info/requires.txt
+src/sangdvtest.egg-info/top_level.txt
