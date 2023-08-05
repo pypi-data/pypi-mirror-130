@@ -1,0 +1,4 @@
+girder-large-image-annotation>=1.4.2
+
+[analysis]
+girder-slicer-cli-web[girder]>=1.2.0
