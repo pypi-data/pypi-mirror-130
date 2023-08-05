@@ -1,0 +1,3 @@
+[console_scripts]
+gemcall = gemcall.__main__:main
+
