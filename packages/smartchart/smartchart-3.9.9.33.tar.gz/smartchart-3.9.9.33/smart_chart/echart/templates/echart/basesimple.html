@@ -1,0 +1,13 @@
+<html><head><title>smartchart:{{title}}</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge">{{contentrefresh|safe}}
+{% block head %}{% endblock %}</head>
+<link rel="icon" type="image.png" href="/static/images/favicon.ico"><link rel="stylesheet" href="/static/js/fun.css">
+{% if dv %}<script src="/static/echart/opt/vue.js"></script><script src="/static/echart/opt/dv.js"></script>{% endif %}<script src="/static/js/jquery-2.2.3.min.js"></script>
+{% if devhead %}<link rel="stylesheet" href="/static/js/dev.css">{% endif %}
+{% autoescape off %}{{linkhead}}{{devhead}}{% block body %}{% endblock %}{% endautoescape %}
+</html><script type="text/javascript" src="/static/echart/dist/echarts.min.js"></script><script src="/static/js/fun.js"></script><script src="/static/echart/theme/{{theme}}"></script>
+{% if devhead %}<script src="/static/js/dev.js"></script>{% endif %}
+{{footer|safe}}{% block javascript %}{% endblock %}
+<script>var charts = [];{{echart_main|safe}}window.onresize = function(){for(var i = 0; i < charts.length; i++){charts[i].resize();}};
+$(function(){$("#fullScreen").on("click",function(){var isFull=!!(document.webkitIsFullScreen||document.mozFullScreen||document.msFullscreenElement||document.fullscreenElement);if(isFull===false){fullScreen()}else{exitFullscreen()}})});function fullScreen(){var element=document.documentElement;if(element.requestFullscreen){element.requestFullscreen()}else if(element.msRequestFullscreen){element.msRequestFullscreen()}else if(element.mozRequestFullScreen){element.mozRequestFullScreen()}else if(element.webkitRequestFullscreen){element.webkitRequestFullscreen()}}function exitFullscreen(){if(document.exitFullscreen){document.exitFullscreen()}else if(document.msExitFullscreen){document.msExitFullscreen()}else if(document.mozCancelFullScreen){document.mozCancelFullScreen()}else if(document.webkitExitFullscreen){document.webkitExitFullscreen()}}
+function print(item){console.log(item)};</script>
+<!--powered by smartchart.cn,Designed by JohnYan mailto:84345999@qq.com, https://gitee.com/smartchart/smartchart you need keep this-->

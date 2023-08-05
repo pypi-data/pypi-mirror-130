@@ -1,0 +1,2 @@
+$("#smartcharthead").on("click",function(){if($("#id_devhead").hasClass('devhead')){$("#id_devhead").removeClass('devhead');}else{$("#id_devhead").addClass('devhead')}});
+    $(".devspan span").on("click",function(){let devspana=$(".devspan a");if(devspana.hasClass('show')){devspana.removeClass('show')}else{devspana.addClass('show')}})
