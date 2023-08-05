@@ -1,0 +1,11 @@
+audiofile/__init__.py,sha256=rYqkU7nwPvLA-4acgd7mmJ-c5EcBzKfP9Nfjc2Xa0FE,589
+audiofile/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+audiofile/core/convert.py,sha256=YpVT7czNwW4xTWDVsvD6B1lxNQhlfP0bxqCKGTYsUI8,1340
+audiofile/core/info.py,sha256=bm2rcajOfUdZjiQMvpR2yxFXqxTm86jnGjKwid2yR2o,5799
+audiofile/core/io.py,sha256=P0wcmAzXNAVpXNNdlA4qHRFMPllMbA13RYb10wlBJJ4,5755
+audiofile/core/utils.py,sha256=XlECmtWQdoZ7LMS4waVmus8zk1YV7G-nUh9vTVZL9Ao,1570
+audiofile-1.0.2.dist-info/LICENSE,sha256=h5pKIsSrrpojHDprhjQKgrGZk0ydExw7Cv91oeYapU8,1182
+audiofile-1.0.2.dist-info/METADATA,sha256=5RAtClgxiyE0gd0zflI18YYFwUjMUccMnXdcYupWzXk,7063
+audiofile-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+audiofile-1.0.2.dist-info/top_level.txt,sha256=onFmKkJIEsA2F3ng7uWoVwLaptEMpuh9w-S1gG1t-5U,10
+audiofile-1.0.2.dist-info/RECORD,,
