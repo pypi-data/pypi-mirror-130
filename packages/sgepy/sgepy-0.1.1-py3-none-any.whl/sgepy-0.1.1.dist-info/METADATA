@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: sgepy
+Version: 0.1.1
+Summary: sgepy package
+Home-page: https://github.com/nick-youngblut/sgepy
+Author: Nick Youngblut
+Author-email: nyoungb2@gmail.com
+License: MIT license
+Platform: UNKNOWN
+Requires-Dist: dill (>=0.3)
+Requires-Dist: pathos (>=0.2.8)
+
+sgepy package
+ See README for more information.
+
