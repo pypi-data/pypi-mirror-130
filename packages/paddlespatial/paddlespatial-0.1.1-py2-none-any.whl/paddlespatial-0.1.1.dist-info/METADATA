@@ -1,0 +1,16 @@
+Metadata-Version: 2.0
+Name: paddlespatial
+Version: 0.1.1
+Summary: Adding version check
+Home-page: https://github.com/PaddlePaddle/PaddleSpatial
+Author: baidu-bil
+Author-email: zhoujingbo@baidu.com
+License: Apache 2.0 license
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+
+UNKNOWN
+
+
