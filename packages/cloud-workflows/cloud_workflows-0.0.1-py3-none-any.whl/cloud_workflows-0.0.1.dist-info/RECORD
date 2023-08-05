@@ -1,0 +1,17 @@
+workflows/__init__.py,sha256=jxFmJWK1PMs9vsip8LzxaaOAx4bkdlXUhrcSMhVfrz8,210
+workflows/core.py,sha256=pb_Q2t1WUZlF2AXFf1w4YPukOvrULbQQ5gYkBxkn708,11476
+workflows/standard.py,sha256=2EOkLWr274WgS_CTT0emBWc9y5aJ3okCq7erwLEv1bs,856
+workflows/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+workflows/connectors/bigquery.py,sha256=o9dkZJxQZ0-X0lz2M4B-ww-Ry59HawMHf114Tyc1ylY,2287
+workflows/connectors/firestore.py,sha256=e_LFKYU76m4lVkmtAmUqlyjDKlQGMfCXEHSE9KFvC1s,1860
+workflows/connectors/pubsub.py,sha256=e98jkSI2IaWV6ZkxkM5LTmyBsgGxzH70GZYfx5qxeE8,925
+workflows/connectors/secretmanager.py,sha256=0rgN8F6gSGHW7hanfaAT8r2V5QAf3y0ldNK4gmffi-I,625
+workflows/connectors/sql.py,sha256=uE1j_EXsf5QVF3GZWsNJKHf4owj7RLVsXrQbuZuG-C4,1401
+workflows/connectors/storage.py,sha256=aA6vBm8nNMMFZehwtVTrgepQSI2oYD5DGIf1BNpe7tc,231
+workflows/connectors/translate.py,sha256=uSIWKQSOfGDDliwm2vWkIbTBPRK33u_PmGZGfy5u0Ig,808
+workflows/connectors/vision.py,sha256=49khKzDG0MUZk_eSM3CSr3tuF45TQPmQ8V3o_ho26lc,600
+cloud_workflows-0.0.1.dist-info/LICENCE.txt,sha256=iWu_Z8kdJ-fxx_da1a7UB7hHBCA2D8zC94KZAHUqEkA,1052
+cloud_workflows-0.0.1.dist-info/METADATA,sha256=Ox5cyXiIoST3USWRtkRGSPZM6LGSufY73Y3aW_NSCVk,17734
+cloud_workflows-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloud_workflows-0.0.1.dist-info/top_level.txt,sha256=Vj2LUSNvqIo10clsau6oNSgqOwbPfQl8rN8IMZ9dw4A,10
+cloud_workflows-0.0.1.dist-info/RECORD,,
