@@ -1,0 +1,8 @@
+README.md
+setup.py
+ftntdissect/__init__.py
+ftntdissect/ftntdissect.py
+ftntdissect.egg-info/PKG-INFO
+ftntdissect.egg-info/SOURCES.txt
+ftntdissect.egg-info/dependency_links.txt
+ftntdissect.egg-info/top_level.txt
