@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: net-util
+Version: 1.0.0.6
+Summary: utility functions for networking
+Home-page: https://www.sysnet.pe.kr
+Author: techshare
+Author-email: techsharer@outlook.com
+License: Ms-PL
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: requests (>=2.22.0)
+
+# net-util
+
+
+
+패키지 테스트를 위해 만든 예제 프로젝트입니다.
+
+
+
+```python
+
+
+
+ >>> import netutil
+
+ >>> print(netutil.iputil.get_public_ip())
+
+220.xxx.xxx.110
+
+```
+
+
+
+## Installing net-util and Supported Versions
+
+
+
+net-util is available on PyPI:
+
+
+
+```console
+
+$ python -m pip install netutil
+
+```
+
