@@ -1,0 +1,3 @@
+[console_scripts]
+OCR=main:text_detect
+

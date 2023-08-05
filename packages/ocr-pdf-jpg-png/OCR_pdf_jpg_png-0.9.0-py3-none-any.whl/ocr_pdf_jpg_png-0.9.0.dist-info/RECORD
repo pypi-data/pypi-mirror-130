@@ -1,0 +1,9 @@
+dir/PIL2CV.py,sha256=nDZ3c4BWZkBQ_YnSkppd0ulhQjHi_bNMHvm7VrTJkLI,408
+dir/filetypeDetector.py,sha256=6U-YJKpS4zdXSJj7oYiaMZEKnjSUSP05fqbIx7L_nCM,989
+dir/imageConverter.py,sha256=WTIkVHqnKKJTstUIuSDriUq_ejAaqiM1sbG37oihMTo,1054
+dir/preprocess.py,sha256=UvIzvorske1Iw-FPnTDZJto13C8v1JtyM7QosHvVz5w,2702
+ocr_pdf_jpg_png-0.9.0.dist-info/entry_points.txt,sha256=vwnz1KUZ0lLcocALf0gzMuKck6Us3L2-UlMos8X8pNA,40
+ocr_pdf_jpg_png-0.9.0.dist-info/LICENSE.md,sha256=HJKtBtjwkFbwFhSTfRSs267ESVwn3nwt6r9GMrnZ2DI,1083
+ocr_pdf_jpg_png-0.9.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+ocr_pdf_jpg_png-0.9.0.dist-info/METADATA,sha256=lQRMznTT0heYt8M2C4Q7bBZD9wyxuSq12UDwePIcQO8,751
+ocr_pdf_jpg_png-0.9.0.dist-info/RECORD,,

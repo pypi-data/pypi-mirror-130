@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ocr-pdf-jpg-png
+Version: 0.9.0
+Summary: Tesseract OCR with OpenCV preprocessing and auto-correct.
+License: MIT
+Author: Vsevolod Mineev
+Author-email: vsevolod.mineev@gmail.com
+Requires-Python: >=3.7,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: autocorrect (>=2.6.0,<3.0.0)
+Requires-Dist: fire (>=0.4.0,<0.5.0)
+Requires-Dist: opencv-python (>=4.5.4.60,<5.0.0.0)
+Requires-Dist: pdf2image (>=1.16.0,<2.0.0)
+Requires-Dist: pytesseract (>=0.3.8,<0.4.0)
