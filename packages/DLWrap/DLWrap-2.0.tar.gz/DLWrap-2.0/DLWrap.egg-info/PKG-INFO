@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: DLWrap
+Version: 2.0
+Summary: Convert web cookies to dictionary
+Home-page: https://github.com/Yiguan/Cookie2Dict/
+Author: Yalu Wen
+Author-email: y.wen@auckland.ac.nz
+License: MIT
+Download-URL: https://github.com/Yiguan/Cookie2Dict/archive/master.zip
+Keywords: Deep learning,feature selection,Prediction
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+License-File: LICENSE.txt
+
+UNKNOWN
+
