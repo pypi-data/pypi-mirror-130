@@ -1,0 +1,3 @@
+[console_scripts]
+iconostasis=iconostasis.__main__:cmain
+

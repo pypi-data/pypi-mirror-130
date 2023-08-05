@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: iconostasis
+Version: 0.0.2
+Summary: Make app icon for store simple. Again and again. And Again
+Home-page: https://github.com/la-only/iconostasis
+Author: la-only
+Author-email: i@0ls.ru
+License: MIT
+Project-URL: Bug Tracker, https://github.com/la-only/iconostasis/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/iconostasis)
+![PyPI](https://img.shields.io/pypi/v/iconostasis)
+
+# iconostasis
+Make app icon for store simple. Again and again. And Again
+
+
+```
+pip install iconostasis
+
+
+iconostasis -f ~/Pictures/icon_orig.png
+```
+
+

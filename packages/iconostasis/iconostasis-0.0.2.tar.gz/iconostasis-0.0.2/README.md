@@ -1,0 +1,13 @@
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/iconostasis)
+![PyPI](https://img.shields.io/pypi/v/iconostasis)
+
+# iconostasis
+Make app icon for store simple. Again and again. And Again
+
+
+```
+pip install iconostasis
+
+
+iconostasis -f ~/Pictures/icon_orig.png
+```
