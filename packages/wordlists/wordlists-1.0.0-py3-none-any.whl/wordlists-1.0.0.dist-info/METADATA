@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: wordlists
+Version: 1.0.0
+Summary: Utilities to download word lists in Python
+Home-page: https://github.com/vcokltfre/wordlists
+License: MIT
+Author: vcokltfre
+Author-email: vcokltfre@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/vcokltfre/wordlists
+Description-Content-Type: text/markdown
+
+# wordlists
+
+Utilities to download word lists in Python.
+
+## Usage
+
+```py
+from wordlists import update_lists, read_words
+
+
+# Update the word lists from the web
+update_lists()
+
+# Get the words from a list
+words = read_words("dwyl_alpha")
+
+# Filter words which are 27 characters
+words = [w for w in words if len(w) == 27]
+
+# Print the words
+print(words)  # ['electroencephalographically', 'hydroxydesoxycorticosterone', 'microspectrophotometrically']
+```
+
