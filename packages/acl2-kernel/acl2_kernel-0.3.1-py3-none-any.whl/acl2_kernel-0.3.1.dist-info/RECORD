@@ -1,0 +1,8 @@
+acl2_kernel/__init__.py,sha256=1puaeZdAeGosfgjVGvNZHsK1wZZBIDwhqRS6GZ2RyIk,67
+acl2_kernel/__main__.py,sha256=U77Zla5P9dDaA4Ct6HO1-tR-2koc12ZyDd-PUDjwg9w,127
+acl2_kernel/install.py,sha256=mpVXo-m2Ylt_MIPB4pVVznxMDW5Bbz063otTvb6Z-E8,2158
+acl2_kernel/kernel.py,sha256=B8ItNzg6RkJYSeu1RGI4S3ZGspKW3ispHIroCc5P3fs,4597
+acl2_kernel-0.3.1.dist-info/LICENSE.md,sha256=FGKGkUnKSQy85Pg5-HHQgvBfqSCluOk_90Y1swIAoos,4571
+acl2_kernel-0.3.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+acl2_kernel-0.3.1.dist-info/METADATA,sha256=R1IDaCDhf04XAHYaLE5HLs2AJLW_-EFYh6jlnD32xyA,3209
+acl2_kernel-0.3.1.dist-info/RECORD,,
