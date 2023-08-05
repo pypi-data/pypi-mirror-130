@@ -1,0 +1,14 @@
+build/lib/build/lib/mr_scraper/api/__init__.py,sha256=dOpPhv3sSj3d5FgiPNdg8GfnUXx1yaF0GX8QM-j1bQU,2388
+build/lib/build/lib/mr_scraper/api/models.py,sha256=fhLqmEVm4jojsioDdE3VO6YXzQns1LcINI9gak_Cfls,2532
+build/lib/build/lib/mr_scraper/api/transforms.py,sha256=I4cJwJhsCbqirhvGVLnx2NXcmnn2iepRTkmdtEp7Di4,166
+build/lib/mr_scraper/api/__init__.py,sha256=b6kHfDPg2rYiVNRG05gkkeEXXAZn1fKFHOPEQiYUZ4w,2412
+build/lib/mr_scraper/api/models.py,sha256=b6c-YS50RKAcRIQyTdXavV7l-t9rLTVhvO9ENIfvSY0,2531
+build/lib/mr_scraper/api/transforms.py,sha256=I4cJwJhsCbqirhvGVLnx2NXcmnn2iepRTkmdtEp7Di4,166
+mr_scraper/api/__init__.py,sha256=gGALuLF3kxglcxKFkq62YWO9k7LqR0kg3S806ivD_NE,2503
+mr_scraper/api/models.py,sha256=XStdzkqIWiSZe6N5oRAxyr0XiHpTjBv3iB4BT3CaAGc,2584
+mr_scraper/api/transforms.py,sha256=I4cJwJhsCbqirhvGVLnx2NXcmnn2iepRTkmdtEp7Di4,166
+mr_scraper-0.4.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mr_scraper-0.4.0.dist-info/METADATA,sha256=Nq-IKc0_LYeb0gNFiGEhIxGQvtKo-2pjB5pCYp3G_Es,378
+mr_scraper-0.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mr_scraper-0.4.0.dist-info/top_level.txt,sha256=m8qh4xIeg5RR8VT_UQvteGEVF_EK-L5CWlaud08AIJ8,17
+mr_scraper-0.4.0.dist-info/RECORD,,
