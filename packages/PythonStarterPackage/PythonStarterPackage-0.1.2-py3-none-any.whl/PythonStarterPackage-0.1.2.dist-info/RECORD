@@ -1,0 +1,9 @@
+python_starter_package/__init__.py,sha256=5ay2JjLV2nq-kIeaA0t_MNvbTBXXS9kO5v4WOzh31uk,92
+python_starter_package/handler.py,sha256=K4b6Fn5jAzpCx-GIcO92tR62An1loOS2O2HguTej5Ro,2150
+python_starter_package/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_starter_package/utils/commoncmd.py,sha256=A6mZuPehKZyGXlLZhbkHFEtZWfgbpFILS9VjOByH5s0,117
+PythonStarterPackage-0.1.2.dist-info/LICENSE,sha256=S535yBHVEbjs3fTIxlwWSmnHcmCA5cI6rrdqKRG5VD0,1082
+PythonStarterPackage-0.1.2.dist-info/METADATA,sha256=hcdI8g05rFrEWYrGiUFphU_1zH9tAgV3PQfxFtSvFEA,5557
+PythonStarterPackage-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+PythonStarterPackage-0.1.2.dist-info/top_level.txt,sha256=eQbbWU1HviVoQFh2D45-BmYjwMSG7f4YKagJrLdlmNU,23
+PythonStarterPackage-0.1.2.dist-info/RECORD,,
