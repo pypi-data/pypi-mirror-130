@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+books_recommender_pkg_Preeti_Rawat.egg-info/PKG-INFO
+books_recommender_pkg_Preeti_Rawat.egg-info/SOURCES.txt
+books_recommender_pkg_Preeti_Rawat.egg-info/dependency_links.txt
+books_recommender_pkg_Preeti_Rawat.egg-info/top_level.txt
+books_recommendor_pkg/__init__.py
+books_recommendor_pkg/fetch_best_books.py
