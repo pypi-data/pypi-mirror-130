@@ -1,0 +1,10 @@
+README.md
+setup.py
+sgci_resource/__init__.py
+sgci_resource/_version.py
+sgci_resource/core.py
+sgci_resource.egg-info/PKG-INFO
+sgci_resource.egg-info/SOURCES.txt
+sgci_resource.egg-info/dependency_links.txt
+sgci_resource.egg-info/requires.txt
+sgci_resource.egg-info/top_level.txt

@@ -1,0 +1,11 @@
+paramiko>=2.7.2
+scp>=0.13.3
+PyGithub>=1.54.1
+jmespath>=0.10.0
+jsonschema>=3.2.0
+
+[docs]
+
+[examples]
+
+[test]
