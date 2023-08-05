@@ -1,0 +1,1107 @@
+ID	LOCAL_ID	DOCULECT	CONCEPT	CONCEPT_IN_SOURCE	VALUE	FORM	TOKENS	SONARS	PROSTRINGS	CLASSES	LANGID	NUMBERS	WEIGHTS	IPA	DUPLICATES	COGID
+1	NorthHighlandMixe-1_all-1	NorthHighlandMixe	ALL	all	nəhυm	nəhυm	n ə h ʊ m	4 7 3 7 4	AXBYN	NEHYM	3	3.N.C 3.E.V 3.H.C 3.Y.V 3.M.c	2.0 1.5 1.75 1.3 0.8	nəhʊm	0	3
+2	SouthHighlandMixe-1_all-1	SouthHighlandMixe	ALL	all	tukəʔy	tukəʔy	t u k ə ʔ j	1 7 1 7 1 6	AXBYBC	TYKEHJ	9	9.T.C 9.Y.V 9.K.C 9.E.V 9.H.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tukəʔj	0	9
+3	LowlandMixe-1_all-1	LowlandMixe	ALL	all	tuʔuk-ʔokəy	tuʔuk-ʔokəy	t u ʔ u k + ʔ o k ə j	1 7 1 7 1 9 1 7 1 7 6	AXBYN_AXBYN	TYHYK_HUKEJ	2	2.T.C 2.Y.V 2.H.C 2.Y.V 2.K.c 2._._ 2.H.C 2.U.V 2.K.C 2.E.V 2.J.c	2.0 1.5 1.75 1.3 0.8 0.0 2.0 1.5 1.75 1.3 0.8	tuʔuk+ʔokəj	0	2
+4	SayulaPopoluca-1_all-1	SayulaPopoluca	ALL	all	nu pəhən	nu pəhən	n u + p ə h ə n	4 7 9 1 7 3 7 4	AX_AXBYN	NY_PEHEN	7	7.N.C 7.Y.V 7._._ 7.P.C 7.E.V 7.H.C 7.E.V 7.N.c	2.0 1.5 0.0 2.0 1.5 1.75 1.3 0.8	nu+pəhən	0	7
+5	OlutaPopoluca-1_all-1	OlutaPopoluca	ALL	all	niʔtiʔk	niʔtiʔk	n i ʔ t i ʔ k	4 7 1 1 7 1 1	AXMBYLN	NIHTIHK	4	4.N.C 4.I.V 4.H.c 4.T.C 4.I.V 4.H.c 4.K.c	2.0 1.5 1.1 1.75 1.3 1.1 0.8	niʔtiʔk	0	4
+6	TexistepecZoque-1_all-1	TexistepecZoque	ALL	all	bumbe	bumbe	b u m b e	1 7 4 1 7	AXMBZ	PYMPE	10	10.P.C 10.Y.V 10.M.c 10.P.C 10.E.V	2.0 1.5 1.1 1.75 0.8	bumbe	0	10
+7	SoteapanZoque-1_all-1	SoteapanZoque	ALL	all	ikuməh	ikuməh	i k u m ə h	7 1 7 4 7 3	XBYBYN	IKYMEH	8	8.I.V 8.K.C 8.Y.V 8.M.C 8.E.V 8.H.c	1.5 1.75 1.3 1.75 1.3 0.8	ikuməh	0	8
+8	SantaMariaChimalapaZoque-1_all-1	SantaMariaChimalapaZoque	ALL	all	aŋteneʔ	aŋteneʔ	a ŋ t e n e ʔ	7 4 1 7 4 7 1	XMBYBYN	ANTENEH	6	6.A.V 6.N.c 6.T.C 6.E.V 6.N.C 6.E.V 6.H.c	1.5 1.1 1.75 1.3 1.75 1.3 0.8	aŋteneʔ	0	6
+9	SanMiguelChimalapaZoque-1_all-1	SanMiguelChimalapaZoque	ALL	all	hemhiʔ	hemhiʔ	h e m h i ʔ	3 7 4 3 7 1	AXMBYN	HEMHIH	5	5.H.C 5.E.V 5.M.c 5.H.C 5.I.V 5.H.c	2.0 1.5 1.1 1.75 1.3 0.8	hemhiʔ	0	5
+10	ChiapasZoque-1_all-1	ChiapasZoque	ALL	all	mumu	mumu	m u m u	4 7 4 7	AXBZ	MYMY	1	1.M.C 1.Y.V 1.M.C 1.Y.V	2.0 1.5 1.75 0.8	mumu	0	1
+11	NorthHighlandMixe-2_ashes-1	NorthHighlandMixe	ASH	ashes	haahm	haahm	h aː h m	3 7 3 4	AXBC	HAHM	3	3.H.C 3.A.V 3.H.C 3.M.C	2.0 1.5 1.75 1.5	haːhm	0	13
+12	SouthHighlandMixe-2_ashes-1	SouthHighlandMixe	ASH	ashes	haam	haam	h aː m	3 7 4	AXN	HAM	9	9.H.C 9.A.V 9.M.c	2.0 1.5 0.8	haːm	0	14
+13	LowlandMixe-2_ashes-1	LowlandMixe	ASH	ashes	kuy-haam	kuy-haam	k u j + h aː m	1 7 6 9 3 7 4	AXN_AXN	KYJ_HAM	2	2.K.C 2.Y.V 2.J.c 2._._ 2.H.C 2.A.V 2.M.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+haːm	0	11
+14	SayulaPopoluca-2_ashes-1	SayulaPopoluca	ASH	ashes	kuy-hahm	kuy-hahm	k u j + h a h m	1 7 6 9 3 7 3 4	AXN_AXBC	KYJ_HAHM	7	7.K.C 7.Y.V 7.J.c 7._._ 7.H.C 7.A.V 7.H.C 7.M.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	kuj+hahm	0	11
+15	OlutaPopoluca-2_ashes-1	OlutaPopoluca	ASH	ashes	hamə	hamə	h a m ə	3 7 4 7	AXBZ	HAME	4	4.H.C 4.A.V 4.M.C 4.E.V	2.0 1.5 1.75 0.8	hamə	0	14
+16	TexistepecZoque-2_ashes-1	TexistepecZoque	ASH	ashes	kuyam	kuyam	k u j a m	1 7 6 7 4	AXBYN	KYJAM	10	10.K.C 10.Y.V 10.J.C 10.A.V 10.M.c	2.0 1.5 1.75 1.3 0.8	kujam	0	20
+17	SoteapanZoque-2_ashes-1	SoteapanZoque	ASH	ashes	kuy-ham	kuy-ham	k u j + h a m	1 7 6 9 3 7 4	AXN_AXN	KYJ_HAM	8	8.K.C 8.Y.V 8.J.c 8._._ 8.H.C 8.A.V 8.M.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+ham	0	11
+18	SantaMariaChimalapaZoque-2_ashes-1	SantaMariaChimalapaZoque	ASH	ashes	kuy-ham	kuy-ham	k u j + h a m	1 7 6 9 3 7 4	AXN_AXN	KYJ_HAM	6	6.K.C 6.Y.V 6.J.c 6._._ 6.H.C 6.A.V 6.M.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+ham	0	11
+19	SanMiguelChimalapaZoque-2_ashes-1	SanMiguelChimalapaZoque	ASH	ashes	kuy-ham	kuy-ham	k u j + h a m	1 7 6 9 3 7 4	AXN_AXN	KYJ_HAM	5	5.K.C 5.Y.V 5.J.c 5._._ 5.H.C 5.A.V 5.M.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+ham	0	11
+20	ChiapasZoque-2_ashes-1	ChiapasZoque	ASH	ashes	kuy-ham	kuy-ham	k u j + h a m	1 7 6 9 3 7 4	AXN_AXN	KYJ_HAM	1	1.K.C 1.Y.V 1.J.c 1._._ 1.H.C 1.A.V 1.M.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+ham	0	11
+21	NorthHighlandMixe-3_bark-1	NorthHighlandMixe	BARK	bark	kïp ak	kïp ak	k ɨ p + a k	1 7 1 9 7 1	AXN_XN	KIP_AK	3	3.K.C 3.I.V 3.P.c 3._._ 3.A.V 3.K.c	2.0 1.5 0.8 0.0 1.5 0.8	kɨp+ak	0	23
+22	SouthHighlandMixe-3_bark-1	SouthHighlandMixe	BARK	bark	ak	ak	a k	7 1	XN	AK	9	9.A.V 9.K.c	1.5 0.8	ak	0	22
+23	LowlandMixe-3_bark-1	LowlandMixe	BARK	bark	ak	ak	a k	7 1	XN	AK	2	2.A.V 2.K.c	1.5 0.8	ak	0	22
+24	SayulaPopoluca-3_bark-1	SayulaPopoluca	BARK	bark	ak	ak	a k	7 1	XN	AK	7	7.A.V 7.K.c	1.5 0.8	ak	0	22
+25	TexistepecZoque-3_bark-1	TexistepecZoque	BARK	bark	kuy-daak	kuy-daak	k u j + d aː k	1 7 6 9 1 7 1	AXN_AXN	KYJ_TAK	10	10.K.C 10.Y.V 10.J.c 10._._ 10.T.C 10.A.V 10.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kuj+daːk	0	28
+26	SantaMariaChimalapaZoque-3_bark-1	SantaMariaChimalapaZoque	BARK	bark	naka	naka	n a k a	4 7 1 7	AXBZ	NAKA	6	6.N.C 6.A.V 6.K.C 6.A.V	2.0 1.5 1.75 0.8	naka	0	25
+27	SanMiguelChimalapaZoque-3_bark-1	SanMiguelChimalapaZoque	BARK	bark	kuy naka	kuy naka	k u j + n a k a	1 7 6 9 4 7 1 7	AXN_AXBZ	KYJ_NAKA	5	5.K.C 5.Y.V 5.J.c 5._._ 5.N.C 5.A.V 5.K.C 5.A.V	2.0 1.5 0.8 0.0 2.0 1.5 1.75 0.8	kuj+naka	0	21
+28	ChiapasZoque-3_bark-1	ChiapasZoque	BARK	bark	kuʔyu-naka	kuʔyu-naka	k u ʔ j u + n a k a	1 7 1 6 7 9 4 7 1 7	AXBCZ_AXBZ	KYHJY_NAKA	1	1.K.C 1.Y.V 1.H.C 1.J.C 1.Y.V 1._._ 1.N.C 1.A.V 1.K.C 1.A.V	2.0 1.5 1.75 1.5 0.8 0.0 2.0 1.5 1.75 0.8	kuʔju+naka	0	21
+29	NorthHighlandMixe-4_belly-1	NorthHighlandMixe	BELLY	belly	tiints	tiints	t iː n ts	1 7 4 2	AXLN	TINC	3	3.T.C 3.I.V 3.N.c 3.C.c	2.0 1.5 1.1 0.8	tiːnts	0	31
+30	SouthHighlandMixe-4_belly-1	SouthHighlandMixe	BELLY	belly	mææts	mææts	m æː ts	4 7 2	AXN	MEC	9	9.M.C 9.E.V 9.C.c	2.0 1.5 0.8	mæːts	0	36
+31	LowlandMixe-4_belly-1	LowlandMixe	BELLY	belly	moʔošak	moʔošak	m o ʔ o ʃ a k	4 7 1 7 3 7 1	AXBYBYN	MUHUSAK	2	2.M.C 2.U.V 2.H.C 2.U.V 2.S.C 2.A.V 2.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	moʔoʃak	0	30
+32	SayulaPopoluca-4_belly-1	SayulaPopoluca	BELLY	belly	tin-čay	tin-čay	t i n + tʃ a j	1 7 4 9 1 7 6	AXN_AXN	TIN_TAJ	7	7.T.C 7.I.V 7.N.c 7._._ 7.T.C 7.A.V 7.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	tin+tʃaj	0	35
+33	OlutaPopoluca-4_belly-1	OlutaPopoluca	BELLY	belly	puʔpu	puʔpu	p u ʔ p u	1 7 1 1 7	AXMBZ	PYHPY	4	4.P.C 4.Y.V 4.H.c 4.P.C 4.Y.V	2.0 1.5 1.1 1.75 0.8	puʔpu	0	32
+34	TexistepecZoque-4_belly-1	TexistepecZoque	BELLY	belly	tsek	tsek	ts e k	2 7 1	AXN	CEK	10	10.C.C 10.E.V 10.K.c	2.0 1.5 0.8	tsek	0	29
+35	SantaMariaChimalapaZoque-4_belly-1	SantaMariaChimalapaZoque	BELLY	belly	tsek	tsek	ts e k	2 7 1	AXN	CEK	6	6.C.C 6.E.V 6.K.c	2.0 1.5 0.8	tsek	0	29
+36	SanMiguelChimalapaZoque-4_belly-1	SanMiguelChimalapaZoque	BELLY	belly	tsek	tsek	ts e k	2 7 1	AXN	CEK	5	5.C.C 5.E.V 5.K.c	2.0 1.5 0.8	tsek	0	29
+37	ChiapasZoque-4_belly-1	ChiapasZoque	BELLY	belly	tsek	tsek	ts e k	2 7 1	AXN	CEK	1	1.C.C 1.E.V 1.K.c	2.0 1.5 0.8	tsek	0	29
+38	NorthHighlandMixe-5_big-1	NorthHighlandMixe	BIG	big	məh	məh	m ə h	4 7 3	AXN	MEH	3	3.M.C 3.E.V 3.H.c	2.0 1.5 0.8	məh	0	37
+39	SouthHighlandMixe-5_big-1	SouthHighlandMixe	BIG	big	məh	məh	m ə h	4 7 3	AXN	MEH	9	9.M.C 9.E.V 9.H.c	2.0 1.5 0.8	məh	0	37
+40	LowlandMixe-5_big-1	LowlandMixe	BIG	big	məh	məh	m ə h	4 7 3	AXN	MEH	2	2.M.C 2.E.V 2.H.c	2.0 1.5 0.8	məh	0	37
+41	SayulaPopoluca-5_big-1	SayulaPopoluca	BIG	big	məh	məh	m ə h	4 7 3	AXN	MEH	7	7.M.C 7.E.V 7.H.c	2.0 1.5 0.8	məh	0	37
+42	OlutaPopoluca-5_big-1	OlutaPopoluca	BIG	big	taʔnək	taʔnək	t a ʔ n ə k	1 7 1 4 7 1	AXBCYN	TAHNEK	4	4.T.C 4.A.V 4.H.C 4.N.C 4.E.V 4.K.c	2.0 1.5 1.75 1.5 1.3 0.8	taʔnək	0	40
+43	TexistepecZoque-5_big-1	TexistepecZoque	BIG	big	wəəčeʔ	wəəčeʔ	w əː tʃ e ʔ	6 7 1 7 1	AXBYN	WETEH	10	10.W.C 10.E.V 10.T.C 10.E.V 10.H.c	2.0 1.5 1.75 1.3 0.8	wəːtʃeʔ	0	42
+44	SoteapanZoque-5_big-1	SoteapanZoque	BIG	big	məh	məh	m ə h	4 7 3	AXN	MEH	8	8.M.C 8.E.V 8.H.c	2.0 1.5 0.8	məh	0	37
+45	SantaMariaChimalapaZoque-5_big-1	SantaMariaChimalapaZoque	BIG	big	wətiʔ	wətiʔ	w ə t i ʔ	6 7 1 7 1	AXBYN	WETIH	6	6.W.C 6.E.V 6.T.C 6.I.V 6.H.c	2.0 1.5 1.75 1.3 0.8	wətiʔ	0	42
+46	SanMiguelChimalapaZoque-5_big-1	SanMiguelChimalapaZoque	BIG	big	komiʔ	komiʔ	k o m i ʔ	1 7 4 7 1	AXBYN	KUMIH	5	5.K.C 5.U.V 5.M.C 5.I.V 5.H.c	2.0 1.5 1.75 1.3 0.8	komiʔ	0	41
+47	ChiapasZoque-5_big-1	ChiapasZoque	BIG	big	məha	məha	m ə h a	4 7 3 7	AXBZ	MEHA	1	1.M.C 1.E.V 1.H.C 1.A.V	2.0 1.5 1.75 0.8	məha	0	37
+48	NorthHighlandMixe-6_bird-1	NorthHighlandMixe	BIRD	bird	həəyva	həəyva	h əː j v a	3 7 6 3 7	AXMBZ	HEJBA	3	3.H.C 3.E.V 3.J.c 3.B.C 3.A.V	2.0 1.5 1.1 1.75 0.8	həːjva	0	45
+49	SouthHighlandMixe-6_bird-1	SouthHighlandMixe	BIRD	bird	hoon	hoon	h oː n	3 7 4	AXN	HUN	9	9.H.C 9.U.V 9.N.c	2.0 1.5 0.8	hoːn	0	44
+50	LowlandMixe-6_bird-1	LowlandMixe	BIRD	bird	hoon	hoon	h oː n	3 7 4	AXN	HUN	2	2.H.C 2.U.V 2.N.c	2.0 1.5 0.8	hoːn	0	44
+51	SayulaPopoluca-6_bird-1	SayulaPopoluca	BIRD	bird	hohn	hohn	h o h n	3 7 3 4	AXBC	HUHN	7	7.H.C 7.U.V 7.H.C 7.N.C	2.0 1.5 1.75 1.5	hohn	0	49
+52	OlutaPopoluca-6_bird-1	OlutaPopoluca	BIRD	bird	muuši	muuši	m uː ʃ i	4 7 3 7	AXBZ	MYSI	4	4.M.C 4.Y.V 4.S.C 4.I.V	2.0 1.5 1.75 0.8	muːʃi	0	46
+53	TexistepecZoque-6_bird-1	TexistepecZoque	BIRD	bird	hon	hon	h o n	3 7 4	AXN	HUN	10	10.H.C 10.U.V 10.N.c	2.0 1.5 0.8	hon	0	44
+54	SoteapanZoque-6_bird-1	SoteapanZoque	BIRD	bird	hon	hon	h o n	3 7 4	AXN	HUN	8	8.H.C 8.U.V 8.N.c	2.0 1.5 0.8	hon	0	44
+55	SantaMariaChimalapaZoque-6_bird-1	SantaMariaChimalapaZoque	BIRD	bird	hon	hon	h o n	3 7 4	AXN	HUN	6	6.H.C 6.U.V 6.N.c	2.0 1.5 0.8	hon	0	44
+56	SanMiguelChimalapaZoque-6_bird-1	SanMiguelChimalapaZoque	BIRD	bird	hon	hon	h o n	3 7 4	AXN	HUN	5	5.H.C 5.U.V 5.N.c	2.0 1.5 0.8	hon	0	44
+57	ChiapasZoque-6_bird-1	ChiapasZoque	BIRD	bird	paloma	paloma	p a l o m a	1 7 5 7 4 7	AXBYBZ	PALUMA	1	1.P.C 1.A.V 1.L.C 1.U.V 1.M.C 1.A.V	2.0 1.5 1.75 1.3 1.75 0.8	paloma	0	43
+58	NorthHighlandMixe-7_bite-1	NorthHighlandMixe	BITE	bite	tsuʔuts	tsuʔuts	ts u ʔ u ts	2 7 1 7 2	AXBYN	CYHYC	3	3.C.C 3.Y.V 3.H.C 3.Y.V 3.C.c	2.0 1.5 1.75 1.3 0.8	tsuʔuts	0	50
+59	SouthHighlandMixe-7_bite-1	SouthHighlandMixe	BITE	bite	tsuʔuts	tsuʔuts	ts u ʔ u ts	2 7 1 7 2	AXBYN	CYHYC	9	9.C.C 9.Y.V 9.H.C 9.Y.V 9.C.c	2.0 1.5 1.75 1.3 0.8	tsuʔuts	0	50
+60	LowlandMixe-7_bite-1	LowlandMixe	BITE	bite	noots	noots	n oː ts	4 7 2	AXN	NUC	2	2.N.C 2.U.V 2.C.c	2.0 1.5 0.8	noːts	0	51
+61	SayulaPopoluca-7_bite-1	SayulaPopoluca	BITE	bite	kutoʔ	kutoʔ	k u t o ʔ	1 7 1 7 1	AXBYN	KYTUH	7	7.K.C 7.Y.V 7.T.C 7.U.V 7.H.c	2.0 1.5 1.75 1.3 0.8	kutoʔ	0	55
+62	OlutaPopoluca-7_bite-1	OlutaPopoluca	BITE	bite	tsuʔts	tsuʔts	ts u ʔ ts	2 7 1 2	AXBC	CYHC	4	4.C.C 4.Y.V 4.H.C 4.C.C	2.0 1.5 1.75 1.5	tsuʔts	0	50
+63	TexistepecZoque-7_bite-1	TexistepecZoque	BITE	bite	keʔts	keʔts	k e ʔ ts	1 7 1 2	AXBC	KEHC	10	10.K.C 10.E.V 10.H.C 10.C.C	2.0 1.5 1.75 1.5	keʔts	0	50
+64	SoteapanZoque-7_bite-1	SoteapanZoque	BITE	bite	was	was	w a s	6 7 3	AXN	WAS	8	8.W.C 8.A.V 8.S.c	2.0 1.5 0.8	was	0	54
+65	SanMiguelChimalapaZoque-7_bite-1	SanMiguelChimalapaZoque	BITE	bite	waš	waš	w a ʃ	6 7 3	AXN	WAS	5	5.W.C 5.A.V 5.S.c	2.0 1.5 0.8	waʃ	0	54
+66	ChiapasZoque-7_bite-1	ChiapasZoque	BITE	bite	keʔts	keʔts	k e ʔ ts	1 7 1 2	AXBC	KEHC	1	1.K.C 1.E.V 1.H.C 1.C.C	2.0 1.5 1.75 1.5	keʔts	0	50
+67	NorthHighlandMixe-8_black-1	NorthHighlandMixe	BLACK	black	yək	yək	j ə k	6 7 1	AXN	JEK	3	3.J.C 3.E.V 3.K.c	2.0 1.5 0.8	jək	0	56
+68	SouthHighlandMixe-8_black-1	SouthHighlandMixe	BLACK	black	yəhk	yəhk	j ə h k	6 7 3 1	AXLN	JEHK	9	9.J.C 9.E.V 9.H.c 9.K.c	2.0 1.5 1.1 0.8	jəhk	0	56
+69	LowlandMixe-8_black-1	LowlandMixe	BLACK	black	yik	yik	j i k	6 7 1	AXN	JIK	2	2.J.C 2.I.V 2.K.c	2.0 1.5 0.8	jik	0	56
+70	SayulaPopoluca-8_black-1	SayulaPopoluca	BLACK	black	yəgək	yəgək	j ə g ə k	6 7 1 7 1	AXBYN	JEKEK	7	7.J.C 7.E.V 7.K.C 7.E.V 7.K.c	2.0 1.5 1.75 1.3 0.8	jəgək	0	59
+71	OlutaPopoluca-8_black-1	OlutaPopoluca	BLACK	black	yəkəʔk	yəkəʔk	j ə k ə ʔ k	6 7 1 7 1 1	AXBYLN	JEKEHK	4	4.J.C 4.E.V 4.K.C 4.E.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	jəkəʔk	0	59
+72	TexistepecZoque-8_black-1	TexistepecZoque	BLACK	black	yək	yək	j ə k	6 7 1	AXN	JEK	10	10.J.C 10.E.V 10.K.c	2.0 1.5 0.8	jək	0	56
+73	SoteapanZoque-8_black-1	SoteapanZoque	BLACK	black	yək	yək	j ə k	6 7 1	AXN	JEK	8	8.J.C 8.E.V 8.K.c	2.0 1.5 0.8	jək	0	56
+74	SantaMariaChimalapaZoque-8_black-1	SantaMariaChimalapaZoque	BLACK	black	yək	yək	j ə k	6 7 1	AXN	JEK	6	6.J.C 6.E.V 6.K.c	2.0 1.5 0.8	jək	0	56
+75	SanMiguelChimalapaZoque-8_black-1	SanMiguelChimalapaZoque	BLACK	black	yək-yək	yək-yək	j ə k + j ə k	6 7 1 9 6 7 1	AXN_AXN	JEK_JEK	5	5.J.C 5.E.V 5.K.c 5._._ 5.J.C 5.E.V 5.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jək+jək	0	60
+76	ChiapasZoque-8_black-1	ChiapasZoque	BLACK	black	yək	yək	j ə k	6 7 1	AXN	JEK	1	1.J.C 1.E.V 1.K.c	2.0 1.5 0.8	jək	0	56
+77	NorthHighlandMixe-9_blood-1	NorthHighlandMixe	BLOOD	blood	nïïʔpun	nïïʔpun	n ɨː ʔ p u n	4 7 1 1 7 4	AXMBYN	NIHPYN	3	3.N.C 3.I.V 3.H.c 3.P.C 3.Y.V 3.N.c	2.0 1.5 1.1 1.75 1.3 0.8	nɨːʔpun	0	61
+78	SouthHighlandMixe-9_blood-1	SouthHighlandMixe	BLOOD	blood	nəʔəpy	nəʔəpy	n ə ʔ ə p j	4 7 1 7 1 6	AXBYBC	NEHEPJ	9	9.N.C 9.E.V 9.H.C 9.E.V 9.P.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	nəʔəpj	0	62
+79	LowlandMixe-9_blood-1	LowlandMixe	BLOOD	blood	nəʔpy	nəʔpy	n ə ʔ p j	4 7 1 1 6	AXMBC	NEHPJ	2	2.N.C 2.E.V 2.H.c 2.P.C 2.J.C	2.0 1.5 1.1 1.75 1.5	nəʔpj	0	62
+80	SayulaPopoluca-9_blood-1	SayulaPopoluca	BLOOD	blood	nipin	nipin	n i p i n	4 7 1 7 4	AXBYN	NIPIN	7	7.N.C 7.I.V 7.P.C 7.I.V 7.N.c	2.0 1.5 1.75 1.3 0.8	nipin	0	61
+81	OlutaPopoluca-9_blood-1	OlutaPopoluca	BLOOD	blood	nəʔpiʔn	nəʔpiʔn	n ə ʔ p i ʔ n	4 7 1 1 7 1 4	AXMBYBC	NEHPIHN	4	4.N.C 4.E.V 4.H.c 4.P.C 4.I.V 4.H.C 4.N.C	2.0 1.5 1.1 1.75 1.3 1.75 1.5	nəʔpiʔn	0	61
+82	TexistepecZoque-9_blood-1	TexistepecZoque	BLOOD	blood	dəʔəpeñ	dəʔəpeñ	d ə ʔ ə p e ɲ	1 7 1 7 1 7 4	AXBYBYN	TEHEPEN	10	10.T.C 10.E.V 10.H.C 10.E.V 10.P.C 10.E.V 10.N.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	dəʔəpeɲ	0	70
+83	SoteapanZoque-9_blood-1	SoteapanZoque	BLOOD	blood	nəʔəpiñ	nəʔəpiñ	n ə ʔ ə p i ɲ	4 7 1 7 1 7 4	AXBYBYN	NEHEPIN	8	8.N.C 8.E.V 8.H.C 8.E.V 8.P.C 8.I.V 8.N.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	nəʔəpiɲ	0	61
+84	SantaMariaChimalapaZoque-9_blood-1	SantaMariaChimalapaZoque	BLOOD	blood	nəʔpin	nəʔpin	n ə ʔ p i n	4 7 1 1 7 4	AXMBYN	NEHPIN	6	6.N.C 6.E.V 6.H.c 6.P.C 6.I.V 6.N.c	2.0 1.5 1.1 1.75 1.3 0.8	nəʔpin	0	61
+85	SanMiguelChimalapaZoque-9_blood-1	SanMiguelChimalapaZoque	BLOOD	blood	nəpinʔ	nəpinʔ	n ə p i n ʔ	4 7 1 7 4 1	AXBYLN	NEPINH	5	5.N.C 5.E.V 5.P.C 5.I.V 5.N.c 5.H.c	2.0 1.5 1.75 1.3 1.1 0.8	nəpinʔ	0	61
+86	ChiapasZoque-9_blood-1	ChiapasZoque	BLOOD	blood	nəʔpin	nəʔpin	n ə ʔ p i n	4 7 1 1 7 4	AXMBYN	NEHPIN	1	1.N.C 1.E.V 1.H.c 1.P.C 1.I.V 1.N.c	2.0 1.5 1.1 1.75 1.3 0.8	nəʔpin	0	61
+87	NorthHighlandMixe-10_bone-1	NorthHighlandMixe	BONE	bone	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	3	3.P.C 3.A.V 3.H.c 3.K.c	2.0 1.5 1.1 0.8	pahk	0	71
+88	SouthHighlandMixe-10_bone-1	SouthHighlandMixe	BONE	bone	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	9	9.P.C 9.A.V 9.H.c 9.K.c	2.0 1.5 1.1 0.8	pahk	0	71
+89	LowlandMixe-10_bone-1	LowlandMixe	BONE	bone	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	2	2.P.C 2.A.V 2.H.c 2.K.c	2.0 1.5 1.1 0.8	pahk	0	71
+90	SayulaPopoluca-10_bone-1	SayulaPopoluca	BONE	bone	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	7	7.P.C 7.A.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	pahk	0	71
+91	OlutaPopoluca-10_bone-1	OlutaPopoluca	BONE	bone	pakə	pakə	p a k ə	1 7 1 7	AXBZ	PAKE	4	4.P.C 4.A.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	pakə	0	71
+92	TexistepecZoque-10_bone-1	TexistepecZoque	BONE	bone	pak	pak	p a k	1 7 1	AXN	PAK	10	10.P.C 10.A.V 10.K.c	2.0 1.5 0.8	pak	0	71
+93	SoteapanZoque-10_bone-1	SoteapanZoque	BONE	bone	pak	pak	p a k	1 7 1	AXN	PAK	8	8.P.C 8.A.V 8.K.c	2.0 1.5 0.8	pak	0	71
+94	SantaMariaChimalapaZoque-10_bone-1	SantaMariaChimalapaZoque	BONE	bone	pak	pak	p a k	1 7 1	AXN	PAK	6	6.P.C 6.A.V 6.K.c	2.0 1.5 0.8	pak	0	71
+95	SanMiguelChimalapaZoque-10_bone-1	SanMiguelChimalapaZoque	BONE	bone	pak	pak	p a k	1 7 1	AXN	PAK	5	5.P.C 5.A.V 5.K.c	2.0 1.5 0.8	pak	0	71
+96	ChiapasZoque-10_bone-1	ChiapasZoque	BONE	bone	pak	pak	p a k	1 7 1	AXN	PAK	1	1.P.C 1.A.V 1.K.c	2.0 1.5 0.8	pak	0	71
+97	NorthHighlandMixe-11_breast-1	NorthHighlandMixe	BREAST	breast	hυʔtaa	hυʔtaa	h ʊ ʔ t aː	3 7 1 1 7	AXMBZ	HYHTA	3	3.H.C 3.Y.V 3.H.c 3.T.C 3.A.V	2.0 1.5 1.1 1.75 0.8	hʊʔtaː	0	74
+98	SouthHighlandMixe-11_breast-1	SouthHighlandMixe	BREAST	breast	tsetsk	tsetsk	ts e ts k	2 7 2 1	AXLN	CECK	9	9.C.C 9.E.V 9.C.c 9.K.c	2.0 1.5 1.1 0.8	tsetsk	0	78
+99	LowlandMixe-11_breast-1	LowlandMixe	BREAST	breast	tsiʔits-ʔaniʔikš	tsiʔits-ʔaniʔikš	ts i ʔ i ts + ʔ a n i ʔ i k ʃ	2 7 1 7 2 9 1 7 4 7 1 7 1 3	AXBYN_AXBYBYBC	CIHIC_HANIHIKS	2	2.C.C 2.I.V 2.H.C 2.I.V 2.C.c 2._._ 2.H.C 2.A.V 2.N.C 2.I.V 2.H.C 2.I.V 2.K.C 2.S.C	2.0 1.5 1.75 1.3 0.8 0.0 2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.5	tsiʔits+ʔaniʔikʃ	0	73
+100	SayulaPopoluca-11_breast-1	SayulaPopoluca	BREAST	breast	moʔy	moʔy	m o ʔ j	4 7 1 6	AXBC	MUHJ	7	7.M.C 7.U.V 7.H.C 7.J.C	2.0 1.5 1.75 1.5	moʔj	0	76
+101	TexistepecZoque-11_breast-1	TexistepecZoque	BREAST	breast	duun	duun	d uː n	1 7 4	AXN	TYN	10	10.T.C 10.Y.V 10.N.c	2.0 1.5 0.8	duːn	0	79
+102	SoteapanZoque-11_breast-1	SoteapanZoque	BREAST	breast	nuunu	nuunu	n uː n u	4 7 4 7	AXBZ	NYNY	8	8.N.C 8.Y.V 8.N.C 8.Y.V	2.0 1.5 1.75 0.8	nuːnu	0	77
+103	SanMiguelChimalapaZoque-11_breast-1	SanMiguelChimalapaZoque	BREAST	breast	tsuʔts-iʔ	tsuʔts-iʔ	ts u ʔ ts + i ʔ	2 7 1 2 9 7 1	AXBC_XN	CYHC_IH	5	5.C.C 5.Y.V 5.H.C 5.C.C 5._._ 5.I.V 5.H.c	2.0 1.5 1.75 1.5 0.0 1.5 0.8	tsuʔts+iʔ	0	72
+104	ChiapasZoque-11_breast-1	ChiapasZoque	BREAST	breast	tsuʔtsi	tsuʔtsi	ts u ʔ ts i	2 7 1 2 7	AXBCZ	CYHCI	1	1.C.C 1.Y.V 1.H.C 1.C.C 1.I.V	2.0 1.5 1.75 1.5 0.8	tsuʔtsi	0	72
+105	NorthHighlandMixe-12_burntr-1	NorthHighlandMixe	BURN (SOMETHING)	burn tr.	tooy ~ toohy ~ toy	tooy	t oː j	1 7 6	AXN	TUJ	3	3.T.C 3.U.V 3.J.c	2.0 1.5 0.8	toːj	0	82
+106	NorthHighlandMixe-12_burntr-2	NorthHighlandMixe	BURN (SOMETHING)	burn tr.	tooy ~ toohy ~ toy	toohy	t oː h j	1 7 3 6	AXBC	TUHJ	3	3.T.C 3.U.V 3.H.C 3.J.C	2.0 1.5 1.75 1.5	toːhj	0	90
+107	NorthHighlandMixe-12_burntr-3	NorthHighlandMixe	BURN (SOMETHING)	burn tr.	tooy ~ toohy ~ toy	toy	t o j	1 7 6	AXN	TUJ	3	3.T.C 3.U.V 3.J.c	2.0 1.5 0.8	toj	0	82
+108	SouthHighlandMixe-12_burntr-1	SouthHighlandMixe	BURN (SOMETHING)	burn tr.	tsaʔay	tsaʔay	ts a ʔ a j	2 7 1 7 6	AXBYN	CAHAJ	9	9.C.C 9.A.V 9.H.C 9.A.V 9.J.c	2.0 1.5 1.75 1.3 0.8	tsaʔaj	0	88
+109	LowlandMixe-12_burntr-1	LowlandMixe	BURN (SOMETHING)	burn tr.	noʔok	noʔok	n o ʔ o k	4 7 1 7 1	AXBYN	NUHUK	2	2.N.C 2.U.V 2.H.C 2.U.V 2.K.c	2.0 1.5 1.75 1.3 0.8	noʔok	0	81
+110	SayulaPopoluca-12_burntr-1	SayulaPopoluca	BURN (SOMETHING)	burn tr.	ak-toy	ak-toy	a k + t o j	7 1 9 1 7 6	XN_AXN	AK_TUJ	7	7.A.V 7.K.c 7._._ 7.T.C 7.U.V 7.J.c	1.5 0.8 0.0 2.0 1.5 0.8	ak+toj	0	83
+111	OlutaPopoluca-12_burntr-1	OlutaPopoluca	BURN (SOMETHING)	burn tr.	yak-toy	yak-toy	j a k + t o j	6 7 1 9 1 7 6	AXN_AXN	JAK_TUJ	4	4.J.C 4.A.V 4.K.c 4._._ 4.T.C 4.U.V 4.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jak+toj	0	83
+112	TexistepecZoque-12_burntr-1	TexistepecZoque	BURN (SOMETHING)	burn tr.	doʔ-tokeñ	doʔ-tokeñ	d o ʔ + t o k e ɲ	1 7 1 9 1 7 1 7 4	AXN_AXBYN	TUH_TUKEN	10	10.T.C 10.U.V 10.H.c 10._._ 10.T.C 10.U.V 10.K.C 10.E.V 10.N.c	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.3 0.8	doʔ+tokeɲ	0	89
+113	SoteapanZoque-12_burntr-1	SoteapanZoque	BURN (SOMETHING)	burn tr.	noʔ	noʔ	n o ʔ	4 7 1	AXN	NUH	8	8.N.C 8.U.V 8.H.c	2.0 1.5 0.8	noʔ	0	87
+114	SantaMariaChimalapaZoque-12_burntr-1	SantaMariaChimalapaZoque	BURN (SOMETHING)	burn tr.	kəŋ	kəŋ	k ə ŋ	1 7 4	AXN	KEN	6	6.K.C 6.E.V 6.N.c	2.0 1.5 0.8	kəŋ	0	85
+115	SanMiguelChimalapaZoque-12_burntr-1	SanMiguelChimalapaZoque	BURN (SOMETHING)	burn tr.	poŋ	poŋ	p o ŋ	1 7 4	AXN	PUN	5	5.P.C 5.U.V 5.N.c	2.0 1.5 0.8	poŋ	0	80
+116	ChiapasZoque-12_burntr-1	ChiapasZoque	BURN (SOMETHING)	burn tr.	poŋ	poŋ	p o ŋ	1 7 4	AXN	PUN	1	1.P.C 1.U.V 1.N.c	2.0 1.5 0.8	poŋ	0	80
+117	NorthHighlandMixe-13_clawnail-1	NorthHighlandMixe	CLAW	claw (nail)	šəəʔk	šəəʔk	ʃ əː ʔ k	3 7 1 1	AXLN	SEHK	3	3.S.C 3.E.V 3.H.c 3.K.c	2.0 1.5 1.1 0.8	ʃəːʔk	0	93
+118	SouthHighlandMixe-13_clawnail-1	SouthHighlandMixe	CLAW	claw (nail)	šooky	šooky	ʃ oː k j	3 7 1 6	AXBC	SUKJ	9	9.S.C 9.U.V 9.K.C 9.J.C	2.0 1.5 1.75 1.5	ʃoːkj	0	92
+119	LowlandMixe-13_clawnail-1	LowlandMixe	CLAW	claw (nail)	šooky	šooky	ʃ oː k j	3 7 1 6	AXBC	SUKJ	2	2.S.C 2.U.V 2.K.C 2.J.C	2.0 1.5 1.75 1.5	ʃoːkj	0	92
+120	SayulaPopoluca-13_clawnail-1	SayulaPopoluca	CLAW	claw (nail)	šoohk	šoohk	ʃ oː h k	3 7 3 1	AXLN	SUHK	7	7.S.C 7.U.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	ʃoːhk	0	93
+121	OlutaPopoluca-13_clawnail-1	OlutaPopoluca	CLAW	claw (nail)	šooki	šooki	ʃ oː k i	3 7 1 7	AXBZ	SUKI	4	4.S.C 4.U.V 4.K.C 4.I.V	2.0 1.5 1.75 0.8	ʃoːki	0	92
+122	TexistepecZoque-13_clawnail-1	TexistepecZoque	CLAW	claw (nail)	kəʔ-tsuʔks	kəʔ-tsuʔks	k ə ʔ + ts u ʔ k s	1 7 1 9 2 7 1 1 3	AXN_AXMBC	KEH_CYHKS	10	10.K.C 10.E.V 10.H.c 10._._ 10.C.C 10.Y.V 10.H.c 10.K.C 10.S.C	2.0 1.5 0.8 0.0 2.0 1.5 1.1 1.75 1.5	kəʔ+tsuʔks	0	100
+123	SoteapanZoque-13_clawnail-1	SoteapanZoque	CLAW	claw (nail)	kətsəs	kətsəs	k ə ts ə s	1 7 2 7 3	AXBYN	KECES	8	8.K.C 8.E.V 8.C.C 8.E.V 8.S.c	2.0 1.5 1.75 1.3 0.8	kətsəs	0	91
+124	SantaMariaChimalapaZoque-13_clawnail-1	SantaMariaChimalapaZoque	CLAW	claw (nail)	kətsus	kətsus	k ə ts u s	1 7 2 7 3	AXBYN	KECYS	6	6.K.C 6.E.V 6.C.C 6.Y.V 6.S.c	2.0 1.5 1.75 1.3 0.8	kətsus	0	91
+125	SanMiguelChimalapaZoque-13_clawnail-1	SanMiguelChimalapaZoque	CLAW	claw (nail)	kəʔtsuš	kəʔtsuš	k ə ʔ ts u ʃ	1 7 1 2 7 3	AXBCYN	KEHCYS	5	5.K.C 5.E.V 5.H.C 5.C.C 5.Y.V 5.S.c	2.0 1.5 1.75 1.5 1.3 0.8	kəʔtsuʃ	0	91
+126	ChiapasZoque-13_clawnail-1	ChiapasZoque	CLAW	claw (nail)	kəʔčus	kəʔčus	k ə ʔ tʃ u s	1 7 1 1 7 3	AXMBYN	KEHTYS	1	1.K.C 1.E.V 1.H.c 1.T.C 1.Y.V 1.S.c	2.0 1.5 1.1 1.75 1.3 0.8	kəʔtʃus	0	91
+127	NorthHighlandMixe-14_cloud-1	NorthHighlandMixe	CLOUD	cloud	vinïts	vinïts	v i n ɨ ts	3 7 4 7 2	AXBYN	BINIC	3	3.B.C 3.I.V 3.N.C 3.I.V 3.C.c	2.0 1.5 1.75 1.3 0.8	vinɨts	0	103
+128	SouthHighlandMixe-14_cloud-1	SouthHighlandMixe	CLOUD	cloud	nəmaʔa	nəmaʔa	n ə m a ʔ a	4 7 4 7 1 7	AXBYBZ	NEMAHA	9	9.N.C 9.E.V 9.M.C 9.A.V 9.H.C 9.A.V	2.0 1.5 1.75 1.3 1.75 0.8	nəmaʔa	0	108
+129	LowlandMixe-14_cloud-1	LowlandMixe	CLOUD	cloud	hok	hok	h o k	3 7 1	AXN	HUK	2	2.H.C 2.U.V 2.K.c	2.0 1.5 0.8	hok	0	102
+130	SayulaPopoluca-14_cloud-1	SayulaPopoluca	CLOUD	cloud	win-tuk	win-tuk	w i n + t u k	6 7 4 9 1 7 1	AXN_AXN	WIN_TYK	7	7.W.C 7.I.V 7.N.c 7._._ 7.T.C 7.Y.V 7.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	win+tuk	0	106
+131	OlutaPopoluca-14_cloud-1	OlutaPopoluca	CLOUD	cloud	vin-hoyeʔk	vin-hoyeʔk	v i n + h o j e ʔ k	3 7 4 9 3 7 6 7 1 1	AXN_AXBYLN	BIN_HUJEHK	4	4.B.C 4.I.V 4.N.c 4._._ 4.H.C 4.U.V 4.J.C 4.E.V 4.H.c 4.K.c	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.3 1.1 0.8	vin+hojeʔk	0	104
+132	TexistepecZoque-14_cloud-1	TexistepecZoque	CLOUD	cloud	ʔuʔksuʔ	ʔuʔksuʔ	ʔ u ʔ k s u ʔ	1 7 1 1 3 7 1	AXMBCYN	HYHKSYH	10	10.H.C 10.Y.V 10.H.c 10.K.C 10.S.C 10.Y.V 10.H.c	2.0 1.5 1.1 1.75 1.5 1.3 0.8	ʔuʔksuʔ	0	109
+133	SoteapanZoque-14_cloud-1	SoteapanZoque	CLOUD	cloud	uksə	uksə	u k s ə	7 1 3 7	XBCZ	YKSE	8	8.Y.V 8.K.C 8.S.C 8.E.V	1.5 1.75 1.5 0.8	uksə	0	107
+134	SanMiguelChimalapaZoque-14_cloud-1	SanMiguelChimalapaZoque	CLOUD	cloud	ʔin-əʔ	ʔin-əʔ	ʔ i n + ə ʔ	1 7 4 9 7 1	AXN_XN	HIN_EH	5	5.H.C 5.I.V 5.N.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	ʔin+əʔ	0	105
+135	ChiapasZoque-14_cloud-1	ChiapasZoque	CLOUD	cloud	oʔna	oʔna	o ʔ n a	7 1 4 7	XBCZ	UHNA	1	1.U.V 1.H.C 1.N.C 1.A.V	1.5 1.75 1.5 0.8	oʔna	0	101
+136	NorthHighlandMixe-15_cold-1	NorthHighlandMixe	COLD	cold	šuš	šuš	ʃ u ʃ	3 7 3	AXN	SYS	3	3.S.C 3.Y.V 3.S.c	2.0 1.5 0.8	ʃuʃ	0	112
+137	SouthHighlandMixe-15_cold-1	SouthHighlandMixe	COLD	cold	šuš	šuš	ʃ u ʃ	3 7 3	AXN	SYS	9	9.S.C 9.Y.V 9.S.c	2.0 1.5 0.8	ʃuʃ	0	112
+138	LowlandMixe-15_cold-1	LowlandMixe	COLD	cold	təč	təč	t ə tʃ	1 7 1	AXN	TET	2	2.T.C 2.E.V 2.T.c	2.0 1.5 0.8	tətʃ	0	111
+139	SayulaPopoluca-15_cold-1	SayulaPopoluca	COLD	cold	payik	payik	p a j i k	1 7 6 7 1	AXBYN	PAJIK	7	7.P.C 7.A.V 7.J.C 7.I.V 7.K.c	2.0 1.5 1.75 1.3 0.8	pajik	0	110
+140	OlutaPopoluca-15_cold-1	OlutaPopoluca	COLD	cold	tušəʔk	tušəʔk	t u ʃ ə ʔ k	1 7 3 7 1 1	AXBYLN	TYSEHK	4	4.T.C 4.Y.V 4.S.C 4.E.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	tuʃəʔk	0	113
+141	TexistepecZoque-15_cold-1	TexistepecZoque	COLD	cold	paak	paak	p aː k	1 7 1	AXN	PAK	10	10.P.C 10.A.V 10.K.c	2.0 1.5 0.8	paːk	0	119
+142	SoteapanZoque-15_cold-1	SoteapanZoque	COLD	cold	pagak	pagak	p a g a k	1 7 1 7 1	AXBYN	PAKAK	8	8.P.C 8.A.V 8.K.C 8.A.V 8.K.c	2.0 1.5 1.75 1.3 0.8	pagak	0	110
+143	SantaMariaChimalapaZoque-15_cold-1	SantaMariaChimalapaZoque	COLD	cold	wayaʔy	wayaʔy	w a j a ʔ j	6 7 6 7 1 6	AXBYBC	WAJAHJ	6	6.W.C 6.A.V 6.J.C 6.A.V 6.H.C 6.J.C	2.0 1.5 1.75 1.3 1.75 1.5	wajaʔj	0	114
+144	SanMiguelChimalapaZoque-15_cold-1	SanMiguelChimalapaZoque	COLD	cold	wayayʔ	wayayʔ	w a j a j ʔ	6 7 6 7 6 1	AXBYLN	WAJAJH	5	5.W.C 5.A.V 5.J.C 5.A.V 5.J.c 5.H.c	2.0 1.5 1.75 1.3 1.1 0.8	wajajʔ	0	114
+145	ChiapasZoque-15_cold-1	ChiapasZoque	COLD	cold	pakak	pakak	p a k a k	1 7 1 7 1	AXBYN	PAKAK	1	1.P.C 1.A.V 1.K.C 1.A.V 1.K.c	2.0 1.5 1.75 1.3 0.8	pakak	0	110
+146	NorthHighlandMixe-16_come-1	NorthHighlandMixe	COME	come	mεts ~ mεhts	mεts	m ɛ ts	4 7 2	AXN	MEC	3	3.M.C 3.E.V 3.C.c	2.0 1.5 0.8	mɛts	0	122
+147	NorthHighlandMixe-16_come-2	NorthHighlandMixe	COME	come	mεts ~ mεhts	mεhts	m ɛ h ts	4 7 3 2	AXLN	MEHC	3	3.M.C 3.E.V 3.H.c 3.C.c	2.0 1.5 1.1 0.8	mɛhts	0	122
+148	SouthHighlandMixe-16_come-1	SouthHighlandMixe	COME	come	men	men	m e n	4 7 4	AXN	MEN	9	9.M.C 9.E.V 9.N.c	2.0 1.5 0.8	men	0	120
+149	LowlandMixe-16_come-1	LowlandMixe	COME	come	min	min	m i n	4 7 4	AXN	MIN	2	2.M.C 2.I.V 2.N.c	2.0 1.5 0.8	min	0	120
+150	SayulaPopoluca-16_come-1	SayulaPopoluca	COME	come	min ~ miʔn	min	m i n	4 7 4	AXN	MIN	7	7.M.C 7.I.V 7.N.c	2.0 1.5 0.8	min	0	120
+151	SayulaPopoluca-16_come-2	SayulaPopoluca	COME	come	min ~ miʔn	miʔn	m i ʔ n	4 7 1 4	AXBC	MIHN	7	7.M.C 7.I.V 7.H.C 7.N.C	2.0 1.5 1.75 1.5	miʔn	0	131
+152	OlutaPopoluca-16_come-1	OlutaPopoluca	COME	come	min ~ miʔn	min	m i n	4 7 4	AXN	MIN	4	4.M.C 4.I.V 4.N.c	2.0 1.5 0.8	min	0	120
+153	OlutaPopoluca-16_come-2	OlutaPopoluca	COME	come	min ~ miʔn	miʔn	m i ʔ n	4 7 1 4	AXBC	MIHN	4	4.M.C 4.I.V 4.H.C 4.N.C	2.0 1.5 1.75 1.5	miʔn	0	131
+154	TexistepecZoque-16_come-1	TexistepecZoque	COME	come	beñ	beñ	b e ɲ	1 7 4	AXN	PEN	10	10.P.C 10.E.V 10.N.c	2.0 1.5 0.8	beɲ	0	129
+155	SoteapanZoque-16_come-1	SoteapanZoque	COME	come	miñ	miñ	m i ɲ	4 7 4	AXN	MIN	8	8.M.C 8.I.V 8.N.c	2.0 1.5 0.8	miɲ	0	120
+156	SantaMariaChimalapaZoque-16_come-1	SantaMariaChimalapaZoque	COME	come	min	min	m i n	4 7 4	AXN	MIN	6	6.M.C 6.I.V 6.N.c	2.0 1.5 0.8	min	0	120
+157	SanMiguelChimalapaZoque-16_come-1	SanMiguelChimalapaZoque	COME	come	min	min	m i n	4 7 4	AXN	MIN	5	5.M.C 5.I.V 5.N.c	2.0 1.5 0.8	min	0	120
+158	ChiapasZoque-16_come-1	ChiapasZoque	COME	come	min	min	m i n	4 7 4	AXN	MIN	1	1.M.C 1.I.V 1.N.c	2.0 1.5 0.8	min	0	120
+159	NorthHighlandMixe-17_die-1	NorthHighlandMixe	DIE	die	ooʔk	ooʔk	oː ʔ k	7 1 1	XLN	UHK	3	3.U.V 3.H.c 3.K.c	1.5 1.1 0.8	oːʔk	0	133
+160	SouthHighlandMixe-17_die-1	SouthHighlandMixe	DIE	die	ook	ook	oː k	7 1	XN	UK	9	9.U.V 9.K.c	1.5 0.8	oːk	0	135
+161	LowlandMixe-17_die-1	LowlandMixe	DIE	die	oʔok	oʔok	o ʔ o k	7 1 7 1	XBYN	UHUK	2	2.U.V 2.H.C 2.U.V 2.K.c	1.5 1.75 1.3 0.8	oʔok	0	133
+162	SayulaPopoluca-17_die-1	SayulaPopoluca	DIE	die	oʔk	oʔk	o ʔ k	7 1 1	XLN	UHK	7	7.U.V 7.H.c 7.K.c	1.5 1.1 0.8	oʔk	0	133
+163	OlutaPopoluca-17_die-1	OlutaPopoluca	DIE	die	ook	ook	oː k	7 1	XN	UK	4	4.U.V 4.K.c	1.5 0.8	oːk	0	135
+164	TexistepecZoque-17_die-1	TexistepecZoque	DIE	die	kaʔ	kaʔ	k a ʔ	1 7 1	AXN	KAH	10	10.K.C 10.A.V 10.H.c	2.0 1.5 0.8	kaʔ	0	132
+165	SoteapanZoque-17_die-1	SoteapanZoque	DIE	die	kaʔ	kaʔ	k a ʔ	1 7 1	AXN	KAH	8	8.K.C 8.A.V 8.H.c	2.0 1.5 0.8	kaʔ	0	132
+166	SantaMariaChimalapaZoque-17_die-1	SantaMariaChimalapaZoque	DIE	die	kaʔh	kaʔh	k a ʔ h	1 7 1 3	AXBC	KAHH	6	6.K.C 6.A.V 6.H.C 6.H.C	2.0 1.5 1.75 1.5	kaʔh	0	132
+167	SanMiguelChimalapaZoque-17_die-1	SanMiguelChimalapaZoque	DIE	die	kaʔ	kaʔ	k a ʔ	1 7 1	AXN	KAH	5	5.K.C 5.A.V 5.H.c	2.0 1.5 0.8	kaʔ	0	132
+168	ChiapasZoque-17_die-1	ChiapasZoque	DIE	die	kaʔ	kaʔ	k a ʔ	1 7 1	AXN	KAH	1	1.K.C 1.A.V 1.H.c	2.0 1.5 0.8	kaʔ	0	132
+169	NorthHighlandMixe-18_dog-1	NorthHighlandMixe	DOG	dog	υk	υk	ʊ k	7 1	XN	YK	3	3.Y.V 3.K.c	1.5 0.8	ʊk	0	137
+170	SouthHighlandMixe-18_dog-1	SouthHighlandMixe	DOG	dog	uk	uk	u k	7 1	XN	YK	9	9.Y.V 9.K.c	1.5 0.8	uk	0	137
+171	LowlandMixe-18_dog-1	LowlandMixe	DOG	dog	uk	uk	u k	7 1	XN	YK	2	2.Y.V 2.K.c	1.5 0.8	uk	0	137
+172	SayulaPopoluca-18_dog-1	SayulaPopoluca	DOG	dog	tak	tak	t a k	1 7 1	AXN	TAK	7	7.T.C 7.A.V 7.K.c	2.0 1.5 0.8	tak	0	142
+173	OlutaPopoluca-18_dog-1	OlutaPopoluca	DOG	dog	šuʔni	šuʔni	ʃ u ʔ n i	3 7 1 4 7	AXBCZ	SYHNI	4	4.S.C 4.Y.V 4.H.C 4.N.C 4.I.V	2.0 1.5 1.75 1.5 0.8	ʃuʔni	0	139
+174	TexistepecZoque-18_dog-1	TexistepecZoque	DOG	dog	čempaʔ	čempaʔ	tʃ e m p a ʔ	1 7 4 1 7 1	AXMBYN	TEMPAH	10	10.T.C 10.E.V 10.M.c 10.P.C 10.A.V 10.H.c	2.0 1.5 1.1 1.75 1.3 0.8	tʃempaʔ	0	143
+175	SoteapanZoque-18_dog-1	SoteapanZoque	DOG	dog	čimpa	čimpa	tʃ i m p a	1 7 4 1 7	AXMBZ	TIMPA	8	8.T.C 8.I.V 8.M.c 8.P.C 8.A.V	2.0 1.5 1.1 1.75 0.8	tʃimpa	0	143
+176	SantaMariaChimalapaZoque-18_dog-1	SantaMariaChimalapaZoque	DOG	dog	nuʔu	nuʔu	n u ʔ u	4 7 1 7	AXBZ	NYHY	6	6.N.C 6.Y.V 6.H.C 6.Y.V	2.0 1.5 1.75 0.8	nuʔu	0	140
+177	SanMiguelChimalapaZoque-18_dog-1	SanMiguelChimalapaZoque	DOG	dog	nuʔ	nuʔ	n u ʔ	4 7 1	AXN	NYH	5	5.N.C 5.Y.V 5.H.c	2.0 1.5 0.8	nuʔ	0	140
+178	ChiapasZoque-18_dog-1	ChiapasZoque	DOG	dog	tuwi	tuwi	t u w i	1 7 6 7	AXBZ	TYWI	1	1.T.C 1.Y.V 1.W.C 1.I.V	2.0 1.5 1.75 0.8	tuwi	0	136
+179	NorthHighlandMixe-19_drink-1	NorthHighlandMixe	DRINK	drink	υυk	υυk	ʊː k	7 1	XN	YK	3	3.Y.V 3.K.c	1.5 0.8	ʊːk	0	145
+180	SouthHighlandMixe-19_drink-1	SouthHighlandMixe	DRINK	drink	uuk	uuk	uː k	7 1	XN	YK	9	9.Y.V 9.K.c	1.5 0.8	uːk	0	145
+181	LowlandMixe-19_drink-1	LowlandMixe	DRINK	drink	uk	uk	u k	7 1	XN	YK	2	2.Y.V 2.K.c	1.5 0.8	uk	1	145
+182	SayulaPopoluca-19_drink-1	SayulaPopoluca	DRINK	drink	uuk ~ uʔk	uuk	uː k	7 1	XN	YK	7	7.Y.V 7.K.c	1.5 0.8	uːk	0	145
+183	SayulaPopoluca-19_drink-2	SayulaPopoluca	DRINK	drink	uuk ~ uʔk	uʔk	u ʔ k	7 1 1	XLN	YHK	7	7.Y.V 7.H.c 7.K.c	1.5 1.1 0.8	uʔk	0	144
+184	OlutaPopoluca-19_drink-1	OlutaPopoluca	DRINK	drink	uuk	uuk	uː k	7 1	XN	YK	4	4.Y.V 4.K.c	1.5 0.8	uːk	0	145
+185	TexistepecZoque-19_drink-1	TexistepecZoque	DRINK	drink	ʔuk	ʔuk	ʔ u k	1 7 1	AXN	HYK	10	10.H.C 10.Y.V 10.K.c	2.0 1.5 0.8	ʔuk	0	145
+186	SoteapanZoque-19_drink-1	SoteapanZoque	DRINK	drink	uk	uk	u k	7 1	XN	YK	8	8.Y.V 8.K.c	1.5 0.8	uk	0	145
+187	SantaMariaChimalapaZoque-19_drink-1	SantaMariaChimalapaZoque	DRINK	drink	uk	uk	u k	7 1	XN	YK	6	6.Y.V 6.K.c	1.5 0.8	uk	0	145
+188	SanMiguelChimalapaZoque-19_drink-1	SanMiguelChimalapaZoque	DRINK	drink	ʔuk	ʔuk	ʔ u k	1 7 1	AXN	HYK	5	5.H.C 5.Y.V 5.K.c	2.0 1.5 0.8	ʔuk	0	145
+189	ChiapasZoque-19_drink-1	ChiapasZoque	DRINK	drink	uhk	uhk	u h k	7 3 1	XLN	YHK	1	1.Y.V 1.H.c 1.K.c	1.5 1.1 0.8	uhk	0	144
+190	NorthHighlandMixe-20_dry-1	NorthHighlandMixe	DRY	dry	təʔəhts	təʔəhts	t ə ʔ ə h ts	1 7 1 7 3 2	AXBYLN	TEHEHC	3	3.T.C 3.E.V 3.H.C 3.E.V 3.H.c 3.C.c	2.0 1.5 1.75 1.3 1.1 0.8	təʔəhts	0	146
+191	SouthHighlandMixe-20_dry-1	SouthHighlandMixe	DRY	dry	təʔəts	təʔəts	t ə ʔ ə ts	1 7 1 7 2	AXBYN	TEHEC	9	9.T.C 9.E.V 9.H.C 9.E.V 9.C.c	2.0 1.5 1.75 1.3 0.8	təʔəts	0	146
+192	LowlandMixe-20_dry-1	LowlandMixe	DRY	dry	təʔəts	təʔəts	t ə ʔ ə ts	1 7 1 7 2	AXBYN	TEHEC	2	2.T.C 2.E.V 2.H.C 2.E.V 2.C.c	2.0 1.5 1.75 1.3 0.8	təʔəts	0	146
+193	SayulaPopoluca-20_dry-1	SayulaPopoluca	DRY	dry	kuytəʔts	kuytəʔts	k u j t ə ʔ ts	1 7 6 1 7 1 2	AXMBYBC	KYJTEHC	7	7.K.C 7.Y.V 7.J.c 7.T.C 7.E.V 7.H.C 7.C.C	2.0 1.5 1.1 1.75 1.3 1.75 1.5	kujtəʔts	0	152
+194	OlutaPopoluca-20_dry-1	OlutaPopoluca	DRY	dry	təʔəʔs	təʔəʔs	t ə ʔ ə ʔ s	1 7 1 7 1 3	AXBYBC	TEHEHS	4	4.T.C 4.E.V 4.H.C 4.E.V 4.H.C 4.S.C	2.0 1.5 1.75 1.3 1.75 1.5	təʔəʔs	0	146
+195	TexistepecZoque-20_dry-1	TexistepecZoque	DRY	dry	təts-kaʔ	təts-kaʔ	t ə ts + k a ʔ	1 7 2 9 1 7 1	AXN_AXN	TEC_KAH	10	10.T.C 10.E.V 10.C.c 10._._ 10.K.C 10.A.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	təts+kaʔ	0	150
+196	SoteapanZoque-20_dry-1	SoteapanZoque	DRY	dry	ku-təts	ku-təts	k u + t ə ts	1 7 9 1 7 2	AX_AXN	KY_TEC	8	8.K.C 8.Y.V 8._._ 8.T.C 8.E.V 8.C.c	2.0 1.5 0.0 2.0 1.5 0.8	ku+təts	0	153
+197	SantaMariaChimalapaZoque-20_dry-1	SantaMariaChimalapaZoque	DRY	dry	yak-yəts	yak-yəts	j a k + j ə ts	6 7 1 9 6 7 2	AXN_AXN	JAK_JEC	6	6.J.C 6.A.V 6.K.c 6._._ 6.J.C 6.E.V 6.C.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jak+jəts	0	151
+198	SanMiguelChimalapaZoque-20_dry-1	SanMiguelChimalapaZoque	DRY	dry	təts-iʔ	təts-iʔ	t ə ts + i ʔ	1 7 2 9 7 1	AXN_XN	TEC_IH	5	5.T.C 5.E.V 5.C.c 5._._ 5.I.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	təts+iʔ	0	150
+199	ChiapasZoque-20_dry-1	ChiapasZoque	DRY	dry	təʔts	təʔts	t ə ʔ ts	1 7 1 2	AXBC	TEHC	1	1.T.C 1.E.V 1.H.C 1.C.C	2.0 1.5 1.75 1.5	təʔts	0	146
+200	NorthHighlandMixe-21_ear-1	NorthHighlandMixe	EAR	ear	taatsk	taatsk	t aː ts k	1 7 2 1	AXLN	TACK	3	3.T.C 3.A.V 3.C.c 3.K.c	2.0 1.5 1.1 0.8	taːtsk	0	154
+201	SouthHighlandMixe-21_ear-1	SouthHighlandMixe	EAR	ear	tatsk	tatsk	t a ts k	1 7 2 1	AXLN	TACK	9	9.T.C 9.A.V 9.C.c 9.K.c	2.0 1.5 1.1 0.8	tatsk	0	154
+202	LowlandMixe-21_ear-1	LowlandMixe	EAR	ear	tətsʔak	tətsʔak	t ə ts ʔ a k	1 7 2 1 7 1	AXMBYN	TECHAK	2	2.T.C 2.E.V 2.C.c 2.H.C 2.A.V 2.K.c	2.0 1.5 1.1 1.75 1.3 0.8	tətsʔak	0	154
+203	SayulaPopoluca-21_ear-1	SayulaPopoluca	EAR	ear	taatsək	taatsək	t aː ts ə k	1 7 2 7 1	AXBYN	TACEK	7	7.T.C 7.A.V 7.C.C 7.E.V 7.K.c	2.0 1.5 1.75 1.3 0.8	taːtsək	0	154
+204	OlutaPopoluca-21_ear-1	OlutaPopoluca	EAR	ear	taatsəək	taatsəək	t aː ts əː k	1 7 2 7 1	AXBYN	TACEK	4	4.T.C 4.A.V 4.C.C 4.E.V 4.K.c	2.0 1.5 1.75 1.3 0.8	taːtsəːk	0	154
+205	TexistepecZoque-21_ear-1	TexistepecZoque	EAR	ear	taatsək	taatsək	t aː ts ə k	1 7 2 7 1	AXBYN	TACEK	10	10.T.C 10.A.V 10.C.C 10.E.V 10.K.c	2.0 1.5 1.75 1.3 0.8	taːtsək	0	154
+206	SoteapanZoque-21_ear-1	SoteapanZoque	EAR	ear	taatsək	taatsək	t aː ts ə k	1 7 2 7 1	AXBYN	TACEK	8	8.T.C 8.A.V 8.C.C 8.E.V 8.K.c	2.0 1.5 1.75 1.3 0.8	taːtsək	0	154
+207	SantaMariaChimalapaZoque-21_ear-1	SantaMariaChimalapaZoque	EAR	ear	tatsək	tatsək	t a ts ə k	1 7 2 7 1	AXBYN	TACEK	6	6.T.C 6.A.V 6.C.C 6.E.V 6.K.c	2.0 1.5 1.75 1.3 0.8	tatsək	0	154
+208	SanMiguelChimalapaZoque-21_ear-1	SanMiguelChimalapaZoque	EAR	ear	tatsək	tatsək	t a ts ə k	1 7 2 7 1	AXBYN	TACEK	5	5.T.C 5.A.V 5.C.C 5.E.V 5.K.c	2.0 1.5 1.75 1.3 0.8	tatsək	0	154
+209	ChiapasZoque-21_ear-1	ChiapasZoque	EAR	ear	tatsək	tatsək	t a ts ə k	1 7 2 7 1	AXBYN	TACEK	1	1.T.C 1.A.V 1.C.C 1.E.V 1.K.c	2.0 1.5 1.75 1.3 0.8	tatsək	0	154
+210	NorthHighlandMixe-22_earth-1	NorthHighlandMixe	EARTH (SOIL)	earth	naaš	naaš	n aː ʃ	4 7 3	AXN	NAS	3	3.N.C 3.A.V 3.S.c	2.0 1.5 0.8	naːʃ	0	155
+211	SouthHighlandMixe-22_earth-1	SouthHighlandMixe	EARTH (SOIL)	earth	naš-wiʔñət	naš-wiʔñət	n a ʃ + w i ʔ ɲ ə t	4 7 3 9 6 7 1 4 7 1	AXN_AXBCYN	NAS_WIHNET	9	9.N.C 9.A.V 9.S.c 9._._ 9.W.C 9.I.V 9.H.C 9.N.C 9.E.V 9.T.c	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5 1.3 0.8	naʃ+wiʔɲət	0	163
+212	LowlandMixe-22_earth-1	LowlandMixe	EARTH (SOIL)	earth	naaš	naaš	n aː ʃ	4 7 3	AXN	NAS	2	2.N.C 2.A.V 2.S.c	2.0 1.5 0.8	naːʃ	0	155
+213	SayulaPopoluca-22_earth-1	SayulaPopoluca	EARTH (SOIL)	earth	naaš	naaš	n aː ʃ	4 7 3	AXN	NAS	7	7.N.C 7.A.V 7.S.c	2.0 1.5 0.8	naːʃ	0	155
+214	OlutaPopoluca-22_earth-1	OlutaPopoluca	EARTH (SOIL)	earth	naašə	naašə	n aː ʃ ə	4 7 3 7	AXBZ	NASE	4	4.N.C 4.A.V 4.S.C 4.E.V	2.0 1.5 1.75 0.8	naːʃə	0	155
+215	TexistepecZoque-22_earth-1	TexistepecZoque	EARTH (SOIL)	earth	das	das	d a s	1 7 3	AXN	TAS	10	10.T.C 10.A.V 10.S.c	2.0 1.5 0.8	das	0	164
+216	SoteapanZoque-22_earth-1	SoteapanZoque	EARTH (SOIL)	earth	nas	nas	n a s	4 7 3	AXN	NAS	8	8.N.C 8.A.V 8.S.c	2.0 1.5 0.8	nas	0	155
+217	SantaMariaChimalapaZoque-22_earth-1	SantaMariaChimalapaZoque	EARTH (SOIL)	earth	nas	nas	n a s	4 7 3	AXN	NAS	6	6.N.C 6.A.V 6.S.c	2.0 1.5 0.8	nas	0	155
+218	SanMiguelChimalapaZoque-22_earth-1	SanMiguelChimalapaZoque	EARTH (SOIL)	earth	naš	naš	n a ʃ	4 7 3	AXN	NAS	5	5.N.C 5.A.V 5.S.c	2.0 1.5 0.8	naʃ	0	155
+219	ChiapasZoque-22_earth-1	ChiapasZoque	EARTH (SOIL)	earth	nas	nas	n a s	4 7 3	AXN	NAS	1	1.N.C 1.A.V 1.S.c	2.0 1.5 0.8	nas	0	155
+220	NorthHighlandMixe-23_eat-1	NorthHighlandMixe	EAT	eat	kay	kay	k a j	1 7 6	AXN	KAJ	3	3.K.C 3.A.V 3.J.c	2.0 1.5 0.8	kaj	0	166
+221	SouthHighlandMixe-23_eat-1	SouthHighlandMixe	EAT	eat	kæy	kæy	k æ j	1 7 6	AXN	KEJ	9	9.K.C 9.E.V 9.J.c	2.0 1.5 0.8	kæj	0	166
+222	LowlandMixe-23_eat-1	LowlandMixe	EAT	eat	kay	kay	k a j	1 7 6	AXN	KAJ	2	2.K.C 2.A.V 2.J.c	2.0 1.5 0.8	kaj	0	166
+223	SayulaPopoluca-23_eat-1	SayulaPopoluca	EAT	eat	kay	kay	k a j	1 7 6	AXN	KAJ	7	7.K.C 7.A.V 7.J.c	2.0 1.5 0.8	kaj	0	166
+224	OlutaPopoluca-23_eat-1	OlutaPopoluca	EAT	eat	kay	kay	k a j	1 7 6	AXN	KAJ	4	4.K.C 4.A.V 4.J.c	2.0 1.5 0.8	kaj	0	166
+225	TexistepecZoque-23_eat-1	TexistepecZoque	EAT	eat	kəʔəs	kəʔəs	k ə ʔ ə s	1 7 1 7 3	AXBYN	KEHES	10	10.K.C 10.E.V 10.H.C 10.E.V 10.S.c	2.0 1.5 1.75 1.3 0.8	kəʔəs	0	165
+226	SoteapanZoque-23_eat-1	SoteapanZoque	EAT	eat	kəʔəs	kəʔəs	k ə ʔ ə s	1 7 1 7 3	AXBYN	KEHES	8	8.K.C 8.E.V 8.H.C 8.E.V 8.S.c	2.0 1.5 1.75 1.3 0.8	kəʔəs	0	165
+227	SantaMariaChimalapaZoque-23_eat-1	SantaMariaChimalapaZoque	EAT	eat	kəʔs-oy	kəʔs-oy	k ə ʔ s + o j	1 7 1 3 9 7 6	AXBC_XN	KEHS_UJ	6	6.K.C 6.E.V 6.H.C 6.S.C 6._._ 6.U.V 6.J.c	2.0 1.5 1.75 1.5 0.0 1.5 0.8	kəʔs+oj	0	165
+228	SanMiguelChimalapaZoque-23_eat-1	SanMiguelChimalapaZoque	EAT	eat	kəš	kəš	k ə ʃ	1 7 3	AXN	KES	5	5.K.C 5.E.V 5.S.c	2.0 1.5 0.8	kəʃ	0	169
+229	ChiapasZoque-23_eat-1	ChiapasZoque	EAT	eat	kəʔs	kəʔs	k ə ʔ s	1 7 1 3	AXBC	KEHS	1	1.K.C 1.E.V 1.H.C 1.S.C	2.0 1.5 1.75 1.5	kəʔs	0	165
+230	NorthHighlandMixe-24_egg-1	NorthHighlandMixe	EGG	egg	tuʔut	tuʔut	t u ʔ u t	1 7 1 7 1	AXBYN	TYHYT	3	3.T.C 3.Y.V 3.H.C 3.Y.V 3.T.c	2.0 1.5 1.75 1.3 0.8	tuʔut	0	171
+231	SouthHighlandMixe-24_egg-1	SouthHighlandMixe	EGG	egg	tutsah	tutsah	t u ts a h	1 7 2 7 3	AXBYN	TYCAH	9	9.T.C 9.Y.V 9.C.C 9.A.V 9.H.c	2.0 1.5 1.75 1.3 0.8	tutsah	0	178
+232	LowlandMixe-24_egg-1	LowlandMixe	EGG	egg	tuʔuty	tuʔuty	t u ʔ u t j	1 7 1 7 1 6	AXBYBC	TYHYTJ	2	2.T.C 2.Y.V 2.H.C 2.Y.V 2.T.C 2.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tuʔutj	0	171
+233	SayulaPopoluca-24_egg-1	SayulaPopoluca	EGG	egg	kooy	kooy	k oː j	1 7 6	AXN	KUJ	7	7.K.C 7.U.V 7.J.c	2.0 1.5 0.8	koːj	0	176
+234	OlutaPopoluca-24_egg-1	OlutaPopoluca	EGG	egg	tuʔtiʔk	tuʔtiʔk	t u ʔ t i ʔ k	1 7 1 1 7 1 1	AXMBYLN	TYHTIHK	4	4.T.C 4.Y.V 4.H.c 4.T.C 4.I.V 4.H.c 4.K.c	2.0 1.5 1.1 1.75 1.3 1.1 0.8	tuʔtiʔk	0	173
+235	TexistepecZoque-24_egg-1	TexistepecZoque	EGG	egg	kaʔnpuk	kaʔnpuk	k a ʔ n p u k	1 7 1 4 1 7 1	AXBYBYN	KAHNPYK	10	10.K.C 10.A.V 10.H.C 10.N.V 10.P.C 10.Y.V 10.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	kaʔnpuk	0	179
+236	SoteapanZoque-24_egg-1	SoteapanZoque	EGG	egg	kanpu	kanpu	k a n p u	1 7 4 1 7	AXMBZ	KANPY	8	8.K.C 8.A.V 8.N.c 8.P.C 8.Y.V	2.0 1.5 1.1 1.75 0.8	kanpu	0	177
+237	SantaMariaChimalapaZoque-24_egg-1	SantaMariaChimalapaZoque	EGG	egg	poʔok	poʔok	p o ʔ o k	1 7 1 7 1	AXBYN	PUHUK	6	6.P.C 6.U.V 6.H.C 6.U.V 6.K.c	2.0 1.5 1.75 1.3 0.8	poʔok	0	174
+238	SanMiguelChimalapaZoque-24_egg-1	SanMiguelChimalapaZoque	EGG	egg	pohoʔk	pohoʔk	p o h o ʔ k	1 7 3 7 1 1	AXBYLN	PUHUHK	5	5.P.C 5.U.V 5.H.C 5.U.V 5.H.c 5.K.c	2.0 1.5 1.75 1.3 1.1 0.8	pohoʔk	0	174
+239	ChiapasZoque-24_egg-1	ChiapasZoque	EGG	egg	poka	poka	p o k a	1 7 1 7	AXBZ	PUKA	1	1.P.C 1.U.V 1.K.C 1.A.V	2.0 1.5 1.75 0.8	poka	0	170
+240	NorthHighlandMixe-25_eye-1	NorthHighlandMixe	EYE	eye	viihn	viihn	v iː h n	3 7 3 4	AXBC	BIHN	3	3.B.C 3.I.V 3.H.C 3.N.C	2.0 1.5 1.75 1.5	viːhn	0	182
+241	SouthHighlandMixe-25_eye-1	SouthHighlandMixe	EYE	eye	ween	ween	w eː n	6 7 4	AXN	WEN	9	9.W.C 9.E.V 9.N.c	2.0 1.5 0.8	weːn	0	180
+242	LowlandMixe-25_eye-1	LowlandMixe	EYE	eye	wiin	wiin	w iː n	6 7 4	AXN	WIN	2	2.W.C 2.I.V 2.N.c	2.0 1.5 0.8	wiːn	0	180
+243	SayulaPopoluca-25_eye-1	SayulaPopoluca	EYE	eye	wihn	wihn	w i h n	6 7 3 4	AXBC	WIHN	7	7.W.C 7.I.V 7.H.C 7.N.C	2.0 1.5 1.75 1.5	wihn	0	182
+244	OlutaPopoluca-25_eye-1	OlutaPopoluca	EYE	eye	vinə	vinə	v i n ə	3 7 4 7	AXBZ	BINE	4	4.B.C 4.I.V 4.N.C 4.E.V	2.0 1.5 1.75 0.8	vinə	0	183
+245	TexistepecZoque-25_eye-1	TexistepecZoque	EYE	eye	ʔeš-kuʔ	ʔeš-kuʔ	ʔ e ʃ + k u ʔ	1 7 3 9 1 7 1	AXN_AXN	HES_KYH	10	10.H.C 10.E.V 10.S.c 10._._ 10.K.C 10.Y.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	ʔeʃ+kuʔ	0	189
+246	SoteapanZoque-25_eye-1	SoteapanZoque	EYE	eye	iš-kuy	iš-kuy	i ʃ + k u j	7 3 9 1 7 6	XN_AXN	IS_KYJ	8	8.I.V 8.S.c 8._._ 8.K.C 8.Y.V 8.J.c	1.5 0.8 0.0 2.0 1.5 0.8	iʃ+kuj	0	187
+247	SantaMariaChimalapaZoque-25_eye-1	SantaMariaChimalapaZoque	EYE	eye	witəm	witəm	w i t ə m	6 7 1 7 4	AXBYN	WITEM	6	6.W.C 6.I.V 6.T.C 6.E.V 6.M.c	2.0 1.5 1.75 1.3 0.8	witəm	0	184
+248	SanMiguelChimalapaZoque-25_eye-1	SanMiguelChimalapaZoque	EYE	eye	wotəm	wotəm	w o t ə m	6 7 1 7 4	AXBYN	WUTEM	5	5.W.C 5.U.V 5.T.C 5.E.V 5.M.c	2.0 1.5 1.75 1.3 0.8	wotəm	0	184
+249	ChiapasZoque-25_eye-1	ChiapasZoque	EYE	eye	win	win	w i n	6 7 4	AXN	WIN	1	1.W.C 1.I.V 1.N.c	2.0 1.5 0.8	win	0	180
+1002	NorthHighlandMixe-101_far-1	NorthHighlandMixe	FAR	far	hekum	hekum	h e k u m	3 7 1 7 4	AXBYN	HEKYM	3	3.H.C 3.E.V 3.K.C 3.Y.V 3.M.c	2.0 1.5 1.75 1.3 0.8	hekum	0	191
+1003	SouthHighlandMixe-101_far-1	SouthHighlandMixe	FAR	far	hækæm	hækæm	h æ k æ m	3 7 1 7 4	AXBYN	HEKEM	9	9.H.C 9.E.V 9.K.C 9.E.V 9.M.c	2.0 1.5 1.75 1.3 0.8	hækæm	0	191
+1004	LowlandMixe-101_far-1	LowlandMixe	FAR	far	həgem	həgem	h ə g e m	3 7 1 7 4	AXBYN	HEKEM	2	2.H.C 2.E.V 2.K.C 2.E.V 2.M.c	2.0 1.5 1.75 1.3 0.8	həgem	0	191
+1005	SayulaPopoluca-101_far-1	SayulaPopoluca	FAR	far	yagats	yagats	j a g a ts	6 7 1 7 2	AXBYN	JAKAC	7	7.J.C 7.A.V 7.K.C 7.A.V 7.C.c	2.0 1.5 1.75 1.3 0.8	jagats	1	196
+1006	OlutaPopoluca-101_far-1	OlutaPopoluca	FAR	far	heškeʔkeʔk	heškeʔkeʔk	h e ʃ k e ʔ k e ʔ k	3 7 3 1 7 1 1 7 1 1	AXMBYMBYLN	HESKEHKEHK	4	4.H.C 4.E.V 4.S.c 4.K.C 4.E.V 4.H.c 4.K.C 4.E.V 4.H.c 4.K.c	2.0 1.5 1.1 1.75 1.3 1.1 1.75 1.3 1.1 0.8	heʃkeʔkeʔk	0	193
+1007	TexistepecZoque-101_far-1	TexistepecZoque	FAR	far	huʔum	huʔum	h u ʔ u m	3 7 1 7 4	AXBYN	HYHYM	10	10.H.C 10.Y.V 10.H.C 10.Y.V 10.M.c	2.0 1.5 1.75 1.3 0.8	huʔum	0	197
+1008	SoteapanZoque-101_far-1	SoteapanZoque	FAR	far	huʔumə	huʔumə	h u ʔ u m ə	3 7 1 7 4 7	AXBYBZ	HYHYME	8	8.H.C 8.Y.V 8.H.C 8.Y.V 8.M.C 8.E.V	2.0 1.5 1.75 1.3 1.75 0.8	huʔumə	0	197
+1009	SantaMariaChimalapaZoque-101_far-1	SantaMariaChimalapaZoque	FAR	far	yaʔhi	yaʔhi	j a ʔ h i	6 7 1 3 7	AXBCZ	JAHHI	6	6.J.C 6.A.V 6.H.C 6.H.C 6.I.V	2.0 1.5 1.75 1.5 0.8	jaʔhi	0	195
+1010	SanMiguelChimalapaZoque-101_far-1	SanMiguelChimalapaZoque	FAR	far	yah-əʔ	yah-əʔ	j a h + ə ʔ	6 7 3 9 7 1	AXN_XN	JAH_EH	5	5.J.C 5.A.V 5.H.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	jah+əʔ	0	194
+1011	ChiapasZoque-101_far-1	ChiapasZoque	FAR	far	yaʔay	yaʔay	j a ʔ a j	6 7 1 7 6	AXBYN	JAHAJ	1	1.J.C 1.A.V 1.H.C 1.A.V 1.J.c	2.0 1.5 1.75 1.3 0.8	jaʔaj	0	190
+250	NorthHighlandMixe-26_fatn-1	NorthHighlandMixe	FAT (FROM ANIMALS)	fat n.	on	on	o n	7 4	XN	UN	3	3.U.V 3.N.c	1.5 0.8	on	0	200
+251	SouthHighlandMixe-26_fatn-1	SouthHighlandMixe	FAT (FROM ANIMALS)	fat n.	on	on	o n	7 4	XN	UN	9	9.U.V 9.N.c	1.5 0.8	on	0	200
+252	LowlandMixe-26_fatn-1	LowlandMixe	FAT (FROM ANIMALS)	fat n.	wiin-ʔomb	wiin-ʔomb	w iː n + ʔ o m b	6 7 4 9 1 7 4 1	AXN_AXLN	WIN_HUMP	2	2.W.C 2.I.V 2.N.c 2._._ 2.H.C 2.U.V 2.M.c 2.P.c	2.0 1.5 0.8 0.0 2.0 1.5 1.1 0.8	wiːn+ʔomb	0	199
+253	SayulaPopoluca-26_fatn-1	SayulaPopoluca	FAT (FROM ANIMALS)	fat n.	oʔtsək	oʔtsək	o ʔ ts ə k	7 1 2 7 1	XBCYN	UHCEK	7	7.U.V 7.H.C 7.C.C 7.E.V 7.K.c	1.5 1.75 1.5 1.3 0.8	oʔtsək	0	204
+254	OlutaPopoluca-26_fatn-1	OlutaPopoluca	FAT (FROM ANIMALS)	fat n.	ona	ona	o n a	7 4 7	XBZ	UNA	4	4.U.V 4.N.C 4.A.V	1.5 1.75 0.8	ona	0	200
+255	SoteapanZoque-26_fatn-1	SoteapanZoque	FAT (FROM ANIMALS)	fat n.	pəhi	pəhi	p ə h i	1 7 3 7	AXBZ	PEHI	8	8.P.C 8.E.V 8.H.C 8.I.V	2.0 1.5 1.75 0.8	pəhi	0	205
+256	SantaMariaChimalapaZoque-26_fatn-1	SantaMariaChimalapaZoque	FAT (FROM ANIMALS)	fat n.	grasa	grasa	g r a s a	1 5 7 3 7	ACXBZ	KRASA	6	6.K.C 6.R.C 6.A.V 6.S.C 6.A.V	2.0 1.5 1.5 1.75 0.8	grasa	0	203
+257	SanMiguelChimalapaZoque-26_fatn-1	SanMiguelChimalapaZoque	FAT (FROM ANIMALS)	fat n.	yew-eʔ	yew-eʔ	j e w + e ʔ	6 7 6 9 7 1	AXN_XN	JEW_EH	5	5.J.C 5.E.V 5.W.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	jew+eʔ	0	202
+258	ChiapasZoque-26_fatn-1	ChiapasZoque	FAT (FROM ANIMALS)	fat n.	kiʔnə	kiʔnə	k i ʔ n ə	1 7 1 4 7	AXBCZ	KIHNE	1	1.K.C 1.I.V 1.H.C 1.N.C 1.E.V	2.0 1.5 1.75 1.5 0.8	kiʔnə	0	198
+259	NorthHighlandMixe-27_feather-1	NorthHighlandMixe	FEATHER	feather	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	3	3.P.C 3.A.V 3.H.c 3.K.c	2.0 1.5 1.1 0.8	pahk	1	206
+260	SouthHighlandMixe-27_feather-1	SouthHighlandMixe	FEATHER	feather	pəhk	pəhk	p ə h k	1 7 3 1	AXLN	PEHK	9	9.P.C 9.E.V 9.H.c 9.K.c	2.0 1.5 1.1 0.8	pəhk	0	206
+261	LowlandMixe-27_feather-1	LowlandMixe	FEATHER	feather	tseyñiʔi-bəhk	tseyñiʔi-bəhk	ts e j ɲ i ʔ i + b ə h k	2 7 6 4 7 1 7 9 1 7 3 1	AXMBYBZ_AXLN	CEJNIHI_PEHK	2	2.C.C 2.E.V 2.J.c 2.N.C 2.I.V 2.H.C 2.I.V 2._._ 2.P.C 2.E.V 2.H.c 2.K.c	2.0 1.5 1.1 1.75 1.3 1.75 0.8 0.0 2.0 1.5 1.1 0.8	tsejɲiʔi+bəhk	0	207
+262	OlutaPopoluca-27_feather-1	OlutaPopoluca	FEATHER	feather	pəkə	pəkə	p ə k ə	1 7 1 7	AXBZ	PEKE	4	4.P.C 4.E.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	pəkə	0	206
+263	TexistepecZoque-27_feather-1	TexistepecZoque	FEATHER	feather	pək	pək	p ə k	1 7 1	AXN	PEK	10	10.P.C 10.E.V 10.K.c	2.0 1.5 0.8	pək	0	206
+264	SoteapanZoque-27_feather-1	SoteapanZoque	FEATHER	feather	pək	pək	p ə k	1 7 1	AXN	PEK	8	8.P.C 8.E.V 8.K.c	2.0 1.5 0.8	pək	0	206
+265	SantaMariaChimalapaZoque-27_feather-1	SantaMariaChimalapaZoque	FEATHER	feather	pək	pək	p ə k	1 7 1	AXN	PEK	6	6.P.C 6.E.V 6.K.c	2.0 1.5 0.8	pək	0	206
+266	SanMiguelChimalapaZoque-27_feather-1	SanMiguelChimalapaZoque	FEATHER	feather	pək	pək	p ə k	1 7 1	AXN	PEK	5	5.P.C 5.E.V 5.K.c	2.0 1.5 0.8	pək	0	206
+267	ChiapasZoque-27_feather-1	ChiapasZoque	FEATHER	feather	pək	pək	p ə k	1 7 1	AXN	PEK	1	1.P.C 1.E.V 1.K.c	2.0 1.5 0.8	pək	0	206
+268	NorthHighlandMixe-28_fire-1	NorthHighlandMixe	FIRE	fire	həəhn	həəhn	h əː h n	3 7 3 4	AXBC	HEHN	3	3.H.C 3.E.V 3.H.C 3.N.C	2.0 1.5 1.75 1.5	həːhn	0	210
+269	SouthHighlandMixe-28_fire-1	SouthHighlandMixe	FIRE	fire	həən	həən	h əː n	3 7 4	AXN	HEN	9	9.H.C 9.E.V 9.N.c	2.0 1.5 0.8	həːn	0	209
+270	LowlandMixe-28_fire-1	LowlandMixe	FIRE	fire	həən	həən	h əː n	3 7 4	AXN	HEN	2	2.H.C 2.E.V 2.N.c	2.0 1.5 0.8	həːn	0	209
+271	SayulaPopoluca-28_fire-1	SayulaPopoluca	FIRE	fire	həhn	həhn	h ə h n	3 7 3 4	AXBC	HEHN	7	7.H.C 7.E.V 7.H.C 7.N.C	2.0 1.5 1.75 1.5	həhn	0	210
+272	OlutaPopoluca-28_fire-1	OlutaPopoluca	FIRE	fire	hənə	hənə	h ə n ə	3 7 4 7	AXBZ	HENE	4	4.H.C 4.E.V 4.N.C 4.E.V	2.0 1.5 1.75 0.8	hənə	0	209
+273	TexistepecZoque-28_fire-1	TexistepecZoque	FIRE	fire	hukut	hukut	h u k u t	3 7 1 7 1	AXBYN	HYKYT	10	10.H.C 10.Y.V 10.K.C 10.Y.V 10.T.c	2.0 1.5 1.75 1.3 0.8	hukut	0	208
+274	SoteapanZoque-28_fire-1	SoteapanZoque	FIRE	fire	huktə	huktə	h u k t ə	3 7 1 1 7	AXMBZ	HYKTE	8	8.H.C 8.Y.V 8.K.c 8.T.C 8.E.V	2.0 1.5 1.1 1.75 0.8	huktə	0	208
+275	SantaMariaChimalapaZoque-28_fire-1	SantaMariaChimalapaZoque	FIRE	fire	hukutə	hukutə	h u k u t ə	3 7 1 7 1 7	AXBYBZ	HYKYTE	6	6.H.C 6.Y.V 6.K.C 6.Y.V 6.T.C 6.E.V	2.0 1.5 1.75 1.3 1.75 0.8	hukutə	0	208
+276	SanMiguelChimalapaZoque-28_fire-1	SanMiguelChimalapaZoque	FIRE	fire	ʔaʔts-əʔ	ʔaʔts-əʔ	ʔ a ʔ ts + ə ʔ	1 7 1 2 9 7 1	AXBC_XN	HAHC_EH	5	5.H.C 5.A.V 5.H.C 5.C.C 5._._ 5.E.V 5.H.c	2.0 1.5 1.75 1.5 0.0 1.5 0.8	ʔaʔts+əʔ	0	212
+277	ChiapasZoque-28_fire-1	ChiapasZoque	FIRE	fire	hukətək	hukətək	h u k ə t ə k	3 7 1 7 1 7 1	AXBYBYN	HYKETEK	1	1.H.C 1.Y.V 1.K.C 1.E.V 1.T.C 1.E.V 1.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	hukətək	0	208
+278	NorthHighlandMixe-29_fish-1	NorthHighlandMixe	FISH	fish	ahkš	ahkš	a h k ʃ	7 3 1 3	XMBC	AHKS	3	3.A.V 3.H.c 3.K.C 3.S.C	1.5 1.1 1.75 1.5	ahkʃ	0	214
+279	SouthHighlandMixe-29_fish-1	SouthHighlandMixe	FISH	fish	akš	akš	a k ʃ	7 1 3	XBC	AKS	9	9.A.V 9.K.C 9.S.C	1.5 1.75 1.5	akʃ	0	214
+280	LowlandMixe-29_fish-1	LowlandMixe	FISH	fish	akš	akš	a k ʃ	7 1 3	XBC	AKS	2	2.A.V 2.K.C 2.S.C	1.5 1.75 1.5	akʃ	0	214
+281	SayulaPopoluca-29_fish-1	SayulaPopoluca	FISH	fish	akš	akš	a k ʃ	7 1 3	XBC	AKS	7	7.A.V 7.K.C 7.S.C	1.5 1.75 1.5	akʃ	0	214
+282	OlutaPopoluca-29_fish-1	OlutaPopoluca	FISH	fish	koʔke	koʔke	k o ʔ k e	1 7 1 1 7	AXMBZ	KUHKE	4	4.K.C 4.U.V 4.H.c 4.K.C 4.E.V	2.0 1.5 1.1 1.75 0.8	koʔke	0	213
+283	TexistepecZoque-29_fish-1	TexistepecZoque	FISH	fish	woʔŋ	woʔŋ	w o ʔ ŋ	6 7 1 4	AXBC	WUHN	10	10.W.C 10.U.V 10.H.C 10.N.C	2.0 1.5 1.75 1.5	woʔŋ	0	222
+284	SoteapanZoque-29_fish-1	SoteapanZoque	FISH	fish	təʔəpə	təʔəpə	t ə ʔ ə p ə	1 7 1 7 1 7	AXBYBZ	TEHEPE	8	8.T.C 8.E.V 8.H.C 8.E.V 8.P.C 8.E.V	2.0 1.5 1.75 1.3 1.75 0.8	təʔəpə	0	220
+285	SantaMariaChimalapaZoque-29_fish-1	SantaMariaChimalapaZoque	FISH	fish	koke	koke	k o k e	1 7 1 7	AXBZ	KUKE	6	6.K.C 6.U.V 6.K.C 6.E.V	2.0 1.5 1.75 0.8	koke	0	213
+286	SanMiguelChimalapaZoque-29_fish-1	SanMiguelChimalapaZoque	FISH	fish	koke	koke	k o k e	1 7 1 7	AXBZ	KUKE	5	5.K.C 5.U.V 5.K.C 5.E.V	2.0 1.5 1.75 0.8	koke	0	213
+287	ChiapasZoque-29_fish-1	ChiapasZoque	FISH	fish	kokeh	kokeh	k o k e h	1 7 1 7 3	AXBYN	KUKEH	1	1.K.C 1.U.V 1.K.C 1.E.V 1.H.c	2.0 1.5 1.75 1.3 0.8	kokeh	0	213
+288	NorthHighlandMixe-30_flyv-1	NorthHighlandMixe	FLY (MOVE THROUGH AIR)	fly v.	hεy ~ hεεy	hεy	h ɛ j	3 7 6	AXN	HEJ	3	3.H.C 3.E.V 3.J.c	2.0 1.5 0.8	hɛj	0	225
+289	NorthHighlandMixe-30_flyv-2	NorthHighlandMixe	FLY (MOVE THROUGH AIR)	fly v.	hεy ~ hεεy	hεεy	h ɛ ɛ j	3 7 7 6	AXYN	HEEJ	3	3.H.C 3.E.V 3.E.V 3.J.c	2.0 1.5 1.3 0.8	hɛɛj	0	225
+290	SouthHighlandMixe-30_flyv-1	SouthHighlandMixe	FLY (MOVE THROUGH AIR)	fly v.	kæhkəʔək	kæhkəʔək	k æ h k ə ʔ ə k	1 7 3 1 7 1 7 1	AXMBYBYN	KEHKEHEK	9	9.K.C 9.E.V 9.H.c 9.K.C 9.E.V 9.H.C 9.E.V 9.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.3 0.8	kæhkəʔək	0	231
+291	LowlandMixe-30_flyv-1	LowlandMixe	FLY (MOVE THROUGH AIR)	fly v.	keek	keek	k eː k	1 7 1	AXN	KEK	2	2.K.C 2.E.V 2.K.c	2.0 1.5 0.8	keːk	0	224
+292	SayulaPopoluca-30_flyv-1	SayulaPopoluca	FLY (MOVE THROUGH AIR)	fly v.	keek ~ keʔk	keek	k eː k	1 7 1	AXN	KEK	7	7.K.C 7.E.V 7.K.c	2.0 1.5 0.8	keːk	0	224
+293	SayulaPopoluca-30_flyv-2	SayulaPopoluca	FLY (MOVE THROUGH AIR)	fly v.	keek ~ keʔk	keʔk	k e ʔ k	1 7 1 1	AXLN	KEHK	7	7.K.C 7.E.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	keʔk	0	224
+294	OlutaPopoluca-30_flyv-1	OlutaPopoluca	FLY (MOVE THROUGH AIR)	fly v.	napap	napap	n a p a p	4 7 1 7 1	AXBYN	NAPAP	4	4.N.C 4.A.V 4.P.C 4.A.V 4.P.c	2.0 1.5 1.75 1.3 0.8	napap	0	226
+295	TexistepecZoque-30_flyv-1	TexistepecZoque	FLY (MOVE THROUGH AIR)	fly v.	kek	kek	k e k	1 7 1	AXN	KEK	10	10.K.C 10.E.V 10.K.c	2.0 1.5 0.8	kek	0	224
+296	SoteapanZoque-30_flyv-1	SoteapanZoque	FLY (MOVE THROUGH AIR)	fly v.	kek	kek	k e k	1 7 1	AXN	KEK	8	8.K.C 8.E.V 8.K.c	2.0 1.5 0.8	kek	0	224
+297	SantaMariaChimalapaZoque-30_flyv-1	SantaMariaChimalapaZoque	FLY (MOVE THROUGH AIR)	fly v.	kek	kek	k e k	1 7 1	AXN	KEK	6	6.K.C 6.E.V 6.K.c	2.0 1.5 0.8	kek	0	224
+298	SanMiguelChimalapaZoque-30_flyv-1	SanMiguelChimalapaZoque	FLY (MOVE THROUGH AIR)	fly v.	yuk-kek	yuk-kek	j u k + k e k	6 7 1 9 1 7 1	AXN_AXN	JYK_KEK	5	5.J.C 5.Y.V 5.K.c 5._._ 5.K.C 5.E.V 5.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	juk+kek	0	227
+299	ChiapasZoque-30_flyv-1	ChiapasZoque	FLY (MOVE THROUGH AIR)	fly v.	sitiht	sitiht	s i t i h t	3 7 1 7 3 1	AXBYLN	SITIHT	1	1.S.C 1.I.V 1.T.C 1.I.V 1.H.c 1.T.c	2.0 1.5 1.75 1.3 1.1 0.8	sitiht	0	223
+300	NorthHighlandMixe-31_foot-1	NorthHighlandMixe	FOOT	foot	tek	tek	t e k	1 7 1	AXN	TEK	3	3.T.C 3.E.V 3.K.c	2.0 1.5 0.8	tek	0	233
+301	SouthHighlandMixe-31_foot-1	SouthHighlandMixe	FOOT	foot	teky	teky	t e k j	1 7 1 6	AXBC	TEKJ	9	9.T.C 9.E.V 9.K.C 9.J.C	2.0 1.5 1.75 1.5	tekj	0	233
+302	LowlandMixe-31_foot-1	LowlandMixe	FOOT	foot	teky	teky	t e k j	1 7 1 6	AXBC	TEKJ	2	2.T.C 2.E.V 2.K.C 2.J.C	2.0 1.5 1.75 1.5	tekj	0	233
+303	SayulaPopoluca-31_foot-1	SayulaPopoluca	FOOT	foot	tan	tan	t a n	1 7 4	AXN	TAN	7	7.T.C 7.A.V 7.N.c	2.0 1.5 0.8	tan	0	238
+304	OlutaPopoluca-31_foot-1	OlutaPopoluca	FOOT	foot	kəʔšta	kəʔšta	k ə ʔ ʃ t a	1 7 1 3 1 7	AXBYBZ	KEHSTA	4	4.K.C 4.E.V 4.H.C 4.S.V 4.T.C 4.A.V	2.0 1.5 1.75 1.3 1.75 0.8	kəʔʃta	0	235
+305	TexistepecZoque-31_foot-1	TexistepecZoque	FOOT	foot	pak	pak	p a k	1 7 1	AXN	PAK	10	10.P.C 10.A.V 10.K.c	2.0 1.5 0.8	pak	1	241
+306	SoteapanZoque-31_foot-1	SoteapanZoque	FOOT	foot	puy	puy	p u j	1 7 6	AXN	PYJ	8	8.P.C 8.Y.V 8.J.c	2.0 1.5 0.8	puj	0	239
+307	SantaMariaChimalapaZoque-31_foot-1	SantaMariaChimalapaZoque	FOOT	foot	maŋ-kuʔy	maŋ-kuʔy	m a ŋ + k u ʔ j	4 7 4 9 1 7 1 6	AXN_AXBC	MAN_KYHJ	6	6.M.C 6.A.V 6.N.c 6._._ 6.K.C 6.Y.V 6.H.C 6.J.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	maŋ+kuʔj	0	236
+308	SanMiguelChimalapaZoque-31_foot-1	SanMiguelChimalapaZoque	FOOT	foot	maŋ-kuyʔ	maŋ-kuyʔ	m a ŋ + k u j ʔ	4 7 4 9 1 7 6 1	AXN_AXLN	MAN_KYJH	5	5.M.C 5.A.V 5.N.c 5._._ 5.K.C 5.Y.V 5.J.c 5.H.c	2.0 1.5 0.8 0.0 2.0 1.5 1.1 0.8	maŋ+kujʔ	0	236
+309	ChiapasZoque-31_foot-1	ChiapasZoque	FOOT	foot	neʔŋ-bak	neʔŋ-bak	n e ʔ ŋ + b a k	4 7 1 4 9 1 7 1	AXBC_AXN	NEHN_PAK	1	1.N.C 1.E.V 1.H.C 1.N.C 1._._ 1.P.C 1.A.V 1.K.c	2.0 1.5 1.75 1.5 0.0 2.0 1.5 0.8	neʔŋ+bak	0	232
+310	NorthHighlandMixe-32_full-1	NorthHighlandMixe	FULL	full	uts	uts	u ts	7 2	XN	YC	3	3.Y.V 3.C.c	1.5 0.8	uts	0	244
+311	SouthHighlandMixe-32_full-1	SouthHighlandMixe	FULL	full	uhts	uhts	u h ts	7 3 2	XLN	YHC	9	9.Y.V 9.H.c 9.C.c	1.5 1.1 0.8	uhts	0	250
+312	LowlandMixe-32_full-1	LowlandMixe	FULL	full	kuʔušy	kuʔušy	k u ʔ u ʃ j	1 7 1 7 3 6	AXBYBC	KYHYSJ	2	2.K.C 2.Y.V 2.H.C 2.Y.V 2.S.C 2.J.C	2.0 1.5 1.75 1.3 1.75 1.5	kuʔuʃj	0	243
+313	SayulaPopoluca-32_full-1	SayulaPopoluca	FULL	full	patsik	patsik	p a ts i k	1 7 2 7 1	AXBYN	PACIK	7	7.P.C 7.A.V 7.C.C 7.I.V 7.K.c	2.0 1.5 1.75 1.3 0.8	patsik	0	248
+314	OlutaPopoluca-32_full-1	OlutaPopoluca	FULL	full	utsi	utsi	u ts i	7 2 7	XBZ	YCI	4	4.Y.V 4.C.C 4.I.V	1.5 1.75 0.8	utsi	0	244
+315	TexistepecZoque-32_full-1	TexistepecZoque	FULL	full	kus-deʔ	kus-deʔ	k u s + d e ʔ	1 7 3 9 1 7 1	AXN_AXN	KYS_TEH	10	10.K.C 10.Y.V 10.S.c 10._._ 10.T.C 10.E.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kus+deʔ	0	251
+316	SoteapanZoque-32_full-1	SoteapanZoque	FULL	full	kus-ne	kus-ne	k u s + n e	1 7 3 9 4 7	AXN_AX	KYS_NE	8	8.K.C 8.Y.V 8.S.c 8._._ 8.N.C 8.E.V	2.0 1.5 0.8 0.0 2.0 1.5	kus+ne	0	249
+317	SantaMariaChimalapaZoque-32_full-1	SantaMariaChimalapaZoque	FULL	full	yag-aŋ-tas	yag-aŋ-tas	j a g + a ŋ + t a s	6 7 1 9 7 4 9 1 7 3	AXN_XN_AXN	JAK_AN_TAS	6	6.J.C 6.A.V 6.K.c 6._._ 6.A.V 6.N.c 6._._ 6.T.C 6.A.V 6.S.c	2.0 1.5 0.8 0.0 1.5 0.8 0.0 2.0 1.5 0.8	jag+aŋ+tas	0	247
+318	SanMiguelChimalapaZoque-32_full-1	SanMiguelChimalapaZoque	FULL	full	taš-əʔ	taš-əʔ	t a ʃ + ə ʔ	1 7 3 9 7 1	AXN_XN	TAS_EH	5	5.T.C 5.A.V 5.S.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	taʃ+əʔ	0	246
+319	ChiapasZoque-32_full-1	ChiapasZoque	FULL	full	hoʔəyupə	hoʔəyupə	h o ʔ ə j u p ə	3 7 1 7 6 7 1 7	AXBYBYBZ	HUHEJYPE	1	1.H.C 1.U.V 1.H.C 1.E.V 1.J.C 1.Y.V 1.P.C 1.E.V	2.0 1.5 1.75 1.3 1.75 1.3 1.75 0.8	hoʔəjupə	0	242
+320	NorthHighlandMixe-33_give-1	NorthHighlandMixe	GIVE	give	məʔə	məʔə	m ə ʔ ə	4 7 1 7	AXBZ	MEHE	3	3.M.C 3.E.V 3.H.C 3.E.V	2.0 1.5 1.75 0.8	məʔə	0	253
+321	SouthHighlandMixe-33_give-1	SouthHighlandMixe	GIVE	give	yak	yak	j a k	6 7 1	AXN	JAK	9	9.J.C 9.A.V 9.K.c	2.0 1.5 0.8	jak	0	260
+322	LowlandMixe-33_give-1	LowlandMixe	GIVE	give	moʔ	moʔ	m o ʔ	4 7 1	AXN	MUH	2	2.M.C 2.U.V 2.H.c	2.0 1.5 0.8	moʔ	0	253
+323	SayulaPopoluca-33_give-1	SayulaPopoluca	GIVE	give	moy ~ moʔ	moy	m o j	4 7 6	AXN	MUJ	7	7.M.C 7.U.V 7.J.c	2.0 1.5 0.8	moj	0	255
+324	SayulaPopoluca-33_give-2	SayulaPopoluca	GIVE	give	moy ~ moʔ	moʔ	m o ʔ	4 7 1	AXN	MUH	7	7.M.C 7.U.V 7.H.c	2.0 1.5 0.8	moʔ	0	253
+325	OlutaPopoluca-33_give-1	OlutaPopoluca	GIVE	give	moy ~ moʔ	moy	m o j	4 7 6	AXN	MUJ	4	4.M.C 4.U.V 4.J.c	2.0 1.5 0.8	moj	0	255
+326	OlutaPopoluca-33_give-2	OlutaPopoluca	GIVE	give	moy ~ moʔ	moʔ	m o ʔ	4 7 1	AXN	MUH	4	4.M.C 4.U.V 4.H.c	2.0 1.5 0.8	moʔ	0	253
+327	TexistepecZoque-33_give-1	TexistepecZoque	GIVE	give	čeʔ	čeʔ	tʃ e ʔ	1 7 1	AXN	TEH	10	10.T.C 10.E.V 10.H.c	2.0 1.5 0.8	tʃeʔ	0	252
+328	SoteapanZoque-33_give-1	SoteapanZoque	GIVE	give	čiʔ	čiʔ	tʃ i ʔ	1 7 1	AXN	TIH	8	8.T.C 8.I.V 8.H.c	2.0 1.5 0.8	tʃiʔ	0	252
+329	SantaMariaChimalapaZoque-33_give-1	SantaMariaChimalapaZoque	GIVE	give	tsiʔ	tsiʔ	ts i ʔ	2 7 1	AXN	CIH	6	6.C.C 6.I.V 6.H.c	2.0 1.5 0.8	tsiʔ	0	252
+330	SanMiguelChimalapaZoque-33_give-1	SanMiguelChimalapaZoque	GIVE	give	tsiʔ	tsiʔ	ts i ʔ	2 7 1	AXN	CIH	5	5.C.C 5.I.V 5.H.c	2.0 1.5 0.8	tsiʔ	0	252
+331	ChiapasZoque-33_give-1	ChiapasZoque	GIVE	give	čiʔ	čiʔ	tʃ i ʔ	1 7 1	AXN	TIH	1	1.T.C 1.I.V 1.H.c	2.0 1.5 0.8	tʃiʔ	0	252
+332	NorthHighlandMixe-34_good-1	NorthHighlandMixe	GOOD	good	oy	oy	o j	7 6	XN	UJ	3	3.U.V 3.J.c	1.5 0.8	oj	0	261
+333	SouthHighlandMixe-34_good-1	SouthHighlandMixe	GOOD	good	ey	ey	e j	7 6	XN	EJ	9	9.E.V 9.J.c	1.5 0.8	ej	0	261
+334	LowlandMixe-34_good-1	LowlandMixe	GOOD	good	oy	oy	o j	7 6	XN	UJ	2	2.U.V 2.J.c	1.5 0.8	oj	0	261
+335	SayulaPopoluca-34_good-1	SayulaPopoluca	GOOD	good	oy	oy	o j	7 6	XN	UJ	7	7.U.V 7.J.c	1.5 0.8	oj	0	261
+336	OlutaPopoluca-34_good-1	OlutaPopoluca	GOOD	good	(ni)oya	oya	o j a	7 6 7	XBZ	UJA	4	4.U.V 4.J.C 4.A.V	1.5 1.75 0.8	oja	0	261
+337	TexistepecZoque-34_good-1	TexistepecZoque	GOOD	good	wəə	wəə	w əː	6 7	AX	WE	10	10.W.C 10.E.V	2.0 1.5	wəː	0	267
+338	SoteapanZoque-34_good-1	SoteapanZoque	GOOD	good	wəə	wəə	w əː	6 7	AX	WE	8	8.W.C 8.E.V	2.0 1.5	wəː	0	267
+339	SanMiguelChimalapaZoque-34_good-1	SanMiguelChimalapaZoque	GOOD	good	wəhə	wəhə	w ə h ə	6 7 3 7	AXBZ	WEHE	5	5.W.C 5.E.V 5.H.C 5.E.V	2.0 1.5 1.75 0.8	wəhə	0	265
+340	ChiapasZoque-34_good-1	ChiapasZoque	GOOD	good	oye	oye	o j e	7 6 7	XBZ	UJE	1	1.U.V 1.J.C 1.E.V	1.5 1.75 0.8	oje	0	261
+341	NorthHighlandMixe-35_green-1	NorthHighlandMixe	GREEN	green	tsυšk	tsυšk	ts ʊ ʃ k	2 7 3 1	AXLN	CYSK	3	3.C.C 3.Y.V 3.S.c 3.K.c	2.0 1.5 1.1 0.8	tsʊʃk	0	269
+342	SouthHighlandMixe-35_green-1	SouthHighlandMixe	GREEN	green	tsušk	tsušk	ts u ʃ k	2 7 3 1	AXLN	CYSK	9	9.C.C 9.Y.V 9.S.c 9.K.c	2.0 1.5 1.1 0.8	tsuʃk	0	269
+343	LowlandMixe-35_green-1	LowlandMixe	GREEN	green	tsuš	tsuš	ts u ʃ	2 7 3	AXN	CYS	2	2.C.C 2.Y.V 2.S.c	2.0 1.5 0.8	tsuʃ	0	269
+344	SayulaPopoluca-35_green-1	SayulaPopoluca	GREEN	green	šušuk	šušuk	ʃ u ʃ u k	3 7 3 7 1	AXBYN	SYSYK	7	7.S.C 7.Y.V 7.S.C 7.Y.V 7.K.c	2.0 1.5 1.75 1.3 0.8	ʃuʃuk	0	274
+345	OlutaPopoluca-35_green-1	OlutaPopoluca	GREEN	green	tušuʔk	tušuʔk	t u ʃ u ʔ k	1 7 3 7 1 1	AXBYLN	TYSYHK	4	4.T.C 4.Y.V 4.S.C 4.Y.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	tuʃuʔk	0	271
+346	TexistepecZoque-35_green-1	TexistepecZoque	GREEN	green	tsuus	tsuus	ts uː s	2 7 3	AXN	CYS	10	10.C.C 10.Y.V 10.S.c	2.0 1.5 0.8	tsuːs	0	269
+347	SoteapanZoque-35_green-1	SoteapanZoque	GREEN	green	tsuus	tsuus	ts uː s	2 7 3	AXN	CYS	8	8.C.C 8.Y.V 8.S.c	2.0 1.5 0.8	tsuːs	0	269
+348	SantaMariaChimalapaZoque-35_green-1	SantaMariaChimalapaZoque	GREEN	green	tsuhus	tsuhus	ts u h u s	2 7 3 7 3	AXBYN	CYHYS	6	6.C.C 6.Y.V 6.H.C 6.Y.V 6.S.c	2.0 1.5 1.75 1.3 0.8	tsuhus	0	273
+349	SanMiguelChimalapaZoque-35_green-1	SanMiguelChimalapaZoque	GREEN	green	tsuš	tsuš	ts u ʃ	2 7 3	AXN	CYS	5	5.C.C 5.Y.V 5.S.c	2.0 1.5 0.8	tsuʃ	0	269
+350	ChiapasZoque-35_green-1	ChiapasZoque	GREEN	green	tsuhtsu	tsuhtsu	ts u h ts u	2 7 3 2 7	AXMBZ	CYHCY	1	1.C.C 1.Y.V 1.H.c 1.C.C 1.Y.V	2.0 1.5 1.1 1.75 0.8	tsuhtsu	0	268
+351	NorthHighlandMixe-36_hair-1	NorthHighlandMixe	HAIR	hair	vaahy	vaahy	v aː h j	3 7 3 6	AXBC	BAHJ	3	3.B.C 3.A.V 3.H.C 3.J.C	2.0 1.5 1.75 1.5	vaːhj	0	277
+352	SouthHighlandMixe-36_hair-1	SouthHighlandMixe	HAIR	hair	waay	waay	w aː j	6 7 6	AXN	WAJ	9	9.W.C 9.A.V 9.J.c	2.0 1.5 0.8	waːj	0	275
+353	LowlandMixe-36_hair-1	LowlandMixe	HAIR	hair	waay	waay	w aː j	6 7 6	AXN	WAJ	2	2.W.C 2.A.V 2.J.c	2.0 1.5 0.8	waːj	0	275
+354	TexistepecZoque-36_hair-1	TexistepecZoque	HAIR	hair	waʔy	waʔy	w a ʔ j	6 7 1 6	AXBC	WAHJ	10	10.W.C 10.A.V 10.H.C 10.J.C	2.0 1.5 1.75 1.5	waʔj	0	277
+355	SoteapanZoque-36_hair-1	SoteapanZoque	HAIR	hair	way	way	w a j	6 7 6	AXN	WAJ	8	8.W.C 8.A.V 8.J.c	2.0 1.5 0.8	waj	0	275
+356	SantaMariaChimalapaZoque-36_hair-1	SantaMariaChimalapaZoque	HAIR	hair	waʔy	waʔy	w a ʔ j	6 7 1 6	AXBC	WAHJ	6	6.W.C 6.A.V 6.H.C 6.J.C	2.0 1.5 1.75 1.5	waʔj	0	277
+357	SanMiguelChimalapaZoque-36_hair-1	SanMiguelChimalapaZoque	HAIR	hair	wayʔ	wayʔ	w a j ʔ	6 7 6 1	AXLN	WAJH	5	5.W.C 5.A.V 5.J.c 5.H.c	2.0 1.5 1.1 0.8	wajʔ	0	275
+358	ChiapasZoque-36_hair-1	ChiapasZoque	HAIR	hair	way	way	w a j	6 7 6	AXN	WAJ	1	1.W.C 1.A.V 1.J.c	2.0 1.5 0.8	waj	0	275
+359	SayulaPopoluca-36_hair-1	SayulaPopoluca	HAIR	hair	pəhk	pəhk	p ə h k	1 7 3 1	AXLN	PEHK	7	7.P.C 7.E.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	pəhk	0	278
+360	OlutaPopoluca-36_hair-1	OlutaPopoluca	HAIR	hair	pəkə	pəkə	p ə k ə	1 7 1 7	AXBZ	PEKE	4	4.P.C 4.E.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	pəkə	1	278
+361	ChiapasZoque-36_hair-2	ChiapasZoque	HAIR	hair	pək	pək	p ə k	1 7 1	AXN	PEK	1	1.P.C 1.E.V 1.K.c	2.0 1.5 0.8	pək	1	278
+362	NorthHighlandMixe-37_hand-1	NorthHighlandMixe	HAND	hand	kəʔə	kəʔə	k ə ʔ ə	1 7 1 7	AXBZ	KEHE	3	3.K.C 3.E.V 3.H.C 3.E.V	2.0 1.5 1.75 0.8	kəʔə	0	279
+363	SouthHighlandMixe-37_hand-1	SouthHighlandMixe	HAND	hand	kəʔə	kəʔə	k ə ʔ ə	1 7 1 7	AXBZ	KEHE	9	9.K.C 9.E.V 9.H.C 9.E.V	2.0 1.5 1.75 0.8	kəʔə	0	279
+364	LowlandMixe-37_hand-1	LowlandMixe	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	2	2.K.C 2.E.V 2.H.c	2.0 1.5 0.8	kəʔ	0	279
+365	SayulaPopoluca-37_hand-1	SayulaPopoluca	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	7	7.K.C 7.E.V 7.H.c	2.0 1.5 0.8	kəʔ	0	279
+366	OlutaPopoluca-37_hand-1	OlutaPopoluca	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	4	4.K.C 4.E.V 4.H.c	2.0 1.5 0.8	kəʔ	0	279
+367	TexistepecZoque-37_hand-1	TexistepecZoque	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	10	10.K.C 10.E.V 10.H.c	2.0 1.5 0.8	kəʔ	0	279
+368	SoteapanZoque-37_hand-1	SoteapanZoque	HAND	hand	kə	kə	k ə	1 7	AX	KE	8	8.K.C 8.E.V	2.0 1.5	kə	0	279
+369	SantaMariaChimalapaZoque-37_hand-1	SantaMariaChimalapaZoque	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	6	6.K.C 6.E.V 6.H.c	2.0 1.5 0.8	kəʔ	0	279
+370	SanMiguelChimalapaZoque-37_hand-1	SanMiguelChimalapaZoque	HAND	hand	tsaŋ-kuyʔ	tsaŋ-kuyʔ	ts a ŋ + k u j ʔ	2 7 4 9 1 7 6 1	AXN_AXLN	CAN_KYJH	5	5.C.C 5.A.V 5.N.c 5._._ 5.K.C 5.Y.V 5.J.c 5.H.c	2.0 1.5 0.8 0.0 2.0 1.5 1.1 0.8	tsaŋ+kujʔ	0	283
+371	ChiapasZoque-37_hand-1	ChiapasZoque	HAND	hand	kəʔ	kəʔ	k ə ʔ	1 7 1	AXN	KEH	1	1.K.C 1.E.V 1.H.c	2.0 1.5 0.8	kəʔ	0	279
+372	NorthHighlandMixe-38_head-1	NorthHighlandMixe	HEAD	head	kuvahk	kuvahk	k u v a h k	1 7 3 7 3 1	AXBYLN	KYBAHK	3	3.K.C 3.Y.V 3.B.C 3.A.V 3.H.c 3.K.c	2.0 1.5 1.75 1.3 1.1 0.8	kuvahk	0	284
+373	SouthHighlandMixe-38_head-1	SouthHighlandMixe	HEAD	head	kəpaahk	kəpaahk	k ə p aː h k	1 7 1 7 3 1	AXBYLN	KEPAHK	9	9.K.C 9.E.V 9.P.C 9.A.V 9.H.c 9.K.c	2.0 1.5 1.75 1.3 1.1 0.8	kəpaːhk	0	284
+374	LowlandMixe-38_head-1	LowlandMixe	HEAD	head	kowahk	kowahk	k o w a h k	1 7 6 7 3 1	AXBYLN	KUWAHK	2	2.K.C 2.U.V 2.W.C 2.A.V 2.H.c 2.K.c	2.0 1.5 1.75 1.3 1.1 0.8	kowahk	0	284
+375	SayulaPopoluca-38_head-1	SayulaPopoluca	HEAD	head	kopak	kopak	k o p a k	1 7 1 7 1	AXBYN	KUPAK	7	7.K.C 7.U.V 7.P.C 7.A.V 7.K.c	2.0 1.5 1.75 1.3 0.8	kopak	0	284
+376	OlutaPopoluca-38_head-1	OlutaPopoluca	HEAD	head	koʔpaʔk	koʔpaʔk	k o ʔ p a ʔ k	1 7 1 1 7 1 1	AXMBYLN	KUHPAHK	4	4.K.C 4.U.V 4.H.c 4.P.C 4.A.V 4.H.c 4.K.c	2.0 1.5 1.1 1.75 1.3 1.1 0.8	koʔpaʔk	0	284
+377	TexistepecZoque-38_head-1	TexistepecZoque	HEAD	head	kopək	kopək	k o p ə k	1 7 1 7 1	AXBYN	KUPEK	10	10.K.C 10.U.V 10.P.C 10.E.V 10.K.c	2.0 1.5 1.75 1.3 0.8	kopək	0	284
+378	SoteapanZoque-38_head-1	SoteapanZoque	HEAD	head	koobak	koobak	k oː b a k	1 7 1 7 1	AXBYN	KUPAK	8	8.K.C 8.U.V 8.P.C 8.A.V 8.K.c	2.0 1.5 1.75 1.3 0.8	koːbak	0	284
+379	SantaMariaChimalapaZoque-38_head-1	SantaMariaChimalapaZoque	HEAD	head	waʔy	waʔy	w a ʔ j	6 7 1 6	AXBC	WAHJ	6	6.W.C 6.A.V 6.H.C 6.J.C	2.0 1.5 1.75 1.5	waʔj	1	289
+380	SanMiguelChimalapaZoque-38_head-1	SanMiguelChimalapaZoque	HEAD	head	kopak	kopak	k o p a k	1 7 1 7 1	AXBYN	KUPAK	5	5.K.C 5.U.V 5.P.C 5.A.V 5.K.c	2.0 1.5 1.75 1.3 0.8	kopak	0	284
+381	ChiapasZoque-38_head-1	ChiapasZoque	HEAD	head	kopak	kopak	k o p a k	1 7 1 7 1	AXBYN	KUPAK	1	1.K.C 1.U.V 1.P.C 1.A.V 1.K.c	2.0 1.5 1.75 1.3 0.8	kopak	0	284
+382	NorthHighlandMixe-39_hear-1	NorthHighlandMixe	HEAR	hear	motu	motu	m o t u	4 7 1 7	AXBZ	MUTY	3	3.M.C 3.U.V 3.T.C 3.Y.V	2.0 1.5 1.75 0.8	motu	0	290
+383	SouthHighlandMixe-39_hear-1	SouthHighlandMixe	HEAR	hear	mətoo	mətoo	m ə t oː	4 7 1 7	AXBZ	METU	9	9.M.C 9.E.V 9.T.C 9.U.V	2.0 1.5 1.75 0.8	mətoː	0	290
+384	LowlandMixe-39_hear-1	LowlandMixe	HEAR	hear	mədoogugəʔ	mədoogugəʔ	m ə d oː g u g ə ʔ	4 7 1 7 1 7 1 7 1	AXBYBYBYN	METUKYKEH	2	2.M.C 2.E.V 2.T.C 2.U.V 2.K.C 2.Y.V 2.K.C 2.E.V 2.H.c	2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.3 0.8	mədoːgugəʔ	0	291
+385	SayulaPopoluca-39_hear-1	SayulaPopoluca	HEAR	hear	maraw	maraw	m a r a w	4 7 5 7 6	AXBYN	MARAW	7	7.M.C 7.A.V 7.R.C 7.A.V 7.W.c	2.0 1.5 1.75 1.3 0.8	maraw	0	296
+386	OlutaPopoluca-39_hear-1	OlutaPopoluca	HEAR	hear	motov	motov	m o t o v	4 7 1 7 3	AXBYN	MUTUB	4	4.M.C 4.U.V 4.T.C 4.U.V 4.B.c	2.0 1.5 1.75 1.3 0.8	motov	0	290
+387	TexistepecZoque-39_hear-1	TexistepecZoque	HEAR	hear	batəŋ	batəŋ	b a t ə ŋ	1 7 1 7 4	AXBYN	PATEN	10	10.P.C 10.A.V 10.T.C 10.E.V 10.N.c	2.0 1.5 1.75 1.3 0.8	batəŋ	0	299
+388	SoteapanZoque-39_hear-1	SoteapanZoque	HEAR	hear	aŋ-təən	aŋ-təən	a ŋ + t əː n	7 4 9 1 7 4	XN_AXN	AN_TEN	8	8.A.V 8.N.c 8._._ 8.T.C 8.E.V 8.N.c	1.5 0.8 0.0 2.0 1.5 0.8	aŋ+təːn	0	297
+389	SantaMariaChimalapaZoque-39_hear-1	SantaMariaChimalapaZoque	HEAR	hear	matoŋ	matoŋ	m a t o ŋ	4 7 1 7 4	AXBYN	MATUN	6	6.M.C 6.A.V 6.T.C 6.U.V 6.N.c	2.0 1.5 1.75 1.3 0.8	matoŋ	0	290
+390	SanMiguelChimalapaZoque-39_hear-1	SanMiguelChimalapaZoque	HEAR	hear	matoŋ	matoŋ	m a t o ŋ	4 7 1 7 4	AXBYN	MATUN	5	5.M.C 5.A.V 5.T.C 5.U.V 5.N.c	2.0 1.5 1.75 1.3 0.8	matoŋ	0	290
+391	ChiapasZoque-39_hear-1	ChiapasZoque	HEAR	hear	matoŋ	matoŋ	m a t o ŋ	4 7 1 7 4	AXBYN	MATUN	1	1.M.C 1.A.V 1.T.C 1.U.V 1.N.c	2.0 1.5 1.75 1.3 0.8	matoŋ	0	290
+392	NorthHighlandMixe-40_heart-1	NorthHighlandMixe	HEART	heart	haʔvin	haʔvin	h a ʔ v i n	3 7 1 3 7 4	AXBCYN	HAHBIN	3	3.H.C 3.A.V 3.H.C 3.B.C 3.I.V 3.N.c	2.0 1.5 1.75 1.5 1.3 0.8	haʔvin	0	302
+393	SouthHighlandMixe-40_heart-1	SouthHighlandMixe	HEART	heart	anmə-haʔan	anmə-haʔan	a n m ə + h a ʔ a n	7 4 4 7 9 3 7 1 7 4	XMBZ_AXBYN	ANME_HAHAN	9	9.A.V 9.N.c 9.M.C 9.E.V 9._._ 9.H.C 9.A.V 9.H.C 9.A.V 9.N.c	1.5 1.1 1.75 0.8 0.0 2.0 1.5 1.75 1.3 0.8	anmə+haʔan	0	307
+394	LowlandMixe-40_heart-1	LowlandMixe	HEART	heart	huuky-hot	huuky-hot	h uː k j + h o t	3 7 1 6 9 3 7 1	AXBC_AXN	HYKJ_HUT	2	2.H.C 2.Y.V 2.K.C 2.J.C 2._._ 2.H.C 2.U.V 2.T.c	2.0 1.5 1.75 1.5 0.0 2.0 1.5 0.8	huːkj+hot	0	301
+395	OlutaPopoluca-40_heart-1	OlutaPopoluca	HEART	heart	hutukotə	hutukotə	h u t u k o t ə	3 7 1 7 1 7 1 7	AXBYBYBZ	HYTYKUTE	4	4.H.C 4.Y.V 4.T.C 4.Y.V 4.K.C 4.U.V 4.T.C 4.E.V	2.0 1.5 1.75 1.3 1.75 1.3 1.75 0.8	hutukotə	0	303
+396	TexistepecZoque-40_heart-1	TexistepecZoque	HEART	heart	tsookoʔ	tsookoʔ	ts oː k o ʔ	2 7 1 7 1	AXBYN	CUKUH	10	10.C.C 10.U.V 10.K.C 10.U.V 10.H.c	2.0 1.5 1.75 1.3 0.8	tsoːkoʔ	0	300
+397	SoteapanZoque-40_heart-1	SoteapanZoque	HEART	heart	aanamah	aanamah	aː n a m a h	7 4 7 4 7 3	XBYBYN	ANAMAH	8	8.A.V 8.N.C 8.A.V 8.M.C 8.A.V 8.H.c	1.5 1.75 1.3 1.75 1.3 0.8	aːnamah	0	306
+398	SantaMariaChimalapaZoque-40_heart-1	SantaMariaChimalapaZoque	HEART	heart	tsokoʔy	tsokoʔy	ts o k o ʔ j	2 7 1 7 1 6	AXBYBC	CUKUHJ	6	6.C.C 6.U.V 6.K.C 6.U.V 6.H.C 6.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tsokoʔj	0	300
+399	SanMiguelChimalapaZoque-40_heart-1	SanMiguelChimalapaZoque	HEART	heart	tsokoyʔ	tsokoyʔ	ts o k o j ʔ	2 7 1 7 6 1	AXBYLN	CUKUJH	5	5.C.C 5.U.V 5.K.C 5.U.V 5.J.c 5.H.c	2.0 1.5 1.75 1.3 1.1 0.8	tsokojʔ	0	300
+400	ChiapasZoque-40_heart-1	ChiapasZoque	HEART	heart	tsokoy	tsokoy	ts o k o j	2 7 1 7 6	AXBYN	CUKUJ	1	1.C.C 1.U.V 1.K.C 1.U.V 1.J.c	2.0 1.5 1.75 1.3 0.8	tsokoj	0	300
+1012	NorthHighlandMixe-102_heavy-1	NorthHighlandMixe	HEAVY	heavy	hemïts	hemïts	h e m ɨ ts	3 7 4 7 2	AXBYN	HEMIC	3	3.H.C 3.E.V 3.M.C 3.I.V 3.C.c	2.0 1.5 1.75 1.3 0.8	hemɨts	0	308
+1013	SouthHighlandMixe-102_heavy-1	SouthHighlandMixe	HEAVY	heavy	heʔmšy	heʔmšy	h e ʔ m ʃ j	3 7 1 4 3 6	AXBYBC	HEHMSJ	9	9.H.C 9.E.V 9.H.C 9.M.V 9.S.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	heʔmʃj	0	309
+1014	LowlandMixe-102_heavy-1	LowlandMixe	HEAVY	heavy	hemšy	hemšy	h e m ʃ j	3 7 4 3 6	AXMBC	HEMSJ	2	2.H.C 2.E.V 2.M.c 2.S.C 2.J.C	2.0 1.5 1.1 1.75 1.5	hemʃj	0	309
+1015	SayulaPopoluca-102_heavy-1	SayulaPopoluca	HEAVY	heavy	uʔts	uʔts	u ʔ ts	7 1 2	XBC	YHC	7	7.Y.V 7.H.C 7.C.C	1.5 1.75 1.5	uʔts	0	313
+1016	TexistepecZoque-102_heavy-1	TexistepecZoque	HEAVY	heavy	tsaʔks-naʔ	tsaʔks-naʔ	ts a ʔ k s + n a ʔ	2 7 1 1 3 9 4 7 1	AXMBC_AXN	CAHKS_NAH	10	10.C.C 10.A.V 10.H.c 10.K.C 10.S.C 10._._ 10.N.C 10.A.V 10.H.c	2.0 1.5 1.1 1.75 1.5 0.0 2.0 1.5 0.8	tsaʔks+naʔ	0	314
+1017	SoteapanZoque-102_heavy-1	SoteapanZoque	HEAVY	heavy	tsakš-ñi	tsakš-ñi	ts a k ʃ + ɲ i	2 7 1 3 9 4 7	AXBC_AX	CAKS_NI	8	8.C.C 8.A.V 8.K.C 8.S.C 8._._ 8.N.C 8.I.V	2.0 1.5 1.75 1.5 0.0 2.0 1.5	tsakʃ+ɲi	0	314
+1018	SantaMariaChimalapaZoque-102_heavy-1	SantaMariaChimalapaZoque	HEAVY	heavy	hemets	hemets	h e m e ts	3 7 4 7 2	AXBYN	HEMEC	6	6.H.C 6.E.V 6.M.C 6.E.V 6.C.c	2.0 1.5 1.75 1.3 0.8	hemets	0	308
+1019	SanMiguelChimalapaZoque-102_heavy-1	SanMiguelChimalapaZoque	HEAVY	heavy	hemeʔts	hemeʔts	h e m e ʔ ts	3 7 4 7 1 2	AXBYBC	HEMEHC	5	5.H.C 5.E.V 5.M.C 5.E.V 5.H.C 5.C.C	2.0 1.5 1.75 1.3 1.75 1.5	hemeʔts	0	308
+1020	ChiapasZoque-102_heavy-1	ChiapasZoque	HEAVY	heavy	hemets	hemets	h e m e ts	3 7 4 7 2	AXBYN	HEMEC	1	1.H.C 1.E.V 1.M.C 1.E.V 1.C.c	2.0 1.5 1.75 1.3 0.8	hemets	0	308
+401	NorthHighlandMixe-41_horn-1	NorthHighlandMixe	HORN (ANATOMY)	horn	vah	vah	v a h	3 7 3	AXN	BAH	3	3.B.C 3.A.V 3.H.c	2.0 1.5 0.8	vah	0	315
+402	SouthHighlandMixe-41_horn-1	SouthHighlandMixe	HORN (ANATOMY)	horn	wah	wah	w a h	6 7 3	AXN	WAH	9	9.W.C 9.A.V 9.H.c	2.0 1.5 0.8	wah	0	315
+403	LowlandMixe-41_horn-1	LowlandMixe	HORN (ANATOMY)	horn	muʔn	muʔn	m u ʔ n	4 7 1 4	AXBC	MYHN	2	2.M.C 2.Y.V 2.H.C 2.N.C	2.0 1.5 1.75 1.5	muʔn	0	316
+404	SayulaPopoluca-41_horn-1	SayulaPopoluca	HORN (ANATOMY)	horn	wah	wah	w a h	6 7 3	AXN	WAH	7	7.W.C 7.A.V 7.H.c	2.0 1.5 0.8	wah	0	315
+405	OlutaPopoluca-41_horn-1	OlutaPopoluca	HORN (ANATOMY)	horn	vaha	vaha	v a h a	3 7 3 7	AXBZ	BAHA	4	4.B.C 4.A.V 4.H.C 4.A.V	2.0 1.5 1.75 0.8	vaha	0	315
+406	TexistepecZoque-41_horn-1	TexistepecZoque	HORN (ANATOMY)	horn	waaŋaʔ	waaŋaʔ	w aː ŋ a ʔ	6 7 4 7 1	AXBYN	WANAH	10	10.W.C 10.A.V 10.N.C 10.A.V 10.H.c	2.0 1.5 1.75 1.3 0.8	waːŋaʔ	0	319
+407	SanMiguelChimalapaZoque-41_horn-1	SanMiguelChimalapaZoque	HORN (ANATOMY)	horn	wekaʔ	wekaʔ	w e k a ʔ	6 7 1 7 1	AXBYN	WEKAH	5	5.W.C 5.E.V 5.K.C 5.A.V 5.H.c	2.0 1.5 1.75 1.3 0.8	wekaʔ	0	319
+408	ChiapasZoque-41_horn-1	ChiapasZoque	HORN (ANATOMY)	horn	waʔ	waʔ	w a ʔ	6 7 1	AXN	WAH	1	1.W.C 1.A.V 1.H.c	2.0 1.5 0.8	waʔ	0	315
+409	NorthHighlandMixe-42_i-1	NorthHighlandMixe	I	I	əts	əts	ə ts	7 2	XN	EC	3	3.E.V 3.C.c	1.5 0.8	əts	0	321
+410	SouthHighlandMixe-42_i-1	SouthHighlandMixe	I	I	əts	əts	ə ts	7 2	XN	EC	9	9.E.V 9.C.c	1.5 0.8	əts	0	321
+411	LowlandMixe-42_i-1	LowlandMixe	I	I	əəč	əəč	əː tʃ	7 1	XN	ET	2	2.E.V 2.T.c	1.5 0.8	əːtʃ	0	321
+412	SayulaPopoluca-42_i-1	SayulaPopoluca	I	I	əə, əəts	əə	əː	7	X	E	7	7.E.V	1.5	əː	0	326
+413	SayulaPopoluca-42_i-2	SayulaPopoluca	I	I	əə, əəts	əəts	əː ts	7 2	XN	EC	7	7.E.V 7.C.c	1.5 0.8	əːts	0	321
+414	OlutaPopoluca-42_i-1	OlutaPopoluca	I	I	əəs	əəs	əː s	7 3	XN	ES	4	4.E.V 4.S.c	1.5 0.8	əːs	0	320
+415	TexistepecZoque-42_i-1	TexistepecZoque	I	I	ʔətsəʔ	ʔətsəʔ	ʔ ə ts ə ʔ	1 7 2 7 1	AXBYN	HECEH	10	10.H.C 10.E.V 10.C.C 10.E.V 10.H.c	2.0 1.5 1.75 1.3 0.8	ʔətsəʔ	0	325
+416	SoteapanZoque-42_i-1	SoteapanZoque	I	I	əč	əč	ə tʃ	7 1	XN	ET	8	8.E.V 8.T.c	1.5 0.8	ətʃ	0	321
+417	SantaMariaChimalapaZoque-42_i-1	SantaMariaChimalapaZoque	I	I	ətstsiʔ	ətstsiʔ	ə tsː i ʔ	7 1 7 1	XBYN	ETIH	6	6.E.V 6.T.C 6.I.V 6.H.c	1.5 1.75 1.3 0.8	ətsːiʔ	0	325
+418	SanMiguelChimalapaZoque-42_i-1	SanMiguelChimalapaZoque	I	I	də-š	də-š	d ə + ʃ	1 7 9 3	AX_A	TE_S	5	5.T.C 5.E.V 5._._ 5.S.C	2.0 1.5 0.0 2.0	də+ʃ	0	324
+419	ChiapasZoque-42_i-1	ChiapasZoque	I	I	əh	əh	ə h	7 3	XN	EH	1	1.E.V 1.H.c	1.5 0.8	əh	0	320
+420	NorthHighlandMixe-43_kill-1	NorthHighlandMixe	KILL	kill	yak-ʔook ~ yak-ʔooʔk	yak-ʔook	j a k + ʔ oː k	6 7 1 9 1 7 1	AXN_AXN	JAK_HUK	3	3.J.C 3.A.V 3.K.c 3._._ 3.H.C 3.U.V 3.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jak+ʔoːk	0	329
+421	NorthHighlandMixe-43_kill-2	NorthHighlandMixe	KILL	kill	yak-ʔook ~ yak-ʔooʔk	yak-ʔooʔk	j a k + ʔ oː ʔ k	6 7 1 9 1 7 1 1	AXN_AXLN	JAK_HUHK	3	3.J.C 3.A.V 3.K.c 3._._ 3.H.C 3.U.V 3.H.c 3.K.c	2.0 1.5 0.8 0.0 2.0 1.5 1.1 0.8	jak+ʔoːʔk	0	329
+422	SouthHighlandMixe-43_kill-1	SouthHighlandMixe	KILL	kill	æk-ook	æk-ook	æ k + oː k	7 1 9 7 1	XN_XN	EK_UK	9	9.E.V 9.K.c 9._._ 9.U.V 9.K.c	1.5 0.8 0.0 1.5 0.8	æk+oːk	0	330
+423	LowlandMixe-43_kill-1	LowlandMixe	KILL	kill	yah-ʔoʔok	yah-ʔoʔok	j a h + ʔ o ʔ o k	6 7 3 9 1 7 1 7 1	AXN_AXBYN	JAH_HUHUK	2	2.J.C 2.A.V 2.H.c 2._._ 2.H.C 2.U.V 2.H.C 2.U.V 2.K.c	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.3 0.8	jah+ʔoʔok	0	328
+424	SayulaPopoluca-43_kill-1	SayulaPopoluca	KILL	kill	ag-oʔk	ag-oʔk	a g + o ʔ k	7 1 9 7 1 1	XN_XLN	AK_UHK	7	7.A.V 7.K.c 7._._ 7.U.V 7.H.c 7.K.c	1.5 0.8 0.0 1.5 1.1 0.8	ag+oʔk	0	330
+425	OlutaPopoluca-43_kill-1	OlutaPopoluca	KILL	kill	yak-ook	yak-ook	j a k + oː k	6 7 1 9 7 1	AXN_XN	JAK_UK	4	4.J.C 4.A.V 4.K.c 4._._ 4.U.V 4.K.c	2.0 1.5 0.8 0.0 1.5 0.8	jak+oːk	0	330
+426	TexistepecZoque-43_kill-1	TexistepecZoque	KILL	kill	yakaʔ	yakaʔ	j a k a ʔ	6 7 1 7 1	AXBYN	JAKAH	10	10.J.C 10.A.V 10.K.C 10.A.V 10.H.c	2.0 1.5 1.75 1.3 0.8	jakaʔ	0	336
+427	SoteapanZoque-43_kill-1	SoteapanZoque	KILL	kill	ik-kaʔ	ik-kaʔ	i k + k a ʔ	7 1 9 1 7 1	XN_AXN	IK_KAH	8	8.I.V 8.K.c 8._._ 8.K.C 8.A.V 8.H.c	1.5 0.8 0.0 2.0 1.5 0.8	ik+kaʔ	0	332
+428	SantaMariaChimalapaZoque-43_kill-1	SantaMariaChimalapaZoque	KILL	kill	yak-kaʔh	yak-kaʔh	j a k + k a ʔ h	6 7 1 9 1 7 1 3	AXN_AXBC	JAK_KAHH	6	6.J.C 6.A.V 6.K.c 6._._ 6.K.C 6.A.V 6.H.C 6.H.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	jak+kaʔh	0	332
+429	SanMiguelChimalapaZoque-43_kill-1	SanMiguelChimalapaZoque	KILL	kill	yak-ʔoy	yak-ʔoy	j a k + ʔ o j	6 7 1 9 1 7 6	AXN_AXN	JAK_HUJ	5	5.J.C 5.A.V 5.K.c 5._._ 5.H.C 5.U.V 5.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jak+ʔoj	0	329
+430	ChiapasZoque-43_kill-1	ChiapasZoque	KILL	kill	yah-kaʔ	yah-kaʔ	j a h + k a ʔ	6 7 3 9 1 7 1	AXN_AXN	JAH_KAH	1	1.J.C 1.A.V 1.H.c 1._._ 1.K.C 1.A.V 1.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jah+kaʔ	0	327
+431	NorthHighlandMixe-44_knee-1	NorthHighlandMixe	KNEE	knee	koš	koš	k o ʃ	1 7 3	AXN	KUS	3	3.K.C 3.U.V 3.S.c	2.0 1.5 0.8	koʃ	0	339
+432	SouthHighlandMixe-44_knee-1	SouthHighlandMixe	KNEE	knee	koš	koš	k o ʃ	1 7 3	AXN	KUS	9	9.K.C 9.U.V 9.S.c	2.0 1.5 0.8	koʃ	0	339
+433	LowlandMixe-44_knee-1	LowlandMixe	KNEE	knee	koškohwahk	koškohwahk	k o ʃ k o h w a h k	1 7 3 1 7 3 6 7 3 1	AXMBYBCYLN	KUSKUHWAHK	2	2.K.C 2.U.V 2.S.c 2.K.C 2.U.V 2.H.C 2.W.C 2.A.V 2.H.c 2.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.5 1.3 1.1 0.8	koʃkohwahk	0	338
+434	SayulaPopoluca-44_knee-1	SayulaPopoluca	KNEE	knee	košk	košk	k o ʃ k	1 7 3 1	AXLN	KUSK	7	7.K.C 7.U.V 7.S.c 7.K.c	2.0 1.5 1.1 0.8	koʃk	0	339
+435	OlutaPopoluca-44_knee-1	OlutaPopoluca	KNEE	knee	košo	košo	k o ʃ o	1 7 3 7	AXBZ	KUSU	4	4.K.C 4.U.V 4.S.C 4.U.V	2.0 1.5 1.75 0.8	koʃo	0	339
+436	TexistepecZoque-44_knee-1	TexistepecZoque	KNEE	knee	koosoʔ	koosoʔ	k oː s o ʔ	1 7 3 7 1	AXBYN	KUSUH	10	10.K.C 10.U.V 10.S.C 10.U.V 10.H.c	2.0 1.5 1.75 1.3 0.8	koːsoʔ	0	339
+437	SoteapanZoque-44_knee-1	SoteapanZoque	KNEE	knee	kooso	kooso	k oː s o	1 7 3 7	AXBZ	KUSU	8	8.K.C 8.U.V 8.S.C 8.U.V	2.0 1.5 1.75 0.8	koːso	0	339
+438	SantaMariaChimalapaZoque-44_knee-1	SantaMariaChimalapaZoque	KNEE	knee	koʔma	koʔma	k o ʔ m a	1 7 1 4 7	AXBCZ	KUHMA	6	6.K.C 6.U.V 6.H.C 6.M.C 6.A.V	2.0 1.5 1.75 1.5 0.8	koʔma	0	342
+439	SanMiguelChimalapaZoque-44_knee-1	SanMiguelChimalapaZoque	KNEE	knee	komaʔ	komaʔ	k o m a ʔ	1 7 4 7 1	AXBYN	KUMAH	5	5.K.C 5.U.V 5.M.C 5.A.V 5.H.c	2.0 1.5 1.75 1.3 0.8	komaʔ	0	341
+440	ChiapasZoque-44_knee-1	ChiapasZoque	KNEE	knee	tungupyoʔk	tungupyoʔk	t u n g u p j o ʔ k	1 7 4 1 7 1 6 7 1 1	AXMBYBCYLN	TYNKYPJUHK	1	1.T.C 1.Y.V 1.N.c 1.K.C 1.Y.V 1.P.C 1.J.C 1.U.V 1.H.c 1.K.c	2.0 1.5 1.1 1.75 1.3 1.75 1.5 1.3 1.1 0.8	tungupjoʔk	0	337
+441	NorthHighlandMixe-45_know-1	NorthHighlandMixe	KNOW	know	nəhava	nəhava	n ə h a v a	4 7 3 7 3 7	AXBYBZ	NEHABA	3	3.N.C 3.E.V 3.H.C 3.A.V 3.B.C 3.A.V	2.0 1.5 1.75 1.3 1.75 0.8	nəhava	0	345
+442	SouthHighlandMixe-45_know-1	SouthHighlandMixe	KNOW	know	naw	naw	n a w	4 7 6	AXN	NAW	9	9.N.C 9.A.V 9.W.c	2.0 1.5 0.8	naw	0	351
+443	LowlandMixe-45_know-1	LowlandMixe	KNOW	know	nehwəəy	nehwəəy	n e h w əː j	4 7 3 6 7 6	AXBCYN	NEHWEJ	2	2.N.C 2.E.V 2.H.C 2.W.C 2.E.V 2.J.c	2.0 1.5 1.75 1.5 1.3 0.8	nehwəːj	0	344
+444	SayulaPopoluca-45_know-1	SayulaPopoluca	KNOW	know	hawi	hawi	h a w i	3 7 6 7	AXBZ	HAWI	7	7.H.C 7.A.V 7.W.C 7.I.V	2.0 1.5 1.75 0.8	hawi	0	349
+445	OlutaPopoluca-45_know-1	OlutaPopoluca	KNOW	know	viniy	viniy	v i n i j	3 7 4 7 6	AXBYN	BINIJ	4	4.B.C 4.I.V 4.N.C 4.I.V 4.J.c	2.0 1.5 1.75 1.3 0.8	vinij	0	346
+446	TexistepecZoque-45_know-1	TexistepecZoque	KNOW	know	bus	bus	b u s	1 7 3	AXN	PYS	10	10.P.C 10.Y.V 10.S.c	2.0 1.5 0.8	bus	0	352
+447	SoteapanZoque-45_know-1	SoteapanZoque	KNOW	know	hoodoʔŋ	hoodoʔŋ	h oː d o ʔ ŋ	3 7 1 7 1 4	AXBYBC	HUTUHN	8	8.H.C 8.U.V 8.T.C 8.U.V 8.H.C 8.N.C	2.0 1.5 1.75 1.3 1.75 1.5	hoːdoʔŋ	0	350
+448	SantaMariaChimalapaZoque-45_know-1	SantaMariaChimalapaZoque	KNOW	know	mus	mus	m u s	4 7 3	AXN	MYS	6	6.M.C 6.Y.V 6.S.c	2.0 1.5 0.8	mus	0	343
+449	SanMiguelChimalapaZoque-45_know-1	SanMiguelChimalapaZoque	KNOW	know	muš	muš	m u ʃ	4 7 3	AXN	MYS	5	5.M.C 5.Y.V 5.S.c	2.0 1.5 0.8	muʃ	0	343
+450	ChiapasZoque-45_know-1	ChiapasZoque	KNOW	know	muhs	muhs	m u h s	4 7 3 3	AXLN	MYHS	1	1.M.C 1.Y.V 1.H.c 1.S.c	2.0 1.5 1.1 0.8	muhs	0	343
+451	NorthHighlandMixe-46_leaf-1	NorthHighlandMixe	LEAF	leaf	aahy	aahy	aː h j	7 3 6	XBC	AHJ	3	3.A.V 3.H.C 3.J.C	1.5 1.75 1.5	aːhj	0	355
+452	SouthHighlandMixe-46_leaf-1	SouthHighlandMixe	LEAF	leaf	aay	aay	aː j	7 6	XN	AJ	9	9.A.V 9.J.c	1.5 0.8	aːj	0	353
+453	LowlandMixe-46_leaf-1	LowlandMixe	LEAF	leaf	aay	aay	aː j	7 6	XN	AJ	2	2.A.V 2.J.c	1.5 0.8	aːj	0	353
+454	SayulaPopoluca-46_leaf-1	SayulaPopoluca	LEAF	leaf	ahy	ahy	a h j	7 3 6	XBC	AHJ	7	7.A.V 7.H.C 7.J.C	1.5 1.75 1.5	ahj	0	355
+455	OlutaPopoluca-46_leaf-1	OlutaPopoluca	LEAF	leaf	ayə	ayə	a j ə	7 6 7	XBZ	AJE	4	4.A.V 4.J.C 4.E.V	1.5 1.75 0.8	ajə	0	353
+456	TexistepecZoque-46_leaf-1	TexistepecZoque	LEAF	leaf	ʔay	ʔay	ʔ a j	1 7 6	AXN	HAJ	10	10.H.C 10.A.V 10.J.c	2.0 1.5 0.8	ʔaj	0	357
+457	SoteapanZoque-46_leaf-1	SoteapanZoque	LEAF	leaf	ay	ay	a j	7 6	XN	AJ	8	8.A.V 8.J.c	1.5 0.8	aj	0	353
+458	SantaMariaChimalapaZoque-46_leaf-1	SantaMariaChimalapaZoque	LEAF	leaf	ay	ay	a j	7 6	XN	AJ	6	6.A.V 6.J.c	1.5 0.8	aj	0	353
+459	SanMiguelChimalapaZoque-46_leaf-1	SanMiguelChimalapaZoque	LEAF	leaf	ʔayʔ	ʔayʔ	ʔ a j ʔ	1 7 6 1	AXLN	HAJH	5	5.H.C 5.A.V 5.J.c 5.H.c	2.0 1.5 1.1 0.8	ʔajʔ	0	357
+460	ChiapasZoque-46_leaf-1	ChiapasZoque	LEAF	leaf	ay	ay	a j	7 6	XN	AJ	1	1.A.V 1.J.c	1.5 0.8	aj	0	353
+461	NorthHighlandMixe-47_lie-1	NorthHighlandMixe	LIE (REST)	lie	maʔva	maʔva	m a ʔ v a	4 7 1 3 7	AXBCZ	MAHBA	3	3.M.C 3.A.V 3.H.C 3.B.C 3.A.V	2.0 1.5 1.75 1.5 0.8	maʔva	0	360
+462	SouthHighlandMixe-47_lie-1	SouthHighlandMixe	LIE (REST)	lie	koʔoky	koʔoky	k o ʔ o k j	1 7 1 7 1 6	AXBYBC	KUHUKJ	9	9.K.C 9.U.V 9.H.C 9.U.V 9.K.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	koʔokj	0	359
+463	LowlandMixe-47_lie-1	LowlandMixe	LIE (REST)	lie	koʔok	koʔok	k o ʔ o k	1 7 1 7 1	AXBYN	KUHUK	2	2.K.C 2.U.V 2.H.C 2.U.V 2.K.c	2.0 1.5 1.75 1.3 0.8	koʔok	0	359
+464	SayulaPopoluca-47_lie-1	SayulaPopoluca	LIE (REST)	lie	kəmna	kəmna	k ə m n a	1 7 4 4 7	AXMBZ	KEMNA	7	7.K.C 7.E.V 7.M.c 7.N.C 7.A.V	2.0 1.5 1.1 1.75 0.8	kəmna	0	364
+465	OlutaPopoluca-47_lie-1	OlutaPopoluca	LIE (REST)	lie	šok	šok	ʃ o k	3 7 1	AXN	SUK	4	4.S.C 4.U.V 4.K.c	2.0 1.5 0.8	ʃok	0	361
+466	TexistepecZoque-47_lie-1	TexistepecZoque	LIE (REST)	lie	kas-deʔ	kas-deʔ	k a s + d e ʔ	1 7 3 9 1 7 1	AXN_AXN	KAS_TEH	10	10.K.C 10.A.V 10.S.c 10._._ 10.T.C 10.E.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kas+deʔ	0	367
+467	SoteapanZoque-47_lie-1	SoteapanZoque	LIE (REST)	lie	wooneʔe	wooneʔe	w oː n e ʔ e	6 7 4 7 1 7	AXBYBZ	WUNEHE	8	8.W.C 8.U.V 8.N.C 8.E.V 8.H.C 8.E.V	2.0 1.5 1.75 1.3 1.75 0.8	woːneʔe	0	365
+468	SantaMariaChimalapaZoque-47_lie-1	SantaMariaChimalapaZoque	LIE (REST)	lie	moŋ-kətake	moŋ-kətake	m o ŋ + k ə t a k e	4 7 4 9 1 7 1 7 1 7	AXN_AXBYBZ	MUN_KETAKE	6	6.M.C 6.U.V 6.N.c 6._._ 6.K.C 6.E.V 6.T.C 6.A.V 6.K.C 6.E.V	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.3 1.75 0.8	moŋ+kətake	0	363
+469	SanMiguelChimalapaZoque-47_lie-1	SanMiguelChimalapaZoque	LIE (REST)	lie	moŋ	moŋ	m o ŋ	4 7 4	AXN	MUN	5	5.M.C 5.U.V 5.N.c	2.0 1.5 0.8	moŋ	0	362
+470	ChiapasZoque-47_lie-1	ChiapasZoque	LIE (REST)	lie	əkgehk	əkgehk	ə k g e h k	7 1 1 7 3 1	XMBYLN	EKKEHK	1	1.E.V 1.K.c 1.K.C 1.E.V 1.H.c 1.K.c	1.5 1.1 1.75 1.3 1.1 0.8	əkgehk	0	358
+471	NorthHighlandMixe-48_liver-1	NorthHighlandMixe	LIVER	liver	nəə hoot	nəə hoot	n əː + h oː t	4 7 9 3 7 1	AX_AXN	NE_HUT	3	3.N.C 3.E.V 3._._ 3.H.C 3.U.V 3.T.c	2.0 1.5 0.0 2.0 1.5 0.8	nəː+hoːt	0	370
+472	SouthHighlandMixe-48_liver-1	SouthHighlandMixe	LIVER	liver	hoht	hoht	h o h t	3 7 3 1	AXLN	HUHT	9	9.H.C 9.U.V 9.H.c 9.T.c	2.0 1.5 1.1 0.8	hoht	0	369
+473	LowlandMixe-48_liver-1	LowlandMixe	LIVER	liver	hot	hot	h o t	3 7 1	AXN	HUT	2	2.H.C 2.U.V 2.T.c	2.0 1.5 0.8	hot	0	369
+474	SayulaPopoluca-48_liver-1	SayulaPopoluca	LIVER	liver	hooht	hooht	h oː h t	3 7 3 1	AXLN	HUHT	7	7.H.C 7.U.V 7.H.c 7.T.c	2.0 1.5 1.1 0.8	hoːht	0	369
+475	OlutaPopoluca-48_liver-1	OlutaPopoluca	LIVER	liver	təʔshotə	təʔshotə	t ə ʔ s h o t ə	1 7 1 3 3 7 1 7	AXBCBYBZ	TEHSHUTE	4	4.T.C 4.E.V 4.H.C 4.S.C 4.H.C 4.U.V 4.T.C 4.E.V	2.0 1.5 1.75 1.5 1.75 1.3 1.75 0.8	təʔshotə	0	371
+476	TexistepecZoque-48_liver-1	TexistepecZoque	LIVER	liver	tsookoʔ	tsookoʔ	ts oː k o ʔ	2 7 1 7 1	AXBYN	CUKUH	10	10.C.C 10.U.V 10.K.C 10.U.V 10.H.c	2.0 1.5 1.75 1.3 0.8	tsoːkoʔ	1	373
+477	SoteapanZoque-48_liver-1	SoteapanZoque	LIVER	liver	tsoogoy	tsoogoy	ts oː g o j	2 7 1 7 6	AXBYN	CUKUJ	8	8.C.C 8.U.V 8.K.C 8.U.V 8.J.c	2.0 1.5 1.75 1.3 0.8	tsoːgoj	0	373
+478	SantaMariaChimalapaZoque-48_liver-1	SantaMariaChimalapaZoque	LIVER	liver	tsokoʔy	tsokoʔy	ts o k o ʔ j	2 7 1 7 1 6	AXBYBC	CUKUHJ	6	6.C.C 6.U.V 6.K.C 6.U.V 6.H.C 6.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tsokoʔj	1	373
+479	SanMiguelChimalapaZoque-48_liver-1	SanMiguelChimalapaZoque	LIVER	liver	paʔt	paʔt	p a ʔ t	1 7 1 1	AXLN	PAHT	5	5.P.C 5.A.V 5.H.c 5.T.c	2.0 1.5 1.1 0.8	paʔt	0	368
+480	ChiapasZoque-48_liver-1	ChiapasZoque	LIVER	liver	paʔt	paʔt	p a ʔ t	1 7 1 1	AXLN	PAHT	1	1.P.C 1.A.V 1.H.c 1.T.c	2.0 1.5 1.1 0.8	paʔt	0	368
+481	NorthHighlandMixe-49_long-1	NorthHighlandMixe	LONG	long	yən	yən	j ə n	6 7 4	AXN	JEN	3	3.J.C 3.E.V 3.N.c	2.0 1.5 0.8	jən	0	375
+482	SouthHighlandMixe-49_long-1	SouthHighlandMixe	LONG	long	yeny	yeny	j e n j	6 7 4 6	AXBC	JENJ	9	9.J.C 9.E.V 9.N.C 9.J.C	2.0 1.5 1.75 1.5	jenj	0	375
+483	LowlandMixe-49_long-1	LowlandMixe	LONG	long	yoony	yoony	j oː n j	6 7 4 6	AXBC	JUNJ	2	2.J.C 2.U.V 2.N.C 2.J.C	2.0 1.5 1.75 1.5	joːnj	0	375
+484	SayulaPopoluca-49_long-1	SayulaPopoluca	LONG	long	yagats	yagats	j a g a ts	6 7 1 7 2	AXBYN	JAKAC	7	7.J.C 7.A.V 7.K.C 7.A.V 7.C.c	2.0 1.5 1.75 1.3 0.8	jagats	0	380
+485	OlutaPopoluca-49_long-1	OlutaPopoluca	LONG	long	yoneʔk	yoneʔk	j o n e ʔ k	6 7 4 7 1 1	AXBYLN	JUNEHK	4	4.J.C 4.U.V 4.N.C 4.E.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	joneʔk	0	377
+486	TexistepecZoque-49_long-1	TexistepecZoque	LONG	long	yaʔakaʔts	yaʔakaʔts	j a ʔ a k a ʔ ts	6 7 1 7 1 7 1 2	AXBYBYBC	JAHAKAHC	10	10.J.C 10.A.V 10.H.C 10.A.V 10.K.C 10.A.V 10.H.C 10.C.C	2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.5	jaʔakaʔts	0	383
+487	SoteapanZoque-49_long-1	SoteapanZoque	LONG	long	yagats	yagats	j a g a ts	6 7 1 7 2	AXBYN	JAKAC	8	8.J.C 8.A.V 8.K.C 8.A.V 8.C.c	2.0 1.5 1.75 1.3 0.8	jagats	0	380
+488	SantaMariaChimalapaZoque-49_long-1	SantaMariaChimalapaZoque	LONG	long	pəhi	pəhi	p ə h i	1 7 3 7	AXBZ	PEHI	6	6.P.C 6.E.V 6.H.C 6.I.V	2.0 1.5 1.75 0.8	pəhi	0	379
+489	SanMiguelChimalapaZoque-49_long-1	SanMiguelChimalapaZoque	LONG	long	pəh-iʔ	pəh-iʔ	p ə h + i ʔ	1 7 3 9 7 1	AXN_XN	PEH_IH	5	5.P.C 5.E.V 5.H.c 5._._ 5.I.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	pəh+iʔ	0	378
+490	ChiapasZoque-49_long-1	ChiapasZoque	LONG	long	pəy	pəy	p ə j	1 7 6	AXN	PEJ	1	1.P.C 1.E.V 1.J.c	2.0 1.5 0.8	pəj	0	374
+491	NorthHighlandMixe-50_louse-1	NorthHighlandMixe	LOUSE	louse	əəʔts	əəʔts	əː ʔ ts	7 1 2	XBC	EHC	3	3.E.V 3.H.C 3.C.C	1.5 1.75 1.5	əːʔts	0	386
+492	SouthHighlandMixe-50_louse-1	SouthHighlandMixe	LOUSE	louse	aʔaht	aʔaht	a ʔ a h t	7 1 7 3 1	XBYLN	AHAHT	9	9.A.V 9.H.C 9.A.V 9.H.c 9.T.c	1.5 1.75 1.3 1.1 0.8	aʔaht	0	387
+493	LowlandMixe-50_louse-1	LowlandMixe	LOUSE	louse	aad	aad	aː d	7 1	XN	AT	2	2.A.V 2.T.c	1.5 0.8	aːd	0	385
+494	SayulaPopoluca-50_louse-1	SayulaPopoluca	LOUSE	louse	aawat	aawat	aː w a t	7 6 7 1	XBYN	AWAT	7	7.A.V 7.W.C 7.A.V 7.T.c	1.5 1.75 1.3 0.8	aːwat	0	384
+495	OlutaPopoluca-50_louse-1	OlutaPopoluca	LOUSE	louse	aavaʔt	aavaʔt	aː v a ʔ t	7 3 7 1 1	XBYLN	ABAHT	4	4.A.V 4.B.C 4.A.V 4.H.c 4.T.c	1.5 1.75 1.3 1.1 0.8	aːvaʔt	0	387
+496	TexistepecZoque-50_louse-1	TexistepecZoque	LOUSE	louse	awaʔt	awaʔt	a w a ʔ t	7 6 7 1 1	XBYLN	AWAHT	10	10.A.V 10.W.C 10.A.V 10.H.c 10.T.c	1.5 1.75 1.3 1.1 0.8	awaʔt	0	387
+497	SoteapanZoque-50_louse-1	SoteapanZoque	LOUSE	louse	aʔawat	aʔawat	a ʔ a w a t	7 1 7 6 7 1	XBYBYN	AHAWAT	8	8.A.V 8.H.C 8.A.V 8.W.C 8.A.V 8.T.c	1.5 1.75 1.3 1.75 1.3 0.8	aʔawat	0	384
+498	SantaMariaChimalapaZoque-50_louse-1	SantaMariaChimalapaZoque	LOUSE	louse	awat	awat	a w a t	7 6 7 1	XBYN	AWAT	6	6.A.V 6.W.C 6.A.V 6.T.c	1.5 1.75 1.3 0.8	awat	0	384
+499	SanMiguelChimalapaZoque-50_louse-1	SanMiguelChimalapaZoque	LOUSE	louse	ʔawat	ʔawat	ʔ a w a t	1 7 6 7 1	AXBYN	HAWAT	5	5.H.C 5.A.V 5.W.C 5.A.V 5.T.c	2.0 1.5 1.75 1.3 0.8	ʔawat	0	384
+500	ChiapasZoque-50_louse-1	ChiapasZoque	LOUSE	louse	awat	awat	a w a t	7 6 7 1	XBYN	AWAT	1	1.A.V 1.W.C 1.A.V 1.T.c	1.5 1.75 1.3 0.8	awat	0	384
+501	NorthHighlandMixe-51_man-1	NorthHighlandMixe	MAN	man	yaaʔtyəhk	yaaʔtyəhk	j aː ʔ t j ə h k	6 7 1 1 6 7 3 1	AXMBCYLN	JAHTJEHK	3	3.J.C 3.A.V 3.H.c 3.T.C 3.J.C 3.E.V 3.H.c 3.K.c	2.0 1.5 1.1 1.75 1.5 1.3 1.1 0.8	jaːʔtjəhk	0	390
+502	SouthHighlandMixe-51_man-1	SouthHighlandMixe	MAN	man	hətyəhk	hətyəhk	h ə t j ə h k	3 7 1 6 7 3 1	AXBCYLN	HETJEHK	9	9.H.C 9.E.V 9.T.C 9.J.C 9.E.V 9.H.c 9.K.c	2.0 1.5 1.75 1.5 1.3 1.1 0.8	hətjəhk	0	390
+503	LowlandMixe-51_man-1	LowlandMixe	MAN	man	yeʔey-dəhk	yeʔey-dəhk	j e ʔ e j + d ə h k	6 7 1 7 6 9 1 7 3 1	AXBYN_AXLN	JEHEJ_TEHK	2	2.J.C 2.E.V 2.H.C 2.E.V 2.J.c 2._._ 2.T.C 2.E.V 2.H.c 2.K.c	2.0 1.5 1.75 1.3 0.8 0.0 2.0 1.5 1.1 0.8	jeʔej+dəhk	0	389
+504	SayulaPopoluca-51_man-1	SayulaPopoluca	MAN	man	hayaw	hayaw	h a j a w	3 7 6 7 6	AXBYN	HAJAW	7	7.H.C 7.A.V 7.J.C 7.A.V 7.W.c	2.0 1.5 1.75 1.3 0.8	hajaw	0	394
+505	OlutaPopoluca-51_man-1	OlutaPopoluca	MAN	man	yoʔohwa	yoʔohwa	j o ʔ o h w a	6 7 1 7 3 6 7	AXBYBCZ	JUHUHWA	4	4.J.C 4.U.V 4.H.C 4.U.V 4.H.C 4.W.C 4.A.V	2.0 1.5 1.75 1.3 1.75 1.5 0.8	joʔohwa	0	391
+506	TexistepecZoque-51_man-1	TexistepecZoque	MAN	man	pəəñ	pəəñ	p əː ɲ	1 7 4	AXN	PEN	10	10.P.C 10.E.V 10.N.c	2.0 1.5 0.8	pəːɲ	0	388
+507	SoteapanZoque-51_man-1	SoteapanZoque	MAN	man	pəəšiñ	pəəšiñ	p əː ʃ i ɲ	1 7 3 7 4	AXBYN	PESIN	8	8.P.C 8.E.V 8.S.C 8.I.V 8.N.c	2.0 1.5 1.75 1.3 0.8	pəːʃiɲ	0	395
+508	SantaMariaChimalapaZoque-51_man-1	SantaMariaChimalapaZoque	MAN	man	pən	pən	p ə n	1 7 4	AXN	PEN	6	6.P.C 6.E.V 6.N.c	2.0 1.5 0.8	pən	0	388
+509	SanMiguelChimalapaZoque-51_man-1	SanMiguelChimalapaZoque	MAN	man	pən	pən	p ə n	1 7 4	AXN	PEN	5	5.P.C 5.E.V 5.N.c	2.0 1.5 0.8	pən	0	388
+510	ChiapasZoque-51_man-1	ChiapasZoque	MAN	man	pən	pən	p ə n	1 7 4	AXN	PEN	1	1.P.C 1.E.V 1.N.c	2.0 1.5 0.8	pən	0	388
+511	NorthHighlandMixe-52_many-1	NorthHighlandMixe	MANY	many	may	may	m a j	4 7 6	AXN	MAJ	3	3.M.C 3.A.V 3.J.c	2.0 1.5 0.8	maj	0	397
+512	SouthHighlandMixe-52_many-1	SouthHighlandMixe	MANY	many	mæy	mæy	m æ j	4 7 6	AXN	MEJ	9	9.M.C 9.E.V 9.J.c	2.0 1.5 0.8	mæj	0	397
+513	LowlandMixe-52_many-1	LowlandMixe	MANY	many	may	may	m a j	4 7 6	AXN	MAJ	2	2.M.C 2.A.V 2.J.c	2.0 1.5 0.8	maj	0	397
+514	SayulaPopoluca-52_many-1	SayulaPopoluca	MANY	many	may	may	m a j	4 7 6	AXN	MAJ	7	7.M.C 7.A.V 7.J.c	2.0 1.5 0.8	maj	0	397
+515	OlutaPopoluca-52_many-1	OlutaPopoluca	MANY	many	paʔko, taʔna	paʔko	p a ʔ k o	1 7 1 1 7	AXMBZ	PAHKU	4	4.P.C 4.A.V 4.H.c 4.K.C 4.U.V	2.0 1.5 1.1 1.75 0.8	paʔko	0	399
+516	OlutaPopoluca-52_many-2	OlutaPopoluca	MANY	many	paʔko, taʔna	taʔna	t a ʔ n a	1 7 1 4 7	AXBCZ	TAHNA	4	4.T.C 4.A.V 4.H.C 4.N.C 4.A.V	2.0 1.5 1.75 1.5 0.8	taʔna	0	407
+517	TexistepecZoque-52_many-1	TexistepecZoque	MANY	many	dač-ke, bəks-ke, səʔəs-daʔa	dač-ke	d a tʃ + k e	1 7 1 9 1 7	AXN_AX	TAT_KE	10	10.T.C 10.A.V 10.T.c 10._._ 10.K.C 10.E.V	2.0 1.5 0.8 0.0 2.0 1.5	datʃ+ke	0	405
+518	TexistepecZoque-52_many-2	TexistepecZoque	MANY	many	dač-ke, bəks-ke, səʔəs-daʔa	bəks-ke	b ə k s + k e	1 7 1 3 9 1 7	AXBC_AX	PEKS_KE	10	10.P.C 10.E.V 10.K.C 10.S.C 10._._ 10.K.C 10.E.V	2.0 1.5 1.75 1.5 0.0 2.0 1.5	bəks+ke	0	409
+519	TexistepecZoque-52_many-3	TexistepecZoque	MANY	many	dač-ke, bəks-ke, səʔəs-daʔa	səʔəs-daʔa	s ə ʔ ə s + d a ʔ a	3 7 1 7 3 9 1 7 1 7	AXBYN_AXBZ	SEHES_TAHA	10	10.S.C 10.E.V 10.H.C 10.E.V 10.S.c 10._._ 10.T.C 10.A.V 10.H.C 10.A.V	2.0 1.5 1.75 1.3 0.8 0.0 2.0 1.5 1.75 0.8	səʔəs+daʔa	0	412
+520	SoteapanZoque-52_many-1	SoteapanZoque	MANY	many	agi, tsaam, haʔyaŋ, waatyi	agi	a g i	7 1 7	XBZ	AKI	8	8.A.V 8.K.C 8.I.V	1.5 1.75 0.8	agi	0	403
+521	SoteapanZoque-52_many-2	SoteapanZoque	MANY	many	agi, tsaam, haʔyaŋ, waatyi	tsaam	ts aː m	2 7 4	AXN	CAM	8	8.C.C 8.A.V 8.M.c	2.0 1.5 0.8	tsaːm	0	408
+522	SoteapanZoque-52_many-3	SoteapanZoque	MANY	many	agi, tsaam, haʔyaŋ, waatyi	haʔyaŋ	h a ʔ j a ŋ	3 7 1 6 7 4	AXBCYN	HAHJAN	8	8.H.C 8.A.V 8.H.C 8.J.C 8.A.V 8.N.c	2.0 1.5 1.75 1.5 1.3 0.8	haʔjaŋ	0	411
+523	SoteapanZoque-52_many-4	SoteapanZoque	MANY	many	agi, tsaam, haʔyaŋ, waatyi	waatyi	w aː t j i	6 7 1 6 7	AXBCZ	WATJI	8	8.W.C 8.A.V 8.T.C 8.J.C 8.I.V	2.0 1.5 1.75 1.5 0.8	waːtji	0	413
+524	SantaMariaChimalapaZoque-52_many-1	SantaMariaChimalapaZoque	MANY	many	səhəʔ	səhəʔ	s ə h ə ʔ	3 7 3 7 1	AXBYN	SEHEH	6	6.S.C 6.E.V 6.H.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	səhəʔ	0	401
+525	SanMiguelChimalapaZoque-52_many-1	SanMiguelChimalapaZoque	MANY	many	šəh-əʔ	šəh-əʔ	ʃ ə h + ə ʔ	3 7 3 9 7 1	AXN_XN	SEH_EH	5	5.S.C 5.E.V 5.H.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	ʃəh+əʔ	0	400
+526	ChiapasZoque-52_many-1	ChiapasZoque	MANY	many	wəwə, aŋ-baʔt-e, məʔčəki	wəwə	w ə w ə	6 7 6 7	AXBZ	WEWE	1	1.W.C 1.E.V 1.W.C 1.E.V	2.0 1.5 1.75 0.8	wəwə	0	396
+527	ChiapasZoque-52_many-2	ChiapasZoque	MANY	many	wəwə, aŋ-baʔt-e, məʔčəki	aŋ-baʔt-e	a ŋ + b a ʔ t + e	7 4 9 1 7 1 1 9 7	XN_AXLN_X	AN_PAHT_E	1	1.A.V 1.N.c 1._._ 1.P.C 1.A.V 1.H.c 1.T.c 1._._ 1.E.V	1.5 0.8 0.0 2.0 1.5 1.1 0.8 0.0 1.5	aŋ+baʔt+e	0	406
+528	ChiapasZoque-52_many-3	ChiapasZoque	MANY	many	wəwə, aŋ-baʔt-e, məʔčəki	məʔčəki	m ə ʔ tʃ ə k i	4 7 1 1 7 1 7	AXMBYBZ	MEHTEKI	1	1.M.C 1.E.V 1.H.c 1.T.C 1.E.V 1.K.C 1.I.V	2.0 1.5 1.1 1.75 1.3 1.75 0.8	məʔtʃəki	0	410
+529	NorthHighlandMixe-53_meat-1	NorthHighlandMixe	MEAT	meat	tsuʔuts	tsuʔuts	ts u ʔ u ts	2 7 1 7 2	AXBYN	CYHYC	3	3.C.C 3.Y.V 3.H.C 3.Y.V 3.C.c	2.0 1.5 1.75 1.3 0.8	tsuʔuts	1	415
+530	SouthHighlandMixe-53_meat-1	SouthHighlandMixe	MEAT	meat	tsuʔučy	tsuʔučy	ts u ʔ u tʃ j	2 7 1 7 1 6	AXBYBC	CYHYTJ	9	9.C.C 9.Y.V 9.H.C 9.Y.V 9.T.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tsuʔutʃj	0	415
+531	LowlandMixe-53_meat-1	LowlandMixe	MEAT	meat	tsuʔuč	tsuʔuč	ts u ʔ u tʃ	2 7 1 7 1	AXBYN	CYHYT	2	2.C.C 2.Y.V 2.H.C 2.Y.V 2.T.c	2.0 1.5 1.75 1.3 0.8	tsuʔutʃ	0	415
+532	SayulaPopoluca-53_meat-1	SayulaPopoluca	MEAT	meat	šiš	šiš	ʃ i ʃ	3 7 3	AXN	SIS	7	7.S.C 7.I.V 7.S.c	2.0 1.5 0.8	ʃiʃ	0	414
+533	OlutaPopoluca-53_meat-1	OlutaPopoluca	MEAT	meat	tsuʔči	tsuʔči	ts u ʔ tʃ i	2 7 1 1 7	AXMBZ	CYHTI	4	4.C.C 4.Y.V 4.H.c 4.T.C 4.I.V	2.0 1.5 1.1 1.75 0.8	tsuʔtʃi	0	417
+534	TexistepecZoque-53_meat-1	TexistepecZoque	MEAT	meat	šeš	šeš	ʃ e ʃ	3 7 3	AXN	SES	10	10.S.C 10.E.V 10.S.c	2.0 1.5 0.8	ʃeʃ	0	414
+535	SoteapanZoque-53_meat-1	SoteapanZoque	MEAT	meat	maayi	maayi	m aː j i	4 7 6 7	AXBZ	MAJI	8	8.M.C 8.A.V 8.J.C 8.I.V	2.0 1.5 1.75 0.8	maːji	0	421
+536	SantaMariaChimalapaZoque-53_meat-1	SantaMariaChimalapaZoque	MEAT	meat	sis	sis	s i s	3 7 3	AXN	SIS	6	6.S.C 6.I.V 6.S.c	2.0 1.5 0.8	sis	0	414
+537	SanMiguelChimalapaZoque-53_meat-1	SanMiguelChimalapaZoque	MEAT	meat	šiš	šiš	ʃ i ʃ	3 7 3	AXN	SIS	5	5.S.C 5.I.V 5.S.c	2.0 1.5 0.8	ʃiʃ	0	414
+538	ChiapasZoque-53_meat-1	ChiapasZoque	MEAT	meat	sis	sis	s i s	3 7 3	AXN	SIS	1	1.S.C 1.I.V 1.S.c	2.0 1.5 0.8	sis	0	414
+539	NorthHighlandMixe-54_moon-1	NorthHighlandMixe	MOON	moon	poʔo	poʔo	p o ʔ o	1 7 1 7	AXBZ	PUHU	3	3.P.C 3.U.V 3.H.C 3.U.V	2.0 1.5 1.75 0.8	poʔo	0	423
+540	SouthHighlandMixe-54_moon-1	SouthHighlandMixe	MOON	moon	poʔo	poʔo	p o ʔ o	1 7 1 7	AXBZ	PUHU	9	9.P.C 9.U.V 9.H.C 9.U.V	2.0 1.5 1.75 0.8	poʔo	0	423
+541	LowlandMixe-54_moon-1	LowlandMixe	MOON	moon	poʔ	poʔ	p o ʔ	1 7 1	AXN	PUH	2	2.P.C 2.U.V 2.H.c	2.0 1.5 0.8	poʔ	0	423
+542	SayulaPopoluca-54_moon-1	SayulaPopoluca	MOON	moon	poʔ	poʔ	p o ʔ	1 7 1	AXN	PUH	7	7.P.C 7.U.V 7.H.c	2.0 1.5 0.8	poʔ	0	423
+543	OlutaPopoluca-54_moon-1	OlutaPopoluca	MOON	moon	poʔa	poʔa	p o ʔ a	1 7 1 7	AXBZ	PUHA	4	4.P.C 4.U.V 4.H.C 4.A.V	2.0 1.5 1.75 0.8	poʔa	0	423
+544	TexistepecZoque-54_moon-1	TexistepecZoque	MOON	moon	pooy	pooy	p oː j	1 7 6	AXN	PUJ	10	10.P.C 10.U.V 10.J.c	2.0 1.5 0.8	poːj	0	422
+545	SoteapanZoque-54_moon-1	SoteapanZoque	MOON	moon	pooya	pooya	p oː j a	1 7 6 7	AXBZ	PUJA	8	8.P.C 8.U.V 8.J.C 8.A.V	2.0 1.5 1.75 0.8	poːja	0	422
+546	SantaMariaChimalapaZoque-54_moon-1	SantaMariaChimalapaZoque	MOON	moon	sepeʔ	sepeʔ	s e p e ʔ	3 7 1 7 1	AXBYN	SEPEH	6	6.S.C 6.E.V 6.P.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	sepeʔ	0	426
+547	SanMiguelChimalapaZoque-54_moon-1	SanMiguelChimalapaZoque	MOON	moon	šepeʔ	šepeʔ	ʃ e p e ʔ	3 7 1 7 1	AXBYN	SEPEH	5	5.S.C 5.E.V 5.P.C 5.E.V 5.H.c	2.0 1.5 1.75 1.3 0.8	ʃepeʔ	0	426
+548	ChiapasZoque-54_moon-1	ChiapasZoque	MOON	moon	poyah	poyah	p o j a h	1 7 6 7 3	AXBYN	PUJAH	1	1.P.C 1.U.V 1.J.C 1.A.V 1.H.c	2.0 1.5 1.75 1.3 0.8	pojah	0	422
+549	NorthHighlandMixe-55_mountain-1	NorthHighlandMixe	MOUNTAIN	mountain	kopk	kopk	k o p k	1 7 1 1	AXLN	KUPK	3	3.K.C 3.U.V 3.P.c 3.K.c	2.0 1.5 1.1 0.8	kopk	0	429
+550	SouthHighlandMixe-55_mountain-1	SouthHighlandMixe	MOUNTAIN	mountain	kokp	kokp	k o k p	1 7 1 1	AXLN	KUKP	9	9.K.C 9.U.V 9.K.c 9.P.c	2.0 1.5 1.1 0.8	kokp	0	434
+551	LowlandMixe-55_mountain-1	LowlandMixe	MOUNTAIN	mountain	koʔogop, kop	koʔogop	k o ʔ o g o p	1 7 1 7 1 7 1	AXBYBYN	KUHUKUP	2	2.K.C 2.U.V 2.H.C 2.U.V 2.K.C 2.U.V 2.P.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	koʔogop	0	428
+552	LowlandMixe-55_mountain-2	LowlandMixe	MOUNTAIN	mountain	koʔogop, kop	kop	k o p	1 7 1	AXN	KUP	2	2.K.C 2.U.V 2.P.c	2.0 1.5 0.8	kop	0	429
+553	SayulaPopoluca-55_mountain-1	SayulaPopoluca	MOUNTAIN	mountain	kopak	kopak	k o p a k	1 7 1 7 1	AXBYN	KUPAK	7	7.K.C 7.U.V 7.P.C 7.A.V 7.K.c	2.0 1.5 1.75 1.3 0.8	kopak	1	429
+554	OlutaPopoluca-55_mountain-1	OlutaPopoluca	MOUNTAIN	mountain	kopaʔk	kopaʔk	k o p a ʔ k	1 7 1 7 1 1	AXBYLN	KUPAHK	4	4.K.C 4.U.V 4.P.C 4.A.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	kopaʔk	0	429
+555	TexistepecZoque-55_mountain-1	TexistepecZoque	MOUNTAIN	mountain	kotsək	kotsək	k o ts ə k	1 7 2 7 1	AXBYN	KUCEK	10	10.K.C 10.U.V 10.C.C 10.E.V 10.K.c	2.0 1.5 1.75 1.3 0.8	kotsək	0	427
+556	SoteapanZoque-55_mountain-1	SoteapanZoque	MOUNTAIN	mountain	kootsək	kootsək	k oː ts ə k	1 7 2 7 1	AXBYN	KUCEK	8	8.K.C 8.U.V 8.C.C 8.E.V 8.K.c	2.0 1.5 1.75 1.3 0.8	koːtsək	0	427
+557	SanMiguelChimalapaZoque-55_mountain-1	SanMiguelChimalapaZoque	MOUNTAIN	mountain	kotsək	kotsək	k o ts ə k	1 7 2 7 1	AXBYN	KUCEK	5	5.K.C 5.U.V 5.C.C 5.E.V 5.K.c	2.0 1.5 1.75 1.3 0.8	kotsək	0	427
+558	ChiapasZoque-55_mountain-1	ChiapasZoque	MOUNTAIN	mountain	kotsək	kotsək	k o ts ə k	1 7 2 7 1	AXBYN	KUCEK	1	1.K.C 1.U.V 1.C.C 1.E.V 1.K.c	2.0 1.5 1.75 1.3 0.8	kotsək	0	427
+559	NorthHighlandMixe-56_mouth-1	NorthHighlandMixe	MOUTH	mouth	aah	aah	aː h	7 3	XN	AH	3	3.A.V 3.H.c	1.5 0.8	aːh	0	437
+560	SouthHighlandMixe-56_mouth-1	SouthHighlandMixe	MOUTH	mouth	aa	aa	aː	7	X	A	9	9.A.V	1.5	aː	0	443
+561	LowlandMixe-56_mouth-1	LowlandMixe	MOUTH	mouth	aawak	aawak	aː w a k	7 6 7 1	XBYN	AWAK	2	2.A.V 2.W.C 2.A.V 2.K.c	1.5 1.75 1.3 0.8	aːwak	0	436
+562	SayulaPopoluca-56_mouth-1	SayulaPopoluca	MOUTH	mouth	ahw	ahw	a h w	7 3 6	XBC	AHW	7	7.A.V 7.H.C 7.W.C	1.5 1.75 1.5	ahw	0	441
+563	OlutaPopoluca-56_mouth-1	OlutaPopoluca	MOUTH	mouth	avə	avə	a v ə	7 3 7	XBZ	ABE	4	4.A.V 4.B.C 4.E.V	1.5 1.75 0.8	avə	0	438
+564	TexistepecZoque-56_mouth-1	TexistepecZoque	MOUTH	mouth	həp	həp	h ə p	3 7 1	AXN	HEP	10	10.H.C 10.E.V 10.P.c	2.0 1.5 0.8	həp	0	439
+565	SoteapanZoque-56_mouth-1	SoteapanZoque	MOUTH	mouth	həp	həp	h ə p	3 7 1	AXN	HEP	8	8.H.C 8.E.V 8.P.c	2.0 1.5 0.8	həp	0	439
+566	SantaMariaChimalapaZoque-56_mouth-1	SantaMariaChimalapaZoque	MOUTH	mouth	həp	həp	h ə p	3 7 1	AXN	HEP	6	6.H.C 6.E.V 6.P.c	2.0 1.5 0.8	həp	0	439
+567	SanMiguelChimalapaZoque-56_mouth-1	SanMiguelChimalapaZoque	MOUTH	mouth	həp	həp	h ə p	3 7 1	AXN	HEP	5	5.H.C 5.E.V 5.P.c	2.0 1.5 0.8	həp	0	439
+568	ChiapasZoque-56_mouth-1	ChiapasZoque	MOUTH	mouth	aŋnaka	aŋnaka	a ŋ n a k a	7 4 4 7 1 7	XMBYBZ	ANNAKA	1	1.A.V 1.N.c 1.N.C 1.A.V 1.K.C 1.A.V	1.5 1.1 1.75 1.3 1.75 0.8	aŋnaka	0	435
+569	NorthHighlandMixe-57_name-1	NorthHighlandMixe	NAME	name	šəə	šəə	ʃ əː	3 7	AX	SE	3	3.S.C 3.E.V	2.0 1.5	ʃəː	0	445
+570	SouthHighlandMixe-57_name-1	SouthHighlandMixe	NAME	name	šəə	šəə	ʃ əː	3 7	AX	SE	9	9.S.C 9.E.V	2.0 1.5	ʃəː	0	445
+571	LowlandMixe-57_name-1	LowlandMixe	NAME	name	šəə	šəə	ʃ əː	3 7	AX	SE	2	2.S.C 2.E.V	2.0 1.5	ʃəː	0	445
+572	SayulaPopoluca-57_name-1	SayulaPopoluca	NAME	name	nəʔhy	nəʔhy	n ə ʔ h j	4 7 1 3 6	AXBCC	NEHHJ	7	7.N.C 7.E.V 7.H.C 7.H.C 7.J.C	2.0 1.5 1.75 1.5 1.5	nəʔhj	0	450
+573	OlutaPopoluca-57_name-1	OlutaPopoluca	NAME	name	šəvə	šəvə	ʃ ə v ə	3 7 3 7	AXBZ	SEBE	4	4.S.C 4.E.V 4.B.C 4.E.V	2.0 1.5 1.75 0.8	ʃəvə	0	447
+574	TexistepecZoque-57_name-1	TexistepecZoque	NAME	name	dəy	dəy	d ə j	1 7 6	AXN	TEJ	10	10.T.C 10.E.V 10.J.c	2.0 1.5 0.8	dəj	0	453
+575	SoteapanZoque-57_name-1	SoteapanZoque	NAME	name	nəəyi	nəəyi	n əː j i	4 7 6 7	AXBZ	NEJI	8	8.N.C 8.E.V 8.J.C 8.I.V	2.0 1.5 1.75 0.8	nəːji	0	444
+576	SantaMariaChimalapaZoque-57_name-1	SantaMariaChimalapaZoque	NAME	name	nəhi	nəhi	n ə h i	4 7 3 7	AXBZ	NEHI	6	6.N.C 6.E.V 6.H.C 6.I.V	2.0 1.5 1.75 0.8	nəhi	0	448
+577	SanMiguelChimalapaZoque-57_name-1	SanMiguelChimalapaZoque	NAME	name	nəhi	nəhi	n ə h i	4 7 3 7	AXBZ	NEHI	5	5.N.C 5.E.V 5.H.C 5.I.V	2.0 1.5 1.75 0.8	nəhi	0	448
+578	ChiapasZoque-57_name-1	ChiapasZoque	NAME	name	nəy	nəy	n ə j	4 7 6	AXN	NEJ	1	1.N.C 1.E.V 1.J.c	2.0 1.5 0.8	nəj	0	444
+1021	NorthHighlandMixe-103_near-1	NorthHighlandMixe	NEAR	near	təmhi	təmhi	t ə m h i	1 7 4 3 7	AXMBZ	TEMHI	3	3.T.C 3.E.V 3.M.c 3.H.C 3.I.V	2.0 1.5 1.1 1.75 0.8	təmhi	0	456
+1022	SouthHighlandMixe-103_near-1	SouthHighlandMixe	NEAR	near	hənkon	hənkon	h ə n k o n	3 7 4 1 7 4	AXMBYN	HENKUN	9	9.H.C 9.E.V 9.N.c 9.K.C 9.U.V 9.N.c	2.0 1.5 1.1 1.75 1.3 0.8	hənkon	0	455
+1023	LowlandMixe-103_near-1	LowlandMixe	NEAR	near	wingon	wingon	w i n g o n	6 7 4 1 7 4	AXMBYN	WINKUN	2	2.W.C 2.I.V 2.N.c 2.K.C 2.U.V 2.N.c	2.0 1.5 1.1 1.75 1.3 0.8	wingon	0	455
+1024	SayulaPopoluca-103_near-1	SayulaPopoluca	NEAR	near	tom	tom	t o m	1 7 4	AXN	TUM	7	7.T.C 7.U.V 7.M.c	2.0 1.5 0.8	tom	0	454
+1025	OlutaPopoluca-103_near-1	OlutaPopoluca	NEAR	near	tomeʔk	tomeʔk	t o m e ʔ k	1 7 4 7 1 1	AXBYLN	TUMEHK	4	4.T.C 4.U.V 4.M.C 4.E.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	tomeʔk	0	454
+1026	TexistepecZoque-103_near-1	TexistepecZoque	NEAR	near	taʔan	taʔan	t a ʔ a n	1 7 1 7 4	AXBYN	TAHAN	10	10.T.C 10.A.V 10.H.C 10.A.V 10.N.c	2.0 1.5 1.75 1.3 0.8	taʔan	0	461
+1027	SoteapanZoque-103_near-1	SoteapanZoque	NEAR	near	taʔañi	taʔañi	t a ʔ a ɲ i	1 7 1 7 4 7	AXBYBZ	TAHANI	8	8.T.C 8.A.V 8.H.C 8.A.V 8.N.C 8.I.V	2.0 1.5 1.75 1.3 1.75 0.8	taʔaɲi	0	461
+1028	SantaMariaChimalapaZoque-103_near-1	SantaMariaChimalapaZoque	NEAR	near	tomeʔ	tomeʔ	t o m e ʔ	1 7 4 7 1	AXBYN	TUMEH	6	6.T.C 6.U.V 6.M.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	tomeʔ	0	454
+1029	SanMiguelChimalapaZoque-103_near-1	SanMiguelChimalapaZoque	NEAR	near	tom-eʔ	tom-eʔ	t o m + e ʔ	1 7 4 9 7 1	AXN_XN	TUM_EH	5	5.T.C 5.U.V 5.M.c 5._._ 5.E.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	tom+eʔ	0	458
+1030	ChiapasZoque-103_near-1	ChiapasZoque	NEAR	near	tome	tome	t o m e	1 7 4 7	AXBZ	TUME	1	1.T.C 1.U.V 1.M.C 1.E.V	2.0 1.5 1.75 0.8	tome	0	454
+579	NorthHighlandMixe-58_neck-1	NorthHighlandMixe	NECK	neck	yoʔkt	yoʔkt	j o ʔ k t	6 7 1 1 1	AXLLN	JUHKT	3	3.J.C 3.U.V 3.H.c 3.K.c 3.T.c	2.0 1.5 1.1 1.1 0.8	joʔkt	0	464
+580	SouthHighlandMixe-58_neck-1	SouthHighlandMixe	NECK	neck	yoʔkt	yoʔkt	j o ʔ k t	6 7 1 1 1	AXLLN	JUHKT	9	9.J.C 9.U.V 9.H.c 9.K.c 9.T.c	2.0 1.5 1.1 1.1 0.8	joʔkt	0	464
+581	LowlandMixe-58_neck-1	LowlandMixe	NECK	neck	yoʔok-pahk	yoʔok-pahk	j o ʔ o k + p a h k	6 7 1 7 1 9 1 7 3 1	AXBYN_AXLN	JUHUK_PAHK	2	2.J.C 2.U.V 2.H.C 2.U.V 2.K.c 2._._ 2.P.C 2.A.V 2.H.c 2.K.c	2.0 1.5 1.75 1.3 0.8 0.0 2.0 1.5 1.1 0.8	joʔok+pahk	0	463
+582	SayulaPopoluca-58_neck-1	SayulaPopoluca	NECK	neck	yoʔk	yoʔk	j o ʔ k	6 7 1 1	AXLN	JUHK	7	7.J.C 7.U.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	joʔk	0	464
+583	TexistepecZoque-58_neck-1	TexistepecZoque	NECK	neck	kən-kəʔ	kən-kəʔ	k ə n + k ə ʔ	1 7 4 9 1 7 1	AXN_AXN	KEN_KEH	10	10.K.C 10.E.V 10.N.c 10._._ 10.K.C 10.E.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kən+kəʔ	0	468
+584	SanMiguelChimalapaZoque-58_neck-1	SanMiguelChimalapaZoque	NECK	neck	wintuʔ	wintuʔ	w i n t u ʔ	6 7 4 1 7 1	AXMBYN	WINTYH	5	5.W.C 5.I.V 5.N.c 5.T.C 5.Y.V 5.H.c	2.0 1.5 1.1 1.75 1.3 0.8	wintuʔ	0	465
+585	ChiapasZoque-58_neck-1	ChiapasZoque	NECK	neck	kənə	kənə	k ə n ə	1 7 4 7	AXBZ	KENE	1	1.K.C 1.E.V 1.N.C 1.E.V	2.0 1.5 1.75 0.8	kənə	0	462
+586	NorthHighlandMixe-59_new-1	NorthHighlandMixe	NEW	new	nam	nam	n a m	4 7 4	AXN	NAM	3	3.N.C 3.A.V 3.M.c	2.0 1.5 0.8	nam	0	471
+587	SouthHighlandMixe-59_new-1	SouthHighlandMixe	NEW	new	hempy	hempy	h e m p j	3 7 4 1 6	AXMBC	HEMPJ	9	9.H.C 9.E.V 9.M.c 9.P.C 9.J.C	2.0 1.5 1.1 1.75 1.5	hempj	0	470
+588	LowlandMixe-59_new-1	LowlandMixe	NEW	new	hemy	hemy	h e m j	3 7 4 6	AXBC	HEMJ	2	2.H.C 2.E.V 2.M.C 2.J.C	2.0 1.5 1.75 1.5	hemj	0	470
+589	SayulaPopoluca-59_new-1	SayulaPopoluca	NEW	new	namay	namay	n a m a j	4 7 4 7 6	AXBYN	NAMAJ	7	7.N.C 7.A.V 7.M.C 7.A.V 7.J.c	2.0 1.5 1.75 1.3 0.8	namaj	0	471
+590	OlutaPopoluca-59_new-1	OlutaPopoluca	NEW	new	namə	namə	n a m ə	4 7 4 7	AXBZ	NAME	4	4.N.C 4.A.V 4.M.C 4.E.V	2.0 1.5 1.75 0.8	namə	0	471
+591	TexistepecZoque-59_new-1	TexistepecZoque	NEW	new	homə-naʔ	homə-naʔ	h o m ə + n a ʔ	3 7 4 7 9 4 7 1	AXBZ_AXN	HUME_NAH	10	10.H.C 10.U.V 10.M.C 10.E.V 10._._ 10.N.C 10.A.V 10.H.c	2.0 1.5 1.75 0.8 0.0 2.0 1.5 0.8	homə+naʔ	0	478
+592	SoteapanZoque-59_new-1	SoteapanZoque	NEW	new	hoomi	hoomi	h oː m i	3 7 4 7	AXBZ	HUMI	8	8.H.C 8.U.V 8.M.C 8.I.V	2.0 1.5 1.75 0.8	hoːmi	0	469
+593	SantaMariaChimalapaZoque-59_new-1	SantaMariaChimalapaZoque	NEW	new	homeʔ	homeʔ	h o m e ʔ	3 7 4 7 1	AXBYN	HUMEH	6	6.H.C 6.U.V 6.M.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	homeʔ	0	469
+594	SanMiguelChimalapaZoque-59_new-1	SanMiguelChimalapaZoque	NEW	new	homeʔ	homeʔ	h o m e ʔ	3 7 4 7 1	AXBYN	HUMEH	5	5.H.C 5.U.V 5.M.C 5.E.V 5.H.c	2.0 1.5 1.75 1.3 0.8	homeʔ	0	469
+595	ChiapasZoque-59_new-1	ChiapasZoque	NEW	new	home	home	h o m e	3 7 4 7	AXBZ	HUME	1	1.H.C 1.U.V 1.M.C 1.E.V	2.0 1.5 1.75 0.8	home	0	469
+596	NorthHighlandMixe-60_night-1	NorthHighlandMixe	NIGHT	night	tsυυ	tsυυ	ts ʊː	2 7	AX	CY	3	3.C.C 3.Y.V	2.0 1.5	tsʊː	0	479
+597	SouthHighlandMixe-60_night-1	SouthHighlandMixe	NIGHT	night	koots	koots	k oː ts	1 7 2	AXN	KUC	9	9.K.C 9.U.V 9.C.c	2.0 1.5 0.8	koːts	0	487
+598	LowlandMixe-60_night-1	LowlandMixe	NIGHT	night	adzuuʔəʔ	adzuuʔəʔ	a d z uː ʔ ə ʔ	7 1 3 7 1 7 1	XBCYBYN	ATSYHEH	2	2.A.V 2.T.C 2.S.C 2.Y.V 2.H.C 2.E.V 2.H.c	1.5 1.75 1.5 1.3 1.75 1.3 0.8	adzuːʔəʔ	0	480
+599	SayulaPopoluca-60_night-1	SayulaPopoluca	NIGHT	night	tsuʔ	tsuʔ	ts u ʔ	2 7 1	AXN	CYH	7	7.C.C 7.Y.V 7.H.c	2.0 1.5 0.8	tsuʔ	0	479
+600	OlutaPopoluca-60_night-1	OlutaPopoluca	NIGHT	night	tsuhə	tsuhə	ts u h ə	2 7 3 7	AXBZ	CYHE	4	4.C.C 4.Y.V 4.H.C 4.E.V	2.0 1.5 1.75 0.8	tsuhə	0	479
+601	TexistepecZoque-60_night-1	TexistepecZoque	NIGHT	night	tsuʔ	tsuʔ	ts u ʔ	2 7 1	AXN	CYH	10	10.C.C 10.Y.V 10.H.c	2.0 1.5 0.8	tsuʔ	0	479
+602	SoteapanZoque-60_night-1	SoteapanZoque	NIGHT	night	tsuʔu	tsuʔu	ts u ʔ u	2 7 1 7	AXBZ	CYHY	8	8.C.C 8.Y.V 8.H.C 8.Y.V	2.0 1.5 1.75 0.8	tsuʔu	0	479
+603	SantaMariaChimalapaZoque-60_night-1	SantaMariaChimalapaZoque	NIGHT	night	tsuʔhi	tsuʔhi	ts u ʔ h i	2 7 1 3 7	AXBCZ	CYHHI	6	6.C.C 6.Y.V 6.H.C 6.H.C 6.I.V	2.0 1.5 1.75 1.5 0.8	tsuʔhi	0	484
+604	SanMiguelChimalapaZoque-60_night-1	SanMiguelChimalapaZoque	NIGHT	night	tsuʔ	tsuʔ	ts u ʔ	2 7 1	AXN	CYH	5	5.C.C 5.Y.V 5.H.c	2.0 1.5 0.8	tsuʔ	0	479
+605	ChiapasZoque-60_night-1	ChiapasZoque	NIGHT	night	tsuʔ	tsuʔ	ts u ʔ	2 7 1	AXN	CYH	1	1.C.C 1.Y.V 1.H.c	2.0 1.5 0.8	tsuʔ	0	479
+606	NorthHighlandMixe-61_nose-1	NorthHighlandMixe	NOSE	nose	həhp	həhp	h ə h p	3 7 3 1	AXLN	HEHP	3	3.H.C 3.E.V 3.H.c 3.P.c	2.0 1.5 1.1 0.8	həhp	0	489
+607	SouthHighlandMixe-61_nose-1	SouthHighlandMixe	NOSE	nose	həhp	həhp	h ə h p	3 7 3 1	AXLN	HEHP	9	9.H.C 9.E.V 9.H.c 9.P.c	2.0 1.5 1.1 0.8	həhp	0	489
+608	LowlandMixe-61_nose-1	LowlandMixe	NOSE	nose	həhp-put	həhp-put	h ə h p + p u t	3 7 3 1 9 1 7 1	AXLN_AXN	HEHP_PYT	2	2.H.C 2.E.V 2.H.c 2.P.c 2._._ 2.P.C 2.Y.V 2.T.c	2.0 1.5 1.1 0.8 0.0 2.0 1.5 0.8	həhp+put	0	489
+609	SayulaPopoluca-61_nose-1	SayulaPopoluca	NOSE	nose	həhp	həhp	h ə h p	3 7 3 1	AXLN	HEHP	7	7.H.C 7.E.V 7.H.c 7.P.c	2.0 1.5 1.1 0.8	həhp	0	489
+610	OlutaPopoluca-61_nose-1	OlutaPopoluca	NOSE	nose	həpə	həpə	h ə p ə	3 7 1 7	AXBZ	HEPE	4	4.H.C 4.E.V 4.P.C 4.E.V	2.0 1.5 1.75 0.8	həpə	0	491
+611	TexistepecZoque-61_nose-1	TexistepecZoque	NOSE	nose	keñ-kuy	keñ-kuy	k e ɲ + k u j	1 7 4 9 1 7 6	AXN_AXN	KEN_KYJ	10	10.K.C 10.E.V 10.N.c 10._._ 10.K.C 10.Y.V 10.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	keɲ+kuj	0	497
+612	SoteapanZoque-61_nose-1	SoteapanZoque	NOSE	nose	kiiñi	kiiñi	k iː ɲ i	1 7 4 7	AXBZ	KINI	8	8.K.C 8.I.V 8.N.C 8.I.V	2.0 1.5 1.75 0.8	kiːɲi	0	488
+613	SantaMariaChimalapaZoque-61_nose-1	SantaMariaChimalapaZoque	NOSE	nose	kinə	kinə	k i n ə	1 7 4 7	AXBZ	KINE	6	6.K.C 6.I.V 6.N.C 6.E.V	2.0 1.5 1.75 0.8	kinə	0	488
+614	SanMiguelChimalapaZoque-61_nose-1	SanMiguelChimalapaZoque	NOSE	nose	kinək	kinək	k i n ə k	1 7 4 7 1	AXBYN	KINEK	5	5.K.C 5.I.V 5.N.C 5.E.V 5.K.c	2.0 1.5 1.75 1.3 0.8	kinək	0	488
+615	ChiapasZoque-61_nose-1	ChiapasZoque	NOSE	nose	kinə	kinə	k i n ə	1 7 4 7	AXBZ	KINE	1	1.K.C 1.I.V 1.N.C 1.E.V	2.0 1.5 1.75 0.8	kinə	0	488
+616	NorthHighlandMixe-62_not-1	NorthHighlandMixe	NOT	not	kaʔa	kaʔa	k a ʔ a	1 7 1 7	AXBZ	KAHA	3	3.K.C 3.A.V 3.H.C 3.A.V	2.0 1.5 1.75 0.8	kaʔa	0	499
+617	SouthHighlandMixe-62_not-1	SouthHighlandMixe	NOT	not	kaʔt	kaʔt	k a ʔ t	1 7 1 1	AXLN	KAHT	9	9.K.C 9.A.V 9.H.c 9.T.c	2.0 1.5 1.1 0.8	kaʔt	0	499
+618	LowlandMixe-62_not-1	LowlandMixe	NOT	not	kaʔ	kaʔ	k a ʔ	1 7 1	AXN	KAH	2	2.K.C 2.A.V 2.H.c	2.0 1.5 0.8	kaʔ	0	499
+619	SayulaPopoluca-62_not-1	SayulaPopoluca	NOT	not	kaah	kaah	k aː h	1 7 3	AXN	KAH	7	7.K.C 7.A.V 7.H.c	2.0 1.5 0.8	kaːh	0	499
+620	OlutaPopoluca-62_not-1	OlutaPopoluca	NOT	not	əʔə	əʔə	ə ʔ ə	7 1 7	XBZ	EHE	4	4.E.V 4.H.C 4.E.V	1.5 1.75 0.8	əʔə	0	501
+621	TexistepecZoque-62_not-1	TexistepecZoque	NOT	not	eñč	eñč	e ɲ tʃ	7 4 1	XLN	ENT	10	10.E.V 10.N.c 10.T.c	1.5 1.1 0.8	eɲtʃ	0	507
+622	SoteapanZoque-62_not-1	SoteapanZoque	NOT	not	dYa	dYa	d j a	1 6 7	ACX	TJA	8	8.T.C 8.J.C 8.A.V	2.0 1.5 1.5	dja	0	505
+623	SantaMariaChimalapaZoque-62_not-1	SantaMariaChimalapaZoque	NOT	not	wat kaha	wat kaha	w a t + k a h a	6 7 1 9 1 7 3 7	AXN_AXBZ	WAT_KAHA	6	6.W.C 6.A.V 6.T.c 6._._ 6.K.C 6.A.V 6.H.C 6.A.V	2.0 1.5 0.8 0.0 2.0 1.5 1.75 0.8	wat+kaha	0	503
+624	SanMiguelChimalapaZoque-62_not-1	SanMiguelChimalapaZoque	NOT	not	ya	ya	j a	6 7	AX	JA	5	5.J.C 5.A.V	2.0 1.5	ja	0	502
+625	ChiapasZoque-62_not-1	ChiapasZoque	NOT	not	haʔne	haʔne	h a ʔ n e	3 7 1 4 7	AXBCZ	HAHNE	1	1.H.C 1.A.V 1.H.C 1.N.C 1.E.V	2.0 1.5 1.75 1.5 0.8	haʔne	0	498
+626	NorthHighlandMixe-63_one-1	NorthHighlandMixe	ONE	one	tυʔk	tυʔk	t ʊ ʔ k	1 7 1 1	AXLN	TYHK	3	3.T.C 3.Y.V 3.H.c 3.K.c	2.0 1.5 1.1 0.8	tʊʔk	0	509
+627	SouthHighlandMixe-63_one-1	SouthHighlandMixe	ONE	one	tuʔuk	tuʔuk	t u ʔ u k	1 7 1 7 1	AXBYN	TYHYK	9	9.T.C 9.Y.V 9.H.C 9.Y.V 9.K.c	2.0 1.5 1.75 1.3 0.8	tuʔuk	0	509
+628	LowlandMixe-63_one-1	LowlandMixe	ONE	one	tuʔuk	tuʔuk	t u ʔ u k	1 7 1 7 1	AXBYN	TYHYK	2	2.T.C 2.Y.V 2.H.C 2.Y.V 2.K.c	2.0 1.5 1.75 1.3 0.8	tuʔuk	0	509
+629	SayulaPopoluca-63_one-1	SayulaPopoluca	ONE	one	tuʔk	tuʔk	t u ʔ k	1 7 1 1	AXLN	TYHK	7	7.T.C 7.Y.V 7.H.c 7.K.c	2.0 1.5 1.1 0.8	tuʔk	0	509
+630	OlutaPopoluca-63_one-1	OlutaPopoluca	ONE	one	tuʔk	tuʔk	t u ʔ k	1 7 1 1	AXLN	TYHK	4	4.T.C 4.Y.V 4.H.c 4.K.c	2.0 1.5 1.1 0.8	tuʔk	0	509
+631	TexistepecZoque-63_one-1	TexistepecZoque	ONE	one	tum	tum	t u m	1 7 4	AXN	TYM	10	10.T.C 10.Y.V 10.M.c	2.0 1.5 0.8	tum	0	508
+632	SoteapanZoque-63_one-1	SoteapanZoque	ONE	one	tuum	tuum	t uː m	1 7 4	AXN	TYM	8	8.T.C 8.Y.V 8.M.c	2.0 1.5 0.8	tuːm	0	508
+633	SantaMariaChimalapaZoque-63_one-1	SantaMariaChimalapaZoque	ONE	one	tumə	tumə	t u m ə	1 7 4 7	AXBZ	TYME	6	6.T.C 6.Y.V 6.M.C 6.E.V	2.0 1.5 1.75 0.8	tumə	0	508
+634	SanMiguelChimalapaZoque-63_one-1	SanMiguelChimalapaZoque	ONE	one	tumə	tumə	t u m ə	1 7 4 7	AXBZ	TYME	5	5.T.C 5.Y.V 5.M.C 5.E.V	2.0 1.5 1.75 0.8	tumə	0	508
+635	ChiapasZoque-63_one-1	ChiapasZoque	ONE	one	tumə	tumə	t u m ə	1 7 4 7	AXBZ	TYME	1	1.T.C 1.Y.V 1.M.C 1.E.V	2.0 1.5 1.75 0.8	tumə	0	508
+636	NorthHighlandMixe-64_person-1	NorthHighlandMixe	PERSON	person	hayu	hayu	h a j u	3 7 6 7	AXBZ	HAJY	3	3.H.C 3.A.V 3.J.C 3.Y.V	2.0 1.5 1.75 0.8	haju	0	511
+637	SouthHighlandMixe-64_person-1	SouthHighlandMixe	PERSON	person	haʔay	haʔay	h a ʔ a j	3 7 1 7 6	AXBYN	HAHAJ	9	9.H.C 9.A.V 9.H.C 9.A.V 9.J.c	2.0 1.5 1.75 1.3 0.8	haʔaj	0	515
+638	LowlandMixe-64_person-1	LowlandMixe	PERSON	person	həy	həy	h ə j	3 7 6	AXN	HEJ	2	2.H.C 2.E.V 2.J.c	2.0 1.5 0.8	həj	0	511
+639	SayulaPopoluca-64_person-1	SayulaPopoluca	PERSON	person	hayaw	hayaw	h a j a w	3 7 6 7 6	AXBYN	HAJAW	7	7.H.C 7.A.V 7.J.C 7.A.V 7.W.c	2.0 1.5 1.75 1.3 0.8	hajaw	1	511
+640	OlutaPopoluca-64_person-1	OlutaPopoluca	PERSON	person	haykaʔk	haykaʔk	h a j k a ʔ k	3 7 6 1 7 1 1	AXMBYLN	HAJKAHK	4	4.H.C 4.A.V 4.J.c 4.K.C 4.A.V 4.H.c 4.K.c	2.0 1.5 1.1 1.75 1.3 1.1 0.8	hajkaʔk	0	513
+641	TexistepecZoque-64_person-1	TexistepecZoque	PERSON	person	pəəñ-čaʔ	pəəñ-čaʔ	p əː ɲ + tʃ a ʔ	1 7 4 9 1 7 1	AXN_AXN	PEN_TAH	10	10.P.C 10.E.V 10.N.c 10._._ 10.T.C 10.A.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	pəːɲ+tʃaʔ	0	510
+642	ChiapasZoque-64_person-1	ChiapasZoque	PERSON	person	pən-daʔm	pən-daʔm	p ə n + d a ʔ m	1 7 4 9 1 7 1 4	AXN_AXBC	PEN_TAHM	1	1.P.C 1.E.V 1.N.c 1._._ 1.T.C 1.A.V 1.H.C 1.M.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	pən+daʔm	0	510
+643	NorthHighlandMixe-65_rain-1	NorthHighlandMixe	RAIN (PRECIPITATION)	rain	tυυ	tυυ	t ʊː	1 7	AX	TY	3	3.T.C 3.Y.V	2.0 1.5	tʊː	0	516
+644	SouthHighlandMixe-65_rain-1	SouthHighlandMixe	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	9	9.T.C 9.Y.V 9.H.c	2.0 1.5 0.8	tuh	0	516
+645	LowlandMixe-65_rain-1	LowlandMixe	RAIN (PRECIPITATION)	rain	tuu	tuu	t uː	1 7	AX	TY	2	2.T.C 2.Y.V	2.0 1.5	tuː	0	516
+646	SayulaPopoluca-65_rain-1	SayulaPopoluca	RAIN (PRECIPITATION)	rain	tuu	tuu	t uː	1 7	AX	TY	7	7.T.C 7.Y.V	2.0 1.5	tuː	0	516
+647	OlutaPopoluca-65_rain-1	OlutaPopoluca	RAIN (PRECIPITATION)	rain	tuuhə	tuuhə	t uː h ə	1 7 3 7	AXBZ	TYHE	4	4.T.C 4.Y.V 4.H.C 4.E.V	2.0 1.5 1.75 0.8	tuːhə	0	516
+648	TexistepecZoque-65_rain-1	TexistepecZoque	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	10	10.T.C 10.Y.V 10.H.c	2.0 1.5 0.8	tuh	0	516
+649	SoteapanZoque-65_rain-1	SoteapanZoque	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	8	8.T.C 8.Y.V 8.H.c	2.0 1.5 0.8	tuh	0	516
+650	SantaMariaChimalapaZoque-65_rain-1	SantaMariaChimalapaZoque	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	6	6.T.C 6.Y.V 6.H.c	2.0 1.5 0.8	tuh	0	516
+651	SanMiguelChimalapaZoque-65_rain-1	SanMiguelChimalapaZoque	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	5	5.T.C 5.Y.V 5.H.c	2.0 1.5 0.8	tuh	0	516
+652	ChiapasZoque-65_rain-1	ChiapasZoque	RAIN (PRECIPITATION)	rain	tuh	tuh	t u h	1 7 3	AXN	TYH	1	1.T.C 1.Y.V 1.H.c	2.0 1.5 0.8	tuh	0	516
+653	NorthHighlandMixe-66_red-1	NorthHighlandMixe	RED	red	tsapts	tsapts	ts a p ts	2 7 1 2	AXBC	CAPC	3	3.C.C 3.A.V 3.P.C 3.C.C	2.0 1.5 1.75 1.5	tsapts	0	517
+654	SouthHighlandMixe-66_red-1	SouthHighlandMixe	RED	red	tsaps	tsaps	ts a p s	2 7 1 3	AXBC	CAPS	9	9.C.C 9.A.V 9.P.C 9.S.C	2.0 1.5 1.75 1.5	tsaps	0	517
+655	LowlandMixe-66_red-1	LowlandMixe	RED	red	tsapts	tsapts	ts a p ts	2 7 1 2	AXBC	CAPC	2	2.C.C 2.A.V 2.P.C 2.C.C	2.0 1.5 1.75 1.5	tsapts	0	517
+656	SayulaPopoluca-66_red-1	SayulaPopoluca	RED	red	tsabats	tsabats	ts a b a ts	2 7 1 7 2	AXBYN	CAPAC	7	7.C.C 7.A.V 7.P.C 7.A.V 7.C.c	2.0 1.5 1.75 1.3 0.8	tsabats	0	517
+657	OlutaPopoluca-66_red-1	OlutaPopoluca	RED	red	tsapaʔs	tsapaʔs	ts a p a ʔ s	2 7 1 7 1 3	AXBYBC	CAPAHS	4	4.C.C 4.A.V 4.P.C 4.A.V 4.H.C 4.S.C	2.0 1.5 1.75 1.3 1.75 1.5	tsapaʔs	0	520
+658	TexistepecZoque-66_red-1	TexistepecZoque	RED	red	tsaʔpaʔts	tsaʔpaʔts	ts a ʔ p a ʔ ts	2 7 1 1 7 1 2	AXMBYBC	CAHPAHC	10	10.C.C 10.A.V 10.H.c 10.P.C 10.A.V 10.H.C 10.C.C	2.0 1.5 1.1 1.75 1.3 1.75 1.5	tsaʔpaʔts	0	520
+659	SoteapanZoque-66_red-1	SoteapanZoque	RED	red	tsabats	tsabats	ts a b a ts	2 7 1 7 2	AXBYN	CAPAC	8	8.C.C 8.A.V 8.P.C 8.A.V 8.C.c	2.0 1.5 1.75 1.3 0.8	tsabats	0	517
+660	SantaMariaChimalapaZoque-66_red-1	SantaMariaChimalapaZoque	RED	red	tsapats	tsapats	ts a p a ts	2 7 1 7 2	AXBYN	CAPAC	6	6.C.C 6.A.V 6.P.C 6.A.V 6.C.c	2.0 1.5 1.75 1.3 0.8	tsapats	0	517
+661	SanMiguelChimalapaZoque-66_red-1	SanMiguelChimalapaZoque	RED	red	tsapats	tsapats	ts a p a ts	2 7 1 7 2	AXBYN	CAPAC	5	5.C.C 5.A.V 5.P.C 5.A.V 5.C.c	2.0 1.5 1.75 1.3 0.8	tsapats	0	517
+662	ChiapasZoque-66_red-1	ChiapasZoque	RED	red	tsapas	tsapas	ts a p a s	2 7 1 7 3	AXBYN	CAPAS	1	1.C.C 1.A.V 1.P.C 1.A.V 1.S.c	2.0 1.5 1.75 1.3 0.8	tsapas	0	517
+663	NorthHighlandMixe-67_road-1	NorthHighlandMixe	ROAD	road	tυυʔ	tυυʔ	t ʊː ʔ	1 7 1	AXN	TYH	3	3.T.C 3.Y.V 3.H.c	2.0 1.5 0.8	tʊːʔ	0	522
+664	SouthHighlandMixe-67_road-1	SouthHighlandMixe	ROAD	road	tuʔu	tuʔu	t u ʔ u	1 7 1 7	AXBZ	TYHY	9	9.T.C 9.Y.V 9.H.C 9.Y.V	2.0 1.5 1.75 0.8	tuʔu	0	522
+665	LowlandMixe-67_road-1	LowlandMixe	ROAD	road	tuʔ	tuʔ	t u ʔ	1 7 1	AXN	TYH	2	2.T.C 2.Y.V 2.H.c	2.0 1.5 0.8	tuʔ	0	522
+666	SayulaPopoluca-67_road-1	SayulaPopoluca	ROAD	road	toow	toow	t oː w	1 7 6	AXN	TUW	7	7.T.C 7.U.V 7.W.c	2.0 1.5 0.8	toːw	0	527
+667	OlutaPopoluca-67_road-1	OlutaPopoluca	ROAD	road	tuʔaʔw	tuʔaʔw	t u ʔ a ʔʷ	1 7 1 7 1	AXBYN	TYHAH	4	4.T.C 4.Y.V 4.H.C 4.A.V 4.H.c	2.0 1.5 1.75 1.3 0.8	tuʔaʔʷ	0	522
+668	TexistepecZoque-67_road-1	TexistepecZoque	ROAD	road	tuŋ	tuŋ	t u ŋ	1 7 4	AXN	TYN	10	10.T.C 10.Y.V 10.N.c	2.0 1.5 0.8	tuŋ	0	521
+669	SoteapanZoque-67_road-1	SoteapanZoque	ROAD	road	tuŋ	tuŋ	t u ŋ	1 7 4	AXN	TYN	8	8.T.C 8.Y.V 8.N.c	2.0 1.5 0.8	tuŋ	0	521
+670	SantaMariaChimalapaZoque-67_road-1	SantaMariaChimalapaZoque	ROAD	road	tuŋ	tuŋ	t u ŋ	1 7 4	AXN	TYN	6	6.T.C 6.Y.V 6.N.c	2.0 1.5 0.8	tuŋ	0	521
+671	SanMiguelChimalapaZoque-67_road-1	SanMiguelChimalapaZoque	ROAD	road	tuŋ	tuŋ	t u ŋ	1 7 4	AXN	TYN	5	5.T.C 5.Y.V 5.N.c	2.0 1.5 0.8	tuŋ	0	521
+672	ChiapasZoque-67_road-1	ChiapasZoque	ROAD	road	tuŋ	tuŋ	t u ŋ	1 7 4	AXN	TYN	1	1.T.C 1.Y.V 1.N.c	2.0 1.5 0.8	tuŋ	0	521
+673	NorthHighlandMixe-68_root-1	NorthHighlandMixe	ROOT	root	aaʔts	aaʔts	aː ʔ ts	7 1 2	XBC	AHC	3	3.A.V 3.H.C 3.C.C	1.5 1.75 1.5	aːʔts	0	530
+674	SouthHighlandMixe-68_root-1	SouthHighlandMixe	ROOT	root	aats	aats	aː ts	7 2	XN	AC	9	9.A.V 9.C.c	1.5 0.8	aːts	0	536
+675	LowlandMixe-68_root-1	LowlandMixe	ROOT	root	tikts	tikts	t i k ts	1 7 1 2	AXBC	TIKC	2	2.T.C 2.I.V 2.K.C 2.C.C	2.0 1.5 1.75 1.5	tikts	0	529
+676	SayulaPopoluca-68_root-1	SayulaPopoluca	ROOT	root	tikčik	tikčik	t i k tʃ i k	1 7 1 1 7 1	AXMBYN	TIKTIK	7	7.T.C 7.I.V 7.K.c 7.T.C 7.I.V 7.K.c	2.0 1.5 1.1 1.75 1.3 0.8	tiktʃik	0	534
+677	OlutaPopoluca-68_root-1	OlutaPopoluca	ROOT	root	čistsəʔw	čistsəʔw	tʃ i s ts ə ʔʷ	1 7 3 2 7 1	AXMBYN	TISCEH	4	4.T.C 4.I.V 4.S.c 4.C.C 4.E.V 4.H.c	2.0 1.5 1.1 1.75 1.3 0.8	tʃistsəʔʷ	0	531
+678	TexistepecZoque-68_root-1	TexistepecZoque	ROOT	root	čečək	čečək	tʃ e tʃ ə k	1 7 1 7 1	AXBYN	TETEK	10	10.T.C 10.E.V 10.T.C 10.E.V 10.K.c	2.0 1.5 1.75 1.3 0.8	tʃetʃək	0	534
+679	SoteapanZoque-68_root-1	SoteapanZoque	ROOT	root	tyiičək	tyiičək	t j iː tʃ ə k	1 6 7 1 7 1	ACXBYN	TJITEK	8	8.T.C 8.J.C 8.I.V 8.T.C 8.E.V 8.K.c	2.0 1.5 1.5 1.75 1.3 0.8	tjiːtʃək	0	534
+680	SantaMariaChimalapaZoque-68_root-1	SantaMariaChimalapaZoque	ROOT	root	waʔts	waʔts	w a ʔ ts	6 7 1 2	AXBC	WAHC	6	6.W.C 6.A.V 6.H.C 6.C.C	2.0 1.5 1.75 1.5	waʔts	0	530
+681	SanMiguelChimalapaZoque-68_root-1	SanMiguelChimalapaZoque	ROOT	root	waʔts	waʔts	w a ʔ ts	6 7 1 2	AXBC	WAHC	5	5.W.C 5.A.V 5.H.C 5.C.C	2.0 1.5 1.75 1.5	waʔts	0	530
+682	ChiapasZoque-68_root-1	ChiapasZoque	ROOT	root	watsi	watsi	w a ts i	6 7 2 7	AXBZ	WACI	1	1.W.C 1.A.V 1.C.C 1.I.V	2.0 1.5 1.75 0.8	watsi	0	528
+683	NorthHighlandMixe-69_round-1	NorthHighlandMixe	ROUND	round	pigïk	pigïk	p i g ɨ k	1 7 1 7 1	AXBYN	PIKIK	3	3.P.C 3.I.V 3.K.C 3.I.V 3.K.c	2.0 1.5 1.75 1.3 0.8	pigɨk	0	539
+684	SouthHighlandMixe-69_round-1	SouthHighlandMixe	ROUND	round	pehk	pehk	p e h k	1 7 3 1	AXLN	PEHK	9	9.P.C 9.E.V 9.H.c 9.K.c	2.0 1.5 1.1 0.8	pehk	0	538
+685	LowlandMixe-69_round-1	LowlandMixe	ROUND	round	pik	pik	p i k	1 7 1	AXN	PIK	2	2.P.C 2.I.V 2.K.c	2.0 1.5 0.8	pik	0	538
+686	SayulaPopoluca-69_round-1	SayulaPopoluca	ROUND	round	hoyoy	hoyoy	h o j o j	3 7 6 7 6	AXBYN	HUJUJ	7	7.H.C 7.U.V 7.J.C 7.U.V 7.J.c	2.0 1.5 1.75 1.3 0.8	hojoj	0	540
+687	TexistepecZoque-69_round-1	TexistepecZoque	ROUND	round	woy-woy-če	woy-woy-če	w o j + w o j + tʃ e	6 7 6 9 6 7 6 9 1 7	AXN_AXN_AX	WUJ_WUJ_TE	10	10.W.C 10.U.V 10.J.c 10._._ 10.W.C 10.U.V 10.J.c 10._._ 10.T.C 10.E.V	2.0 1.5 0.8 0.0 2.0 1.5 0.8 0.0 2.0 1.5	woj+woj+tʃe	0	543
+688	SoteapanZoque-69_round-1	SoteapanZoque	ROUND	round	woyo	woyo	w o j o	6 7 6 7	AXBZ	WUJU	8	8.W.C 8.U.V 8.J.C 8.U.V	2.0 1.5 1.75 0.8	wojo	0	541
+689	ChiapasZoque-69_round-1	ChiapasZoque	ROUND	round	huyuh	huyuh	h u j u h	3 7 6 7 3	AXBYN	HYJYH	1	1.H.C 1.Y.V 1.J.C 1.Y.V 1.H.c	2.0 1.5 1.75 1.3 0.8	hujuh	0	537
+1031	NorthHighlandMixe-104_salt-1	NorthHighlandMixe	SALT	salt	kaan	kaan	k aː n	1 7 4	AXN	KAN	3	3.K.C 3.A.V 3.N.c	2.0 1.5 0.8	kaːn	0	544
+1032	SouthHighlandMixe-104_salt-1	SouthHighlandMixe	SALT	salt	kaan	kaan	k aː n	1 7 4	AXN	KAN	9	9.K.C 9.A.V 9.N.c	2.0 1.5 0.8	kaːn	0	544
+1033	LowlandMixe-104_salt-1	LowlandMixe	SALT	salt	kaan	kaan	k aː n	1 7 4	AXN	KAN	2	2.K.C 2.A.V 2.N.c	2.0 1.5 0.8	kaːn	0	544
+1034	SayulaPopoluca-104_salt-1	SayulaPopoluca	SALT	salt	kaan	kaan	k aː n	1 7 4	AXN	KAN	7	7.K.C 7.A.V 7.N.c	2.0 1.5 0.8	kaːn	0	544
+1035	OlutaPopoluca-104_salt-1	OlutaPopoluca	SALT	salt	kaana	kaana	k aː n a	1 7 4 7	AXBZ	KANA	4	4.K.C 4.A.V 4.N.C 4.A.V	2.0 1.5 1.75 0.8	kaːna	0	544
+1036	TexistepecZoque-104_salt-1	TexistepecZoque	SALT	salt	kaan	kaan	k aː n	1 7 4	AXN	KAN	10	10.K.C 10.A.V 10.N.c	2.0 1.5 0.8	kaːn	0	544
+1037	SoteapanZoque-104_salt-1	SoteapanZoque	SALT	salt	kaana	kaana	k aː n a	1 7 4 7	AXBZ	KANA	8	8.K.C 8.A.V 8.N.C 8.A.V	2.0 1.5 1.75 0.8	kaːna	0	544
+1038	SantaMariaChimalapaZoque-104_salt-1	SantaMariaChimalapaZoque	SALT	salt	kana	kana	k a n a	1 7 4 7	AXBZ	KANA	6	6.K.C 6.A.V 6.N.C 6.A.V	2.0 1.5 1.75 0.8	kana	0	544
+1039	SanMiguelChimalapaZoque-104_salt-1	SanMiguelChimalapaZoque	SALT	salt	kana	kana	k a n a	1 7 4 7	AXBZ	KANA	5	5.K.C 5.A.V 5.N.C 5.A.V	2.0 1.5 1.75 0.8	kana	0	544
+1040	ChiapasZoque-104_salt-1	ChiapasZoque	SALT	salt	kana	kana	k a n a	1 7 4 7	AXBZ	KANA	1	1.K.C 1.A.V 1.N.C 1.A.V	2.0 1.5 1.75 0.8	kana	0	544
+690	NorthHighlandMixe-70_sand-1	NorthHighlandMixe	SAND	sand	pυʔυ	pυʔυ	p ʊ ʔ ʊ	1 7 1 7	AXBZ	PYHY	3	3.P.C 3.Y.V 3.H.C 3.Y.V	2.0 1.5 1.75 0.8	pʊʔʊ	0	546
+691	SouthHighlandMixe-70_sand-1	SouthHighlandMixe	SAND	sand	puʔu	puʔu	p u ʔ u	1 7 1 7	AXBZ	PYHY	9	9.P.C 9.Y.V 9.H.C 9.Y.V	2.0 1.5 1.75 0.8	puʔu	0	546
+692	LowlandMixe-70_sand-1	LowlandMixe	SAND	sand	puʔ	puʔ	p u ʔ	1 7 1	AXN	PYH	2	2.P.C 2.Y.V 2.H.c	2.0 1.5 0.8	puʔ	0	546
+693	SayulaPopoluca-70_sand-1	SayulaPopoluca	SAND	sand	poʔy	poʔy	p o ʔ j	1 7 1 6	AXBC	PUHJ	7	7.P.C 7.U.V 7.H.C 7.J.C	2.0 1.5 1.75 1.5	poʔj	0	546
+694	OlutaPopoluca-70_sand-1	OlutaPopoluca	SAND	sand	puʔə	puʔə	p u ʔ ə	1 7 1 7	AXBZ	PYHE	4	4.P.C 4.Y.V 4.H.C 4.E.V	2.0 1.5 1.75 0.8	puʔə	0	546
+695	TexistepecZoque-70_sand-1	TexistepecZoque	SAND	sand	poʔoy	poʔoy	p o ʔ o j	1 7 1 7 6	AXBYN	PUHUJ	10	10.P.C 10.U.V 10.H.C 10.U.V 10.J.c	2.0 1.5 1.75 1.3 0.8	poʔoj	0	546
+696	SoteapanZoque-70_sand-1	SoteapanZoque	SAND	sand	poʔoy	poʔoy	p o ʔ o j	1 7 1 7 6	AXBYN	PUHUJ	8	8.P.C 8.U.V 8.H.C 8.U.V 8.J.c	2.0 1.5 1.75 1.3 0.8	poʔoj	0	546
+697	SantaMariaChimalapaZoque-70_sand-1	SantaMariaChimalapaZoque	SAND	sand	haweʔ	haweʔ	h a w e ʔ	3 7 6 7 1	AXBYN	HAWEH	6	6.H.C 6.A.V 6.W.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	haweʔ	0	550
+698	SanMiguelChimalapaZoque-70_sand-1	SanMiguelChimalapaZoque	SAND	sand	poeʔ	poeʔ	p o e ʔ	1 7 7 1	AXYN	PUEH	5	5.P.C 5.U.V 5.E.V 5.H.c	2.0 1.5 1.3 0.8	poeʔ	0	549
+699	ChiapasZoque-70_sand-1	ChiapasZoque	SAND	sand	waʔna	waʔna	w a ʔ n a	6 7 1 4 7	AXBCZ	WAHNA	1	1.W.C 1.A.V 1.H.C 1.N.C 1.A.V	2.0 1.5 1.75 1.5 0.8	waʔna	0	545
+700	NorthHighlandMixe-71_say-1	NorthHighlandMixe	SAY	say	vaʔañ	vaʔañ	v a ʔ a ɲ	3 7 1 7 4	AXBYN	BAHAN	3	3.B.C 3.A.V 3.H.C 3.A.V 3.N.c	2.0 1.5 1.75 1.3 0.8	vaʔaɲ	0	553
+701	SouthHighlandMixe-71_say-1	SouthHighlandMixe	SAY	say	nə-kapš	nə-kapš	n ə + k a p ʃ	4 7 9 1 7 1 3	AX_AXBC	NE_KAPS	9	9.N.C 9.E.V 9._._ 9.K.C 9.A.V 9.P.C 9.S.C	2.0 1.5 0.0 2.0 1.5 1.75 1.5	nə+kapʃ	0	559
+702	LowlandMixe-71_say-1	LowlandMixe	SAY	say	mənaʔn	mənaʔn	m ə n a ʔ n	4 7 4 7 1 4	AXBYBC	MENAHN	2	2.M.C 2.E.V 2.N.C 2.A.V 2.H.C 2.N.C	2.0 1.5 1.75 1.3 1.75 1.5	mənaʔn	0	552
+703	SayulaPopoluca-71_say-1	SayulaPopoluca	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	7	7.N.C 7.E.V 7.M.c	2.0 1.5 0.8	nəm	0	551
+704	OlutaPopoluca-71_say-1	OlutaPopoluca	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	4	4.N.C 4.E.V 4.M.c	2.0 1.5 0.8	nəm	0	551
+705	TexistepecZoque-71_say-1	TexistepecZoque	SAY	say	dəm	dəm	d ə m	1 7 4	AXN	TEM	10	10.T.C 10.E.V 10.M.c	2.0 1.5 0.8	dəm	0	560
+706	SoteapanZoque-71_say-1	SoteapanZoque	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	8	8.N.C 8.E.V 8.M.c	2.0 1.5 0.8	nəm	0	551
+707	SantaMariaChimalapaZoque-71_say-1	SantaMariaChimalapaZoque	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	6	6.N.C 6.E.V 6.M.c	2.0 1.5 0.8	nəm	0	551
+708	SanMiguelChimalapaZoque-71_say-1	SanMiguelChimalapaZoque	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	5	5.N.C 5.E.V 5.M.c	2.0 1.5 0.8	nəm	0	551
+709	ChiapasZoque-71_say-1	ChiapasZoque	SAY	say	nəm	nəm	n ə m	4 7 4	AXN	NEM	1	1.N.C 1.E.V 1.M.c	2.0 1.5 0.8	nəm	0	551
+710	NorthHighlandMixe-72_see-1	NorthHighlandMixe	SEE	see	iš	iš	i ʃ	7 3	XN	IS	3	3.I.V 3.S.c	1.5 0.8	iʃ	0	561
+711	SouthHighlandMixe-72_see-1	SouthHighlandMixe	SEE	see	eš	eš	e ʃ	7 3	XN	ES	9	9.E.V 9.S.c	1.5 0.8	eʃ	0	561
+712	LowlandMixe-72_see-1	LowlandMixe	SEE	see	iš	iš	i ʃ	7 3	XN	IS	2	2.I.V 2.S.c	1.5 0.8	iʃ	0	561
+713	SayulaPopoluca-72_see-1	SayulaPopoluca	SEE	see	iš	iš	i ʃ	7 3	XN	IS	7	7.I.V 7.S.c	1.5 0.8	iʃ	0	561
+714	TexistepecZoque-72_see-1	TexistepecZoque	SEE	see	ʔeš	ʔeš	ʔ e ʃ	1 7 3	AXN	HES	10	10.H.C 10.E.V 10.S.c	2.0 1.5 0.8	ʔeʃ	0	561
+715	SoteapanZoque-72_see-1	SoteapanZoque	SEE	see	iʔiš	iʔiš	i ʔ i ʃ	7 1 7 3	XBYN	IHIS	8	8.I.V 8.H.C 8.I.V 8.S.c	1.5 1.75 1.3 0.8	iʔiʃ	0	561
+716	SantaMariaChimalapaZoque-72_see-1	SantaMariaChimalapaZoque	SEE	see	is	is	i s	7 3	XN	IS	6	6.I.V 6.S.c	1.5 0.8	is	0	561
+717	SanMiguelChimalapaZoque-72_see-1	SanMiguelChimalapaZoque	SEE	see	ʔiš	ʔiš	ʔ i ʃ	1 7 3	AXN	HIS	5	5.H.C 5.I.V 5.S.c	2.0 1.5 0.8	ʔiʃ	0	561
+718	ChiapasZoque-72_see-1	ChiapasZoque	SEE	see	ʔis	ʔis	ʔ i s	1 7 3	AXN	HIS	1	1.H.C 1.I.V 1.S.c	2.0 1.5 0.8	ʔis	0	561
+719	SayulaPopoluca-72_see-2	SayulaPopoluca	SEE	see	eʔp	eʔp	e ʔ p	7 1 1	XLN	EHP	7	7.E.V 7.H.c 7.P.c	1.5 1.1 0.8	eʔp	0	571
+720	OlutaPopoluca-72_see-1	OlutaPopoluca	SEE	see	ʔeep	ʔeep	ʔ eː p	1 7 1	AXN	HEP	4	4.H.C 4.E.V 4.P.c	2.0 1.5 0.8	ʔeːp	0	564
+721	NorthHighlandMixe-73_seed-1	NorthHighlandMixe	SEED	seed	təəmt	təəmt	t əː m t	1 7 4 1	AXLN	TEMT	3	3.T.C 3.E.V 3.M.c 3.T.c	2.0 1.5 1.1 0.8	təːmt	0	574
+722	SouthHighlandMixe-73_seed-1	SouthHighlandMixe	SEED	seed	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	9	9.P.C 9.A.V 9.H.c 9.K.c	2.0 1.5 1.1 0.8	pahk	1	572
+723	LowlandMixe-73_seed-1	LowlandMixe	SEED	seed	pahk	pahk	p a h k	1 7 3 1	AXLN	PAHK	2	2.P.C 2.A.V 2.H.c 2.K.c	2.0 1.5 1.1 0.8	pahk	1	572
+724	SayulaPopoluca-73_seed-1	SayulaPopoluca	SEED	seed	puuh	puuh	p uː h	1 7 3	AXN	PYH	7	7.P.C 7.Y.V 7.H.c	2.0 1.5 0.8	puːh	0	572
+725	OlutaPopoluca-73_seed-1	OlutaPopoluca	SEED	seed	pakə	pakə	p a k ə	1 7 1 7	AXBZ	PAKE	4	4.P.C 4.A.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	pakə	1	575
+726	TexistepecZoque-73_seed-1	TexistepecZoque	SEED	seed	puh	puh	p u h	1 7 3	AXN	PYH	10	10.P.C 10.Y.V 10.H.c	2.0 1.5 0.8	puh	0	572
+727	SoteapanZoque-73_seed-1	SoteapanZoque	SEED	seed	pak	pak	p a k	1 7 1	AXN	PAK	8	8.P.C 8.A.V 8.K.c	2.0 1.5 0.8	pak	1	575
+728	SantaMariaChimalapaZoque-73_seed-1	SantaMariaChimalapaZoque	SEED	seed	puh	puh	p u h	1 7 3	AXN	PYH	6	6.P.C 6.Y.V 6.H.c	2.0 1.5 0.8	puh	0	572
+729	SanMiguelChimalapaZoque-73_seed-1	SanMiguelChimalapaZoque	SEED	seed	puh	puh	p u h	1 7 3	AXN	PYH	5	5.P.C 5.Y.V 5.H.c	2.0 1.5 0.8	puh	0	572
+730	ChiapasZoque-73_seed-1	ChiapasZoque	SEED	seed	puh	puh	p u h	1 7 3	AXN	PYH	1	1.P.C 1.Y.V 1.H.c	2.0 1.5 0.8	puh	0	572
+1041	NorthHighlandMixe-105_short-1	NorthHighlandMixe	SHORT	short	kona	kona	k o n a	1 7 4 7	AXBZ	KUNA	3	3.K.C 3.U.V 3.N.C 3.A.V	2.0 1.5 1.75 0.8	kona	0	579
+1042	SouthHighlandMixe-105_short-1	SouthHighlandMixe	SHORT	short	kon	kon	k o n	1 7 4	AXN	KUN	9	9.K.C 9.U.V 9.N.c	2.0 1.5 0.8	kon	0	579
+1043	LowlandMixe-105_short-1	LowlandMixe	SHORT	short	kon	kon	k o n	1 7 4	AXN	KUN	2	2.K.C 2.U.V 2.N.c	2.0 1.5 0.8	kon	0	579
+1044	OlutaPopoluca-105_short-1	OlutaPopoluca	SHORT	short	konoʔk	konoʔk	k o n o ʔ k	1 7 4 7 1 1	AXBYLN	KUNUHK	4	4.K.C 4.U.V 4.N.C 4.U.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.1 0.8	konoʔk	0	579
+1045	TexistepecZoque-105_short-1	TexistepecZoque	SHORT	short	dokkoʔ	dokkoʔ	d o kː o ʔ	1 7 1 7 1	AXBYN	TUKUH	10	10.T.C 10.U.V 10.K.C 10.U.V 10.H.c	2.0 1.5 1.75 1.3 0.8	dokːoʔ	0	584
+1046	SoteapanZoque-105_short-1	SoteapanZoque	SHORT	short	noko	noko	n o k o	4 7 1 7	AXBZ	NUKU	8	8.N.C 8.U.V 8.K.C 8.U.V	2.0 1.5 1.75 0.8	noko	0	582
+1047	SantaMariaChimalapaZoque-105_short-1	SantaMariaChimalapaZoque	SHORT	short	konoʔ	konoʔ	k o n o ʔ	1 7 4 7 1	AXBYN	KUNUH	6	6.K.C 6.U.V 6.N.C 6.U.V 6.H.c	2.0 1.5 1.75 1.3 0.8	konoʔ	0	579
+1048	SanMiguelChimalapaZoque-105_short-1	SanMiguelChimalapaZoque	SHORT	short	kon(n)-oʔ	kon-oʔ	k o n + o ʔ	1 7 4 9 7 1	AXN_XN	KUN_UH	5	5.K.C 5.U.V 5.N.c 5._._ 5.U.V 5.H.c	2.0 1.5 0.8 0.0 1.5 0.8	kon+oʔ	0	580
+1049	ChiapasZoque-105_short-1	ChiapasZoque	SHORT	short	kono	kono	k o n o	1 7 4 7	AXBZ	KUNU	1	1.K.C 1.U.V 1.N.C 1.U.V	2.0 1.5 1.75 0.8	kono	0	579
+731	NorthHighlandMixe-74_sit-1	NorthHighlandMixe	SIT	sit	tsïïna	tsïïna	ts ɨː n a	2 7 4 7	AXBZ	CINA	3	3.C.C 3.I.V 3.N.C 3.A.V	2.0 1.5 1.75 0.8	tsɨːna	0	587
+732	SouthHighlandMixe-74_sit-1	SouthHighlandMixe	SIT	sit	tsəən	tsəən	ts əː n	2 7 4	AXN	CEN	9	9.C.C 9.E.V 9.N.c	2.0 1.5 0.8	tsəːn	0	589
+733	LowlandMixe-74_sit-1	LowlandMixe	SIT	sit	inyəy, ištak	inyəy	i n j ə j	7 4 6 7 6	XBCYN	INJEJ	2	2.I.V 2.N.C 2.J.C 2.E.V 2.J.c	1.5 1.75 1.5 1.3 0.8	injəj	0	586
+734	LowlandMixe-74_sit-2	LowlandMixe	SIT	sit	inyəy, ištak	ištak	i ʃ t a k	7 3 1 7 1	XMBYN	ISTAK	2	2.I.V 2.S.c 2.T.C 2.A.V 2.K.c	1.5 1.1 1.75 1.3 0.8	iʃtak	0	595
+735	SayulaPopoluca-74_sit-1	SayulaPopoluca	SIT	sit	tsəəna	tsəəna	ts əː n a	2 7 4 7	AXBZ	CENA	7	7.C.C 7.E.V 7.N.C 7.A.V	2.0 1.5 1.75 0.8	tsəːna	0	587
+736	OlutaPopoluca-74_sit-1	OlutaPopoluca	SIT	sit	huunii	huunii	h uː n iː	3 7 4 7	AXBZ	HYNI	4	4.H.C 4.Y.V 4.N.C 4.I.V	2.0 1.5 1.75 0.8	huːniː	0	588
+737	TexistepecZoque-74_sit-1	TexistepecZoque	SIT	sit	kon	kon	k o n	1 7 4	AXN	KUN	10	10.K.C 10.U.V 10.N.c	2.0 1.5 0.8	kon	0	589
+738	SoteapanZoque-74_sit-1	SoteapanZoque	SIT	sit	koñ	koñ	k o ɲ	1 7 4	AXN	KUN	8	8.K.C 8.U.V 8.N.c	2.0 1.5 0.8	koɲ	0	589
+739	SantaMariaChimalapaZoque-74_sit-1	SantaMariaChimalapaZoque	SIT	sit	tsənay	tsənay	ts ə n a j	2 7 4 7 6	AXBYN	CENAJ	6	6.C.C 6.E.V 6.N.C 6.A.V 6.J.c	2.0 1.5 1.75 1.3 0.8	tsənaj	0	587
+740	SanMiguelChimalapaZoque-74_sit-1	SanMiguelChimalapaZoque	SIT	sit	tsən	tsən	ts ə n	2 7 4	AXN	CEN	5	5.C.C 5.E.V 5.N.c	2.0 1.5 0.8	tsən	0	589
+741	ChiapasZoque-74_sit-1	ChiapasZoque	SIT	sit	poks	poks	p o k s	1 7 1 3	AXBC	PUKS	1	1.P.C 1.U.V 1.K.C 1.S.C	2.0 1.5 1.75 1.5	poks	0	585
+742	NorthHighlandMixe-75_skin-1	NorthHighlandMixe	SKIN	skin	ak	ak	a k	7 1	XN	AK	3	3.A.V 3.K.c	1.5 0.8	ak	0	597
+743	SouthHighlandMixe-75_skin-1	SouthHighlandMixe	SKIN	skin	nəʔak	nəʔak	n ə ʔ a k	4 7 1 7 1	AXBYN	NEHAK	9	9.N.C 9.E.V 9.H.C 9.A.V 9.K.c	2.0 1.5 1.75 1.3 0.8	nəʔak	0	604
+744	LowlandMixe-75_skin-1	LowlandMixe	SKIN	skin	ak	ak	a k	7 1	XN	AK	2	2.A.V 2.K.c	1.5 0.8	ak	1	597
+745	SayulaPopoluca-75_skin-1	SayulaPopoluca	SKIN	skin	ak	ak	a k	7 1	XN	AK	7	7.A.V 7.K.c	1.5 0.8	ak	1	597
+746	OlutaPopoluca-75_skin-1	OlutaPopoluca	SKIN	skin	akə	akə	a k ə	7 1 7	XBZ	AKE	4	4.A.V 4.K.C 4.E.V	1.5 1.75 0.8	akə	0	596
+747	TexistepecZoque-75_skin-1	TexistepecZoque	SKIN	skin	daak	daak	d aː k	1 7 1	AXN	TAK	10	10.T.C 10.A.V 10.K.c	2.0 1.5 0.8	daːk	0	597
+748	SoteapanZoque-75_skin-1	SoteapanZoque	SKIN	skin	naaka	naaka	n aː k a	4 7 1 7	AXBZ	NAKA	8	8.N.C 8.A.V 8.K.C 8.A.V	2.0 1.5 1.75 0.8	naːka	0	596
+749	SantaMariaChimalapaZoque-75_skin-1	SantaMariaChimalapaZoque	SKIN	skin	naka	naka	n a k a	4 7 1 7	AXBZ	NAKA	6	6.N.C 6.A.V 6.K.C 6.A.V	2.0 1.5 1.75 0.8	naka	1	596
+750	SanMiguelChimalapaZoque-75_skin-1	SanMiguelChimalapaZoque	SKIN	skin	naka	naka	n a k a	4 7 1 7	AXBZ	NAKA	5	5.N.C 5.A.V 5.K.C 5.A.V	2.0 1.5 1.75 0.8	naka	0	596
+751	ChiapasZoque-75_skin-1	ChiapasZoque	SKIN	skin	naka	naka	n a k a	4 7 1 7	AXBZ	NAKA	1	1.N.C 1.A.V 1.K.C 1.A.V	2.0 1.5 1.75 0.8	naka	0	596
+752	NorthHighlandMixe-76_sleep-1	NorthHighlandMixe	SLEEP	sleep	maʔa	maʔa	m a ʔ a	4 7 1 7	AXBZ	MAHA	3	3.M.C 3.A.V 3.H.C 3.A.V	2.0 1.5 1.75 0.8	maʔa	0	606
+753	SouthHighlandMixe-76_sleep-1	SouthHighlandMixe	SLEEP	sleep	maʔa	maʔa	m a ʔ a	4 7 1 7	AXBZ	MAHA	9	9.M.C 9.A.V 9.H.C 9.A.V	2.0 1.5 1.75 0.8	maʔa	0	606
+754	LowlandMixe-76_sleep-1	LowlandMixe	SLEEP	sleep	maʔ	maʔ	m a ʔ	4 7 1	AXN	MAH	2	2.M.C 2.A.V 2.H.c	2.0 1.5 0.8	maʔ	0	606
+755	SayulaPopoluca-76_sleep-1	SayulaPopoluca	SLEEP	sleep	maa ~ maʔ	maa	m aː	4 7	AX	MA	7	7.M.C 7.A.V	2.0 1.5	maː	0	608
+756	SayulaPopoluca-76_sleep-2	SayulaPopoluca	SLEEP	sleep	maa ~ maʔ	maʔ	m a ʔ	4 7 1	AXN	MAH	7	7.M.C 7.A.V 7.H.c	2.0 1.5 0.8	maʔ	0	606
+757	OlutaPopoluca-76_sleep-1	OlutaPopoluca	SLEEP	sleep	maa ~  maah ~ maʔh	maa	m aː	4 7	AX	MA	4	4.M.C 4.A.V	2.0 1.5	maː	0	608
+758	OlutaPopoluca-76_sleep-2	OlutaPopoluca	SLEEP	sleep	maa ~  maah ~ maʔh	maah	m aː h	4 7 3	AXN	MAH	4	4.M.C 4.A.V 4.H.c	2.0 1.5 0.8	maːh	0	606
+759	OlutaPopoluca-76_sleep-3	OlutaPopoluca	SLEEP	sleep	maa ~  maah ~ maʔh	maʔh	m a ʔ h	4 7 1 3	AXBC	MAHH	4	4.M.C 4.A.V 4.H.C 4.H.C	2.0 1.5 1.75 1.5	maʔh	0	606
+760	TexistepecZoque-76_sleep-1	TexistepecZoque	SLEEP	sleep	boŋ	boŋ	b o ŋ	1 7 4	AXN	PUN	10	10.P.C 10.U.V 10.N.c	2.0 1.5 0.8	boŋ	0	614
+761	SoteapanZoque-76_sleep-1	SoteapanZoque	SLEEP	sleep	moŋ	moŋ	m o ŋ	4 7 4	AXN	MUN	8	8.M.C 8.U.V 8.N.c	2.0 1.5 0.8	moŋ	0	610
+762	SantaMariaChimalapaZoque-76_sleep-1	SantaMariaChimalapaZoque	SLEEP	sleep	moŋ	moŋ	m o ŋ	4 7 4	AXN	MUN	6	6.M.C 6.U.V 6.N.c	2.0 1.5 0.8	moŋ	0	610
+763	SanMiguelChimalapaZoque-76_sleep-1	SanMiguelChimalapaZoque	SLEEP	sleep	kap-ney	kap-ney	k a p + n e j	1 7 1 9 4 7 6	AXN_AXN	KAP_NEJ	5	5.K.C 5.A.V 5.P.c 5._._ 5.N.C 5.E.V 5.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	kap+nej	0	609
+764	ChiapasZoque-76_sleep-1	ChiapasZoque	SLEEP	sleep	əŋ	əŋ	ə ŋ	7 4	XN	EN	1	1.E.V 1.N.c	1.5 0.8	əŋ	0	605
+765	NorthHighlandMixe-77_small-1	NorthHighlandMixe	SMALL	small	piʔk	piʔk	p i ʔ k	1 7 1 1	AXLN	PIHK	3	3.P.C 3.I.V 3.H.c 3.K.c	2.0 1.5 1.1 0.8	piʔk	0	617
+766	SouthHighlandMixe-77_small-1	SouthHighlandMixe	SMALL	small	mutsk	mutsk	m u ts k	4 7 2 1	AXLN	MYCK	9	9.M.C 9.Y.V 9.C.c 9.K.c	2.0 1.5 1.1 0.8	mutsk	0	616
+767	LowlandMixe-77_small-1	LowlandMixe	SMALL	small	muts	muts	m u ts	4 7 2	AXN	MYC	2	2.M.C 2.Y.V 2.C.c	2.0 1.5 0.8	muts	0	616
+768	SayulaPopoluca-77_small-1	SayulaPopoluca	SMALL	small	čičic	čičic	tʃ i tʃ i tʃ	1 7 1 7 1	AXBYN	TITIT	7	7.T.C 7.I.V 7.T.C 7.I.V 7.T.c	2.0 1.5 1.75 1.3 0.8	tʃitʃitʃ	0	618
+769	OlutaPopoluca-77_small-1	OlutaPopoluca	SMALL	small	čuuču	čuuču	tʃ uː tʃ u	1 7 1 7	AXBZ	TYTY	4	4.T.C 4.Y.V 4.T.C 4.Y.V	2.0 1.5 1.75 0.8	tʃuːtʃu	0	618
+770	TexistepecZoque-77_small-1	TexistepecZoque	SMALL	small	həsə-baa	həsə-baa	h ə s ə + b aː	3 7 3 7 9 1 7	AXBZ_AX	HESE_PA	10	10.H.C 10.E.V 10.S.C 10.E.V 10._._ 10.P.C 10.A.V	2.0 1.5 1.75 0.8 0.0 2.0 1.5	həsə+baː	0	623
+771	SoteapanZoque-77_small-1	SoteapanZoque	SMALL	small	šutyu	šutyu	ʃ u t j u	3 7 1 6 7	AXBCZ	SYTJY	8	8.S.C 8.Y.V 8.T.C 8.J.C 8.Y.V	2.0 1.5 1.75 1.5 0.8	ʃutju	0	621
+772	SanMiguelChimalapaZoque-77_small-1	SanMiguelChimalapaZoque	SMALL	small	wakšiŋʔ	wakšiŋʔ	w a k ʃ i ŋ ʔ	6 7 1 3 7 4 1	AXBCYLN	WAKSINH	5	5.W.C 5.A.V 5.K.C 5.S.C 5.I.V 5.N.c 5.H.c	2.0 1.5 1.75 1.5 1.3 1.1 0.8	wakʃiŋʔ	0	619
+773	ChiapasZoque-77_small-1	ChiapasZoque	SMALL	small	čiks	čiks	tʃ i k s	1 7 1 3	AXBC	TIKS	1	1.T.C 1.I.V 1.K.C 1.S.C	2.0 1.5 1.75 1.5	tʃiks	0	615
+774	NorthHighlandMixe-78_smoke-1	NorthHighlandMixe	SMOKE (INHALE)	smoke	hok	hok	h o k	3 7 1	AXN	HUK	3	3.H.C 3.U.V 3.K.c	2.0 1.5 0.8	hok	0	624
+775	SouthHighlandMixe-78_smoke-1	SouthHighlandMixe	SMOKE (INHALE)	smoke	hok	hok	h o k	3 7 1	AXN	HUK	9	9.H.C 9.U.V 9.K.c	2.0 1.5 0.8	hok	0	624
+776	LowlandMixe-78_smoke-1	LowlandMixe	SMOKE (INHALE)	smoke	həən-hok	həən-hok	h əː n + h o k	3 7 4 9 3 7 1	AXN_AXN	HEN_HUK	2	2.H.C 2.E.V 2.N.c 2._._ 2.H.C 2.U.V 2.K.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	həːn+hok	0	625
+777	SayulaPopoluca-78_smoke-1	SayulaPopoluca	SMOKE (INHALE)	smoke	wiʔšik	wiʔšik	w i ʔ ʃ i k	6 7 1 3 7 1	AXBCYN	WIHSIK	7	7.W.C 7.I.V 7.H.C 7.S.C 7.I.V 7.K.c	2.0 1.5 1.75 1.5 1.3 0.8	wiʔʃik	0	630
+778	OlutaPopoluca-78_smoke-1	OlutaPopoluca	SMOKE (INHALE)	smoke	hoko	hoko	h o k o	3 7 1 7	AXBZ	HUKU	4	4.H.C 4.U.V 4.K.C 4.U.V	2.0 1.5 1.75 0.8	hoko	0	624
+779	TexistepecZoque-78_smoke-1	TexistepecZoque	SMOKE (INHALE)	smoke	hook	hook	h oː k	3 7 1	AXN	HUK	10	10.H.C 10.U.V 10.K.c	2.0 1.5 0.8	hoːk	0	624
+780	SoteapanZoque-78_smoke-1	SoteapanZoque	SMOKE (INHALE)	smoke	hooko	hooko	h oː k o	3 7 1 7	AXBZ	HUKU	8	8.H.C 8.U.V 8.K.C 8.U.V	2.0 1.5 1.75 0.8	hoːko	0	624
+781	SantaMariaChimalapaZoque-78_smoke-1	SantaMariaChimalapaZoque	SMOKE (INHALE)	smoke	oʔmaʔ	oʔmaʔ	o ʔ m a ʔ	7 1 4 7 1	XBCYN	UHMAH	6	6.U.V 6.H.C 6.M.C 6.A.V 6.H.c	1.5 1.75 1.5 1.3 0.8	oʔmaʔ	0	628
+782	SanMiguelChimalapaZoque-78_smoke-1	SanMiguelChimalapaZoque	SMOKE (INHALE)	smoke	ʔomaʔ	ʔomaʔ	ʔ o m a ʔ	1 7 4 7 1	AXBYN	HUMAH	5	5.H.C 5.U.V 5.M.C 5.A.V 5.H.c	2.0 1.5 1.75 1.3 0.8	ʔomaʔ	0	628
+783	ChiapasZoque-78_smoke-1	ChiapasZoque	SMOKE (INHALE)	smoke	hokoh	hokoh	h o k o h	3 7 1 7 3	AXBYN	HUKUH	1	1.H.C 1.U.V 1.K.C 1.U.V 1.H.c	2.0 1.5 1.75 1.3 0.8	hokoh	0	624
+1050	NorthHighlandMixe-106_snake-1	NorthHighlandMixe	SNAKE	snake	tsaaʔn	tsaaʔn	ts aː ʔ n	2 7 1 4	AXBC	CAHN	3	3.C.C 3.A.V 3.H.C 3.N.C	2.0 1.5 1.75 1.5	tsaːʔn	0	632
+1051	SouthHighlandMixe-106_snake-1	SouthHighlandMixe	SNAKE	snake	tsaʔany	tsaʔany	ts a ʔ a n j	2 7 1 7 4 6	AXBYBC	CAHANJ	9	9.C.C 9.A.V 9.H.C 9.A.V 9.N.C 9.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tsaʔanj	0	632
+1052	LowlandMixe-106_snake-1	LowlandMixe	SNAKE	snake	tsaʔny	tsaʔny	ts a ʔ n j	2 7 1 4 6	AXBCC	CAHNJ	2	2.C.C 2.A.V 2.H.C 2.N.C 2.J.C	2.0 1.5 1.75 1.5 1.5	tsaʔnj	0	632
+1053	SayulaPopoluca-106_snake-1	SayulaPopoluca	SNAKE	snake	tsanay	tsanay	ts a n a j	2 7 4 7 6	AXBYN	CANAJ	7	7.C.C 7.A.V 7.N.C 7.A.V 7.J.c	2.0 1.5 1.75 1.3 0.8	tsanaj	0	634
+1054	OlutaPopoluca-106_snake-1	OlutaPopoluca	SNAKE	snake	tsanaʔy	tsanaʔy	ts a n a ʔ j	2 7 4 7 1 6	AXBYBC	CANAHJ	4	4.C.C 4.A.V 4.N.C 4.A.V 4.H.C 4.J.C	2.0 1.5 1.75 1.3 1.75 1.5	tsanaʔj	0	634
+1055	TexistepecZoque-106_snake-1	TexistepecZoque	SNAKE	snake	tsaañ	tsaañ	ts aː ɲ	2 7 4	AXN	CAN	10	10.C.C 10.A.V 10.N.c	2.0 1.5 0.8	tsaːɲ	0	631
+1056	SoteapanZoque-106_snake-1	SoteapanZoque	SNAKE	snake	tsaañ	tsaañ	ts aː ɲ	2 7 4	AXN	CAN	8	8.C.C 8.A.V 8.N.c	2.0 1.5 0.8	tsaːɲ	0	631
+1057	SantaMariaChimalapaZoque-106_snake-1	SantaMariaChimalapaZoque	SNAKE	snake	tsahin	tsahin	ts a h i n	2 7 3 7 4	AXBYN	CAHIN	6	6.C.C 6.A.V 6.H.C 6.I.V 6.N.c	2.0 1.5 1.75 1.3 0.8	tsahin	0	632
+1058	SanMiguelChimalapaZoque-106_snake-1	SanMiguelChimalapaZoque	SNAKE	snake	tsahin	tsahin	ts a h i n	2 7 3 7 4	AXBYN	CAHIN	5	5.C.C 5.A.V 5.H.C 5.I.V 5.N.c	2.0 1.5 1.75 1.3 0.8	tsahin	0	632
+1059	ChiapasZoque-106_snake-1	ChiapasZoque	SNAKE	snake	tsan	tsan	ts a n	2 7 4	AXN	CAN	1	1.C.C 1.A.V 1.N.c	2.0 1.5 0.8	tsan	0	631
+784	NorthHighlandMixe-79_stand-1	NorthHighlandMixe	STAND	stand	tena	tena	t e n a	1 7 4 7	AXBZ	TENA	3	3.T.C 3.E.V 3.N.C 3.A.V	2.0 1.5 1.75 0.8	tena	0	639
+785	SouthHighlandMixe-79_stand-1	SouthHighlandMixe	STAND	stand	tənæy	tənæy	t ə n æ j	1 7 4 7 6	AXBYN	TENEJ	9	9.T.C 9.E.V 9.N.C 9.E.V 9.J.c	2.0 1.5 1.75 1.3 0.8	tənæj	0	639
+786	LowlandMixe-79_stand-1	LowlandMixe	STAND	stand	tenaay	tenaay	t e n aː j	1 7 4 7 6	AXBYN	TENAJ	2	2.T.C 2.E.V 2.N.C 2.A.V 2.J.c	2.0 1.5 1.75 1.3 0.8	tenaːj	0	639
+787	SayulaPopoluca-79_stand-1	SayulaPopoluca	STAND	stand	tena	tena	t e n a	1 7 4 7	AXBZ	TENA	7	7.T.C 7.E.V 7.N.C 7.A.V	2.0 1.5 1.75 0.8	tena	0	639
+788	OlutaPopoluca-79_stand-1	OlutaPopoluca	STAND	stand	teniy	teniy	t e n i j	1 7 4 7 6	AXBYN	TENIJ	4	4.T.C 4.E.V 4.N.C 4.I.V 4.J.c	2.0 1.5 1.75 1.3 0.8	tenij	0	639
+789	TexistepecZoque-79_stand-1	TexistepecZoque	STAND	stand	hoop-deʔ	hoop-deʔ	h oː p + d e ʔ	3 7 1 9 1 7 1	AXN_AXN	HUP_TEH	10	10.H.C 10.U.V 10.P.c 10._._ 10.T.C 10.E.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	hoːp+deʔ	0	644
+790	SoteapanZoque-79_stand-1	SoteapanZoque	STAND	stand	teeñ	teeñ	t eː ɲ	1 7 4	AXN	TEN	8	8.T.C 8.E.V 8.N.c	2.0 1.5 0.8	teːɲ	0	639
+791	SanMiguelChimalapaZoque-79_stand-1	SanMiguelChimalapaZoque	STAND	stand	ten	ten	t e n	1 7 4	AXN	TEN	5	5.T.C 5.E.V 5.N.c	2.0 1.5 0.8	ten	0	639
+792	ChiapasZoque-79_stand-1	ChiapasZoque	STAND	stand	tenay	tenay	t e n a j	1 7 4 7 6	AXBYN	TENAJ	1	1.T.C 1.E.V 1.N.C 1.A.V 1.J.c	2.0 1.5 1.75 1.3 0.8	tenaj	0	639
+793	SantaMariaChimalapaZoque-79_stand-1	SantaMariaChimalapaZoque	STAND	stand	maʔŋəy	maʔŋəy	m a ʔ ŋ ə j	4 7 1 4 7 6	AXBCYN	MAHNEJ	6	6.M.C 6.A.V 6.H.C 6.N.C 6.E.V 6.J.c	2.0 1.5 1.75 1.5 1.3 0.8	maʔŋəj	0	640
+794	SanMiguelChimalapaZoque-79_stand-2	SanMiguelChimalapaZoque	STAND	stand	maŋ-ney	maŋ-ney	m a ŋ + n e j	4 7 4 9 4 7 6	AXN_AXN	MAN_NEJ	5	5.M.C 5.A.V 5.N.c 5._._ 5.N.C 5.E.V 5.J.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	maŋ+nej	0	645
+795	NorthHighlandMixe-80_star-1	NorthHighlandMixe	STAR	star	maatsa	maatsa	m aː ts a	4 7 2 7	AXBZ	MACA	3	3.M.C 3.A.V 3.C.C 3.A.V	2.0 1.5 1.75 0.8	maːtsa	0	646
+796	SouthHighlandMixe-80_star-1	SouthHighlandMixe	STAR	star	matsaʔa	matsaʔa	m a ts a ʔ a	4 7 2 7 1 7	AXBYBZ	MACAHA	9	9.M.C 9.A.V 9.C.C 9.A.V 9.H.C 9.A.V	2.0 1.5 1.75 1.3 1.75 0.8	matsaʔa	0	646
+797	LowlandMixe-80_star-1	LowlandMixe	STAR	star	madzaʔ	madzaʔ	m a d z a ʔ	4 7 1 3 7 1	AXBCYN	MATSAH	2	2.M.C 2.A.V 2.T.C 2.S.C 2.A.V 2.H.c	2.0 1.5 1.75 1.5 1.3 0.8	madzaʔ	0	647
+798	SayulaPopoluca-80_star-1	SayulaPopoluca	STAR	star	maahts	maahts	m aː h ts	4 7 3 2	AXLN	MAHC	7	7.M.C 7.A.V 7.H.c 7.C.c	2.0 1.5 1.1 0.8	maːhts	0	652
+799	OlutaPopoluca-80_star-1	OlutaPopoluca	STAR	star	maatsaʔaʔk	maatsaʔaʔk	m aː ts a ʔ a ʔ k	4 7 2 7 1 7 1 1	AXBYBYLN	MACAHAHK	4	4.M.C 4.A.V 4.C.C 4.A.V 4.H.C 4.A.V 4.H.c 4.K.c	2.0 1.5 1.75 1.3 1.75 1.3 1.1 0.8	maːtsaʔaʔk	0	649
+800	TexistepecZoque-80_star-1	TexistepecZoque	STAR	star	baatsaʔ	baatsaʔ	b aː ts a ʔ	1 7 2 7 1	AXBYN	PACAH	10	10.P.C 10.A.V 10.C.C 10.A.V 10.H.c	2.0 1.5 1.75 1.3 0.8	baːtsaʔ	0	655
+801	SoteapanZoque-80_star-1	SoteapanZoque	STAR	star	maatsa	maatsa	m aː ts a	4 7 2 7	AXBZ	MACA	8	8.M.C 8.A.V 8.C.C 8.A.V	2.0 1.5 1.75 0.8	maːtsa	0	646
+802	SantaMariaChimalapaZoque-80_star-1	SantaMariaChimalapaZoque	STAR	star	matsaʔ	matsaʔ	m a ts a ʔ	4 7 2 7 1	AXBYN	MACAH	6	6.M.C 6.A.V 6.C.C 6.A.V 6.H.c	2.0 1.5 1.75 1.3 0.8	matsaʔ	0	646
+803	SanMiguelChimalapaZoque-80_star-1	SanMiguelChimalapaZoque	STAR	star	matsaʔ	matsaʔ	m a ts a ʔ	4 7 2 7 1	AXBYN	MACAH	5	5.M.C 5.A.V 5.C.C 5.A.V 5.H.c	2.0 1.5 1.75 1.3 0.8	matsaʔ	0	646
+804	ChiapasZoque-80_star-1	ChiapasZoque	STAR	star	matsa	matsa	m a ts a	4 7 2 7	AXBZ	MACA	1	1.M.C 1.A.V 1.C.C 1.A.V	2.0 1.5 1.75 0.8	matsa	0	646
+805	NorthHighlandMixe-81_stone-1	NorthHighlandMixe	STONE	stone	tsaa	tsaa	ts aː	2 7	AX	CA	3	3.C.C 3.A.V	2.0 1.5	tsaː	0	656
+806	SouthHighlandMixe-81_stone-1	SouthHighlandMixe	STONE	stone	tsah	tsah	ts a h	2 7 3	AXN	CAH	9	9.C.C 9.A.V 9.H.c	2.0 1.5 0.8	tsah	0	656
+807	LowlandMixe-81_stone-1	LowlandMixe	STONE	stone	tsaa	tsaa	ts aː	2 7	AX	CA	2	2.C.C 2.A.V	2.0 1.5	tsaː	0	656
+808	SayulaPopoluca-81_stone-1	SayulaPopoluca	STONE	stone	tsaʔ	tsaʔ	ts a ʔ	2 7 1	AXN	CAH	7	7.C.C 7.A.V 7.H.c	2.0 1.5 0.8	tsaʔ	0	656
+809	OlutaPopoluca-81_stone-1	OlutaPopoluca	STONE	stone	tsaahə	tsaahə	ts aː h ə	2 7 3 7	AXBZ	CAHE	4	4.C.C 4.A.V 4.H.C 4.E.V	2.0 1.5 1.75 0.8	tsaːhə	0	656
+810	TexistepecZoque-81_stone-1	TexistepecZoque	STONE	stone	tsaʔ	tsaʔ	ts a ʔ	2 7 1	AXN	CAH	10	10.C.C 10.A.V 10.H.c	2.0 1.5 0.8	tsaʔ	0	656
+811	SoteapanZoque-81_stone-1	SoteapanZoque	STONE	stone	tsa	tsa	ts a	2 7	AX	CA	8	8.C.C 8.A.V	2.0 1.5	tsa	0	656
+812	SantaMariaChimalapaZoque-81_stone-1	SantaMariaChimalapaZoque	STONE	stone	tsaʔ	tsaʔ	ts a ʔ	2 7 1	AXN	CAH	6	6.C.C 6.A.V 6.H.c	2.0 1.5 0.8	tsaʔ	0	656
+813	SanMiguelChimalapaZoque-81_stone-1	SanMiguelChimalapaZoque	STONE	stone	tsaʔ	tsaʔ	ts a ʔ	2 7 1	AXN	CAH	5	5.C.C 5.A.V 5.H.c	2.0 1.5 0.8	tsaʔ	0	656
+814	ChiapasZoque-81_stone-1	ChiapasZoque	STONE	stone	tsaʔ	tsaʔ	ts a ʔ	2 7 1	AXN	CAH	1	1.C.C 1.A.V 1.H.c	2.0 1.5 0.8	tsaʔ	0	656
+815	NorthHighlandMixe-82_sun-1	NorthHighlandMixe	SUN	sun	šəə	šəə	ʃ əː	3 7	AX	SE	3	3.S.C 3.E.V	2.0 1.5	ʃəː	1	658
+816	SouthHighlandMixe-82_sun-1	SouthHighlandMixe	SUN	sun	šəʔan	šəʔan	ʃ ə ʔ a n	3 7 1 7 4	AXBYN	SEHAN	9	9.S.C 9.E.V 9.H.C 9.A.V 9.N.c	2.0 1.5 1.75 1.3 0.8	ʃəʔan	0	665
+817	LowlandMixe-82_sun-1	LowlandMixe	SUN	sun	šəə	šəə	ʃ əː	3 7	AX	SE	2	2.S.C 2.E.V	2.0 1.5	ʃəː	1	658
+818	SayulaPopoluca-82_sun-1	SayulaPopoluca	SUN	sun	šəhw	šəhw	ʃ ə h w	3 7 3 6	AXBC	SEHW	7	7.S.C 7.E.V 7.H.C 7.W.C	2.0 1.5 1.75 1.5	ʃəhw	0	663
+819	OlutaPopoluca-82_sun-1	OlutaPopoluca	SUN	sun	šəvə	šəvə	ʃ ə v ə	3 7 3 7	AXBZ	SEBE	4	4.S.C 4.E.V 4.B.C 4.E.V	2.0 1.5 1.75 0.8	ʃəvə	1	660
+820	TexistepecZoque-82_sun-1	TexistepecZoque	SUN	sun	haam	haam	h aː m	3 7 4	AXN	HAM	10	10.H.C 10.A.V 10.M.c	2.0 1.5 0.8	haːm	0	657
+821	SoteapanZoque-82_sun-1	SoteapanZoque	SUN	sun	haama	haama	h aː m a	3 7 4 7	AXBZ	HAMA	8	8.H.C 8.A.V 8.M.C 8.A.V	2.0 1.5 1.75 0.8	haːma	0	657
+822	SantaMariaChimalapaZoque-82_sun-1	SantaMariaChimalapaZoque	SUN	sun	hama	hama	h a m a	3 7 4 7	AXBZ	HAMA	6	6.H.C 6.A.V 6.M.C 6.A.V	2.0 1.5 1.75 0.8	hama	0	657
+823	SanMiguelChimalapaZoque-82_sun-1	SanMiguelChimalapaZoque	SUN	sun	hama	hama	h a m a	3 7 4 7	AXBZ	HAMA	5	5.H.C 5.A.V 5.M.C 5.A.V	2.0 1.5 1.75 0.8	hama	0	657
+824	ChiapasZoque-82_sun-1	ChiapasZoque	SUN	sun	hama	hama	h a m a	3 7 4 7	AXBZ	HAMA	1	1.H.C 1.A.V 1.M.C 1.A.V	2.0 1.5 1.75 0.8	hama	0	657
+825	NorthHighlandMixe-83_swim-1	NorthHighlandMixe	SWIM	swim	nə-vïïʔn	nə-vïïʔn	n ə + v ɨː ʔ n	4 7 9 3 7 1 4	AX_AXBC	NE_BIHN	3	3.N.C 3.E.V 3._._ 3.B.C 3.I.V 3.H.C 3.N.C	2.0 1.5 0.0 2.0 1.5 1.75 1.5	nə+vɨːʔn	0	668
+826	SouthHighlandMixe-83_swim-1	SouthHighlandMixe	SWIM	swim	nə-yum	nə-yum	n ə + j u m	4 7 9 6 7 4	AX_AXN	NE_JYM	9	9.N.C 9.E.V 9._._ 9.J.C 9.Y.V 9.M.c	2.0 1.5 0.0 2.0 1.5 0.8	nə+jum	0	674
+827	LowlandMixe-83_swim-1	LowlandMixe	SWIM	swim	yaab	yaab	j aː b	6 7 1	AXN	JAP	2	2.J.C 2.A.V 2.P.c	2.0 1.5 0.8	jaːb	0	667
+828	SayulaPopoluca-83_swim-1	SayulaPopoluca	SWIM	swim	yun	yun	j u n	6 7 4	AXN	JYN	7	7.J.C 7.Y.V 7.N.c	2.0 1.5 0.8	jun	0	669
+829	OlutaPopoluca-83_swim-1	OlutaPopoluca	SWIM	swim	yun	yun	j u n	6 7 4	AXN	JYN	4	4.J.C 4.Y.V 4.N.c	2.0 1.5 0.8	jun	0	669
+830	TexistepecZoque-83_swim-1	TexistepecZoque	SWIM	swim	pəʔn	pəʔn	p ə ʔ n	1 7 1 4	AXBC	PEHN	10	10.P.C 10.E.V 10.H.C 10.N.C	2.0 1.5 1.75 1.5	pəʔn	0	673
+831	SoteapanZoque-83_swim-1	SoteapanZoque	SWIM	swim	puʔn	puʔn	p u ʔ n	1 7 1 4	AXBC	PYHN	8	8.P.C 8.Y.V 8.H.C 8.N.C	2.0 1.5 1.75 1.5	puʔn	0	673
+832	SantaMariaChimalapaZoque-83_swim-1	SantaMariaChimalapaZoque	SWIM	swim	yun	yun	j u n	6 7 4	AXN	JYN	6	6.J.C 6.Y.V 6.N.c	2.0 1.5 0.8	jun	0	669
+833	SanMiguelChimalapaZoque-83_swim-1	SanMiguelChimalapaZoque	SWIM	swim	yuk	yuk	j u k	6 7 1	AXN	JYK	5	5.J.C 5.Y.V 5.K.c	2.0 1.5 0.8	juk	0	670
+834	ChiapasZoque-83_swim-1	ChiapasZoque	SWIM	swim	hemu	hemu	h e m u	3 7 4 7	AXBZ	HEMY	1	1.H.C 1.E.V 1.M.C 1.Y.V	2.0 1.5 1.75 0.8	hemu	0	666
+835	NorthHighlandMixe-84_tail-1	NorthHighlandMixe	TAIL	tail	tυʔšta	tυʔšta	t ʊ ʔ ʃ t a	1 7 1 3 1 7	AXBYBZ	TYHSTA	3	3.T.C 3.Y.V 3.H.C 3.S.V 3.T.C 3.A.V	2.0 1.5 1.75 1.3 1.75 0.8	tʊʔʃta	0	677
+836	SouthHighlandMixe-84_tail-1	SouthHighlandMixe	TAIL	tail	tutst	tutst	t u ts t	1 7 2 1	AXLN	TYCT	9	9.T.C 9.Y.V 9.C.c 9.T.c	2.0 1.5 1.1 0.8	tutst	0	683
+837	LowlandMixe-84_tail-1	LowlandMixe	TAIL	tail	piʔišy	piʔišy	p i ʔ i ʃ j	1 7 1 7 3 6	AXBYBC	PIHISJ	2	2.P.C 2.I.V 2.H.C 2.I.V 2.S.C 2.J.C	2.0 1.5 1.75 1.3 1.75 1.5	piʔiʃj	0	676
+838	SayulaPopoluca-84_tail-1	SayulaPopoluca	TAIL	tail	tuʔhts	tuʔhts	t u ʔ h ts	1 7 1 3 2	AXBYN	TYHHC	7	7.T.C 7.Y.V 7.H.C 7.H.V 7.C.c	2.0 1.5 1.75 1.3 0.8	tuʔhts	0	677
+839	OlutaPopoluca-84_tail-1	OlutaPopoluca	TAIL	tail	tuʔsta	tuʔsta	t u ʔ s t a	1 7 1 3 1 7	AXBYBZ	TYHSTA	4	4.T.C 4.Y.V 4.H.C 4.S.V 4.T.C 4.A.V	2.0 1.5 1.75 1.3 1.75 0.8	tuʔsta	0	677
+840	TexistepecZoque-84_tail-1	TexistepecZoque	TAIL	tail	tuʔts	tuʔts	t u ʔ ts	1 7 1 2	AXBC	TYHC	10	10.T.C 10.Y.V 10.H.C 10.C.C	2.0 1.5 1.75 1.5	tuʔts	0	677
+841	SoteapanZoque-84_tail-1	SoteapanZoque	TAIL	tail	tuʔts	tuʔts	t u ʔ ts	1 7 1 2	AXBC	TYHC	8	8.T.C 8.Y.V 8.H.C 8.C.C	2.0 1.5 1.75 1.5	tuʔts	0	677
+842	SantaMariaChimalapaZoque-84_tail-1	SantaMariaChimalapaZoque	TAIL	tail	tuʔts	tuʔts	t u ʔ ts	1 7 1 2	AXBC	TYHC	6	6.T.C 6.Y.V 6.H.C 6.C.C	2.0 1.5 1.75 1.5	tuʔts	0	677
+843	SanMiguelChimalapaZoque-84_tail-1	SanMiguelChimalapaZoque	TAIL	tail	tuʔts	tuʔts	t u ʔ ts	1 7 1 2	AXBC	TYHC	5	5.T.C 5.Y.V 5.H.C 5.C.C	2.0 1.5 1.75 1.5	tuʔts	0	677
+844	ChiapasZoque-84_tail-1	ChiapasZoque	TAIL	tail	tuʔts	tuʔts	t u ʔ ts	1 7 1 2	AXBC	TYHC	1	1.T.C 1.Y.V 1.H.C 1.C.C	2.0 1.5 1.75 1.5	tuʔts	0	677
+845	NorthHighlandMixe-85_that-1	NorthHighlandMixe	THAT	that	šiiʔ	šiiʔ	ʃ iː ʔ	3 7 1	AXN	SIH	3	3.S.C 3.I.V 3.H.c	2.0 1.5 0.8	ʃiːʔ	0	686
+846	SouthHighlandMixe-85_that-1	SouthHighlandMixe	THAT	that	hæʔæ	hæʔæ	h æ ʔ æ	3 7 1 7	AXBZ	HEHE	9	9.H.C 9.E.V 9.H.C 9.E.V	2.0 1.5 1.75 0.8	hæʔæ	0	691
+847	LowlandMixe-85_that-1	LowlandMixe	THAT	that	hehəmbə	hehəmbə	h e h ə m b ə	3 7 3 7 4 1 7	AXBYMBZ	HEHEMPE	2	2.H.C 2.E.V 2.H.C 2.E.V 2.M.c 2.P.C 2.E.V	2.0 1.5 1.75 1.3 1.1 1.75 0.8	hehəmbə	0	685
+848	SayulaPopoluca-85_that-1	SayulaPopoluca	THAT	that	yahyəʔn	yahyəʔn	j a h j ə ʔ n	6 7 3 6 7 1 4	AXBCYBC	JAHJEHN	7	7.J.C 7.A.V 7.H.C 7.J.C 7.E.V 7.H.C 7.N.C	2.0 1.5 1.75 1.5 1.3 1.75 1.5	jahjəʔn	0	689
+849	OlutaPopoluca-85_that-1	OlutaPopoluca	THAT	that	hamah	hamah	h a m a h	3 7 4 7 3	AXBYN	HAMAH	4	4.H.C 4.A.V 4.M.C 4.A.V 4.H.c	2.0 1.5 1.75 1.3 0.8	hamah	0	687
+850	SoteapanZoque-85_that-1	SoteapanZoque	THAT	that	heam	heam	h e a m	3 7 7 4	AXYN	HEAM	8	8.H.C 8.E.V 8.A.V 8.M.c	2.0 1.5 1.3 0.8	heam	0	690
+851	SanMiguelChimalapaZoque-85_that-1	SanMiguelChimalapaZoque	THAT	that	ga.də	ga.də	g a d ə	1 7 1 7	AXBZ	KATE	5	5.K.C 5.A.V 5.T.C 5.E.V	2.0 1.5 1.75 0.8	gadə	0	688
+852	ChiapasZoque-85_that-1	ChiapasZoque	THAT	that	əʔ	əʔ	ə ʔ	7 1	XN	EH	1	1.E.V 1.H.c	1.5 0.8	əʔ	0	684
+1060	NorthHighlandMixe-107_thin-1	NorthHighlandMixe	THIN	thin	pehi	pehi	p e h i	1 7 3 7	AXBZ	PEHI	3	3.P.C 3.E.V 3.H.C 3.I.V	2.0 1.5 1.75 0.8	pehi	0	694
+1061	SouthHighlandMixe-107_thin-1	SouthHighlandMixe	THIN	thin	pehy	pehy	p e h j	1 7 3 6	AXBC	PEHJ	9	9.P.C 9.E.V 9.H.C 9.J.C	2.0 1.5 1.75 1.5	pehj	0	693
+1062	LowlandMixe-107_thin-1	LowlandMixe	THIN	thin	pehy	pehy	p e h j	1 7 3 6	AXBC	PEHJ	2	2.P.C 2.E.V 2.H.C 2.J.C	2.0 1.5 1.75 1.5	pehj	0	693
+1063	SayulaPopoluca-107_thin-1	SayulaPopoluca	THIN	thin	pehay	pehay	p e h a j	1 7 3 7 6	AXBYN	PEHAJ	7	7.P.C 7.E.V 7.H.C 7.A.V 7.J.c	2.0 1.5 1.75 1.3 0.8	pehaj	0	693
+1064	OlutaPopoluca-107_thin-1	OlutaPopoluca	THIN	thin	hətəʔt, niipakə, pakə	hətəʔt	h ə t ə ʔ t	3 7 1 7 1 1	AXBYLN	HETEHT	4	4.H.C 4.E.V 4.T.C 4.E.V 4.H.c 4.T.c	2.0 1.5 1.75 1.3 1.1 0.8	hətəʔt	0	695
+1065	OlutaPopoluca-107_thin-2	OlutaPopoluca	THIN	thin	hətəʔt, niipakə, pakə	niipakə	n iː p a k ə	4 7 1 7 1 7	AXBYBZ	NIPAKE	4	4.N.C 4.I.V 4.P.C 4.A.V 4.K.C 4.E.V	2.0 1.5 1.75 1.3 1.75 0.8	niːpakə	0	703
+1066	OlutaPopoluca-107_thin-3	OlutaPopoluca	THIN	thin	hətəʔt, niipakə, pakə	pakə	p a k ə	1 7 1 7	AXBZ	PAKE	4	4.P.C 4.A.V 4.K.C 4.E.V	2.0 1.5 1.75 0.8	pakə	1	703
+1067	TexistepecZoque-107_thin-1	TexistepecZoque	THIN	thin	waayeʔ, əʔks-kəʔdaʔa, kal-pak-daʔa	waayeʔ	w aː j e ʔ	6 7 6 7 1	AXBYN	WAJEH	10	10.W.C 10.A.V 10.J.C 10.E.V 10.H.c	2.0 1.5 1.75 1.3 0.8	waːjeʔ	0	701
+1068	TexistepecZoque-107_thin-2	TexistepecZoque	THIN	thin	waayeʔ, əʔks-kəʔdaʔa, kal-pak-daʔa	əʔks-kəʔdaʔa	ə ʔ k s + k ə ʔ d a ʔ a	7 1 1 3 9 1 7 1 1 7 1 7	XMBC_AXMBYBZ	EHKS_KEHTAHA	10	10.E.V 10.H.c 10.K.C 10.S.C 10._._ 10.K.C 10.E.V 10.H.c 10.T.C 10.A.V 10.H.C 10.A.V	1.5 1.1 1.75 1.5 0.0 2.0 1.5 1.1 1.75 1.3 1.75 0.8	əʔks+kəʔdaʔa	0	705
+1069	TexistepecZoque-107_thin-3	TexistepecZoque	THIN	thin	waayeʔ, əʔks-kəʔdaʔa, kal-pak-daʔa	kal-pak-daʔa	k a l + p a k + d a ʔ a	1 7 5 9 1 7 1 9 1 7 1 7	AXN_AXN_AXBZ	KAL_PAK_TAHA	10	10.K.C 10.A.V 10.L.c 10._._ 10.P.C 10.A.V 10.K.c 10._._ 10.T.C 10.A.V 10.H.C 10.A.V	2.0 1.5 0.8 0.0 2.0 1.5 0.8 0.0 2.0 1.5 1.75 0.8	kal+pak+daʔa	0	708
+1070	SoteapanZoque-107_thin-1	SoteapanZoque	THIN	thin	čehče, wayay	čehče	tʃ e h tʃ e	1 7 3 1 7	AXMBZ	TEHTE	8	8.T.C 8.E.V 8.H.c 8.T.C 8.E.V	2.0 1.5 1.1 1.75 0.8	tʃehtʃe	0	699
+1071	SoteapanZoque-107_thin-2	SoteapanZoque	THIN	thin	čehče, wayay	wayay	w a j a j	6 7 6 7 6	AXBYN	WAJAJ	8	8.W.C 8.A.V 8.J.C 8.A.V 8.J.c	2.0 1.5 1.75 1.3 0.8	wajaj	0	701
+1072	SantaMariaChimalapaZoque-107_thin-1	SantaMariaChimalapaZoque	THIN	thin	piʔiʔ	piʔiʔ	p i ʔ i ʔ	1 7 1 7 1	AXBYN	PIHIH	6	6.P.C 6.I.V 6.H.C 6.I.V 6.H.c	2.0 1.5 1.75 1.3 0.8	piʔiʔ	0	694
+1073	SanMiguelChimalapaZoque-107_thin-1	SanMiguelChimalapaZoque	THIN	thin	kitsa	kitsa	k i ts a	1 7 2 7	AXBZ	KICA	5	5.K.C 5.I.V 5.C.C 5.A.V	2.0 1.5 1.75 0.8	kitsa	0	696
+1074	ChiapasZoque-107_thin-1	ChiapasZoque	THIN	thin	tseya, kay, pahka-pahka	tseya	ts e j a	2 7 6 7	AXBZ	CEJA	1	1.C.C 1.E.V 1.J.C 1.A.V	2.0 1.5 1.75 0.8	tseja	0	692
+1075	ChiapasZoque-107_thin-2	ChiapasZoque	THIN	thin	tseya, kay, pahka-pahka	kay	k a j	1 7 6	AXN	KAJ	1	1.K.C 1.A.V 1.J.c	2.0 1.5 0.8	kaj	0	702
+1076	ChiapasZoque-107_thin-3	ChiapasZoque	THIN	thin	tseya, kay, pahka-pahka	pahka-pahka	p a h k a + p a h k a	1 7 3 1 7 9 1 7 3 1 7	AXMBZ_AXMBZ	PAHKA_PAHKA	1	1.P.C 1.A.V 1.H.c 1.K.C 1.A.V 1._._ 1.P.C 1.A.V 1.H.c 1.K.C 1.A.V	2.0 1.5 1.1 1.75 0.8 0.0 2.0 1.5 1.1 1.75 0.8	pahka+pahka	0	706
+853	NorthHighlandMixe-86_this-1	NorthHighlandMixe	THIS	this	yəʔə	yəʔə	j ə ʔ ə	6 7 1 7	AXBZ	JEHE	3	3.J.C 3.E.V 3.H.C 3.E.V	2.0 1.5 1.75 0.8	jəʔə	0	711
+854	SouthHighlandMixe-86_this-1	SouthHighlandMixe	THIS	this	yaʔat	yaʔat	j a ʔ a t	6 7 1 7 1	AXBYN	JAHAT	9	9.J.C 9.A.V 9.H.C 9.A.V 9.T.c	2.0 1.5 1.75 1.3 0.8	jaʔat	0	711
+855	LowlandMixe-86_this-1	LowlandMixe	THIS	this	hadaʔ	hadaʔ	h a d a ʔ	3 7 1 7 1	AXBYN	HATAH	2	2.H.C 2.A.V 2.T.C 2.A.V 2.H.c	2.0 1.5 1.75 1.3 0.8	hadaʔ	0	710
+856	SayulaPopoluca-86_this-1	SayulaPopoluca	THIS	this	ayəəh	ayəəh	a j əː h	7 6 7 3	XBYN	AJEH	7	7.A.V 7.J.C 7.E.V 7.H.c	1.5 1.75 1.3 0.8	ajəːh	0	713
+857	OlutaPopoluca-86_this-1	OlutaPopoluca	THIS	this	heʔ	heʔ	h e ʔ	3 7 1	AXN	HEH	4	4.H.C 4.E.V 4.H.c	2.0 1.5 0.8	heʔ	0	712
+858	TexistepecZoque-86_this-1	TexistepecZoque	THIS	this	yəʔəhəʔ	yəʔəhəʔ	j ə ʔ ə h ə ʔ	6 7 1 7 3 7 1	AXBYBYN	JEHEHEH	10	10.J.C 10.E.V 10.H.C 10.E.V 10.H.C 10.E.V 10.H.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	jəʔəhəʔ	0	718
+859	SoteapanZoque-86_this-1	SoteapanZoque	THIS	this	heʔepək	heʔepək	h e ʔ e p ə k	3 7 1 7 1 7 1	AXBYBYN	HEHEPEK	8	8.H.C 8.E.V 8.H.C 8.E.V 8.P.C 8.E.V 8.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	heʔepək	0	716
+860	SantaMariaChimalapaZoque-86_this-1	SantaMariaChimalapaZoque	THIS	this	yəʔ-pəʔ	yəʔ-pəʔ	j ə ʔ + p ə ʔ	6 7 1 9 1 7 1	AXN_AXN	JEH_PEH	6	6.J.C 6.E.V 6.H.c 6._._ 6.P.C 6.E.V 6.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	jəʔ+pəʔ	0	709
+861	SanMiguelChimalapaZoque-86_this-1	SanMiguelChimalapaZoque	THIS	this	yəʔ	yəʔ	j ə ʔ	6 7 1	AXN	JEH	5	5.J.C 5.E.V 5.H.c	2.0 1.5 0.8	jəʔ	0	713
+862	ChiapasZoque-86_this-1	ChiapasZoque	THIS	this	yəʔ-wə	yəʔ-wə	j ə ʔ + w ə	6 7 1 9 6 7	AXN_AX	JEH_WE	1	1.J.C 1.E.V 1.H.c 1._._ 1.W.C 1.E.V	2.0 1.5 0.8 0.0 2.0 1.5	jəʔ+wə	0	709
+863	NorthHighlandMixe-87_thou-1	NorthHighlandMixe	THOU	thou	mits	mits	m i ts	4 7 2	AXN	MIC	3	3.M.C 3.I.V 3.C.c	2.0 1.5 0.8	mits	0	719
+864	SouthHighlandMixe-87_thou-1	SouthHighlandMixe	THOU	thou	mehts	mehts	m e h ts	4 7 3 2	AXLN	MEHC	9	9.M.C 9.E.V 9.H.c 9.C.c	2.0 1.5 1.1 0.8	mehts	0	727
+865	LowlandMixe-87_thou-1	LowlandMixe	THOU	thou	miič	miič	m iː tʃ	4 7 1	AXN	MIT	2	2.M.C 2.I.V 2.T.c	2.0 1.5 0.8	miːtʃ	0	719
+866	SayulaPopoluca-87_thou-1	SayulaPopoluca	THOU	thou	mii(č)	mii	m iː	4 7	AX	MI	7	7.M.C 7.I.V	2.0 1.5	miː	0	719
+867	OlutaPopoluca-87_thou-1	OlutaPopoluca	THOU	thou	miis	miis	m iː s	4 7 3	AXN	MIS	4	4.M.C 4.I.V 4.S.c	2.0 1.5 0.8	miːs	0	719
+868	TexistepecZoque-87_thou-1	TexistepecZoque	THOU	thou	bič	bič	b i tʃ	1 7 1	AXN	PIT	10	10.P.C 10.I.V 10.T.c	2.0 1.5 0.8	bitʃ	0	728
+869	SoteapanZoque-87_thou-1	SoteapanZoque	THOU	thou	mič	mič	m i tʃ	4 7 1	AXN	MIT	8	8.M.C 8.I.V 8.T.c	2.0 1.5 0.8	mitʃ	0	719
+870	SantaMariaChimalapaZoque-87_thou-1	SantaMariaChimalapaZoque	THOU	thou	mits(tsiʔ)	mits	m i ts	4 7 2	AXN	MIC	6	6.M.C 6.I.V 6.C.c	2.0 1.5 0.8	mits	0	719
+871	SanMiguelChimalapaZoque-87_thou-1	SanMiguelChimalapaZoque	THOU	thou	mi-š	mi-š	m i + ʃ	4 7 9 3	AX_A	MI_S	5	5.M.C 5.I.V 5._._ 5.S.C	2.0 1.5 0.0 2.0	mi+ʃ	0	723
+872	ChiapasZoque-87_thou-1	ChiapasZoque	THOU	thou	mih	mih	m i h	4 7 3	AXN	MIH	1	1.M.C 1.I.V 1.H.c	2.0 1.5 0.8	mih	0	719
+873	NorthHighlandMixe-88_tongue-1	NorthHighlandMixe	TONGUE	tongue	toots	toots	t oː ts	1 7 2	AXN	TUC	3	3.T.C 3.U.V 3.C.c	2.0 1.5 0.8	toːts	0	729
+874	SouthHighlandMixe-88_tongue-1	SouthHighlandMixe	TONGUE	tongue	toots	toots	t oː ts	1 7 2	AXN	TUC	9	9.T.C 9.U.V 9.C.c	2.0 1.5 0.8	toːts	0	729
+875	LowlandMixe-88_tongue-1	LowlandMixe	TONGUE	tongue	toots	toots	t oː ts	1 7 2	AXN	TUC	2	2.T.C 2.U.V 2.C.c	2.0 1.5 0.8	toːts	0	729
+876	SayulaPopoluca-88_tongue-1	SayulaPopoluca	TONGUE	tongue	toohts	toohts	t oː h ts	1 7 3 2	AXLN	TUHC	7	7.T.C 7.U.V 7.H.c 7.C.c	2.0 1.5 1.1 0.8	toːhts	0	729
+877	OlutaPopoluca-88_tongue-1	OlutaPopoluca	TONGUE	tongue	tootsə	tootsə	t oː ts ə	1 7 2 7	AXBZ	TUCE	4	4.T.C 4.U.V 4.C.C 4.E.V	2.0 1.5 1.75 0.8	toːtsə	0	729
+878	SoteapanZoque-88_tongue-1	SoteapanZoque	TONGUE	tongue	tots	tots	t o ts	1 7 2	AXN	TUC	8	8.T.C 8.U.V 8.C.c	2.0 1.5 0.8	tots	0	729
+879	SantaMariaChimalapaZoque-88_tongue-1	SantaMariaChimalapaZoque	TONGUE	tongue	yen-kuʔy	yen-kuʔy	j e n + k u ʔ j	6 7 4 9 1 7 1 6	AXN_AXBC	JEN_KYHJ	6	6.J.C 6.E.V 6.N.c 6._._ 6.K.C 6.Y.V 6.H.C 6.J.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	jen+kuʔj	0	734
+880	SanMiguelChimalapaZoque-88_tongue-1	SanMiguelChimalapaZoque	TONGUE	tongue	tots	tots	t o ts	1 7 2	AXN	TUC	5	5.T.C 5.U.V 5.C.c	2.0 1.5 0.8	tots	0	729
+881	ChiapasZoque-88_tongue-1	ChiapasZoque	TONGUE	tongue	tots	tots	t o ts	1 7 2	AXN	TUC	1	1.T.C 1.U.V 1.C.c	2.0 1.5 0.8	tots	0	729
+882	NorthHighlandMixe-89_tooth-1	NorthHighlandMixe	TOOTH	tooth	təəts	təəts	t əː ts	1 7 2	AXN	TEC	3	3.T.C 3.E.V 3.C.c	2.0 1.5 0.8	təːts	0	735
+883	SouthHighlandMixe-89_tooth-1	SouthHighlandMixe	TOOTH	tooth	təəts	təəts	t əː ts	1 7 2	AXN	TEC	9	9.T.C 9.E.V 9.C.c	2.0 1.5 0.8	təːts	0	735
+884	LowlandMixe-89_tooth-1	LowlandMixe	TOOTH	tooth	təəts	təəts	t əː ts	1 7 2	AXN	TEC	2	2.T.C 2.E.V 2.C.c	2.0 1.5 0.8	təːts	0	735
+885	SayulaPopoluca-89_tooth-1	SayulaPopoluca	TOOTH	tooth	təəhts	təəhts	t əː h ts	1 7 3 2	AXLN	TEHC	7	7.T.C 7.E.V 7.H.c 7.C.c	2.0 1.5 1.1 0.8	təːhts	0	735
+886	OlutaPopoluca-89_tooth-1	OlutaPopoluca	TOOTH	tooth	təətsə	təətsə	t əː ts ə	1 7 2 7	AXBZ	TECE	4	4.T.C 4.E.V 4.C.C 4.E.V	2.0 1.5 1.75 0.8	təːtsə	0	735
+887	TexistepecZoque-89_tooth-1	TexistepecZoque	TOOTH	tooth	təts	təts	t ə ts	1 7 2	AXN	TEC	10	10.T.C 10.E.V 10.C.c	2.0 1.5 0.8	təts	0	735
+888	SoteapanZoque-89_tooth-1	SoteapanZoque	TOOTH	tooth	təts	təts	t ə ts	1 7 2	AXN	TEC	8	8.T.C 8.E.V 8.C.c	2.0 1.5 0.8	təts	0	735
+889	SantaMariaChimalapaZoque-89_tooth-1	SantaMariaChimalapaZoque	TOOTH	tooth	təts	təts	t ə ts	1 7 2	AXN	TEC	6	6.T.C 6.E.V 6.C.c	2.0 1.5 0.8	təts	0	735
+890	SanMiguelChimalapaZoque-89_tooth-1	SanMiguelChimalapaZoque	TOOTH	tooth	təts	təts	t ə ts	1 7 2	AXN	TEC	5	5.T.C 5.E.V 5.C.c	2.0 1.5 0.8	təts	0	735
+891	ChiapasZoque-89_tooth-1	ChiapasZoque	TOOTH	tooth	təts	təts	t ə ts	1 7 2	AXN	TEC	1	1.T.C 1.E.V 1.C.c	2.0 1.5 0.8	təts	0	735
+892	NorthHighlandMixe-90_tree-1	NorthHighlandMixe	TREE	tree	kïp	kïp	k ɨ p	1 7 1	AXN	KIP	3	3.K.C 3.I.V 3.P.c	2.0 1.5 0.8	kɨp	0	737
+893	SouthHighlandMixe-90_tree-1	SouthHighlandMixe	TREE	tree	šoh	šoh	ʃ o h	3 7 3	AXN	SUH	9	9.S.C 9.U.V 9.H.c	2.0 1.5 0.8	ʃoh	0	744
+894	LowlandMixe-90_tree-1	LowlandMixe	TREE	tree	kipy	kipy	k i p j	1 7 1 6	AXBC	KIPJ	2	2.K.C 2.I.V 2.P.C 2.J.C	2.0 1.5 1.75 1.5	kipj	0	737
+895	SayulaPopoluca-90_tree-1	SayulaPopoluca	TREE	tree	kuhy	kuhy	k u h j	1 7 3 6	AXBC	KYHJ	7	7.K.C 7.Y.V 7.H.C 7.J.C	2.0 1.5 1.75 1.5	kuhj	0	742
+896	OlutaPopoluca-90_tree-1	OlutaPopoluca	TREE	tree	kuyə	kuyə	k u j ə	1 7 6 7	AXBZ	KYJE	4	4.K.C 4.Y.V 4.J.C 4.E.V	2.0 1.5 1.75 0.8	kujə	0	736
+897	TexistepecZoque-90_tree-1	TexistepecZoque	TREE	tree	kuy	kuy	k u j	1 7 6	AXN	KYJ	10	10.K.C 10.Y.V 10.J.c	2.0 1.5 0.8	kuj	0	736
+898	SoteapanZoque-90_tree-1	SoteapanZoque	TREE	tree	kuy	kuy	k u j	1 7 6	AXN	KYJ	8	8.K.C 8.Y.V 8.J.c	2.0 1.5 0.8	kuj	0	736
+899	SantaMariaChimalapaZoque-90_tree-1	SantaMariaChimalapaZoque	TREE	tree	kuy	kuy	k u j	1 7 6	AXN	KYJ	6	6.K.C 6.Y.V 6.J.c	2.0 1.5 0.8	kuj	0	736
+900	SanMiguelChimalapaZoque-90_tree-1	SanMiguelChimalapaZoque	TREE	tree	kuy	kuy	k u j	1 7 6	AXN	KYJ	5	5.K.C 5.Y.V 5.J.c	2.0 1.5 0.8	kuj	0	736
+901	ChiapasZoque-90_tree-1	ChiapasZoque	TREE	tree	kuy	kuy	k u j	1 7 6	AXN	KYJ	1	1.K.C 1.Y.V 1.J.c	2.0 1.5 0.8	kuj	0	736
+902	NorthHighlandMixe-91_two-1	NorthHighlandMixe	TWO	two	mehtsk	mehtsk	m e h ts k	4 7 3 2 1	AXLLN	MEHCK	3	3.M.C 3.E.V 3.H.c 3.C.c 3.K.c	2.0 1.5 1.1 1.1 0.8	mehtsk	0	747
+903	SouthHighlandMixe-91_two-1	SouthHighlandMixe	TWO	two	mætsk	mætsk	m æ ts k	4 7 2 1	AXLN	MECK	9	9.M.C 9.E.V 9.C.c 9.K.c	2.0 1.5 1.1 0.8	mætsk	0	747
+904	LowlandMixe-91_two-1	LowlandMixe	TWO	two	mets	mets	m e ts	4 7 2	AXN	MEC	2	2.M.C 2.E.V 2.C.c	2.0 1.5 0.8	mets	0	745
+905	SayulaPopoluca-91_two-1	SayulaPopoluca	TWO	two	mečk	mečk	m e tʃ k	4 7 1 1	AXLN	METK	7	7.M.C 7.E.V 7.T.c 7.K.c	2.0 1.5 1.1 0.8	metʃk	0	747
+906	OlutaPopoluca-91_two-1	OlutaPopoluca	TWO	two	mes-ko	mes-ko	m e s + k o	4 7 3 9 1 7	AXN_AX	MES_KU	4	4.M.C 4.E.V 4.S.c 4._._ 4.K.C 4.U.V	2.0 1.5 0.8 0.0 2.0 1.5	mes+ko	0	748
+907	TexistepecZoque-91_two-1	TexistepecZoque	TWO	two	wəs-naʔ	wəs-naʔ	w ə s + n a ʔ	6 7 3 9 4 7 1	AXN_AXN	WES_NAH	10	10.W.C 10.E.V 10.S.c 10._._ 10.N.C 10.A.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	wəs+naʔ	0	754
+908	SoteapanZoque-91_two-1	SoteapanZoque	TWO	two	wəs-teen	wəs-teen	w ə s + t eː n	6 7 3 9 1 7 4	AXN_AXN	WES_TEN	8	8.W.C 8.E.V 8.S.c 8._._ 8.T.C 8.E.V 8.N.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	wəs+teːn	0	752
+909	SantaMariaChimalapaZoque-91_two-1	SantaMariaChimalapaZoque	TWO	two	mets-aʔaŋ	mets-aʔaŋ	m e ts + a ʔ a ŋ	4 7 2 9 7 1 7 4	AXN_XBYN	MEC_AHAN	6	6.M.C 6.E.V 6.C.c 6._._ 6.A.V 6.H.C 6.A.V 6.N.c	2.0 1.5 0.8 0.0 1.5 1.75 1.3 0.8	mets+aʔaŋ	0	749
+910	SanMiguelChimalapaZoque-91_two-1	SanMiguelChimalapaZoque	TWO	two	mets-a-ʔaŋ	mets-a-ʔaŋ	m e ts + a + ʔ a ŋ	4 7 2 9 7 9 1 7 4	AXN_X_AXN	MEC_A_HAN	5	5.M.C 5.E.V 5.C.c 5._._ 5.A.V 5._._ 5.H.C 5.A.V 5.N.c	2.0 1.5 0.8 0.0 1.5 0.0 2.0 1.5 0.8	mets+a+ʔaŋ	0	749
+911	ChiapasZoque-91_two-1	ChiapasZoque	TWO	two	metsa	metsa	m e ts a	4 7 2 7	AXBZ	MECA	1	1.M.C 1.E.V 1.C.C 1.A.V	2.0 1.5 1.75 0.8	metsa	0	745
+912	NorthHighlandMixe-92_walkgo-1	NorthHighlandMixe	WALK	walk/go	yoʔoy	yoʔoy	j o ʔ o j	6 7 1 7 6	AXBYN	JUHUJ	3	3.J.C 3.U.V 3.H.C 3.U.V 3.J.c	2.0 1.5 1.75 1.3 0.8	joʔoj	0	756
+913	SouthHighlandMixe-92_walkgo-1	SouthHighlandMixe	WALK	walk/go	yoʔoy	yoʔoy	j o ʔ o j	6 7 1 7 6	AXBYN	JUHUJ	9	9.J.C 9.U.V 9.H.C 9.U.V 9.J.c	2.0 1.5 1.75 1.3 0.8	joʔoj	0	756
+914	LowlandMixe-92_walkgo-1	LowlandMixe	WALK	walk/go	yoʔoy	yoʔoy	j o ʔ o j	6 7 1 7 6	AXBYN	JUHUJ	2	2.J.C 2.U.V 2.H.C 2.U.V 2.J.c	2.0 1.5 1.75 1.3 0.8	joʔoj	0	756
+915	SayulaPopoluca-92_walkgo-1	SayulaPopoluca	WALK	walk/go	yoʔy	yoʔy	j o ʔ j	6 7 1 6	AXBC	JUHJ	7	7.J.C 7.U.V 7.H.C 7.J.C	2.0 1.5 1.75 1.5	joʔj	0	756
+916	OlutaPopoluca-92_walkgo-1	OlutaPopoluca	WALK	walk/go	vit	vit	v i t	3 7 1	AXN	BIT	4	4.B.C 4.I.V 4.T.c	2.0 1.5 0.8	vit	0	755
+917	TexistepecZoque-92_walkgo-1	TexistepecZoque	WALK	walk/go	weč	weč	w e tʃ	6 7 1	AXN	WET	10	10.W.C 10.E.V 10.T.c	2.0 1.5 0.8	wetʃ	0	755
+918	SoteapanZoque-92_walkgo-1	SoteapanZoque	WALK	walk/go	wity	wity	w i t j	6 7 1 6	AXBC	WITJ	8	8.W.C 8.I.V 8.T.C 8.J.C	2.0 1.5 1.75 1.5	witj	0	762
+919	SanMiguelChimalapaZoque-92_walkgo-1	SanMiguelChimalapaZoque	WALK	walk/go	wit	wit	w i t	6 7 1	AXN	WIT	5	5.W.C 5.I.V 5.T.c	2.0 1.5 0.8	wit	0	755
+920	ChiapasZoque-92_walkgo-1	ChiapasZoque	WALK	walk/go	wiht	wiht	w i h t	6 7 3 1	AXLN	WIHT	1	1.W.C 1.I.V 1.H.c 1.T.c	2.0 1.5 1.1 0.8	wiht	0	755
+921	SantaMariaChimalapaZoque-92_walkgo-1	SantaMariaChimalapaZoque	WALK	walk/go	tuʔŋah	tuʔŋah	t u ʔ ŋ a h	1 7 1 4 7 3	AXBCYN	TYHNAH	6	6.T.C 6.Y.V 6.H.C 6.N.C 6.A.V 6.H.c	2.0 1.5 1.75 1.5 1.3 0.8	tuʔŋah	0	760
+922	SanMiguelChimalapaZoque-92_walkgo-2	SanMiguelChimalapaZoque	WALK	walk/go	tuŋ-ʔah	tuŋ-ʔah	t u ŋ + ʔ a h	1 7 4 9 1 7 3	AXN_AXN	TYN_HAH	5	5.T.C 5.Y.V 5.N.c 5._._ 5.H.C 5.A.V 5.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	tuŋ+ʔah	0	765
+923	NorthHighlandMixe-93_warm-1	NorthHighlandMixe	WARM	warm	an	an	a n	7 4	XN	AN	3	3.A.V 3.N.c	1.5 0.8	an	0	767
+924	SouthHighlandMixe-93_warm-1	SouthHighlandMixe	WARM	warm	an	an	a n	7 4	XN	AN	9	9.A.V 9.N.c	1.5 0.8	an	0	767
+925	LowlandMixe-93_warm-1	LowlandMixe	WARM	warm	an	an	a n	7 4	XN	AN	2	2.A.V 2.N.c	1.5 0.8	an	0	767
+926	SayulaPopoluca-93_warm-1	SayulaPopoluca	WARM	warm	powik, toyap	powik	p o w i k	1 7 6 7 1	AXBYN	PUWIK	7	7.P.C 7.U.V 7.W.C 7.I.V 7.K.c	2.0 1.5 1.75 1.3 0.8	powik	0	772
+927	SayulaPopoluca-93_warm-2	SayulaPopoluca	WARM	warm	powik, toyap	toyap	t o j a p	1 7 6 7 1	AXBYN	TUJAP	7	7.T.C 7.U.V 7.J.C 7.A.V 7.P.c	2.0 1.5 1.75 1.3 0.8	tojap	0	775
+928	OlutaPopoluca-93_warm-1	OlutaPopoluca	WARM	warm	hokoʔš	hokoʔš	h o k o ʔ ʃ	3 7 1 7 1 3	AXBYBC	HUKUHS	4	4.H.C 4.U.V 4.K.C 4.U.V 4.H.C 4.S.C	2.0 1.5 1.75 1.3 1.75 1.5	hokoʔʃ	0	769
+929	SantaMariaChimalapaZoque-93_warm-1	SantaMariaChimalapaZoque	WARM	warm	nuts	nuts	n u ts	4 7 2	AXN	NYC	6	6.N.C 6.Y.V 6.C.c	2.0 1.5 0.8	nuts	0	771
+930	SanMiguelChimalapaZoque-93_warm-1	SanMiguelChimalapaZoque	WARM	warm	yuk-nuts	yuk-nuts	j u k + n u ts	6 7 1 9 4 7 2	AXN_AXN	JYK_NYC	5	5.J.C 5.Y.V 5.K.c 5._._ 5.N.C 5.Y.V 5.C.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	juk+nuts	0	770
+931	ChiapasZoque-93_warm-1	ChiapasZoque	WARM	warm	pih, yoʔk-a	pih	p i h	1 7 3	AXN	PIH	1	1.P.C 1.I.V 1.H.c	2.0 1.5 0.8	pih	0	766
+932	ChiapasZoque-93_warm-2	ChiapasZoque	WARM	warm	pih, yoʔk-a	yoʔk-a	j o ʔ k + a	6 7 1 1 9 7	AXLN_X	JUHK_A	1	1.J.C 1.U.V 1.H.c 1.K.c 1._._ 1.A.V	2.0 1.5 1.1 0.8 0.0 1.5	joʔk+a	0	774
+933	NorthHighlandMixe-94_water-1	NorthHighlandMixe	WATER	water	nəə	nəə	n əː	4 7	AX	NE	3	3.N.C 3.E.V	2.0 1.5	nəː	0	776
+934	SouthHighlandMixe-94_water-1	SouthHighlandMixe	WATER	water	nəh	nəh	n ə h	4 7 3	AXN	NEH	9	9.N.C 9.E.V 9.H.c	2.0 1.5 0.8	nəh	0	776
+935	LowlandMixe-94_water-1	LowlandMixe	WATER	water	nəə	nəə	n əː	4 7	AX	NE	2	2.N.C 2.E.V	2.0 1.5	nəː	0	776
+936	SayulaPopoluca-94_water-1	SayulaPopoluca	WATER	water	nəʔ	nəʔ	n ə ʔ	4 7 1	AXN	NEH	7	7.N.C 7.E.V 7.H.c	2.0 1.5 0.8	nəʔ	0	776
+937	OlutaPopoluca-94_water-1	OlutaPopoluca	WATER	water	nəəhə	nəəhə	n əː h ə	4 7 3 7	AXBZ	NEHE	4	4.N.C 4.E.V 4.H.C 4.E.V	2.0 1.5 1.75 0.8	nəːhə	0	776
+938	TexistepecZoque-94_water-1	TexistepecZoque	WATER	water	dəʔ	dəʔ	d ə ʔ	1 7 1	AXN	TEH	10	10.T.C 10.E.V 10.H.c	2.0 1.5 0.8	dəʔ	0	785
+939	SoteapanZoque-94_water-1	SoteapanZoque	WATER	water	nə	nə	n ə	4 7	AX	NE	8	8.N.C 8.E.V	2.0 1.5	nə	0	776
+940	SantaMariaChimalapaZoque-94_water-1	SantaMariaChimalapaZoque	WATER	water	nəʔ	nəʔ	n ə ʔ	4 7 1	AXN	NEH	6	6.N.C 6.E.V 6.H.c	2.0 1.5 0.8	nəʔ	0	776
+941	SanMiguelChimalapaZoque-94_water-1	SanMiguelChimalapaZoque	WATER	water	nəʔ	nəʔ	n ə ʔ	4 7 1	AXN	NEH	5	5.N.C 5.E.V 5.H.c	2.0 1.5 0.8	nəʔ	0	776
+942	ChiapasZoque-94_water-1	ChiapasZoque	WATER	water	nəʔ	nəʔ	n ə ʔ	4 7 1	AXN	NEH	1	1.N.C 1.E.V 1.H.c	2.0 1.5 0.8	nəʔ	0	776
+943	NorthHighlandMixe-95_we-1	NorthHighlandMixe	WE	we	əəts	əəts	əː ts	7 2	XN	EC	3	3.E.V 3.C.c	1.5 0.8	əːts	0	788
+944	SouthHighlandMixe-95_we-1	SouthHighlandMixe	WE	we	əəts	əəts	əː ts	7 2	XN	EC	9	9.E.V 9.C.c	1.5 0.8	əːts	0	788
+945	LowlandMixe-95_we-1	LowlandMixe	WE	we	əəč aht	əəč aht	əː tʃ + a h t	7 1 9 7 3 1	XN_XLN	ET_AHT	2	2.E.V 2.T.c 2._._ 2.A.V 2.H.c 2.T.c	1.5 0.8 0.0 1.5 1.1 0.8	əːtʃ+aht	0	787
+946	SayulaPopoluca-95_we-1	SayulaPopoluca	WE	we	əhtsat	əhtsat	ə h ts a t	7 3 2 7 1	XMBYN	EHCAT	7	7.E.V 7.H.c 7.C.C 7.A.V 7.T.c	1.5 1.1 1.75 1.3 0.8	əhtsat	0	792
+947	OlutaPopoluca-95_we-1	OlutaPopoluca	WE	we	ətsaateʔk	ətsaateʔk	ə ts aː t e ʔ k	7 2 7 1 7 1 1	XBYBYLN	ECATEHK	4	4.E.V 4.C.C 4.A.V 4.T.C 4.E.V 4.H.c 4.K.c	1.5 1.75 1.3 1.75 1.3 1.1 0.8	ətsaːteʔk	0	789
+948	TexistepecZoque-95_we-1	TexistepecZoque	WE	we	ʔəts-taʔ	ʔəts-taʔ	ʔ ə ts + t a ʔ	1 7 2 9 1 7 1	AXN_AXN	HEC_TAH	10	10.H.C 10.E.V 10.C.c 10._._ 10.T.C 10.A.V 10.H.c	2.0 1.5 0.8 0.0 2.0 1.5 0.8	ʔəts+taʔ	0	794
+949	SantaMariaChimalapaZoque-95_we-1	SantaMariaChimalapaZoque	WE	we	newinynen	newinynen	n e w i n j n e n	4 7 6 7 4 6 4 7 4	AXBYBYBYN	NEWINJNEN	6	6.N.C 6.E.V 6.W.C 6.I.V 6.N.C 6.J.V 6.N.C 6.E.V 6.N.c	2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.3 0.8	newinjnen	0	791
+950	SanMiguelChimalapaZoque-95_we-1	SanMiguelChimalapaZoque	WE	we	neywin	neywin	n e j w i n	4 7 6 6 7 4	AXMBYN	NEJWIN	5	5.N.C 5.E.V 5.J.c 5.W.C 5.I.V 5.N.c	2.0 1.5 1.1 1.75 1.3 0.8	nejwin	0	790
+951	ChiapasZoque-95_we-1	ChiapasZoque	WE	we	təh	təh	t ə h	1 7 3	AXN	TEH	1	1.T.C 1.E.V 1.H.c	2.0 1.5 0.8	təh	0	786
+952	NorthHighlandMixe-96_what-1	NorthHighlandMixe	WHAT	what	ti	ti	t i	1 7	AX	TI	3	3.T.C 3.I.V	2.0 1.5	ti	0	796
+953	SouthHighlandMixe-96_what-1	SouthHighlandMixe	WHAT	what	tii	tii	t iː	1 7	AX	TI	9	9.T.C 9.I.V	2.0 1.5	tiː	0	796
+954	LowlandMixe-96_what-1	LowlandMixe	WHAT	what	ti	ti	t i	1 7	AX	TI	2	2.T.C 2.I.V	2.0 1.5	ti	0	796
+955	SayulaPopoluca-96_what-1	SayulaPopoluca	WHAT	what	ti	ti	t i	1 7	AX	TI	7	7.T.C 7.I.V	2.0 1.5	ti	0	796
+956	OlutaPopoluca-96_what-1	OlutaPopoluca	WHAT	what	ti	ti	t i	1 7	AX	TI	4	4.T.C 4.I.V	2.0 1.5	ti	0	796
+957	TexistepecZoque-96_what-1	TexistepecZoque	WHAT	what	čeʔ	čeʔ	tʃ e ʔ	1 7 1	AXN	TEH	10	10.T.C 10.E.V 10.H.c	2.0 1.5 0.8	tʃeʔ	1	804
+958	SoteapanZoque-96_what-1	SoteapanZoque	WHAT	what	tyi	tyi	t j i	1 6 7	ACX	TJI	8	8.T.C 8.J.C 8.I.V	2.0 1.5 1.5	tji	0	795
+959	SantaMariaChimalapaZoque-96_what-1	SantaMariaChimalapaZoque	WHAT	what	ti	ti	t i	1 7	AX	TI	6	6.T.C 6.I.V	2.0 1.5	ti	0	796
+960	SanMiguelChimalapaZoque-96_what-1	SanMiguelChimalapaZoque	WHAT	what	ti	ti	t i	1 7	AX	TI	5	5.T.C 5.I.V	2.0 1.5	ti	0	796
+961	ChiapasZoque-96_what-1	ChiapasZoque	WHAT	what	tiyə	tiyə	t i j ə	1 7 6 7	AXBZ	TIJE	1	1.T.C 1.I.V 1.J.C 1.E.V	2.0 1.5 1.75 0.8	tijə	0	795
+962	NorthHighlandMixe-97_white-1	NorthHighlandMixe	WHITE	white	pooʔp	pooʔp	p oː ʔ p	1 7 1 1	AXLN	PUHP	3	3.P.C 3.U.V 3.H.c 3.P.c	2.0 1.5 1.1 0.8	poːʔp	0	806
+963	SouthHighlandMixe-97_white-1	SouthHighlandMixe	WHITE	white	poop	poop	p oː p	1 7 1	AXN	PUP	9	9.P.C 9.U.V 9.P.c	2.0 1.5 0.8	poːp	0	806
+964	LowlandMixe-97_white-1	LowlandMixe	WHITE	white	poob	poob	p oː b	1 7 1	AXN	PUP	2	2.P.C 2.U.V 2.P.c	2.0 1.5 0.8	poːb	0	806
+965	SayulaPopoluca-97_white-1	SayulaPopoluca	WHITE	white	poʔp	poʔp	p o ʔ p	1 7 1 1	AXLN	PUHP	7	7.P.C 7.U.V 7.H.c 7.P.c	2.0 1.5 1.1 0.8	poʔp	0	806
+966	OlutaPopoluca-97_white-1	OlutaPopoluca	WHITE	white	poopoʔ	poopoʔ	p oː p o ʔ	1 7 1 7 1	AXBYN	PUPUH	4	4.P.C 4.U.V 4.P.C 4.U.V 4.H.c	2.0 1.5 1.75 1.3 0.8	poːpoʔ	0	805
+967	TexistepecZoque-97_white-1	TexistepecZoque	WHITE	white	popoʔ	popoʔ	p o p o ʔ	1 7 1 7 1	AXBYN	PUPUH	10	10.P.C 10.U.V 10.P.C 10.U.V 10.H.c	2.0 1.5 1.75 1.3 0.8	popoʔ	0	805
+968	SoteapanZoque-97_white-1	SoteapanZoque	WHITE	white	poʔobaap	poʔobaap	p o ʔ o b aː p	1 7 1 7 1 7 1	AXBYBYN	PUHUPAP	8	8.P.C 8.U.V 8.H.C 8.U.V 8.P.C 8.A.V 8.P.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	poʔobaːp	0	812
+969	SantaMariaChimalapaZoque-97_white-1	SantaMariaChimalapaZoque	WHITE	white	popoʔ	popoʔ	p o p o ʔ	1 7 1 7 1	AXBYN	PUPUH	6	6.P.C 6.U.V 6.P.C 6.U.V 6.H.c	2.0 1.5 1.75 1.3 0.8	popoʔ	0	805
+970	SanMiguelChimalapaZoque-97_white-1	SanMiguelChimalapaZoque	WHITE	white	popoʔ	popoʔ	p o p o ʔ	1 7 1 7 1	AXBYN	PUPUH	5	5.P.C 5.U.V 5.P.C 5.U.V 5.H.c	2.0 1.5 1.75 1.3 0.8	popoʔ	0	805
+971	ChiapasZoque-97_white-1	ChiapasZoque	WHITE	white	popo	popo	p o p o	1 7 1 7	AXBZ	PUPU	1	1.P.C 1.U.V 1.P.C 1.U.V	2.0 1.5 1.75 0.8	popo	0	805
+972	NorthHighlandMixe-98_who-1	NorthHighlandMixe	WHO	who	pən	pən	p ə n	1 7 4	AXN	PEN	3	3.P.C 3.E.V 3.N.c	2.0 1.5 0.8	pən	0	814
+973	SouthHighlandMixe-98_who-1	SouthHighlandMixe	WHO	who	pən	pən	p ə n	1 7 4	AXN	PEN	9	9.P.C 9.E.V 9.N.c	2.0 1.5 0.8	pən	0	814
+974	LowlandMixe-98_who-1	LowlandMixe	WHO	who	pən	pən	p ə n	1 7 4	AXN	PEN	2	2.P.C 2.E.V 2.N.c	2.0 1.5 0.8	pən	0	814
+975	SayulaPopoluca-98_who-1	SayulaPopoluca	WHO	who	pən	pən	p ə n	1 7 4	AXN	PEN	7	7.P.C 7.E.V 7.N.c	2.0 1.5 0.8	pən	0	814
+976	OlutaPopoluca-98_who-1	OlutaPopoluca	WHO	who	pən	pən	p ə n	1 7 4	AXN	PEN	4	4.P.C 4.E.V 4.N.c	2.0 1.5 0.8	pən	0	814
+977	TexistepecZoque-98_who-1	TexistepecZoque	WHO	who	ʔee	ʔee	ʔ eː	1 7	AX	HE	10	10.H.C 10.E.V	2.0 1.5	ʔeː	0	822
+978	SoteapanZoque-98_who-1	SoteapanZoque	WHO	who	iapaʔap	iapaʔap	i a p a ʔ a p	7 7 1 7 1 7 1	XYBYBYN	IAPAHAP	8	8.I.V 8.A.V 8.P.C 8.A.V 8.H.C 8.A.V 8.P.c	1.5 1.3 1.75 1.3 1.75 1.3 0.8	iapaʔap	0	820
+979	SantaMariaChimalapaZoque-98_who-1	SantaMariaChimalapaZoque	WHO	who	i-wə	i-wə	i + w ə	7 9 6 7	X_AX	I_WE	6	6.I.V 6._._ 6.W.C 6.E.V	1.5 0.0 2.0 1.5	i+wə	0	813
+980	SanMiguelChimalapaZoque-98_who-1	SanMiguelChimalapaZoque	WHO	who	ʔi-wə	ʔi-wə	ʔ i + w ə	1 7 9 6 7	AX_AX	HI_WE	5	5.H.C 5.I.V 5._._ 5.W.C 5.E.V	2.0 1.5 0.0 2.0 1.5	ʔi+wə	0	813
+981	ChiapasZoque-98_who-1	ChiapasZoque	WHO	who	i-wə	i-wə	i + w ə	7 9 6 7	X_AX	I_WE	1	1.I.V 1._._ 1.W.C 1.E.V	1.5 0.0 2.0 1.5	i+wə	0	813
+1077	NorthHighlandMixe-108_wind-1	NorthHighlandMixe	WIND	wind	poh	poh	p o h	1 7 3	AXN	PUH	3	3.P.C 3.U.V 3.H.c	2.0 1.5 0.8	poh	0	824
+1078	SouthHighlandMixe-108_wind-1	SouthHighlandMixe	WIND	wind	poh	poh	p o h	1 7 3	AXN	PUH	9	9.P.C 9.U.V 9.H.c	2.0 1.5 0.8	poh	0	824
+1079	LowlandMixe-108_wind-1	LowlandMixe	WIND	wind	poh	poh	p o h	1 7 3	AXN	PUH	2	2.P.C 2.U.V 2.H.c	2.0 1.5 0.8	poh	0	824
+1080	SayulaPopoluca-108_wind-1	SayulaPopoluca	WIND	wind	šeʔm	šeʔm	ʃ e ʔ m	3 7 1 4	AXBC	SEHM	7	7.S.C 7.E.V 7.H.C 7.M.C	2.0 1.5 1.75 1.5	ʃeʔm	0	828
+1081	OlutaPopoluca-108_wind-1	OlutaPopoluca	WIND	wind	haamu	haamu	h aː m u	3 7 4 7	AXBZ	HAMY	4	4.H.C 4.A.V 4.M.C 4.Y.V	2.0 1.5 1.75 0.8	haːmu	0	826
+1082	TexistepecZoque-108_wind-1	TexistepecZoque	WIND	wind	saaw	saaw	s aː w	3 7 6	AXN	SAW	10	10.S.C 10.A.V 10.W.c	2.0 1.5 0.8	saːw	0	823
+1083	SoteapanZoque-108_wind-1	SoteapanZoque	WIND	wind	saawa	saawa	s aː w a	3 7 6 7	AXBZ	SAWA	8	8.S.C 8.A.V 8.W.C 8.A.V	2.0 1.5 1.75 0.8	saːwa	0	823
+1084	SanMiguelChimalapaZoque-108_wind-1	SanMiguelChimalapaZoque	WIND	wind	šawa	šawa	ʃ a w a	3 7 6 7	AXBZ	SAWA	5	5.S.C 5.A.V 5.W.C 5.A.V	2.0 1.5 1.75 0.8	ʃawa	0	823
+1085	ChiapasZoque-108_wind-1	ChiapasZoque	WIND	wind	sawa	sawa	s a w a	3 7 6 7	AXBZ	SAWA	1	1.S.C 1.A.V 1.W.C 1.A.V	2.0 1.5 1.75 0.8	sawa	0	823
+982	NorthHighlandMixe-99_woman-1	NorthHighlandMixe	WOMAN	woman	təʔəštəhk	təʔəštəhk	t ə ʔ ə ʃ t ə h k	1 7 1 7 3 1 7 3 1	AXBYMBYLN	TEHESTEHK	3	3.T.C 3.E.V 3.H.C 3.E.V 3.S.c 3.T.C 3.E.V 3.H.c 3.K.c	2.0 1.5 1.75 1.3 1.1 1.75 1.3 1.1 0.8	təʔəʃtəhk	0	831
+983	SouthHighlandMixe-99_woman-1	SouthHighlandMixe	WOMAN	woman	tišytyəhk	tišytyəhk	t i ʃ j t j ə h k	1 7 3 6 1 6 7 3 1	AXBYBCYLN	TISJTJEHK	9	9.T.C 9.I.V 9.S.C 9.J.V 9.T.C 9.J.C 9.E.V 9.H.c 9.K.c	2.0 1.5 1.75 1.3 1.75 1.5 1.3 1.1 0.8	tiʃjtjəhk	0	837
+984	LowlandMixe-99_woman-1	LowlandMixe	WOMAN	woman	toʔošyhəy	toʔošyhəy	t o ʔ o ʃ j h ə j	1 7 1 7 3 6 3 7 6	AXBYBYBYN	TUHUSJHEJ	2	2.T.C 2.U.V 2.H.C 2.U.V 2.S.C 2.J.V 2.H.C 2.E.V 2.J.c	2.0 1.5 1.75 1.3 1.75 1.3 1.75 1.3 0.8	toʔoʃjhəj	0	830
+985	SayulaPopoluca-99_woman-1	SayulaPopoluca	WOMAN	woman	toʔšay	toʔšay	t o ʔ ʃ a j	1 7 1 3 7 6	AXBCYN	TUHSAJ	7	7.T.C 7.U.V 7.H.C 7.S.C 7.A.V 7.J.c	2.0 1.5 1.75 1.5 1.3 0.8	toʔʃaj	0	835
+986	OlutaPopoluca-99_woman-1	OlutaPopoluca	WOMAN	woman	mahaw	mahaw	m a h a w	4 7 3 7 6	AXBYN	MAHAW	4	4.M.C 4.A.V 4.H.C 4.A.V 4.W.c	2.0 1.5 1.75 1.3 0.8	mahaw	0	832
+987	TexistepecZoque-99_woman-1	TexistepecZoque	WOMAN	woman	yoomaʔ	yoomaʔ	j oː m a ʔ	6 7 4 7 1	AXBYN	JUMAH	10	10.J.C 10.U.V 10.M.C 10.A.V 10.H.c	2.0 1.5 1.75 1.3 0.8	joːmaʔ	0	829
+988	SoteapanZoque-99_woman-1	SoteapanZoque	WOMAN	woman	yoomo	yoomo	j oː m o	6 7 4 7	AXBZ	JUMU	8	8.J.C 8.U.V 8.M.C 8.U.V	2.0 1.5 1.75 0.8	joːmo	0	829
+989	SantaMariaChimalapaZoque-99_woman-1	SantaMariaChimalapaZoque	WOMAN	woman	yoməʔ	yoməʔ	j o m ə ʔ	6 7 4 7 1	AXBYN	JUMEH	6	6.J.C 6.U.V 6.M.C 6.E.V 6.H.c	2.0 1.5 1.75 1.3 0.8	joməʔ	0	829
+990	SanMiguelChimalapaZoque-99_woman-1	SanMiguelChimalapaZoque	WOMAN	woman	yomaaʔ	yomaaʔ	j o m aː ʔ	6 7 4 7 1	AXBYN	JUMAH	5	5.J.C 5.U.V 5.M.C 5.A.V 5.H.c	2.0 1.5 1.75 1.3 0.8	jomaːʔ	0	829
+991	ChiapasZoque-99_woman-1	ChiapasZoque	WOMAN	woman	yomo	yomo	j o m o	6 7 4 7	AXBZ	JUMU	1	1.J.C 1.U.V 1.M.C 1.U.V	2.0 1.5 1.75 0.8	jomo	0	829
+1086	NorthHighlandMixe-109_worm-1	NorthHighlandMixe	WORM	worm	naš-tsaaʔn	naš-tsaaʔn	n a ʃ + ts aː ʔ n	4 7 3 9 2 7 1 4	AXN_AXBC	NAS_CAHN	3	3.N.C 3.A.V 3.S.c 3._._ 3.C.C 3.A.V 3.H.C 3.N.C	2.0 1.5 0.8 0.0 2.0 1.5 1.75 1.5	naʃ+tsaːʔn	0	840
+1087	SouthHighlandMixe-109_worm-1	SouthHighlandMixe	WORM	worm	tənəʔək	tənəʔək	t ə n ə ʔ ə k	1 7 4 7 1 7 1	AXBYBYN	TENEHEK	9	9.T.C 9.E.V 9.N.C 9.E.V 9.H.C 9.E.V 9.K.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	tənəʔək	0	846
+1088	LowlandMixe-109_worm-1	LowlandMixe	WORM	worm	təng	təng	t ə n g	1 7 4 1	AXLN	TENK	2	2.T.C 2.E.V 2.N.c 2.K.c	2.0 1.5 1.1 0.8	təng	0	839
+1089	SayulaPopoluca-109_worm-1	SayulaPopoluca	WORM	worm	tsugut	tsugut	ts u g u t	2 7 1 7 1	AXBYN	CYKYT	7	7.C.C 7.Y.V 7.K.C 7.Y.V 7.T.c	2.0 1.5 1.75 1.3 0.8	tsugut	0	844
+1090	OlutaPopoluca-109_worm-1	OlutaPopoluca	WORM	worm	kumu	kumu	k u m u	1 7 4 7	AXBZ	KYMY	4	4.K.C 4.Y.V 4.M.C 4.Y.V	2.0 1.5 1.75 0.8	kumu	0	841
+1091	TexistepecZoque-109_worm-1	TexistepecZoque	WORM	worm	tsuʔukeñ	tsuʔukeñ	ts u ʔ u k e ɲ	2 7 1 7 1 7 4	AXBYBYN	CYHYKEN	10	10.C.C 10.Y.V 10.H.C 10.Y.V 10.K.C 10.E.V 10.N.c	2.0 1.5 1.75 1.3 1.75 1.3 0.8	tsuʔukeɲ	0	843
+1092	SoteapanZoque-109_worm-1	SoteapanZoque	WORM	worm	tsuuʔkiñ	tsuuʔkiñ	ts uː ʔ k i ɲ	2 7 1 1 7 4	AXMBYN	CYHKIN	8	8.C.C 8.Y.V 8.H.c 8.K.C 8.I.V 8.N.c	2.0 1.5 1.1 1.75 1.3 0.8	tsuːʔkiɲ	0	843
+1093	SantaMariaChimalapaZoque-109_worm-1	SantaMariaChimalapaZoque	WORM	worm	tsuʔkin	tsuʔkin	ts u ʔ k i n	2 7 1 1 7 4	AXMBYN	CYHKIN	6	6.C.C 6.Y.V 6.H.c 6.K.C 6.I.V 6.N.c	2.0 1.5 1.1 1.75 1.3 0.8	tsuʔkin	0	843
+1094	SanMiguelChimalapaZoque-109_worm-1	SanMiguelChimalapaZoque	WORM	worm	kumuʔ	kumuʔ	k u m u ʔ	1 7 4 7 1	AXBYN	KYMYH	5	5.K.C 5.Y.V 5.M.C 5.Y.V 5.H.c	2.0 1.5 1.75 1.3 0.8	kumuʔ	0	841
+1095	TexistepecZoque-109_worm-2	TexistepecZoque	WORM	worm	toʔt	toʔt	t o ʔ t	1 7 1 1	AXLN	TUHT	10	10.T.C 10.U.V 10.H.c 10.T.c	2.0 1.5 1.1 0.8	toʔt	0	838
+1096	ChiapasZoque-109_worm-1	ChiapasZoque	WORM	worm	toʔt	toʔt	t o ʔ t	1 7 1 1	AXLN	TUHT	1	1.T.C 1.U.V 1.H.c 1.T.c	2.0 1.5 1.1 0.8	toʔt	0	838
+1097	NorthHighlandMixe-110_year-1	NorthHighlandMixe	YEAR	year	hυυhnt	hυυhnt	h ʊː h n t	3 7 3 4 1	AXBYN	HYHNT	3	3.H.C 3.Y.V 3.H.C 3.N.V 3.T.c	2.0 1.5 1.75 1.3 0.8	hʊːhnt	0	849
+1098	SouthHighlandMixe-110_year-1	SouthHighlandMixe	YEAR	year	həməht	həməht	h ə m ə h t	3 7 4 7 3 1	AXBYLN	HEMEHT	9	9.H.C 9.E.V 9.M.C 9.E.V 9.H.c 9.T.c	2.0 1.5 1.75 1.3 1.1 0.8	həməht	0	848
+1099	LowlandMixe-110_year-1	LowlandMixe	YEAR	year	həməht	həməht	h ə m ə h t	3 7 4 7 3 1	AXBYLN	HEMEHT	2	2.H.C 2.E.V 2.M.C 2.E.V 2.H.c 2.T.c	2.0 1.5 1.75 1.3 1.1 0.8	həməht	0	848
+1100	SayulaPopoluca-110_year-1	SayulaPopoluca	YEAR	year	šiwit	šiwit	ʃ i w i t	3 7 6 7 1	AXBYN	SIWIT	7	7.S.C 7.I.V 7.W.C 7.I.V 7.T.c	2.0 1.5 1.75 1.3 0.8	ʃiwit	0	850
+1101	OlutaPopoluca-110_year-1	OlutaPopoluca	YEAR	year	šiviʔt	šiviʔt	ʃ i v i ʔ t	3 7 3 7 1 1	AXBYLN	SIBIHT	4	4.S.C 4.I.V 4.B.C 4.I.V 4.H.c 4.T.c	2.0 1.5 1.75 1.3 1.1 0.8	ʃiviʔt	0	850
+1102	TexistepecZoque-110_year-1	TexistepecZoque	YEAR	year	ʔamče	ʔamče	ʔ a m tʃ e	1 7 4 1 7	AXMBZ	HAMTE	10	10.H.C 10.A.V 10.M.c 10.T.C 10.E.V	2.0 1.5 1.1 1.75 0.8	ʔamtʃe	0	856
+1103	SoteapanZoque-110_year-1	SoteapanZoque	YEAR	year	aamtyəy	aamtyəy	aː m t j ə j	7 4 1 6 7 6	XMBCYN	AMTJEJ	8	8.A.V 8.M.c 8.T.C 8.J.C 8.E.V 8.J.c	1.5 1.1 1.75 1.5 1.3 0.8	aːmtjəj	0	854
+1104	SantaMariaChimalapaZoque-110_year-1	SantaMariaChimalapaZoque	YEAR	year	amintə	amintə	a m i n t ə	7 4 7 4 1 7	XBYMBZ	AMINTE	6	6.A.V 6.M.C 6.I.V 6.N.c 6.T.C 6.E.V	1.5 1.75 1.3 1.1 1.75 0.8	amintə	0	851
+1105	SanMiguelChimalapaZoque-110_year-1	SanMiguelChimalapaZoque	YEAR	year	ʔamintəʔ	ʔamintəʔ	ʔ a m i n t ə ʔ	1 7 4 7 4 1 7 1	AXBYMBYN	HAMINTEH	5	5.H.C 5.A.V 5.M.C 5.I.V 5.N.c 5.T.C 5.E.V 5.H.c	2.0 1.5 1.75 1.3 1.1 1.75 1.3 0.8	ʔamintəʔ	0	851
+1106	ChiapasZoque-110_year-1	ChiapasZoque	YEAR	year	ame	ame	a m e	7 4 7	XBZ	AME	1	1.A.V 1.M.C 1.E.V	1.5 1.75 0.8	ame	0	847
+992	NorthHighlandMixe-100_yellow-1	NorthHighlandMixe	YELLOW	yellow	pυʔts	pυʔts	p ʊ ʔ ts	1 7 1 2	AXBC	PYHC	3	3.P.C 3.Y.V 3.H.C 3.C.C	2.0 1.5 1.75 1.5	pʊʔts	0	857
+993	SouthHighlandMixe-100_yellow-1	SouthHighlandMixe	YELLOW	yellow	puts	puts	p u ts	1 7 2	AXN	PYC	9	9.P.C 9.Y.V 9.C.c	2.0 1.5 0.8	puts	0	865
+994	LowlandMixe-100_yellow-1	LowlandMixe	YELLOW	yellow	puʔts	puʔts	p u ʔ ts	1 7 1 2	AXBC	PYHC	2	2.P.C 2.Y.V 2.H.C 2.C.C	2.0 1.5 1.75 1.5	puʔts	0	857
+995	SayulaPopoluca-100_yellow-1	SayulaPopoluca	YELLOW	yellow	puʔts-puts	puʔts-puts	p u ʔ ts + p u ts	1 7 1 2 9 1 7 2	AXBC_AXN	PYHC_PYC	7	7.P.C 7.Y.V 7.H.C 7.C.C 7._._ 7.P.C 7.Y.V 7.C.c	2.0 1.5 1.75 1.5 0.0 2.0 1.5 0.8	puʔts+puts	0	860
+996	OlutaPopoluca-100_yellow-1	OlutaPopoluca	YELLOW	yellow	puʔs-puʔs	puʔs-puʔs	p u ʔ s + p u ʔ s	1 7 1 3 9 1 7 1 3	AXBC_AXBC	PYHS_PYHS	4	4.P.C 4.Y.V 4.H.C 4.S.C 4._._ 4.P.C 4.Y.V 4.H.C 4.S.C	2.0 1.5 1.75 1.5 0.0 2.0 1.5 1.75 1.5	puʔs+puʔs	0	860
+997	TexistepecZoque-100_yellow-1	TexistepecZoque	YELLOW	yellow	puʔuč-eʔ	puʔuč-eʔ	p u ʔ u tʃ + e ʔ	1 7 1 7 1 9 7 1	AXBYN_XN	PYHYT_EH	10	10.P.C 10.Y.V 10.H.C 10.Y.V 10.T.c 10._._ 10.E.V 10.H.c	2.0 1.5 1.75 1.3 0.8 0.0 1.5 0.8	puʔutʃ+eʔ	0	864
+998	SoteapanZoque-100_yellow-1	SoteapanZoque	YELLOW	yellow	puʔuč	puʔuč	p u ʔ u tʃ	1 7 1 7 1	AXBYN	PYHYT	8	8.P.C 8.Y.V 8.H.C 8.Y.V 8.T.c	2.0 1.5 1.75 1.3 0.8	puʔutʃ	0	864
+999	SantaMariaChimalapaZoque-100_yellow-1	SantaMariaChimalapaZoque	YELLOW	yellow	puʔtsiʔ	puʔtsiʔ	p u ʔ ts i ʔ	1 7 1 2 7 1	AXBCYN	PYHCIH	6	6.P.C 6.Y.V 6.H.C 6.C.C 6.I.V 6.H.c	2.0 1.5 1.75 1.5 1.3 0.8	puʔtsiʔ	0	857
+1000	SanMiguelChimalapaZoque-100_yellow-1	SanMiguelChimalapaZoque	YELLOW	yellow	puʔts-puʔts	puʔts-puʔts	p u ʔ ts + p u ʔ ts	1 7 1 2 9 1 7 1 2	AXBC_AXBC	PYHC_PYHC	5	5.P.C 5.Y.V 5.H.C 5.C.C 5._._ 5.P.C 5.Y.V 5.H.C 5.C.C	2.0 1.5 1.75 1.5 0.0 2.0 1.5 1.75 1.5	puʔts+puʔts	0	860
+1001	ChiapasZoque-100_yellow-1	ChiapasZoque	YELLOW	yellow	puʔtsə	puʔtsə	p u ʔ ts ə	1 7 1 2 7	AXBCZ	PYHCE	1	1.P.C 1.Y.V 1.H.C 1.C.C 1.E.V	2.0 1.5 1.75 1.5 0.8	puʔtsə	0	857
