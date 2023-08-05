@@ -1,0 +1,10 @@
+elasticsearch
+psycopg2-binary
+six
+tabulate
+
+[dev]
+mock
+nose
+yapf
+coverage
