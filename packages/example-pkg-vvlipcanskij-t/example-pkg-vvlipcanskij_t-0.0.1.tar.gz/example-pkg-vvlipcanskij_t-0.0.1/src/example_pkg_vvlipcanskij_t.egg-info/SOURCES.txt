@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/example/__init__.py
+src/example/example.py
+src/example_pkg_vvlipcanskij_t.egg-info/PKG-INFO
+src/example_pkg_vvlipcanskij_t.egg-info/SOURCES.txt
+src/example_pkg_vvlipcanskij_t.egg-info/dependency_links.txt
+src/example_pkg_vvlipcanskij_t.egg-info/top_level.txt
