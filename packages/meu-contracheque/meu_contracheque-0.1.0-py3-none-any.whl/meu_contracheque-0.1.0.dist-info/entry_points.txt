@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        meu-contracheque=meu_contracheque.cli:cli
+      
