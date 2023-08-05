@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: axle
+Version: 0.0.2
+Summary: A pip compatible Python package repository server
+Home-page: UNKNOWN
+Author: Jon Roose
+Author-email: jroose@gmail.com
+License: UNKNOWN
+Keywords: pip,package,repository,server
+Platform: any
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >3.5
+Description-Content-Type: text/markdown
+Requires-Dist: flask
+Requires-Dist: requests
+
+# PyPI Proxy
+
+
+
