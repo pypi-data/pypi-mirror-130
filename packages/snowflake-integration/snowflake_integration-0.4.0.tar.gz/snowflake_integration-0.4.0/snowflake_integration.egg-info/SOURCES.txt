@@ -1,0 +1,7 @@
+setup.py
+snowflake_integration/__init__.py
+snowflake_integration.egg-info/PKG-INFO
+snowflake_integration.egg-info/SOURCES.txt
+snowflake_integration.egg-info/dependency_links.txt
+snowflake_integration.egg-info/requires.txt
+snowflake_integration.egg-info/top_level.txt
