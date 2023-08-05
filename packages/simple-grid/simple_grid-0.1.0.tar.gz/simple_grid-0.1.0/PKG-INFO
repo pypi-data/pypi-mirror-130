@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: simple_grid
+Version: 0.1.0
+Summary: This Package creates a simple grid to show some data
+Home-page: UNKNOWN
+Author: domx4q
+Author-email: ev3dom@gmx.de
+License: UNKNOWN
+Project-URL: Cloudster, https://cloudster.online
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Install
+```bash
+pip install simpleGrid
+```
+if you are using conda, you can install it with:
+```bash
+conda install -c conda-forge simpleGrid
+```
+# How to run
+```python
+from  simpleGrid import Grid
+
+Grid(
+    [
+        [1, 2, 3],
+        [4, 5, 6],
+        [7, 8, 9]
+    ], mode='letter'
+)
+```
+
