@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pixycamev3/__init__.py
+pixycamev3/pixy2.py
+pixycamev3.egg-info/PKG-INFO
+pixycamev3.egg-info/SOURCES.txt
+pixycamev3.egg-info/dependency_links.txt
+pixycamev3.egg-info/top_level.txt
