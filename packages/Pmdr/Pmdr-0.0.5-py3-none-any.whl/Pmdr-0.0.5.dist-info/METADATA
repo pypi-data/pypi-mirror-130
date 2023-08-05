@@ -1,0 +1,230 @@
+Metadata-Version: 2.1
+Name: Pmdr
+Version: 0.0.5
+Summary: CLI Pomodoro Timer
+Home-page: https://github.com/JDSalisbury/doro
+Author: Jeff Salisbury
+Author-email: salisbury.jeffery@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: autopep8 (==1.6.0)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.8)
+Requires-Dist: click (==8.0.3)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: docutils (==0.18.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: importlib-metadata (==4.8.2)
+Requires-Dist: keyring (==23.3.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pkginfo (==1.8.1)
+Requires-Dist: playsound (==1.3.0)
+Requires-Dist: pycodestyle (==2.8.0)
+Requires-Dist: Pygments (==2.10.0)
+Requires-Dist: pyobjc (==8.0)
+Requires-Dist: pyobjc-core (==8.0)
+Requires-Dist: pyobjc-framework-Accessibility (==8.0)
+Requires-Dist: pyobjc-framework-Accounts (==8.0)
+Requires-Dist: pyobjc-framework-AddressBook (==8.0)
+Requires-Dist: pyobjc-framework-AdServices (==8.0)
+Requires-Dist: pyobjc-framework-AdSupport (==8.0)
+Requires-Dist: pyobjc-framework-AppleScriptKit (==8.0)
+Requires-Dist: pyobjc-framework-AppleScriptObjC (==8.0)
+Requires-Dist: pyobjc-framework-ApplicationServices (==8.0)
+Requires-Dist: pyobjc-framework-AppTrackingTransparency (==8.0)
+Requires-Dist: pyobjc-framework-AudioVideoBridging (==8.0)
+Requires-Dist: pyobjc-framework-AuthenticationServices (==8.0)
+Requires-Dist: pyobjc-framework-AutomaticAssessmentConfiguration (==8.0)
+Requires-Dist: pyobjc-framework-Automator (==8.0)
+Requires-Dist: pyobjc-framework-AVFoundation (==8.0)
+Requires-Dist: pyobjc-framework-AVKit (==8.0)
+Requires-Dist: pyobjc-framework-BusinessChat (==8.0)
+Requires-Dist: pyobjc-framework-CalendarStore (==8.0)
+Requires-Dist: pyobjc-framework-CallKit (==8.0)
+Requires-Dist: pyobjc-framework-CFNetwork (==8.0)
+Requires-Dist: pyobjc-framework-ClassKit (==8.0)
+Requires-Dist: pyobjc-framework-CloudKit (==8.0)
+Requires-Dist: pyobjc-framework-Cocoa (==8.0)
+Requires-Dist: pyobjc-framework-Collaboration (==8.0)
+Requires-Dist: pyobjc-framework-ColorSync (==8.0)
+Requires-Dist: pyobjc-framework-Contacts (==8.0)
+Requires-Dist: pyobjc-framework-ContactsUI (==8.0)
+Requires-Dist: pyobjc-framework-CoreAudio (==8.0)
+Requires-Dist: pyobjc-framework-CoreAudioKit (==8.0)
+Requires-Dist: pyobjc-framework-CoreBluetooth (==8.0)
+Requires-Dist: pyobjc-framework-CoreData (==8.0)
+Requires-Dist: pyobjc-framework-CoreHaptics (==8.0)
+Requires-Dist: pyobjc-framework-CoreLocation (==8.0)
+Requires-Dist: pyobjc-framework-CoreMedia (==8.0)
+Requires-Dist: pyobjc-framework-CoreMediaIO (==8.0)
+Requires-Dist: pyobjc-framework-CoreMIDI (==8.0)
+Requires-Dist: pyobjc-framework-CoreML (==8.0)
+Requires-Dist: pyobjc-framework-CoreMotion (==8.0)
+Requires-Dist: pyobjc-framework-CoreServices (==8.0)
+Requires-Dist: pyobjc-framework-CoreSpotlight (==8.0)
+Requires-Dist: pyobjc-framework-CoreText (==8.0)
+Requires-Dist: pyobjc-framework-CoreWLAN (==8.0)
+Requires-Dist: pyobjc-framework-CryptoTokenKit (==8.0)
+Requires-Dist: pyobjc-framework-DataDetection (==8.0)
+Requires-Dist: pyobjc-framework-DeviceCheck (==8.0)
+Requires-Dist: pyobjc-framework-DictionaryServices (==8.0)
+Requires-Dist: pyobjc-framework-DiscRecording (==8.0)
+Requires-Dist: pyobjc-framework-DiscRecordingUI (==8.0)
+Requires-Dist: pyobjc-framework-DiskArbitration (==8.0)
+Requires-Dist: pyobjc-framework-DVDPlayback (==8.0)
+Requires-Dist: pyobjc-framework-EventKit (==8.0)
+Requires-Dist: pyobjc-framework-ExceptionHandling (==8.0)
+Requires-Dist: pyobjc-framework-ExecutionPolicy (==8.0)
+Requires-Dist: pyobjc-framework-ExternalAccessory (==8.0)
+Requires-Dist: pyobjc-framework-FileProvider (==8.0)
+Requires-Dist: pyobjc-framework-FileProviderUI (==8.0)
+Requires-Dist: pyobjc-framework-FinderSync (==8.0)
+Requires-Dist: pyobjc-framework-FSEvents (==8.0)
+Requires-Dist: pyobjc-framework-GameCenter (==8.0)
+Requires-Dist: pyobjc-framework-GameController (==8.0)
+Requires-Dist: pyobjc-framework-GameKit (==8.0)
+Requires-Dist: pyobjc-framework-GameplayKit (==8.0)
+Requires-Dist: pyobjc-framework-ImageCaptureCore (==8.0)
+Requires-Dist: pyobjc-framework-IMServicePlugIn (==8.0)
+Requires-Dist: pyobjc-framework-InputMethodKit (==8.0)
+Requires-Dist: pyobjc-framework-InstallerPlugins (==8.0)
+Requires-Dist: pyobjc-framework-InstantMessage (==8.0)
+Requires-Dist: pyobjc-framework-Intents (==8.0)
+Requires-Dist: pyobjc-framework-IntentsUI (==8.0)
+Requires-Dist: pyobjc-framework-IOSurface (==8.0)
+Requires-Dist: pyobjc-framework-iTunesLibrary (==8.0)
+Requires-Dist: pyobjc-framework-KernelManagement (==8.0)
+Requires-Dist: pyobjc-framework-LatentSemanticMapping (==8.0)
+Requires-Dist: pyobjc-framework-LaunchServices (==8.0)
+Requires-Dist: pyobjc-framework-libdispatch (==8.0)
+Requires-Dist: pyobjc-framework-LinkPresentation (==8.0)
+Requires-Dist: pyobjc-framework-LocalAuthentication (==8.0)
+Requires-Dist: pyobjc-framework-LocalAuthenticationEmbeddedUI (==8.0)
+Requires-Dist: pyobjc-framework-MailKit (==8.0)
+Requires-Dist: pyobjc-framework-MapKit (==8.0)
+Requires-Dist: pyobjc-framework-MediaAccessibility (==8.0)
+Requires-Dist: pyobjc-framework-MediaLibrary (==8.0)
+Requires-Dist: pyobjc-framework-MediaPlayer (==8.0)
+Requires-Dist: pyobjc-framework-MediaToolbox (==8.0)
+Requires-Dist: pyobjc-framework-Metal (==8.0)
+Requires-Dist: pyobjc-framework-MetalKit (==8.0)
+Requires-Dist: pyobjc-framework-MetalPerformanceShaders (==8.0)
+Requires-Dist: pyobjc-framework-MetalPerformanceShadersGraph (==8.0)
+Requires-Dist: pyobjc-framework-MetricKit (==8.0)
+Requires-Dist: pyobjc-framework-MLCompute (==8.0)
+Requires-Dist: pyobjc-framework-ModelIO (==8.0)
+Requires-Dist: pyobjc-framework-MultipeerConnectivity (==8.0)
+Requires-Dist: pyobjc-framework-NaturalLanguage (==8.0)
+Requires-Dist: pyobjc-framework-NetFS (==8.0)
+Requires-Dist: pyobjc-framework-Network (==8.0)
+Requires-Dist: pyobjc-framework-NetworkExtension (==8.0)
+Requires-Dist: pyobjc-framework-NotificationCenter (==8.0)
+Requires-Dist: pyobjc-framework-OpenDirectory (==8.0)
+Requires-Dist: pyobjc-framework-OSAKit (==8.0)
+Requires-Dist: pyobjc-framework-OSLog (==8.0)
+Requires-Dist: pyobjc-framework-PassKit (==8.0)
+Requires-Dist: pyobjc-framework-PencilKit (==8.0)
+Requires-Dist: pyobjc-framework-Photos (==8.0)
+Requires-Dist: pyobjc-framework-PhotosUI (==8.0)
+Requires-Dist: pyobjc-framework-PreferencePanes (==8.0)
+Requires-Dist: pyobjc-framework-PushKit (==8.0)
+Requires-Dist: pyobjc-framework-Quartz (==8.0)
+Requires-Dist: pyobjc-framework-QuickLookThumbnailing (==8.0)
+Requires-Dist: pyobjc-framework-ReplayKit (==8.0)
+Requires-Dist: pyobjc-framework-SafariServices (==8.0)
+Requires-Dist: pyobjc-framework-SceneKit (==8.0)
+Requires-Dist: pyobjc-framework-ScreenSaver (==8.0)
+Requires-Dist: pyobjc-framework-ScreenTime (==8.0)
+Requires-Dist: pyobjc-framework-ScriptingBridge (==8.0)
+Requires-Dist: pyobjc-framework-SearchKit (==8.0)
+Requires-Dist: pyobjc-framework-Security (==8.0)
+Requires-Dist: pyobjc-framework-SecurityFoundation (==8.0)
+Requires-Dist: pyobjc-framework-SecurityInterface (==8.0)
+Requires-Dist: pyobjc-framework-ServiceManagement (==8.0)
+Requires-Dist: pyobjc-framework-ShazamKit (==8.0)
+Requires-Dist: pyobjc-framework-Social (==8.0)
+Requires-Dist: pyobjc-framework-SoundAnalysis (==8.0)
+Requires-Dist: pyobjc-framework-Speech (==8.0)
+Requires-Dist: pyobjc-framework-SpriteKit (==8.0)
+Requires-Dist: pyobjc-framework-StoreKit (==8.0)
+Requires-Dist: pyobjc-framework-SyncServices (==8.0)
+Requires-Dist: pyobjc-framework-SystemConfiguration (==8.0)
+Requires-Dist: pyobjc-framework-SystemExtensions (==8.0)
+Requires-Dist: pyobjc-framework-UniformTypeIdentifiers (==8.0)
+Requires-Dist: pyobjc-framework-UserNotifications (==8.0)
+Requires-Dist: pyobjc-framework-UserNotificationsUI (==8.0)
+Requires-Dist: pyobjc-framework-VideoSubscriberAccount (==8.0)
+Requires-Dist: pyobjc-framework-VideoToolbox (==8.0)
+Requires-Dist: pyobjc-framework-Virtualization (==8.0)
+Requires-Dist: pyobjc-framework-Vision (==8.0)
+Requires-Dist: pyobjc-framework-WebKit (==8.0)
+Requires-Dist: pyparsing (==3.0.6)
+Requires-Dist: readme-renderer (==30.0)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: tqdm (==4.62.3)
+Requires-Dist: twine (==3.6.0)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: zipp (==3.6.0)
+
+Pmdr - CLI pomodoro timer.
+
+The following command:
+
+```
+pmdr start
+```
+
+Will give you a classic Pomodoro timer with 4 Pomodoros(25min of Focus followed by a 5 min break), and after 4, you shall get a Longer break of 30min.
+
+With the following command:
+
+```cmd
+pmdr start -bs --breaks
+```
+
+You can set the number of long breaks needed to complete your tasks!
+
+The following Command:
+
+```cmd
+pmdr custom
+```
+
+Can be used to build out your own timer how you see fit.
+The following flags can be used to build your own custom pomodoro timer setup.
+
+```python
+-f --focus # Focus time, default 25min
+-s --short # Break time after every Focus time, default 5min
+-l --long # Long break, default 25min
+-bs --breaks # Number of long breaks to take, default 4
+```
+
+Pmdr also comes with a few quick timers for ease of use:
+
+```python
+pmdr hour # minute timer
+
+pmdr half # 30 minute timer
+```
+
+You can also set a custom timer with the following command:
+
+```cmd
+pmdr timer -m --minutes
+```
+
+Create your own CLI tools: [Tutorial](https://medium.com/nerd-for-tech/how-to-build-and-distribute-a-cli-tool-with-python-537ae41d9d78)
+
+

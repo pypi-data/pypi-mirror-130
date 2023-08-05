@@ -1,0 +1,11 @@
+timer.py,sha256=BnkEWbb6ZJntYJTJzb694xQCtGEPLwAAAoSkFmXCwQs,1750
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/application.py,sha256=wkGl8P2u99DVINrHNWcv8WU49OfpCDbdfYHIM8Wes0o,967
+app/timer.py,sha256=wbpMY6BSAmaaji7ieOZeZZV9hlaLTaJDIIljusu9ltQ,866
+Pmdr-0.0.5.dist-info/LICENSE,sha256=O-PUUVG3HUMuGZ0tTAhfCcKqbGJGfxbhkAdhP7NvdY4,1074
+Pmdr-0.0.5.dist-info/METADATA,sha256=t6a5CEtsjeYuHpKYz3GB23-YtwJuq7i9hG0Tcqa34qY,9711
+Pmdr-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Pmdr-0.0.5.dist-info/entry_points.txt,sha256=D1J1fY98Vh0UQ-yiV5VpDFR0L4UU_vXISM2BlnOxRwA,54
+Pmdr-0.0.5.dist-info/top_level.txt,sha256=GOB3I6nl6HojnAI4CX09YGOiHTSemFR1Lqxi6VQ_r2E,10
+Pmdr-0.0.5.dist-info/RECORD,,
