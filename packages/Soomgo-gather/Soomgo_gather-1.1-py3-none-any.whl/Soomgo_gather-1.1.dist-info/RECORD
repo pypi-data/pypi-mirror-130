@@ -1,0 +1,13 @@
+soomgogather/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+soomgogather/google/__init__.py,sha256=hGhAE36f4dvW0neCQ5HGT7j4PfxL8fyWQqNNyYk1sfQ,41
+soomgogather/google/_googleclient.py,sha256=UqQnWzpZQxFpfsdyWqSQQzLf2Oy0vMfE9vrw4nBRFy4,867
+soomgogather/google/searchconsole.py,sha256=vZcTveiP_S6Wl5_B4zlfF5DMjT9bUt5b5mxqZeOzKh0,4613
+soomgogather/naver/__init__.py,sha256=CHmj49cYIfPU7xiEwTzpHDEcqmYgjJiquXXIHtVKpJo,66
+soomgogather/naver/_searchad.py,sha256=Hz4-zqPVArD7zXSjHPZF_bfcgULP-GPdGHFfhR9zYts,1649
+soomgogather/naver/bizmoney.py,sha256=O4WW51C1_MQVvDj0bp8FrfqjDM8hNwcwkKjxfCAaKU0,3016
+soomgogather/naver/relkwdstat.py,sha256=Dkb1Ok_Ih7O1yS2VZnR4jSLhoQxNtBRowmFmA2c1VHc,2798
+Soomgo_gather-1.1.dist-info/LICENSE,sha256=rIERhyHQiTSKIw3JUb3FFuPEL29o-zROkvK3XRh4WzY,1072
+Soomgo_gather-1.1.dist-info/METADATA,sha256=S-CL6GCEwpBG9qoj2zdbad4SHZ0hsy2vIH_nKNfWdEc,4622
+Soomgo_gather-1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Soomgo_gather-1.1.dist-info/top_level.txt,sha256=svriCS6TEsVyaDc1f3WBL8hMOytz-6l0AVcMtOlBYjU,13
+Soomgo_gather-1.1.dist-info/RECORD,,

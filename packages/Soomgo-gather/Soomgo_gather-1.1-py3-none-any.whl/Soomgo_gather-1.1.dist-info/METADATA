@@ -1,0 +1,150 @@
+Metadata-Version: 2.1
+Name: Soomgo-gather
+Version: 1.1
+Summary: UNKNOWN
+Home-page: https://github.com/Soomgo-Platform/soomgo-gather
+Author: Brave Mobile Co., Ltd.
+Author-email: platform@soomgo.com
+License: MIT
+Project-URL: Changelog, https://github.com/Soomgo-Platform/soomgo-gather/blob/main/CHANGELOG
+Project-URL: Tracker, https://github.com/Soomgo-Platform/soomgo-gather/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Provides-Extra: test
+Requires-Dist: black (>=20.8b1) ; extra == 'test'
+Requires-Dist: flake8 (>=3.8.2) ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: Sphinx (>=3.2.1) ; extra == 'test'
+Requires-Dist: docutils (==0.15.2) ; extra == 'test'
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: requests-mock ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: marshmallow ; extra == 'test'
+Requires-Dist: google-api-core ; extra == 'test'
+Requires-Dist: google-api-python-client ; extra == 'test'
+
+# Soomgo-gather
+
+![Packagist License](https://img.shields.io/badge/license-MIT-green)
+![PyPI - Python Version](https://img.shields.io/badge/python->=3.6-blue)
+
+Soomgo-gather는 soomgo에서 데이터 수집을 위해 만든 외부 API 호출 통합 패키지이다.
+
+데이터 수집대상은 Naver SearchAd, Google Ads, Appsflyer 등이 포함될 예정이다.
+
+---
+
+## 패키지 구조
+
+soomgogather 밑에 데이터 제공 대상 별(Naver, Google 등) 디렉토리 존재하고
+
+데이터제공대상별 디렉토리 밑에 수집 데이터 별(Bizmoney, RelKwdStat 등) 파일 존재한다.  
+
+*Sample*
+* [soomgogather](./src/soomgogather)
+  * [Naver](./src/soomgogather/naver)
+    * [Bizmoney](./src/soomgogather/naver/bizmoney.py)
+
+
+## 지원되는 데이터
+* Naver SearchAd
+    * Bizmoney
+    * RelKwdStat
+* Google Searchconsole
+    * query
+  
+  
+## 설치 방법
+
+- 테스트 패키지 설치방법
+```bash
+pip install -e .[test]
+```
+
+## 사용 방법
+
+1. 데이터 수집이 필요한 패키지를 import 한다.
+2. 수집대상마다 요구하는 key를 셋팅하여 수집대상의 객체를 생성한다.
+3. 필요한 함수를 호출하여 수집하려는 데이터를 받아온다.
+4. 리턴된 HTTP response의 status_code를 확인하여 정상적으로 받아온 경우 response data를 사용한다.
+
+Usage:
+```python
+from soomgogather.naver import Bizmoney
+
+bizmoney = Bizmoney(api_key='_', secret_key='_', customer_id='_')
+
+r = bizmoney.exhaust(params={
+    'search_start_dt': '20211118',
+    'search_end_dt': '20211118',
+ })
+
+if r.status_code == 200:
+     print(r.json())
+```
+
+**Version**: 1.0 (2021-11-23)
+
+soomgo-gather는 `Simple Versioning <https://simver.org//>`_ 을 준수합니다.
+
+Simple Versioning 은 기본적으로 x.y 처럼 두 파트로 구성되고, 각 파트마다 아래의 규칙이 있습니다.
+
+- Major(x): 변경사항이 이전 버전과 호환되지 않는 경우.
+- Minor(y): 변경사항이 이전 버전과 호환되는 경우.
+
+* Major 가 버전업이 되면 Minor 가 0으로 초기화한다.
+
+이를 기준으로 soomgo-gather는 아래 규칙으로 버전관리를 합니다.
+
+- Major(x): 새로운 수집 대상이 추가되는 경우. (ex. Naver SearchAd, Google search console, Google Ads, Facebook Business 등 )
+- Minor(y): 기존 수집 대상의 하위 기능이 변경(추가,수정,삭제)되는 경우.
+
+------------------------------------------------
+
+Changes에는 총 5가지의 유형이 있습니다.
+
+- New: 새로운 데이터 수집 기능 릴리즈.
+- Changes: 기존에 배포된 기능의 변경.
+- Deprecations: 기존에 배포된 기능중 더 이상 지원되지 않음.
+- Doc only changes: 코드의 변경 없이 doc 만 수정.
+- Contributors: 작업 참여자.
+
+
+Version 1.1
+
+**Doc only changes**
+
+- pypi upload 변경
+
+**Contributors**
+
+- @paul880110
+
+Version 1.0
+-------------
+released: 2021-11-23
+
+**New**
+
+- Naver SearchAd - Bizmoney 배포
+- Naver SearchAd - RelKwdStat 배포
+- Google Searchconsole - query 배포
+
+**Contributors**
+
+- Paul Cho
+- Rosa Kim
+
