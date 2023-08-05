@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: blocktrace
+Version: 0.0.16
+Summary: Utility to enable blockchain verification of a program execution trace.
+Home-page: https://github.com/BigIan1969/Blocktracedev
+Author: Ian Holdsworth
+Author-email: Ian.Holdsworth@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/BigIan1969/Blocktracedev
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Blocktrace
+Utility to enable blockchain verification of a programmes execution trace.  Essentially providing a verifiable evidence chain that a method executed at a specific time and that it behaved as expected (verifiable externally and automatically)
+
+#Example
+
+An example that traces a simple fibonacci function
+
+      from blocktrace import blocktrace
+
+      #Demo Fiboncci function to trace
+      def fib(n):
+          i, f1, f2 = 1, 1, 1
+          while i < n:
+              f1, f2 = f2, f1 + f2
+              i += 1
+          return f1
+
+      #Instantiate blocktrace tracking changes on globals and builtins but tracing all local 
+      #variables regardless of changes
+      example=blocktrace.BlockTrace("Test",
+                                    _globals='changes',
+                                    _locals="on",
+                                    _builtins="changes")
+
+      #Start tracing
+      example.start()
+      
+      #Execute function you want to trace
+      fib(3)
+      
+      #Stop tracing
+      example.stop()
+      
+      #In this example we'll just print out the block chain
+      print(example.block)
+      
+#Outputs     
+***
+```
+{0: {'DateTime': '31/08/2021, 07:05:54.680035', 'Globals': {}, 'Builtins': [], 'Locals': {}, 'sample': 'Test', 'Hash': 'bc26a59b39b70b983241c2ed5e38fa424f38877d'}, 1: {'DateTime': '31/08/2021, 07:05:54.681840', 'Function': 'fib', 'Globals': {'iterable_item_added': {None: ('__name__', '__main__'), 'root[1]': ('__doc__', None), 'root[2]': ('__package__', None), 'root[3]': ('__spec__', None), 'root[4]': ('__annotations__', {}), 'root[5]': ('__file__', 'example1.py'), 'root[6]': ('__cached__', None)}}, 'Builtins': {'iterable_item_added': {'root[0]': '__name__', 'root[1]': '__doc__', 'root[2]': '__package__', 'root[3]': '__loader__', 'root[4]': '__spec__', 'root[5]': '__build_class__', 'root[6]': '__import__', 'root[7]': 'abs', 'root[8]': 'all', 'root[9]': 'any', 'root[10]': 'ascii', 'root[11]': 'bin', 'root[12]': 'breakpoint', 'root[13]': 'callable', 'root[14]': 'chr', 'root[15]': 'compile', 'root[16]': 'delattr', 'root[17]': 'dir', 'root[18]': 'divmod', 'root[19]': 'eval', 'root[20]': 'exec', 'root[21]': 'format', 'root[22]': 'getattr', 'root[23]': 'globals', 'root[24]': 'hasattr', 'root[25]': 'hash', 'root[26]': 'hex', 'root[27]': 'id', 'root[28]': 'input', 'root[29]': 'isinstance', 'root[30]': 'issubclass', 'root[31]': 'iter', 'root[32]': 'len', 'root[33]': 'locals', 'root[34]': 'max', 'root[35]': 'min', 'root[36]': 'next', 'root[37]': 'oct', 'root[38]': 'ord', 'root[39]': 'pow', 'root[40]': 'print', 'root[41]': 'repr', 'root[42]': 'round', 'root[43]': 'setattr', 'root[44]': 'sorted', 'root[45]': 'sum', 'root[46]': 'vars', 'root[47]': 'None', 'root[48]': 'Ellipsis', 'root[49]': 'NotImplemented', 'root[50]': 'False', 'root[51]': 'True', 'root[52]': 'bool', 'root[53]': 'memoryview', 'root[54]': 'bytearray', 'root[55]': 'bytes', 'root[56]': 'classmethod', 'root[57]': 'complex', 'root[58]': 'dict', 'root[59]': 'enumerate', 'root[60]': 'filter', 'root[61]': 'float', 'root[62]': 'frozenset', 'root[63]': 'property', 'root[64]': 'int', 'root[65]': 'list', 'root[66]': 'map', 'root[67]': 'object', 'root[68]': 'range', 'root[69]': 'reversed', 'root[70]': 'set', 'root[71]': 'slice', 'root[72]': 'staticmethod', 'root[73]': 'str', 'root[74]': 'super', 'root[75]': 'tuple', 'root[76]': 'type', 'root[77]': 'zip', 'root[78]': '__debug__', 'root[79]': 'BaseException', 'root[80]': 'Exception', 'root[81]': 'TypeError', 'root[82]': 'StopAsyncIteration', 'root[83]': 'StopIteration', 'root[84]': 'GeneratorExit', 'root[85]': 'SystemExit', 'root[86]': 'KeyboardInterrupt', 'root[87]': 'ImportError', 'root[88]': 'ModuleNotFoundError', 'root[89]': 'OSError', 'root[90]': 'EnvironmentError', 'root[91]': 'IOError', 'root[92]': 'EOFError', 'root[93]': 'RuntimeError', 'root[94]': 'RecursionError', 'root[95]': 'NotImplementedError', 'root[96]': 'NameError', 'root[97]': 'UnboundLocalError', 'root[98]': 'AttributeError', 'root[99]': 'SyntaxError', 'root[100]': 'IndentationError', 'root[101]': 'TabError', 'root[102]': 'LookupError', 'root[103]': 'IndexError', 'root[104]': 'KeyError', 'root[105]': 'ValueError', 'root[106]': 'UnicodeError', 'root[107]': 'UnicodeEncodeError', 'root[108]': 'UnicodeDecodeError', 'root[109]': 'UnicodeTranslateError', 'root[110]': 'AssertionError', 'root[111]': 'ArithmeticError', 'root[112]': 'FloatingPointError', 'root[113]': 'OverflowError', 'root[114]': 'ZeroDivisionError', 'root[115]': 'SystemError', 'root[116]': 'ReferenceError', 'root[117]': 'MemoryError', 'root[118]': 'BufferError', 'root[119]': 'Warning', 'root[120]': 'UserWarning', 'root[121]': 'DeprecationWarning', 'root[122]': 'PendingDeprecationWarning', 'root[123]': 'SyntaxWarning', 'root[124]': 'RuntimeWarning', 'root[125]': 'FutureWarning', 'root[126]': 'ImportWarning', 'root[127]': 'UnicodeWarning', 'root[128]': 'BytesWarning', 'root[129]': 'ResourceWarning', 'root[130]': 'ConnectionError', 'root[131]': 'BlockingIOError', 'root[132]': 'BrokenPipeError', 'root[133]': 'ChildProcessError', 'root[134]': 'ConnectionAbortedError', 'root[135]': 'ConnectionRefusedError', 'root[136]': 'ConnectionResetError', 'root[137]': 'FileExistsError', 'root[138]': 'FileNotFoundError', 'root[139]': 'IsADirectoryError', 'root[140]': 'NotADirectoryError', 'root[141]': 'InterruptedError', 'root[142]': 'PermissionError', 'root[143]': 'ProcessLookupError', 'root[144]': 'TimeoutError', 'root[145]': 'open', 'root[146]': 'quit', 'root[147]': 'exit', 'root[148]': 'copyright', 'root[149]': 'credits', 'root[150]': 'license', 'root[151]': 'help'}}, 'Locals': {'n': 3}, 'Line Text': 'def fib(n):', 'Event': 'call', 'Arg': None, 'Instruction No': -1, 'Opcode': '<0>', 'Module': 'example1.py', 'Path': '.', 'Line No': 3, 'Hash': 'c5083f03592060b395f3130320b1beadb6a8a922'}, 2: {'DateTime': '31/08/2021, 07:05:54.699280', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3}, 'Line Text': 'i, f1, f2 = 1, 1, 1', 'Event': 'line', 'Arg': None, 'Instruction No': 0, 'Opcode': 'LOAD_CONST', 'Module': 'example1.py', 'Path': '.', 'Line No': 4, 'Hash': '935ebe1823971e5bd7baf51e02148ca0769e09c3'}, 3: {'DateTime': '31/08/2021, 07:05:54.711303', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 1, 'f1': 1, 'f2': 1}, 'Line Text': 'while i < n:', 'Event': 'line', 'Arg': None, 'Instruction No': 10, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 5, 'Hash': '493f1b29d5b4d80a67e8db421022f50e1de32358'}, 4: {'DateTime': '31/08/2021, 07:05:54.722469', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 1, 'f1': 1, 'f2': 1}, 'Line Text': 'f1, f2 = f2, f1 + f2', 'Event': 'line', 'Arg': None, 'Instruction No': 18, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 6, 'Hash': 'e049cb3c00566d0cc18e346f2c43bfb1b4e39824'}, 5: {'DateTime': '31/08/2021, 07:05:54.734128', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 1, 'f1': 1, 'f2': 2}, 'Line Text': 'i += 1', 'Event': 'line', 'Arg': None, 'Instruction No': 32, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 7, 'Hash': 'abd2a0f846b4aa134364052369aa2654f4332bda'}, 6: {'DateTime': '31/08/2021, 07:05:54.745216', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 2, 'f1': 1, 'f2': 2}, 'Line Text': 'while i < n:', 'Event': 'line', 'Arg': None, 'Instruction No': 10, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 5, 'Hash': 'bb949dbab43991da06f937bcf89d5fdfbcc4c0c5'}, 7: {'DateTime': '31/08/2021, 07:05:54.756941', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 2, 'f1': 1, 'f2': 2}, 'Line Text': 'f1, f2 = f2, f1 + f2', 'Event': 'line', 'Arg': None, 'Instruction No': 18, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 6, 'Hash': 'dea66e1dec1745675d26a6ccc9e818eb9e5bb94a'}, 8: {'DateTime': '31/08/2021, 07:05:54.767754', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 2, 'f1': 2, 'f2': 3}, 'Line Text': 'i += 1', 'Event': 'line', 'Arg': None, 'Instruction No': 32, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 7, 'Hash': '4b8e3818aeedc27ee3977e6057c5c724353f1eb8'}, 9: {'DateTime': '31/08/2021, 07:05:54.778583', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 3, 'f1': 2, 'f2': 3}, 'Line Text': 'while i < n:', 'Event': 'line', 'Arg': None, 'Instruction No': 10, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 5, 'Hash': 'e3c3a05b3e8128407852d3c348282d4a4df8c850'}, 10: {'DateTime': '31/08/2021, 07:05:54.789347', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 3, 'f1': 2, 'f2': 3}, 'Line Text': 'return f1', 'Event': 'line', 'Arg': None, 'Instruction No': 42, 'Opcode': 'LOAD_FAST', 'Module': 'example1.py', 'Path': '.', 'Line No': 8, 'Hash': '3aaf48c3ff543ed5210beb0b7e23ede05b27b139'}, 11: {'DateTime': '31/08/2021, 07:05:54.799750', 'Function': 'fib', 'Globals': {}, 'Builtins': {}, 'Locals': {'n': 3, 'i': 3, 'f1': 2, 'f2': 3}, 'Line Text': 'return f1', 'Event': 'return', 'Arg': 2, 'Instruction No': 44, 'Opcode': 'RETURN_VALUE', 'Module': 'example1.py', 'Path': '.', 'Line No': 8, 'Hash': '76552fa84e8b18fe3f917a6716fe19402dacece0'}}
+```
+
+
