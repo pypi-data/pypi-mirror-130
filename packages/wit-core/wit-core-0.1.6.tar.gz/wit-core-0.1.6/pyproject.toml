@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "wit-core"
+version = "0.1.6"
+description = "Response processor for wit.ai"
+authors = ["Lucas Oliveira <ls.oliveiras.santos@gmail.com>"]
+repository = "https://github.com/LucasOliveiraS/wit-core"
+documentation = "https://github.com/LucasOliveiraS/wit-core"
+classifiers = ["Programming Language :: Python :: 3", "License :: OSI Approved :: MIT License","Operating System :: OS Independent",]
+keywords = ["bot", "bots", "botkit", "wit", "wit-ai", "wit-core", "conversational-ai", "chatbot", "chatbot-framework", "bot-framework",]
+readme = "README.md"
+license = "MIT"
+include = ["LICENSE", "README.md"]
+
+[tool.poetry.dependencies]
+python = ">3.6.1,<4"
+pampy = "^0.3.0"
+PyYAML = "^5.4.1"
+click = "^7.1.2"
+wit = "^6.0.0"
+python-dotenv = "^0.17.0"
+fastapi = "^0.63.0"
+uvicorn = "^0.13.4"
+loguru = "^0.5.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.3"
+mypy = "^0.812"
+pytest-mock = "^3.5.1"
+flake8 = "^3.9.0"
+pre-commit = "^2.12.0"
+autopep8 = "^1.5.6"
+pytest-cov = "^2.11.1"
+
+[tool.poetry.scripts]
+wit-core = 'wit_core.cli.cli:main'
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
