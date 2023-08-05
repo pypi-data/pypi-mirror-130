@@ -1,0 +1,2 @@
+include sage_painless/templates/*.jinja
+include README.md
