@@ -1,0 +1,4 @@
+[munibot_profiles]
+cat = munibot_es.profiles.cat:MuniBotCat
+es = munibot_es.profiles.es:MuniBotEs
+
