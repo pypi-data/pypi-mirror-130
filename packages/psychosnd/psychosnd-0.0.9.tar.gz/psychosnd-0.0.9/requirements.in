@@ -1,0 +1,6 @@
+# requirements.in
+numpy
+scipy
+matplotlib
+
+prespy>=0.0.11

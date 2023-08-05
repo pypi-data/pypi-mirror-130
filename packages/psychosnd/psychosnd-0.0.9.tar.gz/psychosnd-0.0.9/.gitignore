@@ -1,0 +1,9 @@
+*.log
+*.m
+*.pyc
+*.swp
+dist/
+*.egg-info/
+venv/
+build/
+data
