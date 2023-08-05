@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+modulesbuilder/__init__.py
+modulesbuilder/build.py
+modulesbuilder/module.py
+modulesbuilder/modules.py
+modulesbuilder.egg-info/PKG-INFO
+modulesbuilder.egg-info/SOURCES.txt
+modulesbuilder.egg-info/dependency_links.txt
+modulesbuilder.egg-info/requires.txt
+modulesbuilder.egg-info/top_level.txt
