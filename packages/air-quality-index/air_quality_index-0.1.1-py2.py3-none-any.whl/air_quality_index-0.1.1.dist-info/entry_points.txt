@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        airqualityindex=air_quality_index.cli:cmd
+    
