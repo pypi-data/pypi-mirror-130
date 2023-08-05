@@ -1,0 +1,52 @@
+Metadata-Version: 1.1
+Name: mypackage-da-dec21
+Version: 0.0.1
+Summary: An example package
+Home-page: https://github.com/dilip-albert-datascientist/mypackage_da_dec21
+Author: Dilip Albert
+Author-email: dilip_albert_datascientist@outlook.com
+License: MIT
+Description: mypackage_da_dec21
+        ==================
+        
+        .. image:: https://img.shields.io/pypi/v/mypackage_da_dec21.svg
+            :target: https://pypi.python.org/pypi/mypackage_da_dec21
+            :alt: Latest PyPI version
+        
+        .. image:: https://travis-ci.org/dilip-albert-datascientist/mypackage_da_dec21.png
+           :target: https://travis-ci.org/dilip-albert-datascientist/mypackage_da_dec21
+           :alt: Latest Travis CI build status
+        
+        An example package
+        
+        Usage
+        -----
+        
+        Installation
+        ------------
+        
+        Requirements
+        ^^^^^^^^^^^^
+        
+        Compatibility
+        -------------
+        
+        Licence
+        -------
+        
+        Authors
+        -------
+        
+        `mypackage_da_dec21` was written by `Dilip Albert <dilip_albert_datascientist@outlook.com>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

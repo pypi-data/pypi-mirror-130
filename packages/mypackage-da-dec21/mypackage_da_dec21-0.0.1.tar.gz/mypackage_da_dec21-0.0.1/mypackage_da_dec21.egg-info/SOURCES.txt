@@ -1,0 +1,8 @@
+README.rst
+setup.py
+mypackage_da_dec21/__init__.py
+mypackage_da_dec21/core.py
+mypackage_da_dec21.egg-info/PKG-INFO
+mypackage_da_dec21.egg-info/SOURCES.txt
+mypackage_da_dec21.egg-info/dependency_links.txt
+mypackage_da_dec21.egg-info/top_level.txt
