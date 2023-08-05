@@ -1,0 +1,9 @@
+crypto_pair/__init__.py,sha256=X9pCtZ4NIGWpMU8EMESFpQvXyLrN79aMZkb5w06Ar28,1281
+crypto_pair/_lowlevel.py,sha256=_DDasmyhlfF5ZAC_XxZitNJ4JFIVq_WHufahFc7JkLw,193
+crypto_pair/_lowlevel__ffi.py,sha256=ZDMcBKpYJiwHsvxk6BHdB60q3nkKMtFAyVWFIKDW6C8,1137
+crypto_pair/_lowlevel__lib.so,sha256=3qmIsDGU2GzFrVBRqjGvxHXUcaI863xGGWZa9eAaZyQ,3858208
+crypto_pair-2.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+crypto_pair-2.1.0.dist-info/METADATA,sha256=tPQ-AugugMaT7JiHMSrXZ4CCCR4DZHh15mQ_SZvSdm4,1641
+crypto_pair-2.1.0.dist-info/WHEEL,sha256=brB28wOt0WY1FerA5c6h-thuOoBeMSKzXvM2PF8DTQo,108
+crypto_pair-2.1.0.dist-info/top_level.txt,sha256=SnZoYWRE6s7K754k6l_PN4PoagjwQnWuDR_DLe49l2o,12
+crypto_pair-2.1.0.dist-info/RECORD,,
