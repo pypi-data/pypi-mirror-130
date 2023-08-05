@@ -1,0 +1,16 @@
+aiohttp>3.4
+graphql-core>3.0
+
+[dev]
+black==19.10b0
+isort>5.0
+pytest-cov
+pytest-mypy
+pytest-flake8
+pytest-black
+pytest-asyncio
+flake8-isort
+sphinx-rtd-theme-github-versions
+
+[include_package_data]
+False
