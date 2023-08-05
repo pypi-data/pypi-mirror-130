@@ -1,0 +1,13 @@
+autocrop/__init__.py,sha256=agNYrjPw3Aio6niHAy6y9hUC5ZOKTI9aSs9ucrM8CtA,892
+autocrop/__version__.py,sha256=Qud4nVFU1smHi5SnIBLFeqKxj6L-v4g7Vdwjnps27Eg,149
+autocrop/autocrop.py,sha256=QT-hjZaL6Urki0laPwF21Ar5H8CkoZw1EWbCF83EJ-w,9666
+autocrop/cli.py,sha256=yHWfYJlXVleulfBX8MMQCyJCDEdYo6Mm52pmMwPsWkM,9024
+autocrop/constants.py,sha256=eSnaCON1apTXOYFzyV_oDyNDcxQGBfAAh6ckJrDNUmY,718
+autocrop/haarcascade_frontalface_default.xml,sha256=D31FJ4ROtRTUpJSOgi2pD7sWo0oLu7xq3GSYdHpar7A,930127
+autocrop-1.2.0.dist-info/LICENSE,sha256=QyGpLnwO3X2Vp7Q3RJEdpZp5Wru_kYh8sUseRainA8M,1326
+autocrop-1.2.0.dist-info/LICENSE-3RD-PARTY.txt,sha256=ASOHdb1kCQfSVwEl-7F3POQjZOEYXmm9eLTEHI55XrU,29170
+autocrop-1.2.0.dist-info/METADATA,sha256=53w4LkFP_a428n4Mk-wI0-wGbvLoC9EnQKYHfi7M4VQ,7062
+autocrop-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+autocrop-1.2.0.dist-info/entry_points.txt,sha256=rRRDz1iowd1bMIrcn64mBmwujGFgwi-zJw01VD4HDjA,62
+autocrop-1.2.0.dist-info/top_level.txt,sha256=qg24YLA2v7T-oYObxGPw-K-5wmUwN9q0l5337SSLoZU,9
+autocrop-1.2.0.dist-info/RECORD,,
