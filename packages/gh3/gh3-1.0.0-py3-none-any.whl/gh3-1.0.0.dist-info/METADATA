@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gh3
+Version: 1.0.0
+Summary: GH3 Python WSGI nano framework.
+Author-email: Ali Afshar <aafshar@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Dist: werkzeug==2.0.2
+Requires-Dist: logbook==1.5.3
+Project-URL: Home, https://gitlab.com/afshar-oss/gh3
+
+
+# gh3 Python WSGI nanoframework
+
