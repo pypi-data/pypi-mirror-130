@@ -1,0 +1,7 @@
+
+        [ckan.plugins]
+        clamav=ckanext.clamav.plugin:ClamavPlugin
+
+        [babel.extractors]
+        ckan = ckan.lib.extract:extract_ckan
+    
