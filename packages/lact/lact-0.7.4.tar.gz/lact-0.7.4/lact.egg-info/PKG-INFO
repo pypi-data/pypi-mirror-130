@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lact
+Version: 0.7.4
+Summary: free automation testing tool powered by python
+Home-page: UNKNOWN
+Author: Linty Liu Tingli
+Author-email: liu.tingli@outlook.com
+License: GNU GPLv3
+Description: # lact 
+        Layered Automation Configurable Testing Tools
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Description-Content-Type: text/markdown
