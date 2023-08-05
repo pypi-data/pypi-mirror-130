@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   viewBox="0 0 512 512"
+   style="enable-background:new 0 0 512 512;"
+   xml:space="preserve"
+   sodipodi:docname="unlock.svg"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)"><metadata
+   id="metadata11"><rdf:RDF><cc:Work
+       rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+   id="defs9" /><sodipodi:namedview
+   pagecolor="#ffffff"
+   bordercolor="#666666"
+   borderopacity="1"
+   objecttolerance="10"
+   gridtolerance="10"
+   guidetolerance="10"
+   inkscape:pageopacity="0"
+   inkscape:pageshadow="2"
+   inkscape:window-width="1360"
+   inkscape:window-height="716"
+   id="namedview7"
+   showgrid="false"
+   inkscape:zoom="1.1035156"
+   inkscape:cx="256"
+   inkscape:cy="308.62901"
+   inkscape:window-x="0"
+   inkscape:window-y="31"
+   inkscape:window-maximized="1"
+   inkscape:current-layer="XMLID_1_"
+   inkscape:document-rotation="0" />
+<style
+   type="text/css"
+   id="style2">
+	.st0{fill:#333333;}
+</style>
+<g
+   id="XMLID_1_"
+   style="fill:#404040">
+	<path
+   id="XMLID_5_"
+   class="st0"
+   d="M 378.688,284.2 H 182.368 V 172.44 c 0,-34 33.216,-61.68 74.016,-61.68 40.8,0 74.016,27.68 74.016,61.68 v 28.16 h 49.056 v -28.8 c 0,-56.64 -55.104,-102.56 -123.072,-102.56 -67.968,0 -123.072,45.92 -123.072,102.56 v 111.76 c -27.168,0 -49.056,18.24 -49.056,40.88 v 107.44 c 0,22.64 21.888,40.88 49.056,40.88 h 245.376 c 27.168,0 49.056,-18.24 49.056,-40.88 v -106.8 c 0,-22.64 -22.656,-40.88 -49.056,-40.88 z"
+   style="fill:#bfbfbf;stroke-width:0.876356"
+   sodipodi:nodetypes="scsssccssscsssssss" />
+</g>
+</svg>

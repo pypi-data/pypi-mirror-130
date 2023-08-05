@@ -1,0 +1,87 @@
+<!--LOGO BANNER-->
+
+# PrimeNote
+PrimeNote is an intuitive **sticky** note-taking application for Linux and Windows. It is the achievement of over four years of continuous development. PrimeNote allows the user to effectively display, store and organize an infinite number of notes. It supports various operation modes, such as `plain text`, `rich text`, `image`, `vim` or `console` (terminal emulator). It is well structured and fully featured, including;
+
+- **Always on top** notes, without cluttering the taksbar
+- **Druide Antidote** grammar tools built-in support (v9 and 10)
+- **Smart formatting**, using 'enhanced plain text' where the input is standardized, yet allows basic text decorations
+- **Cross-platform compatibility**, with official support for Linux and Windows 7-10
+- **Neat organization**, with all data stored by folder structure using human-friendly formats
+- **Quick search** built-in keyboard-driven tool to browse among note titles and content
+- **Special paste** feature to quickly copy text from PDF documents
+- **Images support**, with basic viewing features
+- **Fully customizable** appearance, menus, hotkeys and mouse events
+- **Save and backup** automated systems
+- **Cloud & virtual machine support**, edit a shared note repository in real-time
+- **Command-line interface** access to all notes (see `pnote -h`)
+
+Its open source software is licensed under GPLv3.
+
+<br/>
+
+# Getting Started — Installation
+## MS Windows
+- For Windows 7 and above, download and execute the [NSIS installer](https://gitlab.com/william.belanger/primenote/-/raw/storage/primenote-1.0.exe?inline=false)
+
+## Arch Linux
+- Install `primenote-git` from the AUR
+- Install `vim` and `qtermwidget` community packages (optional)
+
+## Debian
+**PyPi package**
+```
+sudo apt-get update
+sudo apt-get install python3 python3-pip python3-setuptools
+sudo pip3 install primenote
+```
+
+**Vim and Console modes support**
+- Install QTermWidget with PyQt bindings `QTERMWIDGET_BUILD_PYTHON_BINDING=ON`
+- Install `vim-gtk` with client-server mode enabled
+
+<br/>
+
+# Advanced Features
+## Customizable window styles and palettes
+- All notes widgets are decorated using CSS files;
+  - `ui/global.css` is the default style layer, it handles the shape of widgets
+  - `ui/styles/*` overrides and extend `global.css` attributes
+  - `ui/palettes/*` handles widgets and icons color schemes
+- PrimeNote also adds its own CSS selector to further enhanced customization, with respect of CSS syntax
+- All user-editable files are accessible via Settings > Advanced > Configuration files
+- For more details, see [Qt Style Sheets Reference](https://doc.qt.io/qt-5/stylesheet-reference.html)
+
+## Console mode (experimental)
+- In this mode, the text box is replaced with a native terminal emulator
+- When a [shebang](https://en.wikipedia.org/wiki/Shebang_(Unix)) is found, the file content is automatically executed in the terminal
+- More QTermWidget color schemes can be added into `ui/terminal`
+- For more details, see [QTermWidget GitHub Project page](https://github.com/lxqt/qtermwidget)
+
+## Vim mode
+- Provides a fully featured Vim instance in every note
+- System-independent `vimrc` file and theme files
+- Two-way communication between Vim servers and PrimeNote command-line interface
+- Default settings allow for a nearly seamless experience between editing modes
+
+## Cloud & Virtual machine support
+PrimeNote can be used simultaneously across two operating systems, or onto a cloud drive.<br/>To share a note repository in real time, follow these simple steps;
+
+**Cloud storage**
+- Open a PrimeNote instance and go to `Settings > Advanced > Notes repository`
+- Select a cloud drive as the note repository (ie. [rclone](https://rclone.org/))
+- Save changes and restart PrimeNote
+
+**Virtual machine**
+- Create a shortcut to the host notes repository
+- Place this shortcut into a folder shared with the client machine
+- On the client side, open a PrimeNote instance and go to `Settings > Advanced > Notes repository`
+- Select the exposed shortcut and save changes
+- Restart PrimeNote
+
+<br/>
+
+# Contribution
+Help from graphic artists is much needed, for a logo, a banner and a corresponding application icon.
+<br/>Python developers are more than welcome to provide some unit tests.
+<br/>You can also [buy me a drink](https://www.paypal.com/donate?hosted_button_id=7UTK3HPH6Q5DG) !
