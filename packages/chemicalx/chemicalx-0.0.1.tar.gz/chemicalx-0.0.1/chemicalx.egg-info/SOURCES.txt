@@ -1,0 +1,7 @@
+README.md
+setup.py
+chemicalx/__init__.py
+chemicalx.egg-info/PKG-INFO
+chemicalx.egg-info/SOURCES.txt
+chemicalx.egg-info/dependency_links.txt
+chemicalx.egg-info/top_level.txt
