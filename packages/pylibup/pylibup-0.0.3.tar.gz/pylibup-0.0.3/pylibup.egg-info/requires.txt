@@ -1,0 +1,7 @@
+typer
+PyGithub
+GitPython
+Jinja2
+pyyaml
+pylogz
+requests
