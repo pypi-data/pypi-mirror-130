@@ -1,0 +1,3 @@
+[distutils.setup_keywords]
+cythonpackage = cythonpackage:cythonpackage
+

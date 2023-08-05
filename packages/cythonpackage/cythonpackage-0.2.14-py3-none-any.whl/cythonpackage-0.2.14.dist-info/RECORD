@@ -1,0 +1,11 @@
+cythonpackage/__init__.py,sha256=RrIXjM4rjo3erpo2Fb7R7r7iHe8c-d8JlVdLdhm_BFs,860
+cythonpackage/build.py,sha256=1m8dvccI6xjluu1yzmlGLHVV5vHvuj9rYGaRfl--6w4,7412
+cythonpackage/init.py,sha256=7o15UEZtaiGlFIAKcYDYh32xmPLnCcR00dfukFuYuN4,3063
+cythonpackage/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cythonpackage-0.2.14.dist-info/AUTHORS,sha256=aLvQHBbJVYlRagcpIzYfoW2laiS46nYA5pPihu7fmxU,35
+cythonpackage-0.2.14.dist-info/METADATA,sha256=3vVrl_-mc5xi5zCuURmcPLUBudtwWrN0CWoK-C4_UNA,1587
+cythonpackage-0.2.14.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cythonpackage-0.2.14.dist-info/entry_points.txt,sha256=yle1tjijFfVoLym6ZJO285MXdx3jPXGpRYYVeyOjjGg,72
+cythonpackage-0.2.14.dist-info/top_level.txt,sha256=PadOaHFfXs95Z1HA7l-OKHrJWGngEca5rMlTqElxl5Q,14
+cythonpackage-0.2.14.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cythonpackage-0.2.14.dist-info/RECORD,,
