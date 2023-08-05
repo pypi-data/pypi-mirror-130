@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+games/__init__.py
+games/guess.py
+games/rps.py
+python_games.egg-info/PKG-INFO
+python_games.egg-info/SOURCES.txt
+python_games.egg-info/dependency_links.txt
+python_games.egg-info/top_level.txt
