@@ -1,0 +1,15 @@
+README.md
+setup.py
+gpt_j/Basic_api.py
+gpt_j/Gptj.py
+gpt_j/ImaginaryFriend.py
+gpt_j/Text2TextGen.py
+gpt_j/__init__.py
+gpt_j/gptj_api.py
+gpt_j/security.py
+gpt_j/test.py
+gptj.egg-info/PKG-INFO
+gptj.egg-info/SOURCES.txt
+gptj.egg-info/dependency_links.txt
+gptj.egg-info/requires.txt
+gptj.egg-info/top_level.txt
