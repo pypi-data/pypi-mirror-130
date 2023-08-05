@@ -1,0 +1,93 @@
+Metadata-Version: 2.1
+Name: codescan
+Version: 0.2.0
+Summary: Scans the code for security leaks
+Home-page: https://github.com/atparinas/codescan
+Author: Andy Parinas
+Author-email: andy.parinas@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# Codescan
+
+Codescan is a Python utility for checking codes for possible security credentials leaks that might be committed into a repository. 
+
+As best practice, developer should not commit any credentials to a git repository be it private or public. There are instances during the course of development, that a credentials is hard coded into the codes either for quick testing or troubleshooting.
+
+Executing codescan before pushing into the remote repository will enable us to check if there are any hardcoded security leaks in the code so we can make the necessary adjustments.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install codescan.
+
+```bash
+pip install codescan
+```
+or
+```bash
+pip3 install codescan
+```
+
+## Usage
+Codescan uses python3. In some environments, the python command already links to python3. you can check your version of python by:
+```bash
+python --version
+
+---- Output ----
+Python 3.x.y
+```
+
+If your output is _Python 2.x.y_, use the python3 command to execute the codescan module.
+
+
+Scan the current directory that is git initialized.
+```bash
+python -m codescan
+
+python3 -m codescan
+```
+
+By default codescan checks the current working directory and look into the "git status" results for staged files. The staged files will then be scan for possible credential leaks.
+
+To do a full scan specify a -f flag and -i [ignore file] option
+```bash
+python -m codescan -f -i .gitignore
+
+python3 -m codescan -f -i .gitignore
+```
+The full scan will go through all the files in the current directory and checks for security leaks. an ignore file needs to be specify for codescan to skip scanning 3rd party directory such as vendor or node_modules. The .gitignore file can be used or a separate ignore file can be specified.
+
+
+### Git Integration
+
+To integrate codescan to every git commits. We can take advantage of the **git hooks**
+
+Create a ***pre-commit*** file under ***.git/hooks*** inside your code directory and put the following code:
+
+```bash
+#/bin/bash
+
+python3 -m codescan
+
+```
+
+Make the file executable
+
+```bash
+chmod +x .git/hooks/pre-commit
+
+```
+
+This will script will execute every after ***git commit*** command. Will then show if there any security leaks in the commited codes and give you time to correct before pushing to the repository.
+
+
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
+
