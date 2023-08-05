@@ -1,0 +1,8 @@
+setup.py
+total_calculator/__init__.py
+total_calculator/main.py
+total_calculator.egg-info/PKG-INFO
+total_calculator.egg-info/SOURCES.txt
+total_calculator.egg-info/dependency_links.txt
+total_calculator.egg-info/not-zip-safe
+total_calculator.egg-info/top_level.txt
