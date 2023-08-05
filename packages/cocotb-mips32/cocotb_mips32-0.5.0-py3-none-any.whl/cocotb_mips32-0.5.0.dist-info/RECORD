@@ -1,0 +1,11 @@
+cocotb_mips32/__init__.py,sha256=dLEmfkbvzt191m4aWJCdvt0l-p0EvlLuqvayTWu6SCk,47
+cocotb_mips32/cli.py,sha256=c7EhQdKt8cQNfoxrwwuHSa7C6JG74WURDP-jBBiHGeM,3734
+cocotb_mips32/processor_test.py,sha256=oJE6f0dM0GkxCN5UldfDkwIiS2WmK-2RZOQ6I7SnmW0,6415
+cocotb_mips32/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cocotb_mips32/utils/compiling.py,sha256=ZLs6Eng6V43LNQixVAmCooomIIkf8Lrg7g9CDg4blHg,4456
+cocotb_mips32-0.5.0.dist-info/LICENSE,sha256=oNL239OYWFFXLEfQuyXncZtz5yoWy0bcRWwNK_w0jXQ,1072
+cocotb_mips32-0.5.0.dist-info/METADATA,sha256=L-tx7197Lm4CDSPTu_A72fm77hXGCWQiNelRB4gzYk4,298
+cocotb_mips32-0.5.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cocotb_mips32-0.5.0.dist-info/entry_points.txt,sha256=7SEh_RG_43e6PQk-zXi2xg8d1rItQIFRWDkxMb9uC-I,58
+cocotb_mips32-0.5.0.dist-info/top_level.txt,sha256=EA5xdTYw4Pttsjt_EQsK72bmxn_WnlUskCcLdfPkWGQ,14
+cocotb_mips32-0.5.0.dist-info/RECORD,,
