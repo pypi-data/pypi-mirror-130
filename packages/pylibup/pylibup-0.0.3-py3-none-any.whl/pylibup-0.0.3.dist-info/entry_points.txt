@@ -1,0 +1,4 @@
+[console_scripts]
+pylib = pylibup.cli:baseCli
+pylibup = pylibup.cli:baseCli
+
