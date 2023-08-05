@@ -1,0 +1,14 @@
+LICENSE,sha256=qIwWjdspQeSMTtnFZBC8MuT-95L02FPvzRUdWFxrwJY,1067
+code_loader/__init__.py,sha256=0HSW4rQuUNhIdm-mNIa0MNLERoXwEF-hhyl_nAnd4fg,131
+code_loader/contract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_loader/contract/datasetclasses.py,sha256=KZOjlwTzn19lUC3TWmXwoFW4mUXAphTQyfw3O9zNAwk,1546
+code_loader/contract/enums.py,sha256=h7mtJWX3XoJ1vP0ysOxiqnYP-oF4POP0ofe7dzP3qe4,759
+code_loader/contract/responsedataclasses.py,sha256=l2MhEES-9AYxCscLKB5VHVMXZHo5Tjvh5tU2qZZIIyU,1371
+code_loader/dataset_binder/__init__.py,sha256=UkWUHQGmgayHzfQW9DBdojmdjxeV6PBX6_Zi-RyYaZc,108
+code_loader/dataset_binder/datasetbinder.py,sha256=nRXtE7XJYNboFL6w15LRjJU_b-LH0uZRF1Z0XimSAdc,1769
+code_loader/datasetloader.py,sha256=aYxFFaGZamkMaMgIsnCpyIPMEwKx0RPB_ZffLobyPL8,9219
+code_loader/utils.py,sha256=bKfG2Tol4cCBSdv_Im3WX3Oe3NERZ3KIyL3u-K8PwZQ,1251
+code_loader-0.1.10.dist-info/LICENSE,sha256=qIwWjdspQeSMTtnFZBC8MuT-95L02FPvzRUdWFxrwJY,1067
+code_loader-0.1.10.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+code_loader-0.1.10.dist-info/METADATA,sha256=zpko2gCN5jreEa6mIlG4NJTptFwXyS7Qc6bLigWywAg,964
+code_loader-0.1.10.dist-info/RECORD,,
