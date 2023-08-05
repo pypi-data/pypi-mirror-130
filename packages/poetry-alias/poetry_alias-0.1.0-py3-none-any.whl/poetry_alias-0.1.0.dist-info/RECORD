@@ -1,0 +1,16 @@
+poetry_alias/__init__.py,sha256=Y3fH5nH30pkzsZXM1aGGrFSvgHc3SNRtjpPm8N6-9T0,82
+poetry_alias/commands.py,sha256=Gxc5bhu3N06i_3Ir4sLRXbcWJ5bdenu-Wwq383n-PyY,5235
+poetry_alias/exceptions.py,sha256=vdRClGiJwjvm_IcstEtnDwlTQIwdnnB1g9G1EyqXRSw,1009
+poetry_alias/manager.py,sha256=buOX_IhpZRlW3vWLftvMfQR8p5IxU97kilobTa8sPOY,5378
+poetry_alias/plugin.py,sha256=R8vtftDxr8ZsCiKLRXN3KHG6ywj8JksO6FcleVZetC8,1357
+poetry_alias/tests/__init__.py,sha256=OjTaXV3fg46UsUdI96wFXv-tpAA_2PrbjI7R2dIkVS4,61
+poetry_alias/tests/conftest.py,sha256=OIwTRJIgL4WyZOFQPrEfv2HVue24vBZh5W4Su-qkuac,761
+poetry_alias/tests/test_commands.py,sha256=bYzK1sV7y-iL9gxjt5bCUCnPVvp6gspmDmbZYsfoUhw,5524
+poetry_alias/tests/test_exceptions.py,sha256=_weR932hbW_goMIeV_7ZMEGlgE9D6bvQJ9fmU_2HWCg,1379
+poetry_alias/tests/test_manager.py,sha256=STGkanvG03m-3PvVvSqliD-8XzGcI5asjz7MXv7F2Vw,6595
+poetry_alias/tests/test_plugin.py,sha256=y-wCsbLfX0uLHyQZA_6WfLxTfPbUa_L08L7sedNFVtw,1308
+poetry_alias-0.1.0.dist-info/entry_points.txt,sha256=mUi5S6zwXn2MGXs7sOWN0LMYIMfG-EJOaspuDerj5os,60
+poetry_alias-0.1.0.dist-info/LICENSE,sha256=uUV77l9BWJ73ozSJFRGjNlr44gI0Z5jN_xALn-Ca2mA,1071
+poetry_alias-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+poetry_alias-0.1.0.dist-info/METADATA,sha256=3Z-G9Bx2ysyBt8CZEX6JU1MlVem1lHtmRtu5hfk2G1g,2637
+poetry_alias-0.1.0.dist-info/RECORD,,
