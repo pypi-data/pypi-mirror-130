@@ -1,0 +1,14 @@
+README.md
+setup.py
+pat_match_bs_bwt.egg-info/PKG-INFO
+pat_match_bs_bwt.egg-info/SOURCES.txt
+pat_match_bs_bwt.egg-info/dependency_links.txt
+pat_match_bs_bwt.egg-info/entry_points.txt
+pat_match_bs_bwt.egg-info/not-zip-safe
+pat_match_bs_bwt.egg-info/requires.txt
+pat_match_bs_bwt.egg-info/top_level.txt
+scripts/__init__.py
+scripts/search_bs.py
+scripts/search_bw.py
+scripts/suffix_array.py
+scripts/utils.py

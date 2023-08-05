@@ -1,0 +1,4 @@
+[console_scripts]
+search-bs = scripts.search_bs:main
+search-bw = scripts.search_bw:main
+
