@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+air_quality_index/__init__.py
+air_quality_index/cli.py
+air_quality_index.egg-info/PKG-INFO
+air_quality_index.egg-info/SOURCES.txt
+air_quality_index.egg-info/dependency_links.txt
+air_quality_index.egg-info/entry_points.txt
+air_quality_index.egg-info/requires.txt
+air_quality_index.egg-info/top_level.txt
