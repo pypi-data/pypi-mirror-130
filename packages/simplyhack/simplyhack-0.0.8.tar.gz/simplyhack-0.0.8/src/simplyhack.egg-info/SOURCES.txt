@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/simplyhack.py
+src/simplyhack.egg-info/PKG-INFO
+src/simplyhack.egg-info/SOURCES.txt
+src/simplyhack.egg-info/dependency_links.txt
+src/simplyhack.egg-info/requires.txt
+src/simplyhack.egg-info/top_level.txt
