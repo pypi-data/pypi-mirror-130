@@ -1,0 +1,14 @@
+gtdb2td/Dmp.py,sha256=RQuc0j7shdOrg6n8dU3fmy7uIcU_vOa8SoQTcFV9MDI,3364
+gtdb2td/Graph.py,sha256=N0JZQX_HDB8k36kvMqu8K1NI2s0OvGGpZ9equqexmWw,8437
+gtdb2td/IO.py,sha256=7SpPK-dg3lBCzthdaiD8Q6KsM-bxSm68Pb_qCxyhAo0,1830
+gtdb2td/Utils.py,sha256=Jy2m7AACEuj8Q3faPqD_KL12tuRkA8N2mkqJP-0J380,889
+gtdb2td/__init__.py,sha256=MFPIg11_J1qP3BY_XdsLbxsjNmI5__DkElgWW6LFqb8,168
+gtdb_to_taxdump-0.1.7.data/scripts/gtdb_to_diamond.py,sha256=jWp4sX1oxqyq54TbWBZc7hMzv4Tfw_IVCJYCSU5AFss,5290
+gtdb_to_taxdump-0.1.7.data/scripts/gtdb_to_taxdump.py,sha256=XDcVHqaeNHE8Z41SBfjYmGTr4wrL0CGWfzWewgm59Ko,4684
+gtdb_to_taxdump-0.1.7.data/scripts/lineage2taxid.py,sha256=-hYvmdWWjlCpqCogNGHf7QY2Iq6L-sgWkz43hXwpCuM,4950
+gtdb_to_taxdump-0.1.7.data/scripts/ncbi-gtdb_map.py,sha256=C03txgF1CRrtvWdnY374S9ZUuS2Wl5fbUdUCxt9kGNw,25023
+gtdb_to_taxdump-0.1.7.dist-info/LICENSE,sha256=tSAbmFP3cmo-fK8gM6-Q_5Rr3iHnIJtDweGbhYL0LBA,1071
+gtdb_to_taxdump-0.1.7.dist-info/METADATA,sha256=yPja69mP65pByms-omrAvFFFQGwb9EiofHHu03m4Z00,366
+gtdb_to_taxdump-0.1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gtdb_to_taxdump-0.1.7.dist-info/top_level.txt,sha256=nl3qzgRv8m03ua7zuaTWO8m8bL0ma3BlR_j7I8rrhp8,8
+gtdb_to_taxdump-0.1.7.dist-info/RECORD,,
