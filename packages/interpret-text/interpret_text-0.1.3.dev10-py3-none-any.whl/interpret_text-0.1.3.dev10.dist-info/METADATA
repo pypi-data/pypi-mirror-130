@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: interpret-text
+Version: 0.1.3.dev10
+Summary: Microsoft Interpret Text SDK for Python
+Home-page: https://github.com/interpretml/interpret-text
+Author: Microsoft Corp
+Author-email: ilmat@microsoft.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pydantic
+Requires-Dist: spacy
+Requires-Dist: ipywidgets
+Requires-Dist: transformers (==2.4.1)
+Requires-Dist: scipy
+Requires-Dist: scikit-learn
+Requires-Dist: tqdm
+Requires-Dist: torch
+Requires-Dist: pytorch-pretrained-bert
+Requires-Dist: cached-property
+Requires-Dist: interpret-community
+Requires-Dist: shap (<=0.29.3,>=0.20.0)
+
+UNKNOWN
+
