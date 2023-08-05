@@ -1,0 +1,9 @@
+csimdjson.cp310-win_amd64.pyd,sha256=So5e5Z6_tCm_o3lt6ud3Ny4MHAqEA6CipG5SUU3ccag,467968
+simdjson/__init__.py,sha256=4YQSHvrXhG_SIHLOp34S02rfv-23i9cD5t0jvU3Jjds,1551
+simdjson/__init__.pyi,sha256=x-m572jpVSeDT86OGkcuW5JmQrWVEfg5owFKz-G-wmU,2637
+simdjson/py.typed,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+pysimdjson-4.0.3.dist-info/LICENSE,sha256=jDyhd6nqFz3PX4rEw8cL78WWlCJVmHyuaOxBhxewkO8,1232
+pysimdjson-4.0.3.dist-info/METADATA,sha256=dLYnOzxlahVfxvXhPPSIDIU2pzFGYff2Vuy7GAwuIvo,2027
+pysimdjson-4.0.3.dist-info/WHEEL,sha256=C6CHup2HLC2Rld8AL5u9w89MYULjdaP5k0k7SG83CcI,102
+pysimdjson-4.0.3.dist-info/top_level.txt,sha256=llYcylPIrtsro1ULjUe-uLEK435CizKAsMAixqQStyI,19
+pysimdjson-4.0.3.dist-info/RECORD,,
