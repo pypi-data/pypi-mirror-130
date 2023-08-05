@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/VolcanoSort/__init__.py
+src/VolcanoSort/example.py
+src/VolcanoSort.egg-info/PKG-INFO
+src/VolcanoSort.egg-info/SOURCES.txt
+src/VolcanoSort.egg-info/dependency_links.txt
+src/VolcanoSort.egg-info/top_level.txt
