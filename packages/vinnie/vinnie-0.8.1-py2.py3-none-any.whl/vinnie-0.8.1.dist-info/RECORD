@@ -1,0 +1,16 @@
+vinnie/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vinnie/base.py,sha256=bwajUiWI9MQ9ofHMnz2qoaEkmmoyPiRdbK0n7pgKzlE,3520
+vinnie/cli.py,sha256=tizEjwqexkRH7PRNfNCLT1lolsrsFsHNjRf8esXW61o,4687
+vinnie/config.py,sha256=L9O7ufsDetPWFb4PC2KKX3bN0PHH1ILsbMHgGXzxeRY,3835
+vinnie/exceptions.py,sha256=XJ_4rdtOMfRf4JySORa0aKUcL0l-prmh9mjld8nUzXk,106
+vinnie/backends/__init__.py,sha256=_pPmx1aWhhh1NTT3jgDz-u7lLBvHLznQYhmH_5uUrAU,93
+vinnie/backends/base.py,sha256=9Z5Qxfg6khSBgT6mkLjQcid0KR8i6E57j0qBQsu9J4c,2895
+vinnie/backends/git.py,sha256=j0JvypusGc1Rr3P6EhR2xAIE2KinR1_QBRFsPOGp52w,1085
+vinnie/backends/github.py,sha256=9L6FA7vYw99PA70OifSXxpAfWPnMyAeSZzpiNdEwTv4,74
+vinnie/backends/gitlab.py,sha256=P75fZEweVLWkt8ElyXurYx12-dEewWAncdothLZG9LU,74
+vinnie-0.8.1.dist-info/LICENSE,sha256=JLxo2w9ZcH1veOKDe442yMAnWGoSOFmVXmDKzc_3Tzo,1474
+vinnie-0.8.1.dist-info/METADATA,sha256=l4UDMC5lKYfcemcTUx_fhVoFWx7OeJ0S6E5lk4mtX-c,6159
+vinnie-0.8.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+vinnie-0.8.1.dist-info/entry_points.txt,sha256=BvG7Tb2h7sH7O0hISjbXEYTao8BUVarbmWOAgQfkqu4,61
+vinnie-0.8.1.dist-info/top_level.txt,sha256=apvlb3seotLAp3OnUgaKvJKZ6O7R26rA0QxFROclJwc,7
+vinnie-0.8.1.dist-info/RECORD,,
