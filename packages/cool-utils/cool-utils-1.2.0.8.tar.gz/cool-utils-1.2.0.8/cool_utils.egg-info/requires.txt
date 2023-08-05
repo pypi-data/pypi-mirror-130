@@ -1,0 +1,4 @@
+fusion.py
+motor
+python-dotenv
+simple-chalk
