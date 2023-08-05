@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ioutliersPRO
+Version: 0.0.1
+Summary: remove potential outliers or Package to easily detect
+Home-page: https://.....
+Author: Dheiver Santos
+Author-email: dheiver.santos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Outliers
+
+Package for easy to use outlier detection and removal using robust random cuts forest. 
+

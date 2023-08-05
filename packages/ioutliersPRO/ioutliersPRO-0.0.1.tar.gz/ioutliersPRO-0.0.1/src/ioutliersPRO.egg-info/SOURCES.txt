@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/ioutliers/__init__.py
+src/ioutliers/iris.py
+src/ioutliers/outliers.py
+src/ioutliers/teste.py
+src/ioutliersPRO.egg-info/PKG-INFO
+src/ioutliersPRO.egg-info/SOURCES.txt
+src/ioutliersPRO.egg-info/dependency_links.txt
+src/ioutliersPRO.egg-info/requires.txt
+src/ioutliersPRO.egg-info/top_level.txt
