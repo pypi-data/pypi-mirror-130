@@ -1,0 +1,8 @@
+jupyter_client>=6.1.13
+jsonschema
+
+[test]
+ipykernel
+
+[test:python_version <= "3.6"]
+jedi<0.18
