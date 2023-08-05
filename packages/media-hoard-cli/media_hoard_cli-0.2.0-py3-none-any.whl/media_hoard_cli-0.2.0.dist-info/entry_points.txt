@@ -1,0 +1,3 @@
+[console_scripts]
+media_hoard=media_hoard_cli.cli:main
+

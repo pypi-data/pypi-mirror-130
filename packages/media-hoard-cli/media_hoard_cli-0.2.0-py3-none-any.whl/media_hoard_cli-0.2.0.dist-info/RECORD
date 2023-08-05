@@ -1,0 +1,10 @@
+media_hoard_cli/__init__.py,sha256=rowpazfzeKpzWqqjyW8hCVW2Moikixl43uzixo-gMxk,133
+media_hoard_cli/cli.py,sha256=VO5B4T4dxpDIvsvbtIzrNRhX_fRF8AyO8cJVMQ0rjms,1579
+media_hoard_cli/hoard.py,sha256=l-GaSEGdQ3MF-wgWZznWhs7yajbfKMc4oyRGsNTyM9U,3986
+media_hoard_cli/media_hoard_cli.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+media_hoard_cli/templates/pdf_parts.ods,sha256=lTkxr1bf0X8Ix5DHeL6Y2v7bxi9qcySl62npl6r6i_o,8748
+media_hoard_cli-0.2.0.dist-info/entry_points.txt,sha256=RYm2c4eYqw74EI3DEj5_82w3TYbY14BPPnKDrbrkEA8,56
+media_hoard_cli-0.2.0.dist-info/LICENSE,sha256=6iwQ-KZcYMPGohlEukgbnb94U4BUyqH9OZkFFdIf1X4,1070
+media_hoard_cli-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+media_hoard_cli-0.2.0.dist-info/METADATA,sha256=gVzqTXKkLfNAW45uqblWsEUEJkz5p7RMMGchZwfqvzM,1124
+media_hoard_cli-0.2.0.dist-info/RECORD,,
