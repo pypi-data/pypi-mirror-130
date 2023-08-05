@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: LVREML
+Version: 0.1.0
+Summary: LVREML - Restricted maximum-likelihood solution for linear mixed models with known and latent variance components LVREML computes the restricted maximum-likelihood solution for linear mixed models with known and latent variance components
+Home-page: https://github.com/AmmarMalik93/LVREML-Python
+Author: Muhammad Ammar Malik
+Author-email: muhammad.malik@uib.no
+License: UNKNOWN
+Description: # Instructions
+        1. Install the LVREML-Python package using:
+        <code> pip install -i https://test.pypi.org/simple/ LVREML</code>
+        2. Run the notebook named <code> LVREML_tutorial.ipynb </code> to run the analysis on yeast data.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
