@@ -1,0 +1,12 @@
+setup.py
+pyksurlquery/__init__.py
+pyksurlquery/extDB.py
+pyksurlquery/mmatch.py
+pyksurlquery/settings.py
+pyksurlquery/udmurl.py
+pyksurlquery/urltype_def.py
+pyksurlquery.egg-info/PKG-INFO
+pyksurlquery.egg-info/SOURCES.txt
+pyksurlquery.egg-info/dependency_links.txt
+pyksurlquery.egg-info/requires.txt
+pyksurlquery.egg-info/top_level.txt
