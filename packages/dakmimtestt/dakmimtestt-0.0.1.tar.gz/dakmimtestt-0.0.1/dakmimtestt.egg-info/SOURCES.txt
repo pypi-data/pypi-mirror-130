@@ -1,0 +1,7 @@
+setup.py
+dakmimtestt.egg-info/PKG-INFO
+dakmimtestt.egg-info/SOURCES.txt
+dakmimtestt.egg-info/dependency_links.txt
+dakmimtestt.egg-info/top_level.txt
+module/__init__.py
+module/number.py
