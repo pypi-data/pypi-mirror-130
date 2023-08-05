@@ -1,0 +1,14 @@
+arbejdstimer/__init__.py,sha256=gwB2BRVhm8JdlGLWuK4C5o8TX5GXms6rspImjKTMdbg,76
+arbejdstimer/__main__.py,sha256=TnYhKlLZbVf7JThCqP3zOqqR155FSyAPGdYUuXEA_W4,242
+arbejdstimer/arbejdstimer.py,sha256=jiW2yj69fkkHZTojtVhJqb3Z2KUseNK6jSRd1Wa7TQY,2091
+arbejdstimer/cli.py,sha256=koZZMz7NWbJls0zOI7qoRji88brIBCNSNl8MAx-9SC8,1851
+tests/__init__.py,sha256=cr5ndc-DX09ICrY-63xcVD11f5aX7I-Q7X40M8aflRc,130
+tests/context.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_arbejdstimer.py,sha256=CICC5VVDEKW9zs_cGJVnyz5w-1-W_3l4bak-iUVjeuM,726
+tests/test_cli.py,sha256=0HPJ6RJMoJ21PA1LQk3ZcDiR4HpEMl0ZU3aI2VmyZO4,1440
+arbejdstimer-2021.12.5.dist-info/LICENSE,sha256=NpMdbXDPQfOKFkp3mpaePQrBhcjltWWrjBt9lkJSBQQ,1069
+arbejdstimer-2021.12.5.dist-info/METADATA,sha256=cOmkKRE_buvv3v_HL4JHY2VlyWDLzEvolrgc7I4iwLk,2208
+arbejdstimer-2021.12.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+arbejdstimer-2021.12.5.dist-info/entry_points.txt,sha256=NtM_Hf43TMFWqjtYbHiCK7uKlOFC9YczgCWnAkDEX0A,55
+arbejdstimer-2021.12.5.dist-info/top_level.txt,sha256=-ns7kYTiZMuk4vFoEK4G9lR0OLsXg-LB-wSbBR5shag,19
+arbejdstimer-2021.12.5.dist-info/RECORD,,
