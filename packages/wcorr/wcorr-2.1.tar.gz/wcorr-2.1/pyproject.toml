@@ -1,0 +1,14 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "wcorr"
+authors = [{name = "matthijsz", email = "m.d.vander.zee@vu.nl"}, {name = "yvictor", email = "yvictor3141@gmail.com"}]
+license = {file = "LICENSE"}
+readme = "README.md"
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/Yvictor/weightedcorr"
