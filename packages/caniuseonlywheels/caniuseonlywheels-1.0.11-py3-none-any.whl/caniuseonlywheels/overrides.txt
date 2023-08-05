@@ -1,0 +1,1 @@
+"termcolor": "https://pypi.org/project/termcolor-whl/"

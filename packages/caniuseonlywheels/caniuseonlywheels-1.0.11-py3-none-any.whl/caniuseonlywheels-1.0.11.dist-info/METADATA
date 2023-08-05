@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: caniuseonlywheels
+Version: 1.0.11
+Summary: Can I switch to installing only using wheels and never sdist?
+Home-page: https://github.com/matthewdeanmartin/caniuseonlywheels
+License: MIT
+Keywords: supply-chain,wheels
+Author: Matthew Martin
+Author-email: matthewdeanmartin@gmail.com
+Requires-Python: >=3.3,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: certifi
+Requires-Dist: packaging
+Requires-Dist: requests
+Requires-Dist: setuptools
+Project-URL: Bug Tracker, https://github.com/matthewdeanmartin/caniuseonlywheels/issues
+Project-URL: Change Log, https://github.com/matthewdeanmartin/caniuseonlywheels/blob/main/CHANGES.md
+Project-URL: Documentation, https://github.com/matthewdeanmartin/caniuseonlywheels
+Project-URL: Repository, https://github.com/matthewdeanmartin/caniuseonlywheels
+Description-Content-Type: text/markdown
+
+## Can I Use Just Wheels?
+
+Are you worried about supply chain risks? You should be. Any clown can highjack a pypi package
+and replace with a malicious package that can run malicious code on:
+- install pip/setup.py *
+- import
+- invocation
+
+Can't do anything about import and invocation, but it is unnecessary to run setup.py, **just always
+install wheels**, using the following switches.
+
+```bash
+export PIP_ONLY_BINARY=:all:
+pipenv install termcolor --skip-lock
+# or
+pip install termcolor --only-binary=:all:
+```
+
+But now you need to find out one by one, what in your requirements.txt doesn't support wheels!
+
+Fortunately, here is a tool, based on the guts of caniusepython3.
+
+## Installation
+```bash
+pip install caniuseonlywheels  --only-binary=:all:
+```
+
+## Usage
+```bash
+pip freeze>requirements.txt
+python -m caniuseonlywheels -r requirements.txt --verbose
+```
+
+## Credits
+Forked from "caniusepython3", Apache License, Original developer - Brett Cannon.
+
