@@ -1,0 +1,7 @@
+setup.py
+cnsudp.egg-info/PKG-INFO
+cnsudp.egg-info/SOURCES.txt
+cnsudp.egg-info/dependency_links.txt
+cnsudp.egg-info/top_level.txt
+lib/__init__.py
+lib/udp.py
