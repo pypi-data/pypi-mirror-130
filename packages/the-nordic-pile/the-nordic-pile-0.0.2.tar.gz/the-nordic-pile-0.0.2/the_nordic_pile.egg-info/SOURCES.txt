@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Pile/__init__.py
+Pile/datasets.py
+Pile/utils.py
+the_nordic_pile.egg-info/PKG-INFO
+the_nordic_pile.egg-info/SOURCES.txt
+the_nordic_pile.egg-info/dependency_links.txt
+the_nordic_pile.egg-info/requires.txt
+the_nordic_pile.egg-info/top_level.txt
