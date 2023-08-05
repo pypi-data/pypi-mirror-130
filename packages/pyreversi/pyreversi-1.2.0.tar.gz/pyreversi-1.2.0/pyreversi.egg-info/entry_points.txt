@@ -1,0 +1,3 @@
+[console_scripts]
+pyreversi = pyreversi.__init__:pyreversi
+
