@@ -1,0 +1,9 @@
+README.md
+setup.py
+darkimg/__init__.py
+darkimg/main.py
+darkimg.egg-info/PKG-INFO
+darkimg.egg-info/SOURCES.txt
+darkimg.egg-info/dependency_links.txt
+darkimg.egg-info/top_level.txt
+darkimg.egg-info/zip-safe
