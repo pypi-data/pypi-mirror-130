@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygifconvt-ka
+Version: 1.0.5
+Summary: Test package for distribution
+Home-page: UNKNOWN
+Author: ka
+Author-email: a02a02a02@paran.com
+License: UNKNOWN
+Keywords: GIFCONVERTER,gifconverter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pillow
+
+UNKNOWN
+
+
