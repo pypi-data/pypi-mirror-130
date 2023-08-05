@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_chars.py,sha256=wdIz4UJbXGrbI6q94vLitXCP-JMVFzkoNzlvpSDWNHM,4588
+vesta/__init__.py,sha256=9izdCCkXnE2R0iMElaJU39Cd6JapxYhMYko6cojYjrg,295
+vesta/chars.py,sha256=E7Oz9FSot2tQydGLrNBlgjUOfNJKOH9Ud8SgRpn2O2s,7237
+vesta/client.py,sha256=X_tPnMSdNc2Jkamt-w2eSNJ24iyDTTtvHw_Y-1A05Bg,3077
+vesta-0.6.0.dist-info/LICENSE,sha256=SWIBBSMYY5bRxAMuFms_18cG6iLMxnaba6s8YYo6I5s,1074
+vesta-0.6.0.dist-info/METADATA,sha256=cHJPQGksQmnylrPzUZwGudSj7ud9dTe7DG414ZzU89s,5645
+vesta-0.6.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vesta-0.6.0.dist-info/top_level.txt,sha256=tRMe44U3bKTR1fMpGt_fKKQewOzK06N65PF_uN7g_Ms,12
+vesta-0.6.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+vesta-0.6.0.dist-info/RECORD,,
