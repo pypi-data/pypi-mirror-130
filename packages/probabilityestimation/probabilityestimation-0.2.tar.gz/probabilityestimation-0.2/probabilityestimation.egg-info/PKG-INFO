@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: probabilityestimation
+Version: 0.2
+Summary: A python package for computing information about Poisson, Gamma, and Exponential distributions.
+Home-page: https://github.com/SaraAnnHall/533Lab4_SaraJustine.git
+Author: Sara Hall and Justine Filion
+Author-email: saraannh@student.ubc.ca, filionjustine05@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
