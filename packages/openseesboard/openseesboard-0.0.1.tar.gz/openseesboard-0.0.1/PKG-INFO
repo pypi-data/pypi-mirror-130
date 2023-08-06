@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: openseesboard
+Version: 0.0.1
+Summary: A placeholder for OpenSEES Board python package
+Home-page: https://github.com/mohsen-azimi/openseesboard
+Author: Mohsen Azimi
+Author-email: mohsen.azimi@nevada.unr.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# openseesboard
+A placeholder for openseesboard python package
+
+## Installation
+```pip install openseesboard```
+
+
+
+## License
+
+© 2021 Mohsen Azimi
+
+This repository is licensed under the MIT license. See LICENSE for details.
+

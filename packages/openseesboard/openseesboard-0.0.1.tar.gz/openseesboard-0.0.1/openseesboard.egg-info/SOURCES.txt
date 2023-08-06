@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+openseesboard.egg-info/PKG-INFO
+openseesboard.egg-info/SOURCES.txt
+openseesboard.egg-info/dependency_links.txt
+openseesboard.egg-info/top_level.txt
+square/__init__.py
+square/__main__.py
