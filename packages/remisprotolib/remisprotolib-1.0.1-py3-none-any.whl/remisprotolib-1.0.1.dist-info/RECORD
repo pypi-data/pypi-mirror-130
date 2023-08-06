@@ -1,0 +1,15 @@
+remis/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+remis/auth_pb2.py,sha256=e1tWQGT1H8qkbAIngYX_Vy1ypnSZv6c6moCoasHdTOg,7959
+remis/auth_pb2_grpc.py,sha256=bWcbaHL4AeIGvhZh_JStzks7qG1nmagVy3-OBqNPdd0,3883
+remis/health_facility_pb2.py,sha256=Pt4SJx8k-16NjFqIOUcjcgw2-ntxigj6gSTJtiPVrH0,28511
+remis/health_facility_pb2_grpc.py,sha256=Kl4cLsL0L6VLIpUfbda6z_nwznADZUD1RrsinuxHFXw,9120
+remis/service_pb2.py,sha256=4_7MHoNxjER6m3RBr9Zr5dtsnkEIweKsXioHlTYUe84,26421
+remis/service_pb2_grpc.py,sha256=LJDZptyy6iptVWj_LIhAVS_omF0YsxR0h1Xf_Vljuu8,9056
+remis/specialization_pb2.py,sha256=QNcMa9-LINCAG11FObtDalIJxoRkQLKy0F-d3Qw5954,9268
+remis/specialization_pb2_grpc.py,sha256=-JImwdpRw9MYVzMj4b66JLxEvBm60zxiQ_qfwL10oVc,4406
+remis/user_pb2.py,sha256=TBNVPbeDeNUqKm_sBDflvL1oa5g86uzvCRpljKV4CYo,18357
+remis/user_pb2_grpc.py,sha256=uBlCfvufWuDRbw-2Onuot5onUvq7WTAOTXeZBqwMbMk,5297
+remisprotolib-1.0.1.dist-info/METADATA,sha256=jAgU_Ehpgdpd_0CCW2Ng9ZIs1RAk9ihf1YpXqmsTdzk,304
+remisprotolib-1.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+remisprotolib-1.0.1.dist-info/top_level.txt,sha256=WK0qvfX5oqSGGXkF24kXZAPR4cMnLBgsz_Ririj8dPQ,6
+remisprotolib-1.0.1.dist-info/RECORD,,
