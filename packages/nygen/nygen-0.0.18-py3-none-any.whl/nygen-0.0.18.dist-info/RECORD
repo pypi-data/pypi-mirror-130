@@ -1,0 +1,17 @@
+nygen/__init__.py,sha256=qgKF-lRlzaBqf95e1sodHCZkSUCbz7ECKSeYHwXfAvI,23
+nygen/__main__.py,sha256=SOnNBBq3emxC8zU6ab_U1yIe2aSo8-XsjHMXbw8zZ-Q,67
+nygen/conf.py,sha256=gGZOOAkL47eDQbes-4I1afGnjchD3niDoBUl5RKBoIs,852
+nygen/main.py,sha256=Js--s0UhVBNkjIJlA6aqdcuGImh8RR65PpR4sAN5Ewo,1836
+nygen/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nygen/lib/conda.py,sha256=_3FF9J6FNHyXL53xhceOY1WV8jZujD1fZmIsHcc9Wv4,1329
+nygen/lib/exceptions.py,sha256=WpXnd516INZkVYfjJPF1RaSKDI4MqHNJWUDu1Gdci4w,373
+nygen/lib/formatter.py,sha256=gFhHWLEOfvqbxu2nbwE4fj5k5UOxc2uOK-oS7qYcVe4,4187
+nygen/lib/gen.py,sha256=XnFRkR27f-2VgR2dm1_X1mB6cswXPhyPZXjMfpDyNP8,2724
+nygen/lib/template.py,sha256=R15ckrz1afCEBZcdOpOkzMlqoev8_g49qc9Jp7NTxBU,1290
+nygen-0.0.18.dist-info/LICENSE,sha256=ndKYhR6NTzc4D3suveBeTGd7MldEP1S0f9NIC3PGrek,1073
+nygen-0.0.18.dist-info/METADATA,sha256=m-sUmbZsufswdgsw1lUJNnIMUsdpCG52aOIGjcqwAwo,1659
+nygen-0.0.18.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nygen-0.0.18.dist-info/entry_points.txt,sha256=phAkSfxOWaDueL10hbE-ORAFU3UwuSMOL5YFJr_8sEg,43
+nygen-0.0.18.dist-info/top_level.txt,sha256=Y-FbUjV4veBtGLX-G7MwK5TRynpw53UmlYFImW1g9zw,6
+nygen-0.0.18.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+nygen-0.0.18.dist-info/RECORD,,
