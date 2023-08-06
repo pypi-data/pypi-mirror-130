@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cythonbuilder
+Version: 0.0.1
+Summary: CythonBuilder; automated compiling and packaging of Cython code
+Home-page: https://github.com/mike-huls/cythonbuilder
+Author: Mike Huls
+Author-email: mikehuls42@gmail.com
+License: MIT
+Download-URL: https://github.com/mike-huls/cythonbuilder/archive/refs/tags/v0.0.1.tar.gz
+Project-URL: Bug Tracker, https://github.com/mike-huls/cythonbuilder/issues
+Keywords: pypi,Cython,setup,packaging,compilation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# CythonBuilder
+
+
