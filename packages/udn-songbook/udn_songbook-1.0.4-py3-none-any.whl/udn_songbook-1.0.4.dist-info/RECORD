@@ -1,0 +1,16 @@
+udn_songbook/__init__.py,sha256=cVcGDO3DnExHC-GLegLIINGnGdA-lP9fXrsMKEaI-_o,78
+udn_songbook/book.py,sha256=96L_t-ISOGttE1P8DA6SoBT-3Y9jO1fwtLHa5FbUZsQ,6220
+udn_songbook/filters.py,sha256=Uxv3p70aJrotgEhU6s7E08gDpCunoeFU6rtEuA_jJkI,1047
+udn_songbook/renderer.py,sha256=2QAc-WquA68QBFHOSGYjD6zGu3sc4ezIW4tVnP8wwMs,3820
+udn_songbook/song.py,sha256=a_ExaSz8ZRDqsjUB9BRIwiF5XLui_gSUdF7Skn3go0A,9827
+udn_songbook/stylesheets/pdf.css,sha256=3-INsT4ab32J9VHZOF7EEHxzIHJjnOyl6hSTTcyoFiQ,2771
+udn_songbook/stylesheets/responsive.css,sha256=yQcoxaJSziMN0dR8ORI0n_7iJ2xyiRMuObsKfHltrWc,3517
+udn_songbook/stylesheets/ukedown_elements.css,sha256=exfjKcDm4nuJLmhVzcqaiPcfMGcaY53EZW0rLZDWeS0,1270
+udn_songbook/templates/base.html.j2,sha256=_Kyz553ktFUoMY_ke80zsPhrdAg3djdY5teILyJY6g4,1538
+udn_songbook/templates/index.html.j2,sha256=9pDiI5dyFDW-0lTpXysP7fUwmj9jPbhfn2kNbjkQU-k,942
+udn_songbook/templates/song.html.j2,sha256=oqp0gFIW1S1QuT5AiWUh1r_8SrjmCJh3IsA65MpuLME,1138
+udn_songbook/utils.py,sha256=CT8hPWDCsgs3SbelfZPPEGPNCRlci3IDU54yNPN0gv0,563
+udn_songbook-1.0.4.dist-info/LICENSE.txt,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+udn_songbook-1.0.4.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+udn_songbook-1.0.4.dist-info/METADATA,sha256=OsAUGIrRFe20Zt6Ah7w8WFgZ1C_r803puf2XwWIQIwE,635
+udn_songbook-1.0.4.dist-info/RECORD,,
