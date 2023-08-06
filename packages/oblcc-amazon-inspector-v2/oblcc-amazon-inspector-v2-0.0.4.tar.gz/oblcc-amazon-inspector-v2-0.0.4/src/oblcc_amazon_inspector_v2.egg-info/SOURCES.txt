@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/oblcc-amazon-inspector-v2/__init__.py
+src/oblcc-amazon-inspector-v2/py.typed
+src/oblcc-amazon-inspector-v2/_jsii/__init__.py
+src/oblcc-amazon-inspector-v2/_jsii/oblcc-amazon-inspector-v2@0.0.4.jsii.tgz
+src/oblcc_amazon_inspector_v2.egg-info/PKG-INFO
+src/oblcc_amazon_inspector_v2.egg-info/SOURCES.txt
+src/oblcc_amazon_inspector_v2.egg-info/dependency_links.txt
+src/oblcc_amazon_inspector_v2.egg-info/requires.txt
+src/oblcc_amazon_inspector_v2.egg-info/top_level.txt
