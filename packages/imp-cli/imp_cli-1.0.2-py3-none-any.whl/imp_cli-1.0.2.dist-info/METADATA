@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: imp-cli
+Version: 1.0.2
+Summary: A simple commandline app for create project
+Home-page: UNKNOWN
+Author: Johan Manuel Bustos Mendoza
+Author-email: johan.bustosm@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: click (==8.0.3)
+Requires-Dist: simple-term-menu (==1.4.1)
+
+# IMPERIUMS DASHBOARD
+A simple commandline app for create project 
+# Installation
+## Using Pip
+```bash
+  $ pip install imp-cli
+```
+## Manual
+```bash
+  $ git clone https://github.com/JohanBustos/imperiums-cli-dashboard
+  $ cd cver
+  $ python setup.py install
+```
+## Autors
+Johan Manuel Bustos Mendoza - johan.bustosm@gmail.com
+
