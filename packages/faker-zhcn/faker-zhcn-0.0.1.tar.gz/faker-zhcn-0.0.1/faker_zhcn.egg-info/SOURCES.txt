@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+faker_zhcn.egg-info/PKG-INFO
+faker_zhcn.egg-info/SOURCES.txt
+faker_zhcn.egg-info/dependency_links.txt
+faker_zhcn.egg-info/top_level.txt
