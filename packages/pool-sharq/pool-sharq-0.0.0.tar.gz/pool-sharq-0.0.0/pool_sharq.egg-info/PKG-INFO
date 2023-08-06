@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pool-sharq
+Version: 0.0.0
+Summary: pool-sharq: python interface for Broad Institute GPP's poolq software.
+Home-page: https://github.com/mvinyard/pool-sharq
+Author: Michael E. Vinyard - Harvard University - Massachussetts General Hospital - Broad Institute of MIT and Harvard
+Author-email: mvinyard@broadinstitute.org
+License: MIT
+Description: # pool-sharq
+        Python wrapper for the Broad Institute GPP's poolq software
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
