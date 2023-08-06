@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: MissForestExtra
+Version: 1.1.0
+Summary: nonparametric imputation on missing values.
+Home-page: https://github.com/HindyDS/MissForestExtra
+Author: Hindy Yuen
+Author-email: hindy888@hotmail.com
+License: MIT
+Keywords: MissForest MissForestExtra aims to provide the most convenient way for the data science community to perform nonparametric imputation on missing values by using machine learning models
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# MissForestExtra
+Arguably the best missing values imputation method.
+
+MissForestExtra aims to provide the most convenient way for the data science community to perform nonparametric imputation on missing values by using machine learning models.
+
+- **Examples:** https://github.com/HindyDS/MissForestExtra/tree/main/examples
+- **Email:** hindy888@hotmail.com
+- **Source code:** https://github.com/HindyDS/MissForestExtra/tree/main/MissForestExtra 
+- **Bug reports:** https://github.com/HindyDS/MissForestExtra/issues
+- 
+# Convenient
+It only requires 3 arguments to run:
+
+- df: dataset that being imputed
+- impute (str): feature that being imputed
+- model: machine learning model
+
+Optional arguments:
+- max_iter (int): maximum number of iterations
+- verbose (int): Level of verbosity of MFE
+
+If you have any ideas for this packge please don't hesitate to bring forward!
+
+# Flexible
+You can implement other machine learning models besides RandomForest into MissForestExtra
+
+# Quick Start
+    !pip install MissForestExtra
+    
+    from MissForestExtra import MissForestExtra
+
+    mfe = MissForestExtra()
+
+    mfe.impute(df, impute, model)
+
+    # return the imputed pandas series
+
+    mfe.impute(df, classifier, regressor)
+
+     # return imputed dataframe
+
