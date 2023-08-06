@@ -1,0 +1,67 @@
+[tool.poetry]
+name = "PyRoy"
+version = "0.1.dev0"
+description = ""
+license = "MIT License"
+
+authors = [
+    "Ruslan Ilyasovich Gilfanov <ri.gilfanov@yandex.ru>",
+]
+maintainers = [
+    "Ruslan Ilyasovich Gilfanov <ri.gilfanov@yandex.ru>",
+]
+
+readme = "README.rst"
+homepage = "https://pypi.org/project/pyroy"
+repository = "https://github.com/cslibs/pyroy"
+documentation = "https://pyroy.readthedocs.io"
+
+keywords = ['pyroy']
+classifiers = [
+    "Development Status :: 2 - Pre-Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities",
+    "Typing :: Typed",
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+typing_extensions = ">=4.0.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = ">=4.0.1"
+hypothesis = ">=6.31.0"
+isort = ">=5.10.1"
+mypy = ">=0.910"
+pytest = ">=6.2.5"
+pytest-cov = ">=3.0.0"
+Sphinx = ">=4.3.1"
+sphinx-rtd-theme = ">=1.0.0"
+tomli = ">=1.2.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.isort]
+known_first_party = ["pyroy"]
+known_third_party = [
+    "hypothesis",
+    "pytest",
+    "tomli",
+    "typing_extensions",
+]
+line_length = 91
+profile = "wemake"
+src_paths = ["pyroy", "tests"]
+
+[tool.mypy]
+files = ["pyroy", "tests"]
