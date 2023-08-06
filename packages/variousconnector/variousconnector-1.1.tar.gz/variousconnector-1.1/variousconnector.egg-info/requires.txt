@@ -1,0 +1,6 @@
+sshtunnel
+sqlalchemy
+psycopg2
+pandas
+snowflake-connector-python==2.6.2
+snowflake-sqlalchemy==1.3.2
