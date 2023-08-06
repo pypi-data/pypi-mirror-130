@@ -1,0 +1,10 @@
+LICENSE,sha256=3OGrtVJC-lkkw6OW2EOqarCeKXgbfi9vlyCBPjG6Nsg,1520
+gridthings/__init__.py,sha256=RYbpE0dfVKO30gQJNXtDEkysrwTo-SjXGBvHh0dy52M,140
+gridthings/cell.py,sha256=3TRTxXtPd_-P85pXvBBYA_UgNFQHOWZLoNfK31nsGJg,2964
+gridthings/collection.py,sha256=NDuaAvVpkYeM7cWucLO_ttEIDtmQHuBGesLLB5Eg9bs,1754
+gridthings/grid.py,sha256=2rYKJ-_IbjQa5LiLv7XgiNWSKbpcb1qf9c_TNkU7qVk,8463
+gridthings/typed_grids.py,sha256=OBId8HXA8KAxdkRPOx0rbOV9bRe1XVc2aaFgvsIMhk4,249
+gridthings-0.1.0.dist-info/LICENSE,sha256=3OGrtVJC-lkkw6OW2EOqarCeKXgbfi9vlyCBPjG6Nsg,1520
+gridthings-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+gridthings-0.1.0.dist-info/METADATA,sha256=0BUUkHbXuLHwuzLGPDpZqcF_VQEmxxHAeeSfDIWDpmY,794
+gridthings-0.1.0.dist-info/RECORD,,
