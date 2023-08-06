@@ -1,0 +1,17 @@
+hrflow_connectors/__init__.py,sha256=tkzs8fC0dDxUDV8SJhF-Nnpt_-bAqXBQM-1__STCxXI,588
+hrflow_connectors/connectors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/connectors/boards/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/connectors/boards/crosstalent/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/connectors/boards/crosstalent/actions.py,sha256=4o-BkK4vN0tS6r2Y1P0IpLrBhZMpqXWDkVOLcOxeKT8,2035
+hrflow_connectors/connectors/boards/crosstalent/spec.py,sha256=W3uZZX5IfoHq3bgLhtaviqXl5JachBio7sWcOtQujJY,145
+hrflow_connectors/connectors/boards/crosstalent/schemas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/connectors/boards/crosstalent/schemas/offre_emploi.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hrflow_connectors/core/action.py,sha256=ULcQw8Qqy-g_GQY7aQaNnw3D0RwneiJlN-NiwnQLapk,3231
+hrflow_connectors/core/auth.py,sha256=NDp3E8vJSaekUzwjovcR1eLJC1EBZl-Hd9xXtICnK0Y,1536
+hrflow_connectors/core/http.py,sha256=7lnT2OzVFIo1E5gImHXs66oX5Cj2aZwb6MivNdr9TtM,2108
+hrflow_connectors-0.1.0.dist-info/LICENSE,sha256=CetrCM2uNZMtL8k0zqI9MN5ExHc9uTLqRNh4Y1syPDo,11356
+hrflow_connectors-0.1.0.dist-info/METADATA,sha256=cei1EFaZphqp8Cisa9B_uJweu3hxtBOgcax3nlrsz8U,4095
+hrflow_connectors-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hrflow_connectors-0.1.0.dist-info/top_level.txt,sha256=3vzd0Qu2zABdiW13RVTyaS87JM52QHyPjaLj7e-RNiQ,18
+hrflow_connectors-0.1.0.dist-info/RECORD,,
