@@ -1,0 +1,6 @@
+libgolf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+libgolf/list.py,sha256=M1BRXaTVVRv-z-YWgUiZdcIBe9HazQTK1E-aEDTNlAM,10595
+libgolf/string.py,sha256=oRBV23MG4E_bEEAUBA63KB2w14pG06AJUMFm7A0PO_c,546
+libgolf-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+libgolf-0.0.1.dist-info/METADATA,sha256=SgqxMLw7g-uXaIbIBoi_4MQUNuWt_zwB1nWRt8rt2y8,377
+libgolf-0.0.1.dist-info/RECORD,,
