@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: genpurp
+Version: 0.0.2
+Summary: General-purpose library of utilities and extensions to the pandas standard library.
+Home-page: https://github.com/hugodscarvalho/genpurp
+Author: Hugo Carvalho
+Author-email: hugodanielsilvacarvalho.hc@gmail.com
+License: UNKNOWN
+Keywords: python,general purpose,pandas,complement,data
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+## Project description 
+
+`genpurp` is a general-purpose library of utilities and extensions to the `pandas` standard library.
+
+## Requirements
+
+
+## Installation
+
+Install with pip `pip install genpurp`
+
+## Documentation
+
+
+## License
+
+See [LICENSE](https://github.com/hugodscarvalho/genpurp/blob/main/LICENSE)
+
