@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: docarray
+Version: 0.0.1.dev15
+Summary: DocArray is the universal data type for neural search.
+Home-page: https://github.com/jina-ai/jina/docarray
+Author: Jina AI
+Author-email: hello@jina.ai
+License: Apache 2.0
+Download-URL: https://github.com/jina-ai/jina/tags
+Project-URL: Documentation, https://docs.jina.ai
+Project-URL: Source, https://github.com/jina-ai/jina/docarray
+Project-URL: Tracker, https://github.com/jina-ai/jina/issues
+Description: # DocArray
+        
+        ## Install
+        
+        ## Update Protobuf
+        
+        ```bash
+        cd docarray/
+        docker run -v $(pwd)/proto:/jina/proto jinaai/protogen
+        ```
+        
+Keywords: jina cloud-native neural-search query search index elastic neural-network encoding embedding serving docker container image video audio deep-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
