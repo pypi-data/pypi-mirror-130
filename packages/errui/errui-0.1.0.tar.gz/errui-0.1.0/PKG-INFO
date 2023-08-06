@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: errui
+Version: 0.1.0
+Summary: Error handling for end users
+Home-page: https://gitlab.com/deepadmax/errui
+Author: Maximillian Strand
+Author-email: maximillian.strand@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://gitlab.com/deepadmax/errui
+Description-Content-Type: text/markdown
+
+# ErrUI
+
+Open a window when an exception is raised and prompt the end user to decide what to do.
+
+
+## Installation
+
+```sh
+python -m pip install errui
+```
+
+## Example
+
+### `AbortWindow` (Optional suppression)
+
+This is like `contextlib.suppress` except you get to choose whether to suppress it or to let the exception through and still be raised.
+
+```py
+from errui import AbortWindow
+
+with AbortWindow(KeyError):
+    {}[0]
+```
