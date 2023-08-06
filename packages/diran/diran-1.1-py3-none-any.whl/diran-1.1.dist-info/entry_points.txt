@@ -1,0 +1,3 @@
+[console_scripts]
+diran = diran.__main__:main
+
