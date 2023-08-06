@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: checkAuthByNet
+Version: 0.1.0
+Summary: time and path tool
+Home-page: https://github.com/phpnbw
+Author: golango
+Author-email: nbotu666@gmail.com
+License: MIT Licence
+Keywords: pip,pathtool,timetool,magetool,mage
+Platform: any
+License-File: LICENSE
+
+time and path tool
+
