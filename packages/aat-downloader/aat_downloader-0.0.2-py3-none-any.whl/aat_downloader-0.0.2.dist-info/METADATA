@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: aat-downloader
+Version: 0.0.2
+Summary: A downloader for mobile aat data.
+Home-page: https://github.com/hgzech/aat_downloader/tree/master/
+Author: Hilmar Zech
+Author-email: hgzech@gmail.com
+License: Apache Software License 2.0
+Keywords: mobile aat download downloader
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pip
+Requires-Dist: packaging
+Requires-Dist: pyrebase
+Requires-Dist: pandas
+Provides-Extra: dev
+
+# AAT Downloader
+> A package that helps download mobile AAT data.
+
+
+## Install
+
+`pip install aat_downloader`
+
+```python
+%R
+print(6)
+text = "text"
+```
+
+```python
+R('''
+print(6)
+text = "text"
+
+
+''')
+```
+
+## How to use
+
+Fill me in please! Don't forget code examples:
+
+```python
+%load_ext autoreload
+%autoreload 2
+from aat_downloader.downloader import Downloader
+# Initiate downloader with path to google services file (downloaded from Firebase)
+downloader = Downloader("data/external/google-services.json")
+```
+
+    The autoreload extension is already loaded. To reload it, use:
+      %reload_ext autoreload
+
+
+```python
+# Specify experiment name and storage folder and download data
+downloader.download("eeg", "data/raw")
+```
+
+```python
+downloader.delete_participants("fooddemo")
+```
+
+    Warning: Are you sure you want to delete participants of experiment: fooddemo?
+     y
+
+
+
