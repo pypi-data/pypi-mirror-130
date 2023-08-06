@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "sherpa-client"
+version = "0.9.20"
+description = "A client library for accessing Sherpa API documentation (Iota release)"
+
+authors = []
+
+readme = "README.md"
+packages = [
+    {include = "sherpa_client"},
+]
+include = ["CHANGELOG.md", "sherpa_client/py.typed"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = ">=0.15.4,<0.21.0"
+attrs = ">=20.1.0,<22.0.0"
+python-dateutil = "^2.8.0"
+
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+black = {version = "^21.11b1", allow-prereleases = true}
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 120
+target_version = ['py36', 'py37', 'py38']
+exclude = '''
+(
+  /(
+    | \.git
+    | \.idea
+    | \.venv
+    | \.mypy_cache
+  )/
+)
+'''
+
+[tool.isort]
+line_length = 120
+profile = "black"
