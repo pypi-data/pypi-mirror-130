@@ -1,0 +1,8 @@
+pyproject.toml
+diamond/src/diamond/__init__.py
+diamond/src/diamond/diamond.py
+diamond/src/diamondpy.egg-info/PKG-INFO
+diamond/src/diamondpy.egg-info/SOURCES.txt
+diamond/src/diamondpy.egg-info/dependency_links.txt
+diamond/src/diamondpy.egg-info/requires.txt
+diamond/src/diamondpy.egg-info/top_level.txt
