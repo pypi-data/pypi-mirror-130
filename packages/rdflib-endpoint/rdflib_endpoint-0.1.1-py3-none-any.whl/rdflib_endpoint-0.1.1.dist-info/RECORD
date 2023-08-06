@@ -1,0 +1,10 @@
+rdflib_endpoint/__init__.py,sha256=ALM1e-k6fT1AV6g4dRswHLp2dixBlsTbpaK__TVzyfQ,43
+rdflib_endpoint/sparql_endpoint.py,sha256=tx-AjEkDSdl1jQG_nC9nvnIBLCAiApWOhDeTB18r-BU,14253
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_example_app.py,sha256=L8lYLAP8MejT_xo1si8PUWhLtaDqamg3SvD0w9N1mxM,3008
+tests/test_rdflib_endpoint.py,sha256=71WShFfmkGqfKGQ14zU0kXQebWSLmVvruuO9k_YW1KE,4732
+rdflib_endpoint-0.1.1.dist-info/LICENSE,sha256=6D8mZuT66Ic4mVXmQQNy8QEv6oATO6jxSGWGlnk8OHA,1071
+rdflib_endpoint-0.1.1.dist-info/METADATA,sha256=LAgVG1VjDA1lGhh76A7zoiJmGEZ9IEaiR4PagJ7kxN8,7097
+rdflib_endpoint-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+rdflib_endpoint-0.1.1.dist-info/top_level.txt,sha256=p4wPYCKgHHimyFXrXfcSwE539LrmVLPJJJbJLgu0cg8,22
+rdflib_endpoint-0.1.1.dist-info/RECORD,,
