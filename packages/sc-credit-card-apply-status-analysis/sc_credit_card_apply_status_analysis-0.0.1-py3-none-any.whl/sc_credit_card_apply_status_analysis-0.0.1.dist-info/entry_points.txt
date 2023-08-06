@@ -1,0 +1,3 @@
+[console_scripts]
+sc-credit-card-apply-status-analysis = sc_credit_card.main:main
+

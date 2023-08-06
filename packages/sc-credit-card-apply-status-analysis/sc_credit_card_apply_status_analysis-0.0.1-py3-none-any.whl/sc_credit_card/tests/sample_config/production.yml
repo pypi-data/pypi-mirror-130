@@ -1,0 +1,74 @@
+environment: production
+
+# 数据库相关配置
+database:
+  host: localhost
+  port: 3306
+  database: retail_analysis
+  user: scott
+  password: scott@123
+
+# 信用卡
+credit_card:
+  # 审批状态文件相关配置
+  apply_status:
+    # 业务分类类型说明
+    business_type: 信用卡审批状态
+    # 基础数据文件路径
+    base_file_filepath: 基础数据.xlsx
+    # 每日增量数据文件路径格式
+    daily_incremental_filepath_format: 每日增量数据-%Y%m%d.xlsx
+    # Sheet名称
+    sheet_name: 拒绝原因
+    sheet_config:
+      # 表头行索引
+      header_row: 0
+      # 客户姓名列索引
+      client_name_column: 0
+      # 客户身份证号码列索引
+      client_id_no_column: 1
+      # 申请编号列索引
+      apply_no_column: 2
+      # 申请日期列索引
+      apply_date_column: 3
+      # 卡产品列索引
+      card_type_column: 4
+      # 卡号列索引
+      card_no_column: 5
+      # 客户经理名称列索引
+      manager_name_column: 6
+      # 客户经理工号列索引
+      manager_no_column: 7
+      # 分支行列索引
+      branch_column: 8
+      # 一级支行列索引
+      sub_branch_column: 9
+      # 审批状态列索引
+      apply_status_column: 10
+      # 拒绝原因列索引
+      reject_reason_column: 11
+  # 信用卡网申
+  pad:
+    # 生成的目标Excel文件存放路径
+    target_directory: ./
+    # 目标文件名称
+    target_filename: 信用卡网申PAD申请明细报表-更新审批状态.xlsx
+    # 业务分类类型说明
+    business_type: 信用卡网申PAD申请明细报表
+    # 基础数据文件路径
+    src_filepath: 信用卡网申PAD申请明细报表.xlsx
+    # Sheet名称
+    sheet_name: 信用卡网申PAD申请明细报表
+    sheet_config:
+      # 表头行索引
+      header_row: 2
+      # 申请书条形码列索引
+      apply_no_column: 1
+      # 申请书条形码列名称
+      apply_no_column_name: 申请书条形码
+      # 审批结果列索引
+      apply_result_column: 20
+      # 生成的Excel中审批状态列名称
+      target_apply_status_column_name: 审批状态
+      # 生成的Excel中拒绝原因列名称
+      target_reject_reason_column_name: 拒绝原因
