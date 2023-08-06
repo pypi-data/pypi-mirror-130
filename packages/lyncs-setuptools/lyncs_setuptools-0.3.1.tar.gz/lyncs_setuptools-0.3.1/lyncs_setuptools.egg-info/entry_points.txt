@@ -1,0 +1,7 @@
+[console_scripts]
+lyncs_find_package = lyncs_setuptools.cmake:print_find_package
+lyncs_packages = lyncs_setuptools.packages:print_packages
+lyncs_pylint = lyncs_setuptools.pylint:run_pylint [pylint]
+lyncs_pylint_badge = lyncs_setuptools.pylint:print_pylint_badge [pylint]
+lyncs_setuptools = lyncs_setuptools:print_keys
+
