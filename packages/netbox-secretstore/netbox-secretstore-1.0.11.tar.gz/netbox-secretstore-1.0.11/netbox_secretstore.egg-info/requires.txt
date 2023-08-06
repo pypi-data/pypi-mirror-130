@@ -1,0 +1,3 @@
+importlib
+pycryptodome
+netbox-plugin-extensions>=1.0.8
