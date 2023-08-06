@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: dead-salmon-brain
+Version: 0.0.2
+Summary: Dead Salmon Brain is a cluster computing system for analysing A/B experiments
+Home-page: UNKNOWN
+Author: Dead Salmon Brain
+Author-email: deadsalmonbrain@gmail.com
+License: Apache License v2.0
+Project-URL: Source code, https://github.com/Salmon-Brain/dead-salmon-brain/tree/main/python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyspark (>=2.3.0)
+Requires-Dist: numpy
+
+# Dead salmon brain
+
+Python API for analysis A/B experiments
+
+## Getting Started
+
+### Build from source
+
+```
+1) Clone git repository
+2) ./gradlew build
+3) pip install python/
+4) Add computing/build/libs/computing-*.*.*.jar to Spark jars/ folder
+```
+
+### Installation for python
+```
+1) pip install dead-salmon-brain
+2) go to spark jars folder
+3) wget https://maven.pkg.github.com/Salmon-Brain/dead-salmon-brain/ai.salmon.computiing/{VERSION}/computing-{VERSION}.jar
+```
+
+### Installation for jvm
+```
+add github repository and declare dependency
+```
+
+### Example
+
+```
+You can find in  python/examples
+```
+
+
