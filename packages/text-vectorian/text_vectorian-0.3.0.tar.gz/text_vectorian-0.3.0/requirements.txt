@@ -1,0 +1,5 @@
+gensim == 3.8.*
+sentencepiece
+pyyaml
+tensorflow == 2.*
+keras-bert
