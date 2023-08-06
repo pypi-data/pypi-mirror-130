@@ -1,0 +1,16 @@
+kind: TableViewSpec
+id: "sdk.table_view_spec.deployment"
+title: "Deployments"
+detail_page_name: "sdk.detail_view_spec.deployment"
+data:
+  kind: ResourcesSupplier
+  resource_selector: "expr::Deployment:*"
+  serializer: "native"
+
+column_specs:
+  - "id::sdk.column_spec.resources.name"
+  - "id::sdk.column_spec.resources.namespace"
+  - "id::sdk.view_spec.resources.deployment_pod_statuses"
+  - "id::sdk.column_spec.resources.workloads.memory"
+  - "id::sdk.column_spec.resources.workloads.cpu"
+  - "id::sdk.column_spec.resources.created_at"

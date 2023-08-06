@@ -1,0 +1,31 @@
+# The holy Kubernetes sequence:
+
+# 1. Try a kubectl-dry-run with the manifest templated from the new values
+#   1.1 If that fails, crash out
+# 2. Patch the new values onto the the kamafile's user_vars, and save
+# 3. Template the manifest from the kamafile's manifest variables (all levels)
+# 4. Run kubectl-apply with the output (k8s resource descriptors) from the step above
+# 5. Wait until the changed resources (as per kubectl-apply logs) have settled/failed
+
+kind: MultiAction
+id: "sdk.action.commit_template_apply_safely"
+title: "Commit variables and apply manifest"
+info: "Safely commit new variables and apply the re-templated manifest"
+debug_props: [values, config_space, res_descs, kaos]
+
+sub_actions:
+
+  - kind: MultiAction
+    inherit: sdk.action.patch_variables_safely
+    template_values: get::parent>>values
+    commit_values: get::parent>>values
+    vars_level: user_vars
+
+  - kind: TemplateManifestAction
+    values: get::kind::MergedVarsSupplier
+
+  - kind: KubectlApplyAction
+    res_descs: get::parent>>res_descs
+
+  - kind: AwaitKaosSettledAction
+    kaos: get::parent>>kaos

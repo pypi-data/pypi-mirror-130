@@ -1,0 +1,15 @@
+
+# Patch user vars from the `commit` bundle passed by a `Step`
+# instance on `run`. Notice that `commit_values` != `template_values`;
+# this is because we want to use all values for templating, but
+# do not want to store the inlines (i.e the secrets).
+
+kind: MultiAction
+id: "sdk.action.patch_variables_step_safely"
+inherit: sdk.action.patch_variables_safely
+commit_values: get::self>>commit->.standard
+template_values:
+  kind: MergeSupplier
+  source:
+    - get::self>>commit->.standard
+    - get::self>>commit->.inline

@@ -1,0 +1,6 @@
+kind: FileTelemDbDelegate
+id: "sdk.telem-db-delegate.on-file"
+title: "Pod File Storage"
+info: "Stores and queries telemetry data in a file on the pod's filesystem. Recommended
+option for short-lived or evaluation NMachines. All data will be lost when the pod is
+ejected from the node, which can happen at any time."

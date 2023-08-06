@@ -1,0 +1,29 @@
+
+# Wrapper around a regular patch variables action. Called 'safely'
+# because, prior to doing the patch, it 1) makes sure that a kubectl dru run
+# succeeds, and 2) saves a current state snapshot if possible.
+
+kind: MultiAction
+id: sdk.action.patch_variables_safely
+title: Safely commit variables
+info: Ensure dry run works, then patch ${get::self>>vars_level} with new vars
+debug_props: [values, ktea, res_descs, kaos]
+
+sub_actions:
+
+  - inherit: "sdk.action.template_merge_current"
+    ktea: "get::parent>>ktea"
+    new_values: get::parent>>template_values
+
+  - kind: KubectlDryRunAction
+    id: sdk.action.kubectl_dry_run
+    ktea: get::parent>>ktea
+    res_descs: get::parent>>res_descs
+
+  - kind::CreateBackupAction
+
+  - kind: PatchManifestVarsAction
+    id: sdk.action.patch_manifest_variables
+    title: "Patch ${get::self>>vars_level} variables"
+    info: get::self>>title
+    values: get::parent>>commit_values

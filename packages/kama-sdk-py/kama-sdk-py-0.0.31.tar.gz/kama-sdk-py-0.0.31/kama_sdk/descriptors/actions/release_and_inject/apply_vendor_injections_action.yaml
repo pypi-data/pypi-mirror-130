@@ -1,0 +1,52 @@
+kind: MultiAction
+id: sdk.action.apply_vendor_injections
+title: Apply an Injections Bundle
+info: Write injections into variables and secrets
+debug_props: [values, ktea, injections, res_descs, outkomes]
+
+sub_actions:
+
+  - kind: WriteManifestVarsAction
+    title: "Write publisher injection variables"
+    info: "Write publisher injection variables"
+    vars_level: vendor_injection_vars
+    values: get::parent>>injections->.standard
+
+  - kind: TemplateManifestAction
+    id: sdk.action.template_manifest
+    values: get::parent>>injections->.inline
+    ktea: get::sdk.supplier.injections_ktea
+#    resource_whitelist_selectors: ["expr::Secret::*"]
+
+  - kind: KubectlApplyAction
+    res_descs: get::parent>>res_descs
+
+  - kind: AwaitKaosSettledAction
+    kaos: get::parent>>kaos
+
+circuit_breakers:
+  - kind: CircuitBreaker
+    on_index: -1
+    predicate: "id::sdk.predicate.injection-is-non-trivial"
+
+  - kind: CircuitBreaker
+    on_index: 0
+    predicate: "id::sdk.predicate.injection-has-secrets"
+
+---
+
+kind: Predicate
+id: sdk.predicate.injection-is-non-trivial
+check_against: 0
+challenge:
+  kind: SumSupplier
+  source:
+    - "get::parent>>injections->.inline | length"
+    - "get::parent>>injections->.standard | length"
+
+---
+
+kind: Predicate
+id: sdk.predicate.injection-has-secrets
+check_against: 0
+challenge: get::parent>>injections->.inline | length

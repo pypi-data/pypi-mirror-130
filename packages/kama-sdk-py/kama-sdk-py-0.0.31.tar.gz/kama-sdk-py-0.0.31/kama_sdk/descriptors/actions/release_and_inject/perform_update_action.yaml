@@ -1,0 +1,28 @@
+kind: MultiAction
+id: sdk.action.perform_update
+title: "Update Application"
+info: "Get new KTEA, update variable defaults, reapply manifest"
+
+sub_actions:
+  - kind: FetchReleaseAction
+
+#  - kind: RunPredicateAction
+#    predicate: id::sdk.predicate.default_variables_unchanged
+#    false_is_fatal: true
+
+  - kind: CommitKteaFromReleaseAction
+    release: get::parent>>release
+
+  - kind: WriteManifestVarsAction
+    vars_level: default_vars
+    values: get::kind::FreshDefaultsSupplier
+
+  - kind: TemplateManifestAction
+    ktea: get::parent>>ktea
+    values: get::kind::MergedVarsSupplier
+
+  - kind: KubectlApplyAction
+    res_descs: get::parent>>res_descs
+
+  - kind: AwaitKaosSettledAction
+    kaos: get::parent>>kaos

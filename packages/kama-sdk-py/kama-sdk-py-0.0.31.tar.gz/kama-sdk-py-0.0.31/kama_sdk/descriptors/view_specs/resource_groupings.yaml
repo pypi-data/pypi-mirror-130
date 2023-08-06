@@ -1,0 +1,53 @@
+kind: ResourceCategory
+id: "sdk.resource-category.compute"
+title: "Compute"
+resources:
+  - Pod
+  - Deployment
+  - Job
+  - DaemonSet
+  - Cronjob
+  - ResourceQuota
+  - HorizontalPodAutoSaler
+  - LimitRange
+  - ReplicaSet
+  - ReplicationController
+  - Node
+
+---
+
+kind: ResourceCategory
+title: "Config & RBAC"
+id: "sdk.resource-category.config"
+resources:
+  - ConfigMap
+  - Secret
+  - ServiceAccount
+  - Role
+  - RoleBinding
+  - RlusterRole
+  - ClusterRoleBinding
+
+---
+
+kind: ResourceCategory
+title: "Network"
+id: "sdk.resource-category.network"
+resources:
+  - Service
+  - Ingress
+  - Issuer
+  - CertificateSigningRequest
+  - Endpoint
+  - NetworkPolicy
+
+---
+
+kind: ResourceCategory
+title: "Persistence"
+id: "sdk.resource-category.network"
+resources:
+  - PersistentVolumeClaim
+  - PersistentVolume
+  - StorageClass
+  - CSIStorageCapacity
