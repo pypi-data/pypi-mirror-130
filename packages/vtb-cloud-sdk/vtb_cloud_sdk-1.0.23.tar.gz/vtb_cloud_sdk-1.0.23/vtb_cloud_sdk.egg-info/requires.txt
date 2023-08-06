@@ -1,0 +1,11 @@
+requests
+python-dateutil
+docopt
+pytz
+beautifulsoup4
+lxml
+python-keycloak
+pyjwt
+logbook
+attrdict
+vtb_py_logging
