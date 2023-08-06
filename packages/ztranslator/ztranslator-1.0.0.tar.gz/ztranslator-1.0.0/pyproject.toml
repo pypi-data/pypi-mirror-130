@@ -1,0 +1,35 @@
+[tool.poetry]
+name = "ztranslator"
+version = "1.0.0"
+description = "Powerful command line translator."
+authors = ["André P. Santos <andreztz@gmail.com>"]
+packages = [
+    { include = "translator" }
+]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Intended Audience :: Developers",
+    "Intended Audience :: End Users/Desktop",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Utilities"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+requests = "^2.23.0"
+notify-send = "^0.0.19"
+googletrans = "3.1.0a0"
+
+[tool.poetry.scripts]
+ztranslator="translator.__main__:main"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+flake8 = "^4.0.1"
+pre-commit = "^2.15.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
