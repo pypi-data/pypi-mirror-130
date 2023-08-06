@@ -1,0 +1,17 @@
+tds/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tds/base.py,sha256=D4-7tBVZvN-eAd7IoR6OFUTY4VgPGKy-NNokS9r6QNA,714
+tds/command.py,sha256=A2JsUp6ce-q2h0EFYljx7M-oQ3RccGsCM_xQCplHjnc,1745
+tds/config.py,sha256=TdVUFgW38OogIEPH0EQEsDXmIcsyry6TDJ41DruRjCk,3526
+tds/run.py,sha256=H22JED73nhm03TKWCg6KfIpDi-6bwrKJYO9hAoJxxmg,1665
+tds/update.py,sha256=6du99DcVqU_id196RSMsPPLkThRoLelnaaqM65fpuFc,10089
+tds/updownload/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tds/updownload/base.py,sha256=oQVOyQ9_q7EugsW0zfFwcXfw7djJlaF_egtv-ZX7CQI,1170
+tds/updownload/download.py,sha256=KSiDEHNpxy6m-u3oaboLuv4pus7JIACwlccy2QqkXsg,1672
+tds/updownload/ssh.py,sha256=mHCM6DroY3yslkHUAbxkY8_RHv_7yfscUpqHHIFW0rs,1596
+tds/updownload/upload.py,sha256=WInY20uiVHB0eW5W7FTpCH2ttPyfIureRY95va3PX1I,1818
+tabdanc-0.0.1.dist-info/LICENSE,sha256=EXy8oawp5GcJKU-_vDxrXX5W1hfHD6ezLxwmkk3Gzwk,1066
+tabdanc-0.0.1.dist-info/METADATA,sha256=6HpAgKr0TPSCno2extDkipYayE6Eidr5ARMMwhpwOv8,397
+tabdanc-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tabdanc-0.0.1.dist-info/entry_points.txt,sha256=2Eg4pG65c_kW-Ms9yig3kClld4bWjVFpgVprxHmrjoc,42
+tabdanc-0.0.1.dist-info/top_level.txt,sha256=Zcx-9VttDjCu4_t-mJu02R5gqxuyGkguMHTF5vrQU9Y,4
+tabdanc-0.0.1.dist-info/RECORD,,

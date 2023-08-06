@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tabdanc
+Version: 0.0.1
+Summary: Table Data Sync
+Home-page: https://github.com/linewalks/tabdanc
+Author: Linewalks
+Author-email: insu@linewalks.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >= 3.8
+License-File: LICENSE
+Requires-Dist: configparser
+Requires-Dist: paramiko
+Requires-Dist: pandas
+Requires-Dist: psycopg2-binary
+Requires-Dist: SQLAlchemy
+
+UNKNOWN
+
