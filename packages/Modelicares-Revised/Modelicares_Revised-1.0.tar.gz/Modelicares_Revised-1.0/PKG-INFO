@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Modelicares_Revised
+Version: 1.0
+Summary: Change hyper-parameters in dsin.txt file derived from Dymola
+Home-page: UNKNOWN
+Author: Kevin Davies and Sun Yeqi
+Author-email: yeqi_sun@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Example Package
+Due the matplotlib.iterable deprecated above v3.1.0, replace numpy.iterable with it in modelicaresv1.0 on 9 December, 2021 by Sun Yeqi
+
