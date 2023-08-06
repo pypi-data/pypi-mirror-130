@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: autodiff-aabj
+Version: 1.0.1
+Summary: A simple autodiff library.
+Home-page: https://github.com/cs107-sweet-16/cs107-FinalProject
+Author: Albert Ge, Anna Wuest, Bhawesh Kumar, Jingxing Fang
+Author-email: albertge@g.harvard.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cs107-sweet-16/cs107-FinalProject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cs107-FinalProject (Group 16)
+[![Build Status](https://app.travis-ci.com/cs107-sweet-16/cs107-FinalProject.svg?token=zpQuHJuMvMYnq6JxSWdy&branch=main)](https://app.travis-ci.com/cs107-sweet-16/cs107-FinalProject)
+[![codecov](https://codecov.io/gh/cs107-sweet-16/cs107-FinalProject/branch/main/graph/badge.svg?token=UKD2RTYMY0)](https://codecov.io/gh/cs107-sweet-16/cs107-FinalProject)
+
+Team members:
+Bhawesh	Kumar	bhawesh_kumar@hsph.harvard.edu
+
+Jingxing	Fang	jfang1@fas.harvard.edu
+
+Albert	Ge	age@fas.harvard.edu
+
+Anna	Wuest	awuest@hsph.harvard.edu
+
+
