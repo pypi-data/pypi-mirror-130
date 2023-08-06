@@ -1,0 +1,15 @@
+isd/__init__.py,sha256=OK5lJ8sXyLJz7eXpu4KBcz2PJJZYE5EfSaJM3E6Zjns,96
+isd/_version.py,sha256=apGJRoECleuUrJoVT1YXuqsffrBEoIpJiywKaXgku10,142
+isd/cli.py,sha256=gg8VeCFUj0uZy8UiE7AU66hTDKYN6fRcSpHYKIqSizo,1438
+isd/errors.py,sha256=xAsCwgb6KsQu9uUvBW9kYsWFFjPM9OLHVdIzwQ75MnY,71
+isd/io.py,sha256=r5y0eIAVrAOQXj56FsDyWFd52boLCkkW8sJsvfWsRt0,1420
+isd/pandas.py,sha256=_6RLyQrVXDHa9BxvMJC3junQMLfZjeG5HWlDQrwSzGg,4619
+isd/parquet.py,sha256=Tp8JbhcTCDZIGqmu7tewCZys0WLmbOSTZ9_U5PQsAUc,1206
+isd/record.py,sha256=VDa_HlwIf_VIeGF7VLpuX8lOoug7LzxxTnbwRqoII_g,6577
+isd/utils.py,sha256=6JuD4FjU8uN_Z6bnlteMHBuH0nP_ftSKti6w006abvI,529
+isd-0.1.5.dist-info/LICENSE,sha256=5EDbPf8Lg7eh4hmAXkM9V1T_TIsLQnMOmKL5yT6zEhU,663
+isd-0.1.5.dist-info/METADATA,sha256=mcZPON_PT42FCdi09wwUbUXgFQc44Oq8OcuamjOL4Q0,2679
+isd-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+isd-0.1.5.dist-info/entry_points.txt,sha256=LnfC7Gxfv5QS1sxcvxjeCmwV7CcMSErEL-c36Op-19c,38
+isd-0.1.5.dist-info/top_level.txt,sha256=MuY5VMHCmLo6smCPO3IIV1_KWpcj0tKFCFypP7CYRrA,4
+isd-0.1.5.dist-info/RECORD,,
