@@ -1,0 +1,5 @@
+setup.py
+polyaxon_trace.egg-info/PKG-INFO
+polyaxon_trace.egg-info/SOURCES.txt
+polyaxon_trace.egg-info/dependency_links.txt
+polyaxon_trace.egg-info/top_level.txt
