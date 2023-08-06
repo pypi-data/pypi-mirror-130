@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pysqlformat
+Version: 0.0.0.1
+Summary: Preetify PySpark SQL code
+Home-page: https://github.com/sanuj8655
+Author: Anuj Sharma
+Author-email: sanuj8655@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 3 - Alpha
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pysqlformat
+Beautify your SQL code inside Python Script's
+
+```
+pip install pysqlformat
+```
+
+

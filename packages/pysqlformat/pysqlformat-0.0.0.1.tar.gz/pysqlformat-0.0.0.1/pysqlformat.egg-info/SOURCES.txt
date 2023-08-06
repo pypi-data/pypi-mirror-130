@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pysqlformat/__init__.py
+pysqlformat/__main__.py
+pysqlformat/main.py
+pysqlformat.egg-info/PKG-INFO
+pysqlformat.egg-info/SOURCES.txt
+pysqlformat.egg-info/dependency_links.txt
+pysqlformat.egg-info/entry_points.txt
+pysqlformat.egg-info/not-zip-safe
+pysqlformat.egg-info/requires.txt
+pysqlformat.egg-info/top_level.txt
