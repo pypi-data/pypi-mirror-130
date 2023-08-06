@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+biliLive/__init__.py
+biliLive/bilibiliApi.py
+biliLive/http_api.py
+biliLive/music.py
+biliLive/sclass.py
+biliLive.egg-info/PKG-INFO
+biliLive.egg-info/SOURCES.txt
+biliLive.egg-info/dependency_links.txt
+biliLive.egg-info/requires.txt
+biliLive.egg-info/top_level.txt
