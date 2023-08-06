@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: whichip
+Version: 0.1.1
+Summary: discover (IoT) device's IP(s) in local network
+Home-page: https://github.com/observerss/whichip
+Author: observerss
+License: MIT
+Description: # Python Client
+        
+        ## Install
+        
+        ```bash
+        pip install whichip
+        ```
+        
+        ## Usage
+        
+        ### In Terminal
+        
+        ```bash
+        $ whichip
+        #10.86.8.222
+        # or
+        #not found
+        ```
+        
+        ### In Code
+        
+        ```doctest
+        >>> import whichip
+        >>> whichip.discover()
+        ['10.86.2.222']
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
