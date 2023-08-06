@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+seaeq/__init__.py
+seaeq.egg-info/PKG-INFO
+seaeq.egg-info/SOURCES.txt
+seaeq.egg-info/dependency_links.txt
+seaeq.egg-info/requires.txt
+seaeq.egg-info/top_level.txt
