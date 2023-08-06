@@ -1,0 +1,17 @@
+sudachipy/sudachipy.pyi,sha256=yurX9gzMPfl8WBOA0PoALOMP9CF137QPjafRBJmnAAs,9031
+sudachipy/sudachipy.cpython-38-x86_64-linux-gnu.so,sha256=ieBb_CtkzP30NEi4W2lldYRF7NDOtT8IoIYsFLR-Av4,7570760
+sudachipy/__init__.py,sha256=IVbBJFVE_hEs8nhNzkgQ81dstapA7dZkRrPZyGFEa1U,1217
+sudachipy/command_line.py,sha256=ileqVg0OlWv3HWG6qy8t4rIMF2-MjYo0S1dJCBwo4Ts,10188
+sudachipy/tokenizer/__init__.py,sha256=IQAeedcn8IC7jPTUHkoEPvc6lVZEzTGoq2SGynacaWk,34
+sudachipy/morpheme/__init__.py,sha256=uSU9Wms60K-0Jk_K7VKlvgTeOwwKtuKOXJpT15i7LvA,33
+sudachipy/morphemelist/__init__.py,sha256=10pXemU-zmdru58Q0HMJpTHuCc1_ymLp3TPXnOZCPY0,37
+sudachipy/resources/rewrite.def,sha256=piu2ryITYzEiXQX7z5W5eTnj8jb-7aIkDtWWQaBHDRw,5426
+sudachipy/resources/sudachi.json,sha256=Nfyw3zaZg8sUh0Rjpwo0YFIxhwn0mhR42ZO5KDIhAQ4,1232
+sudachipy/resources/unk.def,sha256=ToxMFeGK9qn8XWNuPcc_3lXVCUG5OmyINdRlPT9Uunk,2000
+sudachipy/resources/char.def,sha256=jUcPy65pFEdUVyrVV911tTnfA2Gxl4sNBDlthqCzdpU,5439
+sudachipy/dictionary/__init__.py,sha256=d-H0Qb9Pd7dOxSM-IhoUuIg974SEd3LTJzyQYSXQ9zo,35
+SudachiPy-0.6.1.dist-info/RECORD,,
+SudachiPy-0.6.1.dist-info/top_level.txt,sha256=DMerU6xrUfys9Q1vtDfj3foUdgsBBiCM7fagOqHDFx4,10
+SudachiPy-0.6.1.dist-info/WHEEL,sha256=RiwktpmF40OphKd3_aIG01PzIOQlJ7dpBn3cFSc9vak,217
+SudachiPy-0.6.1.dist-info/entry_points.txt,sha256=4jJJD3r4nR3MpZU4do_nH25nMXHAZDesjouyEWkKhco,59
+SudachiPy-0.6.1.dist-info/METADATA,sha256=NLVCPnkg4gtTdL9DPL8f7prRgd9QfUoxuiBGesba0co,12858
