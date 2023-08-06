@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/oopd_iiitd_group9.egg-info/PKG-INFO
+src/oopd_iiitd_group9.egg-info/SOURCES.txt
+src/oopd_iiitd_group9.egg-info/dependency_links.txt
+src/oopd_iiitd_group9.egg-info/top_level.txt
+src/project/__init__.py
+src/project/code.py
