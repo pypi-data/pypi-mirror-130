@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: atligator
+Version: 0.0.3
+Summary: Atlas based editing of protein interactions
+Home-page: https://github.com/Hoecker-Lab/atligator
+Author: Josef Kynast
+Author-email: josef.kynast@uni-bayreuth.de
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Hoecker-Lab/atligator/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: biopython
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: plotly (>=5.1.0)
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+ATLIGATOR is created to analyse protein-protein or protein-peptide interactions.
+
+
+
