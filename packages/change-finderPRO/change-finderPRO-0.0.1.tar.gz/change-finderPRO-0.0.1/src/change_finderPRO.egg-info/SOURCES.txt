@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/change-finderPRO/__init__.py
+src/change-finderPRO/change-finderPRO.py
+src/change_finderPRO.egg-info/PKG-INFO
+src/change_finderPRO.egg-info/SOURCES.txt
+src/change_finderPRO.egg-info/dependency_links.txt
+src/change_finderPRO.egg-info/requires.txt
+src/change_finderPRO.egg-info/top_level.txt
