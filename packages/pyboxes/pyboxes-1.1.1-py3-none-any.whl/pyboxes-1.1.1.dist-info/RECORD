@@ -1,0 +1,11 @@
+pyboxes/__init__.py,sha256=VZt4-n5hNIxgUttg-qsS21Cm5UiaHOwclVCoWAalUNc,323
+pyboxes/__main__.py,sha256=40l-bhSsgfzmMiJQaSOH9T1KoL0hHngmR835wbo8tuM,1562
+pyboxes/commands/__init__.py,sha256=HBSAvdA5awsThq818wIvwh4iNeVTGZIzyKm3lvT2fB4,148
+pyboxes/commands/gdriver.py,sha256=dVAnPaBLdTZJUqMsNSOUZmGZo9x6E77syrkLSVsPM9Y,1769
+pyboxes/commands/slack.py,sha256=QBwgs-4xdFb2Rp57_OUHvWUI24cIa28ruk3aGA5BKpc,2463
+pyboxes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyboxes-1.1.1.dist-info/entry_points.txt,sha256=tvUmxoVhdYzXwR62qoIVnqYc4xANktkTbYH99P1_Ve8,47
+pyboxes-1.1.1.dist-info/LICENSE.rst,sha256=10R8ANzvnNklP8J7vyvGq7Frfs7dZIJ1pTX8gevdchY,1078
+pyboxes-1.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pyboxes-1.1.1.dist-info/METADATA,sha256=6-vneNOboROR0ue1AZCr2Pph2ZBTu_nXtLQxWRx0neI,4015
+pyboxes-1.1.1.dist-info/RECORD,,
