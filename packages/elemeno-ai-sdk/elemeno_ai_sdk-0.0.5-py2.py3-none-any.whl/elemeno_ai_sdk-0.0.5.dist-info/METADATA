@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: elemeno-ai-sdk
+Version: 0.0.5
+Summary: A set of glue code and utilities to make using elemeno AI platform a smooth experience
+Home-page: https://gitlab.com/elemeno-ai/python-elemeno-ai-sdk
+Author: Lucas Bonatto Miguel
+Author-email: developer@elemeno.ai
+License: Apache-2.0
+Project-URL: Issue Tracker, https://gitlab.com/elemeno-ai/python-elemeno-ai-sdk/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Requires-Dist: antlr4-python3-runtime (==4.8)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.7)
+Requires-Dist: google-auth-oauthlib (==0.4.6)
+Requires-Dist: google-auth (>=1.21.1)
+Requires-Dist: google-cloud-bigquery-storage (~=0.7.0)
+Requires-Dist: google-cloud-bigquery[bqstorage,pandas] (~=1.18.0)
+Requires-Dist: googleapis-common-protos (~=1.52.0)
+Requires-Dist: grpcio (~=1.31.0)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: omegaconf (==2.1)
+Requires-Dist: pandas-gbq (==0.15.0)
+Requires-Dist: pandas (~=1.0.0)
+Requires-Dist: pyarrow (~=2.0.0)
+Requires-Dist: pyasn1-modules (==0.2.8)
+Requires-Dist: pyasn1 (==0.4.8)
+Requires-Dist: pydata-google-auth (==1.2.0)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: requests-oauthlib (==1.3.0)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: typing-inspect (==0.7.1)
+Requires-Dist: gcsfs (~=2021.8.1)
+Requires-Dist: feast (==0.9.3)
+Requires-Dist: gitpython (==2.1.1)
+Requires-Dist: gitdb2 (~=2.0.6)
+Requires-Dist: numpy (==1.19.0) ; python_version < "3.11" and python_version >= "3.7"
+Requires-Dist: pyparsing (==2.4.7) ; python_version >= "2.6" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: python-dateutil (==2.8.2) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: six (==1.16.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3"
+Requires-Dist: urllib3 (==1.26.7) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4" and python_version < "4"
+Requires-Dist: requests (==2.26.0) ; python_version >= "2.7" and python_version not in "3.0, 3.1, 3.2, 3.3, 3.4, 3.5"
+Requires-Dist: idna (==3.3) ; python_version >= "3"
+Requires-Dist: protobuf (==3.18.1) ; python_version >= "3.5"
+Requires-Dist: rsa (==4.7.2) ; python_version >= "3.5" and python_version < "4"
+Requires-Dist: google-api-core[grpc] (==1.22.4) ; python_version >= "3.6"
+Requires-Dist: google-cloud-core (~=1.0.0) ; python_version >= "3.6"
+Requires-Dist: google-crc32c (==1.3.0) ; python_version >= "3.6"
+Requires-Dist: google-resumable-media (>=0.3.1) ; python_version >= "3.6"
+Requires-Dist: libcst (==0.3.21) ; python_version >= "3.6"
+Requires-Dist: oauthlib (==3.1.1) ; python_version >= "3.6"
+Requires-Dist: packaging (==21.0) ; python_version >= "3.6"
+Requires-Dist: proto-plus (==1.19.5) ; python_version >= "3.6"
+Requires-Dist: pyyaml (~=5.3.0) ; python_version >= "3.6"
+Requires-Dist: cachetools (==4.2.4) ; python_version ~= "3.5"
+
+========
+Overview
+========
+
+A set of glue code and utilities to make using elemeno AI platform a smooth experience
+
+* Free software: Apache Software License 2.0
+
+Installation
+============
+
+::
+
+    pip install elemeno-ai-sdk
+
+You can also install the in-development version with::
+
+    pip install https://gitlab.com/elemeno-ai/python-elemeno-ai-sdk/-/archive/master/python-elemeno-ai-sdk-master.zip
+
+
+Documentation
+=============
+
+
+elemeno-ai-sdk.readthedocs.io
+
+
+Development
+===========
+
+To run all the tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+Versioning
+==========
+
+Bumping version is as simple as running `python -m bumpversion --new-version 0.0.5 patch`
+
+
+Changelog
+=========
+
+0.0.1 (2021-10-16)
+------------------
+
+* First release on PyPI.
+
+
