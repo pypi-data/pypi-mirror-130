@@ -1,0 +1,24 @@
+[dependencies]
+numpy = "0.15"
+
+[dependencies.imc-rs]
+path = "local_dependencies/imc-rs"
+
+[dependencies.pyo3]
+features = ["extension-module"]
+version = "0.15.1"
+
+[lib]
+crate-type = ["cdylib"]
+name = "pyimc"
+
+[package]
+authors = ["Alan Race <alan.race@uni-marburg.de>"]
+edition = "2021"
+homepage = "https://github.com/AlanRace/imc-rs"
+name = "pyimc"
+readme = "README.md"
+repository = "https://github.com/AlanRace/imc-rs.git"
+version = "0.1.0"
+[package.metadata.maturin]
+classifier = ["Programming Language :: Rust", "Operating System :: POSIX :: Linux", "Natural Language :: English", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: 3.10"]

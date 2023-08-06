@@ -1,0 +1,19 @@
+[package]
+name = "imc-rs"
+version = "0.1.0"
+edition = "2021"
+authors = ["Alan Race <alan.race@uni-marburg.de>"]
+homepage = "https://github.com/AlanRace/imc-rs"
+repository = "https://github.com/AlanRace/imc-rs.git"
+
+[dependencies]
+quick-xml = "0.22.0"
+nalgebra = "0.25.0" # Higher versions run into bug with rust-analyzer
+num-traits = "0.2"
+image = "0.23"
+lz4_flex = { version = "0.9.0" }
+thiserror = "1.0"
+byteorder = "1"
+rand = "0.8.0"
+
+csv = "1.1"
