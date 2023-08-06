@@ -1,0 +1,13 @@
+.gitattributes
+.gitignore
+README.md
+setup.py
+stats5b5t/__init__.py
+stats5b5t/__main__.py
+stats5b5t/api.py
+stats5b5t/tools.py
+stats5b5t.egg-info/PKG-INFO
+stats5b5t.egg-info/SOURCES.txt
+stats5b5t.egg-info/dependency_links.txt
+stats5b5t.egg-info/requires.txt
+stats5b5t.egg-info/top_level.txt
