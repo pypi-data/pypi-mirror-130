@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: libgolf
+Version: 0.0.1
+Summary: Common utilities for implementing golfing language builtin libraries
+License: Artistic-2.0
+Author: pxeger
+Author-email: _@pxeger.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: Artistic License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
