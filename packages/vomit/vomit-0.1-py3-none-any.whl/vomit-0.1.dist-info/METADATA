@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vomit
+Version: 0.1
+Summary: The new pop()
+Home-page: https://github.com/MiTo0o
+Author: MiTo
+Author-email: derzanchiang1800@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# doodoo
+________
+Don't like using .pop() because it looks weird?
+
+LOOK NO FURTHER
+
+The doodoo package contains a vomit() function which does the same thing as
+.pop().
+
+
