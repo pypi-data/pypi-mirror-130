@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: nornir-akamai
+Version: 0.0.1
+Summary: Akamai plugins for Nornir
+Home-page: https://github.com/kpressouyre/nornir_akamai
+License: Apache-2.0
+Keywords: nornir,akamai,automation
+Author: Kevin Pressouyre
+Author-email: kevin.pressouyre@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Networking
+Requires-Dist: edgegrid-python (>=1.2.1,<2.0.0)
+Requires-Dist: nornir (>=3.0.0,<4.0.0)
+Requires-Dist: packaging (>=20.9,<21.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
+Requires-Dist: urllib3 (>=1.26.3,<2.0.0)
+Project-URL: Documentation, https://github.com/kpressouyre/nornir_akamai
+Project-URL: Issues, https://github.com/kpressouyre/nornir_akamai/issues
+Project-URL: Pull Requests, https://github.com/kpressouyre/nornir_akamai/pulls
+Project-URL: Repository, https://github.com/kpressouyre/nornir_akamai
+Project-URL: Releases, https://github.com/kpressouyre/nornir_akamai/releases
+Description-Content-Type: text/markdown
+
+# nornir_akamai
+
+Collection of Nornir plugins to interact with Akamai REST API and manage GTM objects through CRUD operations.
+
+## Installation
+
+### Pip
+
+```bash
+pip install nornir-akamai
+```
+
+### Poetry
+
+```bash
+poetry add nornir-akamai
+```
+
+## Usage
+
+## Plugins
+
+### Connections
+
+
+## Authors
+
+* Kevin Pressouyre (@kpressouyre)
