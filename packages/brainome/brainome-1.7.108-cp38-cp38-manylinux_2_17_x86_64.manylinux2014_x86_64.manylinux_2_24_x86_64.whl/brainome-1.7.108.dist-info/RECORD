@@ -1,0 +1,11 @@
+version.py,sha256=8MecugUPibJYocj6I35LTL2z6bXOOiXzvQdpR97BSkk,205
+btc.so,sha256=hbyh2ucGOYfd-f1A1O3U6gMjyrb2GqIMQVk2s5kicTQ,8378616
+btc_version.py,sha256=7fLiYXq_H_OGlVGaXDp2Jo2QBMWxDN6hKKrYfDBhqp4,10639
+brainome.py,sha256=Id0BsZUO_wa1jsnBaHCgEoH6conRafj__iXaeDr5MFI,562
+brainome-1.7.108.dist-info/LICENSE,sha256=wmkLz7JUSn4WFFLEVsiISdzl9Cb3k_ceOYBSvqSRhIE,2813
+brainome-1.7.108.dist-info/RECORD,,
+brainome-1.7.108.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+brainome-1.7.108.dist-info/WHEEL,sha256=3Qjb4PB27_0uzJ45RT-2h-M7e80BWs-42dvCkzF0ac4,185
+brainome-1.7.108.dist-info/METADATA,sha256=FJ-rR4s2ceikBxEAFF0LArb7zCfSk_Lv5GRI8zmOWQQ,2126
+brainome-1.7.108.data/scripts/brainome,sha256=Julyp3DrUV0i2Y8pbesJwr_X350So0f57S5Cv6fH3aw,547
+brainome-1.7.108.data/scripts/btc,sha256=Julyp3DrUV0i2Y8pbesJwr_X350So0f57S5Cv6fH3aw,547
