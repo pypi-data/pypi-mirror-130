@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: parse-fmt
+Version: 0.5.2
+Summary: A Python parser for CASTEP fmt files (densities, potentials etc.)
+Home-page: https://github.com/CCP-NC/parse-fmt
+Author: Simone Sturniolo
+Author-email: simone.sturniolo@stfc.ac.uk
+License: MIT
+Keywords: crystallography ccpnc computational chemistry
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=2.7
+License-File: LICENSE
+Requires-Dist: numpy
+
+
+parse-fmt is a small library meant to parse .fmt files, the default format
+used by the ab-initio software CASTEP (http://www.castep.org/) to write out
+volumetric data such as electronic densities. parse-fmt provides the class
+FMTReader, which allows to read a .fmt file and stores its data, as well
+as the grid it is defined on, as members.
+
