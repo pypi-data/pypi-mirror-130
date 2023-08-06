@@ -1,0 +1,13 @@
+koala_task_manager/__init__.py,sha256=rImjW-lr_2WTUwr5KLKIvD3N8x_ffX6-4mYPLzP229o,181
+koala_task_manager/task/__init__.py,sha256=GoEuJ0WSy9Xhgaa7HW_lCo34gZYecZH2CDYr-pYFwOU,46
+koala_task_manager/task/task.py,sha256=PPrWA65rjwwE0Z_53Bsn9apuWbE3TtdHCWs7n54n6MY,1265
+koala_task_manager/task_handler/__init__.py,sha256=AMVOtk4XWz-uTV7vVlV0Bx440PvBlzoHeZRCZ0dUNRE,69
+koala_task_manager/task_handler/task_handler.py,sha256=zb6mjgyHf2MwScikXRmc69B5HfYia1_jyHjiTp37xQE,2010
+koala_task_manager/writers/__init__.py,sha256=zqAFL0ROzcA1LWE8jWEaLqaYiV57y1_DUdaTKOhID1A,196
+koala_task_manager/writers/base_writer.py,sha256=87tMueTcshYuVHufxPqTcZbeXrpZyrophy-zdXYLTkw,199
+koala_task_manager/writers/gcs_writer.py,sha256=7xUXXTwxM1s1WQBgn9Mze1xlMJ-vPL4Bquoxz9eh8r4,888
+koala_task_manager/writers/local_writer.py,sha256=z9ANVPOZwViXd6r9EogNkjbCfrADh6eftzz_g40ez4o,349
+koala_task_manager-0.0.1.dist-info/METADATA,sha256=uAF5GuWgeTbGa92w4fXjB1ExNTNy9Pu6pofWkSQRnWc,629
+koala_task_manager-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+koala_task_manager-0.0.1.dist-info/top_level.txt,sha256=CB0NOEcAFShVw-uwWU3vmIWFNsanzhoa0eqTEuMD30g,19
+koala_task_manager-0.0.1.dist-info/RECORD,,
