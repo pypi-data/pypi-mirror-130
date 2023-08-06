@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+HotelManagementPackage.egg-info/PKG-INFO
+HotelManagementPackage.egg-info/SOURCES.txt
+HotelManagementPackage.egg-info/dependency_links.txt
+HotelManagementPackage.egg-info/top_level.txt
