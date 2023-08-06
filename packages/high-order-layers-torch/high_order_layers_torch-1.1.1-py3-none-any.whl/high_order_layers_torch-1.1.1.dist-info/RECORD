@@ -1,0 +1,13 @@
+high_order_layers_torch/Basis.py,sha256=YoIohbZHdknOAcqjVH5OZbG_TMihHFZ2xZNBDR3g3Ag,13470
+high_order_layers_torch/FunctionalConvolution.py,sha256=rXnopry8mg1Y4W2VGHhj0hO0MEJMyaTbbQL_fGHtZ0U,17312
+high_order_layers_torch/LagrangePolynomial.py,sha256=uVnn_ZHpaxxuxB26UsLeQP5sXrG-v5jWaMyNifNsrHw,3256
+high_order_layers_torch/PolynomialLayers.py,sha256=48_G0V-O1JagKyYEEI-NhLjJDLJLezUwMENyPf3hFRw,10296
+high_order_layers_torch/ProductLayer.py,sha256=E2CW36fx6cougTQxzJYmwidI0AFSoUL8aiTvU56MlFQ,1719
+high_order_layers_torch/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+high_order_layers_torch/layers.py,sha256=z2wgaPR7Omr-Xxg940CRwwGecyZvRng0yYFJVTSUVFA,1832
+high_order_layers_torch/networks.py,sha256=a94AVLZGAiGWATwDy5J4Dv1Okc1_amYkBWHzR60p6Dk,7419
+high_order_layers_torch/utils.py,sha256=OmZmRfxC_amnMSww3oL9PUO5XCoHhyPuxDQF5pWWKPU,252
+high_order_layers_torch-1.1.1.dist-info/LICENSE,sha256=A7bpRMVIjtEGu_2lhgpriCvGlHNWmTNGBNdfIMbEvHY,1065
+high_order_layers_torch-1.1.1.dist-info/WHEEL,sha256=DRf8A_Psd1SF2kVqTQOOFU1Xzl3-A2qljAxBMTOusUs,83
+high_order_layers_torch-1.1.1.dist-info/METADATA,sha256=EOhyCOZxPkjMg5eUn_BlOInbLk0yeoY9fJ0KCgLEoh4,6695
+high_order_layers_torch-1.1.1.dist-info/RECORD,,
