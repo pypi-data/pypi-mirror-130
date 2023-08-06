@@ -1,0 +1,5 @@
+sanic-envconfig
+python-rapidjson
+structlog
+sl_api_client
+marshmallow
