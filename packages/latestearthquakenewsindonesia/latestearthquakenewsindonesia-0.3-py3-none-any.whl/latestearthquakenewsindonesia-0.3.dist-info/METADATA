@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: latestearthquakenewsindonesia
+Version: 0.3
+Summary: his package will get the latest earthquake news from Indonesia BMKG Meteorological, Climatological And Geophysical Agency
+Home-page: https://github.com/jakarta-remote-work/Latest-Earthquake-News
+Author: Firman Arya P
+Author-email: firmanap22@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Latest-Earthquake-News
+
+This package will get the latest earthquake news from Indonesia BMKG Meteorological, Climatological And Geophysical
+Agency
+
+## About
+This package will scrape from [BMKG](https://www.bmkg.go.id/?lang=EN)
+
+This package uses beautifulsoup4 and requests to generate ready-to-use json output containing the latest earthquake info
+
