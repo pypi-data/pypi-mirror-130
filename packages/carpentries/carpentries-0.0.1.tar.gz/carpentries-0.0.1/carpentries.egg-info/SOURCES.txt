@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+carpentries.egg-info/PKG-INFO
+carpentries.egg-info/SOURCES.txt
+carpentries.egg-info/dependency_links.txt
+carpentries.egg-info/entry_points.txt
+carpentries.egg-info/top_level.txt
