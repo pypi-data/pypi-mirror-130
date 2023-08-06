@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: handythread3
+Version: 0.0.1
+Summary: conversion of scipy recipy from https://github.com/scipy/scipy-cookbook from python2 to python3
+Home-page: https://github.com/humblemat810/handythread3
+Author: humblemat
+Author-email: humblemat@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/humblemat810/handythread3/projects
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+handythread is a python2 tool for quickly converting code to multithreaded version, however it was implemented in python 2 and this is an update of it to python 3
+
