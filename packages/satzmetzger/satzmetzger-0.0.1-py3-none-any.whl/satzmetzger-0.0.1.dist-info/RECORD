@@ -1,0 +1,11 @@
+satzmetzger/TOKEN_DATEIENDUNGEN_IGNORECASE.PKL,sha256=I67szUdlv-dq8YLlsvj_06PvOOXupyS-GGyoU0qe27E,6707
+satzmetzger/TOKEN_DOMAINSFINDEN.PKL,sha256=iJhBnicjEY3lMmRv-LBFxVH8OMamlUao40w376lIs9U,164063
+satzmetzger/TOKEN_REGEXABKUERZUNGEN.PKL,sha256=cDUSO-OwGv1VIZPnmm2alCQABLo_eCyHGtb5x10pR-c,46720
+satzmetzger/TOKEN_VORHER.PKL,sha256=4MqIaq3VaD1tRQAqpoKlDRKsAFzy5s49VqeufNXqpxI,865
+satzmetzger/__init__.py,sha256=EJL_8phdPJiATFqFHZ3z2On0C6pUongGMpzcAv0hTSA,18
+satzmetzger/satzmetzger.py,sha256=l8hSYdQtZhZNEmqinvu1KRS4oBhQu6StGVS2ZH7rBJ4,10917
+satzmetzger-0.0.1.dist-info/LICENSE,sha256=yDdXzdxkidoT-eo4o9i8g6rUmdYBPAEoq4LJW0cvFVI,1104
+satzmetzger-0.0.1.dist-info/METADATA,sha256=nDuAIvl6jn5KD5bMGIZRwo1QBfQHPQN9M_D9BQzrOsU,2147
+satzmetzger-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+satzmetzger-0.0.1.dist-info/top_level.txt,sha256=jMIlpnV7usF1M4KOJQlusrBn4iVlIubS_MXbJ0NmKds,12
+satzmetzger-0.0.1.dist-info/RECORD,,
