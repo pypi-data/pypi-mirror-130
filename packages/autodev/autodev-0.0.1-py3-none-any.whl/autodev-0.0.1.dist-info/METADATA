@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: autodev
+Version: 0.0.1
+Summary: Command line tool to automate development operations
+License: GPLv3
+Author: Lyz
+Author-email: lyz@riseup.net
+Requires-Python: >=3.7,<=3.10
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyGithub (>=1.55,<2.0)
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: repository_orm (>=0,<1)
