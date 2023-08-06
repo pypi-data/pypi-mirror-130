@@ -1,0 +1,10 @@
+README.md
+img2planes.py
+setup.cfg
+setup.py
+img2planes.egg-info/PKG-INFO
+img2planes.egg-info/SOURCES.txt
+img2planes.egg-info/dependency_links.txt
+img2planes.egg-info/entry_points.txt
+img2planes.egg-info/requires.txt
+img2planes.egg-info/top_level.txt
