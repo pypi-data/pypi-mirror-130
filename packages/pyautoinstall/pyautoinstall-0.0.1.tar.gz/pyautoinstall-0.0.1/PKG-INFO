@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: pyautoinstall
+Version: 0.0.1
+Summary: Magically install modules just by importing them!!
+Home-page: https://github.com/ajratnam/pyautoinstall
+License: MIT
+Keywords: auto,install,import,pip
+Author: Ajay Ratnam
+Author-email: ajayratnam.satheesh@gmail.com
+Maintainer: Ajay Ratnam
+Maintainer-email: ajayratnam.satheesh@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Utilities
+Project-URL: Documentation, https://github.com/ajratnam/pyautoinstall
+Project-URL: Repository, https://github.com/ajratnam/pyautoinstall
+Description-Content-Type: text/markdown
+
+<h1 align='center'>PyAutoInstall</h1>
+<h3 align='center'>Magically install modules just by importing them!!</h3>
+<p align="center">
+  <a href="https://pypi.python.org/pypi/pyautoinstall/"><img src='https://img.shields.io/badge/MADE%20WITH-Python-red?style=for-the-badge'/></a>
+  <a href="https://pypi.python.org/pypi/pyautoinstall/"><img src='https://img.shields.io/pypi/pyversions/pyautoinstall?style=for-the-badge'/></a>
+  <a href="https://pypi.python.org/pypi/pyautoinstall/"><img src='https://img.shields.io/pypi/status/pyautoinstall?style=for-the-badge'/></a>
+  <a href="https://pypi.python.org/pypi/pyautoinstall/"><img src='https://img.shields.io/pypi/l/pyautoinstall?style=for-the-badge'/></a>
+  <a href="https://pypi.python.org/pypi/pyautoinstall/"><img src='https://img.shields.io/pypi/v/pyautoinstall?style=for-the-badge'/></a>
+</p>
+
+## 📝 Description
+This is a **Work-In-Progress** Library which will **change**
+your way of installing packages **forever**.
+
+### 🤯 Disclaimer
+(This project is still in unstable planning stage)
+
+## 🔥 Getting Started
+- ### ⬇️ Installation
+  While it would be nice to install `pyautoinstall` just by importing it,
+  that just isn't the case.
+
+  - Via pip
+    ```
+    pip install pyautoinstall
+    ```
+  
+- ### ⚡ Usage
+  - Without pyautoinstall
+    ```python
+    >>> import requests
+    Traceback (most recent call last):
+      File "<stdin>", line 1, in <module>
+    ModuleNotFoundError: No module named 'requests'
+    ```
+  - With it
+    ```python
+    >>> import pyautoinstall
+    >>> import requests
+    Should I install requests? (y/n) - y
+    Successfully installed requests!!
+    >>> requests.get('https://pypi.org/project/pyautoinstall/')
+    <Response [200]>
+    ```
