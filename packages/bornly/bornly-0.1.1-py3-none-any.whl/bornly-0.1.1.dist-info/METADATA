@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: bornly
+Version: 0.1.1
+Summary: Seaborn-like API for some plotly plots
+Home-page: https://github.com/MarcoGorelli/bornly
+Author: Marco Gorelli
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Requires-Dist: plotly
+
+# Bornly
+
+Seaborn-like API, but with plotly under the hood.
+
+Very much work in progress!
+
+## Installation
+
+Note: the `$` is not part of the command:
+
+```console
+$ pip install -U bornly
+```
+
+## Demo
+
+```python
+import bornly as bs
+import seaborn as sns
+
+fmri = sns.load_dataset("fmri")
+sns.lineplot(data=fmri, x="timepoint", y="signal", hue="event")
+bs.lineplot(data=fmri, x='timepoint', y='signal', hue='event')
+```
+
+![](demo.png)
+
+
