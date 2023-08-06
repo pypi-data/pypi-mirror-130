@@ -1,0 +1,14 @@
+wonk/__init__.py,sha256=fcghn9CTEH06E7MguZo62oOw8Qq2L598RtH5h1Cx9x8,46
+wonk/aws.py,sha256=pEeszj0RsI5jYazc5nqbwgsS20yOuhBxzTJxG2y9WrM,1298
+wonk/cli.py,sha256=Ul89KBsHMQ1jOFR7ECt0G_PTwoWffI2_KRqRdVA4vBQ,4974
+wonk/config.py,sha256=BTCw8DWbhY4XXXm5DxHwtgVyP3Nho7yb5MjUUULCocQ,2801
+wonk/constants.py,sha256=BzZG4GxfZ0ZHrAGB5FZFM9SNI6s8kwcmILDrRPvnwbA,1047
+wonk/exceptions.py,sha256=grf9O3udyeHA3xevlQBIqYmB_CFpZTm8MKlwZdT2KyM,807
+wonk/models.py,sha256=nVCTSLG7DA3NhiN3OPYM8I-jrF9arqcJ4R7RYD614Aw,7026
+wonk/optimizer.py,sha256=BgJonKqydtErRe6mxYbl2JiP8GidZ-zp-Q2kL4JFiqs,1982
+wonk/policy.py,sha256=Lried67SSnWBx-SyzeICSwJs3TJpzXGaLhqs64GKOKA,11259
+wonk-0.5.3.dist-info/entry_points.txt,sha256=e-5AqTc0cSsOVwwfXzITXe9ULXgLPgWz3IvrGDkhYIM,53
+wonk-0.5.3.dist-info/LICENSE,sha256=J6FgSsy7eHiKTaBbPGGE56Z0wuDnZCwVZw9R3Tu3V0M,546
+wonk-0.5.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wonk-0.5.3.dist-info/METADATA,sha256=g2e5Ko6qRihX4qQrnfihfaDrhkQbyVcNk_7wLpK0ft8,12324
+wonk-0.5.3.dist-info/RECORD,,
