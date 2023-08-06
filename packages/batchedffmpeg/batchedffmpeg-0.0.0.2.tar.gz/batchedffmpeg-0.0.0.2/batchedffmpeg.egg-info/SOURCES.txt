@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+batchedffmpeg/__init__.py
+batchedffmpeg/batchedffmpeg.py
+batchedffmpeg.egg-info/PKG-INFO
+batchedffmpeg.egg-info/SOURCES.txt
+batchedffmpeg.egg-info/dependency_links.txt
+batchedffmpeg.egg-info/entry_points.txt
+batchedffmpeg.egg-info/not-zip-safe
+batchedffmpeg.egg-info/top_level.txt
