@@ -1,0 +1,8 @@
+CHANGELOG.rst,sha256=MvZkBFK2Cb943VcBvve72Q5iiQNqjyJLEnJl44GteHA,149
+README.rst,sha256=s6z6s8wNEWj40Tdn9e_I4LrNEnaICybLBr6_eLQy1qU,2144
+quacks/__init__.py,sha256=ZNLCSSmBR4lknpv4cjehpgMNdtC7DFiz_jNOZ9HAqAM,2286
+quacks/mypy.py,sha256=wrpffOgzbL65ySnCU9McF_0QLx2ku_X29pgDmKtSSl8,1593
+quacks/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+quacks-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+quacks-0.1.0.dist-info/METADATA,sha256=tqpFAX3AfqxQalhY5QojvM_yTY-EEYDnMWudl6vstJw,3140
+quacks-0.1.0.dist-info/RECORD,,
