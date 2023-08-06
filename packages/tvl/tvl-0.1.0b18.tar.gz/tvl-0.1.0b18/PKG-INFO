@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tvl
+Version: 0.1.0b18
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Aiden Nibali
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Provides-Extra: FffrBackend
+Provides-Extra: NvdecBackend
+Provides-Extra: PyAvBackend
+Provides-Extra: OpenCvBackend
+License-File: LICENSE
+
+UNKNOWN
+
