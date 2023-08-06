@@ -1,0 +1,10 @@
+dwdatareader/DWDataReaderLib.dll,sha256=JNxFfQVlkSOz6wMT_EHbnIMG_FGUzxTJFtEfEhgSmUI,417280
+dwdatareader/DWDataReaderLib.so,sha256=utsMz47muern8BLPoUOHt5P9fzeM6CUpqSYLEVNyNoo,484714
+dwdatareader/DWDataReaderLib64.dll,sha256=NSpiiN35uOT9Z-FlrMZLxNTFWbB7rYqplJnf73sPwO8,492032
+dwdatareader/DWDataReaderLib64.so,sha256=7hTDaLU0gxF8WzdEYzMcHEG0YQQqHXwZFdzPI9AQCtM,496890
+dwdatareader/__init__.py,sha256=qJGhA6Wf2n8Fxshs4MQhJzXC7kFOHV52NTjb8Qryeac,17869
+dwdatareader-0.15.0.dist-info/LICENSE,sha256=PLSTE5UVCkC43j_k8pb1XvIzFTXU6TgqsdPcnc1UGvw,1072
+dwdatareader-0.15.0.dist-info/METADATA,sha256=sMDnBS3MDtGohD86tD07YqSqn6cAD_AzVKwDSQFv5w8,2452
+dwdatareader-0.15.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dwdatareader-0.15.0.dist-info/top_level.txt,sha256=12hk7YQSpMH_aHcPmNiyJl7UIQjbFECAMizOtR8Tm_A,13
+dwdatareader-0.15.0.dist-info/RECORD,,
