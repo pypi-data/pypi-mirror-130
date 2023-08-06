@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: registrate
+Version: 0.1.6
+Summary: Python object registers. Keep track of your classes, functions and data. 
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

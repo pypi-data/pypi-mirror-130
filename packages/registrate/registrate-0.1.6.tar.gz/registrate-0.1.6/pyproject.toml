@@ -1,0 +1,12 @@
+[tool.poetry]
+name = "registrate"
+version = "0.1.6"
+description = "Python object registers. Keep track of your classes, functions and data. "
+authors = ["Tom Bulled <26026015+tombulled@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
