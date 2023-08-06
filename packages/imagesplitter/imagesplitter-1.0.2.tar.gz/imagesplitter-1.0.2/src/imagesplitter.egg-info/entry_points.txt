@@ -1,0 +1,3 @@
+[console_scripts]
+imagesplitter = imagesplitter.__main__:cli
+

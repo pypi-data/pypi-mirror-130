@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/imagesplitter/__init__.py
+src/imagesplitter/__main__.py
+src/imagesplitter/printerpaper.py
+src/imagesplitter/splitter.py
+src/imagesplitter.egg-info/PKG-INFO
+src/imagesplitter.egg-info/SOURCES.txt
+src/imagesplitter.egg-info/dependency_links.txt
+src/imagesplitter.egg-info/entry_points.txt
+src/imagesplitter.egg-info/not-zip-safe
+src/imagesplitter.egg-info/requires.txt
+src/imagesplitter.egg-info/top_level.txt
