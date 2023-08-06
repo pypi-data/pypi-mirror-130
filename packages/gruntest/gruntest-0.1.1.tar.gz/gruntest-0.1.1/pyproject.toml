@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "gruntest"
+version = "0.1.1"
+description = "graphql & restful / http(s) tools"
+authors = ["zy7y <396667207@qq.com>"]
+readme = "readme.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+requests = "^2.26.0"
+pytest = "^6.2.5"
+jsonpath = "^0.82"
+allure-pytest = "^2.9.45"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
