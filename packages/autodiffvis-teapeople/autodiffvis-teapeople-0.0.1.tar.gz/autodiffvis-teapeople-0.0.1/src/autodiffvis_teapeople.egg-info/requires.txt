@@ -1,0 +1,6 @@
+numpy
+matplotlib
+imageio
+
+[testing]
+pytest
