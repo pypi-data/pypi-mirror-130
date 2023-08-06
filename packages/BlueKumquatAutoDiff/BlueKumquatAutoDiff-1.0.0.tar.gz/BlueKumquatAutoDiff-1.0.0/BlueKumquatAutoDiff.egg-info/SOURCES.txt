@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+BlueKumquatAutoDiff/__init__.py
+BlueKumquatAutoDiff/autodiff.py
+BlueKumquatAutoDiff/demo.py
+BlueKumquatAutoDiff.egg-info/PKG-INFO
+BlueKumquatAutoDiff.egg-info/SOURCES.txt
+BlueKumquatAutoDiff.egg-info/dependency_links.txt
+BlueKumquatAutoDiff.egg-info/requires.txt
+BlueKumquatAutoDiff.egg-info/top_level.txt
