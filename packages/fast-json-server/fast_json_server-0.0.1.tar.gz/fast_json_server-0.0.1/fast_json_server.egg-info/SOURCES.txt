@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fast_json_server/__init__.py
+fast_json_server/graph_ql.py
+fast_json_server/json_server.py
+fast_json_server/rest_api.py
+fast_json_server.egg-info/PKG-INFO
+fast_json_server.egg-info/SOURCES.txt
+fast_json_server.egg-info/dependency_links.txt
+fast_json_server.egg-info/requires.txt
+fast_json_server.egg-info/top_level.txt
