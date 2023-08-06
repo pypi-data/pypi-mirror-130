@@ -1,0 +1,9 @@
+README.md
+setup.py
+dc6006l/__init__.py
+dc6006l.egg-info/PKG-INFO
+dc6006l.egg-info/SOURCES.txt
+dc6006l.egg-info/dependency_links.txt
+dc6006l.egg-info/entry_points.txt
+dc6006l.egg-info/requires.txt
+dc6006l.egg-info/top_level.txt
