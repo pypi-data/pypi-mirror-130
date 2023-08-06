@@ -1,0 +1,4 @@
+requests
+httpretty
+configparser
+six
