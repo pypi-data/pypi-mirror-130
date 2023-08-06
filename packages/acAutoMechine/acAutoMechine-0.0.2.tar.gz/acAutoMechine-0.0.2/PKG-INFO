@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: acAutoMechine
+Version: 0.0.2
+Summary: A fast Python implementation of ac auto mechine.
+Home-page: https://github.com/jinzitian/AcAutoMechine
+Author: Chef_J
+Author-email: hedge_jzt@hotmail.com
+Maintainer: Chef_J
+Maintainer-email: hedge_jzt@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+=================
+AC Auto Mechine
+=================
+
+A fast Python implementation of Ac Auto Mechine
+
+Installation
+============
+To install:
+
+.. code-block:: bash
+
+    $ pip install acAutoMechine
+
+Quickstart
+==========
+
+.. code-block:: python
+
+    from acAutoMechine import Ac_mechine
+    
+    ### usage one:
+    actree = Ac_mechine()
+    actree.add_keys('he')
+    actree.add_keys('her')
+    actree.add_keys('here')
+    actree.build_actree()
+    ### all match
+    print(actree.match("he here her"))  
+    ### long match
+    print(actree.match_long("he here her"))  
+    ### all match with match path
+    print(actree.match("he here her"), True)  
+    ### long match with match path
+    print(actree.match_long("he here her"), True)  
+    
+	
+
+
