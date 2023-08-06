@@ -1,0 +1,11 @@
+.DS_Store,sha256=ATFsnfZ8qZ5rhBuxBZxAMDO1kNxsIkt8eDXcx57WdHk,6148
+artific/__init__.py,sha256=yWaGhRHQtPlUdEtK8PhvpSG60hsWr7gktj1XQVWo_Ck,178
+artific/artific.py,sha256=gkPS2SwbHv7BEsGgcVtOJZ3DjYzxqRHLGbFi82awTgI,3983
+artific/cli.py,sha256=gQ-r0ytDJ-i_DhF6xyl1n1ZteZvjeVRQP8Ga24oKmLc,399
+artific-0.0.9.dist-info/AUTHORS.rst,sha256=MkOcaDiKbYSHIDbBRpv-c6-OtUWiVouOhymivCXHl-8,155
+artific-0.0.9.dist-info/LICENSE,sha256=qOpR7X6ZfxXd1Q2Tn9Mfmery7Ct1sXGURKhdIpXTHLw,1069
+artific-0.0.9.dist-info/METADATA,sha256=s6S3VoUTpI7WIB848C9vBIEys4zM72sSFyPcCCsZwso,4310
+artific-0.0.9.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+artific-0.0.9.dist-info/entry_points.txt,sha256=gRy3pG6Rxwr7vw5hNg7su0Vo1q2WfPABCNeFI2CV2WE,46
+artific-0.0.9.dist-info/top_level.txt,sha256=OLGlSuxNGQlvhLb3o6NzZvBQVfITlEdm2I8eOMXs29o,8
+artific-0.0.9.dist-info/RECORD,,
