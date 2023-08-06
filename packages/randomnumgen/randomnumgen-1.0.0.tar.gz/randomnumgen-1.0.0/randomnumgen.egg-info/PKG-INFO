@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: randomnumgen
+Version: 1.0.0
+Summary: A Python3 library that generates random numbers
+Home-page: https://github.com/SriMethan/randomnumgen
+Author: SriMethan
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/SriMethan/randomnumgen/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# randomnumgen
+
+![PyPI version](https://badge.fury.io/py/randomnumgen.svg) ![Tests](https://github.com/SriMethan/randomnumgen/actions/workflows/tests.yml/badge.svg)
+
+**Randomnumgen is a Python library that generates random numbers.**
+
+Installing
+----------
+
+Download and install the latest release:
+
+    pip install randomnumgen
+
+
+Example usuage
+----------
+
+```python
+import randomnumgen
+
+print(randomnum)
+```
+
+## License
+randomnumgen is licensed under the MIT Check out LICENSE.txt for the full text.
+
+
