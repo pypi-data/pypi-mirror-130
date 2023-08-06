@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+gardiner2unicode/__init__.py
+gardiner2unicode/gardiner2unicode.py
+gardiner2unicode/meta.py
+gardiner2unicode/unicode2png.py
+gardiner2unicode.egg-info/PKG-INFO
+gardiner2unicode.egg-info/SOURCES.txt
+gardiner2unicode.egg-info/dependency_links.txt
+gardiner2unicode.egg-info/not-zip-safe
+gardiner2unicode.egg-info/top_level.txt
+gardiner2unicode/data/NewGardinerSMP.ttf
+gardiner2unicode/data/__init__.py
+gardiner2unicode/data/wikipedia_table.wiki
