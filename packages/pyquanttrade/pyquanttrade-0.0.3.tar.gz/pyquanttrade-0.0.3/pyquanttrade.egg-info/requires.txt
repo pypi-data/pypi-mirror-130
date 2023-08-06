@@ -1,0 +1,7 @@
+pandas
+datetime
+IPython
+altair
+scipy
+quandl
+decouple
