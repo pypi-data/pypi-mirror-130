@@ -1,0 +1,16 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+danish/__init__.py
+danish/_version.py
+danish/factory.py
+danish/fitter.py
+danish.egg-info/PKG-INFO
+danish.egg-info/SOURCES.txt
+danish.egg-info/dependency_links.txt
+danish.egg-info/not-zip-safe
+danish.egg-info/requires.txt
+danish.egg-info/top_level.txt
+src/danish.cpp
