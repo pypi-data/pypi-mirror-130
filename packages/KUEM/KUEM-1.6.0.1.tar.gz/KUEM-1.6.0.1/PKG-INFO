@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: KUEM
+Version: 1.6.0.1
+Summary: A sim class to setup, simulate and create videos and plots of electrostatics and dynamics systems
+Home-page: https://github.com/RasmusBruhn/KUEM
+Author: Rasmus Bruhn Nielsen
+Author-email: rasmusbruhnnielsen@gmail.com
+License: MIT
+Download-URL: https://github.com/RasmusBruhn/KUEM/archive/refs/tags/v1.6.tar.gz
+Description: UNKNOWN
+Keywords: Electromagnetism,Simulation,University of Copenhagen
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
