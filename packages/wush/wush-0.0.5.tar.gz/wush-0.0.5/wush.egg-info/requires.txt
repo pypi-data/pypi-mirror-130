@@ -1,0 +1,7 @@
+browsercookie
+requests
+pyyaml
+prompt_toolkit
+flask
+rich
+wpy
