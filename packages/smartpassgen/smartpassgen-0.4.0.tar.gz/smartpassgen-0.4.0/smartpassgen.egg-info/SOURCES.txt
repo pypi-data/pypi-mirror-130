@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+tox.ini
+smartpassgen/__init__.py
+smartpassgen/generators.py
+smartpassgen.egg-info/PKG-INFO
+smartpassgen.egg-info/SOURCES.txt
+smartpassgen.egg-info/dependency_links.txt
+smartpassgen.egg-info/not-zip-safe
+smartpassgen.egg-info/top_level.txt
