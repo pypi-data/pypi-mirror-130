@@ -1,0 +1,5 @@
+bitcoinX==0.6.0
+
+[testing]
+rabin
+ecdsa
