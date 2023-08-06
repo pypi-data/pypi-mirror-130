@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Application/Covid_dashboard_pkg_rt539.egg-info/PKG-INFO
+Application/Covid_dashboard_pkg_rt539.egg-info/SOURCES.txt
+Application/Covid_dashboard_pkg_rt539.egg-info/dependency_links.txt
+Application/Covid_dashboard_pkg_rt539.egg-info/requires.txt
+Application/Covid_dashboard_pkg_rt539.egg-info/top_level.txt
+Application/tests/__init__.py
+Application/tests/test_covid_dashboard.py
+Application/tests/test_covid_data_handler.py
+Application/tests/test_news_data_handling.py
