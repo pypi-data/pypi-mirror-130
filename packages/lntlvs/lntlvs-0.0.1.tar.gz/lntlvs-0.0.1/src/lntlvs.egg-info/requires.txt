@@ -1,0 +1,6 @@
+click<9,>=8.0.3
+grpcio<2,>=1.42
+googleapis-common-protos<2,>=1.53
+
+[dev]
+grpcio-tools<2,>=1.42
