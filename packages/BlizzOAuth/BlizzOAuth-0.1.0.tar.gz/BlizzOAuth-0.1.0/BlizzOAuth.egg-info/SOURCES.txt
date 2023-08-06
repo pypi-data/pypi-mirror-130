@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+BlizzOAuth.egg-info/PKG-INFO
+BlizzOAuth.egg-info/SOURCES.txt
+BlizzOAuth.egg-info/dependency_links.txt
+BlizzOAuth.egg-info/requires.txt
+BlizzOAuth.egg-info/top_level.txt
