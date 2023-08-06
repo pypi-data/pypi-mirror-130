@@ -1,0 +1,11 @@
+.idea/
+__pycache__/
+*.egg-info/
+dist/
+build/
+/clean.bat
+/build.bat
+/upload.bat
+/concept
+/delbranch.bat
+/push.bat
