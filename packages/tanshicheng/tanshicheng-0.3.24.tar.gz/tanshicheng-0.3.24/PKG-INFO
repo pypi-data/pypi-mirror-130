@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: tanshicheng
+Version: 0.3.24
+Summary: tanshicheng's tools
+Home-page: https://github.com/aitsc
+Author: tanshicheng
+License: GPLv3
+Keywords: tools
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3.6
+License-File: LICENSE
+
+
+作者:
+    tanshicheng
+包括:
+    用于读取参数文件
+    文件、xml、正则的一般处理/读写
+    时间/过程处理
+日志:
+    2018年09月11日: 增加过程时间输出(ProgressAndTime)
+    2018年09月13日: 增加pickle读写(FileProcess)等
+    2018年09月14日: 增加简化的时间输出(ProgressAndTime.ProgressOut2)等
+    2018-11-17：仿照 tqdm 增加 ProgressOut3，可以在循环中控制头部输出
+
+
