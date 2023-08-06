@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+scrapy_sticky_meta_params/__init__.py
+scrapy_sticky_meta_params/middleware.py
+scrapy_sticky_meta_params.egg-info/PKG-INFO
+scrapy_sticky_meta_params.egg-info/SOURCES.txt
+scrapy_sticky_meta_params.egg-info/dependency_links.txt
+scrapy_sticky_meta_params.egg-info/requires.txt
+scrapy_sticky_meta_params.egg-info/top_level.txt
