@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/EzTg/__init__.py
+src/EzTg/main.py
+src/EzTg.egg-info/PKG-INFO
+src/EzTg.egg-info/SOURCES.txt
+src/EzTg.egg-info/dependency_links.txt
+src/EzTg.egg-info/requires.txt
+src/EzTg.egg-info/top_level.txt
