@@ -1,0 +1,96 @@
+Metadata-Version: 2.1
+Name: Trolls
+Version: 0.3.5
+Summary: Hidden monsters
+Home-page: https://github.com/cnheider/trolls
+Author: Christian Heider Nielsen
+Author-email: christian.heider@alexandra.dk
+Maintainer: Christian Heider Nielsen
+Maintainer-email: christian.heider@alexandra.dk
+License: Apache License, Version 2.0
+Download-URL: https://github.com/cnheider/trolls/releases
+Keywords: python reinforcement-learning interface api
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: numpy
+Requires-Dist: six
+Requires-Dist: scikit-image
+Requires-Dist: sorcery
+Requires-Dist: draugr[drawers]
+Requires-Dist: gym
+Requires-Dist: cloudpickle
+Requires-Dist: pytest
+Provides-Extra: all
+Requires-Dist: trolls ; extra == 'all'
+Requires-Dist: mistune (<2.0.0) ; extra == 'all'
+Requires-Dist: pytest (>=4.4.1) ; extra == 'all'
+Requires-Dist: pip (>=19.0.3) ; extra == 'all'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'all'
+Requires-Dist: m2r2 ; extra == 'all'
+Requires-Dist: draugr ; extra == 'all'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'all'
+Requires-Dist: black (>=18.9b0) ; extra == 'all'
+Requires-Dist: twine (>=1.13.0) ; extra == 'all'
+Requires-Dist: coveralls (>=1.6.0) ; extra == 'all'
+Requires-Dist: wheel (>=0.33.0) ; extra == 'all'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'all'
+Provides-Extra: dev
+Requires-Dist: trolls ; extra == 'dev'
+Requires-Dist: mistune (<2.0.0) ; extra == 'dev'
+Requires-Dist: pytest (>=4.4.1) ; extra == 'dev'
+Requires-Dist: pip (>=19.0.3) ; extra == 'dev'
+Requires-Dist: pytest (>=4.3.0) ; extra == 'dev'
+Requires-Dist: black (>=18.9b0) ; extra == 'dev'
+Requires-Dist: twine (>=1.13.0) ; extra == 'dev'
+Requires-Dist: m2r2 ; extra == 'dev'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'dev'
+Requires-Dist: coveralls (>=1.6.0) ; extra == 'dev'
+Requires-Dist: draugr ; extra == 'dev'
+Requires-Dist: wheel (>=0.33.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.6.1) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: trolls ; extra == 'docs'
+Requires-Dist: mistune (<2.0.0) ; extra == 'docs'
+Requires-Dist: m2r2 ; extra == 'docs'
+Requires-Dist: draugr ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Provides-Extra: setup
+Requires-Dist: pytest (>=4.4.1) ; extra == 'setup'
+Provides-Extra: tests
+Requires-Dist: pytest (>=4.4.1) ; extra == 'tests'
+
+
+<!--![trolls](.github/images/troll.svg)-->
+
+<p align="center">
+  <img src=".github/images/troll.svg" alt='Troll' />
+</p>
+
+<h1 align="center">Trolls</h1>
+
+<!--# Trolls-->
+
+| [![Build Status](https://travis-ci.com/cnheider/trolls.svg?branch=master)](https://travis-ci.com/cnheider/trolls) | [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black) | [![Coverage Status](https://coveralls.io/repos/github/cnheider/trolls/badge.svg?branch=master)](https://coveralls.io/github/cnheider/trolls?branch=master) | [![Python 3](https://pyup.io/repos/github/cnheider/trolls/python-3-shield.svg)](https://pyup.io/repos/github/cnheider/trolls/) | [![Updates](https://pyup.io/repos/github/cnheider/trolls/shield.svg)](https://pyup.io/repos/github/cnheider/trolls/) |
+|---|---|---|---|---|
+
+___
+> Hidden monsters, and ugly beasts
+___
+
+![python](.github/images/python.svg)
+
+This package is quite dirty wrappers around existing Agent-Environment Feedback(state, action, signal) Loop environments. The goal being unification of interfaces, syntax and parallelisation.
+
