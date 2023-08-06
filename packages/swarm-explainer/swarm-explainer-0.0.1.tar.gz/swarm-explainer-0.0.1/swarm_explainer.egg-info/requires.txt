@@ -1,0 +1,8 @@
+pandas
+sklearn
+numpy
+shap
+seaborn
+
+[test]
+pytest
