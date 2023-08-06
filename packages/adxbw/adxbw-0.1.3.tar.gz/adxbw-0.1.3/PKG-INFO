@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: adxbw
+Version: 0.1.3
+Summary: Automated differentiation tool developed by ucxbw
+Home-page: https://github.com/cs107-ucxbw/cs107-FinalProject/
+Author: Lanting Li, Jiaye Chen, Jenny Dong
+Author-email: lanting_li@hms.harvard.edu, jiaye_chen@hms.harvard.edu, wdong@hms.harvard.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+License-File: LICENSE
+
+# cs107-FinalProject
+
+
+## Group members:
+
+- Lanting Li
+- Jenny Dong
+- Jiaye Chen
+
+
+## Group number: 36
+
+
+## Installation:
+
+`pip install -i https://test.pypi.org/simple/ ad-xbw`
+
+
