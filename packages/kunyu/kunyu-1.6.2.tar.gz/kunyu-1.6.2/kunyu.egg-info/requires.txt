@@ -1,0 +1,10 @@
+mmh3
+requests
+tld
+xlwt
+grequests
+rich
+colorama
+pocsuite3
+colorlog
+setuptools
