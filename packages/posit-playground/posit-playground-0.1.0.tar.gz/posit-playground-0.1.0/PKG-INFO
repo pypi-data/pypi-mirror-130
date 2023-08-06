@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: posit-playground
+Version: 0.1.0
+Summary: Posit arithmetic library with no frills
+Author: Francesco Urbani
+Author-email: francescourbanidue@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.21.4,<2.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: softposit (>=0.3.4.4,<0.4.0.0)
