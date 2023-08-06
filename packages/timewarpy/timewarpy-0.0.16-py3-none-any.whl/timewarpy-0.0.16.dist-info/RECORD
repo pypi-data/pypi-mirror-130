@@ -1,0 +1,14 @@
+timewarpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/datasets.py,sha256=F2iQbf06-e2DQ-kF6EnkdtB3qYDzIno02O-i1uohdY4,450
+timewarpy/postprocess.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/preprocess.py,sha256=WuslR0066inzgoUeWj1NTcZABQKp4qxFidmyEOq3X-E,1072
+timewarpy/visuals.py,sha256=ay_jO1tDFPYSleYaWn4grwYn2mH9z67KNyJ58dSKI-U,2126
+timewarpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/tests/test_datasets.py,sha256=Umf_VjvspUERudytBlOw-cqU8I4E19SsxnLPZDApzTg,122
+timewarpy/tests/test_preprocess.py,sha256=gQS1gKDn0JzpLiXOtZbajen_ywNYwu2y_FIcnqGp4-Q,227
+timewarpy-0.0.16.dist-info/LICENSE,sha256=SoJRIX2B8v7O7ZuijyjfP28nTodajRZ5N-36ZcLHDmc,1519
+timewarpy-0.0.16.dist-info/METADATA,sha256=k90LhoIrsAU6Op8sjvRtbuukFrWN8tJuiOuSdbYtM78,1646
+timewarpy-0.0.16.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+timewarpy-0.0.16.dist-info/top_level.txt,sha256=43TaxLmo2JgBAHFtdq6Xz8tSGCXtUaG2eTly1fJIMJU,10
+timewarpy-0.0.16.dist-info/RECORD,,
