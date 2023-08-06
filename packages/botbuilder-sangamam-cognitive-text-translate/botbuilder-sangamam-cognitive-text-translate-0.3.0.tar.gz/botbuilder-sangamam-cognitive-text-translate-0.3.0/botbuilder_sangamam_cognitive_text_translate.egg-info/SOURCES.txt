@@ -1,0 +1,13 @@
+README.md
+setup.py
+botbuilder/sangamam/cognitive/text/translate/__init__.py
+botbuilder/sangamam/cognitive/text/translate/about.py
+botbuilder/sangamam/cognitive/text/translate/translate_middleware.py
+botbuilder/sangamam/cognitive/text/translate/translate_response.py
+botbuilder/sangamam/cognitive/text/translate/translate_service.py
+botbuilder/sangamam/cognitive/text/translate/translate_settings.py
+botbuilder_sangamam_cognitive_text_translate.egg-info/PKG-INFO
+botbuilder_sangamam_cognitive_text_translate.egg-info/SOURCES.txt
+botbuilder_sangamam_cognitive_text_translate.egg-info/dependency_links.txt
+botbuilder_sangamam_cognitive_text_translate.egg-info/requires.txt
+botbuilder_sangamam_cognitive_text_translate.egg-info/top_level.txt
