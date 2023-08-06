@@ -1,0 +1,11 @@
+setup.py
+mcStalker/__init__.py
+mcStalker/cachedMCStalker.py
+mcStalker/cachedTests.py
+mcStalker/mcStalker.py
+mcStalker/normalTests.py
+mcStalker.egg-info/PKG-INFO
+mcStalker.egg-info/SOURCES.txt
+mcStalker.egg-info/dependency_links.txt
+mcStalker.egg-info/requires.txt
+mcStalker.egg-info/top_level.txt
