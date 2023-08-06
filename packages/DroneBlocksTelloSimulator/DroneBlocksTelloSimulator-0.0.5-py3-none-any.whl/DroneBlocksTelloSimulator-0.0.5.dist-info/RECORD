@@ -1,0 +1,10 @@
+DroneBlocksTelloSimulator/__init__.py,sha256=trVkj9au9KBMPXSaEuNB0NkkTYKExGXsnc0v8m10SwM,88
+DroneBlocksTelloSimulator/drone.py,sha256=fR4nqSkIoUnpICfUJaamhxlMqfOADguzjdfVUjTFX0w,3506
+DroneBlocksTelloSimulator/enforce_types.py,sha256=PkMcvZtRdaD2M3KXzN6Pov9mOudlQIYAa68eaAskxSY,2254
+DroneBlocksTelloSimulator/swarm.py,sha256=JctwprxEK9s89iwvS5b2_dkFTNVeFbDd8Zmj-rLEi3Q,4254
+DroneBlocksTelloSimulator/tello.py,sha256=C3-bRGK9saAPaaywlsyRBEHQdg_9Zw4bVPequrEvZy4,36293
+DroneBlocksTelloSimulator-0.0.5.dist-info/LICENSE,sha256=s2Bpx45yavs4ZD7YNVIWBVampqSA-6ik4E90CsU36H8,1072
+DroneBlocksTelloSimulator-0.0.5.dist-info/METADATA,sha256=iGc-h2YhXo_Jf9Luq2daMS9LGShTBaZbEC4Ck66MZeM,4404
+DroneBlocksTelloSimulator-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+DroneBlocksTelloSimulator-0.0.5.dist-info/top_level.txt,sha256=-q2n2FxgUhuhc6_B4FUSX9xpUDhxegrMM4TVG6NQvHI,26
+DroneBlocksTelloSimulator-0.0.5.dist-info/RECORD,,
