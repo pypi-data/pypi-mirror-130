@@ -1,0 +1,12 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+world2vec/__init__.py
+world2vec/main.py
+world2vec.egg-info/PKG-INFO
+world2vec.egg-info/SOURCES.txt
+world2vec.egg-info/dependency_links.txt
+world2vec.egg-info/entry_points.txt
+world2vec.egg-info/requires.txt
+world2vec.egg-info/top_level.txt

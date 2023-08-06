@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: world2vec
+Version: 0.3.0
+Summary: The python API client for world2vec
+Home-page: UNKNOWN
+Author: world2vec
+Author-email: nathan@world2vec.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+### In Progress
+
