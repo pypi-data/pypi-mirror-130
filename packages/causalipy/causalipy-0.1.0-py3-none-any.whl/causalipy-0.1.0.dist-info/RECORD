@@ -1,0 +1,9 @@
+causalipy/custom_types.py,sha256=ky-aiEAtZh262V3Ka2JLebhB2u_3TxonG6SbncSD62A,347
+causalipy/did/doubly_robust.py,sha256=SVCcDxV4kXh8H2xPrEho8yc5MdCT_78RZf7Upgeg71E,8265
+causalipy/did/multi_periods.py,sha256=znctQ1lUukk3fQnOmhQHU7oKoRgaZOX6vQvJnmU5duA,6793
+causalipy/logistic_regression.py,sha256=Mbg5XaOj6HdrbT8OevDsrygfC73AucC4xykv-ILC7s8,3275
+causalipy/ols.py,sha256=FzJhNH-Y6xUJBxPOmvrIIZaazXculqrg20rWvH8ZHbc,1269
+causalipy-0.1.0.dist-info/LICENSE,sha256=sJd-VPbPr6EYXVKDfCf1wwew3Tjpql1Xjxs2fcrI3fY,1078
+causalipy-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+causalipy-0.1.0.dist-info/METADATA,sha256=ImsPj5368NvcagGISP1VLB5SFwHwhHB9bObPqqKLbws,475
+causalipy-0.1.0.dist-info/RECORD,,
