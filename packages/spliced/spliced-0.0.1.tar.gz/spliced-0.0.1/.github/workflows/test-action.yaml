@@ -1,0 +1,54 @@
+name: Test Spliced Action
+on:
+  pull_request: []
+ 
+jobs:
+  install-spliced:
+    runs-on: ubuntu-latest
+    name: Install Spliced
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install Spliced
+        uses: ./action/install
+
+  generate-matrix:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    name: Generate Spliced Matrix
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Generate Matrix
+        uses: ./action/matrix
+        id: matrix
+        with:
+          yaml: ./examples/curl.yaml
+
+      - name: Show result
+        env:
+           matrix: ${{ steps.matrix.outputs.matrix }}
+        run: |
+           printf "${{ env.matrix }}\n"
+      - name: Retrieve aritfacts
+        uses: ./action/artifacts
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          
+  get-artifacts-ui:
+    runs-on: ubuntu-latest
+    permissions:
+      packages: write
+    name: Get Artifacts and Generate UI
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Retrieve aritfacts
+        uses: ./action/artifacts
+        with:
+          repository: buildsi/spack-splices
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Generate UI
+        uses: ./action/ui
