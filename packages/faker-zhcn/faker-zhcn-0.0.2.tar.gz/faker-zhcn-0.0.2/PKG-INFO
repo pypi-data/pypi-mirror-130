@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: faker-zhcn
+Version: 0.0.2
+Summary: 一个专门用于中文随机生成的库
+Home-page: UNKNOWN
+Author: buladou
+Author-email: 1121031509@qq.com
+License: LICENSE
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+# Faker-chs
+
+### 一个专门用于中文随机生成的库
+
