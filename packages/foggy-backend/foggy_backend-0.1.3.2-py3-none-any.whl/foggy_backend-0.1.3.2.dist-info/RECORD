@@ -1,0 +1,17 @@
+foggy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foggy/__main__.py,sha256=YRHAwmVmoKy-GMs9aG_3FbhIzuj5gBCE5XlnzXBbX_4,2473
+foggy/exception.py,sha256=fV7W58sb2DQ4dWzJIbi6LDFR5rrvBLgrz8iko-NA7dc,91
+foggy/filedb.py,sha256=WsAzz_TOlhgu2Efcl3ozf9PwDnz2XfuxSmj7gh3Ncpc,15407
+foggy/mdns.py,sha256=L0JRbz3WhmlX23jYNadBcOqjckRsuN1wyx1wMLvlgWo,878
+foggy/utils.py,sha256=9MDf3_9rBJ6dZTRcw3ZoE3O2sucVAuigz1n3xca8HIo,1736
+foggy/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foggy/api/app.py,sha256=5bgIWJ_84rtirVYkT8HwdkPfWk2f567UPTCWCk0O7nU,496
+foggy/api/files.py,sha256=qJkufwZ_KFst6kxESDognHeeKdZ_Rbf_ObSC5YG4Hyw,1655
+foggy/api/hello.py,sha256=Ue_HQmalHzceTAeJbWDVhTfCzztX6fGxn3BXi1cgAs4,1303
+foggy/api/index.py,sha256=SYQqyRJwyTPM5Rf9it5hb0yblEearBkMgS_hpbzgIwo,723
+foggy_backend-0.1.3.2.dist-info/LICENSE,sha256=NQBv2ZKBVeLKKagHxloF7jSjMWS6FKWgAVBVWUkBsh4,11343
+foggy_backend-0.1.3.2.dist-info/METADATA,sha256=liJkM8-AK_xpvZ-_e_c9XXbs28w-53Q0nKMT2sjCuSM,5577
+foggy_backend-0.1.3.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+foggy_backend-0.1.3.2.dist-info/entry_points.txt,sha256=JyTfwLvtlkPu31T-PAIUtCy2GorzUO2FlAMzRQcv-WU,47
+foggy_backend-0.1.3.2.dist-info/top_level.txt,sha256=bvw9diduMPET4lcvismpSnDw4IP2kswahqbQj0ax_U4,6
+foggy_backend-0.1.3.2.dist-info/RECORD,,
