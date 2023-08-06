@@ -1,0 +1,9 @@
+[build-system]
+requires = [
+    "setuptools>=42",
+    "wheel",
+    "Flask_jwt_extended",
+    "flask",
+    "werkzeug"
+]
+build-backend = "setuptools.build_meta"
