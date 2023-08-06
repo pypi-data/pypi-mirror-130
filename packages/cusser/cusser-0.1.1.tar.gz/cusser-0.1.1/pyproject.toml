@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "cusser"
+version = "0.1.1"
+description = "A curses wrapper that understands ANSI escape code sequences"
+authors = ["Felipe S. S. Schneider <schneider.felipe@posgrad.ufsc.br>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/getcuia/cusser"
+repository = "https://github.com/getcuia/cusser"
+keywords = [
+    "ansi-escape-codes",
+    "ansi",
+    "cli",
+    "command-line",
+    "console",
+    "cuia",
+    "curses",
+    "cusser",
+    "ncurses",
+    "pdcurses",
+    "terminal",
+    "tui",
+]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Environment :: Console :: Curses",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Software Development :: User Interfaces",
+    "Topic :: Terminals :: Terminal Emulators/X Terminals",
+    "Topic :: Text Processing :: Markup",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+stransi = "^0.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+mypy = "^0.910"
+bandit = "^1.7.1"
+flake8 = "^4.0.1"
+black = {version = "^21.10b0", allow-prereleases = true}
+isort = "^5.10.1"
+pydocstyle = "^6.1.1"
+pylint = "^2.11.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
