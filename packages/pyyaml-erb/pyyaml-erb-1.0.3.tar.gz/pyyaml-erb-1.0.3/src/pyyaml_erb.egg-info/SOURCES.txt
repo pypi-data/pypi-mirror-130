@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/erb/__init__.py
+src/erb/_parse.py
+src/erb/yml.py
+src/pyyaml_erb.egg-info/PKG-INFO
+src/pyyaml_erb.egg-info/SOURCES.txt
+src/pyyaml_erb.egg-info/dependency_links.txt
+src/pyyaml_erb.egg-info/entry_points.txt
+src/pyyaml_erb.egg-info/requires.txt
+src/pyyaml_erb.egg-info/top_level.txt
