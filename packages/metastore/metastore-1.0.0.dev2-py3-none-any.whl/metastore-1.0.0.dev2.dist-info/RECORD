@@ -1,0 +1,10 @@
+CHANGELOG.md,sha256=S1DMgHzMsb4F-mgmBQFsTJ0tC_Rc-tr0p2zqJ5lW9bQ,397
+LICENSE.md,sha256=0AfUshFQhGaiaJOjc6QbYgzvwcFMcJQyulZREatKsQc,1525
+README.md,sha256=f6_PMVBYz4iv7OZqF5vHp-1SXU43PAilrV_bG_mJqSY,1993
+metastore/__init__.py,sha256=PRL9p8TcfgAjPDgsmLvgX0WwpQNOhz9WSMV09jdfcZY,70
+metastore/package.py,sha256=AfBGUCJVKrYi394yTGpznxbUjBAEs7KFz82B_qGqrqs,496
+metastore-1.0.0.dev2.dist-info/LICENSE.md,sha256=0AfUshFQhGaiaJOjc6QbYgzvwcFMcJQyulZREatKsQc,1525
+metastore-1.0.0.dev2.dist-info/METADATA,sha256=NTNpkHCmTfKtdCnDoN6St2rdUdOSPVjNV_IdfHJlXqw,3255
+metastore-1.0.0.dev2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+metastore-1.0.0.dev2.dist-info/top_level.txt,sha256=5ED75uhz3_7qUMikeKREO9KkLIwncQSkuO2YA4reoKA,10
+metastore-1.0.0.dev2.dist-info/RECORD,,
