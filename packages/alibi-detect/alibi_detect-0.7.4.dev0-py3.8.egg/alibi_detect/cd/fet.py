@@ -1,0 +1,245 @@
+import logging
+import numpy as np
+from typing import Callable, Dict, Tuple, Optional, Union
+from alibi_detect.cd.base import BaseUnivariateDrift
+from scipy.stats import hypergeom
+from scipy.special import betaln
+import numba as nb
+
+logger = logging.getLogger(__name__)
+
+
+class FETDrift(BaseUnivariateDrift):
+    def __init__(
+            self,
+            x_ref: Union[np.ndarray, list],
+            p_val: float = .05,
+            preprocess_x_ref: bool = True,
+            update_x_ref: Optional[Dict[str, int]] = None,
+            preprocess_fn: Optional[Callable] = None,
+            correction: str = 'bonferroni',
+            alternative: str = 'less',
+            n_features: Optional[int] = None,
+            input_shape: Optional[tuple] = None,
+            data_type: Optional[str] = None
+    ) -> None:
+        """
+        Fisher exact test (FET) data drift detector, with Bonferroni or False Discovery Rate (FDR)
+        correction for multivariate data.
+
+        Parameters
+        ----------
+        x_ref
+            Data used as reference distribution. Data must consist of either [True, False]'s, or [0, 1]'s.
+        p_val
+            p-value used for significance of the FET test. If the FDR correction method
+            is used, this corresponds to the acceptable q-value.
+        preprocess_x_ref
+            Whether to already preprocess and store the reference data.
+        update_x_ref
+            Reference data can optionally be updated to the last n instances seen by the detector
+            or via reservoir sampling with size n. For the former, the parameter equals {'last': n} while
+            for reservoir sampling {'reservoir_sampling': n} is passed.
+        preprocess_fn
+            Function to preprocess the data before computing the data drift metrics.
+        correction
+            Correction type for multivariate data. Either 'bonferroni' or 'fdr' (False Discovery Rate).
+        alternative
+            Defines the alternative hypothesis. Options are 'less', 'greater' or 'two-sided'.
+        n_features
+            Number of features used in the FET test. No need to pass it if no preprocessing takes place.
+            In case of a preprocessing step, this can also be inferred automatically but could be more
+            expensive to compute.
+        input_shape
+            Shape of input data.
+        data_type
+            Optionally specify the data type (tabular, image or time-series). Added to metadata.
+        """
+        super().__init__(
+            x_ref=x_ref,
+            p_val=p_val,
+            preprocess_x_ref=preprocess_x_ref,
+            update_x_ref=update_x_ref,
+            preprocess_fn=preprocess_fn,
+            correction=correction,
+            n_features=n_features,
+            input_shape=input_shape,
+            data_type=data_type
+        )
+        if alternative.lower() not in ['less', 'greater', 'two-sided']:
+            raise ValueError("`alternative` must be either 'less', 'greater' or 'two-sided'.")
+        self.alternative = alternative.lower()
+
+        # Check data is only [False, True] or [0, 1]
+        values = set(np.unique(x_ref))
+        if values != {True, False} and values != {0, 1}:
+            raise ValueError("The `x_ref` data must consist of only (0,1)'s or (False,True)'s for the "
+                             "FETDrift detector.")
+
+    def feature_score(self, x_ref: np.ndarray, x: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
+        """
+        Performs Fisher exact test(s), computing the p-value per feature.
+
+        Parameters
+        ----------
+        x_ref
+            Reference instances to compare distribution with. Data must consist of either [True, False]'s, or [0, 1]'s.
+        x
+            Batch of instances. Data must consist of either [True, False]'s, or [0, 1]'s.
+
+        Returns
+        -------
+        Feature level p-values and odds ratios.
+        """
+        x = x.reshape(x.shape[0], -1).astype(dtype=np.int64)
+        x_ref = x_ref.reshape(x_ref.shape[0], -1).astype(dtype=np.int64)
+
+        # Check data is only [False, True] or [0, 1]
+        values = set(np.unique(x))
+        if values != {True, False} and values != {0, 1}:
+            raise ValueError("The `x` data must consist of only [0,1]'s or [False,True]'s for the FETDrift detector.")
+
+        # Apply test per feature
+        n = x.shape[0]
+        sum_ref = np.sum(x_ref, axis=0)
+        sum_test = np.sum(x, axis=0)
+        a = sum_test
+        b = np.full_like(a, sum_ref)
+        c = n - sum_test
+        d = np.full_like(c, self.n - sum_ref)
+        odds_ratio, p_val = fisher_exact(a, b, c, d, alternative=self.alternative)
+
+        return p_val, odds_ratio
+
+
+def fisher_exact(a: np.ndarray, b: np.ndarray, c: np.ndarray, d: np.ndarray, alternative: str = 'less') \
+        -> Tuple[np.ndarray, np.ndarray]:
+    """
+    A vectorised implementation of scipy.stats.fisher_exact.
+    """
+    if any(np.any(cell) < 0 for cell in [a, b, c, d]):
+        raise ValueError("All values in contingency table must be non-negative.")
+
+    # Init arrays
+    pvalue = np.full_like(a, 1.1, dtype=np.float64)
+    oddsratio = np.zeros_like(a, dtype=np.float64)
+
+    # If any rows or cols add up to zero, return p value of 1 (done later with zero_idx index)
+    # If the above, or if c>0 and b>0 NOT satisfied, then set oddsratio to np.nan (via nan_idx)
+    zero_idx = (a + b == 0) | (c + d == 0) | (a + c == 0) | (b + d == 0)
+    nan_idx = ~((c > 0) & (b > 0))
+    nan_idx = np.logical_or(zero_idx, nan_idx)
+    oddsratio[nan_idx] = np.nan
+    oddsratio[~nan_idx] = a[~nan_idx] * d[~nan_idx] / np.float64(b[~nan_idx] * c[~nan_idx])
+
+    # Sums
+    n1 = a + b
+    n2 = c + d
+    n = a + c
+
+    # Compute p value
+    if alternative == 'less':
+        pvalue = hypergeom.cdf(a, n1 + n2, n1, n)
+
+    elif alternative == 'greater':
+        # Same formula as the 'less' case, but with the second column.
+        pvalue = hypergeom.cdf(b, n1 + n2, n1, b + d)
+
+    elif alternative == 'two-sided':
+        mode = np.int64(np.float64((n + 1) * (n1 + 1)) / (n1 + n2 + 2))
+        pexact = hypergeom.pmf(a, n1 + n2, n1, n)
+        pmode = hypergeom.pmf(mode, n1 + n2, n1, n)
+
+        eps = 1 - 1e-4  # stick with scipy epsilon here
+        lt_1eps_idx = np.where(np.abs(pexact - pmode) / np.maximum(pexact, pmode) <= 1 - eps)
+        pvalue[lt_1eps_idx] = 1.
+
+        lt_mode_idx = (a < mode)
+        gt_pexact_idx = np.logical_and(a < mode, hypergeom.pmf(n, n1 + n2, n1, n) > pexact / eps)
+        lt_mode_idx = np.logical_and(lt_mode_idx, ~gt_pexact_idx)
+        plower = hypergeom.cdf(a, n1 + n2, n1, n)
+        guess = _binary_search(n[lt_mode_idx], n1[lt_mode_idx], n2[lt_mode_idx],
+                               mode[lt_mode_idx], pexact[lt_mode_idx], True, eps)
+        pvalue[lt_mode_idx] = plower[lt_mode_idx] + hypergeom.sf(guess - 1, n1[lt_mode_idx] + n2[lt_mode_idx],
+                                                                 n1[lt_mode_idx], n[lt_mode_idx])
+        pvalue[gt_pexact_idx] = plower[gt_pexact_idx]
+
+        remain_idx = (pvalue > 1.)
+        gt_pexact_idx = np.logical_and(pvalue > 1., hypergeom.pmf(0, n1 + n2, n1, n) > pexact / eps)
+        remain_idx = np.logical_and(remain_idx, ~gt_pexact_idx)
+        pupper = hypergeom.sf(a - 1, n1 + n2, n1, n)
+        guess = _binary_search(n[remain_idx], n1[remain_idx], n2[remain_idx],
+                               mode[remain_idx], pexact[remain_idx], False, eps)
+        pvalue[remain_idx] = pupper[remain_idx] + hypergeom.cdf(guess, n1[remain_idx] + n2[remain_idx],
+                                                                n1[remain_idx], n[remain_idx])
+        pvalue[gt_pexact_idx] = pupper[gt_pexact_idx]
+
+    # Limit pvalue to 1
+    pvalue = np.minimum(pvalue, 1.0)
+    pvalue[zero_idx] = 1.0
+
+    return oddsratio, pvalue
+
+
+@nb.njit
+def _pmf(k: int, M: int, n: int, N: int) -> float:
+    """
+    Compute the probability mass function of a hypergeom distribution. Similar to scipy's hypergeom.pmf, but
+    numba accelerated in order to work in the numba vectorised _binary_search. numba_scipy is required in order to use
+    scipy.special.betaln here.
+    """
+    # Need float64 conversions as numba_scipy version of betaln only supports (float64,float64) sig.
+    tot, good = np.float64(M), np.float64(n)
+    N = np.float64(N)
+    k = np.float64(k)
+    bad = tot - good
+    logpmf = betaln(good + 1, 1.) + betaln(bad + 1, 1.) + betaln(tot - N + 1, N + 1) - betaln(k + 1, good - k + 1) - \
+             betaln(N - k + 1, bad - N + k + 1) - betaln(tot + 1, 1.)
+    return np.exp(logpmf)
+
+
+@nb.vectorize(
+    [nb.int64(nb.int64, nb.int64, nb.int64, nb.int64, nb.float64, nb.boolean, nb.float64)],
+    target='parallel')
+def _binary_search(n: int, n1: int, n2: int, mode: int, pexact: float, upper: bool, eps: float) -> int:
+    """Binary search for where to begin lower/upper halves in two-sided test.
+
+    Based on binary_search in:
+    https://github.com/scipy/scipy/blob/47bb6febaa10658c72962b9615d5d5aa2513fa3a/scipy/stats/stats.py
+    """
+    if upper:
+        minval = mode
+        maxval = n
+    else:
+        minval = 0
+        maxval = mode
+    guess = -1
+    while maxval - minval > 1:
+        if maxval == minval + 1 and guess == minval:
+            guess = maxval
+        else:
+            guess = (maxval + minval) // 2
+        pguess = _pmf(guess, n1 + n2, n1, n)
+        if upper:
+            ng = guess - 1
+        else:
+            ng = guess + 1
+        if pguess <= pexact < _pmf(ng, n1 + n2, n1, n):
+            break
+        elif pguess < pexact:
+            maxval = guess
+        else:
+            minval = guess
+    if guess == -1:
+        guess = minval
+    if upper:
+        while guess > 0 and _pmf(guess, n1 + n2, n1, n) < pexact * eps:
+            guess -= 1
+        while _pmf(guess, n1 + n2, n1, n) > pexact / eps:
+            guess += 1
+    else:
+        while _pmf(guess, n1 + n2, n1, n) < pexact * eps:
+            guess += 1
+        while guess > 0 and _pmf(guess, n1 + n2, n1, n) > pexact / eps:
+            guess -= 1
+    return guess
