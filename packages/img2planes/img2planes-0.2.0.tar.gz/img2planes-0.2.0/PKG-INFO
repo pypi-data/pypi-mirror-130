@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: img2planes
+Version: 0.2.0
+Summary: Convert any image to an Amiga C bitplane
+Home-page: https://github.com/zedr/img2planes
+Author: Rigel Di Scala
+Author-email: zedr@zedr.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+

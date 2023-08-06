@@ -1,0 +1,3 @@
+[console_scripts]
+img2planes = img2planes:main
+
