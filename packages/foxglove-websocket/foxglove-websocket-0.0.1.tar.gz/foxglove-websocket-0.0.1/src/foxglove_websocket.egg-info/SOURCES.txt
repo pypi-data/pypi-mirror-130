@@ -1,0 +1,10 @@
+pyproject.toml
+setup.cfg
+src/foxglove_websocket/__init__.py
+src/foxglove_websocket/server.py
+src/foxglove_websocket/types.py
+src/foxglove_websocket.egg-info/PKG-INFO
+src/foxglove_websocket.egg-info/SOURCES.txt
+src/foxglove_websocket.egg-info/dependency_links.txt
+src/foxglove_websocket.egg-info/requires.txt
+src/foxglove_websocket.egg-info/top_level.txt
