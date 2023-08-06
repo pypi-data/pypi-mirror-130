@@ -1,0 +1,15 @@
+bubop/__init__.py,sha256=Rk4sMYKlgqoNTWTUwv-CLMRaxLazzogk_DPjHAibk-s,1261
+bubop/common_dir.py,sha256=TgyaA1LnxKnDv3deB1a4UP0_qSoPNb1jEF_9kExhGKU,1450
+bubop/crypto.py,sha256=5EMN703RrqyzbHTE6P-qUqNINOUhqoY8QLww1zSTBBE,401
+bubop/exceptions.py,sha256=_kCNuJ_YpsbjmJFoDmi4ElhpPE13sGxH_5a0RJfNnKk,779
+bubop/fs.py,sha256=zx7MZ3bEHFrmQ6AMRbZsxt8f1GTJgS5EO6LeoSHC754,2845
+bubop/logging.py,sha256=Zxk9UxP9KJW1fh57yJ98RZmf7f5PZnAkka8sXb6gbtA,3179
+bubop/misc.py,sha256=ozqqCDT9ysorM51CPZ5GxN22zGDyQGnt8poUFMvyxac,717
+bubop/prefs_manager.py,sha256=2AIN1_HnXwD6Kj5MF81ev21HsD0SanbW6aO7mUi6y8I,5853
+bubop/serial.py,sha256=KMgUj3WNsC8RB9ybGNTlWV_DmKZ9bWZMhXaqh1jJ_lE,579
+bubop/string.py,sha256=ePH5_nje6Mry8kr0KIKq8YEBvaPqrl6k82oZ1OY_8jA,419
+bubop/time.py,sha256=EKiWdJP8nNTHop2bz8LCZcdx62QUHFKpmI6q2rL7WxE,5482
+bubop-0.1.3.dist-info/LICENSE.md,sha256=4ZZEWqQSwJvhet-fcg2rUXljTEHm45xTZ7GIrtL5UlU,1069
+bubop-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bubop-0.1.3.dist-info/METADATA,sha256=6Se-8ncmhS4mUsssz4X_jkUs9ofHgDMhRhD2xLunz6Q,2461
+bubop-0.1.3.dist-info/RECORD,,
