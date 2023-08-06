@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+autodiff/autodiff_aabj.egg-info/PKG-INFO
+autodiff/autodiff_aabj.egg-info/SOURCES.txt
+autodiff/autodiff_aabj.egg-info/dependency_links.txt
+autodiff/autodiff_aabj.egg-info/requires.txt
+autodiff/autodiff_aabj.egg-info/top_level.txt
