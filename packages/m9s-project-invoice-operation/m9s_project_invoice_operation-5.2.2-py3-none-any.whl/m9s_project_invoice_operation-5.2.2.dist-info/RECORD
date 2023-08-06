@@ -1,0 +1,14 @@
+trytond/modules/project_invoice_operation/__init__.py,sha256=W0GdNaXqcuPBBnz2Ty44P1gjE9pg3ORDM6bjYuObv80,478
+trytond/modules/project_invoice_operation/invoice.py,sha256=CWCbSAmQRh6UKaNbAtWIYAMy5dx5tNhB8jkxvJ86ybU,1518
+trytond/modules/project_invoice_operation/operation.fodt,sha256=9d2rLQdeAOyqN9MxxrsFSsU4alFQHao9iz2QRI1uFQg,50301
+trytond/modules/project_invoice_operation/report.xml,sha256=5bmFThaVnprLmsjb1J66vg-sTUOChoKWsFGC9oj09ck,815
+trytond/modules/project_invoice_operation/tryton.cfg,sha256=Mbij0_ZzMe0nW7mXd40XUzpwaupEWP3823skc2wo--o,139
+trytond/modules/project_invoice_operation/locale/de.po,sha256=_lqZ7ztk7g6Hih4mDmHX72egtg1Sm5e0vgpg8mETLus,938
+trytond/modules/project_invoice_operation/tests/__init__.py,sha256=Zwi7xi3XgznEGSp7VmZmAvjSSW0__ewxzwXWohbecac,327
+trytond/modules/project_invoice_operation/tests/test_project_invoice_operation.py,sha256=8B9o0Ye6VXo45JYevaVFGHgs2qvrroO2K_ZS9CRdCjk,551
+m9s_project_invoice_operation-5.2.2.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_project_invoice_operation-5.2.2.dist-info/METADATA,sha256=Z73gdsitcUO3GMmmpC9Rz9i2wqv7JxKD_2SLCtUOz9g,3402
+m9s_project_invoice_operation-5.2.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+m9s_project_invoice_operation-5.2.2.dist-info/entry_points.txt,sha256=wB43ql1fXW1smKKYnePnN1Dm4LTU2UsoEJytlu867Rw,101
+m9s_project_invoice_operation-5.2.2.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_project_invoice_operation-5.2.2.dist-info/RECORD,,
