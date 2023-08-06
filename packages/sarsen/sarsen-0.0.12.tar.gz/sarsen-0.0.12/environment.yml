@@ -1,0 +1,23 @@
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - attrs
+  - black
+  - click
+  - dask
+  - flake8
+  - isort
+  - make
+  - nomkl
+  - mypy=0.812
+  - numpy
+  - pip
+  - python=3.9.7
+  - pytest
+  - pytest-cov
+  - rioxarray
+  - xarray
+  - pip:
+    - mdformat-gfm
+    - xarray-sentinel

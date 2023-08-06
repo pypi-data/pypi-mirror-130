@@ -1,0 +1,5 @@
+attrs
+click
+rioxarray
+xarray>=0.18.0
+xarray-sentinel

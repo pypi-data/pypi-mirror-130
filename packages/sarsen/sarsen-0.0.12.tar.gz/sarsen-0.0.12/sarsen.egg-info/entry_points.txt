@@ -1,0 +1,3 @@
+[console_scripts]
+sarsen = sarsen.app:sarsen_cli
+
