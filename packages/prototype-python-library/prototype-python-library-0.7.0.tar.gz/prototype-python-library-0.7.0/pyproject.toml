@@ -1,0 +1,45 @@
+[tool.poetry]
+name = "prototype-python-library"
+version = "0.7.0"
+license = "MIT"
+description = "A prototype python library."
+authors = ["Nuno Costa <91nunocosta@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/91nunocosta/prototype-python-library/"
+documentation = "https://prototype-python-package.readthedocs.io/en/latest/"
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+pytest-cov = "^3.0.0"
+coverage-badge = "^1.0.2"
+pre-commit = "^2.15.0"
+python-semantic-release = "^7.23.0"
+yamllint = "^1.26.3"
+tox = "^3.24.4"
+pydocstyle = "^6.1.1"
+mypy = "^0.910"
+darglint = "^1.8.1"
+Sphinx = "^4.3.1"
+sphinxcontrib-napoleon = "^0.7"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.semantic_release]
+version_variable = [
+    "prototype_python_library/__init__.py:__version__",
+    "pyproject.toml:version"
+]
+branch = "master"
+upload_to_pypi = true
+upload_to_release = true
+build_command = "pip install poetry && poetry build"
