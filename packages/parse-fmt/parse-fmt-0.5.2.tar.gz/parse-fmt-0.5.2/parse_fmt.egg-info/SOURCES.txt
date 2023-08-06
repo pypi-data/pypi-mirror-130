@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+parse_fmt.egg-info/PKG-INFO
+parse_fmt.egg-info/SOURCES.txt
+parse_fmt.egg-info/dependency_links.txt
+parse_fmt.egg-info/requires.txt
+parse_fmt.egg-info/top_level.txt
+parsefmt/__init__.py
+parsefmt/fmtreader.py
