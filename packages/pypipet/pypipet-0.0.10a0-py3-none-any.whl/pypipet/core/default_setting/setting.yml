@@ -1,0 +1,26 @@
+project_setting:
+  name: name
+  home_dir: './'
+  databse_setting: 'bundle/db_setting.yaml'
+  wc_field_mapping: 'bundle/wc_field_mapping.yaml'
+  file_template: bundle/file_template.yaml
+  default_brand: 'NA'
+  attr_list: ['brand', 'upc', 'size', 'color']
+  variation_attrs: ['color']
+  shops:
+    home_site:
+      site_type: wc
+      url: 'https://'
+      consumer_key: ck_45b6
+      consumer_secret: cs_fb1671aaf
+      version: 'wc/v3'
+      no_of_retries:  3
+      batch_size: 50
+    test_site:
+      site_type: woocommerce
+      url: 'https://'
+      consumer_key: ck_45b6
+      consumer_secret: cs_fb1671aaf
+      version: 'wc/v3'
+      no_of_retries:  3
+      batch_size: 50
