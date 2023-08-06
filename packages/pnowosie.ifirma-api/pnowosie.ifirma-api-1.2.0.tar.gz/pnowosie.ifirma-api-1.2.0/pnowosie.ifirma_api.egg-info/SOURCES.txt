@@ -1,0 +1,14 @@
+README.md
+setup.py
+ifirma/__init__.py
+ifirma/api.py
+ifirma/config.py
+ifirma/invoice.py
+ifirma/request.py
+ifirma/serializer.py
+ifirma/yaml_parser.py
+pnowosie.ifirma_api.egg-info/PKG-INFO
+pnowosie.ifirma_api.egg-info/SOURCES.txt
+pnowosie.ifirma_api.egg-info/dependency_links.txt
+pnowosie.ifirma_api.egg-info/requires.txt
+pnowosie.ifirma_api.egg-info/top_level.txt
