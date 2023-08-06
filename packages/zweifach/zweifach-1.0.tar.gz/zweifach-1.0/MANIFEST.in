@@ -1,0 +1,2 @@
+include Readme.txt
+recursive-include src/zweifach/templates *
