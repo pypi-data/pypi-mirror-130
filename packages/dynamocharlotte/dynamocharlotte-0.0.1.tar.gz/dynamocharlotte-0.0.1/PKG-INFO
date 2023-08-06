@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dynamocharlotte
+Version: 0.0.1
+Summary: A Beginner Friendly Language with a syntax similar to Visual Basic and Python.
+Home-page: UNKNOWN
+Author: Juan Carlos Juárez
+Author-email: <jc.juarezgarcia@outlook.com>
+License: UNKNOWN
+Description: Dynamo Charlotte is a Python-based Interpreter that runs on Python Lex-Yacc Parser. It is a beginner friendly language with a syntax similar to Visual Basic and Python, allowing to create anything from numbers to multi-dimensional arrays.
+Keywords: Programming Language,Interpreter
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
