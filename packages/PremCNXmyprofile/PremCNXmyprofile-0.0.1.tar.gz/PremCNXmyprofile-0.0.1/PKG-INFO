@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: PremCNXmyprofile
+Version: 0.0.1
+Summary: PremCNXmyprofile
+Home-page: https://github.com/PremCNX/PremCNXmyprofile
+Author: PremCNX
+Author-email: kt.premchai@gmail.com
+License: MIT
+Download-URL: https://github.com/PremCNX/PremCNXmyprofile/archive/v0.0.1.zip
+Keywords: PremCNX
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(PremCNX Profile) เป็นตัวอย่างการอัพโหลด Packageไปยัง pypi.org
+==============================================================
+
+PyPi: https://pypi.org/project/PremCNXmyprofile/
+
+แพคเก็จสำหรับอธิบาย การอัพไฟล์ไปยัง pypi.org ### วิธีติดตั้ง
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install PremCNXmyprofile
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+Example my = Profile(‘Premchai’) my.company = ‘hana’ my.hobby = [‘FX
+Trader’,‘Reading’,‘Youtube’] print(my.name) my.show_email()
+my.show_myart() my.show_hobby()
+
+พัฒนาโดย: PremCNX
+
+

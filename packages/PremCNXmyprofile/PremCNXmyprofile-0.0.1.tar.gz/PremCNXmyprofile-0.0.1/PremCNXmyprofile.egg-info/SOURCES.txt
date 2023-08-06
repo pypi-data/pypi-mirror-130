@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+PremCNXmyprofile/__init__.py
+PremCNXmyprofile/myprofile.py
+PremCNXmyprofile.egg-info/PKG-INFO
+PremCNXmyprofile.egg-info/SOURCES.txt
+PremCNXmyprofile.egg-info/dependency_links.txt
+PremCNXmyprofile.egg-info/top_level.txt
