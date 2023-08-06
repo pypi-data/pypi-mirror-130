@@ -1,0 +1,11 @@
+setup.py
+evolutionary-py/__init__.py
+evolutionary-py/chromosome.py
+evolutionary-py/selection/__init__.py
+evolutionary-py/selection/rank_selection.py
+evolutionary-py/selection/roulette_wheel.py
+evolutionary_py.egg-info/PKG-INFO
+evolutionary_py.egg-info/SOURCES.txt
+evolutionary_py.egg-info/dependency_links.txt
+evolutionary_py.egg-info/requires.txt
+evolutionary_py.egg-info/top_level.txt
