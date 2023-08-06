@@ -1,0 +1,3 @@
+[sqlalchemy.dialects]
+spanner = google.cloud.sqlalchemy_spanner:SpannerDialect
+
