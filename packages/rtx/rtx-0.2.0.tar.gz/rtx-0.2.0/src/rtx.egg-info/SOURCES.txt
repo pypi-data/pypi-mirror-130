@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+src/_rtx/__init__.py
+src/_rtx/command.py
+src/_rtx/interactions.py
+src/rtx/__init__.py
+src/rtx/interactions.py
+src/rtx/py.typed
+src/rtx.egg-info/PKG-INFO
+src/rtx.egg-info/SOURCES.txt
+src/rtx.egg-info/dependency_links.txt
+src/rtx.egg-info/requires.txt
+src/rtx.egg-info/top_level.txt

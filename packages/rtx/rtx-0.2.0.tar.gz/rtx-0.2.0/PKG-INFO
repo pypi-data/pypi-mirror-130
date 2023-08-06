@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: rtx
+Version: 0.2.0
+Summary: Interactions And UI Handler For Pycord, Built Upon httpx
+Home-page: https://github.com/pycord/rtx
+Author: VincentRPS
+License: Apache-2.0
+Project-URL: Documentation, https://rtx.readthedocs.io/en/latest/
+Project-URL: Issue tracker, https://github.com/pycord/rtx/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.8.0
+Description-Content-Type: text/x-rst
+Provides-Extra: voice
+Provides-Extra: docs
+Provides-Extra: speed
+Provides-Extra: ultra_speed
+License-File: LICENSE
+
+RTX
+===
+Interactions & UI Handler For Pycord built with HTTPx
+
+

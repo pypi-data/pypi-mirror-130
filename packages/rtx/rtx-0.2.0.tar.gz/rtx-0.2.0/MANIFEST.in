@@ -1,0 +1,4 @@
+include src
+include requirements.txt
+include README.rst
+include src/rtx/py.typed
