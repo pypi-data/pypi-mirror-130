@@ -1,0 +1,7 @@
+requests
+pytest
+bs4
+pandas
+aiohttp
+async_retrying
+aiohttp-retry
