@@ -1,0 +1,7 @@
+numpy
+cellpose
+Pillow
+matplotlib
+os
+opencv-python
+scikit-learn
