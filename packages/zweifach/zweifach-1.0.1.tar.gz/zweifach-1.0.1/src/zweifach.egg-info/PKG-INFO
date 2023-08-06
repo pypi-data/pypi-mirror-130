@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: zweifach
+Version: 1.0.1
+Summary: Custom integration for django-otp package
+Home-page: https://hatraco.de
+Author: Hatraco GmbH
+Author-email: webdev@hatraco.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/plain
+
+UNKNOWN
+
