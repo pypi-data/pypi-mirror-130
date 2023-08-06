@@ -1,0 +1,147 @@
+[
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/ConfigParser.cpp.o -c /home/samt/Documents/PhD/Code/necsim/ConfigParser.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/ConfigParser.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/DispersalCoordinator.cpp.o -c /home/samt/Documents/PhD/Code/necsim/DispersalCoordinator.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/DispersalCoordinator.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Logger.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Logger.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Logger.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Logging.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Logging.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Logging.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/LogFile.cpp.o -c /home/samt/Documents/PhD/Code/necsim/LogFile.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/LogFile.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/main.cpp.o -c /home/samt/Documents/PhD/Code/necsim/main.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/main.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Landscape.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Landscape.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Landscape.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/ProtractedTree.cpp.o -c /home/samt/Documents/PhD/Code/necsim/ProtractedTree.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/ProtractedTree.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/setup.cpp.o -c /home/samt/Documents/PhD/Code/necsim/setup.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/setup.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Community.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Community.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Community.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/ActivityMap.cpp.o -c /home/samt/Documents/PhD/Code/necsim/ActivityMap.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/ActivityMap.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Metacommunity.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Metacommunity.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Metacommunity.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/AnalyticalSpeciesAbundancesHandler.cpp.o -c /home/samt/Documents/PhD/Code/necsim/AnalyticalSpeciesAbundancesHandler.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/AnalyticalSpeciesAbundancesHandler.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/SimulatedSpeciesAbundancesHandler.cpp.o -c /home/samt/Documents/PhD/Code/necsim/SimulatedSpeciesAbundancesHandler.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/SimulatedSpeciesAbundancesHandler.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/SpeciesAbundancesHandler.cpp.o -c /home/samt/Documents/PhD/Code/necsim/SpeciesAbundancesHandler.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/SpeciesAbundancesHandler.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/file_system.cpp.o -c /home/samt/Documents/PhD/Code/necsim/file_system.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/file_system.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/DataMask.cpp.o -c /home/samt/Documents/PhD/Code/necsim/DataMask.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/DataMask.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/DataPoint.cpp.o -c /home/samt/Documents/PhD/Code/necsim/DataPoint.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/DataPoint.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/SpeciesList.cpp.o -c /home/samt/Documents/PhD/Code/necsim/SpeciesList.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/SpeciesList.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/TreeNode.cpp.o -c /home/samt/Documents/PhD/Code/necsim/TreeNode.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/TreeNode.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/SpatialTree.cpp.o -c /home/samt/Documents/PhD/Code/necsim/SpatialTree.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/SpatialTree.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/SQLiteHandler.cpp.o -c /home/samt/Documents/PhD/Code/necsim/SQLiteHandler.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/SQLiteHandler.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/Tree.cpp.o -c /home/samt/Documents/PhD/Code/necsim/Tree.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/Tree.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/cpl_custom_handler.cpp.o -c /home/samt/Documents/PhD/Code/necsim/cpl_custom_handler.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/cpl_custom_handler.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/double_comparison.cpp.o -c /home/samt/Documents/PhD/Code/necsim/double_comparison.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/double_comparison.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/neutral_analytical.cpp.o -c /home/samt/Documents/PhD/Code/necsim/neutral_analytical.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/neutral_analytical.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/parameters.cpp.o -c /home/samt/Documents/PhD/Code/necsim/parameters.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/parameters.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/GillespieCalculator.cpp.o -c /home/samt/Documents/PhD/Code/necsim/GillespieCalculator.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/GillespieCalculator.cpp"
+},
+{
+  "directory": "/home/samt/Documents/PhD/Code/necsim/build",
+  "command": "/usr/bin/c++ -DBOOST_ALL_NO_LIB -DBOOST_FILESYSTEM_DYN_LINK -DBOOST_SYSTEM_DYN_LINK -DDEBUG=1 -I/home/samt/Documents/PhD/Code/necsim -I/home/samt/Documents/PhD/Code/necsim/.. -g -std=c++17 -o CMakeFiles/necsimCMD.dir/MapLocation.cpp.o -c /home/samt/Documents/PhD/Code/necsim/MapLocation.cpp",
+  "file": "/home/samt/Documents/PhD/Code/necsim/MapLocation.cpp"
+}
+]
