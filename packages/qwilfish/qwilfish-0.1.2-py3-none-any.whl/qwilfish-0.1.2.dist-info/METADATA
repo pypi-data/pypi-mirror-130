@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: qwilfish
+Version: 0.1.2
+Summary: Python package for grammar-based Layer 2 fuzzing
+Home-page: https://gitlab.com/zluudg/qwilfish
+Author: Leon Fernandez
+Author-email: leonfe@kth.se
+License: UNKNOWN
+Keywords: ethernet fuzzing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Qwilfish
+Qwilfish is a Python package for fuzzing various Ethernet-related protocols.
+It is a work in progress and the first goal is grammar-based generation of
+LLDP frames (IEEE 802.1AB).
+
+## Credit
+This project is more than heavily inspired by
+[The Fuzzing Book](https://www.fuzzingbook.org/). Be sure to check it out!
+
+
