@@ -1,0 +1,7 @@
+# Extension
+sphinx
+GitPython
+Jinja2
+
+# Documentation
+sphinxnotes-any
