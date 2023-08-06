@@ -1,0 +1,17 @@
+zweifach/__init__.py,sha256=GAMh1TQEWVS2GDudBOJb0wfIgkH8ZRyFyjKBeZggTN0,52
+zweifach/apps.py,sha256=hLeBmTQSa_JapUx26fdb9gt6UyM6yv8ype4LEKrWEwo,177
+zweifach/checks.py,sha256=0P8kXv7nZ5kXl-dRatq0Jo6TLYyubLTEa32nGYlZG2A,741
+zweifach/forms.py,sha256=b0Tidk83gzq_CFktnHRkMYaI3QkNERmjKoMlqvwqq0U,1172
+zweifach/middleware.py,sha256=OfXIUyaRhPJSFlLzmMGtb4jmfg7D_oircMzSBUML0oo,2045
+zweifach/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zweifach/tests.py,sha256=DV4PwpYr1bPXjDWiJSGUXrgrPYO-OUbfxMeIqOfcC30,61
+zweifach/urls.py,sha256=Empov51ulvnh2xbe5F9TOBsVexUR_nm2AvBCb4jzfMA,272
+zweifach/views.py,sha256=mODRAXDkPCkNF3XchL5dU57GikWBaC08ViYHwcNIrbY,1732
+zweifach/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+zweifach/templates/zweifach/base.html,sha256=Qi_5vNG5JopsLVqUTyQEs2vsEtfW26NaC44bb-YW9EM,42
+zweifach/templates/zweifach/setup.html,sha256=io3m80oB1ExkH9JRHyG7C-PqDPz8NV9bm5XP0lw_c5k,377
+zweifach/templates/zweifach/verify.html,sha256=WeAS1lsqcNuDHLxCiBCXG8rkkQMKszX9e4z3NsAqWfA,195
+zweifach-1.0.dist-info/METADATA,sha256=ICZMAfAIJhTDwHYf6oKvXKk0n8MexOntKwsbmUf7nwE,2485
+zweifach-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+zweifach-1.0.dist-info/top_level.txt,sha256=GcwWi8E0tIF7FVFxpUPFxNoKgRVvKjJtwnPpMUz9KpQ,9
+zweifach-1.0.dist-info/RECORD,,
