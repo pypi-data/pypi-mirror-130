@@ -1,0 +1,9 @@
+hyperhdr/__init__.py,sha256=pTGzwlwqqa7lxrZUSDd8rSOgbrfwGXq4fAQSS7pgMMw,32
+hyperhdr/client.py,sha256=yXJqMfz-oD_mKsycmHDJkyN0ljnXhLzq3xODKa9V6AU,65984
+hyperhdr/const.py,sha256=mfhsMBRyfXw2_qwT-iJtJz0n3JMdUXtLvNuzP_NyPIo,3858
+hyperhdr/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+LICENSE,sha256=y2kDzDsXJD2a7H3anAaodaXWqYOKTPz7lTuybM5KNAs,1090
+hyperhdr_py-0.0.2.dist-info/LICENSE,sha256=y2kDzDsXJD2a7H3anAaodaXWqYOKTPz7lTuybM5KNAs,1090
+hyperhdr_py-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hyperhdr_py-0.0.2.dist-info/METADATA,sha256=Wsj4XdsKCN8AmeXMi57mCn6ou76PSxhXiIyUUuoNCM4,20819
+hyperhdr_py-0.0.2.dist-info/RECORD,,
