@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+AliceMilePackage/__init__.py
+AliceMilePackage/mileConverter.py
+AliceMilePackage.egg-info/PKG-INFO
+AliceMilePackage.egg-info/SOURCES.txt
+AliceMilePackage.egg-info/dependency_links.txt
+AliceMilePackage.egg-info/top_level.txt
