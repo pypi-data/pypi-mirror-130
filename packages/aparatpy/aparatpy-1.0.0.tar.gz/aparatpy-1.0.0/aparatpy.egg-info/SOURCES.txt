@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+aparatpy.egg-info/PKG-INFO
+aparatpy.egg-info/SOURCES.txt
+aparatpy.egg-info/dependency_links.txt
+aparatpy.egg-info/requires.txt
+aparatpy.egg-info/top_level.txt
