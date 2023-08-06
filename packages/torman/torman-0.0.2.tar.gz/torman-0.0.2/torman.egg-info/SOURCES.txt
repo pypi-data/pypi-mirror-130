@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+torman/Utils.py
+torman/__init__.py
+torman/__main__.py
+torman/app.py
+torman/reset-ip.py
+torman/start-tor.py
+torman.egg-info/PKG-INFO
+torman.egg-info/SOURCES.txt
+torman.egg-info/dependency_links.txt
+torman.egg-info/entry_points.txt
+torman.egg-info/top_level.txt
