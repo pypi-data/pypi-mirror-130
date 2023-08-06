@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: chi-drm
+Version: 0.1.0
+Summary: Package to model dose response dynamics
+Home-page: https://chi.readthedocs.io
+Maintainer: David Augustin
+Maintainer-email: david.augustin@cs.ox.ac.uk
+License: BSD 3-clause license
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: arviz (>=0.11)
+Requires-Dist: myokit (>=1.33)
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: pandas (>=0.24)
+Requires-Dist: pints (>=0.4)
+Requires-Dist: plotly (>=4.8.1)
+Requires-Dist: tqdm (>=4.46.1)
+Requires-Dist: xarray (>=0.19)
+Provides-Extra: docs
+Requires-Dist: furo ; extra == 'docs'
+Requires-Dist: sphinx (!=1.7.3,>=1.5) ; extra == 'docs'
+Provides-Extra: notebooks
+Requires-Dist: jupyter (==1.0.0) ; extra == 'notebooks'
+
+# Chi
+
+[![Unit tests on multiple python versions](https://github.com/DavAug/chi/workflows/Unit%20tests%20(python%20versions)/badge.svg)](https://github.com/DavAug/chi/actions)
+[![Unit tests on multiple operating systems](https://github.com/DavAug/chi/workflows/Unit%20tests%20(OS%20versions)/badge.svg)](https://github.com/DavAug/chi/actions)
+[![codecov](https://codecov.io/gh/DavAug/chi/branch/main/graph/badge.svg)](https://codecov.io/gh/DavAug/chi)
+[![Documentation Status](https://readthedocs.org/projects/chi/badge/?version=latest)](https://chi.readthedocs.io/en/latest/?badge=latest)
+
+## About
+
+**Chi** is an open source Python package hosted on GitHub,
+which can be used to model dose response dynamics.
+
+All features of our software are described in detail in our
+[full API documentation](https://chi.readthedocs.io/en/latest/).
+
+## Getting started
+### Installation
+
+1. Install CVODES
+
+Chi uses the open-source package Myokit to solve mechanistic models
+and compute their sensitivities efficiently. Myokit does this using CVODESS,
+which need to be installed with:
+
+- On Ubuntu:
+```bash
+apt-get install libsundials-dev
+```
+
+- On MacOS:
+```bash
+brew install sundials
+```
+
+- On Windows: No action required. Myokit will install CVODESS automatically.
+
+2. Install chi
+```bash
+pip install chi-drm
+```
+
+### Usage
+ You can now use chi's functionality by importing it
+ ```python
+import chi
+ ```
+
+ Tutorials and more detailed explanations on how to use chi are currently
+ under development.
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[BSD-3-Clause](https://opensource.org/licenses/BSD-3-Clause)
+
+
