@@ -1,0 +1,13 @@
+LICENSE
+README.md
+gitlab-project-export.py
+gitlab-project-import.py
+setup.py
+gitlab_export/__init__.py
+gitlab_export/config.py
+gitlab_export/gitlab.py
+gitlab_project_export.egg-info/PKG-INFO
+gitlab_project_export.egg-info/SOURCES.txt
+gitlab_project_export.egg-info/dependency_links.txt
+gitlab_project_export.egg-info/requires.txt
+gitlab_project_export.egg-info/top_level.txt
