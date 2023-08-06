@@ -1,0 +1,9 @@
+README.md
+setup.py
+mathmatrix/__init__.py
+mathmatrix/config.py
+mathmatrix/matrix.py
+mathmatrix.egg-info/PKG-INFO
+mathmatrix.egg-info/SOURCES.txt
+mathmatrix.egg-info/dependency_links.txt
+mathmatrix.egg-info/top_level.txt
