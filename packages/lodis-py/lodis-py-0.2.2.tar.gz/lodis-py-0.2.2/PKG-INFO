@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lodis-py
+Version: 0.2.2
+Summary: lodis-py - A Lodis Python Sync/Async Client
+Home-page: https://github.com/lodis-org/lodis-py
+License: MIT
+Author: PeterDing
+Author-email: dfhayst@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# lodis-py - A Lodis Python Sync/Async Client
+
