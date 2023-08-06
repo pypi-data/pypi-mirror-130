@@ -1,0 +1,5 @@
+lxml
+googlesearch-python
+animation
+pyttsx3
+beautifulsoup4
