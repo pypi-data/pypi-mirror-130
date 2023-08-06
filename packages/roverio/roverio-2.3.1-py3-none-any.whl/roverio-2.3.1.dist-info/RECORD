@@ -1,0 +1,16 @@
+roverio/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roverio/constants.py,sha256=-n-duacVv7AkFs8WdjdOI7oNU7j-Qi_B2wxq2PAE1Mo,312
+roverio/file_extension.py,sha256=icpruMc3Vnqg2DnN2X7qNP57cdGLK7HEX0nENRvWsAk,1824
+roverio/phone_email_searcher.py,sha256=AsdYA1WtzlAalexIJ0fAbrmgBJ4mwgoEyL9IWSm-QEg,4525
+roverio/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roverio/readmy_readmes.py,sha256=99F38JDhoA0D5RcM3ZSSy11161cOGdE6gl-7D50rAUE,5865
+roverio/scout.py,sha256=MyaBNd-93T6KmFMEPzsZXXSopy306ofogVJd6MXKzk4,2365
+roverio/secrets.py,sha256=d8P4IptPYMkLIbbg-wiueAhAMreS3BCxVddkMeoq8Zs,2695
+roverio/sequential_renamer.py,sha256=w0BIIGnhfb13AomG6svht1N52-u3VZyZ0UFY8OkORuw,3628
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+roverio-2.3.1.dist-info/LICENSE,sha256=eetzvdaAaPwdWbQ3lrIVNAsUEimMPZII2-W94pVigoI,1071
+roverio-2.3.1.dist-info/METADATA,sha256=ajjz8ybR3JkG087XvaXRsWry-CkPuzqu39TyWODWvj8,7448
+roverio-2.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+roverio-2.3.1.dist-info/entry_points.txt,sha256=abYyNXQfnFm-AZEAzcTObp8Admnb-LOTySK9hAZZYQM,325
+roverio-2.3.1.dist-info/top_level.txt,sha256=cdErI8T6fphZ7P_5f350tLtKo-FGhCrNzegpq1wVFnM,13
+roverio-2.3.1.dist-info/RECORD,,
