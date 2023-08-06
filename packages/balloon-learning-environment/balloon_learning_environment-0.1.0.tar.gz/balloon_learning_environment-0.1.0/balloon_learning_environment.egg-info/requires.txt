@@ -1,0 +1,14 @@
+absl-py
+dopamine-rl>=4.0.0
+flax
+gcsfs
+gin-config
+gym
+opensimplex
+s2sphere
+scikit-learn
+tensorflow
+tensorflow-datasets>=4.4.0
+tensorflow-probability
+transitions
+zarr
