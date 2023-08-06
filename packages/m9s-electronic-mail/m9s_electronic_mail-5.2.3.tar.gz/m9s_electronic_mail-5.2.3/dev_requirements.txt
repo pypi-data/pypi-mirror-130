@@ -1,0 +1,10 @@
+# Install requirements
+
+trytond_party >= 5.2, < 5.3
+proteus >= 5.2, < 5.3
+
+tox
+coverage
+flake8
+
+-r requirements.txt
