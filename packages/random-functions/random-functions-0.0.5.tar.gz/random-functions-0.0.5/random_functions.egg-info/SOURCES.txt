@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+random_functions.egg-info/PKG-INFO
+random_functions.egg-info/SOURCES.txt
+random_functions.egg-info/dependency_links.txt
+random_functions.egg-info/requires.txt
+random_functions.egg-info/top_level.txt
