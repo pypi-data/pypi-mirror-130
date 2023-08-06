@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+DiscordUtilsMod/InviteTracker.py
+DiscordUtilsMod/Music.py
+DiscordUtilsMod/Pagination.py
+DiscordUtilsMod/__init__.py
+DiscordUtilsMod.egg-info/PKG-INFO
+DiscordUtilsMod.egg-info/SOURCES.txt
+DiscordUtilsMod.egg-info/dependency_links.txt
+DiscordUtilsMod.egg-info/requires.txt
+DiscordUtilsMod.egg-info/top_level.txt

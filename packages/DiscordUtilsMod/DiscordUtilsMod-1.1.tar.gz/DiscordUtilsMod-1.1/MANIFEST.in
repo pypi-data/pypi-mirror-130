@@ -1,0 +1,3 @@
+include DiscordUtilsMod/Pagination.py
+include DiscordUtilsMod/InviteTracker.py
+include DiscordUtilsMod/Music.py
