@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: random-functions
+Version: 0.0.5
+Summary: Test library
+Home-page: https://github.com/bipinkrishnan/test-library
+Author: Bipin
+Author-email: test@test.com
+License: MIT
+Keywords: test
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (>=2.25.1)
+
+test library
+
