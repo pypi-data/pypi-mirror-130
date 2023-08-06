@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: teepy
+Version: 0.3
+Summary: Tech Engineering Exam in Python
+Home-page: https://github.com/longapalooza/teepy
+Author: William Long
+Author-email: admin@longapalooza.com
+License: MIT
+Download-URL: https://github.com/longapalooza/teepy/archive/refs/tags/v0.3-beta.tar.gz
+Description: UNKNOWN
+Keywords: Tech,Exam,Engineering
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
