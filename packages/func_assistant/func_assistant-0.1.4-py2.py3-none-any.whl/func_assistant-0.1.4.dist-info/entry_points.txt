@@ -1,0 +1,3 @@
+[console_scripts]
+fa=func_assistant.main:greeting
+
