@@ -1,0 +1,16 @@
+jspr/__init__.py,sha256=_ZYG4QA1ub7_LtxN0L_jCphzYGegHwGLcn7Ote6d52A,100
+jspr/__main__.py,sha256=qs_lvLb3RTXvHGvgA9El8a1t8FH9ZqJHogQnI6w3NlM,33
+jspr/kernel.py,sha256=RcWedg-bNmMKyft1FnYm7FR1P526xOZClabeHo2JuOg,18597
+jspr/kernel_test.py,sha256=hLXV1N-2zWhSOMw4Estp1jXgUtd_X-81rzNyA4q2T88,1457
+jspr/kws.py,sha256=F3X9Dv13eK6r01pkphVB4yuiuKh7Qp0T1czItDh2YI0,48
+jspr/kws_test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jspr/lang.py,sha256=YbEqTvdq9ORx7s6DqC4LS8GoeyOyEmfuPZx-5AHTRso,6728
+jspr/lang_test.py,sha256=B5De1IkiR_6Oo113VGB5L_65HNVvWJQ_2-Hf7tBlpYA,2058
+jspr/main.py,sha256=Nc88Uqv4uiRNiDek51h2INXOSm4R6_6geKH3RiZK0S8,1294
+jspr/mod.py,sha256=42QKf9lhhRsu743pQz-gXi15qApyovff6_VBdjgFiCg,826
+jspr/runtime.py,sha256=BQ5KPBmlAuQHBc7eL_k-r7eY6Wgglk0JfnU6lPyqDAw,11248
+jspr/util.py,sha256=B5vwk6UOJ-308RiIUW7KdXZxXps8Rfintu2xush60uM,1172
+jspr-0.1.0.dist-info/entry_points.txt,sha256=Eup1N9rtitrG_zN8FYFuVTlSB5_cNfz8bUbusV6u4uE,40
+jspr-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jspr-0.1.0.dist-info/METADATA,sha256=wma4nkIFZNE63NyrrX6ugs16GFPVypqdx58fXt1jsEo,511
+jspr-0.1.0.dist-info/RECORD,,
