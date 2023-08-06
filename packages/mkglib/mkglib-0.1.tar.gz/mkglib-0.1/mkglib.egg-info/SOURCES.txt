@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+mkglib.egg-info/PKG-INFO
+mkglib.egg-info/SOURCES.txt
+mkglib.egg-info/dependency_links.txt
+mkglib.egg-info/not-zip-safe
+mkglib.egg-info/top_level.txt
