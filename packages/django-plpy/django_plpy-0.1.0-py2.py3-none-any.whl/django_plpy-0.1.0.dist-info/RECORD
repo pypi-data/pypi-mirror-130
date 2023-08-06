@@ -1,0 +1,16 @@
+django_plpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_plpy/builder.py,sha256=Le83nUon4vypUOhFoRR8tPvvXA_M-Nz1TRsWoM2kTk4,4501
+django_plpy/installer.py,sha256=eldxB1LS47ITStkniyCKn9HsGwm7JjWL3ir15z2WDl4,5549
+django_plpy/settings.py,sha256=eYbVd-fz-__yDCrqSEWbKodjzx2vmXcy3gDNH3BkVZI,569
+django_plpy/utils.py,sha256=yylTvdKqY6ovuIpXFRX0eYoQiByWk6fM3f4wbq7NGJk,756
+django_plpy/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_plpy/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_plpy/management/commands/checkenv.py,sha256=f0bt8XO2_Xm7k550MLwULwd8TRUtgfzP9wZ14ImMgpA,1371
+django_plpy/management/commands/syncfunctions.py,sha256=FwFksYjWHn3y1ssLhe_hEA12XT2ohAJjBnLgJIFC5g0,891
+django_plpy/migrations/0001_initial.py,sha256=0vziVAm-9MHmAy5Oy_7_WOzr5p1Iz_ODNlPzGiCfJ-k,364
+django_plpy/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_plpy-0.1.0.dist-info/LICENSE.txt,sha256=swhfFeefYVNnMOUXx_WBYf9nkJHQzBWeZ_jl-BN1HfQ,1082
+django_plpy-0.1.0.dist-info/METADATA,sha256=2Y5xDHsNUPk9ggNRblPRv-LvEQfmzN3ZdC5MvpA74Iw,14125
+django_plpy-0.1.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_plpy-0.1.0.dist-info/top_level.txt,sha256=QCKsEwy0XE02bax_T9kRm5DORIvz043F8z9cISjeyuI,12
+django_plpy-0.1.0.dist-info/RECORD,,
