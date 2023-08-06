@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.3.10
+-------
+
+* Fixed reference files for variables in setup.cfg file
