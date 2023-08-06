@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+templateman/__init__.py
+templateman/__main__.py
+templateman/cli.py
+templateman.egg-info/PKG-INFO
+templateman.egg-info/SOURCES.txt
+templateman.egg-info/dependency_links.txt
+templateman.egg-info/top_level.txt
