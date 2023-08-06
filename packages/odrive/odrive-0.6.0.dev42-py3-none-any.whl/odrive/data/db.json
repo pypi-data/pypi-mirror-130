@@ -1,0 +1,360 @@
+{
+  "odrives": {
+    "odrive-v4.4": {
+      "mcu": "STM32H7x",
+      "inverters": [
+        {
+          "drv": {
+            "$ref": "drv8353"
+          },
+          "max_current": 150.0
+        }
+      ],
+      "io": {
+        "gpio0": "",
+        "gpio1": "i",
+        "gpio2": "i",
+        "gpio3": "to",
+        "gpio4": "i",
+        "gpio5": "i",
+        "gpio6": "i",
+        "gpio7": "i",
+        "gpio8": "i",
+        "gpio9": "i",
+        "gpio10": "o",
+        "gpio11": "i",
+        "gpio12": "ip",
+        "gpio13": "o",
+        "gpio14": "io",
+        "gpio15": "io",
+        "gpio16": "io",
+        "gpio17": "",
+        "gpio18": "",
+        "gpio19": ""
+      },
+      "inc_enc": [
+        {
+          "a": "gpio1",
+          "b": "gpio6"
+        },
+        {
+          "a": "gpio16",
+          "b": "gpio15"
+        }
+      ],
+      "spi": [
+        {
+          "miso": "gpio18",
+          "mosi": "gpio14",
+          "sck": "gpio0"
+        }
+      ],
+      "rs485": [
+        "gpio0"
+      ],
+      "temp_in": [
+        {
+          "io": "gpio3",
+          "r_load": 1000,
+          "thermistor_bottom": true
+        }
+      ],
+      "defaults": {
+        "inc_enc_z": [
+          "gpio7",
+          "gpio14"
+        ],
+        "spi_ncs": [
+          "gpio17"
+        ]
+      }
+    },
+    "odrive-v3.6": {
+      "mcu": "STM32F4x",
+      "inverters": [
+        {
+          "drv": {
+            "$ref": "drv8301"
+          },
+          "max_current": 80.0
+        },
+        {
+          "drv": {
+            "$ref": "drv8301"
+          },
+          "max_current": 80.0
+        }
+      ],
+      "io": {
+        "gpio1": "iop",
+        "gpio2": "iop",
+        "gpio3": "iop",
+        "gpio4": "iop",
+        "gpio5": "io",
+        "gpio6": "io",
+        "gpio7": "io",
+        "gpio8": "io",
+        "enc0_a": "",
+        "enc0_b": "",
+        "enc0_z": "",
+        "enc1_a": "",
+        "enc1_b": "",
+        "enc1_z": "",
+        "spi_miso": "",
+        "spi_mosi": "",
+        "spi_sck": ""
+      },
+      "inc_enc": [
+        {
+          "a": "enc0_a",
+          "b": "enc0_b"
+        },
+        {
+          "a": "enc1_a",
+          "b": "enc1_b"
+        }
+      ],
+      "spi": [
+        {
+          "miso": "spi_miso",
+          "mosi": "spi_mosi",
+          "sck": "spi_sck"
+        }
+      ],
+      "rs485": [],
+      "temp_in": [],
+      "defaults": {
+        "inc_enc_z": [
+          "enc0_z",
+          "enc1_z"
+        ],
+        "spi_ncs": [
+          "gpio7"
+        ]
+      }
+    },
+    "odrive-v4.2": {
+      "mcu": "STM32H7x",
+      "inverters": [
+        {
+          "drv": {
+            "$ref": "drv8353"
+          },
+          "max_current": 100.0
+        }
+      ],
+      "io": {
+        "gpio0": "i",
+        "gpio1": "i",
+        "gpio2": "i",
+        "gpio3": "i",
+        "gpio4": "i",
+        "gpio5": "i",
+        "gpio6": "i",
+        "gpio7": "io",
+        "gpio8": "to",
+        "gpio9": "io",
+        "gpio10": "i",
+        "gpio11": "i",
+        "gpio12": "o",
+        "gpio13": "i",
+        "gpio14": "ip",
+        "gpio15": "op",
+        "gpio16": "io",
+        "gpio17": "io",
+        "gpio18": "io",
+        "gpio19": "io",
+        "gpio20": "io",
+        "gpio21": "io",
+        "gpio22": ""
+      },
+      "inc_enc": [
+        {
+          "a": "gpio0",
+          "b": "gpio5"
+        },
+        {
+          "a": "gpio20",
+          "b": "gpio21"
+        }
+      ],
+      "spi": [
+        {
+          "miso": "gpio17",
+          "mosi": "gpio18",
+          "sck": "gpio19"
+        }
+      ],
+      "rs485": [],
+      "temp_in": [],
+      "defaults": {
+        "inc_enc_z": [
+          "gpio6",
+          "gpio22"
+        ],
+        "spi_ncs": [
+          "gpio16"
+        ]
+      }
+    },
+    "odrive-v4.3": {
+      "mcu": "STM32H7x",
+      "inverters": [
+        {
+          "drv": {
+            "$ref": "drv8353"
+          },
+          "max_current": 100.0
+        }
+      ],
+      "io": {
+        "gpio0": "",
+        "gpio1": "i",
+        "gpio2": "i",
+        "gpio3": "to",
+        "gpio4": "i",
+        "gpio5": "i",
+        "gpio6": "i",
+        "gpio7": "i",
+        "gpio8": "i",
+        "gpio9": "i",
+        "gpio10": "o",
+        "gpio11": "i",
+        "gpio12": "ip",
+        "gpio13": "o",
+        "gpio14": "io",
+        "gpio15": "io",
+        "gpio16": "io",
+        "gpio17": "",
+        "gpio18": "",
+        "gpio19": ""
+      },
+      "inc_enc": [
+        {
+          "a": "gpio1",
+          "b": "gpio6"
+        },
+        {
+          "a": "gpio16",
+          "b": "gpio15"
+        }
+      ],
+      "spi": [
+        {
+          "miso": "gpio18",
+          "mosi": "gpio14",
+          "sck": "gpio0"
+        }
+      ],
+      "rs485": [
+        "gpio0"
+      ],
+      "temp_in": [
+        {
+          "io": "gpio3",
+          "r_load": 1000,
+          "thermistor_bottom": true
+        }
+      ],
+      "defaults": {
+        "inc_enc_z": [
+          "gpio7",
+          "gpio14"
+        ],
+        "spi_ncs": [
+          "gpio17"
+        ]
+      }
+    }
+  },
+  "motors": {
+    "D5065-270KV": {
+      "phase_resistance": 0.039,
+      "phase_inductance": 0.0000157,
+      "pole_pairs": 7,
+      "max_current": 65,
+      "kv": 270,
+      "moment_of_inertia": 0.0001,
+      "thermistor_r25": 10000,
+      "thermistor_beta": 3435,
+      "max_temp": 140
+    },
+    "D6374-150KV": {
+      "phase_resistance": 0.039,
+      "phase_inductance": 0.000024,
+      "pole_pairs": 7,
+      "max_current": 70,
+      "kv": 150,
+      "moment_of_inertia": 0.0001,
+      "thermistor_r25": 10000,
+      "thermistor_beta": 3435,
+      "max_temp": 140
+    },
+    "ME1114": {
+      "phase_resistance": 0.033,
+      "phase_inductance": 0.000018,
+      "pole_pairs": 4,
+      "max_current": 200,
+      "torque_constant": 0.12,
+      "max_vel": 83.33333333333333
+    }
+  },
+  "encoders": {
+    "amt10x": {
+      "type": "incremental",
+      "cpr": 8192,
+      "max_rpm": 7500,
+      "datasheet_url": "https://www.cuidevices.com/product/resource/amt10.pdf"
+    },
+    "amt102": {
+      "inherits": "amt10x"
+    },
+    "amt103": {
+      "inherits": "amt10x"
+    },
+    "amt21": {
+      "type": "rs485",
+      "datasheet_url": "https://www.cuidevices.com/product/resource/amt21.pdf"
+    },
+    "amt21xA": {
+      "inherits": "amt21",
+      "cpr": 4096,
+      "max_rpm": 8000
+    },
+    "amt21xB": {
+      "inherits": "amt21",
+      "cpr": 16384,
+      "max_rpm": 4000
+    },
+    "amt21xC": {
+      "inherits": "amt21",
+      "cpr": 4096,
+      "max_rpm": 8000
+    },
+    "amt21xD": {
+      "inherits": "amt21",
+      "cpr": 16384,
+      "max_rpm": 4000
+    },
+    "amt21xE": {
+      "inherits": "amt21",
+      "cpr": 4096,
+      "max_rpm": 8000
+    },
+    "amt21xF": {
+      "inherits": "amt21",
+      "cpr": 16384,
+      "max_rpm": 4000
+    },
+    "amt21xG": {
+      "inherits": "amt21",
+      "cpr": 4096,
+      "max_rpm": 8000
+    },
+    "amt21xH": {
+      "inherits": "amt21",
+      "cpr": 16384,
+      "max_rpm": 4000
+    }
+  }
+}
