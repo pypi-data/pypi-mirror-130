@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+GrADim/GrADim.py
+GrADim/__init__.py
+GrADim/forward_mode.py
+GrADim/reverse_mode.py
+GrADim.egg-info/PKG-INFO
+GrADim.egg-info/SOURCES.txt
+GrADim.egg-info/dependency_links.txt
+GrADim.egg-info/requires.txt
+GrADim.egg-info/top_level.txt

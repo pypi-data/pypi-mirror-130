@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: GrADim
+Version: 0.0.5
+Summary: A package for auto-differentiation
+Home-page: https://github.com/cs107-i-m-i-m/cs107-FinalProject
+Author: ['Aloysius Lim', 'Gregoire Baverez', 'Shivam Raval', 'Xinrong Yang']
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
