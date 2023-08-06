@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        kntgen=kntgen.__main__:main
+    
