@@ -1,0 +1,12 @@
+flask-wtf
+wtforms==2.3.3
+Flask-Bootstrap
+html5lib
+pandas
+numpy==1.17.3
+helium
+xlsxwriter
+lxml
+bs4
+xlrd
+openpyxl
