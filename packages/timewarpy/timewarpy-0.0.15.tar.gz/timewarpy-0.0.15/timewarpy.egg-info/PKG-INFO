@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: timewarpy
+Version: 0.0.15
+Summary: Time series processing framework and utilities for deep learning
+Home-page: UNKNOWN
+Author: Clay Elmore
+License: BSD 3-Clause License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# TimeWarPY - Time Series Pre and Post Processing Methods
+
+[GitHub](https://github.com/celmore25/TimeWarPY)
+
+[Full Documentation](https://timewarpy.readthedocs.io/en/latest/)
+
+## Background and Objective
+
+TimeWarPy is a library I created because I kept running into time-series related pre and post processing that is discussed a lot in ML literature but not standardized in a popular ML library. Most industry related forecasting methods are not well suited for real-time deep learning architectures. TimeWarPy is a stab at making these operations both fast and convenient for real-time applications through an easy to use set of core processing objections.
+
+## Installation
+
+TimeWarPY can be installed directly with PyPi or directly from source [here](https://github.com/celmore25/TimeWarPY)
+
+```
+pip install timewarpy
+```
+
+## General Use Case
+
+## Examples and Usage
+
+
