@@ -1,0 +1,10 @@
+README.md
+setup.py
+covid_dashboard/__init__.py
+covid_dashboard/app.py
+covid_dashboard/covid_data_handler.py
+covid_dashboard/covid_news_handling.py
+covid_dashboard_v0.egg-info/PKG-INFO
+covid_dashboard_v0.egg-info/SOURCES.txt
+covid_dashboard_v0.egg-info/dependency_links.txt
+covid_dashboard_v0.egg-info/top_level.txt
