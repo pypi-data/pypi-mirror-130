@@ -1,0 +1,3 @@
+[console_scripts]
+spaceinator = spaceinator.src.app:run
+
