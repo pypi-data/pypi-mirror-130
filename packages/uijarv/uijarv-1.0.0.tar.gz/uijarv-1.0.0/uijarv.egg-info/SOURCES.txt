@@ -1,0 +1,9 @@
+LICENSE
+setup.py
+ui/Jarvis_UI.py
+ui/__init__.py
+uijarv.egg-info/PKG-INFO
+uijarv.egg-info/SOURCES.txt
+uijarv.egg-info/dependency_links.txt
+uijarv.egg-info/requires.txt
+uijarv.egg-info/top_level.txt
