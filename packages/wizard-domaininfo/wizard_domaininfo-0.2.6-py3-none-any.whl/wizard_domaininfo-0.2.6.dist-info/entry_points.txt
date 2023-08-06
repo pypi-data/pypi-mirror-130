@@ -1,0 +1,4 @@
+[console_scripts]
+pwhois=wizard_domaininfo:pwhois
+wizard-domaininfo=wizard_domaininfo.cli:main
+
