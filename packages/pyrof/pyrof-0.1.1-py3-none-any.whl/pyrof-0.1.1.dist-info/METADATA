@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: pyrof
+Version: 0.1.1
+Summary: Python wrappers for dynamic menus (rofi, fzf)
+Home-page: https://gitlab.com/nesstero/pyrof
+Maintainer: nestero
+Maintainer-email: nestero@mail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: traitlets
+
+# Pyrof
+fork from [dynmen](https://github.com/frostidaho/dynmen)
+Python wrappers for dynamic menus (rofi, fzf)
+
+# Install
+```
+pip install pyrof
+```
+
+## AUR
+- [python-pyrof-git](https://aur.archlinux.org/packages/python-pyrof-git)
+
+# Some examples of scripts that use pyrof
+- [Al-Quran Rofi](https://gitlab.com/nesstero/Al-Quran-Rofi)
+- [Ntranslate](https://gitlab.com/nesstero/ntranslate)
+- [M-Monkey](https://gitlab.com/nesstero/m-monkey)
+
+
