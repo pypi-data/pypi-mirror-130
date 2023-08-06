@@ -1,0 +1,17 @@
+ilonnx/__init__.py,sha256=spRdL7w00CWfVmdysus6uSYxStHTOOlazjXeRTJEdrs,84
+ilonnx/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ilonnx/factory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ilonnx/factory/base.py,sha256=erLccN9aUyIaj1r7PkKEKmHc-iFmYGyHJo5bPpcnFJU,1795
+ilonnx/inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ilonnx/inference/base.py,sha256=YHzSXrO-xOcdPDPeah9eu8JpK5o7OvX3gbl74qr4dSQ,2160
+ilonnx/inference/classifier.py,sha256=5EEyBsTjTWtsjfhaQO-xmmf8hJz3qhsuHrwGqQV4fM8,3984
+ilonnx/inference/factory.py,sha256=UWxyWuFq44FS0KqR7T4MyWRJ6a30dU0-EtJ3S3wZk2M,10423
+ilonnx/inference/parsing.py,sha256=o7QRaHYM7tnrAWLaEL5XaKb0OXrccRCJ7mYvBxCCVVw,1140
+ilonnx/inference/translators.py,sha256=86QTzqGhlZNB1EVSkOIjrISKrfe5zI56kl6GI2P1Ads,5597
+ilonnx/inference/utils.py,sha256=GJSjk0UxCZc67x-nOyPZT1vH7508JwxS1dgY7WKmdEM,2631
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+instancelib_onnx-0.0.7.dist-info/LICENSE,sha256=IMF9i4xIpgCADf0U-V1cuf9HBmqWQd3qtI3FSuyW4zE,26526
+instancelib_onnx-0.0.7.dist-info/METADATA,sha256=izlFRGljRNI1_hK5b1w_OoLDiYFVfZ8sZCxnbw3xaKI,831
+instancelib_onnx-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+instancelib_onnx-0.0.7.dist-info/top_level.txt,sha256=IgGM0CJ9tSxXDTXhM8fsdYgq0nFL6JsRMHiItV4qecI,13
+instancelib_onnx-0.0.7.dist-info/RECORD,,
