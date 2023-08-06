@@ -1,0 +1,9 @@
+prediction/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+prediction/andreaUtils.py,sha256=t_SScAuFAlFzByvDlhNPlocE8MLDmn01TMsLJplMuzE,21487
+prediction/andreaUtilsclustering.py,sha256=QukuNo2BO93hjf9fpO7WlJYOYjT9A0ggWhe0UTLAm70,18780
+prediction/andreaUtilsprediction_v2.py,sha256=uST0pXfHruM1cFxK7Wac-tHRJaj38LtJP2Gd5D8bH6g,5478
+prediction/predictionarima.py,sha256=qHPJJVL_Z0N_7XBn7Yh97d8doQuzWe_rRRYeE4fvnCU,7502
+predictionconsoandrea-1.0.0.dist-info/METADATA,sha256=B_QY0eEd0AsPTjBU9hKwl7StOKGBwtNLr6gwdqs3vtc,694
+predictionconsoandrea-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+predictionconsoandrea-1.0.0.dist-info/top_level.txt,sha256=C-I58G3Gd1ezEJ2Ub3xqEH9rQmOWqBZtnQoNwAVxfN8,11
+predictionconsoandrea-1.0.0.dist-info/RECORD,,

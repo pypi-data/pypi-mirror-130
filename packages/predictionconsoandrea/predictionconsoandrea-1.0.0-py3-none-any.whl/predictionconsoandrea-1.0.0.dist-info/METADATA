@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: predictionconsoandrea
+Version: 1.0.0
+Summary: Utilities package
+Home-page: UNKNOWN
+Author: andrea massa
+Author-email: massaaurore@yhaoo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: IPython
+Requires-Dist: dash (==1.20.0)
+Requires-Dist: matplotlib (==3.4.2)
+Requires-Dist: pandas (==1.3.1)
+Requires-Dist: screeningBuilding (==3.4.2)
+Requires-Dist: seaborn (==0.11.2)
+Requires-Dist: sklearn (==0.0)
+Requires-Dist: yellowbrick (==1.3.post1)
+
+UNKNOWN
+
+
