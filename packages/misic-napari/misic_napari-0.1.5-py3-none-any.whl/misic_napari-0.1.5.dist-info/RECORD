@@ -1,0 +1,13 @@
+misic_ui/__init__.py,sha256=ilN9dIRRbLpcZbGQDpduvgfNtgV4QhfXaw-4jnBiItk,5058
+misic_ui/misic_helpers.py,sha256=Dnb82PyNFvwHE8mLxqH6oglJRZuTZUET8IpHZA4tfts,933
+misic_ui/misic/MiSiDC04082020.h5,sha256=xCSOMjO1k6IiIO2aA108NVmypJIcBYHi6y4cLqaY8XY,7949832
+misic_ui/misic/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+misic_ui/misic/extras.py,sha256=I7BNjsxqs0Jxab_0sTXRonE4-UFoajf3NpKbvYEbdOg,1697
+misic_ui/misic/misic.py,sha256=o7c6FE3aRTRFt8d7V9ZhQass3524zsuGwbxf8LthSRY,1988
+misic_ui/misic/utils.py,sha256=fBRxZjjtYp04IS7b1DgYW3suGshtHjrgmU-1AMt3LWA,2313
+misic_napari-0.1.5.dist-info/LICENSE,sha256=Z4RBWK4VZ_-cmlHI1a-BoIBr-B4QqxXjA3qCHbxvRFI,1081
+misic_napari-0.1.5.dist-info/METADATA,sha256=7b_RkL9-7RLTUJjR0CInKjTVagTien3K0PZUhUZojms,2026
+misic_napari-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+misic_napari-0.1.5.dist-info/entry_points.txt,sha256=QgvvXvf4NEIqGX5PXddYBqnyDSDOWpDz1ciINAmHz1A,41
+misic_napari-0.1.5.dist-info/top_level.txt,sha256=SB7UOoXwY94Z7XbPvABqzKoRdvRfxEpf3J93oAxK0YM,9
+misic_napari-0.1.5.dist-info/RECORD,,
