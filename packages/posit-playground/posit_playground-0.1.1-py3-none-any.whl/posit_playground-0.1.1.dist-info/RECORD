@@ -1,0 +1,9 @@
+posit_playground/__init__.py,sha256=WdK4vA1zd5hYaOFaIaiZfYL4dVCchSuSPggLf4xOk-Q,50
+posit_playground/mul.py,sha256=gOJpqR6-iIMj3tPkJ0hWSNYwQxQeP_n2sCAsfHK_LR4,6294
+posit_playground/posit.py,sha256=sotU-j9Pje3YnZVJiGV1-gwNR4BG8Y9jamywm-ZH4GQ,10810
+posit_playground/posit_decode.py,sha256=g0ZzxXt9XETmJvYmuZs2Ztgsc1pPp8i-Bd8QntmKumQ,2107
+posit_playground/regime.py,sha256=1lMHhafjvYuNcKAPSQ_nPQySqyJM8ITGe4OtsCoXPfo,2741
+posit_playground/utils.py,sha256=VQSpbg3g1uQLjU1Y6Kc56UizpYzHn5AwRl5qwLRD8n0,1855
+posit_playground-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+posit_playground-0.1.1.dist-info/METADATA,sha256=DcH8n8IS-e4QLUnsj3996UqUkSmPmRGh_emvUPY7n0w,1804
+posit_playground-0.1.1.dist-info/RECORD,,
