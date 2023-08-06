@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+lahg_ad/Jacobian.py
+lahg_ad/__init__.py
+lahg_ad/fd.py
+lahg_ad/rd.py
+lahg_ad.egg-info/PKG-INFO
+lahg_ad.egg-info/SOURCES.txt
+lahg_ad.egg-info/dependency_links.txt
+lahg_ad.egg-info/requires.txt
+lahg_ad.egg-info/top_level.txt
