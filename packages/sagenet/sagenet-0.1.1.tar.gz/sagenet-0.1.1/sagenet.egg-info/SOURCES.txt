@@ -1,0 +1,15 @@
+README.rst
+setup.py
+sagenet/__init__.py
+sagenet/classifier.py
+sagenet/model.py
+sagenet/sage.py
+sagenet/utils.py
+sagenet.egg-info/PKG-INFO
+sagenet.egg-info/SOURCES.txt
+sagenet.egg-info/dependency_links.txt
+sagenet.egg-info/not-zip-safe
+sagenet.egg-info/requires.txt
+sagenet.egg-info/top_level.txt
+sagenet/datasets/__init__.py
+sagenet/datasets/_datasets.py
