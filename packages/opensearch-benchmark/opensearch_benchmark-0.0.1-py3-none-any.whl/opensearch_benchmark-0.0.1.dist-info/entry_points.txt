@@ -1,0 +1,4 @@
+[console_scripts]
+opensearch-benchmark = osbenchmark.benchmark:main
+opensearch-benchmarkd = osbenchmark.benchmarkd:main
+
