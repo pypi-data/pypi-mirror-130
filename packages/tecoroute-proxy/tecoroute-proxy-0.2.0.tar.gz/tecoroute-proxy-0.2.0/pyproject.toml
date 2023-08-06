@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.black]
+target_version = ['py36', 'py37', 'py38', 'py39', 'py310']
+
+[tool.isort]
+profile = "black"
+
+[tool.mypy]
+strict = true

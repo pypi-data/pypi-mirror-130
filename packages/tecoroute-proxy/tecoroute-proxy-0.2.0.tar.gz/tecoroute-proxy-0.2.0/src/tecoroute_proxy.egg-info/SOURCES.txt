@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tecoroute_proxy/__init__.py
+src/tecoroute_proxy/__main__.py
+src/tecoroute_proxy/_cli.py
+src/tecoroute_proxy/_misc.py
+src/tecoroute_proxy/_request.py
+src/tecoroute_proxy/_server.py
+src/tecoroute_proxy.egg-info/PKG-INFO
+src/tecoroute_proxy.egg-info/SOURCES.txt
+src/tecoroute_proxy.egg-info/dependency_links.txt
+src/tecoroute_proxy.egg-info/entry_points.txt
+src/tecoroute_proxy.egg-info/requires.txt
+src/tecoroute_proxy.egg-info/top_level.txt
+src/tecoroute_proxy.egg-info/zip-safe
