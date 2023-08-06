@@ -1,0 +1,10 @@
+*.pyc
+*.egg-info
+
+.tox
+.direnv
+.mypy_cache
+.eggs
+__pycache__
+dist
+build
