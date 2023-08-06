@@ -1,0 +1,6 @@
+numpy
+pyapr
+napari
+napari-plugin-engine>=0.1.4
+qtpy
+magicgui
