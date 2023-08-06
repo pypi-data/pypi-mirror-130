@@ -1,0 +1,1 @@
+from WifiScanner.Scanner import get_WIFIs
