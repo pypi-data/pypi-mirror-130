@@ -1,0 +1,9 @@
+ply
+decorator
+six
+
+[hdf5]
+h5py
+
+[zarr]
+zarr

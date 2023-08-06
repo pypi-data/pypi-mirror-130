@@ -1,0 +1,2 @@
+include LICENSE
+recursive-include hdfpath LICENSE README.rst
