@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-text-layer = napari_text_layer
+
