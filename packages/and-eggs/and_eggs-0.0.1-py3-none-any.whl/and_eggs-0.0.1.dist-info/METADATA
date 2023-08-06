@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: and-eggs
+Version: 0.0.1
+Summary: GMail Bot API
+Home-page: UNKNOWN
+Author: LemonChad
+Author-email: jaolsm6296@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# AndEggs
+
+AndEggs is a Python library that allows you to create an email bot using Gmail's API.
+
+
