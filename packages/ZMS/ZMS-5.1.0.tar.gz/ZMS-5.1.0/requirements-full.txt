@@ -1,0 +1,26 @@
+# Zope + ZMS
+-r requirements.txt
+
+# Theming
+-e git+https://github.com/zms-publishing/Products.zms-skins.git#egg=Products.zms-skins
+
+# SQL
+Products.ZMySQLDA
+Products.ZSQLMethods
+
+# LDAP
+python-ldap
+Products.LDAPMultiPlugins
+Products.LDAPUserFolder
+
+# TEXT
+beautifulsoup4
+lxml
+Markdown
+pyScss
+xmltodict
+
+# PAS
+Products.PluggableAuthService
+Products.PluginRegistry
+# -e git+https://github.com/sntl-projects/Products.zmsPluggableAuthService.git#egg=Products.zmsPluggableAuthService
