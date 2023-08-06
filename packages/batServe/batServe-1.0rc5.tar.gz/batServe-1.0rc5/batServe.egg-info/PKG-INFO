@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: batServe
+Version: 1.0rc5
+Summary: Simple file server and reverse proxy | part of batBelt
+Home-page: https://github.com/notAI-tech/batBelt
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+
+
+<p align="center">
+    <h1 align="center">batServe</h1>
+    <p align="center">simple, useful file server | part of <b><i>batBelt</i></b></p>
+</p>
+
+
+**Installation**:
+
+```curl https://raw.githubusercontent.com/notAI-tech/batBelt/main/batServe/batserve.sh | bash```
+
+**Usage**:
+
+```
+usage: batserve (optional arguments)
+
+batBelt file server (1.0-rc4) - simple and useful file server
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --host [HOST]         Serve on host (eg: localhost, 0.0.0.0). Defaults to 0.0.0.0
+  --port [PORT]         Serve on port. Defaults to 8080
+  --public              Serve on a publicly accessible URL
+  --no-index            Disable auto-generation of index.html
+  --no-symlinks         Don't follow symlinks
+  --dir [DIR]           The directory path to serve. Defaults to ./
+  -u [USERNAME], --username [USERNAME]
+                        Username for security, not set by default
+  -p [PASSWORD], --password [PASSWORD]
+                        Password for security, not set by default
+
+```
+
+
