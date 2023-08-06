@@ -1,0 +1,9 @@
+LICENSE.txt
+README.rst
+setup.py
+acAutoMechine/__init__.py
+acAutoMechine/ac_auto_mechine.py
+acAutoMechine.egg-info/PKG-INFO
+acAutoMechine.egg-info/SOURCES.txt
+acAutoMechine.egg-info/dependency_links.txt
+acAutoMechine.egg-info/top_level.txt
