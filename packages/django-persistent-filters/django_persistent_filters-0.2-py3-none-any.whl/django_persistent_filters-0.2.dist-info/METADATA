@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django-persistent-filters
+Version: 0.2
+Summary: Provide a django middleware that take care to persist the querystring in the browser cookies.
+Home-page: https://github.com/LorenzoProd/django-persistent-filters
+Author: Lorenzo Prodon
+Author-email: lorenzo.prodon@gmail.com
+License: BSD-3-Clause  # Example license
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: Django (>=2.2)
+
+UNKNOWN
+
