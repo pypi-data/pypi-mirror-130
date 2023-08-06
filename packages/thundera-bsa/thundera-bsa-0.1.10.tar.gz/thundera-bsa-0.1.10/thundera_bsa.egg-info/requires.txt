@@ -1,0 +1,9 @@
+binaryornot
+click
+demangler
+lief
+numpy
+python-magic
+python-slugify
+tabulate
+terminal_banner
