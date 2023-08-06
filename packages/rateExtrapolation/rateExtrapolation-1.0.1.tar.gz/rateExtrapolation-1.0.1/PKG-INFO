@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: rateExtrapolation
+Version: 1.0.1
+Summary: Package returns estimations for model rates.
+Home-page: https://github.com/sarahwaity/rateExtrapolation.git
+Author: Sarah Wait
+Author-email: swait@uw.edu
+License: MIT
+Keywords: tellurium rate extrapolation
+Platform: UNKNOWN
+License-File: LICENSE
+
+This package simplifies reate determination from experimental data using SBstoat and Tellurium.
+

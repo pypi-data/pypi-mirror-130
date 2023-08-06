@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+rateExtrapolation/__init__.py
+rateExtrapolation/k_folds_data_splitter.py
+rateExtrapolation/parameter_estimation_fitness_evaluator.py
+rateExtrapolation/rate_extrapolation.py
+rateExtrapolation/sbstoat_model_fitting_to_folds.py
+rateExtrapolation.egg-info/PKG-INFO
+rateExtrapolation.egg-info/SOURCES.txt
+rateExtrapolation.egg-info/dependency_links.txt
+rateExtrapolation.egg-info/requires.txt
+rateExtrapolation.egg-info/top_level.txt
