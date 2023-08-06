@@ -1,0 +1,52 @@
+{% extends "base.htm" %}
+
+{% block content %}
+<h1>Minecraft Points of Interest </h1>
+
+<h2> 2D Map </h2>
+    {% if map_html_2d %}
+    {{map_html_2d}}
+    {% endif %}
+
+{% if current_user.is_authenticated %}
+  <h2>Add new POI</h2>
+  <form method="post" class="poiform">
+  {{ form.csrf_token }}
+  {{ form.name.label }} {{ form.name }}
+  {{ form.x.label }} {{ form.x(class_="coordnum") }}
+  {{ form.y.label }} {{ form.y(class_="coordnum") }}
+  {{ form.z.label }} {{ form.z(class_="coordnum") }}
+  {{ form.public.label }} {{ form.public }}
+  <input type="submit">
+  </form>
+{% endif %}
+
+<h2> List of POIs </h2>
+<table class="poi_list">
+  <tr>
+    <th>Name</th>
+    <th>X</th>
+    <th>Y</th>
+    <th>Z</th>
+    <th>created by</th>
+    <th>created at</th>
+  </tr>
+  
+  {% for poi in poi_table_data %}
+  <tr>
+    <td>{{ poi.name }} </td>
+    <td>{{ poi.coord_x }} </td>
+    <td>{{ poi.coord_y }} </td>
+    <td>{{ poi.coord_z }} </td>
+    <td>{{ poi.user.displayname }} </td>
+    <td>{{ poi.create_date }} </td>
+    {% if poi.user == current_user %}
+    <td> <a href="/poi/delete/{{poi.poiid}}" method=> delete </a></td>
+    {% endif %}
+  </tr>
+  {% endfor %}
+</table>
+
+
+{% endblock %}
+

@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <title>Minecraft Points of Interest</title>
+  <body>
+    <!--navigation bar -->
+    <ul>
+      <li><a href="/">home</a></li>
+      <li><a href="/add_manual">add POI manually</a></li>
+    </ul>
+
+    
+    <h1>Minecraft Points of Interest </h1>
+    {% if map_html_2d %}
+    {{map_html_2d}}
+    {% endif %}
+  </body>
+
+</html>
