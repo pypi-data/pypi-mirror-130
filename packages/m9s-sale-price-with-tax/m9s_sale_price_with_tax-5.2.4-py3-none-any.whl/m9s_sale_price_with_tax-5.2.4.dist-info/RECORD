@@ -1,0 +1,13 @@
+trytond/modules/sale_price_with_tax/__init__.py,sha256=yfBmq6H8W5G7Ad-Tw9fijS9stYVTO0Izf3dkA4eWk8c,301
+trytond/modules/sale_price_with_tax/sale.py,sha256=Ynk3ioezdMO3bWm0NAbKpWjsFaB0fhF8w9iIbml3lME,3736
+trytond/modules/sale_price_with_tax/tryton.cfg,sha256=i5RpP88BuyyknRKR9gTs1cAqgetRZsWqtXyKK6S80Pg,86
+trytond/modules/sale_price_with_tax/locale/de.po,sha256=aTIy9qP-M1yQwcyc75-Msa7ehG2xoGVNRHTlopzHhT8,424
+trytond/modules/sale_price_with_tax/locale/de_DE.po,sha256=aTIy9qP-M1yQwcyc75-Msa7ehG2xoGVNRHTlopzHhT8,424
+trytond/modules/sale_price_with_tax/tests/__init__.py,sha256=MBtPF98hzHxtIxXM8JEm1STV40Ta7dl1Qab8FAGDCRQ,309
+trytond/modules/sale_price_with_tax/tests/test_sale_price_with_tax.py,sha256=U_gpbwldbBrdBnlPDSt7bu8CutSvWapBSHg0FiEK7uQ,525
+m9s_sale_price_with_tax-5.2.4.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_sale_price_with_tax-5.2.4.dist-info/METADATA,sha256=RW4v34G9BRnJiLiKE1t8EP2uh11pQyLo1uOdVFM9f3c,3317
+m9s_sale_price_with_tax-5.2.4.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+m9s_sale_price_with_tax-5.2.4.dist-info/entry_points.txt,sha256=z1Q9Frk1H82kfT9J93jIF2LhbL47v60fJKpZOfhmbGU,89
+m9s_sale_price_with_tax-5.2.4.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_sale_price_with_tax-5.2.4.dist-info/RECORD,,
