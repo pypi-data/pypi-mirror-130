@@ -1,0 +1,13 @@
+levenshtein.cpython-39-i386-linux-gnu.so,sha256=NSneSRWaGLp1QM-KNDgv0QeqBNz5m695MDNBaTx07VI,166548
+levenshtein_cpp.libs/libgcc_s-8b50eaaa.so.1,sha256=aEf1qbEV-lDljbUGr6ql8FAfnxyJlKTeEsHNdrBlAHM,101648
+levenshtein_cpp.libs/libstdc++-8baf04f9.so.6.0.28,sha256=7dHa2sV5CgWXjdC4QqxbCNsm-pN9kkmNNqxtn5AaAvs,2428960
+levenshtein/__init__.pyi,sha256=F-whABeN5ujCZx6EgM5MrRD1o_BH8845dB8MuFtm1mc,221
+levenshtein/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+levenshtein/inc/levenshtein.hpp,sha256=PotodyexXNX7HznwDGuQOjdvAC7pVS8Q7e8o_8aSsvE,278
+levenshtein/src/module.cpp,sha256=CjdvgaHaPPnfnHdlO1xpEy4DWlOHGGjXoBDPhofzpHY,520
+levenshtein/src/levenshtein.cpp,sha256=wriu8QG6OEVg7Wd-VmDutJzhsjfzMUr2KvHHjL2bqBc,1166
+levenshtein_cpp-0.0.3.dist-info/LICENSE,sha256=U5X1RrbQL8M2fhrSdvmW82Wk1kZl77M3q-u3_1Jsy9A,1074
+levenshtein_cpp-0.0.3.dist-info/RECORD,,
+levenshtein_cpp-0.0.3.dist-info/top_level.txt,sha256=MKfgf0PyG2dUPhC83k04YwIrjn1XPe8XW2FvSU7egxo,12
+levenshtein_cpp-0.0.3.dist-info/WHEEL,sha256=yGSngkU-IRDckbumjRAwy-JjbSJoUYbTn9e1L63kQCI,109
+levenshtein_cpp-0.0.3.dist-info/METADATA,sha256=2LdUm9P2q3aKVzO_SywKOHK1Eb-7b0jCuiHXSu63zd0,935
