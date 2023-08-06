@@ -1,0 +1,6 @@
+sanction
+aiohttp
+requests
+requests_oauthlib
+ratelimit
+websockets
