@@ -1,0 +1,14 @@
+fontman/__init__.py,sha256=ds8spwoVifDMhBDuf2f1zysYcBw2Rau-Uym7B-HN-xM,41
+fontman/_cli.py,sha256=cUEtQBg59s0bWlMnAeGIE3PSUJMXP8hZ8DzUmNkahQ4,3108
+fontman/_errors.py,sha256=RlgA-A1n6Uu5wAt8fojg7HvABWz825E0FrwM4DZoEQ0,40
+fontman/_install.py,sha256=1Tl8XlR9wqgGUZTGjQttRyzjolHA9k7kxkWusjP0pZ4,7055
+fontman/_list.py,sha256=F4_P6el0L1ly7J0Fn8fVM7O8g1ZCQehE6P6VLP0WuxM,836
+fontman/_remove.py,sha256=JB99uqCUq1cfoibaJrVJGYDyNi0761hPy18pLN5Bp78,1291
+fontman/_update.py,sha256=w39vSbL8W_Jp90ps1THeRCzu2_GrBHqW79D12ufquSo,1823
+fontman/tools.py,sha256=x4XkMXSjDhglHagxoB88lKePAVYMZcKApcgo7VT8roA,299
+fontman-0.1.4.dist-info/LICENSE,sha256=qK0Tvvh4K_hzFHSIfQNeJWmPBFqTUWHXYR9odaFiakA,1081
+fontman-0.1.4.dist-info/METADATA,sha256=TYAQRqYgEDn1o3LSHeDWUUVswceQ_JI8BbUByux9BKk,2990
+fontman-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fontman-0.1.4.dist-info/entry_points.txt,sha256=B40GXjK0KKFLNov7RSnPDXci7NPX8Ifj59rl085XzTM,41
+fontman-0.1.4.dist-info/top_level.txt,sha256=sRvTJRQdBWrqwD5VYeDEXyQX8twO8BVGtEcivu4ID_o,8
+fontman-0.1.4.dist-info/RECORD,,
