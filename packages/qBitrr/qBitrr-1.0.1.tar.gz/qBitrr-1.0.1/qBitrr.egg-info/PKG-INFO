@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: qBitrr
+Version: 1.0.1
+Summary: A simple script to monitor Qbit and communicate with Radarr and Sonarr
+Home-page: https://github.com/Drapersniper/Qbitrr
+Author: Draper
+Author-email: draper@draper.wtf
+License: MIT
+Project-URL: Discord Server, https://discord.gg/FT3puape2A
+Project-URL: Issue Tracker, https://github.com/Drapersniper/Qbitrr/issues
+Project-URL: Source Code, https://github.com/Drapersniper/Qbitrr
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: <=3.10,>=3.8.1
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+License-File: LICENSE
+
+A simple script to monitor [Qbit](https://github.com/qbittorrent/qBittorrent) and communicate with [Radarr](https://github.com/Radarr/Radarr) and [Sonarr](https://github.com/Sonarr/Sonarr)
+
+Join the [Official Discord Server](https://discord.gg/FT3puape2A) for help.
+
+
+### Features
+  - Monitor qBit for Stalled/bad entries and delete them then blacklist them on Arrs (Option to also trigger a re-search action).
+  - Monitor qBit for completed entries and tell the appropriate Arr instance to import it ( 'DownloadedMoviesScan' or 'DownloadedEpisodesScan' commands).
+  - Skip files in qBit entries by extension, folder or regex.
+  - Monitor completed folder and cleans it up.
+  - Uses [ffprobe](https://github.com/FFmpeg/FFmpeg) to ensure downloaded entries are valid media.
+  - Trigger periodic Rss Syncs on the appropriate Arr instances.
+  - Trigger Queue update on appropriate Arr instances.
+  - Search requests from [Overseerr](https://github.com/sct/overseerr) or [Ombi](https://github.com/Ombi-app/Ombi).
+  
+  __This section requires the Arr databases to be locally available.__
+  - Monitor Arr's databases to trigger missing episode searches.
+  - Customizable year range to search for (at a later point will add more option here, for example search whole series/season instead of individual episodes, search by name, category etc).
+  
+
+### Important mentions.
+
+Some things to know before using it.
+
+-
+    1. You need to copy the `config.example.ini` and rename it to `config.ini`
+-
+    2. I have Sonarr and Radarr both setup to add tags to all downloads.
+-
+    3. I have qBit setup to have to create subfolder for downloads and for the download folder to
+       use subcategories.
+
+![image](https://user-images.githubusercontent.com/27962761/139117102-ec1d321a-1e64-4880-8ad1-ee2c9b805f92.png)
+
+-
+    4. Make sure to have [`ffprobe`](https://www.ffmpeg.org/download.html) added to your PATH.
+
+#### Install the requirements run:
+
+- `python -m pip install -r requirements.text` (I would recommend in a dedicated [venv](https://docs.python.org/3.3/library/venv.html) but that's out of scope.
+
+#### Run the script
+
+- Make sure to update the settings in `config.ini`
+- Run `python main.py`
+
+#### Contributions
+
+- I'm happy with any PRs and suggested changes to the logic I just put it together dirty for my own use case.
+
+#### Example behaviour
+![image](https://user-images.githubusercontent.com/27962761/139675283-f1b09955-d9b3-448c-b64c-1de58c1cddcb.png)
+
+
+### Change Logs
+ - Update 2021-11-30 
+   - This update will require you to delete the existing databases in `~/.config/qBitManager` due to changes to the database format.
+   - Several bug fixes and new functionality.
+ - Update 2021-12-11
+   - Fix an edge case where the script would tell the Arr instance that the torrent couldn't be found too early resulting in its removal.
+
