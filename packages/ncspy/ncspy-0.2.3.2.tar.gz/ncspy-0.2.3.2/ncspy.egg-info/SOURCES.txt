@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+ncs/__init__.py
+ncs/client.py
+ncs/parser.py
+ncs/song.py
+ncspy.egg-info/PKG-INFO
+ncspy.egg-info/SOURCES.txt
+ncspy.egg-info/dependency_links.txt
+ncspy.egg-info/requires.txt
+ncspy.egg-info/top_level.txt
