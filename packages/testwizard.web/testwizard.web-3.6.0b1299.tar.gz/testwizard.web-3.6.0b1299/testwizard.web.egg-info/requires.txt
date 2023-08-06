@@ -1,0 +1,5 @@
+testwizard.test==3.6.0b1299
+testwizard.testobjects-core==3.6.0b1299
+testwizard.commands-audio==3.6.0b1299
+testwizard.commands-video==3.6.0b1299
+testwizard.commands-web==3.6.0b1299
