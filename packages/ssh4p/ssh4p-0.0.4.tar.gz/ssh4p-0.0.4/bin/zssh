@@ -1,0 +1,19 @@
+#!/usr/bin/env python
+# encoding: utf-8
+
+import pexpect
+import sys
+from lib.host_storage import HostManager
+
+if __name__ == '__main__':
+    name = sys.argv[1]
+    host = HostManager.get(name)
+    if host is None:
+        print('config key %s is not found!' % name)
+        sys.exit(0)
+
+    process = pexpect.spawn('ssh -p %s %s@%s' % (host.port, host.user, host.host))
+    process.expect('password:*')
+    process.sendline(host.password)
+    process.interact()
+
