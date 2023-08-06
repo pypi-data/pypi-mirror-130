@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/moidata/__init__.py
+src/moidata/moidata.py
+src/moidata.egg-info/PKG-INFO
+src/moidata.egg-info/SOURCES.txt
+src/moidata.egg-info/dependency_links.txt
+src/moidata.egg-info/top_level.txt
