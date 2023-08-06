@@ -1,0 +1,3 @@
+[console_scripts]
+avdb = avdb.__main__:main
+

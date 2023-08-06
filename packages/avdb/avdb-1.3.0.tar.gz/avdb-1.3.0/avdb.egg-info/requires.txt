@@ -1,0 +1,6 @@
+SQLAlchemy
+dnspython
+mpipe
+pystache
+sh
+six
