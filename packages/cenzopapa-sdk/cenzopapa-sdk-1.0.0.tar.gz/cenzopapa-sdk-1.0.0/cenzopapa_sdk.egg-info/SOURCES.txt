@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+cenzopapa/__init__.py
+cenzopapa/decorators.py
+cenzopapa/exceptions.py
+cenzopapa/mixins.py
+cenzopapa/resource_client.py
+cenzopapa/resources.py
+cenzopapa/schemas.py
+cenzopapa_sdk.egg-info/PKG-INFO
+cenzopapa_sdk.egg-info/SOURCES.txt
+cenzopapa_sdk.egg-info/dependency_links.txt
+cenzopapa_sdk.egg-info/requires.txt
+cenzopapa_sdk.egg-info/top_level.txt
