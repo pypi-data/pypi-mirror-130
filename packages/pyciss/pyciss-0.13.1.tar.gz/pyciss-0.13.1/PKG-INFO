@@ -1,0 +1,229 @@
+Metadata-Version: 2.1
+Name: pyciss
+Version: 0.13.1
+Summary: Tools for Cassini ISS analysis
+Home-page: https://github.com/michaelaye/pyciss/tree/master/
+Author: Michael Aye
+Author-email: kmichael.aye@gmail.com
+License: Apache Software License 2.0
+Description: # Index
+        > Tools to retrieve the PDS index for Cassini ISS image data.
+        
+        
+        ```python
+        df = ring_summary_index()
+        ```
+        
+            Stored index is up-to-date.
+        
+        
+        ```python
+        df.head()
+        ```
+        
+        
+        
+        
+        <div>
+        <style scoped>
+            .dataframe tbody tr th:only-of-type {
+                vertical-align: middle;
+            }
+        
+            .dataframe tbody tr th {
+                vertical-align: top;
+            }
+        
+            .dataframe thead th {
+                text-align: right;
+            }
+        </style>
+        <table border="1" class="dataframe">
+          <thead>
+            <tr style="text-align: right;">
+              <th></th>
+              <th>VOLUME_ID</th>
+              <th>FILE_SPECIFICATION_NAME</th>
+              <th>OPUS_ID</th>
+              <th>MINIMUM_RIGHT_ASCENSION</th>
+              <th>MAXIMUM_RIGHT_ASCENSION</th>
+              <th>MINIMUM_DECLINATION</th>
+              <th>MAXIMUM_DECLINATION</th>
+              <th>MINIMUM_RING_RADIUS</th>
+              <th>MAXIMUM_RING_RADIUS</th>
+              <th>FINEST_RING_INTERCEPT_RESOLUTION</th>
+              <th>...</th>
+              <th>RING_CENTER_DISTANCE</th>
+              <th>SUB_SOLAR_RING_LONGITUDE</th>
+              <th>SUB_OBSERVER_RING_LONGITUDE</th>
+              <th>RING_CENTER_PHASE_ANGLE</th>
+              <th>RING_CENTER_INCIDENCE_ANGLE</th>
+              <th>RING_CENTER_NORTH_BASED_INCIDENCE_ANGLE</th>
+              <th>RING_CENTER_EMISSION_ANGLE</th>
+              <th>RING_CENTER_NORTH_BASED_EMISSION_ANGLE</th>
+              <th>SOLAR_RING_OPENING_ANGLE</th>
+              <th>OBSERVER_RING_OPENING_ANGLE</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>0</th>
+              <td>COISS_2001</td>
+              <td>data/1454725799_1455008789/N1454725799_1.LBL</td>
+              <td>co-iss-n1454725799</td>
+              <td>35.528398</td>
+              <td>35.905555</td>
+              <td>9.719637</td>
+              <td>10.091212</td>
+              <td>205899.335</td>
+              <td>1098621.586</td>
+              <td>419.0137</td>
+              <td>...</td>
+              <td>70874998.947</td>
+              <td>284.523</td>
+              <td>215.951</td>
+              <td>64.07</td>
+              <td>64.589</td>
+              <td>115.411</td>
+              <td>73.676</td>
+              <td>106.324</td>
+              <td>-25.411</td>
+              <td>-16.324</td>
+            </tr>
+            <tr>
+              <th>1</th>
+              <td>COISS_2001</td>
+              <td>data/1454725799_1455008789/N1454726579_1.LBL</td>
+              <td>co-iss-n1454726579</td>
+              <td>36.662898</td>
+              <td>37.039038</td>
+              <td>9.590114</td>
+              <td>9.960833</td>
+              <td>721136.155</td>
+              <td>1745689.307</td>
+              <td>421.97145</td>
+              <td>...</td>
+              <td>70870851.371</td>
+              <td>284.524</td>
+              <td>215.951</td>
+              <td>64.07</td>
+              <td>64.589</td>
+              <td>115.411</td>
+              <td>73.676</td>
+              <td>106.324</td>
+              <td>-25.411</td>
+              <td>-16.324</td>
+            </tr>
+            <tr>
+              <th>2</th>
+              <td>COISS_2001</td>
+              <td>data/1454725799_1455008789/N1454727359_1.LBL</td>
+              <td>co-iss-n1454727359</td>
+              <td>36.928066</td>
+              <td>37.304334</td>
+              <td>9.879593</td>
+              <td>10.25011</td>
+              <td>1042341.438</td>
+              <td>2186830.92</td>
+              <td>414.79041</td>
+              <td>...</td>
+              <td>70866703.094</td>
+              <td>284.524</td>
+              <td>215.951</td>
+              <td>64.071</td>
+              <td>64.589</td>
+              <td>115.411</td>
+              <td>73.676</td>
+              <td>106.324</td>
+              <td>-25.411</td>
+              <td>-16.324</td>
+            </tr>
+            <tr>
+              <th>3</th>
+              <td>COISS_2001</td>
+              <td>data/1454725799_1455008789/N1454728139_1.LBL</td>
+              <td>co-iss-n1454728139</td>
+              <td>28.10042</td>
+              <td>28.479618</td>
+              <td>6.224709</td>
+              <td>6.601574</td>
+              <td>&lt;NA&gt;</td>
+              <td>&lt;NA&gt;</td>
+              <td>&lt;NA&gt;</td>
+              <td>...</td>
+              <td>70862557.207</td>
+              <td>284.524</td>
+              <td>215.951</td>
+              <td>64.071</td>
+              <td>64.589</td>
+              <td>115.411</td>
+              <td>73.676</td>
+              <td>106.324</td>
+              <td>-25.411</td>
+              <td>-16.324</td>
+            </tr>
+            <tr>
+              <th>4</th>
+              <td>COISS_2001</td>
+              <td>data/1454725799_1455008789/N1454728919_1.LBL</td>
+              <td>co-iss-n1454728919</td>
+              <td>37.981418</td>
+              <td>38.357791</td>
+              <td>10.611947</td>
+              <td>10.981697</td>
+              <td>3865717.589</td>
+              <td>3905151.343</td>
+              <td>405.91234</td>
+              <td>...</td>
+              <td>70858406.794</td>
+              <td>284.525</td>
+              <td>215.951</td>
+              <td>64.071</td>
+              <td>64.589</td>
+              <td>115.411</td>
+              <td>73.676</td>
+              <td>106.324</td>
+              <td>-25.411</td>
+              <td>-16.324</td>
+            </tr>
+          </tbody>
+        </table>
+        <p>5 rows × 59 columns</p>
+        </div>
+        
+        
+        
+        ```python
+        clearnacs = get_clearnacs_ring_images()
+        clearnacs.info()
+        ```
+        
+            Stored index is up-to-date.
+            'isotime' column does not exist. Leaving index as it is.
+            <class 'pandas.core.frame.DataFrame'>
+            Int64Index: 13406 entries, 2321 to 100442
+            Columns: 140 entries, FILE_NAME to STANDARD_DATA_PRODUCT_ID
+            dtypes: Float64(68), Int64(22), datetime64[ns](7), string(43)
+            memory usage: 15.6 MB
+        
+        
+        ```python
+        filter_for_ringspan(clearnacs, 500).info()
+        ```
+        
+            <class 'pandas.core.frame.DataFrame'>
+            Int64Index: 44 entries, 13326 to 13370
+            Columns: 140 entries, FILE_NAME to STANDARD_DATA_PRODUCT_ID
+            dtypes: Float64(68), Int64(22), datetime64[ns](7), string(43)
+            memory usage: 52.3 KB
+        
+        
+Keywords: planetary science,imaging
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
