@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: TextStega
+Version: 0.0.1
+Summary: library useful for text steganography
+Home-page: UNKNOWN
+Author: Atharva Vidwans
+Author-email: atharvavidwans@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
