@@ -1,0 +1,9 @@
+LICENSE.txt
+README.md
+setup.py
+src/ProtView.py
+src/prot_view.egg-info/PKG-INFO
+src/prot_view.egg-info/SOURCES.txt
+src/prot_view.egg-info/dependency_links.txt
+src/prot_view.egg-info/requires.txt
+src/prot_view.egg-info/top_level.txt
