@@ -1,0 +1,15 @@
+README.md,sha256=OjHN0zTWnl1FoZfiNeDTPH22AsFnWqWvHWQr9TDLQMs,1500
+i_lazy/__init__.py,sha256=Pj8h80RiHMJWYVX7ZaOxd6-qUQzomXgo0CW82YmculY,748
+i_lazy/data_structures/__init__.py,sha256=zZLlS6f1Bo-MF91cWn3boKFzSU-cY8WEyZnBgqKEGvs,434
+i_lazy/data_structures/dict/__init__.py,sha256=JCWWXZt4iulDGFd4al12HKCpx13Enwulh1SBYGTq_tU,472
+i_lazy/data_structures/dict/context_dict.py,sha256=k4p11IaDAmJypdNXHVlSBeGDOa21PGOJbCtmdIwrmq4,2723
+i_lazy/data_structures/dict/data_schema.py,sha256=bp5Px3jXWzokwVPHwMK9fD3dfcERuKCehTCUxfPvB8A,1803
+i_lazy/data_structures/dict/dot_dict.py,sha256=Zj7aKoC7KODj2chPIRwQERPj48dnd_ertbAyWKGblMM,469
+i_lazy/data_structures/singleton.py,sha256=Iixf7EtCN_Vm1EG_BdSoWqGELQ09xzZIM_S2Ua14BfU,1420
+i_lazy/utils/__init__.py,sha256=Y8bIDZAaF9r3nMscmFQCFGjC2Hl3ZWDFBXKD8je0N-o,465
+i_lazy/utils/dict.py,sha256=bS8o2E_a0VHWXa4Uzk3iHBG_Cma0HTc9DQTPdtnqRqI,627
+i_lazy/utils/profiling.py,sha256=A-ak4VJWHjIFVVJ8WrMKh7CJPyiHS73K71GtmC-J6Ts,757
+i_lazy/utils/type_ocd.py,sha256=I4GiVMG7BfQk0KQGQWzJRxTaV3xHJVsFQdiD8VDFQIQ,2652
+i_lazy-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+i_lazy-0.1.1.dist-info/METADATA,sha256=hpi7rAp1E16QeQ35lRV5wjlujPPUvK5G-LGdcMyamr0,610
+i_lazy-0.1.1.dist-info/RECORD,,
