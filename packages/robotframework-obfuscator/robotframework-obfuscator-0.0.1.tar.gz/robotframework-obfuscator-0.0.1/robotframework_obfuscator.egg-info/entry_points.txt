@@ -1,0 +1,3 @@
+[console_scripts]
+rf_obfuscator = robotframework_obfuscator.__main__:main
+

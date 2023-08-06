@@ -1,0 +1,6 @@
+robotframework>=3.2
+robotframework-lsp>=0.29
+
+[test]
+pytest
+pytest-xdist
