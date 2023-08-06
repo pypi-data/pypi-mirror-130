@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+latestearthquakenewsindonesia.egg-info/PKG-INFO
+latestearthquakenewsindonesia.egg-info/SOURCES.txt
+latestearthquakenewsindonesia.egg-info/dependency_links.txt
+latestearthquakenewsindonesia.egg-info/top_level.txt
