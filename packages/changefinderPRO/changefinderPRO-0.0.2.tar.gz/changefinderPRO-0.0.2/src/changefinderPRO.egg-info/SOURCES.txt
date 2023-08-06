@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/changefinderPRO/__init__.py
+src/changefinderPRO/changefinderPRO.py
+src/changefinderPRO/teste.py
+src/changefinderPRO.egg-info/PKG-INFO
+src/changefinderPRO.egg-info/SOURCES.txt
+src/changefinderPRO.egg-info/dependency_links.txt
+src/changefinderPRO.egg-info/requires.txt
+src/changefinderPRO.egg-info/top_level.txt
