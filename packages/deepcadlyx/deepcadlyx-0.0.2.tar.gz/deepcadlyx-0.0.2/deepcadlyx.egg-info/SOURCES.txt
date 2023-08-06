@@ -1,0 +1,17 @@
+setup.py
+deepcadlyx/__init__.py
+deepcadlyx/buildingblocks.py
+deepcadlyx/calsnr.py
+deepcadlyx/data_process.py
+deepcadlyx/model_3DUnet.py
+deepcadlyx/network.py
+deepcadlyx/script.py
+deepcadlyx/test-nospost-snr.py
+deepcadlyx/test.py
+deepcadlyx/train.py
+deepcadlyx/utils.py
+deepcadlyx.egg-info/PKG-INFO
+deepcadlyx.egg-info/SOURCES.txt
+deepcadlyx.egg-info/dependency_links.txt
+deepcadlyx.egg-info/requires.txt
+deepcadlyx.egg-info/top_level.txt
