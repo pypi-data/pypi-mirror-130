@@ -1,0 +1,3 @@
+[console_scripts]
+tily = tily.__main__:main
+
