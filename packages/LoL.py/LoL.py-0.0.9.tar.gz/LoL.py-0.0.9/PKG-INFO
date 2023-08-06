@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: LoL.py
+Version: 0.0.9
+Summary: A tiny Riot-league of legends Api wrapper
+Home-page: https://github.com/Blackcool70/LoL.py
+Author: Blackcool70
+Author-email: blackcool70_cool7744@hotmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/Blackcool70/LoL.py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# LoL.py
+A League Of Legends API Wrapper
+```python
+from LoL import LoL
+
+api_key = "API TOKEN"
+
+lol = LoL(api_key, "euw")
+
+user_data = lol.get_summoner("summoner_name")
+
+summonerId = user_data['id'] # grab summoner id
+puuid = user_data['puuid'] # grab ppuid
+
+matches = lol. get_matches_by_puuid(puuid)
+
+single_match = matches[0]
+
+print(lol.get_all_champions())
+
+print(lol.get_summoner(accountId="acc_id"))
+
+print(lol.get_summoner(puuid="puuid"))
+
+print(lol.get_summoner(summonerid="summoner_id"))
+
+print(lol.get_champion_rotations())
+
+print(lol.get_champions_mastery_by_summonerId(summonerId))
+
+print(lol.get_champion_mastery_by_summonerId_and_championId(summonerId,17))
+
+print(lol. get_matches_by_puuid(puuid))
+
+print(lol.get_match_by_matchid(single_match))
+```
+
