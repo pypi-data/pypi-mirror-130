@@ -1,0 +1,4 @@
+numpy
+opencv-python
+mss==6.1.0
+Pillow
