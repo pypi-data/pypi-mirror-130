@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+face_recons/__init__.py
+face_recons/main.py
+face_recons/test.py
+face_recons/train.py
+face_recons.egg-info/PKG-INFO
+face_recons.egg-info/SOURCES.txt
+face_recons.egg-info/dependency_links.txt
+face_recons.egg-info/top_level.txt

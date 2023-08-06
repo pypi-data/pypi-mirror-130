@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: face-recons
+Version: 0.0.1
+Summary: Face Reconstruction Applicaton
+Home-page: https://github.com/sg7801/face
+Author: Srishti Guleria
+Author-email: guleriasrishti01@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Finding set of faces when combined results in face of person A
+This repository contains the code for the python project on “Finding set of faces when combined results in face of person A". 
+The default mode of the application is interactive mode which is user friendly. The other mode is Command Line Interface.
+
+## Default Mode (Interactive Mode): 
+
+We start the application by opening the terminal in this folder and typing the command :  python main.py
+
+The following 5 options are shown in the terminal. Then we would enter the number of the command of our choice between 1-5. 
+If we enter 1, the directory for training dataset is asked. Then the model starts to train & following output is generated.
+If we enter 2, then the full file path to test directory is asked. Then the collage of input/test images are printed as output on terminal.
+If we enter 3, then the mean face and first five eigen faces get printed on the output window one by one.
+The mean face is displayed on the output window.
+Then, all the five eigen faces will be displayed on the output window one by one. 
+If we enter 4, then the trained model is read from pca_parameters.yml. 
+  - Then the eigen vectors held in a structure of eigenVectors where eigen_face[i][j] = j-th eigen face of i-th image are displayed on the terminal as shown below.
+  - Then we enter the name of folder with image in format: directory/image_name.jpg. The image will be read and vectorized. After that the final results get displayed in new window. The final output window with original image on left and re-constructed image on right as described in the video below. 
+  - It has a slider for increasing or decreasing the number of eigen faces used for reconstruction. By trying all combinations, we can dynamically see the best reconstructed image. 
+  - The reconstructed image dynamically changes with respect to the number of eigen faces chosen on slider.
+  - The percentage of Eigen Faces used for reconstructing output image is dynamically printed on the terminal as we move the slider.
+
+Finally to exit the terminal we must enter 5. If we enter any other value than 1 to 5 then "invalid mode" output will be displayed.
+
+## Mode 1 (Command Line Interface)
+
+If we wish to use the Command Line Interface, we can do so by typing the following command :
+  ```
+  python main.py --mode 1 --input directory/image.jpg --dataset directory
+  ```
+We can enter mode = 1 for CLI mode, the directory/../image.jpg for the Test Image and the directory for the Training Dataset.
+For example, if we entered test/300000.jpg for Test Image and sample2 for Training Dataset. 
+The model is trained from the pca_parameters.yml and the Test Image is reconstructed. 
+The percentage of Eigen Faces used to reconstruct the output image is dynamically printed on terminal as we slide the slider.
+
+Same Output Window of Reconstructed Image is displayed in CLI mode as seen in Interactive Mode.
+
+
