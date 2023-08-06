@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pylustrator
+Version: 1.1.1
+Summary: Adds interactivity to arrange panels in matplotlib
+Home-page: https://bitbucket.org/fabry_biophysics/pylustrator
+Author: Richard Gerum
+Author-email: richard.gerum@fau.de
+License: GPLv3
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
