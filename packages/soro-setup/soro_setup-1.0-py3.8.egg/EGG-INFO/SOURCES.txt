@@ -1,0 +1,8 @@
+README.txt
+setup.py
+soro_setup.egg-info/PKG-INFO
+soro_setup.egg-info/SOURCES.txt
+soro_setup.egg-info/dependency_links.txt
+soro_setup.egg-info/top_level.txt
+src/__init__.py
+src/core.py
