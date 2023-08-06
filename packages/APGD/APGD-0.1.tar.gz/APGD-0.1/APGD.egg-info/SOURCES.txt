@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+APGD/APGD.py
+APGD/__init__.py
+APGD.egg-info/PKG-INFO
+APGD.egg-info/SOURCES.txt
+APGD.egg-info/dependency_links.txt
+APGD.egg-info/requires.txt
+APGD.egg-info/top_level.txt

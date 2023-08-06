@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: APGD
+Version: 0.1
+Summary: Accelerated Proximal Gradient Descent (APGD) algorithm to solve the penalized regression models
+Home-page: https://github.com/tobefuture/APGD
+Author: Ling Zhang
+Author-email: lingzhan@mtu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+# APGD v.0.1.0
+
+<!-- badges: start -->
+
+Python version of the Accelerated Proximal Gradient Descent (APGD) algorithm is to solve the penalized regression models, including 
+
+- **HuberNet**: Huber loss function along with Network-based penalty function;
+- **HuberLasso**: Huber loss function along with Lasso penalty function;
+- **HuberENET**: Huber loss function along with Elastic Net penalty function;
+- **ENET**: Mean square error loss function along with Elastic Net penalty function;
+- **Lasso**: Mean square error loss function along with Lasso penalty function;
+- **Net**: Mean square error loss function along with Network-based penalty function.
+
+## Functions
+
+Please refer from [Github site](https://github.com/tobefuture/APGD).
+
+
