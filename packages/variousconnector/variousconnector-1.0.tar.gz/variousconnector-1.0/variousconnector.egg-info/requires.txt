@@ -1,0 +1,4 @@
+sshtunnel
+sqlalchemy
+psycopg2
+pandas

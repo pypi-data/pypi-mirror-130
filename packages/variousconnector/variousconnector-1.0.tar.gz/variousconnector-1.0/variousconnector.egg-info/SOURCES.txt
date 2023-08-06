@@ -1,0 +1,9 @@
+README.md
+setup.py
+variousconnector/__init__.py
+variousconnector/postgresql.py
+variousconnector.egg-info/PKG-INFO
+variousconnector.egg-info/SOURCES.txt
+variousconnector.egg-info/dependency_links.txt
+variousconnector.egg-info/requires.txt
+variousconnector.egg-info/top_level.txt
