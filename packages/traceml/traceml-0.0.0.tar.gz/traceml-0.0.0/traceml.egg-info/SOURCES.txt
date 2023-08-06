@@ -1,0 +1,5 @@
+setup.py
+traceml.egg-info/PKG-INFO
+traceml.egg-info/SOURCES.txt
+traceml.egg-info/dependency_links.txt
+traceml.egg-info/top_level.txt
