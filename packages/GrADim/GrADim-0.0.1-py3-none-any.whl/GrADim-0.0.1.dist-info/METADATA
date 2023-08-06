@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: GrADim
+Version: 0.0.1
+Summary: A package for auto-differentiation
+Home-page: https://github.com/cs107-i-m-i-m/cs107-FinalProject
+Author: Aloysius Lim, Gregoire Baverez, Shivam Raval, Xinrong Yang
+Author-email: aloysius_lim@g.harvard.edu, gregoirebaverez@g.harvard.edu, sraval@g.harvard.edu, xinrongyang@g.harvard.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cs107-FinalProject
+Final project deliverables
+
+Group #5
+Gregoire Baverez
+Xinrong Yang
+Aloysius Lim
+Shivam Raval
+
+
+## Badge travisci
+[![Build Status](https://app.travis-ci.com/cs107-i-m-i-m/cs107-FinalProject.svg?token=RKxQRxaJdxdtKXuUyQLW&branch=main)](https://app.travis-ci.com/cs107-i-m-i-m/cs107-FinalProject)
+
+## Badge Codecov
+[![codecov](https://codecov.io/gh/cs107-i-m-i-m/cs107-FinalProject/branch/main/graph/badge.svg?token=JSLV57IM18)](https://codecov.io/gh/cs107-i-m-i-m/cs107-FinalProject)
+
+
