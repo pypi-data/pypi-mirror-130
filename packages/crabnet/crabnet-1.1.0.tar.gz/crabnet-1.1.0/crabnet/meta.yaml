@@ -1,0 +1,54 @@
+{% set name = "crabnet" %}
+{% set version = "1.0.6" %}
+
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/crabnet-{{ version }}.tar.gz
+  sha256: 92d55db1e5725d168106a50311b4e4fbaac01cbf06afc8a1a81194f16a4ee91e
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - pip
+    - flit
+    - python >=3.6,<3.10
+  run:
+    - joblib
+    - cudatoolkit <11.4
+    - pytorch >=1.9.0
+    - matplotlib-base
+    - numpy
+    - pandas
+    - psutil
+    - python >=3.6,<3.10
+    - scikit-learn
+    - scipy
+    - seaborn
+    - tqdm
+
+test:
+  imports:
+    - crabnet
+    - crabnet.data
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: https://pypi.org/project/crabnet/
+  summary: Predict materials properties using only the composition information.
+  license: MIT
+  license_file: LICENSE
+
+extra:
+  recipe-maintainers:
+    - sgbaird
