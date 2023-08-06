@@ -1,0 +1,3 @@
+[fonts_ttf]
+manrope = font_manrope:font_files
+
