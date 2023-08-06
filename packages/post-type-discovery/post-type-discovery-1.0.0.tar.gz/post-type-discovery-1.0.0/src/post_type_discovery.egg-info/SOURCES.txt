@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+src/post_type_discovery/__init__.py
+src/post_type_discovery/main.py
+src/post_type_discovery.egg-info/PKG-INFO
+src/post_type_discovery.egg-info/SOURCES.txt
+src/post_type_discovery.egg-info/dependency_links.txt
+src/post_type_discovery.egg-info/top_level.txt
