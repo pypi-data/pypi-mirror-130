@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: scipp
+Version: 0.10.1rc2
+Summary: Multi-dimensional data arrays with labeled dimensions
+Home-page: https://scipp.github.io
+Author: Scipp contributors (https://github.com/scipp)
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Provides-Extra: test
+Provides-Extra: all
+Provides-Extra: interactive
+License-File: LICENSE
+
+UNKNOWN
+
