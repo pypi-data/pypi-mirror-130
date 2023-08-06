@@ -1,0 +1,7 @@
+aiofiles
+cryptography
+msgpack
+pop>=20
+pop-config>=8.0.2
+pyyaml
+rend>=6.3.1
