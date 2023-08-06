@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/shared_ds/__init__.py
+src/shared_ds/shared_array.py
+src/shared_ds/shared_bytes_io.py
+src/shared_ds.egg-info/PKG-INFO
+src/shared_ds.egg-info/SOURCES.txt
+src/shared_ds.egg-info/dependency_links.txt
+src/shared_ds.egg-info/not-zip-safe
+src/shared_ds.egg-info/requires.txt
+src/shared_ds.egg-info/top_level.txt
