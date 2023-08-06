@@ -1,0 +1,14 @@
+mycqu/__init__.py,sha256=ozrtBTi7axPN4m9u1_J1M7z0SudVxCtzDVrPN6_2G2Q,86
+mycqu/_lib_wrapper/Crypto.py,sha256=51-MKnZrG-VP6cJG1zvmkFUF4lcVi-SW0MR_ioMNyi8,296
+mycqu/_lib_wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mycqu/_lib_wrapper/dataclass.py,sha256=fA669JohHZ_XXkTJudCVQtzF24iknQjQ2Kg53cAZO0g,329
+mycqu/auth.py,sha256=GbclTEbVQE9_Me_1j0cKcNasGJ8aADuQZ0_EO0Qv2LQ,9886
+mycqu/course.py,sha256=DBX1KOezYGu-1tpbHqoxjlkM6kjHYwP6EsuJzTRS87c,9996
+mycqu/exam.py,sha256=zL9tfuyB3p-7mb4ouStnXp9pif_4VHLxGU0GWVIMPZE,4553
+mycqu/mycqu.py,sha256=IGfaqaCEpr6xUI-csJkg6T123AAzjo-A3TQDpecUh0g,2142
+mycqu/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mycqu/utils/datetimes.py,sha256=de9uHTFEVR9TsKde3iEjfNBNh6rz-yRIpwKJgPUCc4I,896
+mycqu-0.2.3.dist-info/LICENSE.txt,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+mycqu-0.2.3.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+mycqu-0.2.3.dist-info/METADATA,sha256=7n6pyDLoWxbg33nuMtO2jVzZRQZ0Qc77WzaL4p4ctDY,1546
+mycqu-0.2.3.dist-info/RECORD,,
