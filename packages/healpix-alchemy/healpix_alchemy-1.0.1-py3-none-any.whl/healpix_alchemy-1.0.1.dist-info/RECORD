@@ -1,0 +1,14 @@
+healpix_alchemy/__init__.py,sha256=J74-BJFlJZhhkDNpDp7KMidhGVoj94v2jqcdTcpXHkM,93
+healpix_alchemy/constants.py,sha256=rJNFzSp5W4jpYuOgtC-mmffIZrdROiYwp365uW1XGiI,612
+healpix_alchemy/func.py,sha256=NoAB2LueKrLiGPPubnueAp3ukKCPHNnRoy4DxcRBM7o,180
+healpix_alchemy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+healpix_alchemy/tests/benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+healpix_alchemy/tests/benchmarks/conftest.py,sha256=EU0wJUzYmYJQeuPbjdgFnkAKHF3uNW5PiJL6fH6Yuws,923
+healpix_alchemy/tests/benchmarks/data.py,sha256=pD1QX1qxLN3HuRNgR_kypyX7BIXHgTeGLbhNB1VAWE4,3654
+healpix_alchemy/tests/benchmarks/models.py,sha256=7RI57h_h0j1wN8Q1IOGgIXDKDGUJo_wz-UtpfhT0Jgk,908
+healpix_alchemy/tests/benchmarks/test_benchmarks.py,sha256=ED36qwR8_vetDkYsHLW0orUQwTxf1wMOCspuYVqwv6E,2621
+healpix_alchemy/types.py,sha256=TXjF5kflW9Fp1BDB4w7tLV0L5_i9qSCJHGGN0S74nmw,2817
+healpix_alchemy-1.0.1.dist-info/LICENSE,sha256=NjKnfqkYs0NK-m1C-zR5uJMYKO-SrCs7vRfS_n2b6H4,1526
+healpix_alchemy-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+healpix_alchemy-1.0.1.dist-info/METADATA,sha256=LuI9ilGONvUBxYsH4CAGPhVuBlv1TYeT--Wv_JjrVws,21175
+healpix_alchemy-1.0.1.dist-info/RECORD,,
