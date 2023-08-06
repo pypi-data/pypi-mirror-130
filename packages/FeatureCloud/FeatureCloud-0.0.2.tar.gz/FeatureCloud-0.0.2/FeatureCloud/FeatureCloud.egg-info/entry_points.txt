@@ -1,0 +1,3 @@
+[console_scripts]
+FeatureCloud = FeatureCloud.__main__:featurecloud
+
