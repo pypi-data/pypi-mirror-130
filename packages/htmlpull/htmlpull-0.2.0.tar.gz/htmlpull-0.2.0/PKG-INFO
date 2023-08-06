@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: htmlpull
+Version: 0.2.0
+Summary: 
+Author: Summer
+Author-email: 30243134+Summertime@users.noreply.github.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
+Requires-Dist: html5lib (>=1.1,<2.0)
+Requires-Dist: lxml (>=4.6.4,<5.0.0)

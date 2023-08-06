@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "htmlpull"
+version = "0.2.0"
+description = ""
+authors = ["Summer <30243134+Summertime@users.noreply.github.com>"]
+[tool.poetry.scripts]
+
+htmlpull = 'htmlpull.cli:cli'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+html5lib = "^1.1"
+lxml = "^4.6.4"
+docopt = "^0.6.2"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
