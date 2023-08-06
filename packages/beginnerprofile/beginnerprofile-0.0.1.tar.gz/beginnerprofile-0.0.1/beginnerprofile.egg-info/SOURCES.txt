@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+beginnerprofile/__init__.py
+beginnerprofile/myprofile.py
+beginnerprofile.egg-info/PKG-INFO
+beginnerprofile.egg-info/SOURCES.txt
+beginnerprofile.egg-info/dependency_links.txt
+beginnerprofile.egg-info/top_level.txt

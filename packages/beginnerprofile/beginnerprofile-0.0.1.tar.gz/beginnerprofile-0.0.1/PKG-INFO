@@ -1,0 +1,58 @@
+Metadata-Version: 1.1
+Name: beginnerprofile
+Version: 0.0.1
+Summary: Beginner Python project
+Home-page: https://https://github.com/Kerksak/beginnerprofile
+Author: Kerksak Mattayangkul
+Author-email: kerksak.ton@gmail.com
+License: MIT
+Download-URL: https://github.com/Kerksak/beginnerprofile/archive/v0.0.1.zip
+Description: (Beginner Profile) Example upload package to Pypi.org
+        =====================================================
+        
+        PyPi: https://pypi.org/project/beginnerprofile/
+        
+        This package show profile of me.
+        
+        How to install
+        ~~~~~~~~~~~~~~
+        
+        Open CMD / Terminal
+        
+        .. code:: python
+        
+           pip install beginnerprofile
+        
+        How to use this package
+        ~~~~~~~~~~~~~~~~~~~~~~~
+        
+        -  Open IDLE then input…
+        
+        .. code:: python
+        
+           my = Profile('Ton')
+           my.company = 'goodday'
+           my.hobby = ['Running','Learning','Travelling']
+           print(my.name)
+           my.show_email()
+           my.show_myart()
+           my.show_hobby()
+        
+        developed by: Kerksak Mattayangkul Linkedin:
+        
+        https://www.linkedin.com/in/kerksak-mattayangkul-5080821b0/
+        
+Keywords: Profile,Python,Kerksak Mattayangkul
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
