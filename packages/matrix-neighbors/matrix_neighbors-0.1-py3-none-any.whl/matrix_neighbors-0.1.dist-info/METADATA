@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: matrix-neighbors
+Version: 0.1
+Summary: Gives possible neighboring positions in a matrix (2d array)
+Home-page: https://github.com/MiTo0o
+Author: MiTo
+Author-email: derzanchiang1800@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+
+# matrix_neighbors
+________
+
+Gives possible neighboring positions in a matrix (2d array)
+
+## install
+    pip install matrix_neighbors
+
+If that doesnt work try:
+
+    pip3 install matrix_neighbors
+
+## usage
+
+```py
+import matrix_neighbors
+
+```
+
+
