@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hmac-http
+Version: 1.0.0
+Summary: Python library for the 'draft-cavage-http-signatures-10' specification
+Home-page: https://github.com/hwittenborn/hmac-http
+Author: Hunter Wittenborn
+Author-email: hunter@hunterwittenborn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+License-File: LICENSE
+
+UNKNOWN
+
