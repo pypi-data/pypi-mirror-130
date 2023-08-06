@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: scarletio
+Version: 1.0.4
+Summary: Asynchronous io for weebs.
+Home-page: https://github.com/HuyaneMatsu/scarletio
+Author: HuyaneMatsu
+Author-email: re.ism.tm@gmail.com
+License: MIT
+Description: # scarletio
+        Asynchronous IO for weebs
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: cpythonspeedups
