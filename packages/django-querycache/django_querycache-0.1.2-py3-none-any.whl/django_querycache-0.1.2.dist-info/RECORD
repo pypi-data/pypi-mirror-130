@@ -1,0 +1,7 @@
+django_querycache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_querycache/cacheman.py,sha256=6H65CCzhmuqJqNR_S_kssr4jZ17QodhTDD3ZVQPVH0E,17734
+django_querycache/type_annotations.py,sha256=ykt4dph0gM_MRgWSCCkYBUbELmz8j-IRA3FoomZO2Ng,1070
+django_querycache-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+django_querycache-0.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_querycache-0.1.2.dist-info/METADATA,sha256=IELA-qDOdypG0nc02q2LqH-u92NUUnkkAXnSTePSxBU,473
+django_querycache-0.1.2.dist-info/RECORD,,
