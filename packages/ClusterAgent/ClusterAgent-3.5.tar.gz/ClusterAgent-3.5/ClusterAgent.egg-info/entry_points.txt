@@ -1,0 +1,3 @@
+[console_scripts]
+infra_http_service = infra_http_service:infra_http_service
+
