@@ -1,0 +1,14 @@
+tystrings/__init__.py,sha256=m6HEHDnez9Fj3TwvuPqAV4RUAIj8GZzAzG6Y72dBfS0,143
+tystrings/baidu.py,sha256=iMaT9jSOJAAfWcewxqOS6FVPdSp_R1XtAd-U7m8yKn8,1291
+tystrings/cli.py,sha256=VyHFDwMJh2ZoZgV7tOGVej9IU-7ZMcjwmVJHpsVjEk0,6915
+tystrings/strings.py,sha256=H4i4ZpJClj_ay7vOoB4XKEUWX2zsDfghFoBBpM78fN0,6510
+tystrings/translator.py,sha256=SKg0Q6WaZWkjm4WF8wQJunq3scrHCOHZanYLWmJDvok,2087
+tystrings/tyformatter.py,sha256=gqHHTfB1Bm11XgZWU6oUJ5m8_6R6tOxsNpWErWbBI8k,1295
+tystrings/tylogger.py,sha256=wK-fWXAGk1co88L5YU2DcpWYkeoza8LLIqtn5Hb5rLk,1995
+tystrings/version.py,sha256=NcjoxDLYOmbp4fP2sdOI7frUmFsP_OmIRLppFUOMwJQ,22
+tystrings-1.2.3.dist-info/LICENSE,sha256=fMnb1_E6DEfJ3s7Z-YT2TweePb8-o92WZdsEYKeqXcI,1081
+tystrings-1.2.3.dist-info/METADATA,sha256=z3dwO9iSKB19Vu2fuhhHKUebwqQeNpvSGVMAs6SNUUU,4226
+tystrings-1.2.3.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+tystrings-1.2.3.dist-info/entry_points.txt,sha256=hHMxo0YO21MGauhvGOEP4boEYN5l2zPOKGYYW4fVJeE,50
+tystrings-1.2.3.dist-info/top_level.txt,sha256=zhz47-YlmBc11rO9D9jBc8X94uVdBAbDyhvUaCZBbio,10
+tystrings-1.2.3.dist-info/RECORD,,
