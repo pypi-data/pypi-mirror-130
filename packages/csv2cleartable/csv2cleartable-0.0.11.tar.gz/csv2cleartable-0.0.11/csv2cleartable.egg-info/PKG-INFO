@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: csv2cleartable
+Version: 0.0.11
+Summary: Convert into csv into a readable table 
+Home-page: UNKNOWN
+Author: bharathraj
+Author-email: x20225024@student.ncirl.ie
+License: MIT
+Keywords: csv2table
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+csv2table library is useful for printing any unpredictable csv data by only passing data.
+Presents a readable table without passing any columns or header information.
+
+
+Change log
+==========
+
+0.0.10 (07/12/2021)
+-------------------
+-  Release 
+
+
+
