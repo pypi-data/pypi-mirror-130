@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hello-world-package-Devendra
+Version: 0.1.0
+Summary: Package is just to check How PyPi package works
+Home-page: https://github.com/you/your_package
+Author: Devendra Tailor
+Author-email: devendra.tailar@vinculumgroup.com
+License: Apache License 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+**__**Package Name : hello_world_package
+
+

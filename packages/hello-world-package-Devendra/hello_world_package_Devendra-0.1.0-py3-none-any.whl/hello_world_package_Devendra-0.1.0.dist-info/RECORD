@@ -1,0 +1,7 @@
+my_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_package/module1.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+my_package/module2.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hello_world_package_Devendra-0.1.0.dist-info/METADATA,sha256=FFrpTSINnadvj-X7wp-i_m2RFGaEPKh9fnPFubW6HFw,421
+hello_world_package_Devendra-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hello_world_package_Devendra-0.1.0.dist-info/top_level.txt,sha256=4OyEe7aVmevjXrMpt_mY6srrUUjZGHyUPvlu5sUpLn4,11
+hello_world_package_Devendra-0.1.0.dist-info/RECORD,,
