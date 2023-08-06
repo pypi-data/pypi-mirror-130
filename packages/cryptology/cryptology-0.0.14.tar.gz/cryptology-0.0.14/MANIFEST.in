@@ -1,0 +1,4 @@
+include *.pdf
+include *.py
+recursive-include __pycache__ *.pyc
+recursive-include cryptology *.py
