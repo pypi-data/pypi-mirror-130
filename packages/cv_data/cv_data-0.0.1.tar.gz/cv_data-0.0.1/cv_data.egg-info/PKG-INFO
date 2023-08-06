@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cv-data
+Version: 0.0.1
+Summary: cv_data
+Home-page: https://github.com/DIYer22/cv_data
+Author: DIYer22
+Author-email: ylxx@live.com
+License: UNKNOWN
+Description: cv_data
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
