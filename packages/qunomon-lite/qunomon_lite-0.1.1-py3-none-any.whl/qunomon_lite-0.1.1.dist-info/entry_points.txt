@@ -1,0 +1,3 @@
+[console_scripts]
+qunomon-lite = qunomon_lite.cli:main
+
