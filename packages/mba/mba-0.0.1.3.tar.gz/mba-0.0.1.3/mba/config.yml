@@ -1,0 +1,14 @@
+# Package Overview
+package_name: mba
+
+# TO CHANGE LATER
+data_filename: orders.csv
+transaction_table_name: order_products__prior.csv
+transaction_id_column_name: order_id
+product_id_column_name: product_id 
+product_name_column: product_name
+day_of_week: order_dow
+hour_of_day: order_hour_of_day
+
+# 
+count: freq
