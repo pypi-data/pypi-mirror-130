@@ -1,0 +1,12 @@
+libdev/__init__.py,sha256=WOcg5PzSaVIfSkJh12_WiLGKlzbLyPMlYE7DkOOy3zQ,95
+libdev/cfg.py,sha256=MK_5ZUAShXpBe7ALiGSV8BEO8mShBAGZ2YliyL3nA9w,383
+libdev/check.py,sha256=TIh37WqTGI5HWOIjU6dEcXbyS7fq5RjWn0HVVy9snCM,940
+libdev/codes.py,sha256=03zQJTEQ1Jd7r5C9mYAiADVSeMEevLyEU0yLHckCS8s,1333
+libdev/gen.py,sha256=kMgctckA0Pdv-M5h2KzMviyHHoFi_7SmTUIAPWLPcUM,1038
+libdev/lang.py,sha256=sp3xXNJTQ6yMm8Wc08mT7NqdfF2Lv7J_UVmObMJLWxw,307
+libdev/time.py,sha256=dS-14NK29XXtrNPnXEzCgx5aAkxfuXfzx9alD5z_ctI,174
+libdev-0.8.dist-info/LICENSE,sha256=oTzHIidYAs63oC4Dp2oTr0sH5iP7_hmCUX9N5TBjQDo,1069
+libdev-0.8.dist-info/METADATA,sha256=N3en19gt7pF8ZvSJnMZdnLwphxE-QO4ETE27eC1K9po,1149
+libdev-0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+libdev-0.8.dist-info/top_level.txt,sha256=znFfWyRDDgy0HMhqX5moYwdN-o2GfrwoXC8zKC1Pn1g,7
+libdev-0.8.dist-info/RECORD,,
