@@ -1,0 +1,3 @@
+cbpi>=4.0.0.33
+pcf8574-io
+smbus2
