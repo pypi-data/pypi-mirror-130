@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: cythonbuilder
+Version: 0.0.5
+Summary: CythonBuilder; automated compiling and packaging of Cython code
+Home-page: https://github.com/mike-huls/cythonbuilder
+Author: Mike Huls
+Author-email: mikehuls42@gmail.com
+License: MIT
+Download-URL: https://github.com/mike-huls/cythonbuilder/archive/refs/tags/v0.0.5.tar.gz
+Project-URL: Bug Tracker, https://github.com/mike-huls/cythonbuilder/issues
+Keywords: pypi,Cython,setup,packaging,compilation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: license.txt
+
+# CythonBuilder
+CythonBuilder; automated compiling and packaging of Cython code
+
+This tool makes it easy to use Cython files. 
+Follow the instructions below
+ 1. Initialize CythonBuilder with `cythonbuilder init`
+ 2. Place all .pyx Cython files in ext/pyxfiles
+ 3. Call `cythonbuilder build` to find, build and package of your .pyx files  
+    Alternatively call `cythonbuilder build filename1, filename2` (without .pyx extension) to build specific files
+ 4. Import your compile package from ext/ like `from ext import filename`
+
+
