@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytypes_env/__init__.py
+pytypes_env.egg-info/PKG-INFO
+pytypes_env.egg-info/SOURCES.txt
+pytypes_env.egg-info/dependency_links.txt
+pytypes_env.egg-info/top_level.txt
