@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+passax/__init__.py
+passax/exceptions.py
+passax.egg-info/PKG-INFO
+passax.egg-info/SOURCES.txt
+passax.egg-info/dependency_links.txt
+passax.egg-info/entry_points.txt
+passax.egg-info/requires.txt
+passax.egg-info/top_level.txt
+passax/chrome/__init__.py
+passax/chrome/base.py
+passax/chrome/linux.py
+passax/chrome/windows.py
