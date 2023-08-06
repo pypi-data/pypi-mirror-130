@@ -1,0 +1,10 @@
+edu_card_models/BaseSheet.py,sha256=lA3BZaav8dP7MM2Xm-5_tX44ft3Js63XSXSiBidkx_Y,10186
+edu_card_models/SheetCR1.py,sha256=58nj4iFSlF2oBsn30mUzYZuGlHCeT2uHn2_Y1E9oXt8,4106
+edu_card_models/SheetV1.py,sha256=aPpscdtfD30JXGT9wo1mLnHnYAxwdEckO5gmWw8jQOk,4972
+edu_card_models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edu_card_utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+edu_card_utils/cvutils.py,sha256=ILUBo8Y4v9YME1CNGuvwjpqUOJJFX9_PKZNLDY7932o,438
+edu_card_analyser-0.0.5.dist-info/METADATA,sha256=e_guy_RYNzaRjoA6eX-Rof5xGCC6k_Bkn1P8O0Cy7MY,418
+edu_card_analyser-0.0.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+edu_card_analyser-0.0.5.dist-info/top_level.txt,sha256=PNoOe5bTMW87d5R9DPgKY84qKYdb7SCoh_3vgND6w1o,31
+edu_card_analyser-0.0.5.dist-info/RECORD,,
