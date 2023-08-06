@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: hius
+Version: 0.2.0
+Summary: Minimalistic ASGI web framework
+Home-page: https://github.com/WoolenSweater/hius
+Author: Nikita Ryabinin
+Author-email: ryabinin.ne@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: starlette
+Requires-Dist: pydantic
+Provides-Extra: multipart
+Requires-Dist: python-multipart ; extra == 'multipart'
+Provides-Extra: uvicorn
+Requires-Dist: uvicorn ; extra == 'uvicorn'
+
+<img align="right" src="docs/img/hius_logo.svg">
+
+# Hius
+
+![PyPI - License](https://img.shields.io/pypi/l/hius)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/hius)
+
+Hius - минималистичный [ASGI](https://asgi.readthedocs.io/en/latest/) веб-фрэймворк.
+
+
+Документация - [Documentation](https://woolensweater.github.io/hius/)  
+Список изменений - [Changelog](https://github.com/WoolenSweater/hius/blob/main/CHANGELOG.md)
+
+
