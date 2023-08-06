@@ -1,0 +1,3 @@
+upnpclient>=0.0.8
+rich
+hivemind_bus_client~=0.0.3a2
