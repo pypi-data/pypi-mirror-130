@@ -1,0 +1,3 @@
+[console_scripts]
+thecarpentries = thecarpentries.__main__:main
+
