@@ -1,0 +1,8 @@
+README.md
+setup.py
+clashapi/__init__.py
+clashapi.egg-info/PKG-INFO
+clashapi.egg-info/SOURCES.txt
+clashapi.egg-info/dependency_links.txt
+clashapi.egg-info/requires.txt
+clashapi.egg-info/top_level.txt
