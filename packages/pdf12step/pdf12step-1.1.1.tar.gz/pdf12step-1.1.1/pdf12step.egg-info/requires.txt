@@ -1,0 +1,5 @@
+requests
+Flask
+flask-weasyprint
+weasyprint
+pyyaml
