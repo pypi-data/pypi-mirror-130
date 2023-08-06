@@ -1,0 +1,4 @@
+#!python
+from aox.command_line.command import cli
+
+cli()
