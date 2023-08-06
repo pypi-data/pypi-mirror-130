@@ -1,0 +1,12 @@
+avm/__init__.py,sha256=yx0oSduNwYwTXzS7EK6of12hU1WC7dK6pL0g0-Asczw,2556
+avm/errors.py,sha256=IqzJLVJoN5WFMZeEkcV2T0DzCoQZArPQqdoktb5tlCs,78
+avm/ext.py,sha256=RNZ_S5FAnD7Vvql-SMR68l-hk6pyAFLB9fPTnJsZerw,3640
+avm/main.py,sha256=ZUdj-xzST18CVztRfax0D793AhMLCkPENUBiq1uA5Uc,5001
+avm/pattern.py,sha256=_KvDPsaBnW2Cht0AfYKjbyoMmq7q90DWSd8CF2EUlSY,2421
+avm/types.py,sha256=H_wH3nGkIF_LKKLlFEtIUy0R4WC4cc5-KPxvJS2-8Ds,11531
+avm/usefull_patterns.py,sha256=xIm7vzFT5pXoal_7KwZxx3Xi4AA0vDO73tE_GsuNFvc,1127
+python_avm-0.9.7.dist-info/LICENSE,sha256=0NNhSeO0bHOrTcDfR2bRUPNaV81FEIeMJShODUF6tFc,1109
+python_avm-0.9.7.dist-info/METADATA,sha256=TTuR2uc45aKJxCOfbVJJ7Q9bD6pi_dlOIxjViEHlSnU,3765
+python_avm-0.9.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+python_avm-0.9.7.dist-info/top_level.txt,sha256=581ELKkoyQGKJQzKZT5LEYyJoz2PWRHNJ31SVT5EoJA,4
+python_avm-0.9.7.dist-info/RECORD,,
