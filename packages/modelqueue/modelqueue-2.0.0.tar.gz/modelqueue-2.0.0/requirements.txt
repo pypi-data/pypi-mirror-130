@@ -1,0 +1,12 @@
+-e .
+blue
+flake8
+isort
+pylint
+pytest
+pytest-cov
+pytest-django
+rstcheck
+tox
+twine
+wheel
