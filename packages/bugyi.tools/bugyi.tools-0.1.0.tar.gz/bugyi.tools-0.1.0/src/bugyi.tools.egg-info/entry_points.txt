@@ -1,0 +1,3 @@
+[console_scripts]
+shlib = bugyi.tools.shlib:main
+
