@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/markdown_builder/__init__.py
+src/markdown_builder/document.py
+src/markdown_builder.egg-info/PKG-INFO
+src/markdown_builder.egg-info/SOURCES.txt
+src/markdown_builder.egg-info/dependency_links.txt
+src/markdown_builder.egg-info/top_level.txt
