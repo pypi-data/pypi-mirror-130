@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: rillian-grant-university-project-covid19-dashboard
+Version: 1.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/Rillian-Grant/university-project-covid19-covid19_dashboard.git
+Author: Rillian Grant
+Author-email: rillian.grant@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (==2.0.2)
+Requires-Dist: uk-covid19 (==1.2.2)
+
+# university-project-covid19-dashboard
+
+Simple personalised covid information dashboard
+
+## User guide
+
+This program can be run via either:
+
+* The main.py file. N.B. Make sure to run `pip -r requirements.txt` beforehand
+* The PyPI package rillian-grant-university-project-covid19-dashboard using the command covid19-dashboard.
+
+WARNING: `config.json` is read from the working directory if the config file is not found a default one is used. If you are using the PyPI version and you want to modify configuration then copy the default config.json from the git repo.
+
+## Known linter errors
+
+* pylint says unsubscriptable-object. Not sure why, the object is definitely subscriptable
+* use f string instead of string.format(). I suppressed this one as it's definitely incorrect in context
+
+## Known Issues
+
+* Header image in static folder has no file extension due to template. The full file name is "images"
+* Bad formatting on update info. Due to template
+* No links on news articles. Due to template
+* My api key is hardcoded
+
+
