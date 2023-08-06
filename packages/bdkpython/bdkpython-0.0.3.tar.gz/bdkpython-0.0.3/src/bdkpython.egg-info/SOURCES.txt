@@ -1,0 +1,10 @@
+README.md
+setup.py
+src/bdkpython/__init__.py
+src/bdkpython/bdk.py
+src/bdkpython/libbdkffi.dylib
+src/bdkpython.egg-info/PKG-INFO
+src/bdkpython.egg-info/SOURCES.txt
+src/bdkpython.egg-info/dependency_links.txt
+src/bdkpython.egg-info/not-zip-safe
+src/bdkpython.egg-info/top_level.txt
