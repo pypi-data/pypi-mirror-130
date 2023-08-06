@@ -1,0 +1,11 @@
+CHANGELOG.txt
+MANIFEST.in
+README.rst
+setup.py
+font_manrope/__init__.py
+font_manrope.egg-info/PKG-INFO
+font_manrope.egg-info/SOURCES.txt
+font_manrope.egg-info/dependency_links.txt
+font_manrope.egg-info/entry_points.txt
+font_manrope.egg-info/not-zip-safe
+font_manrope.egg-info/top_level.txt
