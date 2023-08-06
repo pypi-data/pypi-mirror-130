@@ -1,0 +1,9 @@
+# Install development requirements
+
+tox
+coverage
+flake8
+
+m9s-nereid-checkout
+
+-r requirements.txt
