@@ -1,0 +1,4 @@
+[console_scripts]
+minislurm_client = minislurm.minislurm_client:main
+minislurm_server = minislurm.minislurm_server:main
+

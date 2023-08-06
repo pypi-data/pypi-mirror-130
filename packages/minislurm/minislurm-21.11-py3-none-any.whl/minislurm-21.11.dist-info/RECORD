@@ -1,0 +1,9 @@
+minislurm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minislurm/minislurm_client.py,sha256=uDmefjOyYP-lsILV8TpkfKany4osZs-YyKdRu5f40WA,4022
+minislurm/minislurm_server.py,sha256=ARYjzjt49BVc60ZSnswjnbQ8tuV21bpnUsTn2W-hAUM,22041
+minislurm-21.11.dist-info/LICENSE,sha256=DZak_2itbUtvHzD3E7GNUYSRK6jdOJ-GqncQ2weavLA,34523
+minislurm-21.11.dist-info/METADATA,sha256=UcrSux6O934jXlKD4ioa5Gr6qMvDG6J0nXmUzJkc7Z8,13634
+minislurm-21.11.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+minislurm-21.11.dist-info/entry_points.txt,sha256=Sr6J_qFixSqC3ItolqM83lrgAvjRzyha-elGPLFjFsg,121
+minislurm-21.11.dist-info/top_level.txt,sha256=aXhB4R4oW6b2l3tKV9FxgScreBGmyjfA0Fu7zdmbJ7Q,10
+minislurm-21.11.dist-info/RECORD,,
