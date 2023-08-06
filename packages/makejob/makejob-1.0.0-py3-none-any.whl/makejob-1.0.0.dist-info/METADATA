@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: makejob
+Version: 1.0.0
+Summary: generate job file quickly for SJM
+Home-page: https://github.com/suqingdong/makejob
+Author: suqingdong
+Author-email: suqingdong1114@gmail.com
+License: BSD License
+Project-URL: Documentation, https://makejob.readthedocs.io
+Project-URL: Tracker, https://github.com/suqingdong/makejob/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# Generate job file quickly for SJM
+
+## Installation
+```python
+python3 -m pip install makejob
+```
+
+## Example
+```bash
+cat demo.conf
+# run_qc_1.sh 1G
+# run_qc_2.sh 1G
+# run_mapping.sh 2G run_qc_1.sh,run_qc_2.sh
+# run_mutation.sh 3G run_mapping.sh 4
+
+makejob demo.conf -o demo.job
+
+# sjm demo.job
+```
+
+
