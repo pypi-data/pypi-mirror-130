@@ -1,0 +1,18 @@
+velodyne_decoder_pylib.cp35-win_amd64.pyd,sha256=XVQi9APPTcwjL-YzLRyey_fLokULc14S0N9nODwI1jo,449536
+velodyne_decoder/__init__.py,sha256=bDs38rEG5zfdkWtTrQfvqTMfp2hUHh6zpxDxLk1B21Q,4260
+velodyne_decoder/calibrations/Alpha Prime.yml,sha256=IwB1Rb4JYjGrpREK0X5oo5CKosNzVBgK0ugms60RTRo,34104
+velodyne_decoder/calibrations/HDL-32E.yml,sha256=rLVahHVZ9GwH56w3kFL9XR7sVPfa7bgYbxrvbEEXn8w,9241
+velodyne_decoder/calibrations/HDL-64E.yml,sha256=GL2Yb5bA4guZJq8a4_hZlb1oSo8E8zu6qS32Lkej9AA,22013
+velodyne_decoder/calibrations/Puck Hi-Res.yml,sha256=m3KI47FfZj8_XH15urLAcRxyQA_6K3I3gb1lSrIQ038,4754
+velodyne_decoder/calibrations/Puck LITE.yml,sha256=JQE17XuaswC0x-2JdxN2XirD6-O9yHp3M-LDIR9I53o,4752
+velodyne_decoder/calibrations/VLP-16.yml,sha256=JQE17XuaswC0x-2JdxN2XirD6-O9yHp3M-LDIR9I53o,4752
+velodyne_decoder/calibrations/VLP-32A.yml,sha256=rKYODcmKjeVPdcjz6ggO0v52jqbnt3X0A7tToYE1JGE,9822
+velodyne_decoder/calibrations/VLP-32B.yml,sha256=aped1TYAGN4o01fNWgjFCtY3jRmr_XDnAkk9Yd5bSVE,9800
+velodyne_decoder/calibrations/VLP-32C.yml,sha256=aped1TYAGN4o01fNWgjFCtY3jRmr_XDnAkk9Yd5bSVE,9800
+velodyne_decoder/calibrations/VLS-128.yml,sha256=ITx8uMLJn6qt99cR9ftnZEsEsdz8I_Zt8HIB6um5qo0,30959
+velodyne_decoder/calibrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+velodyne_decoder-2.1.0.dist-info/LICENSE,sha256=p6EMi63R0E-Lezxxjf77qG8VoawjN_DoShdj396P7Dw,1611
+velodyne_decoder-2.1.0.dist-info/METADATA,sha256=uedxT3KeTPsnKLPc_s_f-HHGDv8flZ0ecIuOgND58yw,5595
+velodyne_decoder-2.1.0.dist-info/WHEEL,sha256=SxCF5RRW3Q_ggbAjzZyyl3kuZVt89lxAee8FBI92h1k,101
+velodyne_decoder-2.1.0.dist-info/top_level.txt,sha256=fyutsEeTTeRYkApzlT8MfKAX2dZWwA9h3b68SuT1deE,23
+velodyne_decoder-2.1.0.dist-info/RECORD,,
