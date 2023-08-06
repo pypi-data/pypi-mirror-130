@@ -1,0 +1,67 @@
+{#      MCcoordstore - simple web based store for Minecraft points of interest
+#      Copyright (C) 2021  Daniel Philip Weatherill
+
+#      This program is free software: you can redistribute it and/or modify it
+# under the terms of the GNU Affero General Public License as published by the
+# Free Software Foundation, either version 3 of the License, or (at your option)
+# any later version.
+
+#      This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.  See the GNU Affero General Public License for more
+# details.
+
+#      You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#}
+
+
+<!DOCTYPE html>
+<html>
+  <title>Minecraft Points of Interest</title>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles/style.css') }}">
+  </head>
+  <body>
+    <!--navigation bar -->
+    <p>
+    <div class="navbar">
+      <ul>
+	<li><a href="/">home</a></li>
+	<li><a href="/add_manual">add POI manually</a></li>
+	{% if not current_user.is_authenticated %}
+	<li><a href="/signup">signup</a></li>
+	<li><a href="/login">login</a></li>
+	{% else %}
+	<li><a href="/dump_pois">save POIs</a></li>
+	<li><a href="/logout">logout</a></li>
+	{% endif %}
+      </ul>
+    </div>
+    </p>
+
+    {% if current_user.is_authenticated %}
+    <h2> Welcome, {{ current_user.username }} </h2>
+    {% endif %}
+    
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <div class="notification is-danger">
+      {{ messages[0] }}
+    </div>
+    {% endif %}
+    {% endwith %}
+    
+    {% block content %}
+    {% endblock %}
+
+
+
+    <div class="source-code-find">
+      <p>
+	<a href="https://github.com/weatherhead99/MCcoordstore">MCcoordstore project</a>
+      </p>
+	</div>
+  </body>
+
+</html>

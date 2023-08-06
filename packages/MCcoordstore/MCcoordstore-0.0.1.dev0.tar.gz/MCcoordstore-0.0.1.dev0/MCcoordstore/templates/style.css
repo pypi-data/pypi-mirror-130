@@ -1,0 +1,7 @@
+ul > div.navbar {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0
+}
+

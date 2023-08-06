@@ -1,0 +1,9 @@
+{% extends "index.htm" %}
+
+{% block navbar %}
+<!--navigation bar -->
+<ul>
+  <li><a href="/">home</a></li>
+  <li><a href="/add_manual">add POI manually</a></li>
+</ul>
+{% endblock %}
