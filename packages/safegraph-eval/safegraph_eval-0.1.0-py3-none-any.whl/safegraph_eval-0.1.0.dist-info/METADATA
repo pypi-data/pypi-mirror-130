@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: safegraph-eval
+Version: 0.1.0
+Summary: Library for evaluating SafeGraph data
+Home-page: https://github.com/pypa/sampleproject
+Author: SafeGraph
+Author-email: eugene@safegraph.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: statsmodels
+Requires-Dist: plotly
+Requires-Dist: folium
+Requires-Dist: geopandas
+Requires-Dist: pyproj
+Requires-Dist: shapely
+Requires-Dist: pandas ; python_version >= "1.1.5"
+
+# SafeGraph Evaluation Package
+
+This is a package containing functions for evaluating SafeGraph data.
+
