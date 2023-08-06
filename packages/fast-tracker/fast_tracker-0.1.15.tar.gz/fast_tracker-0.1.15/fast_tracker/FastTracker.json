@@ -1,0 +1,75 @@
+{
+    "Enable": false,
+    "Logging": {
+        "Level": "ERROR",
+        "FilePath": "logs/fast-tracker/"
+    },
+    "ServiceName": "",
+    "ServiceVersion": "1.0.0",
+    "ServiceVersionReader": [],
+    "TenantCode": "",
+    "TenantCodeReader": [{
+        "ReaderType": "Environment",
+        "ReaderKey": "tenant_code"
+        },
+        {
+            "ReaderType": "Cookie",
+            "ReaderKey": "tenant_code"
+        }],
+    "UserCode": "",
+    "UserCodeReader": [],
+    "CarrierHeader": {
+        "TrackerName": "fast-tracker",
+        "TraceIdName": "x-fast-trace-id"
+    },
+    "CollectLayer": {
+        "HTTP": {
+            "Enable": true,
+            "CollectBodyContent": false,
+            "CollectQueryString": false
+        },
+        "DB": {
+            "Enable": true,
+            "CollectParams": false
+        },
+        "MQ": {
+            "Enable": true
+        },
+        "Cache": {
+            "Enable": true
+        },
+        "RPC": {
+            "Enable": true
+        },
+        "Log": {
+            "Enable": true,
+            "Level": "ERROR"
+        },
+        "Local": {
+            "Enable": true
+        },
+        "Function": {
+            "Enable": false,
+            "ExcludeGetAndSetMethod": true,
+            "ScanPackages": [],
+            "IgnoreClasses": [],
+            "IgnoreMethods": {
+            }
+        }
+    },
+    "Filter": {
+        "IgnoreEntryPaths": [],
+        "IgnoreEntryFiles": []
+    },
+    "Transport": {
+        "Forward": {
+            "Endpoint": "udp://127.0.0.1:5140",
+            "Timeout": 3,
+            "Format": "json|msgpack"
+        },
+        "QueueSize": 1572864,
+        "BatchSize": 1000,
+        "Interval": 1000,
+        "MaxReportByte": 32768
+    }
+}
