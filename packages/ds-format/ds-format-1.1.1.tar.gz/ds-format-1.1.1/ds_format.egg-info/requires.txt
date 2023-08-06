@@ -1,0 +1,4 @@
+aquarius-time>=0.1.0
+cftime>=1.5.1
+netCDF4
+pst-format>=1.1.1
