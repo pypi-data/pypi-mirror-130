@@ -1,0 +1,854 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>iguanas.rule_selection.GridSearchCV &#8212; Iguanas  documentation</title>
+    
+  <link href="../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../_static/css/iguanas.css" />
+    
+  <link rel="preload" as="script" href="../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+    <script src="../../_static/jquery.js"></script>
+    <script src="../../_static/underscore.js"></script>
+    <script src="../../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="../../_static/iguanas_icon.png"/>
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Rules" href="../rules.html" />
+    <link rel="prev" title="iguanas.rule_selection.GreedyFilter" href="iguanas.rule_selection.GreedyFilter.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../index.html">
+  <img src="../../_static/iguanas_text_logo.png" class="logo" alt="logo">
+</a>      
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../install/index.html">
+  Installation
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../user_guide/index.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 current active nav-item">
+ <a class="reference internal nav-link" href="../index.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../examples/index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../about_the_project/index.html">
+  About the project
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/paypal/Iguanas" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    <ul class="current nav bd-sidenav">
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../correlation_reduction.html">
+   Correlation Reduction
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/>
+  <label for="toctree-checkbox-1">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.correlation_reduction.AgglomerativeClusteringReducer.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.correlation_reduction
+      </span>
+     </code>
+     .AgglomerativeClusteringReducer
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../metrics.html">
+   Metrics
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-2" name="toctree-checkbox-2" type="checkbox"/>
+  <label for="toctree-checkbox-2">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.classification.Precision.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.classification
+      </span>
+     </code>
+     .Precision
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.classification.Recall.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.classification
+      </span>
+     </code>
+     .Recall
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.classification.FScore.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.classification
+      </span>
+     </code>
+     .FScore
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.classification.Revenue.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.classification
+      </span>
+     </code>
+     .Revenue
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.pairwise.CosineSimilarity.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.pairwise
+      </span>
+     </code>
+     .CosineSimilarity
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.pairwise.JaccardSimilarity.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.pairwise
+      </span>
+     </code>
+     .JaccardSimilarity
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.unsupervised.AlertsPerDay.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.unsupervised
+      </span>
+     </code>
+     .AlertsPerDay
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.metrics.unsupervised.PercVolume.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.metrics.unsupervised
+      </span>
+     </code>
+     .PercVolume
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rbs.html">
+   Rules-Based System (RBS)
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-3" name="toctree-checkbox-3" type="checkbox"/>
+  <label for="toctree-checkbox-3">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rbs.RBSPipeline.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rbs
+      </span>
+     </code>
+     .RBSPipeline
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rbs.RBSOptimiser.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rbs
+      </span>
+     </code>
+     .RBSOptimiser
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rule_application.html">
+   Rule Application
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-4" name="toctree-checkbox-4" type="checkbox"/>
+  <label for="toctree-checkbox-4">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_application.RuleApplier.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_application
+      </span>
+     </code>
+     .RuleApplier
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rule_generation.html">
+   Rule Generation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-5" name="toctree-checkbox-5" type="checkbox"/>
+  <label for="toctree-checkbox-5">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_generation.RuleGeneratorDT.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_generation
+      </span>
+     </code>
+     .RuleGeneratorDT
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_generation.RuleGeneratorDTSpark.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_generation
+      </span>
+     </code>
+     .RuleGeneratorDTSpark
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_generation.RuleGeneratorOpt.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_generation
+      </span>
+     </code>
+     .RuleGeneratorOpt
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rule_optimisation.html">
+   Rule Optimisation
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-6" name="toctree-checkbox-6" type="checkbox"/>
+  <label for="toctree-checkbox-6">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_optimisation.BayesianOptimiser.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_optimisation
+      </span>
+     </code>
+     .BayesianOptimiser
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_optimisation.DirectSearchOptimiser.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_optimisation
+      </span>
+     </code>
+     .DirectSearchOptimiser
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rule_scoring.html">
+   Rule Scoring
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-7" name="toctree-checkbox-7" type="checkbox"/>
+  <label for="toctree-checkbox-7">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.RuleScorer.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .RuleScorer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.PerformanceScorer.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .PerformanceScorer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.LogRegScorer.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .LogRegScorer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.RandomForestScorer.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .RandomForestScorer
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.ConstantScaler.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .ConstantScaler
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_scoring.MinMaxScaler.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_scoring
+      </span>
+     </code>
+     .MinMaxScaler
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 current active has-children">
+  <a class="reference internal" href="../rule_selection.html">
+   Rule Selection
+  </a>
+  <input checked="" class="toctree-checkbox" id="toctree-checkbox-8" name="toctree-checkbox-8" type="checkbox"/>
+  <label for="toctree-checkbox-8">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul class="current">
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_selection.SimpleFilter.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_selection
+      </span>
+     </code>
+     .SimpleFilter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_selection.CorrelatedFilter.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_selection
+      </span>
+     </code>
+     .CorrelatedFilter
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rule_selection.GreedyFilter.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_selection
+      </span>
+     </code>
+     .GreedyFilter
+    </a>
+   </li>
+   <li class="toctree-l2 current active">
+    <a class="current reference internal" href="#">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rule_selection
+      </span>
+     </code>
+     .GridSearchCV
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1 has-children">
+  <a class="reference internal" href="../rules.html">
+   Rules
+  </a>
+  <input class="toctree-checkbox" id="toctree-checkbox-9" name="toctree-checkbox-9" type="checkbox"/>
+  <label for="toctree-checkbox-9">
+   <i class="fas fa-chevron-down">
+   </i>
+  </label>
+  <ul>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rules.Rules.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rules
+      </span>
+     </code>
+     .Rules
+    </a>
+   </li>
+   <li class="toctree-l2">
+    <a class="reference internal" href="iguanas.rules.ConvertProcessedConditionsToGeneral.html">
+     <code class="xref py py-mod docutils literal notranslate">
+      <span class="pre">
+       iguanas.rules
+      </span>
+     </code>
+     .ConvertProcessedConditionsToGeneral
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="../utils.html">
+   Utils
+  </a>
+ </li>
+</ul>
+
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+              
+              <div class="toc-item">
+                
+
+<nav id="bd-toc-nav">
+    
+</nav>
+              </div>
+              
+              <div class="toc-item">
+                
+              </div>
+              
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <section id="iguanas-rule-selection-gridsearchcv">
+<h1><code class="xref py py-mod docutils literal notranslate"><span class="pre">iguanas.rule_selection</span></code>.GridSearchCV<a class="headerlink" href="#iguanas-rule-selection-gridsearchcv" title="Permalink to this headline">¶</a></h1>
+<dl class="py class">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV">
+<em class="property"><span class="pre">class</span><span class="w"> </span></em><span class="sig-prename descclassname"><span class="pre">iguanas.rule_selection.</span></span><span class="sig-name descname"><span class="pre">GridSearchCV</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">rule_class</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><a class="reference internal" href="iguanas.rule_generation.RuleGeneratorDT.html#iguanas.rule_generation.RuleGeneratorDT" title="iguanas.rule_generation.rule_generator_dt.RuleGeneratorDT"><span class="pre">iguanas.rule_generation.rule_generator_dt.RuleGeneratorDT</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="iguanas.rule_generation.RuleGeneratorOpt.html#iguanas.rule_generation.RuleGeneratorOpt" title="iguanas.rule_generation.rule_generator_opt.RuleGeneratorOpt"><span class="pre">iguanas.rule_generation.rule_generator_opt.RuleGeneratorOpt</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="iguanas.rule_optimisation.BayesianOptimiser.html#iguanas.rule_optimisation.BayesianOptimiser" title="iguanas.rule_optimisation.bayesian_optimiser.BayesianOptimiser"><span class="pre">iguanas.rule_optimisation.bayesian_optimiser.BayesianOptimiser</span></a><span class="p"><span class="pre">,</span></span><span class="w"> </span><a class="reference internal" href="iguanas.rule_optimisation.DirectSearchOptimiser.html#iguanas.rule_optimisation.DirectSearchOptimiser" title="iguanas.rule_optimisation.direct_search_optimiser.DirectSearchOptimiser"><span class="pre">iguanas.rule_optimisation.direct_search_optimiser.DirectSearchOptimiser</span></a><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">param_grid</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">List</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">greedy_filter_opt_func</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Callable</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">cv</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">refilter</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">True</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">num_cores</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">1</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">verbose</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">0</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="../../_modules/iguanas/rule_selection/grid_search_cv.html#GridSearchCV"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV" title="Permalink to this definition">¶</a></dt>
+<dd><p>Searches across the provided parameter space to find the parameter
+set that produces the best overall rule performance. The overall rule
+performance is calculated using the GreedyFilter class - this sorts the
+rules by the precision then calculates the combined performance of the
+top <cite>n</cite> rules. The maximum combined performance is recorded for that
+parameter set.</p>
+<p>This process is repeated for each stratified fold. The mean performance
+across the folds for each parameter set is recorded, and the parameter
+set that gives the highest mean performance is assumed to be the best.
+The rules are then retrained using these parameters and the complete
+dataset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>rule_class</strong><span class="classifier">Union[RuleGeneratorDT, RuleGeneratorOpt, BayesianOptimiser, DirectSearchOptimiser]</span></dt><dd><p>The rule generator or optimiser class that will be used to generate
+or optimise rules.</p>
+</dd>
+<dt><strong>param_grid</strong><span class="classifier">Dict[str, List]</span></dt><dd><p>A list of parameter values (values) for each parameter (keys) in
+the provided <cite>rule_class</cite>.</p>
+</dd>
+<dt><strong>greedy_filter_opt_func</strong><span class="classifier">Callable</span></dt><dd><p>The method/function (e.g. Fbeta score) used to calculate the 
+performance of the top n rules when the GreedyFilter class is 
+applied to the rule set.</p>
+</dd>
+<dt><strong>cv</strong><span class="classifier">int</span></dt><dd><p>The number of stratified folds to create from the dataset.</p>
+</dd>
+<dt><strong>refilter</strong><span class="classifier">bool, optional</span></dt><dd><p>When refitting the rules using the best parameters and the complete
+dataset, this parameter dictates whether the GreedyFilter class 
+should be applied to the rules post-fitting.</p>
+</dd>
+<dt><strong>num_cores</strong><span class="classifier">int, optional</span></dt><dd><p>The number of cores to use when iterating through the different 
+folds &amp; parameter sets. Defaults to 1.</p>
+</dd>
+<dt><strong>verbose</strong><span class="classifier">int, optional</span></dt><dd><p>Controls the verbosity - the higher, the more messages. &gt;0 : shows
+the overall progress of each fold; &gt;1 : gives information on, and
+the progress of, the current parameter set being tested. Note that
+setting <cite>verbose</cite> &gt; 1 only works when <cite>num_cores</cite> = 1. Defaults to 0.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Attributes</dt>
+<dd class="field-even"><dl class="simple">
+<dt><strong>rule_strings</strong><span class="classifier">Dict[str, str]</span></dt><dd><p>The rules which achieved the best combined performance, defined using 
+the standard Iguanas string format (values) and their names (keys).</p>
+</dd>
+<dt><strong>rule_descriptions</strong><span class="classifier">PandasDataFrameType</span></dt><dd><p>A dataframe showing the logic of the rules and their performance 
+metrics on the given dataset.</p>
+</dd>
+<dt><strong>param_results_per_fold</strong><span class="classifier">PandasDataFrameType</span></dt><dd><p>Shows the best combined rule performance observed for each parameter 
+set and fold.</p>
+</dd>
+<dt><strong>param_results_aggregated</strong><span class="classifier">PandasDataFrameType</span></dt><dd><p>Shows the mean and the standard deviation of the best combined rule
+performance, calculated across the folds, for each parameter set.</p>
+</dd>
+<dt><strong>best_perf</strong><span class="classifier">float</span></dt><dd><p>The best combined rule performance achieved.</p>
+</dd>
+<dt><strong>best_params</strong><span class="classifier">dict</span></dt><dd><p>The parameter set that achieved the best combined rule performance.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.fit">
+<span class="sig-name descname"><span class="pre">fit</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iguanas.utils.typing.pandas.core.frame.DataFrame</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">iguanas.utils.typing.pandas.core.series.Series</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_weight</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="../../_modules/iguanas/rule_selection/grid_search_cv.html#GridSearchCV.fit"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.fit" title="Permalink to this definition">¶</a></dt>
+<dd><p>Searches across the provided parameter space to find the parameter
+set that produces the best overall rule performance. The overall rule
+performance is calculated using the GreedyFilter class - this sorts the
+rules by the precision then calculates the combined performance of the
+top <cite>n</cite> rules. The maximum combined performance is recorded for that
+parameter set.</p>
+<p>This process is repeated for each stratified fold. The mean performance
+across the folds for each parameter set is recorded, and the parameter
+set that gives the highest mean performance is assumed to be the best.
+The rules are then retrained using these parameters and the complete
+dataset.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">PandasDataFrameType</span></dt><dd><p>The feature set.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">PandasSeriesType</span></dt><dd><p>The binary target column.</p>
+</dd>
+<dt><strong>sample_weight</strong><span class="classifier">PandasSeriesType, optional</span></dt><dd><p>Row-wise weights to apply. Defaults to None.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.plot_top_n_performance_by_fold">
+<span class="sig-name descname"><span class="pre">plot_top_n_performance_by_fold</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">figsize</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">(10,</span> <span class="pre">5)</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">seaborn.relational.lineplot</span></span></span><a class="reference internal" href="../../_modules/iguanas/rule_selection/grid_search_cv.html#GridSearchCV.plot_top_n_performance_by_fold"><span class="viewcode-link"><span class="pre">[source]</span></span></a><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.plot_top_n_performance_by_fold" title="Permalink to this definition">¶</a></dt>
+<dd><p>Plot the combined performance of the top n rules (as calculated using
+the <cite>.fit()</cite> method) for each parameter set and fold that was used for
+fitting the rules.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>figsize</strong><span class="classifier">Tuple[int, int], optional</span></dt><dd><p>Defines the size of the plot (length, height). Defaults to (10, 5).</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>sns.lineplot</dt><dd><p>The combined performance of the top n rules for each parameter set and fold.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.as_rule_dicts">
+<span class="sig-name descname"><span class="pre">as_rule_dicts</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">dict</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.as_rule_dicts" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts rules into the standard Iguanas dictionary format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><dl class="simple">
+<dt>Dict[str, dict]</dt><dd><p>Rules in the standard Iguanas dictionary format.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.as_rule_lambdas">
+<span class="sig-name descname"><span class="pre">as_rule_lambdas</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">as_numpy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">with_kwargs</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">Callable</span><span class="p"><span class="pre">[</span></span><span class="p"><span class="pre">[</span></span><span class="pre">dict</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.as_rule_lambdas" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts rules into the standard Iguanas lambda expression format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>as_numpy</strong><span class="classifier">bool</span></dt><dd><p>If <cite>True</cite>, the conditions in the string format will uses Numpy 
+rather than Pandas. These rules are generally evaluated more 
+quickly on larger dataset stored as Pandas DataFrames.</p>
+</dd>
+<dt><strong>with_kwargs</strong><span class="classifier">bool</span></dt><dd><p>If <cite>True</cite>, the string in the lambda expression is created such that
+the inputs are keyword arguments. If <cite>False</cite>, the inputs are
+positional arguments.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>Dict[str, Callable[[dict], str]]</dt><dd><p>Rules in the standard Iguanas lambda expression format.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.as_rule_strings">
+<span class="sig-name descname"><span class="pre">as_rule_strings</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">as_numpy</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.as_rule_strings" title="Permalink to this definition">¶</a></dt>
+<dd><p>Converts rules into the standard Iguanas string format.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>as_numpy</strong><span class="classifier">bool</span></dt><dd><p>If <cite>True</cite>, the conditions in the string format will uses Numpy
+rather than Pandas. These rules are generally evaluated more 
+quickly on larger dataset stored as Pandas DataFrames.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>Dict[str, str]</dt><dd><p>Rules in the standard Iguanas string format.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.filter_rules">
+<span class="sig-name descname"><span class="pre">filter_rules</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">include</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">exclude</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.filter_rules" title="Permalink to this definition">¶</a></dt>
+<dd><p>Filters the rules by their names.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>include</strong><span class="classifier">List[str], optional</span></dt><dd><p>The list of rule names to keep. Defaults to <cite>None</cite>.</p>
+</dd>
+<dt><strong>exclude</strong><span class="classifier">List[str], optional</span></dt><dd><p>The list of rule names to drop. Defaults to <cite>None</cite>.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><dl class="simple">
+<dt>Exception</dt><dd><p><cite>include</cite> and <cite>exclude</cite> cannot contain similar values.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.get_rule_features">
+<span class="sig-name descname"><span class="pre">get_rule_features</span></span><span class="sig-paren">(</span><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Dict</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">set</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.get_rule_features" title="Permalink to this definition">¶</a></dt>
+<dd><p>Returns the set of unique features present in each rule.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><dl class="simple">
+<dt>Dict[str, set]</dt><dd><p>Set of unique features (values) in each rule (keys).</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py method">
+<dt class="sig sig-object py" id="iguanas.rule_selection.GridSearchCV.transform">
+<span class="sig-name descname"><span class="pre">transform</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">X</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">iguanas.utils.typing.pandas.core.frame.DataFrame</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">iguanas.utils.typing.databricks.koalas.frame.DataFrame</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">y</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">sample_weight</span></span><span class="o"><span class="pre">=</span></span><span class="default_value"><span class="pre">None</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Union</span><span class="p"><span class="pre">[</span></span><span class="pre">iguanas.utils.typing.pandas.core.frame.DataFrame</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">iguanas.utils.typing.databricks.koalas.frame.DataFrame</span><span class="p"><span class="pre">]</span></span></span></span><a class="headerlink" href="#iguanas.rule_selection.GridSearchCV.transform" title="Permalink to this definition">¶</a></dt>
+<dd><p>Applies the set of rules to a dataset, <cite>X</cite>. If <cite>y</cite> is provided, the
+performance metrics for each rule will also be calculated.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><dl class="simple">
+<dt><strong>X</strong><span class="classifier">Union[PandasDataFrameType, KoalasDataFrameType]</span></dt><dd><p>The feature set on which the rules should be applied.</p>
+</dd>
+<dt><strong>y</strong><span class="classifier">Union[PandasSeriesType, KoalasSeriesType], optional</span></dt><dd><p>The target column. Defaults to None.</p>
+</dd>
+<dt><strong>sample_weight</strong><span class="classifier">Union[PandasSeriesType, KoalasSeriesType], optional</span></dt><dd><p>Record-wise weights to apply. Defaults to None.</p>
+</dd>
+</dl>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><dl class="simple">
+<dt>Union[PandasDataFrameType, KoalasDataFrameType]</dt><dd><p>The binary columns of the rules.</p>
+</dd>
+</dl>
+</dd>
+</dl>
+</dd></dl>
+
+</dd></dl>
+
+<div class="clearer"></div></section>
+
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, James Laidler.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.1.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>

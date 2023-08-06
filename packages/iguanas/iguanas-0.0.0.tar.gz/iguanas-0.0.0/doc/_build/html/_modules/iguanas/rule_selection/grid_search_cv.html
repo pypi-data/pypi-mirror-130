@@ -1,0 +1,541 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iguanas.rule_selection.grid_search_cv &#8212; Iguanas  documentation</title>
+    
+  <link href="../../../_static/css/theme.css" rel="stylesheet">
+  <link href="../../../_static/css/index.ff1ffe594081f20da1ef19478df9384b.css" rel="stylesheet">
+
+    
+  <link rel="stylesheet"
+    href="../../../_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="../../../_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="../../../_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/blank.css" />
+    <link rel="stylesheet" type="text/css" href="../../../_static/css/iguanas.css" />
+    
+  <link rel="preload" as="script" href="../../../_static/js/index.be7d3bbb2ef33a8344ce.js">
+
+    <script data-url_root="../../../" id="documentation_options" src="../../../_static/documentation_options.js"></script>
+    <script src="../../../_static/jquery.js"></script>
+    <script src="../../../_static/underscore.js"></script>
+    <script src="../../../_static/doctools.js"></script>
+    <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <link rel="shortcut icon" href="../../../_static/iguanas_icon.png"/>
+    <link rel="search" title="Search" href="../../../search.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en">
+    
+
+    <!-- Google Analytics -->
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+    <nav class="navbar navbar-light navbar-expand-lg bg-light fixed-top bd-navbar" id="navbar-main"><div class="container-xl">
+
+  <div id="navbar-start">
+    
+    
+
+<a class="navbar-brand" href="../../../index.html">
+  <img src="../../../_static/iguanas_text_logo.png" class="logo" alt="logo">
+</a>      
+
+
+    
+  </div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapsible" aria-controls="navbar-collapsible" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+  <div id="navbar-collapsible" class="col-lg-9 collapse navbar-collapse">
+    <div id="navbar-center" class="mr-auto">
+      
+      <div class="navbar-center-item">
+        <ul id="navbar-main-elements" class="navbar-nav">
+    <li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../install/index.html">
+  Installation
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../user_guide/index.html">
+  User Guide
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../api/index.html">
+  API
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../examples/index.html">
+  Examples
+ </a>
+</li>
+
+<li class="toctree-l1 nav-item">
+ <a class="reference internal nav-link" href="../../../about_the_project/index.html">
+  About the project
+ </a>
+</li>
+
+    
+</ul>
+      </div>
+      
+    </div>
+
+    <div id="navbar-end">
+      
+      <div class="navbar-end-item">
+        <ul id="navbar-icon-links" class="navbar-nav" aria-label="Icon Links">
+        <li class="nav-item">
+          <a class="nav-link" href="https://github.com/paypal/Iguanas" rel="noopener" target="_blank" title="GitHub">
+            <span><i class="fab fa-github-square"></i></span>
+            <label class="sr-only">GitHub</label>
+          </a>
+        </li>
+      </ul>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </nav>
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+            
+            <!-- Only show if we have sidebars configured, else just a small margin  -->
+            <div class="col-12 col-md-3 bd-sidebar"><form class="bd-search d-flex align-items-center" action="../../../search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search the docs ..." aria-label="Search the docs ..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+  <div class="bd-toc-item active">
+    
+  </div>
+</nav>
+            </div>
+            
+          
+
+          
+          <div class="d-none d-xl-block col-xl-2 bd-toc">
+            
+          </div>
+          
+
+          
+          
+            
+          
+          <main class="col-12 col-md-9 col-xl-7 py-md-5 pl-md-5 pr-md-4 bd-content" role="main">
+              
+              <div>
+                
+  <h1>Source code for iguanas.rule_selection.grid_search_cv</h1><div class="highlight"><pre>
+<span></span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Finds the rule generation/optimisation parameters that produce the</span>
+<span class="sd">best combined rule performance, using cross validated grid search.</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">itertools</span> <span class="kn">import</span> <span class="n">product</span>
+<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">iguanas.utils</span> <span class="k">as</span> <span class="nn">utils</span>
+<span class="kn">from</span> <span class="nn">iguanas.rule_selection</span> <span class="kn">import</span> <span class="n">GreedyFilter</span>
+<span class="kn">from</span> <span class="nn">iguanas.rule_generation</span> <span class="kn">import</span> <span class="n">RuleGeneratorDT</span><span class="p">,</span> <span class="n">RuleGeneratorOpt</span>
+<span class="kn">from</span> <span class="nn">iguanas.rule_optimisation</span> <span class="kn">import</span> <span class="n">BayesianOptimiser</span><span class="p">,</span> <span class="n">DirectSearchOptimiser</span>
+<span class="kn">from</span> <span class="nn">iguanas.rules</span> <span class="kn">import</span> <span class="n">Rules</span>
+<span class="kn">from</span> <span class="nn">iguanas.utils.typing</span> <span class="kn">import</span> <span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">PandasSeriesType</span>
+<span class="kn">from</span> <span class="nn">typing</span> <span class="kn">import</span> <span class="n">List</span><span class="p">,</span> <span class="n">Union</span><span class="p">,</span> <span class="n">Callable</span><span class="p">,</span> <span class="n">Tuple</span><span class="p">,</span> <span class="n">Dict</span>
+<span class="kn">from</span> <span class="nn">sklearn.model_selection</span> <span class="kn">import</span> <span class="n">StratifiedKFold</span>
+<span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span>
+<span class="kn">from</span> <span class="nn">joblib</span> <span class="kn">import</span> <span class="n">Parallel</span><span class="p">,</span> <span class="n">delayed</span>
+<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">math</span>
+<span class="kn">import</span> <span class="nn">matplotlib.ticker</span> <span class="k">as</span> <span class="nn">ticker</span>
+
+
+<div class="viewcode-block" id="GridSearchCV"><a class="viewcode-back" href="../../../api/api/iguanas.rule_selection.GridSearchCV.html#iguanas.rule_selection.GridSearchCV">[docs]</a><span class="k">class</span> <span class="nc">GridSearchCV</span><span class="p">(</span><span class="n">Rules</span><span class="p">):</span>
+
+    <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Searches across the provided parameter space to find the parameter</span>
+<span class="sd">    set that produces the best overall rule performance. The overall rule</span>
+<span class="sd">    performance is calculated using the GreedyFilter class - this sorts the</span>
+<span class="sd">    rules by the precision then calculates the combined performance of the</span>
+<span class="sd">    top `n` rules. The maximum combined performance is recorded for that</span>
+<span class="sd">    parameter set.</span>
+
+<span class="sd">    This process is repeated for each stratified fold. The mean performance</span>
+<span class="sd">    across the folds for each parameter set is recorded, and the parameter</span>
+<span class="sd">    set that gives the highest mean performance is assumed to be the best.</span>
+<span class="sd">    The rules are then retrained using these parameters and the complete</span>
+<span class="sd">    dataset.</span>
+
+<span class="sd">    Parameters</span>
+<span class="sd">    ----------</span>
+<span class="sd">    rule_class : Union[RuleGeneratorDT, RuleGeneratorOpt, BayesianOptimiser, DirectSearchOptimiser]</span>
+<span class="sd">        The rule generator or optimiser class that will be used to generate</span>
+<span class="sd">        or optimise rules.</span>
+<span class="sd">    param_grid : Dict[str, List]</span>
+<span class="sd">        A list of parameter values (values) for each parameter (keys) in</span>
+<span class="sd">        the provided `rule_class`.</span>
+<span class="sd">    greedy_filter_opt_func : Callable</span>
+<span class="sd">        The method/function (e.g. Fbeta score) used to calculate the </span>
+<span class="sd">        performance of the top n rules when the GreedyFilter class is </span>
+<span class="sd">        applied to the rule set.</span>
+<span class="sd">    cv : int</span>
+<span class="sd">        The number of stratified folds to create from the dataset.</span>
+<span class="sd">    refilter : bool, optional</span>
+<span class="sd">        When refitting the rules using the best parameters and the complete</span>
+<span class="sd">        dataset, this parameter dictates whether the GreedyFilter class </span>
+<span class="sd">        should be applied to the rules post-fitting.</span>
+<span class="sd">    num_cores : int, optional</span>
+<span class="sd">        The number of cores to use when iterating through the different </span>
+<span class="sd">        folds &amp; parameter sets. Defaults to 1.</span>
+<span class="sd">    verbose : int, optional</span>
+<span class="sd">        Controls the verbosity - the higher, the more messages. &gt;0 : shows</span>
+<span class="sd">        the overall progress of each fold; &gt;1 : gives information on, and</span>
+<span class="sd">        the progress of, the current parameter set being tested. Note that</span>
+<span class="sd">        setting `verbose` &gt; 1 only works when `num_cores` = 1. Defaults to 0.</span>
+
+<span class="sd">    Attributes</span>
+<span class="sd">    ----------</span>
+<span class="sd">    rule_strings : Dict[str, str]</span>
+<span class="sd">        The rules which achieved the best combined performance, defined using </span>
+<span class="sd">        the standard Iguanas string format (values) and their names (keys).</span>
+<span class="sd">    rule_descriptions : PandasDataFrameType</span>
+<span class="sd">        A dataframe showing the logic of the rules and their performance </span>
+<span class="sd">        metrics on the given dataset.</span>
+<span class="sd">    param_results_per_fold : PandasDataFrameType</span>
+<span class="sd">        Shows the best combined rule performance observed for each parameter </span>
+<span class="sd">        set and fold.</span>
+<span class="sd">    param_results_aggregated : PandasDataFrameType</span>
+<span class="sd">        Shows the mean and the standard deviation of the best combined rule</span>
+<span class="sd">        performance, calculated across the folds, for each parameter set.</span>
+<span class="sd">    best_perf : float</span>
+<span class="sd">        The best combined rule performance achieved.</span>
+<span class="sd">    best_params : dict</span>
+<span class="sd">        The parameter set that achieved the best combined rule performance.</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+
+    <span class="k">def</span> <span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                 <span class="n">rule_class</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">RuleGeneratorDT</span><span class="p">,</span> <span class="n">RuleGeneratorOpt</span><span class="p">,</span>
+                                   <span class="n">BayesianOptimiser</span><span class="p">,</span> <span class="n">DirectSearchOptimiser</span><span class="p">],</span>
+                 <span class="n">param_grid</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">],</span>
+                 <span class="n">greedy_filter_opt_func</span><span class="p">:</span> <span class="n">Callable</span><span class="p">,</span>
+                 <span class="n">cv</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span> <span class="n">refilter</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span> <span class="n">num_cores</span><span class="o">=</span><span class="mi">1</span><span class="p">,</span> <span class="n">verbose</span><span class="o">=</span><span class="mi">0</span><span class="p">):</span>
+
+        <span class="bp">self</span><span class="o">.</span><span class="n">rule_class</span> <span class="o">=</span> <span class="n">rule_class</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">greedy_filter_opt_func</span> <span class="o">=</span> <span class="n">greedy_filter_opt_func</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">num_cores</span> <span class="o">=</span> <span class="n">num_cores</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span> <span class="o">=</span> <span class="n">param_grid</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="nb">dict</span><span class="p">(</span><span class="nb">zip</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="n">comb</span><span class="p">))</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">comb</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span>
+            <span class="n">product</span><span class="p">(</span><span class="o">*</span><span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span><span class="o">.</span><span class="n">values</span><span class="p">())))}</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">=</span> <span class="n">verbose</span>
+        <span class="n">Rules</span><span class="o">.</span><span class="fm">__init__</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">rule_strings</span><span class="o">=</span><span class="p">{},</span> <span class="n">opt_func</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;</span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span><span class="p">)</span><span class="si">}</span><span class="s1"> unique parameter sets&#39;</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">cv</span> <span class="o">=</span> <span class="n">cv</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">refilter</span> <span class="o">=</span> <span class="n">refilter</span>
+
+    <span class="k">def</span> <span class="fm">__repr__</span><span class="p">(</span><span class="bp">self</span><span class="p">):</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">rule_strings</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;GridSearchCV object with </span><span class="si">{</span><span class="nb">len</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">rule_strings</span><span class="p">)</span><span class="si">}</span><span class="s1"> rules&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="k">return</span> <span class="sa">f</span><span class="s1">&#39;GridSearchCV(rule_class=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">rule_class</span><span class="si">}</span><span class="s1">, param_grid=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">param_grid</span><span class="si">}</span><span class="s1">, greedy_filter_opt_func=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">greedy_filter_opt_func</span><span class="si">}</span><span class="s1">, cv=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">cv</span><span class="si">}</span><span class="s1">, refilter=</span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">refilter</span><span class="si">}</span><span class="s1">)&#39;</span>
+
+<div class="viewcode-block" id="GridSearchCV.fit"><a class="viewcode-back" href="../../../api/api/iguanas.rule_selection.GridSearchCV.html#iguanas.rule_selection.GridSearchCV.fit">[docs]</a>    <span class="k">def</span> <span class="nf">fit</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">X</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Searches across the provided parameter space to find the parameter</span>
+<span class="sd">        set that produces the best overall rule performance. The overall rule</span>
+<span class="sd">        performance is calculated using the GreedyFilter class - this sorts the</span>
+<span class="sd">        rules by the precision then calculates the combined performance of the</span>
+<span class="sd">        top `n` rules. The maximum combined performance is recorded for that</span>
+<span class="sd">        parameter set.</span>
+
+<span class="sd">        This process is repeated for each stratified fold. The mean performance</span>
+<span class="sd">        across the folds for each parameter set is recorded, and the parameter</span>
+<span class="sd">        set that gives the highest mean performance is assumed to be the best.</span>
+<span class="sd">        The rules are then retrained using these parameters and the complete</span>
+<span class="sd">        dataset.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        X : PandasDataFrameType</span>
+<span class="sd">            The feature set.</span>
+<span class="sd">        y : PandasSeriesType</span>
+<span class="sd">            The binary target column.</span>
+<span class="sd">        sample_weight : PandasSeriesType, optional</span>
+<span class="sd">            Row-wise weights to apply. Defaults to None.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">skf</span> <span class="o">=</span> <span class="n">StratifiedKFold</span><span class="p">(</span>
+            <span class="n">n_splits</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">cv</span><span class="p">,</span>
+            <span class="n">random_state</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span>
+            <span class="n">shuffle</span><span class="o">=</span><span class="kc">True</span>
+        <span class="p">)</span>
+        <span class="n">skf</span><span class="o">.</span><span class="n">get_n_splits</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">)</span>
+        <span class="n">folds</span> <span class="o">=</span> <span class="p">{</span><span class="n">i</span><span class="p">:</span> <span class="n">split</span> <span class="k">for</span> <span class="n">i</span><span class="p">,</span> <span class="n">split</span> <span class="ow">in</span> <span class="nb">enumerate</span><span class="p">(</span><span class="n">skf</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">))}</span>
+        <span class="n">fold_and_param_idxs</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="n">product</span><span class="p">(</span><span class="n">folds</span><span class="o">.</span><span class="n">keys</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span><span class="o">.</span><span class="n">keys</span><span class="p">()))</span>
+        <span class="n">fold_and_param_values</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="n">product</span><span class="p">(</span><span class="n">folds</span><span class="o">.</span><span class="n">values</span><span class="p">(),</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span><span class="o">.</span><span class="n">values</span><span class="p">()))</span>
+        <span class="n">folds_and_params</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span>
+            <span class="nb">zip</span><span class="p">(</span><span class="n">fold_and_param_idxs</span><span class="p">,</span> <span class="n">fold_and_param_values</span><span class="p">))</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span>
+                <span class="s1">&#39;--- Fitting and validating rules using folds ---&#39;</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="n">folds_and_params</span> <span class="o">=</span> <span class="n">utils</span><span class="o">.</span><span class="n">return_progress_ready_range</span><span class="p">(</span>
+            <span class="n">verbose</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">==</span> <span class="mi">1</span><span class="p">,</span> <span class="nb">range</span><span class="o">=</span><span class="n">folds_and_params</span>
+        <span class="p">)</span>
+        <span class="c1"># Fit each param set on each fold and return results</span>
+        <span class="k">with</span> <span class="n">Parallel</span><span class="p">(</span><span class="n">n_jobs</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">num_cores</span><span class="p">)</span> <span class="k">as</span> <span class="n">parallel</span><span class="p">:</span>
+            <span class="n">fold_and_param_results</span> <span class="o">=</span> <span class="n">parallel</span><span class="p">(</span><span class="n">delayed</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">_fit_on_fold_with_params</span><span class="p">)(</span>
+                <span class="n">params</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="p">,</span> <span class="n">train_idxs</span><span class="p">,</span> <span class="n">val_idxs</span><span class="p">,</span> <span class="n">fold_idx</span><span class="p">,</span>
+                <span class="n">param_set_idx</span>
+            <span class="p">)</span> <span class="k">for</span> <span class="p">(</span><span class="n">fold_idx</span><span class="p">,</span> <span class="n">param_set_idx</span><span class="p">),</span> <span class="p">((</span><span class="n">train_idxs</span><span class="p">,</span> <span class="n">val_idxs</span><span class="p">),</span> <span class="n">params</span><span class="p">)</span> <span class="ow">in</span> <span class="n">folds_and_params</span>
+            <span class="p">)</span>
+        <span class="n">folds_perf_list</span> <span class="o">=</span> <span class="p">[</span><span class="n">fold_perf</span> <span class="k">for</span> <span class="n">fold_perf</span><span class="p">,</span>
+                           <span class="n">_</span> <span class="ow">in</span> <span class="n">fold_and_param_results</span><span class="p">]</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">greedy_filters_dict</span> <span class="o">=</span> <span class="p">{</span><span class="n">fold_param_idxs</span><span class="p">:</span> <span class="n">greedy_filter</span> <span class="k">for</span> <span class="n">fold_param_idxs</span><span class="p">,</span> <span class="p">(</span>
+            <span class="n">_</span><span class="p">,</span> <span class="n">greedy_filter</span><span class="p">)</span> <span class="ow">in</span> <span class="nb">zip</span><span class="p">(</span><span class="n">fold_and_param_idxs</span><span class="p">,</span> <span class="n">fold_and_param_results</span><span class="p">)}</span>
+        <span class="c1"># Drop the train_idxs and val_idxs from the folds_and_params dict</span>
+        <span class="c1"># and convert to a dataframe</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_results_per_fold</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span>
+            <span class="p">{</span><span class="n">fold_idx</span><span class="p">:</span> <span class="n">v</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="k">for</span> <span class="n">fold_idx</span><span class="p">,</span> <span class="n">v</span> <span class="ow">in</span> <span class="n">folds_and_params</span><span class="p">})</span><span class="o">.</span><span class="n">T</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_results_per_fold</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">set_names</span><span class="p">(</span>
+            <span class="p">[</span><span class="s1">&#39;Fold&#39;</span><span class="p">,</span> <span class="s1">&#39;ParamSetIndex&#39;</span><span class="p">],</span> <span class="n">inplace</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_results_per_fold</span><span class="p">[</span><span class="s1">&#39;Performance&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="n">folds_perf_list</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">param_results_aggregated</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_calculate_aggregated_perf</span><span class="p">(</span>
+            <span class="n">param_results_per_fold</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">param_results_per_fold</span><span class="p">,</span>
+            <span class="n">param_combinations</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span>
+        <span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">best_perf</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_results_aggregated</span><span class="p">[</span>
+            <span class="s1">&#39;MeanPerformance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">best_index</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_results_aggregated</span><span class="p">[</span>
+            <span class="s1">&#39;MeanPerformance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">idxmax</span><span class="p">()</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">best_params</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span><span class="p">[</span><span class="bp">self</span><span class="o">.</span><span class="n">best_index</span><span class="p">]</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span>
+                <span class="s1">&#39;--- Re-fitting rules using best parameters on full dataset ---&#39;</span><span class="p">,</span>
+            <span class="p">)</span>
+        <span class="c1"># Retrain using best performing params on full dataset</span>
+        <span class="n">X_rules</span><span class="p">,</span> <span class="n">rc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_train_rules_using_params</span><span class="p">(</span>
+            <span class="n">rule_class</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rule_class</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">best_params</span><span class="p">,</span> <span class="n">X</span><span class="o">=</span><span class="n">X</span><span class="p">,</span>
+            <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight</span>
+        <span class="p">)</span>
+        <span class="c1"># If refilter is True, perform GreedyFilter on rules that were</span>
+        <span class="c1"># retrained using best parameters and complete dataset</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">refilter</span><span class="p">:</span>
+            <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span>
+                    <span class="s1">&#39;--- Filtering rules to give best combined performance ---&#39;</span><span class="p">,</span>
+                <span class="p">)</span>
+            <span class="n">gf</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_greedy_filter</span><span class="p">(</span>
+                <span class="n">greedy_filter_opt_func</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">greedy_filter_opt_func</span><span class="p">,</span>
+                <span class="n">rule_descriptions</span><span class="o">=</span><span class="n">rc</span><span class="o">.</span><span class="n">rule_descriptions</span><span class="p">,</span>
+                <span class="n">X_rules</span><span class="o">=</span><span class="n">X_rules</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight</span><span class="p">,</span>
+                <span class="n">verbose</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">verbose</span>
+            <span class="p">)</span>
+            <span class="n">rc</span><span class="o">.</span><span class="n">filter_rules</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="n">gf</span><span class="o">.</span><span class="n">rules_to_keep</span><span class="p">)</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">rule_strings</span> <span class="o">=</span> <span class="n">rc</span><span class="o">.</span><span class="n">rule_strings</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">opt_func</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">best_params</span><span class="p">[</span><span class="s1">&#39;opt_func&#39;</span><span class="p">]</span></div>
+
+<div class="viewcode-block" id="GridSearchCV.plot_top_n_performance_by_fold"><a class="viewcode-back" href="../../../api/api/iguanas.rule_selection.GridSearchCV.html#iguanas.rule_selection.GridSearchCV.plot_top_n_performance_by_fold">[docs]</a>    <span class="k">def</span> <span class="nf">plot_top_n_performance_by_fold</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span>
+                                       <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">5</span><span class="p">))</span> <span class="o">-&gt;</span> <span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Plot the combined performance of the top n rules (as calculated using</span>
+<span class="sd">        the `.fit()` method) for each parameter set and fold that was used for</span>
+<span class="sd">        fitting the rules.</span>
+
+<span class="sd">        Parameters</span>
+<span class="sd">        ----------</span>
+<span class="sd">        figsize : Tuple[int, int], optional</span>
+<span class="sd">            Defines the size of the plot (length, height). Defaults to (10, 5).</span>
+
+<span class="sd">        Returns</span>
+<span class="sd">        -------</span>
+<span class="sd">        sns.lineplot</span>
+<span class="sd">            The combined performance of the top n rules for each parameter set and fold.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="k">def</span> <span class="nf">_plot_performance</span><span class="p">(</span><span class="n">param_set_idx</span><span class="p">,</span> <span class="n">figsize</span><span class="p">,</span> <span class="n">data</span><span class="p">):</span>
+            <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s2">&quot;whitegrid&quot;</span><span class="p">)</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">(</span><span class="n">figsize</span><span class="o">=</span><span class="n">figsize</span><span class="p">)</span>
+            <span class="n">ax</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">lineplot</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">data</span><span class="p">)</span>
+            <span class="n">ax_int</span> <span class="o">=</span> <span class="n">math</span><span class="o">.</span><span class="n">ceil</span><span class="p">(</span><span class="n">data</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">max</span><span class="p">()</span><span class="o">/</span><span class="mi">10</span><span class="p">)</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_major_locator</span><span class="p">(</span><span class="n">ticker</span><span class="o">.</span><span class="n">MultipleLocator</span><span class="p">(</span><span class="n">ax_int</span><span class="p">))</span>
+            <span class="n">ax</span><span class="o">.</span><span class="n">xaxis</span><span class="o">.</span><span class="n">set_major_formatter</span><span class="p">(</span><span class="n">ticker</span><span class="o">.</span><span class="n">ScalarFormatter</span><span class="p">())</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s1">&#39;Performance of parameter set </span><span class="si">{</span><span class="n">param_set_idx</span><span class="si">}</span><span class="s1"> across the </span><span class="si">{</span><span class="bp">self</span><span class="o">.</span><span class="n">cv</span><span class="si">}</span><span class="s1"> validation folds&#39;</span><span class="p">)</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+
+        <span class="k">for</span> <span class="n">param_set_idx</span> <span class="ow">in</span> <span class="bp">self</span><span class="o">.</span><span class="n">param_combinations</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">data_list</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">fold_idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cv</span><span class="p">):</span>
+                <span class="n">top_n_rule_perf_fold</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">greedy_filters_dict</span><span class="p">[(</span>
+                    <span class="n">fold_idx</span><span class="p">,</span> <span class="n">param_set_idx</span><span class="p">)]</span><span class="o">.</span><span class="n">top_n_rule_descriptions</span><span class="p">[</span><span class="s1">&#39;OptMetric&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">to_frame</span><span class="p">()</span>
+                <span class="n">data_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">top_n_rule_perf_fold</span><span class="p">)</span>
+            <span class="n">data</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">(</span><span class="n">data_list</span><span class="p">,</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">data</span><span class="o">.</span><span class="n">columns</span> <span class="o">=</span> <span class="p">[</span><span class="sa">f</span><span class="s1">&#39;Fold </span><span class="si">{</span><span class="n">fold_idx</span><span class="si">}</span><span class="s1">&#39;</span> <span class="k">for</span> <span class="n">fold_idx</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="bp">self</span><span class="o">.</span><span class="n">cv</span><span class="p">)]</span>
+            <span class="n">_plot_performance</span><span class="p">(</span><span class="n">param_set_idx</span><span class="p">,</span> <span class="n">figsize</span><span class="p">,</span> <span class="n">data</span><span class="p">)</span></div>
+
+    <span class="k">def</span> <span class="nf">_fit_on_fold_with_params</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span> <span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="p">,</span>
+                                 <span class="n">train_idxs</span><span class="p">,</span> <span class="n">val_idxs</span><span class="p">,</span> <span class="n">fold_idx</span><span class="p">,</span>
+                                 <span class="n">param_set_idx</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="nb">float</span><span class="p">,</span> <span class="nb">dict</span><span class="p">,</span> <span class="n">GreedyFilter</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Fits the rules_class on a given fold using the given parameters&quot;&quot;&quot;</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span>
+                <span class="sa">f</span><span class="s1">&#39;--- Fitting rules using parameter set </span><span class="si">{</span><span class="n">param_set_idx</span><span class="si">}</span><span class="s1"> and fold </span><span class="si">{</span><span class="n">fold_idx</span><span class="si">}</span><span class="s1"> ---&#39;</span><span class="p">)</span>
+        <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">sample_weight_train</span><span class="p">,</span> <span class="n">X_val</span><span class="p">,</span> <span class="n">y_val</span><span class="p">,</span> <span class="n">sample_weight_val</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_set_up_datasets</span><span class="p">(</span>
+            <span class="n">X</span><span class="o">=</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight</span><span class="p">,</span> <span class="n">train_idxs</span><span class="o">=</span><span class="n">train_idxs</span><span class="p">,</span> <span class="n">val_idxs</span><span class="o">=</span><span class="n">val_idxs</span><span class="p">)</span>
+        <span class="n">X_rules</span><span class="p">,</span> <span class="n">rc</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_train_rules_using_params</span><span class="p">(</span>
+            <span class="n">rule_class</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">rule_class</span><span class="p">,</span> <span class="n">params</span><span class="o">=</span><span class="n">params</span><span class="p">,</span> <span class="n">X</span><span class="o">=</span><span class="n">X_train</span><span class="p">,</span>
+            <span class="n">y</span><span class="o">=</span><span class="n">y_train</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight_train</span>
+        <span class="p">)</span>
+        <span class="n">rule_descriptions</span> <span class="o">=</span> <span class="n">rc</span><span class="o">.</span><span class="n">rule_descriptions</span>
+        <span class="k">if</span> <span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">X_train</span><span class="o">.</span><span class="n">index</span><span class="p">)</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">X_val</span><span class="o">.</span><span class="n">index</span><span class="p">))</span> <span class="ow">or</span> <span class="nb">any</span><span class="p">(</span><span class="n">X_train</span><span class="o">.</span><span class="n">index</span> <span class="o">!=</span> <span class="n">X_val</span><span class="o">.</span><span class="n">index</span><span class="p">):</span>
+            <span class="n">X_rules</span> <span class="o">=</span> <span class="n">rc</span><span class="o">.</span><span class="n">transform</span><span class="p">(</span>
+                <span class="n">X</span><span class="o">=</span><span class="n">X_val</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y_val</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight_val</span><span class="p">)</span>
+            <span class="n">rule_descriptions</span> <span class="o">=</span> <span class="n">rc</span><span class="o">.</span><span class="n">rule_descriptions</span>
+        <span class="n">greedy_filterer</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">_fit_greedy_filter</span><span class="p">(</span>
+            <span class="n">greedy_filter_opt_func</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">greedy_filter_opt_func</span><span class="p">,</span>
+            <span class="n">rule_descriptions</span><span class="o">=</span><span class="n">rule_descriptions</span><span class="p">,</span>
+            <span class="n">X_rules</span><span class="o">=</span><span class="n">X_rules</span><span class="p">,</span>
+            <span class="n">y</span><span class="o">=</span><span class="n">y_val</span><span class="p">,</span>
+            <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight_val</span><span class="p">,</span>
+            <span class="n">verbose</span><span class="o">=</span><span class="bp">self</span><span class="o">.</span><span class="n">verbose</span><span class="p">,</span>
+        <span class="p">)</span>
+        <span class="n">params_perf</span> <span class="o">=</span> <span class="n">greedy_filterer</span><span class="o">.</span><span class="n">top_n_rule_descriptions</span><span class="p">[</span><span class="s1">&#39;OptMetric&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">max</span><span class="p">(</span>
+        <span class="p">)</span>
+        <span class="n">rc</span><span class="o">.</span><span class="n">filter_rules</span><span class="p">(</span><span class="n">include</span><span class="o">=</span><span class="n">greedy_filterer</span><span class="o">.</span><span class="n">rules_to_keep</span><span class="p">)</span>
+        <span class="k">if</span> <span class="bp">self</span><span class="o">.</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">end</span><span class="o">=</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">params_perf</span><span class="p">,</span> <span class="n">greedy_filterer</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_set_up_datasets</span><span class="p">(</span><span class="n">X</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span> <span class="n">sample_weight</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span>
+                         <span class="n">train_idxs</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">,</span> <span class="n">val_idxs</span><span class="p">:</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">PandasSeriesType</span><span class="p">,</span> <span class="n">PandasSeriesType</span><span class="p">,</span> <span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">PandasSeriesType</span><span class="p">,</span> <span class="n">PandasSeriesType</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Set up training and validation datasets for each fold&quot;&quot;&quot;</span>
+
+        <span class="n">X_train</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_idxs</span><span class="p">]</span>
+        <span class="n">y_train</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_idxs</span><span class="p">]</span>
+        <span class="n">X_val</span> <span class="o">=</span> <span class="n">X</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">val_idxs</span><span class="p">]</span>
+        <span class="n">y_val</span> <span class="o">=</span> <span class="n">y</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">val_idxs</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">sample_weight</span> <span class="ow">is</span> <span class="ow">not</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="n">sample_weight_train</span> <span class="o">=</span> <span class="n">sample_weight</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">train_idxs</span><span class="p">]</span>
+            <span class="n">sample_weight_val</span> <span class="o">=</span> <span class="n">sample_weight</span><span class="o">.</span><span class="n">iloc</span><span class="p">[</span><span class="n">val_idxs</span><span class="p">]</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">sample_weight_train</span> <span class="o">=</span> <span class="kc">None</span>
+            <span class="n">sample_weight_val</span> <span class="o">=</span> <span class="kc">None</span>
+        <span class="k">return</span> <span class="n">X_train</span><span class="p">,</span> <span class="n">y_train</span><span class="p">,</span> <span class="n">sample_weight_train</span><span class="p">,</span> <span class="n">X_val</span><span class="p">,</span> <span class="n">y_val</span><span class="p">,</span> <span class="n">sample_weight_val</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_calculate_aggregated_perf</span><span class="p">(</span><span class="n">param_results_per_fold</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span>
+                                   <span class="n">param_combinations</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">int</span><span class="p">,</span> <span class="nb">dict</span><span class="p">])</span> <span class="o">-&gt;</span> <span class="n">PandasDataFrameType</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">        Calculates the mean and std dev of the overall rule performance across</span>
+<span class="sd">        the folds for each unique parameter set.</span>
+<span class="sd">        &quot;&quot;&quot;</span>
+
+        <span class="n">fold_results_lists</span> <span class="o">=</span> <span class="n">param_results_per_fold</span><span class="o">.</span><span class="n">reset_index</span><span class="p">()</span><span class="o">.</span><span class="n">groupby</span><span class="p">(</span><span class="s1">&#39;ParamSetIndex&#39;</span><span class="p">)[</span>
+            <span class="s1">&#39;Performance&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">)</span>
+        <span class="n">fold_results_lists</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;PerformancePerFold&#39;</span>
+        <span class="n">mean_performances</span> <span class="o">=</span> <span class="n">fold_results_lists</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">mean</span><span class="p">)</span>
+        <span class="n">mean_performances</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;MeanPerformance&#39;</span>
+        <span class="n">std_performances</span> <span class="o">=</span> <span class="n">fold_results_lists</span><span class="o">.</span><span class="n">apply</span><span class="p">(</span><span class="n">np</span><span class="o">.</span><span class="n">std</span><span class="p">)</span>
+        <span class="n">std_performances</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;StdDevPerformance&#39;</span>
+        <span class="n">param_combinations_df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">DataFrame</span><span class="p">(</span><span class="n">param_combinations</span><span class="p">)</span><span class="o">.</span><span class="n">T</span>
+        <span class="n">param_results_aggregated</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">concat</span><span class="p">([</span>
+            <span class="n">param_combinations_df</span><span class="p">,</span> <span class="n">fold_results_lists</span><span class="p">,</span> <span class="n">mean_performances</span><span class="p">,</span>
+            <span class="n">std_performances</span>
+        <span class="p">],</span>
+            <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
+        <span class="n">param_results_aggregated</span><span class="o">.</span><span class="n">index</span><span class="o">.</span><span class="n">name</span> <span class="o">=</span> <span class="s1">&#39;ParamSetIndex&#39;</span>
+        <span class="k">return</span> <span class="n">param_results_aggregated</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_train_rules_using_params</span><span class="p">(</span><span class="n">rule_class</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">RuleGeneratorDT</span><span class="p">,</span> <span class="n">RuleGeneratorOpt</span><span class="p">],</span>
+                                  <span class="n">params</span><span class="p">:</span> <span class="n">Dict</span><span class="p">[</span><span class="nb">str</span><span class="p">,</span> <span class="n">List</span><span class="p">],</span> <span class="n">X</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span>
+                                  <span class="n">sample_weight</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">Tuple</span><span class="p">[</span><span class="n">PandasDataFrameType</span><span class="p">,</span> <span class="n">Rules</span><span class="p">]:</span>
+        <span class="sd">&quot;&quot;&quot;Train a rule set using the provided parameters&quot;&quot;&quot;</span>
+
+        <span class="n">rc</span> <span class="o">=</span> <span class="n">rule_class</span><span class="p">(</span><span class="o">**</span><span class="n">params</span><span class="p">)</span>
+        <span class="n">X_rules</span> <span class="o">=</span> <span class="n">rc</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X</span><span class="o">=</span><span class="n">X</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">X_rules</span><span class="p">,</span> <span class="n">rc</span>
+
+    <span class="nd">@staticmethod</span>
+    <span class="k">def</span> <span class="nf">_fit_greedy_filter</span><span class="p">(</span><span class="n">greedy_filter_opt_func</span><span class="p">:</span> <span class="n">Union</span><span class="p">[</span><span class="n">RuleGeneratorDT</span><span class="p">,</span> <span class="n">RuleGeneratorOpt</span><span class="p">],</span>
+                           <span class="n">rule_descriptions</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span>
+                           <span class="n">X_rules</span><span class="p">:</span> <span class="n">PandasDataFrameType</span><span class="p">,</span>
+                           <span class="n">y</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span>
+                           <span class="n">sample_weight</span><span class="p">:</span> <span class="n">PandasSeriesType</span><span class="p">,</span>
+                           <span class="n">verbose</span><span class="p">:</span> <span class="nb">int</span><span class="p">,</span>
+                           <span class="p">)</span> <span class="o">-&gt;</span> <span class="n">GreedyFilter</span><span class="p">:</span>
+        <span class="sd">&quot;&quot;&quot;Fits the GreedyFilter class to the provided dataset&quot;&quot;&quot;</span>
+
+        <span class="n">gf</span> <span class="o">=</span> <span class="n">GreedyFilter</span><span class="p">(</span>
+            <span class="n">opt_func</span><span class="o">=</span><span class="n">greedy_filter_opt_func</span><span class="p">,</span>
+            <span class="n">rule_descriptions</span><span class="o">=</span><span class="n">rule_descriptions</span><span class="p">,</span>
+            <span class="n">sorting_col</span><span class="o">=</span><span class="s1">&#39;Precision&#39;</span><span class="p">,</span>
+            <span class="n">verbose</span><span class="o">=</span><span class="n">verbose</span> <span class="o">&gt;</span> <span class="mi">1</span>
+        <span class="p">)</span>
+        <span class="n">gf</span><span class="o">.</span><span class="n">fit</span><span class="p">(</span><span class="n">X_rules</span><span class="o">=</span><span class="n">X_rules</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="n">y</span><span class="p">,</span> <span class="n">sample_weight</span><span class="o">=</span><span class="n">sample_weight</span><span class="p">)</span>
+        <span class="k">return</span> <span class="n">gf</span></div>
+</pre></div>
+
+              </div>
+              
+              
+          </main>
+          
+
+      </div>
+    </div>
+  
+  <script src="../../../_static/js/index.be7d3bbb2ef33a8344ce.js"></script>
+<footer class="footer mt-5 mt-md-0">
+  <div class="container">
+    
+    <div class="footer-item">
+      <p class="copyright">
+    &copy; Copyright 2021, James Laidler.<br>
+</p>
+    </div>
+    
+    <div class="footer-item">
+      <p class="sphinx-version">
+Created using <a href="http://sphinx-doc.org/">Sphinx</a> 4.3.1.<br>
+</p>
+    </div>
+    
+  </div>
+</footer>
+  </body>
+</html>
