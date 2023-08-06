@@ -1,0 +1,9 @@
+README.md
+setup.py
+pranky_shiprocket/__init__.py
+pranky_shiprocket/shiprocket.py
+pranky_shiprocket.egg-info/PKG-INFO
+pranky_shiprocket.egg-info/SOURCES.txt
+pranky_shiprocket.egg-info/dependency_links.txt
+pranky_shiprocket.egg-info/top_level.txt
+test/test_shiprocket.py
