@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: add-package
+Version: 2.2.3
+Summary: A method of benchmark
+Home-page: https://github.com/pypa/sampleproject
+Author: xiaoyang
+Author-email: yangx9810@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+- The codes have been tested on Python 3.6 + pytorch 1.1 + torchvision 0.3.0 (pytorch 1.3 seems also ok, but not test thoroughly)
+
+
+
+- #Requirements:
+
+ - Center Computer:
+   - redis (ubuntu software, start using the command redis-server --protected-mode on)
+   - sshpass (python lib)
+
+ - Conter Computer & workers:
+   - multiprocess (python lib)
+   - redis (python lib)
+ 
+ 
+- # How to use
+- Start the redis-server on the center computer (redis-server --protected-mode no)
+- Start the init_compute.py script to start the compute platform
+- Start the algorithm you would like to perform
+
