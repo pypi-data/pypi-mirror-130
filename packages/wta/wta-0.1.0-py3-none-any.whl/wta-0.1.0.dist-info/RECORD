@@ -1,0 +1,11 @@
+wtas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wtas/functions.py,sha256=cbxdo0Fygw8IiQO8rw4Pnucrjgoh2Cp2RgQxpP4CjSY,1288
+wtas/main.py,sha256=bKsMFhM_kKJZLiB7If0DM1HTaYxJ9erOH2FIYzHn01c,4163
+wtas/operators.py,sha256=6PDBsuSMCdmEorlie8ZE8nsglE2cnWolhZtwpxEesac,14299
+wtas/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wtas/tests/main_test.py,sha256=_cpfQr18V7hEJNR0rmUrfssG0GZuCnn3zUQPvn8_nYg,3226
+wta-0.1.0.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+wta-0.1.0.dist-info/METADATA,sha256=Ui0wGDzLFXqjiLjGRh_YPfKwREHVURaiOzH2tCszLL8,754
+wta-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+wta-0.1.0.dist-info/top_level.txt,sha256=0SbnJ3SbVYyojKYWDiV39CZyva9iQH2GRa-YXMMgEPo,5
+wta-0.1.0.dist-info/RECORD,,
