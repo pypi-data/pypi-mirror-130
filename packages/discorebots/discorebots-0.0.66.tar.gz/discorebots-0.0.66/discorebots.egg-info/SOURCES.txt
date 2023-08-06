@@ -1,0 +1,11 @@
+pyproject.toml
+setup.py
+discorebots/__init__.py
+discorebots/__versions__.py
+discorebots/defines.py
+discorebots/discorebots.py
+discorebots.egg-info/PKG-INFO
+discorebots.egg-info/SOURCES.txt
+discorebots.egg-info/dependency_links.txt
+discorebots.egg-info/requires.txt
+discorebots.egg-info/top_level.txt
