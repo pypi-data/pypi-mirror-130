@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: sla
+Version: 1.2.3
+Summary: Non-parametric LOSVD analysis for galaxy spectra
+Home-page: https://github.com/gasymovdf/sla
+Author: Gasymov Damir
+Author-email: gasymov.df18@physics.msu.ru
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Non-parametric LOSVD
+
+A code of nonparametric LOSVD recover for galaxy spectra
+
+
