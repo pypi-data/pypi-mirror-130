@@ -1,0 +1,14 @@
+pecoregex/__init__.py,sha256=i7V988adY20xJLveIpQJuj4ek31bE4hHRRWGUXZ637Q,172
+pecoregex/__main__.py,sha256=ex6o0Lf4FM2dsCLWix-o9tUe1eZnxgGl32h-RfwvTRA,295
+pecoregex/cli.py,sha256=dYTkM5suAPBXykoBvvxRCtOiwOvSZLrlBGObmwn78Pg,6187
+pecoregex/document.py,sha256=eLc4BCcDg6k_XrO94RRmkYRHZlTCuSAwkkMt4XpvC7E,834
+pecoregex/extproc.py,sha256=XzqdPgq5l9JtImq8U7XlK6S_W4QouyFHPeTbDeMn28M,1399
+pecoregex/factory.py,sha256=FRoEPW-AYGSxcknswCtQ7LM4FwtrNa8id3KCCh7SbP8,2651
+pecoregex/pcre.py,sha256=sl_KuWN0UjkcZg3kLxwOo6vZ5loWJIih6mvOmeMSsCQ,14416
+pecoregex/util.py,sha256=8f2muAT94SjUSpQUMWgGt1Rz05JzP0jwU0ojM6U8HQk,7941
+pecoregex-1.1.0.dist-info/LICENSE.txt,sha256=z0EoPUCvCwb8QYXaY_h-eVRNenATwkxMisTWdHPn7e4,1517
+pecoregex-1.1.0.dist-info/METADATA,sha256=oFHN_QTDhJvJ1AbJYFNiNXlOZD-Fyls0xPm1imIpsLk,2768
+pecoregex-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pecoregex-1.1.0.dist-info/entry_points.txt,sha256=AUP4YCPU9smoB1Hn6UJjhkYrcszf9JO5ay3UPmq6YPM,53
+pecoregex-1.1.0.dist-info/top_level.txt,sha256=EnwHPInM_r0SjhqijePnz_a52T9E9vBEWTlG8ERBlLU,10
+pecoregex-1.1.0.dist-info/RECORD,,
