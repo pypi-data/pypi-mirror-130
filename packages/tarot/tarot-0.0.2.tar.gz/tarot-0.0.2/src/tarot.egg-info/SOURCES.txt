@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/tarot/__init__.py
+src/tarot/tarot.py
+src/tarot.egg-info/PKG-INFO
+src/tarot.egg-info/SOURCES.txt
+src/tarot.egg-info/dependency_links.txt
+src/tarot.egg-info/top_level.txt
