@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: process-spectra
+Version: 0.2.0
+Summary: A package designed to process optical spectra of fiber optic sensors based on long period gratings (LPGs). The documentation is written in portuguese, since the project was conceived to improve research at a brazilian university lab (LITel - UFJF). If the contents of the library may be useful to you, and you do not speak portuguese, please send us an e-mail.
+Home-page: https://github.com/felipebarino/process_spectra
+License: MIT
+Author: Felipe Barino
+Author-email: felipebarino@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: matplotlib (>=3.3.2,<4.0.0)
+Requires-Dist: numpy (>=1.20.0,<2.0.0)
+Requires-Dist: pandas (>=1.3.4,<2.0.0)
+Requires-Dist: scipy (>=1.6.2,<2.0.0)
+Project-URL: Repository, https://github.com/felipebarino/process_spectra
