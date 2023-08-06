@@ -1,0 +1,11 @@
+.DS_Store,sha256=_wcXq_DGYjHw6pa4ffXrDFRe9iJPB06E81K6rJBYbFI,6148
+TwoSampleHC/TwoSampleHC.py,sha256=saXg1Kz0F3Cz_hqPfZ51cLBU_xQQQfxPRXF_cZ6Wj2o,17050
+TwoSampleHC/__init__.py,sha256=PgD2IopQbNHvuU25O-F9M2TvqGz0Bpj0MhQiKdHWzhw,660
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/multinomial_perturbation.py,sha256=kzs9O7wlcnGwWSueLfsng54i-KG_TBNDSb-H3xF9AcM,913
+tests/test_sparse_normals.py,sha256=vzQoq9k4H9lo5lElAjTgrTiF6Ypha00oTrtnixztOfg,3339
+TwoSampleHC-0.2.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+TwoSampleHC-0.2.1.dist-info/METADATA,sha256=BhqUEvl0sqkidn3v4PAreJA0oxc3ERwiL4LRbMvm2KE,2527
+TwoSampleHC-0.2.1.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+TwoSampleHC-0.2.1.dist-info/top_level.txt,sha256=ko9vqHG6PIs92OmMhMVoRs9iXYMhQowIjUTP5dOEP0c,18
+TwoSampleHC-0.2.1.dist-info/RECORD,,
