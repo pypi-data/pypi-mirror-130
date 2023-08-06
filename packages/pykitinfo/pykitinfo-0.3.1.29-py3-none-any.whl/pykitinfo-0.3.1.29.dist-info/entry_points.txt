@@ -1,0 +1,3 @@
+[console_scripts]
+pykitinfo = pykitinfo.pykitinfo_cli:main
+
