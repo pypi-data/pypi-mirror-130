@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: meta-person
+Version: 0.12.4
+Summary: Meta Person Toolkit
+Home-page: https://github.com/CachCheng/cvtrack
+Author: CachCheng
+Author-email: tkggpdc2007@163.com
+License: Apache-2.0
+Description: # cvtrack
+        行人识别通用框架
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

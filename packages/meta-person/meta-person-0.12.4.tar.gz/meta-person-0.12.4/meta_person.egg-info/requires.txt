@@ -1,0 +1,11 @@
+numpy
+torch
+opencv-python
+torchvision
+Pillow
+lap
+onnx
+onnxruntime
+cython
+cython_bbox
+loguru
