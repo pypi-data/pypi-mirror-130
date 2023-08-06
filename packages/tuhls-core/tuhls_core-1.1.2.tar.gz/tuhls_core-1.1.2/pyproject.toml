@@ -1,0 +1,28 @@
+[project]
+name = "tuhls_core"
+requires-python = ">=3.8"
+version = "1.1.2"
+description = ""
+dependencies = [ "django>3,<4", "django-configurations[cache,database,email,search]", "plumbum", "python-dotenv", "django-environ", "psycopg2", "whitenoise", "gunicorn", "meinheld", "sentry-sdk", "django-redis", "django-q", "django-q-email", "django-cors-headers", "djangorestframework", "drf-spectacular", "djoser", "django-templated-mail", "geoip2", "PyICU", "pdfminer.six", "reportlab", "svglib", "django-crispy-forms", "crispy-tailwind",]
+[[project.authors]]
+name = "Herbert Rusznak (tlb)"
+email = "herbert.rusznak@gmail.com"
+
+[build-system]
+requires = [ "flit_core >=3.2,<4",]
+build-backend = "flit_core.buildapi"
+
+[project.license]
+file = "LICENSE"
+
+[project.optional-dependencies]
+dev = [ "django-debug-toolbar", "django-mail-panel", "parameterized", "mypy", "django-stubs", "djangorestframework-stubs", "django_coverage_plugin", "tblib", "pyupgrade", "pytest", "pytest-cov", "freezegun", "django-extensions", "Werkzeug",]
+
+[project.urls]
+Source = "https://gitlab.com/tuhls/tuhls_core"
+
+[tool.flit.sdist]
+exclude = [ "tuhls/design/static_src", "tuhls/design/static/country_flags/png1000px", "tuhls/design/static/country_flags/png250px", "tuhls/design/static/country_flags/png100px", "tuhls/design/static/country_flags/scripts",]
+
+[tool.flit.module]
+name = "tuhls"
