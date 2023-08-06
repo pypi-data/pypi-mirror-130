@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: user-agent2
+Version: 2021.12.11
+Summary: generate random user agent
+Home-page: https://github.com/dytttf/user_agent2
+Author: Dytttf
+Author-email: dytttf@foxmail.com
+License: BSD
+Keywords: user_agent
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: user-agent (==0.1.10)
+
+# user_agent2
+* Inherit from user_agent. 
+* Append recently browser version.
+
+# Usage Example
+```python
+
+from user_agent2 import (
+    generate_user_agent,
+)
+
+ua = generate_user_agent(navigator="chrome")
+print(ua)
+```
+
+
