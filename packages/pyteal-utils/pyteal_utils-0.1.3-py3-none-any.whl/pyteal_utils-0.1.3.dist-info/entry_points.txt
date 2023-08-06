@@ -1,0 +1,4 @@
+[console_scripts]
+ptu-make-node = pyteal_utils.scripts.make_node:main_args
+ptu-run-node = pyteal_utils.scripts.run_node:main_args
+
