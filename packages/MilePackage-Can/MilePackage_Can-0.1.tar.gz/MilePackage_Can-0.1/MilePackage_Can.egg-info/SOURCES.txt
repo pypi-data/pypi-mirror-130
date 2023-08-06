@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+MilePackage_Can.egg-info/PKG-INFO
+MilePackage_Can.egg-info/SOURCES.txt
+MilePackage_Can.egg-info/dependency_links.txt
+MilePackage_Can.egg-info/top_level.txt
+myMilePackage/__init__.py
+myMilePackage/mileConverter.py
