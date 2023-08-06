@@ -1,0 +1,3 @@
+[console_scripts]
+urial = urial.__main__:console_scripts_main
+
