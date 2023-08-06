@@ -1,0 +1,414 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/trees/tree
+  response:
+    body:
+      string: '{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "main", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '110'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/trees/tree/main
+  response:
+    body:
+      string: '{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "main", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '110'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: '{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+      "metadata": null, "name": "contents_view_dev", "type": "BRANCH"}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '141'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: http://localhost:19120/api/v1/trees/tree?sourceRefName=main
+  response:
+    body:
+      string: '{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "contents_view_dev", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '123'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/trees
+  response:
+    body:
+      string: '{"hasMore": false, "references": [{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "main", "type": "BRANCH"}, {"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "contents_view_dev", "type": "BRANCH"}], "token": null}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '286'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.iceberg.foo?ref=contents_view_dev
+  response:
+    body:
+      string: '{"errorCode": "CONTENT_NOT_FOUND", "message": "Could not find content
+        for key ''this.is.iceberg.foo'' in reference ''contents_view_dev''.", "reason":
+        "Not Found", "serverStackTrace": null, "status": 404}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '199'
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: '{"commitMeta": {"author": "nessie test", "authorTime": null, "commitTime":
+      null, "committer": null, "hash": null, "message": "test message", "properties":
+      null, "signedOffBy": null}, "operations": [{"content": {"id": "test_contents_view",
+      "metadataLocation": "/a/b/c", "schemaId": 42, "snapshotId": 42, "sortOrderId":
+      42, "specId": 42, "type": "ICEBERG_TABLE"}, "expectedContent": null, "key":
+      {"elements": ["this", "is", "iceberg", "foo"]}, "type": "PUT"}]}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '458'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: http://localhost:19120/api/v1/trees/branch/contents_view_dev/commit?expectedHash=2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d
+  response:
+    body:
+      string: '{"hash": "5050c8bd6b3d47bd75aba0b316f3895adb4ef39b722b0ae017222317af90017c",
+        "name": "contents_view_dev", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '123'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/trees
+  response:
+    body:
+      string: '{"hasMore": false, "references": [{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "main", "type": "BRANCH"}, {"hash": "5050c8bd6b3d47bd75aba0b316f3895adb4ef39b722b0ae017222317af90017c",
+        "name": "contents_view_dev", "type": "BRANCH"}], "token": null}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '286'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.delta.bar?ref=contents_view_dev
+  response:
+    body:
+      string: '{"errorCode": "CONTENT_NOT_FOUND", "message": "Could not find content
+        for key ''this.is.delta.bar'' in reference ''contents_view_dev''.", "reason":
+        "Not Found", "serverStackTrace": null, "status": 404}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '197'
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: '{"commitMeta": {"author": "nessie test", "authorTime": null, "commitTime":
+      null, "committer": null, "hash": null, "message": "test message", "properties":
+      null, "signedOffBy": null}, "operations": [{"content": {"checkpointLocationHistory":
+      ["def"], "id": "uuid2", "lastCheckpoint": "x", "metadataLocationHistory": ["asd"],
+      "type": "DELTA_LAKE_TABLE"}, "expectedContent": null, "key": {"elements": ["this",
+      "is", "delta", "bar"]}, "type": "PUT"}]}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '446'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: http://localhost:19120/api/v1/trees/branch/contents_view_dev/commit?expectedHash=5050c8bd6b3d47bd75aba0b316f3895adb4ef39b722b0ae017222317af90017c
+  response:
+    body:
+      string: '{"hash": "d7f3f712c5c083123b6a2966db9fc74023dc173fc455d6bfb83f0598b6e61ee6",
+        "name": "contents_view_dev", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '123'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/trees
+  response:
+    body:
+      string: '{"hasMore": false, "references": [{"hash": "2e1cfa82b035c26cbbbdae632cea070514eb8b773f616aaeaf668e2f0be8f10d",
+        "name": "main", "type": "BRANCH"}, {"hash": "d7f3f712c5c083123b6a2966db9fc74023dc173fc455d6bfb83f0598b6e61ee6",
+        "name": "contents_view_dev", "type": "BRANCH"}], "token": null}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '286'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.sql%00baz?ref=contents_view_dev
+  response:
+    body:
+      string: '{"errorCode": "CONTENT_NOT_FOUND", "message": "Could not find content
+        for key ''this.is.sql.baz'' in reference ''contents_view_dev''.", "reason":
+        "Not Found", "serverStackTrace": null, "status": 404}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '195'
+    status:
+      code: 404
+      message: Not Found
+- request:
+    body: '{"commitMeta": {"author": "nessie test", "authorTime": null, "commitTime":
+      null, "committer": null, "hash": null, "message": "test message", "properties":
+      null, "signedOffBy": null}, "operations": [{"content": {"dialect": "SPARK",
+      "id": "uuid3", "sqlText": "SELECT * FROM foo", "type": "VIEW"}, "expectedContent":
+      null, "key": {"elements": ["this", "is", "sql.baz"]}, "type": "PUT"}]}'
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      Content-Length:
+      - '384'
+      Content-Type:
+      - application/json
+      User-Agent:
+      - python-requests/2.26.0
+    method: POST
+    uri: http://localhost:19120/api/v1/trees/branch/contents_view_dev/commit?expectedHash=d7f3f712c5c083123b6a2966db9fc74023dc173fc455d6bfb83f0598b6e61ee6
+  response:
+    body:
+      string: '{"hash": "52fa8ff128bd9ca22771ac8859a4809fbd2c334a819b74b9e9aab8fdb3892eb3",
+        "name": "contents_view_dev", "type": "BRANCH"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '123'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.iceberg.foo?ref=contents_view_dev
+  response:
+    body:
+      string: '{"id": "test_contents_view", "metadataLocation": "/a/b/c", "schemaId":
+        42, "snapshotId": 42, "sortOrderId": 42, "specId": 42, "type": "ICEBERG_TABLE"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '150'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.delta.bar?ref=contents_view_dev
+  response:
+    body:
+      string: '{"checkpointLocationHistory": ["def"], "id": "uuid2", "lastCheckpoint":
+        "x", "metadataLocationHistory": ["asd"], "type": "DELTA_LAKE_TABLE"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '140'
+    status:
+      code: 200
+      message: OK
+- request:
+    body: null
+    headers:
+      Accept:
+      - application/json
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.26.0
+    method: GET
+    uri: http://localhost:19120/api/v1/contents/this.is.sql%00baz?ref=contents_view_dev
+  response:
+    body:
+      string: '{"dialect": "SPARK", "id": "uuid3", "sqlText": "SELECT * FROM foo",
+        "type": "VIEW"}'
+    headers:
+      Content-Type:
+      - application/json
+      content-length:
+      - '83'
+    status:
+      code: 200
+      message: OK
+version: 1
