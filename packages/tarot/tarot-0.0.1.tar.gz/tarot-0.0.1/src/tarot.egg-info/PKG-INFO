@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tarot
+Version: 0.0.1
+Summary: A simple tarot program
+Home-page: https://www.youtube.com/channel/UC7vVeEvOPsw7SlOA8a7KuPQ
+Bug Tracker = https://github.com/pypa/sampleproject/issues
+Author: Greg Simmons
+Author-email: gsimmons252@gmail.com
+License: UNKNOWN
+Description: This spread reads your fortune in the order of past, present, and future.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown

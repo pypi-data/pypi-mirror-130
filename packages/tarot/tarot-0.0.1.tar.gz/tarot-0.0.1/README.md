@@ -1,0 +1,1 @@
+This spread reads your fortune in the order of past, present, and future.
