@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: micro-cata
+Version: 0.0.1
+Summary: Package that will help us analyze microtuble catastrophe data.
+Home-page: UNKNOWN
+Author: Andres Rodriguez and Adiel Perez
+Author-email: amrodrig@caltech.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+
+UNKNOWN
+
