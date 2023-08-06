@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/compyte_kernel/__init__.py
+src/compyte_kernel/lib.py
+src/compyte_kernel.egg-info/PKG-INFO
+src/compyte_kernel.egg-info/SOURCES.txt
+src/compyte_kernel.egg-info/dependency_links.txt
+src/compyte_kernel.egg-info/top_level.txt
