@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: jirajumper
+Version: 0.1.8
+Summary: Yet another JIRA issue manager CLI with emphasis on task chains.
+Home-page: https://github.com/anatoly-scherbakov/jirajumper
+License: MIT
+Requires-Python: >=3.7,<3.10
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: backoff (>=1.11.1,<2.0.0)
+Requires-Dist: click (<8.0.0)
+Requires-Dist: documented (>=0.1.1,<0.2.0)
+Requires-Dist: graphviz (>=0.18,<0.19)
+Requires-Dist: jira (>=3.1.1,<4.0.0)
+Requires-Dist: more-itertools (>=8.10.0,<9.0.0)
+Requires-Dist: pydantic (>=1.8.2,<2.0.0)
+Requires-Dist: rich (>=10.12.0,<11.0.0)
+Requires-Dist: stringcase (>=1.2.0,<2.0.0)
+Requires-Dist: typer (>=0.4.0,<0.5.0)
+Project-URL: Repository, https://github.com/anatoly-scherbakov/jirajumper
+Description-Content-Type: text/markdown
+
+# jeeves-jira
+
+[![Build Status](https://github.com/jeeves-sh/jeeves-jira/workflows/test/badge.svg?branch=master&event=push)](https://github.com/jeeves-sh/jeeves-jira/actions?query=workflow%3Atest)
+[![codecov](https://codecov.io/gh/jeeves-sh/jeeves-jira/branch/master/graph/badge.svg)](https://codecov.io/gh/jeeves-sh/jeeves-jira)
+[![Python Version](https://img.shields.io/pypi/pyversions/jeeves-jira.svg)](https://pypi.org/project/jeeves-jira/)
+[![wemake-python-styleguide](https://img.shields.io/badge/style-wemake-000000.svg)](https://github.com/wemake-services/wemake-python-styleguide)
+
+Yet another JIRA issue manager CLI with emphasis on task chains.
+
+
+## Features
+
+- Fully typed with annotations and checked with mypy, [PEP561 compatible](https://www.python.org/dev/peps/pep-0561/)
+- Add yours!
+
+
+## Installation
+
+```bash
+pip install jirajumper
+```
+
+
+## License
+
+[MIT](https://github.com/jeeves-sh/jeeves-jira/blob/master/LICENSE)
+
+
+## Credits
+
+This project was generated with [`wemake-python-package`](https://github.com/wemake-services/wemake-python-package). Current template version is: [86ec1f15472f7c9f634cdbaa0d33eddf166888b2](https://github.com/wemake-services/wemake-python-package/tree/86ec1f15472f7c9f634cdbaa0d33eddf166888b2). See what is [updated](https://github.com/wemake-services/wemake-python-package/compare/86ec1f15472f7c9f634cdbaa0d33eddf166888b2...master) since then.
+
