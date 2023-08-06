@@ -1,0 +1,44 @@
+import setuptools
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="testwizard.smart-tv",
+    version="3.6.0b1299",
+    author="Eurofins Digital Testing - Belgium",
+    author_email="testwizard-support@eurofins-digitaltesting.com",
+    description="Testwizard for Smart TV testobjects",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://www.eurofins-digitaltesting.com/testwizard/",
+    packages=['testwizard.smart_tv'],
+    install_requires=[
+        'testwizard.test==3.6.0b1299',
+        'testwizard.testobjects-core==3.6.0b1299',
+        'testwizard.commands-audio==3.6.0b1299',
+        'testwizard.commands-mobile==3.6.0b1299',
+        'testwizard.commands-powerswitch==3.6.0b1299',
+        'testwizard.commands-remotecontrol==3.6.0b1299',
+        'testwizard.commands-video==3.6.0b1299',
+        'testwizard.commands-camera==3.6.0b1299'
+    ],
+    classifiers=[
+        "Programming Language :: Python :: 3.3",
+        "Development Status :: 5 - Production/Stable",
+        "Operating System :: OS Independent",
+    ],
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
