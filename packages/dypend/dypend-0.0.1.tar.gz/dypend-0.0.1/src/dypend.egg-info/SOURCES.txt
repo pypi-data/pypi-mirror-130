@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/dypend/__init__.py
+src/dypend/getDepends.py
+src/dypend/importLib.py
+src/dypend.egg-info/PKG-INFO
+src/dypend.egg-info/SOURCES.txt
+src/dypend.egg-info/dependency_links.txt
+src/dypend.egg-info/top_level.txt
