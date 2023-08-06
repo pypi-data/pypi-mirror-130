@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+django_DevOps.egg-info/PKG-INFO
+django_DevOps.egg-info/SOURCES.txt
+django_DevOps.egg-info/dependency_links.txt
+django_DevOps.egg-info/requires.txt
+django_DevOps.egg-info/top_level.txt
+django_devops/__init__.py
+django_devops/management/__init__.py
+django_devops/management/commands/__init__.py
+django_devops/management/commands/devops.py
+django_devops/management/commands/update_services.py
