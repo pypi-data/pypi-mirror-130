@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mofid-singular-finder
+Version: 0.0.3
+Summary: A simple library for finding words with Second person singular pronouns.
+Home-page: UNKNOWN
+Author: ali96ebrahimi@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+## mofid singular finder
+
+A simple library for finding words with Second person singular pronouns.
+for example:
+* ماشینم : False
+* ماشینت : True
+* رفتم : False
+* رفتی : True
+
+***
+### Installation
+### Usage
+    from mofid_singular_finder import SingularDetector
+    word = SingularDetector()
+    word = word.singular_checker("حسابت")
+    print(word)
+#### input
+should be string
+#### output
+Boolean:
+
+    True, If the word is in the second person singular.
+    Flase, otherwise.
+
+
