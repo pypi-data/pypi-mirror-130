@@ -1,0 +1,6 @@
+flask
+mysql-connector-python==8.0.21
+pandas
+pyparsing==2.2.0
+rdflib==4.2.2
+requests

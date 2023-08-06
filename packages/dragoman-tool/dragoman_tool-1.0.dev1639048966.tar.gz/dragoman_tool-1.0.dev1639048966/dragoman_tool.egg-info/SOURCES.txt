@@ -1,0 +1,14 @@
+README.md
+setup.py
+Interpreter/__init__.py
+Interpreter/__main__.py
+Interpreter/connection.py
+Interpreter/functions.py
+Interpreter/translate.py
+Interpreter/triples_map/TriplesMap.py
+Interpreter/triples_map/__init__.py
+dragoman_tool.egg-info/PKG-INFO
+dragoman_tool.egg-info/SOURCES.txt
+dragoman_tool.egg-info/dependency_links.txt
+dragoman_tool.egg-info/requires.txt
+dragoman_tool.egg-info/top_level.txt
