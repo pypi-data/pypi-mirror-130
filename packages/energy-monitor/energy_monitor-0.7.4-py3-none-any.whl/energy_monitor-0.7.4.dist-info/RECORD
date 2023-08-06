@@ -1,0 +1,11 @@
+energy_monitor/__init__.py,sha256=WB3wkFasVet6fnqmOMnCmBCVZJlXVjdmwTf8_KwvpKs,90
+energy_monitor/cpu_percent.py,sha256=xbodpGSilFJGqvgugkJG6uidCU3ZE-dm5HOdmIfYyNs,2783
+energy_monitor/dash_app.py,sha256=_m5Qx4YMJgsPPCfso2tTCW2-IyuRPkgXvxhYAirAAl0,10243
+energy_monitor/powergadget_wrapper.py,sha256=fPbgjOzD0Vwt0v4CbMfO7c1MiBbOU2fXUfjjvcBc904,6784
+energy_monitor/train_mnist.py,sha256=KktvGufkdlq-jwUt88PeVB5uyPUpPpgTLkEC7Nbpqho,5016
+energy_monitor/utils.py,sha256=61RRRFNCz08Xspdr2SiJhzqAkEw52Li8wPSpA6Ucz6I,4132
+energy_monitor-0.7.4.data/scripts/display-energy,sha256=45AiG2sodgjxRs6qjQ5op8sbQno6lTc-CFZMlnybgJ8,145
+energy_monitor-0.7.4.dist-info/METADATA,sha256=4whoxqha_c_DaeQ8VLVRizgQoYsmNkRGGT-F_uIxNfk,401
+energy_monitor-0.7.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+energy_monitor-0.7.4.dist-info/top_level.txt,sha256=KkP1J5f5Yzk5U4usGby-TwSpMZG5wJsgNzGXuNG8bNI,15
+energy_monitor-0.7.4.dist-info/RECORD,,
