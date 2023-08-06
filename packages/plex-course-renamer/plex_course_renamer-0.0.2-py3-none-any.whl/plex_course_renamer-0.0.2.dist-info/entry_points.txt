@@ -1,0 +1,3 @@
+[console_scripts]
+rename=plex_course_renamer.rename:run
+
