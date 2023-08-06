@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: django-samurai
+Version: 0.1.5
+Summary: ?
+Keywords: django,rest,ninja
+Author-email: c4ffein <c4ffein.work@gmail.com>
+Requires-Python: >3.7,<4
+Description-Content-Type: text/markdown
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Project-URL: Documentation, https://github.com/c4ffein/django-samurai
+Project-URL: Homepage, https://github.com/c4ffein/django-samurai
+Project-URL: Source, https://github.com/c4ffein/django-samurai
+
+# django-samurai
+🤫
+
+`flit publish --format sdist`
+

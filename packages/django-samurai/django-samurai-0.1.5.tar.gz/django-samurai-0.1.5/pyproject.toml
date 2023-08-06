@@ -1,0 +1,31 @@
+[project]
+name = "django-samurai"
+dynamic = ["version", "description"]
+authors = [{name = "c4ffein", email="c4ffein.work@gmail.com"}]
+readme = "README.md"
+requires-python = ">3.7,<4"
+keywords = ["django", "rest", "ninja"]
+classifiers = [
+    "Topic :: Software Development",
+    "License :: OSI Approved :: MIT License",
+]
+ 
+[project.urls]
+Homepage = "https://github.com/c4ffein/django-samurai"
+Source = "https://github.com/c4ffein/django-samurai"
+Documentation = "https://github.com/c4ffein/django-samurai"
+
+[tool.flit.module]
+name = "samurai"
+ 
+[dev-dependencies]
+black = { version = "^21.11b1", python = "^3.9" }
+ 
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+ 
+[tool.black]
+line-length = 120
+target_version = ['py39']
+include = '\.pyi?$'
