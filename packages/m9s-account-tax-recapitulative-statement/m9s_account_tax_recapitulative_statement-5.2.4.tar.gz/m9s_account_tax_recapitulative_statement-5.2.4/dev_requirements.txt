@@ -1,0 +1,9 @@
+# Install development requirements
+
+tox
+coverage
+flake8
+
+trytond-account-invoice >=5.2, < 5.3
+
+-r requirements.txt
