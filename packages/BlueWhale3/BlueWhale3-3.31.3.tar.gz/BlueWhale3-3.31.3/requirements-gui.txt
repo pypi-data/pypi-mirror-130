@@ -1,0 +1,10 @@
+bluewhale-canvas-core>=0.1.25,<0.2a
+bluewhale-widget-base>=4.15.1
+BlueWhale3-BlueWhale>=0.0.52
+
+AnyQt>=0.0.11
+
+pyqtgraph>=0.11.1
+matplotlib>=2.0.0
+qtconsole>=4.7.2
+pygments>=2.8.0
