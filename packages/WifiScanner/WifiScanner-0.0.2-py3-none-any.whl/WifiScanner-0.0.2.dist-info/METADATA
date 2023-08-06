@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: WifiScanner
+Version: 0.0.2
+Summary: Search WIFIs Around Your Device
+Home-page: https://github.com/HaniePoursina/Search-Wifis
+Author: Hanie Poursina, Mehdi Hosseini Moghadam, 
+Author-email: <hanieh.poursina@gmail.com>, <m.h.moghadam1996@gmail.com>
+License: UNKNOWN
+Keywords: python,Wifis,Scan WIFIs,Network Manager,drivers,iot
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: PyGObject
+Requires-Dist: pycairo
+
+UNKNOWN
+
+
