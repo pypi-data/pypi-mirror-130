@@ -1,0 +1,11 @@
+setup.py
+tiffit/__init__.py
+tiffit/subparser_play.py
+tiffit/subparser_play2.py
+tiffit/tiffit.py
+tiffit.egg-info/PKG-INFO
+tiffit.egg-info/SOURCES.txt
+tiffit.egg-info/dependency_links.txt
+tiffit.egg-info/entry_points.txt
+tiffit.egg-info/requires.txt
+tiffit.egg-info/top_level.txt
