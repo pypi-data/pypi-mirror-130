@@ -1,0 +1,22 @@
+[baseband.io]
+hdf5 = baseband_tasks.io.hdf5
+
+[baseband.tasks]
+SetAttribute = baseband_tasks.base:SetAttribute
+Task = baseband_tasks.base:Task
+base = baseband_tasks.base
+channelize = baseband_tasks.channelize:__all__
+combining = baseband_tasks.combining:__all__
+conversion = baseband_tasks.conversion:__all__
+convolution = baseband_tasks.convolution:__all__
+dispersion = baseband_tasks.dispersion:__all__
+dm = baseband_tasks.dm
+fourier = baseband_tasks.fourier
+functions = baseband_tasks.functions:__all__
+generators = baseband_tasks.generators
+integration = baseband_tasks.integration:__all__
+pfb = baseband_tasks.pfb:__all__
+phases = baseband_tasks.phases
+sampling = baseband_tasks.sampling:__all__
+shaping = baseband_tasks.shaping:__all__
+

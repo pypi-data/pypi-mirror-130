@@ -1,0 +1,12 @@
+channels:
+    - astropy
+    - conda-forge
+
+dependencies:
+    - python>=3.5
+    - numpy
+    - astropy
+    - pyfftw
+    - pip:
+      - sphinx_astropy
+      - baseband

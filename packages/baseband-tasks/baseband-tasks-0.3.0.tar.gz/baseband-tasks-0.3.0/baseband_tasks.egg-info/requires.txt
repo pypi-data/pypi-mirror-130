@@ -1,0 +1,27 @@
+baseband>=4.0
+
+[all]
+h5py
+pint-pulsar
+pyfftw
+pyyaml
+
+[cov]
+pytest-cov
+
+[docs]
+h5py
+pyfftw
+pyyaml
+sphinx-astropy
+
+[io]
+h5py
+pyyaml
+
+[test]
+pytest-astropy-header
+pytest-doctestplus
+
+[test:python_version < "3.8"]
+importlib_metadata
