@@ -1,0 +1,10 @@
+gltfio/__init__.py,sha256=O4FSFjbmrQB6ZBVRA7cSVKYlxrcB7mCgJg64Un4W6CM,478
+gltfio/_version.py,sha256=EkMSrLesUk3YwILml18un292fCmaA26avBUvLZyjx5Y,142
+gltfio/glb.py,sha256=Hf-E8Blnig00AZv1SjurXRdFnA0cgxx-x9KX1V1Ci-k,1526
+gltfio/parser.py,sha256=v0CNnmBc6cX-lUDDvtAi1t3jYKVfRxAOfx1tkdmf1xo,17355
+gltfio/types.py,sha256=Pd13i4Ft6uigrGPgpQJX57EilQbeg3RFAl4JXqkad4M,6034
+pygltfio-0.6.0.dist-info/LICENSE,sha256=wTrwk8Bq-8P6dXKSM3j-80m0vZteVFcQlfWhlPeJIZs,1065
+pygltfio-0.6.0.dist-info/METADATA,sha256=6uDDjH1BizDuBJ4IK_7pqVO5fdu0G3NOT7dNEus3CFQ,645
+pygltfio-0.6.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pygltfio-0.6.0.dist-info/top_level.txt,sha256=myx23GJ02EpgxnMzPGtrXDmqB3hi5hHfQj4FKSP7lyQ,7
+pygltfio-0.6.0.dist-info/RECORD,,
