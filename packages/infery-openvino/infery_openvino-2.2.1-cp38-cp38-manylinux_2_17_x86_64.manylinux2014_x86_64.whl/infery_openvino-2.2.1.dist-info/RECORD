@@ -1,0 +1,11 @@
+infery.pyi,sha256=iQs_L8sUggLVOIiHT-jrwRjoeoqH_TDpEOBVxsleFyM,2323
+tests.cpython-37m-x86_64-linux-gnu.so,sha256=MmDD0MM88hgLeusnIvbxxr2XYTks4AsOegKYjtzIQJg,1391400
+infery.cpython-38-x86_64-linux-gnu.so,sha256=yFti6Ahf7-kIJYZlQaMuSCW8ozGqOCFVla1oFioDaqA,1858696
+tests.cpython-38-x86_64-linux-gnu.so,sha256=yza3lTJRSbyGILxXmiMoorwuHSVNvu088d_k6i8VCgY,1403720
+tests.pyi,sha256=F_utLcdOkk90FJCU_QPIXyUAxYsGo-97OkacUg9Ju5Y,2449
+infery.cpython-37m-x86_64-linux-gnu.so,sha256=oGRkcDjdpR2ZwwAsj_-XWzQs99istP09961-h8zHOZs,1846376
+infery_openvino-2.2.1.dist-info/METADATA,sha256=yHldAU3_NYWnklc2ePCkDYLXIh0oYzhpRztKGP5FWPg,623
+infery_openvino-2.2.1.dist-info/top_level.txt,sha256=W4SjdZWE39rdkEfVRcpvypJPYLe0ug4Ln3kP9OUZYu8,13
+infery_openvino-2.2.1.dist-info/WHEEL,sha256=uEzna4RxOiYFYhoLW3e7mmjwb4QPml6XMayU88NHIt0,145
+infery_openvino-2.2.1.dist-info/LICENSE,sha256=xbk3exNmWGQ0V59U9TUVZts5p2BI-mzMEdSMc_GldQ4,11342
+infery_openvino-2.2.1.dist-info/RECORD,,
