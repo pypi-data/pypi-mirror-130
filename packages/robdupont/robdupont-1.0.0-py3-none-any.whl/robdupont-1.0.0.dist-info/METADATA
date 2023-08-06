@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: robdupont
+Version: 1.0.0
+Summary: Utils content
+Home-page: UNKNOWN
+Author: Robin Dupont
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pysftp
+
+# Utils
+- get_cwd()
+
+# Sftp
+- Sftp(server, username, password, port, ssh_key_path=None)
+- get(remote_path, local_path)
+- put(remote_path, local_path)
+- get_files_in_path(path)
+- get_filename(file)
+- get_file_time(file)
+- get_file_size(file)
+- dir_exist(path)
+- is_dir(file)
+- mv(remote_src, remote_dest)
+
