@@ -1,0 +1,11 @@
+ws_cleanup_tool/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_cleanup_tool/_version.py,sha256=5kT524l2eySAKBQuX-jIw348D4pFK7G57cTGkPvMWS8,91
+ws_cleanup_tool/cleanup_tool.py,sha256=HYdL-O53CyaV6rS6qOqnaon8xEuqaahlNU0RR4l6R18,17963
+ws_cleanup_tool/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ws_cleanup_tool/tests/test_projects-cleanup.py,sha256=n9zep9Zr-j3TfDwWvtNzJEOP9GoRcate9puIy6oArVA,2233
+ws_cleanup_tool-0.2.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ws_cleanup_tool-0.2.0.1.dist-info/METADATA,sha256=RmFP8YGGGpbYCeBu5rZFKOUPShjze_iRHHt1Gf62bbc,7057
+ws_cleanup_tool-0.2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ws_cleanup_tool-0.2.0.1.dist-info/entry_points.txt,sha256=7nVUGa2R7rgFlQYQXT5CuJdh6uCaLTEK4-1B7YYuqhs,71
+ws_cleanup_tool-0.2.0.1.dist-info/top_level.txt,sha256=rSbYHDaRPDL0RyPbW9G028M3fntzkKMBrAeD09SsyLg,16
+ws_cleanup_tool-0.2.0.1.dist-info/RECORD,,
