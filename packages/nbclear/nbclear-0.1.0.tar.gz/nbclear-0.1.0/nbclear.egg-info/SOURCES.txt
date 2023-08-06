@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+nbclear/__init__.py
+nbclear/nbclear.py
+nbclear.egg-info/PKG-INFO
+nbclear.egg-info/SOURCES.txt
+nbclear.egg-info/dependency_links.txt
+nbclear.egg-info/entry_points.txt
+nbclear.egg-info/requires.txt
+nbclear.egg-info/top_level.txt

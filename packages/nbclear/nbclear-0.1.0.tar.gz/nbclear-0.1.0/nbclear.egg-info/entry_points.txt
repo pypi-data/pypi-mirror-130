@@ -1,0 +1,3 @@
+[console_scripts]
+nbclear = nbclear.nbclear:main
+

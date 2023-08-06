@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: nbclear
+Version: 0.1.0
+Summary: A tool to automatically remove the outputs from Jupyter notebooks.
+Home-page: https://github.com/ozen/nbclear
+Author: Yigit Ozen
+Author-email: yigit@ozen.dev
+License: MIT
+Description: nbclear
+        =========
+        
+        A tool (and pre-commit hook) to automatically remove the output from all code cells in all Jupyter notebooks.
+        
+        ## Installation
+        
+        `pip install nbclear`
+        
+        ## As a pre-commit hook
+        
+        See [pre-commit](https://github.com/pre-commit/pre-commit) for instructions
+        
+        Sample `.pre-commit-config.yaml`:
+        
+        ```yaml
+        -   repo: https://github.com/ozen/nbclear
+            rev: v0.1.0
+            hooks:
+            -   id: nbclear
+        ```
+        
+        ## Behavior
+        
+        The tool opens the notebook and clears the outputs of cells in the memory.  
+        If there are no changes in the notebook, it quits without further action.  
+        If there are changes, it moves the original file `notebook.ipynb` to `notebook.ipynb~` and saves the cleared notebook to `notebook.ipynb`.  
+        If the backup cannot be created, it prints the error and quits. 
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.1
+Description-Content-Type: text/markdown
