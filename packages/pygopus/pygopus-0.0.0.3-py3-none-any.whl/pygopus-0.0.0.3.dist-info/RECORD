@@ -1,0 +1,10 @@
+pygopus/__init__.py,sha256=iuQ0vLqIfKrvcEgpfyhN1WnF5UrFkHPriCfKN6AOIZc,32
+pygopus/core.py,sha256=dear8oXgefQ0AJ8fze0qlUB8xdsVZhlgD3SPa6R8_5s,5646
+pygopus/bin/tpl.xlsx,sha256=KcBPrT0yjoiuqiHNOwPdIy42PmBuMnrexgaSAuDIv8c,8439
+pygopus/bin/Darwin/pygobin,sha256=M2kJuLZXniKhvvfyp8NCKofXpH02VNSfIDyNmUHrI_I,10292912
+pygopus/bin/Linux/pygobin,sha256=Z17zeDSrt_3HrN-r_iItmPMZBW37LevWMgAJfPeolSM,10431541
+pygopus/bin/Windows/pygobin.exe,sha256=kTdEHyZWy8QTp-7zSyrgPGW9ocRDLvd_VSIvDWimdB0,10483712
+pygopus-0.0.0.3.dist-info/METADATA,sha256=5uc3AryrQy8yYAScscK-dV_q5F7gWXDT3daGd3YDR34,595
+pygopus-0.0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pygopus-0.0.0.3.dist-info/top_level.txt,sha256=KnjhvU_lYjbWI_nU-DyNi294YbCMp6GZgfV9VTTU8JA,8
+pygopus-0.0.0.3.dist-info/RECORD,,
