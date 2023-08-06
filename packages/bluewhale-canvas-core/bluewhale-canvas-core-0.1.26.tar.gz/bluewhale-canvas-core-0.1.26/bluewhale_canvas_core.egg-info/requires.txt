@@ -1,0 +1,18 @@
+setuptools
+AnyQt>=0.0.13
+docutils
+commonmark>=0.8.1
+requests
+cachecontrol[filecache]
+pip>=18.0
+dictdiffer
+qasync
+python-i18n
+BlueWhale3-BlueWhale>=0.0.52
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[DOCBUILD]
+sphinx
+sphinx-rtd-theme
