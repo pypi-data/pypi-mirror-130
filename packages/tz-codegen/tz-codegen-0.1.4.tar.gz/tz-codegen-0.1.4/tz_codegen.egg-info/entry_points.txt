@@ -1,0 +1,3 @@
+[console_scripts]
+TZ-Code-Gen = tzcodegen.generator:__main
+
