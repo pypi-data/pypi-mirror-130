@@ -1,0 +1,5 @@
+<!-- BO plugins/fileupload/input_file/input.zpt -->
+
+<input class="btn btn-file" type="file" tal:attributes="id options/elName; name options/elName; data-maxlength options/data_maxlength; accept options/data_accept"  size="25" value="" />
+
+<!-- EO plugins/fileupload/input_file/input.zpt -->

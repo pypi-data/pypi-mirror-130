@@ -1,0 +1,347 @@
+<style>
+/*<!--*/
+	.line-number {
+		width:4em;
+		background:#FEFEFE;
+		color:#101010;
+		border:1px solid #CCC;
+		display:inline-block;
+		text-align:right;
+		padding:0 4px 0 4px;
+	}
+	.line-number.line-changed {
+		background:#101010;
+		color:#FEFEFE;
+	}
+	.arrow-right {
+		display:inline-block;
+		margin-left:.5em;
+		width: 0; 
+		height: 0; 
+		border-top: 4px solid transparent;
+		border-bottom: 4px solid transparent;
+		border-left: 4px solid #101010;
+	}
+	.arrow-left {
+		display:inline-block;
+		margin-left:.5em;
+		width: 0; 
+		height: 0; 
+		border-top: 4px solid transparent;
+		border-bottom: 4px solid transparent; 
+		border-right:4px solid #418CF1; 
+		}
+	.state {
+		display:inline-block;
+		width:16px;
+		height:16px;
+		border:solid 1px #ccc;
+	}
+	pre {
+		display: block;
+		padding: 9.5px;
+		margin: 0 0 10px;
+		font-size: 13px;
+		line-height: 1.42857143;
+		color: #333;
+		word-break: break-all;
+		word-wrap: break-word;
+		background-color: #f5f5f5;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+	}
+	.focus pre {
+		border-color: #80bdff;
+		outline: 0;
+		box-shadow: 0 0 0 0.2rem rgba(0,123,255,.25);
+	}
+	del {
+		color:#777!important;
+		background-color:#f8d7da!important;
+		text-decoration:line-through;
+	}
+	ins {
+		color: #3C763D!important;
+		background-color: #d4edda!important;
+		text-decoration:none;
+	}
+	.tab-content.update_direction-Saving ins {
+		text-decoration:line-through;
+	}
+	.tab-content.update_direction-Saving ins,
+	.tab-content.update_direction-Saving table .state.bg-success {
+		background-color:#f8d7da!important;
+	}
+	.tab-content.update_direction-Saving del,
+	.tab-content.update_direction-Saving table .state.bg-danger {
+		background-color:#d4edda !important;
+		text-decoration:none;
+	}
+	.prettyTextDiff .original, 
+	.prettyTextDiff .changed {
+		display:none;
+	}
+	.table.table-borderless,
+	.table.table-borderless th,
+	.table.table-borderless td {
+		border:none !important;
+		padding:.2em 0;
+	}
+	.table.table-borderless {
+		margin-bottom:3em;
+	}
+	.diffcoloring .form-control {
+		display:flex;
+		justify-content: space-between;
+	}
+	.diffcoloring .form-control span.selected {
+		display: inline-block;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	.diffcoloring .form-control small {
+		white-space:nowrap;
+	}
+	.tab-content.update_direction-Loading.auto_update-True.debug-1 #btn_load_from_repo span:before,
+	.tab-content.update_direction-Saving.auto_update-True.debug-1 #btn_save_to_repo span:before {
+		content: "Auto-";
+	}
+	.tab-content.update_direction-Loading.auto_update-True.debug-1 #btn_load_from_repo span:after,
+	.tab-content.update_direction-Saving.auto_update-True.debug-1 #btn_save_to_repo span:after {
+		content: " active";
+	}
+	.tab-content.update_direction-Loading.auto_update-True.debug-1 #btn_load_from_repo,
+	.tab-content.update_direction-Saving.auto_update-True.debug-1 #btn_save_to_repo {
+		color: #fff;
+		background-color: #4CAF50;
+	}
+	.tab-content.update_direction-Loading.auto_update-True.debug-1 #btn_load_from_repo:hover,
+	.tab-content.update_direction-Saving.auto_update-True.debug-1 #btn_save_to_repo:hover {
+		background-color: #545b62;
+		border-color: #4e555b;
+	}
+	label.zms-component {
+		margin:0 0 auto 0 !important;
+		border-top: 1px solid #dddddd;
+		white-space: nowrap;
+	}
+	@media all and (max-width: 768px) {
+		label.zms-component {
+			margin:1rem 0 !important;
+			border-top: none;
+			font-weight:bold !important;
+		}
+		.tabbable.tabs-left {
+			background-color: #f5f5f5;
+		}
+	}
+
+/*-->*/
+</style>
+
+<tal:block tal:define="
+	dummy0 python:request.set('ZMI_LIBS_SCRIPT',request.get('ZMI_LIBS_SCRIPT',[])+
+		['/++resource++zms_/jquery/diff/diff_match_patch.js'
+		,'/++resource++zms_/jquery/diff/jquery.pretty-text-diff.min.js'
+		]);
+	standard modules/Products.zms/standard;
+	provider_diffs python:map(lambda x:(x,here.getDiffs(x,here.get_ignore_orphans())),here.getRepositoryProviders());
+	provider_diffs_count python:sum(map(lambda x:len(x[1]),provider_diffs)+[0])">
+
+	<tal:block tal:condition="not:provider_diffs_count">
+		<div class="form-group filelist" tal:repeat="provider python:here.getRepositoryProviders()">
+			<label class="col-sm-2 control-label zms-component">
+				<a tal:attributes="href python:'%s/manage_main?lang=%s'%(provider.absolute_url(),request['lang'])" target="_blank"><tal:block tal:content="python:provider.id">the provider</tal:block></a>
+			</label>
+			<div class="col-sm-10" tal:define="
+					local_files python:here.localFiles(provider).values();
+					ids python:standard.distinct_list(map(lambda x:x['id'],local_files));
+					dummy0 python:ids.sort();
+					">
+				<div tal:repeat="id ids">
+					<i class="icon icon-ok fas fa-check-circle text-success"></i>
+					<a tal:attributes="href python:'%s/manage_%s?lang=%s&id=%s'%(provider.absolute_url(), id=='__metas__' and 'metas' or 'main',request['lang'],id)" target="_blank"
+						tal:content="id">id
+					</a>
+				</div>
+			</div>
+		</div>
+	</tal:block>
+
+	<tal:block tal:condition="provider_diffs_count"
+	><tal:block tal:repeat="provider_diff provider_diffs"
+	><tal:block tal:define="
+			zmscontext python:here.getSelf();
+			provider python:provider_diff[0]; 
+			diffs python:provider_diff[1]; 
+			ids python:standard.distinct_list(map(lambda x:x[2],diffs)); 
+			dummy0 python:ids.sort();"
+	><div class="form-group" tal:condition="ids">
+		<label class="col-sm-2 control-label zms-component">
+			<a tal:attributes="href python:'%s/manage_main?lang=%s'%(provider.absolute_url(),request['lang'])" target="_blank"
+				tal:content="python:provider.id">the provider_diff
+			</a>
+		</label>
+		<div class="col-sm-10">
+			<table class="table repo-diff-files">
+			<colgroup>
+				<col width="1em"/>
+				<col width="30%"/>
+				<col width="*"/>
+			</colgroup>
+			<tal:block tal:repeat="id ids">
+				<tr>
+					<td><input type="checkbox" name="ids:list" tal:attributes="value python:'%s:%s'%(provider.id,id)" checked="checked"></td>
+					<td>
+						<a tal:attributes="href python:'%s/manage_%s?lang=%s&id=%s'%(provider.absolute_url(), id=='__metas__' and 'metas' or 'main',request['lang'],id)" target="_blank"> 
+							<strong tal:content="id">the id</strong>
+						</a>
+					</td>
+					<td>
+					<div style="white-space: nowrap;" 
+						tal:repeat="diff python:filter(lambda x:x[2]==id,diffs)">
+						<tal:block tal:on-error="structure python:'<code><i class=\042icon-warning-sign\042></i> ERROR: %s</code>'%(diff[0])"
+							tal:define="
+								filename python:diff[0];
+								mt python:diff[1];
+								l python:diff[3];
+								r python:diff[4];
+								ld python:[l.get('data'),''][l.get('data') is None];
+								rd python:[r.get('data'),''][r.get('data') is None];
+								is_new python:len(ld)==0 and len(rd)>0;
+								is_modified python:len(ld)>0 and len(rd)>0;
+								is_incoming python:is_modified and l.get('version',0)<r.get('version',0);
+								is_outgoing python:is_modified and l.get('version',0)>r.get('version',0);
+								is_removed python:len(ld)>0 and len(rd)==0;">
+							<i tal:condition="python:l and l.get('data') is None" class="icon-warning-sign text-danger" title="not found!"></i>
+							<tal:block tal:condition="not:python:l and l.get('data') is None">
+								<span tal:attributes="class python:' '.join(['state']
+									+[[],['bg-success']][is_new]
+									+[[],['bg-warning']][is_modified]
+									+[[],['bg-danger']][is_removed]
+									);title python: is_incoming and 'INCOMING - ZODB: %s;; Repository: %s'%(
+										str(l.get('version','')),
+										str(r.get('version',''))
+										) or ( is_outgoing and 'OUTGOING - ZODB: %s;; Repository: %s'%(
+										str(l.get('version','')),
+										str(r.get('version',''))
+										) or '')">&nbsp;</span>
+							</tal:block>
+							<a href="#" tal:attributes="onclick python:'javascript:focus_anchorid(\'#%s\');;return false'%(here.id_quote(filename))" 
+								tal:content="python:filename">the filename
+							</a>
+						</tal:block>
+					</div>
+					</td>
+				</tr>
+			</tal:block>
+			</table>
+		</div><!-- .col-sm-10 -->
+	</div><!-- .form-group -->
+	</tal:block>
+	</tal:block>
+
+	<div id="repo-changesets">
+	<tal:block tal:repeat="provider_diff provider_diffs"
+		><tal:block tal:define="provider python:provider_diff[0]; diffs python:provider_diff[1];"
+			><tal:block tal:repeat="diff diffs"
+				><tal:block tal:define="
+						filename python:diff[0];
+						mt python:diff[1];
+						l python:diff[3];
+						r python:diff[4];
+						ld python:[l.get('data'),''][l.get('data') is None];
+						rd python:[r.get('data'),''][r.get('data') is None];
+						is_modified python:len(ld)>0 and len(rd)>0;
+						is_text python:mt.startswith('text/') or mt in ['application/javascript']"
+					><table class="repo-changeset table table-borderless" tal:condition="is_modified" tal:attributes="id python:here.id_quote(filename)">
+						<tr>
+							<td>
+								<span class="file_name">
+									<strong class="text-primary" tal:content="python:here.get_conf_basepath(provider.id+'/'+filename)"></strong>
+									<em class="text-muted" tal:content="python:'(%s)'%(mt)"></em>
+								</span>
+								<small class="file_details" style="display:block">
+									<tal:block tal:condition="l" tal:content="python:'ZODB: %s;; %i Bytes'%(str(l.get('version','')),len(ld))"></tal:block>
+									<i tal:condition="python:here.get_update_direction()=='Saving'" class="icon-arrow-right fas fa-arrow-right"></i>
+									<i tal:condition="python:here.get_update_direction()=='Loading'" class="icon-arrow-left fas fa-arrow-left"></i>
+									<tal:block tal:condition="r" tal:content="python:'Repository: %s;; %i Bytes'%(str(r.get('version','')),len(rd))"></tal:block>
+								</small>
+							</td>
+						</tr>
+						<tr>
+							<td class="prettyTextDiff">
+								<pre class="diff"></pre>
+								<pre class="changed repository" tal:condition="is_text" tal:content="rd"></pre>
+								<pre class="original local" tal:condition="is_text" tal:content="ld"></pre>
+							</td>
+						</tr>
+					</table>
+				</tal:block>
+			</tal:block>
+		</tal:block>
+	</tal:block>
+	</div>
+</tal:block>
+</tal:block>
+
+<script>
+//<!--
+	$(function() {
+		if ( $('.prettyTextDiff').length > 0 ) {
+			$('#repo-changesets').prepend('<h4>Changesets</h4>');
+		}
+		$(".prettyTextDiff").each(function() {
+						var diffContainer = ".diff";
+						$(this).prettyTextDiff({
+								cleanup:true,
+								originalContainer:".original",
+								changedContainer:".changed",
+								diffContainer:diffContainer
+							});
+						var $diffContainer = $(diffContainer,this);
+						var lines = $diffContainer.html().replace(/<span>/gi,'').replace(/<\/span>/gi,'').split("<br>");
+						var show = [];
+						var changed = false;
+						for (var i = 0; i < lines.length; i++) {
+							var line = lines[i];
+							changed |= line.indexOf("<"+"del>")>=0 || line.indexOf("<ins>")>=0;
+							if (changed) {
+								show.push(i);
+							}
+							changed &= !(line.indexOf("<"+"/del>")>=0 || line.indexOf("</ins>")>=0);
+						}
+						var html = [];
+						changed = false;
+						for (var i = 0; i < lines.length; i++) {
+							var line = lines[i];
+							changed |= line.indexOf("<"+"del>")>=0 || line.indexOf("<"+"ins>")>=0;
+							line = '<'+'span class="line-number'+(changed?' line-changed':'')+'">'+(i+1)+'</span> '+lines[i];
+							if (!(show.contains(i-1) || show.contains(i) || show.contains(i+1))) {
+								line = '<'+'span class="diff-unchanged hidden">'+line+'<'+'/span>';
+							}
+							else {
+								line = line+'<'+'br/>';
+							}
+							html.push(line);
+							changed &= !(line.indexOf("<"+"/del>")>=0 || line.indexOf("<"+"/ins>")>=0);
+						}
+						$diffContainer.html(html.join(""));
+						$("strong",$(this).closest("tr").prev("tr")).addClass("zmi-helper-clickable").click(function() {
+								if ($(".diff-unchanged.hidden",$diffContainer).length > 0) {
+									$(".diff-unchanged",$diffContainer).removeClass("hidden").after("<br>");
+								}
+								else if ($(".diff-unchanged",$diffContainer).length > 0) {
+									$(".diff-unchanged",$diffContainer).addClass("hidden").next("br").remove();
+								}
+							});
+			});
+		});
+		function focus_anchorid(anchorid) {
+			$('.table.focus').removeClass('focus');
+			$(document).scrollTop( $(anchorid).offset().top );
+			$(anchorid).addClass('focus');
+		}
+// -->
+</script>

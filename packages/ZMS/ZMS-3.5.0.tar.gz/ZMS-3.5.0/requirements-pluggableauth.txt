@@ -1,0 +1,7 @@
+# pip 20.2 is way more agressive in installing updated versions of dependencies
+# These fixed versions are supposed to prevent that
+-c requirements.txt
+Products.PluginRegistry<1.5
+
+# What we really want
+Products.PluggableAuthService==1.11.0
