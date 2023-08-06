@@ -1,0 +1,8 @@
+README.md
+setup.py
+PyAnimator/__init__.py
+PyAnimator.egg-info/PKG-INFO
+PyAnimator.egg-info/SOURCES.txt
+PyAnimator.egg-info/dependency_links.txt
+PyAnimator.egg-info/requires.txt
+PyAnimator.egg-info/top_level.txt
