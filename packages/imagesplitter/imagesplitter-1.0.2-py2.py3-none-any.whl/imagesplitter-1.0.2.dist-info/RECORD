@@ -1,0 +1,11 @@
+imagesplitter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imagesplitter/__main__.py,sha256=WpQV4qelLIhXh3zMmflKW9raeS6BhNbB6x3oJAXC90I,1768
+imagesplitter/paper.py,sha256=_slhid_YDpDUzcVqvd2phoopNTNoxA5VVJ6yvpZ8SC8,4038
+imagesplitter/printerpaper.py,sha256=uSdlpHmm0oM8_bmQcN1HzYoX8ctG50xkiIrJhng-Q7Q,4139
+imagesplitter/splitter.py,sha256=hmh9tZSIaKsNsRRfqOxCoSAk-3b3pneecK5GANfPiXM,2401
+imagesplitter-1.0.2.dist-info/LICENSE,sha256=QcmSykrwCYrOwU-uowqrCmvCrmUGusP0-Rn5Vztca-U,1073
+imagesplitter-1.0.2.dist-info/METADATA,sha256=s_TBrLCvZxlnAePzUZq_87OXwsvM24qK6IFSU_Zx9Ao,1509
+imagesplitter-1.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+imagesplitter-1.0.2.dist-info/entry_points.txt,sha256=N4aum7Mgn2NQlKFPnyal6vfdj0CfkGh0uaqHG82CBl0,62
+imagesplitter-1.0.2.dist-info/top_level.txt,sha256=UXle7XIr_e7zRU8Z34DScz4ztrJ1fQ2vzbFHmB1eeIM,14
+imagesplitter-1.0.2.dist-info/RECORD,,
