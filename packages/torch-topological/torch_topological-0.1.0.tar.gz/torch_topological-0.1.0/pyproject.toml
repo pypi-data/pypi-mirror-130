@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "torch_topological"
+version = "0.1.0"
+description = "A framework for topological machine learning based on `pytorch`."
+authors = ["Bastian Rieck <bastian@rieck.me>"]
+license = "BSD-3-Clause"
+readme = "README.md"
+include = ["README.md"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+giotto-tda = "^0.5.1"
+torch = "^1.10.0"
+giotto-ph = "^0.2.0"
+matplotlib = "^3.5.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
