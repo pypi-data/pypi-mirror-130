@@ -1,0 +1,85 @@
+{% extends "basic_template.html" %}
+{% block title %}
+{{ super() }}
+{% endblock %}
+{% block head %}
+{{ super() }}
+{% endblock %}
+{% block content %}
+
+<h1>Model Entry</h1>
+
+<form class="w3-container" method="post" action="/options/" enctype="multipart/form-data">
+    <div class="w3-mobile">
+        <div class="w3-cell-row">
+            <!-- Model options -->
+            <div style="border:3px solid white"
+                 class="w3-container w3-cell">
+                <input class="w3-btn w3-us-red w3-margin w3-round"
+                       type="submit"
+                       value="Set Model Options">
+            </div>
+            <!-- Upload a model-->
+            <div style="border: 3px solid white"
+                 class="w3-container w3-margin-bottom w3-round w3-hover-border-blue w3-cell w3-mobile">
+                <label class="w3-btn w3-us-red w3-margin-top w3-margin-bottom w3-round"
+                       for="model-file">
+                    <input type="file"
+                           id="model-file"
+                           name="model-file" accept=".txt,.sbml,.xml,text/plain,application/xml">
+                </label>
+                <input class="w3-btn w3-us-red w3-margin-top w3-margin-bottom w3-round"
+                       formaction="/"
+                       type="submit"
+                       value="Upload a Model File">
+            </div>
+        </div>
+        <!-- Model textbox -->
+        <textarea class="w3-input w3-margin w3-border w3-round w3-border-black"
+                  name="model"
+                  id="model_text"
+                  spellcheck="false"
+                  autocomplete="off" rows="{{ rows }}"
+                  autofocus placeholder="The model goes here">{% if model_text %}{{ model_text }}{% endif %}</textarea>
+    </div>
+</form>
+<div style="border:3px solid white"
+     class="w3-container w3-margin w3-round w3-hover-border-blue w3-cell w3-mobile">
+    <button class="w3-btn w3-us-red w3-margin w3-round"
+            onclick="downloadModel()">
+        Download the Model
+    </button>
+    <input class="w3-check" type="checkbox" id="as-sbml-qual" name="as-sbml-qual">
+    <label for="as-sbml-qual">as SBML-qual</label>
+</div>
+
+<script>
+function downloadModel() {
+    var url = "download-model/";
+    var filename = "model.";
+    if (document.getElementById("as-sbml-qual").checked) {
+        filename += 'sbml';
+    } else {
+        filename += 'txt';
+    }
+    var modelFormData = new FormData();
+    modelFormData.append('model_text', document.getElementById('model_text').value);
+    axios({
+        url: url+filename,
+        method: 'POST',
+        responseType: 'blob',
+        data: modelFormData,
+        headers: { "Content-Type": "multipart/form-data" },
+    }).then((response) => {
+        const link = document.createElement('a');
+        link.href = window.URL.createObjectURL(new Blob([response.data]));
+        link.setAttribute('download', filename);
+        document.body.appendChild(link);
+        link.click();
+    }).catch((response) => {
+        console.log(response);
+    });
+}
+</script>
+
+{% endblock %}
