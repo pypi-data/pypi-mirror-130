@@ -1,0 +1,6 @@
+
+[gcloud-firestore]
+wiser-gcloud-firestore
+
+[gcloud-storage]
+wiser-gcloud-storage

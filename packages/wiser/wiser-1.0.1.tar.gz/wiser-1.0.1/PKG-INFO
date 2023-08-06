@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: wiser
+Version: 1.0.1
+Summary: Wraps cloud services wisely
+Home-page: https://github.com/nicolamassarenti/wiser
+Author: Nicola Massarenti
+Author-email: nicola.massarenti@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nicolamassarenti/wiser/issues
+Description: UNKNOWN
+Platform: Posix; MacOS X; Windows
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: gcloud-firestore
+Provides-Extra: gcloud-storage
