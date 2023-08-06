@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: symnet-cp
+Version: 0.1.0
+Summary: SymNet External Control Protocol implementation
+License: MIT
+Keywords: Symetrix,SymNet,Solus
+Author: Christian Kohlstedde
+Author-email: christian@kohlsted.de
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Natural Language :: German
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: attrs (>=21.2.0,<21.3.0)
+Requires-Dist: prometheus-client (>=0.12.0,<0.13.0)
+Description-Content-Type: text/markdown
+
+# SymNet Control Protocol implementation
+
+This is an asyncio implementation of the [SymNet Control Protocol](https://www.symetrix.co/repository/SymNet_cp.pdf).
+At bermudafunk we use this to control a Solus 16x8.
+
