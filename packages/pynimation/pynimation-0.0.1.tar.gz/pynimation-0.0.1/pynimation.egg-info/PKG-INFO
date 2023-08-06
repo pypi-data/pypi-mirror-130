@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pynimation
+Version: 0.0.1
+Summary: A future python animation editor
+Home-page: http://pynimation.indiepython.com
+Author: Kennedy Richard
+Author-email: kennedy@kennedyrichard.com
+License: Unlicense
+Project-URL: Source, https://github.com/kennedyrichard/pynimation
+Project-URL: Bug Tracker, https://github.com/kennedyrichard/pynimation/issues
+Keywords: gui,desktop,application,pygame,animation,sprites,multi-sprite,editor
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Software Development :: User Interfaces
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Desktop Environment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Pynimation: A future python animation editor
+
+Visit the [homepage][] to know more about this desktop application. To talk to the author [tweet][] or [email][] him.
+
+[homepage]: http://pynimation.indiepython.com
+[tweet]: https://twitter.com/KennedyRichard
+[email]: mailto:kennedy@kennedyrichard.com
+
+

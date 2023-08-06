@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+pynimation/__init__.py
+pynimation/__main__.py
+pynimation.egg-info/PKG-INFO
+pynimation.egg-info/SOURCES.txt
+pynimation.egg-info/dependency_links.txt
+pynimation.egg-info/entry_points.txt
+pynimation.egg-info/requires.txt
+pynimation.egg-info/top_level.txt
