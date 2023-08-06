@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+numconvert/__init__.py
+numconvert.egg-info/PKG-INFO
+numconvert.egg-info/SOURCES.txt
+numconvert.egg-info/dependency_links.txt
+numconvert.egg-info/top_level.txt
