@@ -1,0 +1,14 @@
+debuggy/__init__.py,sha256=UokJhMuvtV6IM9YJVOBWacG_SksqrDcaiPLsaZp1RzY,24
+debuggy/core.py,sha256=MZYqbbIV-qOQjwJGo5tI7R_hU1rLo2qAgd8guLXkGEc,2044
+stalkoverflow/__init__.py,sha256=R7S8WOernoh5zMxHB0TFU58Zq4lk5ck-9B7OxJFY62g,205
+stalkoverflow/__main__.py,sha256=3YaenRULteDp4Ls7hmU761z3pS0rx_JAQhsORgVlS-Q,1781
+stalkoverflow/color.py,sha256=osCnp3Cc7Va2B7eyb3fb4tGbBFSjFgQ_p4oLv4gB30k,851
+stalkoverflow/handler.py,sha256=U20EFbn1x8MAKq4g6MCEnemQYO5dcsgp6LtSEnGmPsg,7367
+stalkoverflow/parsers.py,sha256=oJqGGMQkh2behQD-_28Y0xjG5RDY90OHFWO36cBNRZ0,4212
+stalkoverflow/ui.py,sha256=hbeYwNhCunwlqEFc-_gjajamFHiNUiJGwCfaxzQOWVA,8902
+debuggy-1.0.dist-info/LICENSE,sha256=zRQS99qHufoMm51MCLKnwbHfJVgLDxcLENhKDuSLFQY,1090
+debuggy-1.0.dist-info/METADATA,sha256=vro3JMUbElwpd0yvT6cAzs3UlvvoZC4IAoLe-mcXZz0,5471
+debuggy-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+debuggy-1.0.dist-info/entry_points.txt,sha256=DjuI2c7tTxPf6VigOOixA-kS-25vUe3iKxf_uI2mPcA,57
+debuggy-1.0.dist-info/top_level.txt,sha256=Olh1qZLIsNiBf-GGoZweXb1n5_QIDsipm6bx-5NQ4mI,22
+debuggy-1.0.dist-info/RECORD,,
