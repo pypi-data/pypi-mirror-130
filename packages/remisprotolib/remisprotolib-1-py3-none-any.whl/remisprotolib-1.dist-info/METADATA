@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: remisprotolib
+Version: 1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: grpcio-tools (==1.37.1)
+Requires-Dist: grpcio (==1.37.1)
+
+Description
+===========
+
+This is a protobuf library for remis!
+
+
