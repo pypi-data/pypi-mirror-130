@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: terminal-colored-print
+Version: 0.1.5
+Summary: A small module that allows to simply decorate strings on Linux terminals
+Home-page: https://github.com/framilano/Terminal-Colored-Print
+Author: Francesco Milano
+Author-email: milano.francesco@protonmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/framilano/Terminal-Colored-Print/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+
+# Terminal-Colored-Print
+
+Compatible with Python > 2.7
+
+A small module that allows to simply decorate strings on Linux terminals
+
+```
+pip install terminal-colored-print
+```
+
+You can select the foreground color (text color), background color and format (text style) for your Text.
+
+Foreground and background color values are between 0 and 255
+
+![ID codes](https://i.imgur.com/UlquHhH.png)
+
+
