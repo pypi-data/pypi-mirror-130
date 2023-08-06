@@ -1,0 +1,3 @@
+[salt.loader]
+runner_dirs = saltext.heist.loader:get_runner_dirs
+
