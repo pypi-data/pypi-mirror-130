@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: jarviswithgui
+Version: 1.0.0
+Summary: Installs my jarvis code on your system
+Home-page: UNKNOWN
+Author: Aditya Garg
+Author-email: adityagarg1165@gmail.com
+License: UNKNOWN
+Keywords: Jarvis,jarviswithgui,gui,python,aditya
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package to install Jarvis on your system
+
