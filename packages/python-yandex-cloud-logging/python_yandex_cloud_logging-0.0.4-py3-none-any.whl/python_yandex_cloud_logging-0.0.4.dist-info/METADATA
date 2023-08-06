@@ -1,0 +1,127 @@
+Metadata-Version: 2.1
+Name: python-yandex-cloud-logging
+Version: 0.0.4
+Summary: Python Client for Yandex Cloud Logging
+Home-page: https://github.com/mcode-cc/python-yandex-cloud-logging
+Author: MCode GmbH
+Author-email: logging.pyclm@mcode.cc
+License: GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
+Project-URL: Bug Tracker, https://github.com/mcode-cc/python-yandex-cloud-logging/issues
+Keywords: yandexcloud logging logger trace
+Platform: Any
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yandexcloud (>=0.120.0)
+
+[![PyPI](https://img.shields.io/pypi/v/python-yandex-cloud-logging)](https://pypi.org/project/python-yandex-cloud-logging/)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/python-yandex-cloud-logging)
+[![PyPI - License](https://img.shields.io/pypi/l/python-yandex-cloud-logging)](https://github.com/mcode-cc/python-yandex-cloud-logging/blob/main/LICENSE)
+
+
+# Python Client for Yandex Cloud Logging
+ 
+
+
+## Installation
+
+    pip3 install python-yandex-cloud-logging
+
+## Creating a Yandex Cloud Logging Group
+
+    yc logging group create --name=group --retention-period=1h
+
+Result
+
+    done (1s)
+    id: af3flf29t8**********
+    folder_id: aoek6qrs8t**********
+    cloud_id: aoegtvhtp8**********
+    created_at: "2021-06-24T09:56:38.970Z"
+    name: group
+    status: ACTIVE
+    retention_period: 3600s
+
+https://cloud.yandex.com/en/docs/logging/quickstart
+
+## Credentials
+
+There are several options for authorization your requests - OAuth Token, Metadata Service (if you're executing code inside VMs or Functions running in Yandex.Cloud) and Service Account Keys
+
+### OAuth Token
+    yc config get token
+
+Result
+
+    AQA....
+
+
+```python
+from pyclm.logging import Logger 
+
+log = Logger(
+    log_group_id="....",
+    credentials={"token": "AQA...."}
+)
+```
+
+### Service Account Keys
+
+
+```python
+from pyclm.logging import Logger 
+
+log = Logger(
+    log_group_id="....",
+    credentials={
+        "service_account_key": {
+            "service_account_id": "....",
+            "id": "....",
+            "private_key": "<PEM>"
+        }
+    }
+)
+```
+
+### Use Yandex SDK
+
+```python
+sdk = yandexcloud.SDK(...)
+
+log = Logger(
+    sdk=sdk, log_group_id="....",
+    resource_type="....", resource_id="....",
+    elements=1, period=0
+)
+
+```
+
+_resource_type_ - Resource type, serverless.function, hostname.
+Value must match the regular expression ([a-zA-Z][-a-zA-Z0-9_.]{0,63})?.
+
+_resource_id_ - Resource ID, i.e., ID of the function producing logs.
+Value must match the regular expression ([a-zA-Z0-9][-a-zA-Z0-9_.]{0,63})?.
+
+_elements_ - The number of elements before writing, must be in the range 1-100.
+
+_period_ -  Number of seconds to wait for new log entries before writing.
+
+
+
