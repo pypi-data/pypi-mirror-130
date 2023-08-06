@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+levenshtein/__init__.pyi
+levenshtein/py.typed
+levenshtein/inc/levenshtein.hpp
+levenshtein/src/levenshtein.cpp
+levenshtein/src/module.cpp
+levenshtein_cpp.egg-info/PKG-INFO
+levenshtein_cpp.egg-info/SOURCES.txt
+levenshtein_cpp.egg-info/dependency_links.txt
+levenshtein_cpp.egg-info/top_level.txt
