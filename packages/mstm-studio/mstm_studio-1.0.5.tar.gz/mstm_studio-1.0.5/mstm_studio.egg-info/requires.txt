@@ -1,0 +1,10 @@
+numpy
+scipy
+
+[GUI]
+matplotlib
+pillow
+tkinter
+
+[spheroid]
+scatterpy

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: mstm-studio
+Version: 1.0.5
+Summary: Mie theory and T-matrix calculations GUI
+Home-page: https://github.com/lavakyan/mstm-spectrum
+Author: Leon Avakyan
+Author-email: laavakyan@sfedu.ru
+License: GPLv3
+Description: The graphical user interface and python scripts
+            for calculation of optical extinction spectra of
+            spherical particles used to study plasmonic
+            nanoparticles.
+            The binding to Multiple Spheres T-matrix (MSTM) code
+            allows to simulate 'plasmonic' intercation between
+            sphericl particles.
+            Package allows basic analysis and fitting of experimental
+            optical extinction spectra.
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Provides-Extra: GUI
+Provides-Extra: spheroid
