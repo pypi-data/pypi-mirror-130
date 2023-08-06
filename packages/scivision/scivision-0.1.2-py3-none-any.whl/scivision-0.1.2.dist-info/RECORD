@@ -1,0 +1,16 @@
+scivision/__init__.py,sha256=blcYOP5RDFZZ5WeFZY3NycP5rzkoALPS3jerj4JlRiw,33
+scivision/koala.py,sha256=MmUgrdRe6bDbv3lHXbjVs2WABdn3mTQIjwN7J_QNuXc,1671
+scivision/catalog/__init__.py,sha256=UEw5n82kGJm9L7pcWOMDEhqSuWwQyIXfxjcXlR4yjTU,41
+scivision/catalog/catalog.py,sha256=_WMayEKQqqq_yt_Vu2WDQGxaEOdrVOsj7OyzReYEeFQ,2875
+scivision/catalog/data/datasources.json,sha256=dpHlzVHXrz2v6GUyH9B2wbG0M1PcZFLAV1xsGGVquvM,1431
+scivision/catalog/data/models.json,sha256=TkIbTCI8f6FtOOLx8IGz-jf_GXgvnYSgGOPBSiKTjuQ,1937
+scivision/io/__init__.py,sha256=KgLrbcgMoFxx6IBD4JAl0VXqUGPPqVHlZfkOUpECrFw,56
+scivision/io/autoplumber.py,sha256=9SywnwiwSHPQRMp7Zo6R42c9ig6s1b0DDcBYGL5IQWM,2231
+scivision/io/installer.py,sha256=REK2KYt-QG5B_b-UfejEy8mYdpG4Nq0NAya14VK78kk,1239
+scivision/io/reader.py,sha256=enTUar_DLe9w2TcXk02lalFX0pDRKJoPmn-OGKUQOaw,6527
+scivision/io/wrapper.py,sha256=6nIduCp-YEvgUVNmkBbB5qkGgNmhv2j1Aw-Vp8Ao2lQ,862
+scivision-0.1.2.dist-info/LICENSE,sha256=rwLA-vdwtuqh0NpSrj5xFLMiFshsdWYAJro948BRWow,1533
+scivision-0.1.2.dist-info/METADATA,sha256=iegcgDlTm_nGLUy67WafvK7EcR_JJT9FfUl1VrsAYJU,1745
+scivision-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scivision-0.1.2.dist-info/top_level.txt,sha256=pgBmQpA9XVInbpxqWYS3bcvN2aSl1DHqjbI1MADe0S4,10
+scivision-0.1.2.dist-info/RECORD,,
