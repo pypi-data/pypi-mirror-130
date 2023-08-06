@@ -1,0 +1,7 @@
+setup.py
+eqlog/__init__.py
+eqlog/log.py
+eqlog.egg-info/PKG-INFO
+eqlog.egg-info/SOURCES.txt
+eqlog.egg-info/dependency_links.txt
+eqlog.egg-info/top_level.txt
