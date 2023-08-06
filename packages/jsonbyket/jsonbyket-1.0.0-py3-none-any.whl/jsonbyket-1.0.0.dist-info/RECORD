@@ -1,0 +1,17 @@
+jsonbyket/__init__.py,sha256=DtuL-vJ9QEBS4x2LPNNhdLH-lrul1p45Yzpm_GKQShw,87
+jsonbyket/jsonbyket.py,sha256=tvCQRwN93liwbrO48zADDDsuK4moWkNi6ivjgzA3yfI,11348
+jsonbyket/utils.py,sha256=swstHnlf0_knk_hRj0qTae7M3qmDHi8TaloC8sTbthU,524
+jsonbyket/DataTypes/DefaultTypes.py,sha256=9B4ivxB_M2ZJiVEWjs5oLiXHp7GVt5TJ4ZAIgGyFkTs,346
+jsonbyket/DataTypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonbyket/DataTypes/basics.py,sha256=YTh0LZnEcavRN8MYKXC50BYoyOSi69iDr67Trye3fSA,3216
+jsonbyket/DataTypes/dictType.py,sha256=c1C1mDz08P3-i5wAryGlQ6GKATWBuCaXAM5S7tzUKC8,4251
+jsonbyket/DataTypes/extended.py,sha256=EjFHaI79jlwWuzs0ZZ3-CXpReabT5IYgfM_nUgL69i4,686
+jsonbyket/DataTypes/units.py,sha256=fIsaCZeKBsNUS9x6GDcJ9s1a0im8D5yLB5Wtk-RFUcA,1846
+jsonbyket/VarTypes/DefaultVarTypes.py,sha256=nmin8VBEb_qpph2DsS0LEFOxhqUpcRWwxJwSysKdWdA,139
+jsonbyket/VarTypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonbyket/VarTypes/basicVarTypes.py,sha256=58yIby8Hfbk4u-YZznRyYJKQqAMCBG0AJCc3gOgUknA,487
+jsonbyket-1.0.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+jsonbyket-1.0.0.dist-info/METADATA,sha256=In2ju-CZ-NSZyE4IP3HebVrTcGU71Dm0JEPBIbKxsHs,742
+jsonbyket-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jsonbyket-1.0.0.dist-info/top_level.txt,sha256=W9KCIt1lwvqnt-ho9tlg_U7K7ALur0Ycy3Ct4cY4lRw,10
+jsonbyket-1.0.0.dist-info/RECORD,,
