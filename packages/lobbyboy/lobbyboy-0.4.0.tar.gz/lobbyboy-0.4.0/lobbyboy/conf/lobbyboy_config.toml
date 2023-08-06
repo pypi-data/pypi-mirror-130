@@ -1,0 +1,146 @@
+data_dir = "./dev_datadir"
+listen_port = 12200
+listen_ip = "0.0.0.0"
+min_destroy_interval = "1m"
+servers_file = "available_servers_db.json"
+
+# CRITICAL
+# ERROR
+# WARNING
+# INFO
+# DEBUG
+log_level = "DEBUG"
+
+[user.Gustave]
+# client pub keys for ssh to lobbyboy server.
+# change this config will take effect immediately, no need to restart lobby
+# one key per line
+authorized_keys = """
+"""
+password = "Fiennes"
+
+[provider.digitalocean]
+load_module = "lobbyboy.contrib.provider.digitalocean::DigitalOceanProvider"
+
+# set to false to disable this provider
+enable = true
+
+# lobbyboy will destroy the server for you.
+# when:
+# 1. there is no active session(if you ssh to that server bot throughing
+#    lobbyboy, then it doesn't count)
+# 2. server exist at least ``min_life_to_live`` time
+# 3. current time + ``destroy_interval`` + 5m(in case of network latency) will
+#    enter next bill unit
+# For e.g.
+# You pay DigitalOcean's VPS(they call droplet) based on hourly usage, say if
+# you use a VPS for 30 minutes, and logout, lobbyboy will destroy this server
+# after 24mins, in case you want to use it again, and you don't pay extra money
+# for that
+#
+# if set ``min_life_to_live`` to "0s", the server will be destroy immediately
+# after everyone logout.
+#
+# supprtted format:
+# - 50s for 50 seconds
+# - 55m for 55 minutes
+# - 1h for one hour
+# - 2d for 2 days
+min_life_to_live = "0s"
+
+# some cloud service providers support hourly/dayily/monthly/... charging
+# you can set this as you bill cycle so that lobbyboy knows when to check or destroy the server.
+bill_time_unit = "0s"
+
+# before the end of the current billing cycle, the safe time left for the destroy action can
+# prevent the delay of destroy, eg: network problems, etc.
+destroy_safe_time = '5m'
+
+# set server name prefix, if not set, will use server name directly, if set, connect prefix and server name with '-'
+# eg:
+#     server name: myServer
+#           server_name_prefix: lobbyboy -> lobbyboy-myServer
+#           not set server_name_prefix   -> myServer
+server_name_prefix = 'lobbyboy'
+
+# Will try to read from environment variables first, ``DIGITALOCEAN_TOKEN``
+# if empty, then use this config
+# api_token = ""
+
+# ssh keys, added when create a new server
+# it is a list, every item is a key, each one can be:
+#   * public_key string
+#   * digitalocean ssh key id string
+#   * public_key fingerprint string (you need to setup from digitalocean first)
+# extra_ssh_keys = [
+# ]
+
+# quick choose a favorite droplet template to create
+# format: regions-slug:size-slug:image-slug
+favorite_instance_types = [
+   "sgp1:s-1vcpu-1gb:ubuntu-21-04-x64",
+   "sgp1:s-1vcpu-1gb:freebsd-12-x64-zfs",
+   "sfo1:s-1vcpu-1gb:fedora-33-x64",
+]
+
+[provider.vagrant]
+load_module = "lobbyboy.contrib.provider.vagrant::VagrantProvider"
+enable = true
+min_life_to_live = "1h"
+bill_time_unit = "1h"
+
+server_name_prefix = 'lobbyboy'
+vagrantfile="""
+Vagrant.configure("2") do |config|
+  config.vm.define "{boxname}"
+  config.vm.box = "bento/ubuntu-20.04"
+    config.vm.provider "virtualbox" do |v|
+    v.name = "{boxname}"
+    v.memory = 1024
+    v.cpus = 12
+    end
+end
+"""
+
+[provider.linode]
+load_module = "lobbyboy.contrib.provider.linode::LinodeProvider"
+enable = true
+min_life_to_live = "1h"
+bill_time_unit = "1h"
+
+# Will try to read from environment variables first, ``LINODE_TOKEN``
+# if empty, then use this config
+# api_token = ""
+
+# format: regions.id:type.id:image.id
+# see [Linode Region](https://www.linode.com/docs/api/regions/#regions-list)
+#     [Linode Type](https://www.linode.com/docs/api/linode-types/#types-list)
+#     [Linode Image](https://www.linode.com/docs/api/images/#images-list)
+favorite_instance_types = [
+   "ap-south:g6-nanode-1:linode/centos7",
+]
+
+[provider.footloose]
+load_module = "lobbyboy.contrib.provider.footloose::FootlooseProvider"
+enable = true
+min_life_to_live = "0"
+bill_time_unit = "0"
+footloose_config = """
+cluster:
+  name: footloose-{server_name}
+  privateKey: cluster-key
+machines:
+- count: 1
+  spec:
+    backend: docker
+    image: quay.io/footloose/centos7:latest
+    name: {server_name}%d
+    portMappings:
+    - containerPort: 22
+"""
+
+[provider.ignite]
+load_module = "lobbyboy.contrib.provider.ignite::IgniteProvider"
+enable = true
+min_life_to_live = "0"
+bill_time_unit = "0"
