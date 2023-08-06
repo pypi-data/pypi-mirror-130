@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: balloon-learning-environment
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: absl-py
+Requires-Dist: dopamine-rl (>=4.0.0)
+Requires-Dist: flax
+Requires-Dist: gcsfs
+Requires-Dist: gin-config
+Requires-Dist: gym
+Requires-Dist: opensimplex
+Requires-Dist: s2sphere
+Requires-Dist: scikit-learn
+Requires-Dist: tensorflow
+Requires-Dist: tensorflow-datasets (>=4.4.0)
+Requires-Dist: tensorflow-probability
+Requires-Dist: transitions
+Requires-Dist: zarr
+
+UNKNOWN
+
