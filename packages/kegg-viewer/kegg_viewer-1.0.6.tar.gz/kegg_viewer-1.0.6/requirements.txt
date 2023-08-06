@@ -1,0 +1,5 @@
+pysvg-py3
+requests
+pillow
+webrequests
+simple-loggers
