@@ -1,0 +1,10 @@
+xcsf/__init__.py,sha256=YBAYRsuH3T6RKhqVKHRWY9LcuX2WFaJgC4TcB314dFw,21
+xcsf/__init__.pyi,sha256=-iC5zLHechAFvC3QC6TxijTGGGhEYWCJ7-pptZamnJM,12960
+xcsf/xcsf.cp38-win_amd64.pyd,sha256=JkC5xq_U-_YxjuvXlsAwCiIC1g6yTq5srH3vvQomCW0,772096
+xcsf/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xcsf/utils/viz.py,sha256=iBypxAZrHBKc-uFRqyKdCLryd5ggapQrsMWL7h26zBw,5408
+xcsf-1.1.4.dist-info/LICENSE.md,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+xcsf-1.1.4.dist-info/METADATA,sha256=KpK_EZimbOsxmn6srfBwym2KM-8OI8F5TRLSaUIVzNc,3881
+xcsf-1.1.4.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+xcsf-1.1.4.dist-info/top_level.txt,sha256=pqvumbTrd2SU-bWSMB5byaZo79ysSK1qMZ8vuWXVP_g,15
+xcsf-1.1.4.dist-info/RECORD,,
