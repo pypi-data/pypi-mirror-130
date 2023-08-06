@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+librarypython/__init__.py
+librarypython/librarypythoncodigos.py
+librarypython.egg-info/PKG-INFO
+librarypython.egg-info/SOURCES.txt
+librarypython.egg-info/dependency_links.txt
+librarypython.egg-info/not-zip-safe
+librarypython.egg-info/requires.txt
+librarypython.egg-info/top_level.txt
