@@ -1,0 +1,8 @@
+# Install development requirements
+
+tox
+coverage
+flake8
+pytest
+
+-r requirements.txt
