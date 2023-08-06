@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: zapnAD
+Version: 1.0
+Summary: A package for automatic differentiation
+Home-page: https://github.com/cs107-zapn/cs107-FinalProject
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: GPL-3.0
+Download-URL: https://github.com/cs107-zapn/cs107-FinalProject/archive/refs/tags/v1.0.tar.gz
+Description: UNKNOWN
+Keywords: optimization,autodifferntiation
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
