@@ -1,0 +1,9 @@
+db: 'metrics'
+collection: 'metrics_my_app'
+columns: 3
+monitoring_issue: 98
+span: 50
+ewma_span: 5
+monitoring_span: 150
+pr_user: cimetrics
+monitoring_columns: 2

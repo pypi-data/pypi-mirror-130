@@ -1,0 +1,35 @@
+name: Python package
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.7]
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install .
+        pip install -r dev-requirements.txt
+    - name: Check format with black
+      run: |
+        black --check cimetrics
+    - name: Type checking
+      run: mypy -p cimetrics --ignore-missing-imports
+    - name: Run app
+      run: |
+        env
+        python app/main.py
+      env:
+       METRICS_MONGO_CONNECTION: ${{secrets.METRICS_MONGO_CONNECTION}}
