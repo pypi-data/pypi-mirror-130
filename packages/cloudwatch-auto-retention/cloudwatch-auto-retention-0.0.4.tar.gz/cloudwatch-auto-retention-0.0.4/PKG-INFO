@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: cloudwatch-auto-retention
+Version: 0.0.4
+Summary: CloudWatch Auto Retention is a construct that creates a Lambda with a cronjob that checks whether CloudWatch loggroups are set to never-expire. If so, the construct sets it to one month.
+Home-page: https://github.com/stroobants-dev/cloudwatch-auto-retention
+Author: Tom Stroobants<tom@stroobants.dev>
+License: Apache-2.0
+Project-URL: Source, https://github.com/stroobants-dev/cloudwatch-auto-retention
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Cloudwatch Auto Retention
+
+![release](https://github.com/stroobants-dev/cloudwatch-auto-retention/actions/workflows/release.yml/badge.svg)[![npm version](https://badge.fury.io/js/cloudwatch-auto-retention.svg)](https://badge.fury.io/js/cloudwatch-auto-retention)[![PyPI version](https://badge.fury.io/py/cloudwatch-auto-retention.svg)](https://badge.fury.io/py/cloudwatch-auto-retention)
+
+Cloudwatch Auto Retention is an AWS CDK construct library that will check once a month if you have any Cloudwatch Log Groups in the region it is deployed with a never-expire retention and auto-fix this to one month. This is a cost-optimization as Cloudwatch Logs have a very high storage cost. If you need Cloudwatch logs for longer you should set an automated S3 export (cloudwatch-logs-s3-export is in the works 😚).
+
+## Getting started
+
+### TypeScript
+
+#### Installation
+
+##### NPM
+
+```
+npm install --save cloudwatch-auto-retention
+```
+
+##### yarn
+
+```
+yarn add cloudwatch-auto-retention
+```
+
+#### Usage
+
+```python
+# Example automatically generated from non-compiling source. May contain errors.
+import * as cdk from '@aws-cdk/core';
+import { CdkCloudwatchAutoRetention } from 'cloudwatch-auto-retention';
+
+const mockApp = new cdk.App();
+const stack = new cdk.Stack(mockApp, '<your-stack-name>');
+
+new CdkCloudwatchAutoRetention(stack, 'cloudwatch-auto-retention');
+```
+
+### Python
+
+#### Installation
+
+```bash
+$ pip install cloudwatch-auto-retention
+```
+
+#### Usage
+
+```python
+import aws_cdk.core as cdk
+from cdk_cloudwatch_auto_retention import CdkCloudwatchAutoRetention
+
+app = cdk.App()
+stack = cdk.Stack(app, "<your-stack-name>")
+
+CdkCloudwatchAutoRetention(stack, "cloudwatch-auto-retention")
+```
+
+## Overview
+
+A Cloudwatch cron rule will trigger a Lambda that will go over all Cloudwatch Log Groups and check if the retention is never-expire. If so, it will change it to one month.
+
+![](https://raw.githubusercontent.com/stroobants-dev/cloudwatch-auto-retention/main/images/overview.png)
+
+

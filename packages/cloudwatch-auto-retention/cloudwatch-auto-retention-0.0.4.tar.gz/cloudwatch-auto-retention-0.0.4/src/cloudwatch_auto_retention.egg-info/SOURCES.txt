@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_cloudwatch_auto_retention/__init__.py
+src/cdk_cloudwatch_auto_retention/py.typed
+src/cdk_cloudwatch_auto_retention/_jsii/__init__.py
+src/cdk_cloudwatch_auto_retention/_jsii/cloudwatch-auto-retention@0.0.4.jsii.tgz
+src/cloudwatch_auto_retention.egg-info/PKG-INFO
+src/cloudwatch_auto_retention.egg-info/SOURCES.txt
+src/cloudwatch_auto_retention.egg-info/dependency_links.txt
+src/cloudwatch_auto_retention.egg-info/requires.txt
+src/cloudwatch_auto_retention.egg-info/top_level.txt

@@ -1,0 +1,1 @@
+cdk_cloudwatch_auto_retention
