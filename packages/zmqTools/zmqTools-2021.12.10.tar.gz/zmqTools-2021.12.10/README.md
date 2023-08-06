@@ -1,0 +1,9 @@
+# python
+
+使用MessageQueue技術進行跨平台跨程序間的訊息傳遞,
+這裡我們主要時使zmq將Client的金融交易資料傳遞至Server端,
+並由Server端與券商API串接進行交易.
+
+在Client端的Package我們使用的類型為dealer模式建置, 
+但Server端接收時則使用Router的非同步模式,
+以利訊息可以順利接收而必免堵塞.
