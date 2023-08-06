@@ -1,0 +1,6 @@
+test_package_pigeon/__init__.py,sha256=hCLa9dtAfOBBkfmKbdEhv9-Dook86TSaK26R4yhecDU,298
+test_package_pigeon/module.py,sha256=Mr4ZI42SlGjpHxz1LLdc2vWixVmGk8fuIcVwUUrQmzU,272
+test_package_pigeon-0.0.1.dist-info/METADATA,sha256=lWHEflwRln5ENAY6yr8-GfJXbLbLGxdXjbwFN5b5rck,736
+test_package_pigeon-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+test_package_pigeon-0.0.1.dist-info/top_level.txt,sha256=hoi3aUlFM0NUqD6iu70aToJ05VIn7YoYH4umm1wos2I,20
+test_package_pigeon-0.0.1.dist-info/RECORD,,
