@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: python-yandex-cloud-logging
+Version: 0.0.1
+Summary: Python Client for Yandex Cloud Logging
+Home-page: https://github.com/mcode-cc/python-yandex-cloud-logging
+Author: MCode GmbH
+Author-email: logging.pyclm@mcode.cc
+License: GNU AFFERO GENERAL PUBLIC LICENSE Version 3, 19 November 2007
+Project-URL: Bug Tracker, https://github.com/mcode-cc/python-yandex-cloud-logging/issues
+Keywords: yandexcloud logging logger trace
+Platform: Any
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: No Input/Output (Daemon)
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Internet
+Classifier: Topic :: Communications
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: System :: Networking
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: yandexcloud (>=0.120.0)
+
+# python-yandex-cloud-logging
+Python Client for Yandex Cloud Logging
+
+
+
