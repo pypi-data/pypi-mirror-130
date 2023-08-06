@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: aocp
+Version: 0.1.1
+Summary: A collection of convenient parsers for Advent of Code problems.
+Home-page: https://github.com/miguel-bm/advent-of-code-parsers
+License: MIT
+Keywords: advent of code,adventofcode,aoc,aocp,parser,parsers
+Author: Miguel Blanco Marcos
+Author-email: miguel.blanco.marcos@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/miguel-bm/advent-of-code-parsers
+Description-Content-Type: text/markdown
+
+# Advent of Code parsers
+A collection of convenient parsers for Advent of Code problems.
+
