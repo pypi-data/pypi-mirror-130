@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+minislurm/__init__.py
+minislurm/minislurm_client.py
+minislurm/minislurm_server.py
+minislurm.egg-info/PKG-INFO
+minislurm.egg-info/SOURCES.txt
+minislurm.egg-info/dependency_links.txt
+minislurm.egg-info/entry_points.txt
+minislurm.egg-info/requires.txt
+minislurm.egg-info/top_level.txt

@@ -1,0 +1,319 @@
+Metadata-Version: 2.1
+Name: minislurm
+Version: 21.11
+Summary: Single machine resource manager
+Home-page: https://gitlab.com/matsievskiysv/minislurm
+Author: S.V. Matsievskiy
+Author-email: matsievskiysv@gmail.com
+Maintainer: S.V. Matsievskiy
+Maintainer-email: matsievskiysv@gmail.com
+License: AGPLv3+
+Keywords: job queue
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Opposed to [slurm](https://slurm.schedmd.com/), minislurm is a single node workload manager.
+It is intended for repeated program execution with different parameters on a single machine
+(e.g. physical process simulation with different boundary conditions).
+Different processes should be put in different [systemd](https://systemd.io/) service files so
+appropriate resource restrictions may be applied.
+
+# Installation
+
+To install simply issue the command
+```bash
+pip3 install --user minislurm
+```
+
+# Configuration
+
+Full configuration file is
+```ini
+[SERVER]
+SOCKET = /tmp/minislurm.socket
+TIMEZONE_OFFSET = +3
+MAX_PARALLEL = 4
+QUEUE_SIZE = 100
+UPDATE_TIME = 1
+LOG_LEVEL = INFO
+CALLBACK =
+[PROGRAM]
+COMMAND = sleep {}
+TIMEOUT = 1h 30m
+KILL_TIMEOUT = 10m
+```
+  * `SERVER` section contains configuration related to server itself
+    * `SOCKET` is a [UNIX socket](https://en.wikipedia.org/wiki/Unix_domain_socket) file
+      location. Use a descriptive name in a writable folder (e.g. `/tmp/minislurm_openfoam.socket`).
+    * `TIMEZONE_OFFSET` is used for displaying time with specified offset
+    * `MAX_PARALLEL` controls how many processes may run simultaneously
+    * `QUEUE_SIZE` specifies job queue size. New processes cannot be added is all queue slots are
+      occupied and all jobs are either running or waiting to be executed.
+    * `UPDATE_TIME` controls how frequently processes are probed for status. There's not much point
+      in changing this value.
+    * `LOG_LEVEL` sets the logging level. When running server using systemd, log file may be
+      examined using `journalctl --user -u minislurm@<instance>.service` command, where `<instance>`
+      is a server instance name (for details read below).
+    * `CALLBACK` may be used to run a callback command with arguments `job_name`, `job_id`, `job_status`
+      when job finishes execution. One example of such a callback is a
+      [DBUS](https://www.freedesktop.org/wiki/Software/dbus/) notification.
+      ```ini
+      CALLBACK = dbus-send --session --type=method_call --dest=org.freedesktop.Notifications / org.freedesktop.Notifications.Notify string:'' uint32:0 string:'' string:MiniSlurm string:"Job {} ID {} stopped with status {}" array:string:"" dict:string:string:'' int32:5000
+      ```
+      Configuration presented above spawns DBUS notification for 5 seconds after job is complete.
+  * `PROGRAM` section configures spawned processes
+    * `COMMAND` is a command to be spawned by server. It uses [Python
+      `str.format`](https://docs.python.org/3.8/library/stdtypes.html#str.format) syntax to supply
+      command arguments.
+	  In simpler words, each curly brace pair `{}` will be substituted with the arguments, specified
+      by `minislurm_client` program (use `list --command` command to inspect a command template of a
+      server instance).
+    * `TIMEOUT` determines how much time is given to the process to finish. It this time is
+      exceeded, process will be terminated. May be overriden by a user.
+    * `TIMEOUT_KILL` determines much time is given to the process to terminate (to save data,
+      cleanup etc.). It this time is exceeded, process will be killed.
+
+Each configuration may be overriden by environment variables with name
+`MINISLURM_<SECTION>_<CONFIG>` (e.g. `MINISLURM_SERVER_MAX_PARALLEL`, `MINISLURM_PROGRAM_COMMAND`).
+
+## Systemd
+
+Systemd template file <minislurm@.service> may be used to start server instances and control
+resources.
+It should be placed inside `~/.config/systemd/user` folder to be used as a local user.
+This configuration assumes that minislurm configuration files are placed in users `$HOME` directory
+and named `.minislurm_<instance_name>.ini`.
+For example, for the configuration file `~/.minislurm_openfoam.ini` server instance may be start
+with command `systemctl --user start minislurm@openfoam.service`.
+Note, that `SOCKET` configuration in `~/.minislurm_openfoam.ini` should be adjusted to use different
+name in order to avoid instance collisions.
+Minislurm service instance may be started using command
+```bash
+systemctl start --user minislurm@openfoam
+```
+
+Adjusting `CPUQuota` and `MemoryMax` limits should be done on per-instance basis.
+After starting the service create a drop-in override by issuing the command
+```bash
+systemctl edit --user minislurm@openfoam
+```
+In the opened text file add lines
+```ini
+[Service]
+MemoryMax=10G
+CPUQuota=800%
+```
+This particular configuration will limit memory usage to 10Gb and allow using up to 8 CPU threads.
+
+Enable service to start minislurm service automatically on system startup
+```bash
+systemctl enable --user minislurm@openfoam
+```
+
+Note that running server as root is extremely dangerous. Instead, create a dedicated user and group for global
+minislurm instance.
+
+# Job submission
+
+## Socket selection
+
+`minislurm_client` command is used to submit jobs to server.
+Firstly, client should know server socket location.
+It may be supplied directly using `socket` argument or be read from configuration file pointed to by
+`config` argument.
+
+Examples:
+  * Connect to socket at specific location
+  ```bash
+  minislurm_client socket /tmp/minislurm.socket list --all
+  ```
+  * Read socket location from configuration file
+  ```bash
+  minislurm_client config ~/.minislurm_test.ini list --all
+  ```
+
+It may be handy to define shell aliases for server instances
+```bash
+alias minislurm_openfoam="minislurm_client config ~/.minislurm_openfoam.ini"
+```
+This allows quick access to specific server instance
+```bash
+minislurm_openfoam list --all
+```
+
+## Add job
+
+Job submission syntax
+```bash
+minislurm_client (socket <socket>|config <config>) add [--path=<path> --name=<name> --stdout=<stdout> --stderr=<stderr> --timeout=<timeout>] -- <args>...
+```
+
+Mandatory mutually exclusive options `<socket>` and `<config>` are explained in a section above.
+
+To submit job user must at least supply a list of arguments `<args>` to fill a command template.
+Use quotes `""` and `''` to group space separated words together.
+For example, supplying command template `echo There are {} apples in the {}` with arguments `thirty
+two basket` would expand as `echo There are thirty apples in the two`.
+When wrapping word group in quotes `"thirty two" basket` expansion result `There are thirty two
+apples in the basket` makes much more sense.
+
+Other options are:
+  * `<path>` is a path to run program from. Defaults to the directory, from which call was made.
+  * `<name>` is a name of a process or a process group. Multiple processes may share the name, which
+    may be used remove/pause/continue them all.
+  * `<timeout>` overrides global `TIMEOUT` setting for job cancellation.
+  * `<stdout>` and `<stderr>` specify files to which write program's stdout and stderr streams.
+
+There's another version of the add command
+```bash
+minislurm_client (socket <socket>|config <config>) add <base_name> [--path=<path> --timeout=<timeout>] -- <args>...
+```
+In this shortcut version `<base_name>` will be used as a `<name>` of a job;
+stdout and stderr files will be called `<base_name>.out` and `<base_name>.err`.
+
+Examples:
+  * `minislurm_client config ~/.minislurm_test.ini add --stdout /tmp/1.out --name $USER --timeout
+    "1m 1second" -- 'thirty two' basket`
+  * `minislurm_client socket /tmp/minislurm_test.socket add take1 -- arg1 arg2`
+  * `minislurm_client config ~/.minislurm_test.ini add --stdout /tmp/1.out --name $USER --timeout
+    "1m 1second" -- 'thirty two' basket`
+
+## Remove/pause/continue jobs
+
+Remove, pause and continue commands remove, pause and continue specified job respectively.
+Their syntax is similar.
+```bash
+minislurm_client (socket <socket>|config <config>) rm (--all | --id=<id> | --name <name>)
+minislurm_client (socket <socket>|config <config>) pause (--all | --id=<id> | --name <name>)
+minislurm_client (socket <socket>|config <config>) continue (--all | --id=<id> | --name=<name>)
+```
+
+Mandatory mutually exclusive options `<socket>` and `<config>` are explained in a section above.
+
+Option `--all` does required action for all jobs in queue.
+Note that if job is paused while waiting for the execution, it will get a new ID when continued.
+`<id>` and `<name>` arguments allow selecting job by id or name respectively.
+This arguments allow using
+[regex](https://docs.python.org/3/library/re.html#regular-expression-syntax) to select multiple
+jobs.
+Strings are matched partially from the beginning of the string.
+For example, selector `1` would match all IDs or names beginning with `1`.
+If you want to match string exactly, terminate selector with `$` character.
+
+Examples:
+  * Remove all jobs
+    `minislurm_client config ~/.minislurm_test.ini rm --all`
+  * Stop jobs with IDs ending with 1, 2, 3 or 4
+    `minislurm_client config ~/.minislurm_test.ini stop --id '.*[1234]$'`
+  * Continue execution of jobs with name containing string `unit` and number `1` maybe separated by
+    non-numeric character; matching is case insensitive
+    `minislurm_client config ~/.minislurm_test.ini continue --name "(?i).*unit[^\d]?1"`
+
+## List jobs
+
+Job list syntax
+```bash
+minislurm_client (socket <socket>|config <config>) list (--all | --command | --ids | --names | --id=<id> | --name=<name>)
+```
+
+Mandatory mutually exclusive options `<socket>` and `<config>` are explained in a section above.
+
+Option `--all` lists all jobs in queue.
+`<id>` and `<name>` arguments allow selecting job by id or name respectively using regex selectors.
+Options `--ids` and `--names` will list all IDs and unique names in queue.
+
+Examples:
+  * List all jobs
+    `minislurm_client config ~/.minislurm_test.ini list --all`
+  * List jobs with IDs ending with 1, 2, 3 or 4
+    `minislurm_client config ~/.minislurm_test.ini list --id '.*[1234]$'`
+  * List jobs with name containing string `unit` and number `1` maybe separated by
+    non-numeric character; matching is case insensitive
+    `minislurm_client config ~/.minislurm_test.ini list --name "(?i).*unit[^\d]?1"`
+
+# Job status
+
+Table of possible job states
+| State | Description |
+|:--|:--|
+| QUEUED | Job is waiting to be executed |
+| RUNNING | Job is running |
+| COMPLETED | Job is completed |
+| FAILED | Job is completed with non-zero exit status |
+| TERMINATING | Server is terminating a job |
+| TERMINATED | Job is terminated |
+| KILLED | Job exceeded termination time and was killed |
+| PAUSED | Job was running and now its execution is paused |
+| HELD | Job was waiting and now its execution is deferred |
+
+# Setup example
+
+Simulations using [DolfinX](https://fenicsproject.org/) FEM library might be quite resource heavy so it makes sense to
+manage simulation jobs and machine resources using systemd and minislurm.
+
+Firstly, we copy sample systemd service file `minislurm@.service` to the `~.config/systemd/user/` directory.
+Assuming that `dolfinx` C++ library files are located in `/opt/dolfinx/usr/` directory,
+and the python virtual environment is in `/opt/dolfinx/dolfinx_env`, we override
+environment variables for our service instance
+```bash
+systemctl edit --user minislurm@dolfinx.service
+```
+And set required envvars and limits for CPU and Memory
+```ini
+[Service]
+Environment=PETSC_DIR=/usr/lib/petscdir/petsc-complex
+Environment=SLEPC_DIR=/usr/lib/slepcdir/slepc-complex
+Environment=PETSC_ARCH=linux-gnu-complex-64
+Environment=LD_LIBRARY_PATH=/opt/dolfinx/usr/lib
+Environment=PKG_CONFIG_PATH=/opt/dolfinx/usr/lib/pkgconfig
+Environment=VIRTUAL_ENV=/opt/dolfinx/dolfinx_env
+Environment=PATH=/opt/dolfinx/usr/bin:/opt/dolfinx/dolfinx_env/bin:/usr/local/bin:/usr/bin:/bin
+Environment=PYTHONPATH=/usr/lib/petscdir/petsc-complex/lib/python3/dist-packages:/usr/lib/slepcdir/slepc-complex/lib/python3/dist-packages:/opt/dolfinx/dolfinx_env/lib/python3.9/site-packages
+MemoryMax=10G
+CPUQuota=400%
+```
+Simply closing the file editor to apply these settings.
+
+Next, we copy `config.ini.sample` file to ~/.minislurm_dolfinx.ini and adjusting it
+```ini
+[SERVER]
+SOCKET = /tmp/minislurm_dolfinx.socket	# server socket
+TIMEZONE_OFFSET = +3		# timezone offset
+MAX_PARALLEL = 1		# number of running processes
+QUEUE_SIZE = 100		# queue size
+UPDATE_TIME = 1			# queue update period in seconds
+LOG_LEVEL = INFO                # server log level
+[PROGRAM]
+COMMAND = python3 {}		# command arguments in curly braces are set by client
+TIMEOUT = 2h			# execution timeout. awailable units are s,m,h,d,w
+KILL_TIMEOUT = 10m		# soft stop timeout. awailable units are s,m,h,d,w
+```
+
+Now out service is ready to be started
+```bash
+systemctl start --user minislurm@dolfinx.service
+```
+Optionally enabling service autostart
+```bash
+systemctl enable --user minislurm@dolfinx.service
+```
+For convenience adding command alias to the `~/.profile` file
+```bash
+alias minislurm_dolfinx="minislurm_client config ~/.minislurm_dolfinx.ini"
+```
+
+That is it.
+Now adding a dolfinx script to job queue simply by typing
+```
+minislurm_dolfinx add testrun -- script.py
+```
+
+
