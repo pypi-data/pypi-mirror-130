@@ -1,0 +1,18 @@
+velodyne_decoder_pylib.cpython-37m-x86_64-linux-gnu.so,sha256=jt83wm3zh1_0LPP1rWWkyYJHTpzdiLba0cxssNOheRM,871672
+velodyne_decoder/__init__.py,sha256=EEYuRspXVl35tjjyTklIR-_RvkvxIJcaQzqMKbqBHA0,4139
+velodyne_decoder/calibrations/VLS-128.yml,sha256=xD1rI8r6sZM3tHqb5iAU3QAig13fyFRxkQSXhGnB5j0,29910
+velodyne_decoder/calibrations/VLP-32C.yml,sha256=b8EkJ1HRG1NjeQwyJv0dp1Dabz_0VTmf60k34RsvS6k,9475
+velodyne_decoder/calibrations/VLP-16.yml,sha256=XvF6gsSYPrYy3MXJr_pgUUZoGW_uJU7Qy1I9yPn-AzQ,4587
+velodyne_decoder/calibrations/Puck LITE.yml,sha256=XvF6gsSYPrYy3MXJr_pgUUZoGW_uJU7Qy1I9yPn-AzQ,4587
+velodyne_decoder/calibrations/Puck Hi-Res.yml,sha256=uHDgqIcmHGeOiVmWhwha4-clqvee2SANEVdYp56zA14,4589
+velodyne_decoder/calibrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+velodyne_decoder/calibrations/VLP-32A.yml,sha256=xmLEmXl2A9KYIYBoe4DeddcocBPqCxmqUt8ZQhg5msA,9497
+velodyne_decoder/calibrations/HDL-32E.yml,sha256=sCHdaAsHSJN9Mup1dHglJt8Kumn3yE5WlIWo7k_d9CI,8916
+velodyne_decoder/calibrations/HDL-64E.yml,sha256=NVUiOUsrJOHgMYXgBzz8-KuzC9dCDuD7lR5E9TDb8-4,21368
+velodyne_decoder/calibrations/VLP-32B.yml,sha256=b8EkJ1HRG1NjeQwyJv0dp1Dabz_0VTmf60k34RsvS6k,9475
+velodyne_decoder/calibrations/Alpha Prime.yml,sha256=sa8wLah_UXxPEkFQ2UNS9OOrkaUbYMu2w1adbZKpOGE,32947
+velodyne_decoder-2.1.0.dist-info/LICENSE,sha256=nB6JY2B4YpNLw8fUxUpwJQnB2PXuvqblW7dlAMFL_sg,1581
+velodyne_decoder-2.1.0.dist-info/RECORD,,
+velodyne_decoder-2.1.0.dist-info/top_level.txt,sha256=fyutsEeTTeRYkApzlT8MfKAX2dZWwA9h3b68SuT1deE,23
+velodyne_decoder-2.1.0.dist-info/WHEEL,sha256=0MSpaUzP5zzwal1dxeHUy0SBa34DZ1IXf7uOC2KAHL4,112
+velodyne_decoder-2.1.0.dist-info/METADATA,sha256=uedxT3KeTPsnKLPc_s_f-HHGDv8flZ0ecIuOgND58yw,5595
