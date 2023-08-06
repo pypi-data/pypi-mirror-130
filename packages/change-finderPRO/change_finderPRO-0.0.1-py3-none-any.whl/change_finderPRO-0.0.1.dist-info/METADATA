@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: change-finderPRO
+Version: 0.0.1
+Summary: Detection of change points is useful in modelling and prediction of time series 
+Home-page: https://.....
+Author: Dheiver Santos
+Author-email: dheiver.santos@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: rrcf
+Requires-Dist: sklearn
+Requires-Dist: idfops
+
+# ChangeFinderPRO
+
+Change points are abrupt variations in time series data. ... Detection of change points is useful in modelling and prediction of time series and is found in application areas such as medical condition monitoring, climate change detection, speech and image analysis, and human activity analysis
+
