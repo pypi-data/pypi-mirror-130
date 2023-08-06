@@ -1,0 +1,10 @@
+cykooz.recipe.idea-0.2-py3.9-nspkg.pth,sha256=GZ4gwBlWcvyURZI4_xRSTk3K23T-fEIIwKahdSiX1p8,1704
+cykooz/recipe/idea/__init__.py,sha256=tmvqXqm61tHKxM9Zo5TRmpWFpIWCZUaqBfgkGdBH6so,5436
+cykooz/recipe/idea/runtests.py,sha256=Ev3xgZ6MsUWWO9UzghaLHIaEasvmQwhWBE_ZMDIt7mU,509
+cykooz/recipe/idea/tests.py,sha256=tKoEV6Ro5E6RDogQHnP4QePR1o4tBsUcF-ZNfELgnNk,7591
+cykooz.recipe.idea-0.2.dist-info/METADATA,sha256=YW2WSYu_AapmigK2kqmHw7iceaef29U_X1MKuCyY1Uk,3021
+cykooz.recipe.idea-0.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+cykooz.recipe.idea-0.2.dist-info/entry_points.txt,sha256=SpGZSQCOUvfkJIXz_-X2QNZJJ8PX0bQC0mhA5Ncwcts,129
+cykooz.recipe.idea-0.2.dist-info/namespace_packages.txt,sha256=4tr_d-uYRiiNr5OOgi4CU715v9Dj0iFyjG7QvpQAik8,21
+cykooz.recipe.idea-0.2.dist-info/top_level.txt,sha256=_yshM1VDhmJ2joN2eLO3u4lKkfu-9WFc9orAwH9wltk,7
+cykooz.recipe.idea-0.2.dist-info/RECORD,,
