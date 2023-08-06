@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+RELEASE-VERSION.txt
+pyproject.toml
+setup.cfg
+setup.py
+pypwext/pypwext.egg-info/PKG-INFO
+pypwext/pypwext.egg-info/SOURCES.txt
+pypwext/pypwext.egg-info/dependency_links.txt
+pypwext/pypwext.egg-info/requires.txt
+pypwext/pypwext.egg-info/top_level.txt
