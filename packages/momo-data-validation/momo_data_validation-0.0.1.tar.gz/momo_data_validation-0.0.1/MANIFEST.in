@@ -1,0 +1,6 @@
+recursive-exclude tests *
+recursive-exclude docs *
+recursive-exclude dags *
+exclude */BUILD
+exclude BUILD
+exclude .gitignore

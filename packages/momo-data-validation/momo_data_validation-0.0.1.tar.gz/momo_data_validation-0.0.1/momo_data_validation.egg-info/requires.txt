@@ -1,0 +1,2 @@
+google-cloud-bigquery
+tensorflow-data-validation==1.4.0
