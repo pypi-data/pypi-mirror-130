@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: haggle
+Version: 0.1.6
+Summary: A facade to Kaggle data
+Home-page: https://github.com/thorwhalen/haggle
+License: mit
+Keywords: kaggle,data
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: kaggle
+Requires-Dist: py2store
+
+file:README.md
+
+
