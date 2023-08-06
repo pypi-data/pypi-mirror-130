@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: ad_AHJZ
+Version: 1.8
+Summary: A Package that calculates Automatic Differentiation for both Scalar and Vector Inputs
+Home-page: https://github.com/cs107-AHJZ/cs107-FinalProject.git
+Author: Aditi Memani, Hari Raval, Joseph Zuccarelli, liuzongjun
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
