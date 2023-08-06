@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+discord/ext/prettyhelp/__init__.py
+discord/ext/prettyhelp/menu.py
+discord/ext/prettyhelp/permission_utils.py
+discord/ext/prettyhelp/pretty_help.py
+pycord_prettyhelp.egg-info/PKG-INFO
+pycord_prettyhelp.egg-info/SOURCES.txt
+pycord_prettyhelp.egg-info/dependency_links.txt
+pycord_prettyhelp.egg-info/requires.txt
+pycord_prettyhelp.egg-info/top_level.txt
