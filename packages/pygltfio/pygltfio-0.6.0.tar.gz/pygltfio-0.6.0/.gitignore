@@ -1,0 +1,4 @@
+src/gltfio/_version.py
+*.pyc
+*.egg-info
+build
