@@ -1,0 +1,9 @@
+vollseg_napari/__init__.py,sha256=8bJPZzXWExQQyKQE1hSWmLf9M8o2zvzoAmoMn6m8jq4,215
+vollseg_napari/_dock_widget.py,sha256=Z3H8qd6PCsKR7lnca9z27hYJct4xnCMed36lgB5s7VA,27861
+vollseg_napari/_version.py,sha256=Hzyirpugp8UyjQSFxcio9clOUrTdV3cTKzLoITg6BS4,110
+vollseg_napari/resources/vollseg_logo_napari.png,sha256=bUq31ONzkn0ZOyYN3U57MuCwRRXY0D3icrKuUPujA3A,742286
+vollseg_napari-1.0.0.dist-info/METADATA,sha256=RfyblfhaM9gxKgSSYELASg_2IBQiTKs8_noeQrs--6g,3495
+vollseg_napari-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vollseg_napari-1.0.0.dist-info/entry_points.txt,sha256=Vf6ecQDvdFzO-QuDaHcH-Zh3YyyRiGjciuEv1l7Qq1E,42
+vollseg_napari-1.0.0.dist-info/top_level.txt,sha256=rsTm_jpRFIdPortxSrfnxTFAcdt2uaJ9pMdEV5vxBa0,15
+vollseg_napari-1.0.0.dist-info/RECORD,,
