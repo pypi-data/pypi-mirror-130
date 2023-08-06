@@ -1,0 +1,10 @@
+name            levv
+version         0.1.7
+description     Graphical log file viewer
+company         WheresJames
+author          Robert Umbehant
+email           levv@wheresjames.com
+url             https://github.com/wheresjames/levv
+repo            git+ssh://git@github.com/wheresjames/levv.git
+bugs            https://github.com/wheresjames/levv/issues
+license         MIT
