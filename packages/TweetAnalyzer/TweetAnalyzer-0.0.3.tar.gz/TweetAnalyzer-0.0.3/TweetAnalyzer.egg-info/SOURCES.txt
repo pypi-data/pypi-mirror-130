@@ -1,0 +1,5 @@
+setup.py
+TweetAnalyzer.egg-info/PKG-INFO
+TweetAnalyzer.egg-info/SOURCES.txt
+TweetAnalyzer.egg-info/dependency_links.txt
+TweetAnalyzer.egg-info/top_level.txt
