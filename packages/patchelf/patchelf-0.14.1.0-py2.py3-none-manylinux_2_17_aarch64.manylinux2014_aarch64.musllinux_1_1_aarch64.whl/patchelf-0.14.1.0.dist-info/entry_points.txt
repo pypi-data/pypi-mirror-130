@@ -1,0 +1,3 @@
+[console_scripts]
+patchelf = patchelf:patchelf
+
