@@ -1,0 +1,12 @@
+plz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plz/colorize.py,sha256=90oofT7qS_cdjXc_YwRSwANrc1VOqKVU8w63ZrO_B2g,1066
+plz/config.py,sha256=Xr4yftrQVKlOdRm8q25uUK1gdHb2Ure6fyJKHGN88tk,2752
+plz/glob_tools.py,sha256=MtoUxYFcZH-h7YYAx-JkeMbQrazCt3VCsq0jxFOpRk4,1381
+plz/main.py,sha256=TWUMEtQeZEdGxg0fC3_NIXixQ_jDjXxmJ4sw_lE-IJM,2284
+plz/runner.py,sha256=Rg1iacO_zYKkHb_PNciCILKkNa47mMFAUupvTAA2RiA,2518
+plz/schema.py,sha256=GJc8Jo31k4fYpcJQDMd9apjY1muBmwHrhncpWWz2QnM,1360
+plz_cmd-1.0.4.dist-info/entry_points.txt,sha256=9P_lVMzL32qr9dfQiDFCLVxOlDqrA1roRFZd4KoNVSI,37
+plz_cmd-1.0.4.dist-info/LICENSE,sha256=6iyifLp8w1gi2VpG1ZvNPMiOGWWS5jkNGUmjWf_JkOg,1092
+plz_cmd-1.0.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+plz_cmd-1.0.4.dist-info/METADATA,sha256=5EQ8q8cQPbFGqu9NQ2rYGw-068YiBKLN98id8AG4qmw,4364
+plz_cmd-1.0.4.dist-info/RECORD,,
