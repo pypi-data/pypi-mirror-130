@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+add_package/Add.py
+add_package/__init__.py
+add_package/dir_file.py
+add_package/paddle_test.py
+add_package.egg-info/PKG-INFO
+add_package.egg-info/SOURCES.txt
+add_package.egg-info/dependency_links.txt
+add_package.egg-info/top_level.txt
