@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "img2ansi"
+version = "0.1.2"
+description = "Convert image to ascii/unicode ANSI sequence"
+authors = ["Daniel Bañuelos <dax99993@gmail.com>"]
+readme = "README.md"
+license = "GPL2"
+
+[tool.poetry.scripts]
+img2ascii = "img2ansi.img2ascii:main"
+img2braile = "img2ansi.img2braile:main"
+img2block = "img2ansi.img2block:main"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Pillow = "^8.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+myst-nb = "^0.13.1"
+sphinx-autoapi = "^1.8.4"
+sphinx-rtd-theme = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
