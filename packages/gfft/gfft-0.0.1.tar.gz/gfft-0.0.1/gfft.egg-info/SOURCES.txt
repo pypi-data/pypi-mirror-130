@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+./CODE_OF_CONDUCT.md
+./LICENSE
+./requirements.txt
+gfft.egg-info/PKG-INFO
+gfft.egg-info/SOURCES.txt
+gfft.egg-info/dependency_links.txt
+gfft.egg-info/top_level.txt
