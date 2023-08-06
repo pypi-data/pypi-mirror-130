@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+dirtree_chart/__init__.py
+dirtree_chart/__main__.py
+dirtree_chart/config.py
+dirtree_chart/diagram.py
+dirtree_chart.egg-info/PKG-INFO
+dirtree_chart.egg-info/SOURCES.txt
+dirtree_chart.egg-info/dependency_links.txt
+dirtree_chart.egg-info/top_level.txt
