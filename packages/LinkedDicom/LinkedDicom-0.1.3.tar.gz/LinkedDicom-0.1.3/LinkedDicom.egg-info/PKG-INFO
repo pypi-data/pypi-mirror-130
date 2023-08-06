@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: LinkedDicom
+Version: 0.1.3
+Summary: A package to extract DICOM header data and store this in RDF
+Home-page: https://github.com/MaastrichtU-CDS/LinkedDicom
+Author: Johan van Soest
+Author-email: j.vansoest@maastrichtuniversity.nl
+License: Apache 2.0
+Description: A package to extract DICOM header data and store this in RDF
+Platform: UNKNOWN
