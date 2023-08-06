@@ -1,0 +1,9 @@
+spreadsheet/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spreadsheet/spreadsheet.py,sha256=QuHn_4Zu6ykuPGsPybV3rJhdWYIdtMArUB7wvYC13wA,15073
+spreadsheet/tableediting.py,sha256=yWdVrS2Gtr2iNz0FExljW8DhJTGUSIBw0ziPwG6d0NM,1820
+spreadsheet/tablequery.py,sha256=QN-EYTOnTrNEHiRqInbMJDQ9aPSpD9rUtFja7_zDzn8,3021
+pyOnlineSpreadSheetEditing-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyOnlineSpreadSheetEditing-0.0.3.dist-info/METADATA,sha256=7jBfMEAdXEZfv8HmA-HauD6gl1YjEP1hV10e_5ZswgA,2354
+pyOnlineSpreadSheetEditing-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyOnlineSpreadSheetEditing-0.0.3.dist-info/top_level.txt,sha256=wff6gIO_KnAe-hRt-HhY6uVnJ1rvakp72XOkOGZsFf0,12
+pyOnlineSpreadSheetEditing-0.0.3.dist-info/RECORD,,
