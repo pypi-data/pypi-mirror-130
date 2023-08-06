@@ -1,0 +1,4 @@
+include TMFrame/*
+include TMFrame/font/*
+include example/*
+recursive-include TMFrame
