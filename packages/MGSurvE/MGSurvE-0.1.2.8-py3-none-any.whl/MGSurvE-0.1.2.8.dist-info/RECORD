@@ -1,0 +1,16 @@
+MGSurvE/__init__.py,sha256=UsamQUT3Tn1ILVzgvlxiPKD1v2qhoTGtGbTjSc0zCB0,221
+MGSurvE/_version.py,sha256=B8hWiquS6mhHIHS_0vMAEWPBqeS1OUABFAmmwXg7xE8,23
+MGSurvE/auxiliary.py,sha256=EQeYC2yxvJinO9gaBhaWcEYsrTQ0bNdrAZrDEPk3wRE,2468
+MGSurvE/colors.py,sha256=MpzQgLAd3JkfKYgOySyCkDAWegft5GnFk8DDnmrh80w,549
+MGSurvE/constants.py,sha256=3JNPLQo1bv-BP22nc0EZeHpsPD5qXT8jRspFt_10uKE,1319
+MGSurvE/kernels.py,sha256=DA4pqZ8Jg6jqxw8btR3TO2edT3dcWAilXucrzC0Ri4Q,4626
+MGSurvE/landscape.py,sha256=zrpzIqOkQNHd-ZmcfKBPhb4M_j7-NGJAxWWdk5GTQa4,15705
+MGSurvE/matrices.py,sha256=3gfhIxtZ1pnaC9WR9Ygs3cXRe6UslwIs1ilIFSSO9Ok,3656
+MGSurvE/optimization.py,sha256=HsDMAHbHmsYffTTcPvGvQIUABuUE8C7psbGJaobbaas,10402
+MGSurvE/plots.py,sha256=u3rlTmTy3Rzih3b44upLBWVV6Oaz5B4pk4JCzbYBhHc,10895
+MGSurvE/pointProcess.py,sha256=HNityuE3RGQhe57EuU5x8yDE1HpdxoAdSyTLI-k0Heg,1895
+MGSurvE-0.1.2.8.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+MGSurvE-0.1.2.8.dist-info/METADATA,sha256=BaiiDTDWOWRDZABljJHh5wmjUPjn2coyhwDsGeqVTYM,2752
+MGSurvE-0.1.2.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+MGSurvE-0.1.2.8.dist-info/top_level.txt,sha256=wNb56FWF1IHswKNcVyWTphU-qixMhoox8BVI-FCkz9w,8
+MGSurvE-0.1.2.8.dist-info/RECORD,,
