@@ -1,0 +1,14 @@
+detect-language-sentiments-result
+*********************************
+
+
+Description
+===========
+
+Result of sentiments detect call.
+
+
+Available Commands
+==================
+
+* detect-language-sentiments

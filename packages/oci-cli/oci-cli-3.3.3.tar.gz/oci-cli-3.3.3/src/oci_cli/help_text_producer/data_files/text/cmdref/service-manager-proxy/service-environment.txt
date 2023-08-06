@@ -1,0 +1,16 @@
+service-environment
+*******************
+
+
+Description
+===========
+
+Model describing service environment properties.
+
+
+Available Commands
+==================
+
+* get
+
+* list

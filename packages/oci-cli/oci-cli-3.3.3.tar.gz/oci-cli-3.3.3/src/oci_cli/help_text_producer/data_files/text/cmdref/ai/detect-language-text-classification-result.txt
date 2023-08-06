@@ -1,0 +1,14 @@
+detect-language-text-classification-result
+******************************************
+
+
+Description
+===========
+
+Result of text labels detect call.
+
+
+Available Commands
+==================
+
+* detect-language-text-classification

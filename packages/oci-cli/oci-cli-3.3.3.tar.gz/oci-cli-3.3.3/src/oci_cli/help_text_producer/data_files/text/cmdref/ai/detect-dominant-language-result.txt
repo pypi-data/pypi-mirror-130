@@ -1,0 +1,14 @@
+detect-dominant-language-result
+*******************************
+
+
+Description
+===========
+
+Result of language detect call.
+
+
+Available Commands
+==================
+
+* detect-dominant-language

@@ -1,0 +1,18 @@
+service-manager-proxy
+*********************
+
+
+Description
+===========
+
+CLI to manage Service manager proxy.
+
+
+Available Commands
+==================
+
+* service-environment
+
+  * get
+
+  * list
