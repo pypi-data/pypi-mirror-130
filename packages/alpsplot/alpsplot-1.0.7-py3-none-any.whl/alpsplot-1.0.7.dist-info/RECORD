@@ -1,0 +1,15 @@
+alpsplot/__init__.py,sha256=BkBAqM8PpnEk5cc66TiB0vpaB9RcfOKvB_iwsRCpeVA,331
+alpsplot/alpsplot.mplstyle,sha256=0Nde9hRPkw57wJtqFlqKMzA5H17kJdHj3qoawpMEDrI,308
+alpsplot/colormap.py,sha256=vPaxbdmEppLXBjzuq0EpDUbQ4lEauFue7B_d0dW-kPE,5685
+alpsplot/figure.py,sha256=AE1ZAhrjV2B9fA70piQBkSKEXOTpfzl8178LSfSayuM,39814
+alpsplot/version.py,sha256=B5wpfAS6Krl6qwJY5BTEdW3LX8qZH6YQnOk6awUqxqs,46
+alpsplot/utils/__init__.py,sha256=gC5J8wdeR-Y-AiHewxMogLR_Rn54WzKtSAoeZjnOQ4A,95
+alpsplot/utils/basic.py,sha256=gRx3vUTk62qQE5ZfVYa83XnmLwCqQLgb_Vllf4zlvfM,4255
+alpsplot/utils/error_bar.py,sha256=7jkTb6zo5enCnO9Pp7VsrdXkMIhcrOpKECFKW3o5CiA,7199
+alpsplot/utils/fit.py,sha256=0CgZjLr7f0BdbqejbsRm1sY7qewGE9IcbCMnbZq9QBc,12291
+alpsplot/utils/fonts/__init__.py,sha256=-hRNIYjY-HGPZ6x3elgLSD2nf1qzkmiQIOy8jF08M4o,1504
+alpsplot-1.0.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+alpsplot-1.0.7.dist-info/METADATA,sha256=QrsXhUoLuaCre6n4zHIR_pI9fvN2uxCpjuGXrVDSToU,1709
+alpsplot-1.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+alpsplot-1.0.7.dist-info/top_level.txt,sha256=X8Ft1HK7dA4zt2QDHtNlyTaFz8GG5MDlcDYDKJWtSjc,9
+alpsplot-1.0.7.dist-info/RECORD,,
