@@ -1,0 +1,9 @@
+altb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+altb/common.py,sha256=aYcukJxUzET0Wri654eRAR09ZkZCOBSMuiLpPLccvSY,115
+altb/config.py,sha256=KKXL7uk1fqd0EyEF2nbeHI1meQQHqLpFbkHjejVNK_8,7574
+altb/constants.py,sha256=SAaayUOdmV4mfdJbpvzuaWMBN-MkO99ko2_DXAFCRKQ,376
+altb/main.py,sha256=YIkyfs-GPMEAI6eu9ztfxGLGTk8isf_kAw8N98dE9mM,12110
+altb-0.2.0.dist-info/entry_points.txt,sha256=o40qA5AeGtke5XAIOzpGPTmzyyBhu_vZSSMg9wr6SVM,39
+altb-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+altb-0.2.0.dist-info/METADATA,sha256=o9sTuvFDO5k6y1kI_uRDBUPM1QC0BpHePOF7at1s0Bo,722
+altb-0.2.0.dist-info/RECORD,,

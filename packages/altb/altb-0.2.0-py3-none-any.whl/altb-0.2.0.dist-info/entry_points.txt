@@ -1,0 +1,3 @@
+[console_scripts]
+altb=altb.main:main
+
