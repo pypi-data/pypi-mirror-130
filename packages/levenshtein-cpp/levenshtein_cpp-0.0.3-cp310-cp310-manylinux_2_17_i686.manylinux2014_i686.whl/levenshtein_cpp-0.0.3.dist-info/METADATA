@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: levenshtein-cpp
+Version: 0.0.3
+Summary: A small levenshtein algorithm in cpp
+Home-page: https://github.com/mwath/levenshtein-cpp
+Author: Walravens Mathieu
+License: MIT
+Project-URL: GitHub: issues, https://github.com/mwath/levenshtein-cpp/issues
+Project-URL: GitHub: repo, https://github.com/mwath/levenshtein-cpp
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# levenshtein-cpp
+A small levenshtein algorithm in cpp
+
+
