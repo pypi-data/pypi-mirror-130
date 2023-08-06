@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+actionscicd/__init__.py
+actionscicd/somecode.py
+actionscicd/data/__init__.py
+actionscicd/data/mogi_data.tsv
+github_actions_cicd_example.egg-info/PKG-INFO
+github_actions_cicd_example.egg-info/SOURCES.txt
+github_actions_cicd_example.egg-info/dependency_links.txt
+github_actions_cicd_example.egg-info/requires.txt
+github_actions_cicd_example.egg-info/top_level.txt
+tests/__init__.py
+tests/test_somecode.py
