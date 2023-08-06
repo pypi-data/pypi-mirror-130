@@ -1,0 +1,9 @@
+requests
+PyQt5
+AnyQt
+numpy
+setuptools
+bluewhale-canvas-core
+bluewhale-widget-base
+BlueWhale3
+python-i18n
