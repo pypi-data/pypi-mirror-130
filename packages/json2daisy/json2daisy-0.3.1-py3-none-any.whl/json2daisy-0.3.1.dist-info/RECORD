@@ -1,0 +1,17 @@
+json2daisy/__init__.py,sha256=qlAiCcWsC_sb7EvF75HyDHsalme_2EJj2jCmFJgM0SA,26
+json2daisy/__main__.py,sha256=KGOExVY1CHESRAZhtzeqDnROP1jR9714TTKgtMSMOCk,1100
+json2daisy/json2daisy.py,sha256=DlmCi-WV2Ka2cpkZB3atGYbpXdwwFqZ67o3lZyPoGno,12606
+json2daisy/resources/LICENSE,sha256=yas1oAeSTr0j6EvMXLVIKBRi72sFdKjprSNQr_I-uQ8,1069
+json2daisy/resources/component_defaults.json,sha256=1SYzw22W0v-RjTW3VbwnFoJUBX09tz7tsusxxNx2e-g,10111
+json2daisy/resources/component_defaults_patchsm.json,sha256=nL4U-KUiLuTxWV34MrWkX8ACIxNqA205HYyqxWuDpNM,6094
+json2daisy/resources/field.json,sha256=-NCEj3GuJ-pt9SPxvu9nRucT17g2k0pxHj0Qnnu7ce0,7164
+json2daisy/resources/patch.json,sha256=VBt9g3Fn_pmui_B_209oNxHaMXEYbVXGFguujj0rgts,1349
+json2daisy/resources/patch_init.json,sha256=lJN_vydvAPgNaGDHkEbxFYh7X2nTTQFAaAAJXpTdKoY,2436
+json2daisy/resources/petal.json,sha256=3kGTw7BI6HB3LjZitbTYWDELFp4DclSGtkPbRkDj_Z0,3754
+json2daisy/resources/pod.json,sha256=pVX7vOi5M7DkzJIIF7cSN_RbpDmbiuTpgvBLASeluEg,1352
+json2daisy/templates/daisy.h,sha256=9TSnJoIBI8nbTdTR1HZBYk2xF1yc2bmi3LEUDWWa-6M,7044
+json2daisy-0.3.1.dist-info/LICENSE,sha256=yas1oAeSTr0j6EvMXLVIKBRi72sFdKjprSNQr_I-uQ8,1069
+json2daisy-0.3.1.dist-info/METADATA,sha256=wO4pG6h_FK2DptvgsouXMR3qPIwHmX7S7N3TK0cOByI,2620
+json2daisy-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+json2daisy-0.3.1.dist-info/top_level.txt,sha256=5V07jsBlUJfcpdtBPjJnjDNZwS9Gg1S83ju6LDU_ieo,11
+json2daisy-0.3.1.dist-info/RECORD,,
