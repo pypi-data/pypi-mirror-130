@@ -1,0 +1,14 @@
+{ "path_loading_weights_and_parameters": "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/experiments/batch_unet3/"
+, "paths_image_folder": [ "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/mean_images_ina/test/img"
+                        , "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/mean_images_julian/test/img"
+                        , "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/frame_images_ina/test/img"
+                        ]
+, "comments": "structure like [folder1, folder2, ...]. Needs .png format with naming like Img_190130_Spon_12-35-39_moco.png"
+, "paths_masks_folder": [ "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/mean_images_ina/test/mask"
+                        , "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/mean_images_julian/test/mask"
+                        , "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/frame_images_ina/test/mask"
+                        ]
+, "comments": "structure like [folder1, folder2, ...]. Needs .png format with naming like Seg_190130_Spon_12-35-39_moco.png.If no masks available insert []"
+, "path_save_predictions": "C:/Users/nruff/Anaconda3/envs/labelme/Lib/site-packages/labelme/data/predictions/"
+, "comments": "Will save polygons as image and in Labelme compatible format"
+}
