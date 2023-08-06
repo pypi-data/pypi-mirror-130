@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: polidoro-table
+Version: 1.1.0
+Summary: Terminal Table.
+Home-page: https://github.com/heitorpolidoro/polidoro-table
+Author: Heitor Polidoro
+License: unlicense
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Polidoro Table
+

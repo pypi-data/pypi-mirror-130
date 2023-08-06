@@ -1,0 +1,13 @@
+polidoro_table/__init__.py,sha256=NFUu5z8PlNiysdw-a5sUS708bB2NlsKOSoVqzavu7pk,503
+polidoro_table/borders.py,sha256=8d2oypFzuRBOhSW2GbAH6AMBfFZ1-VuAEmDPfv-RTO4,1934
+polidoro_table/cell.py,sha256=ap4N8VrkpywEemKmg_ZrhEVoXGRnPPIFYYXFHJG5urU,850
+polidoro_table/column.py,sha256=CjPE8HfYdOny53SF5wjJWEi1lrNKeynK6hahnALJ3Xo,642
+polidoro_table/property.py,sha256=Uf7HfJ27GCjLR40vWoPIKPZhKpokTcw90yMSMgRPIGQ,1011
+polidoro_table/row.py,sha256=OrTGwjE4r1mtOnqq1J_Gs-9jrieX2o7kX2p5aTExTEo,503
+polidoro_table/string_utils.py,sha256=_bGuV6YIWqycbQdsvp68ZPV7gaKMToWjmeRQVAkCdlU,337
+polidoro_table/table.py,sha256=7esoeLXegw_2Sv9Ve1eBrPl-U5yfy30asnwLtNLm4JM,5140
+polidoro_table-1.1.0.dist-info/LICENSE,sha256=Fz_GqaxyXCkn86hRq38ZK9qfBsqc6f8QS3IS9SVFkRQ,1072
+polidoro_table-1.1.0.dist-info/METADATA,sha256=ZDpzeUhKhcrARIEBBX9skB5eUnCIuBGx0NawVxgwf00,431
+polidoro_table-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+polidoro_table-1.1.0.dist-info/top_level.txt,sha256=1T-VWlP2zwFouv7ajttcebbXvKifKvAzV6lRPwCGmbY,15
+polidoro_table-1.1.0.dist-info/RECORD,,
