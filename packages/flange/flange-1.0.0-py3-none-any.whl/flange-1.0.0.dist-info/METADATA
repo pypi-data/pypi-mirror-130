@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: flange
+Version: 1.0.0
+Summary: Autoload configuration from multiple sources, object registry, dpath access.
+Home-page: https://github.com/flashashen/flange
+Author: flashashen
+Author-email: flashashen@gmail.com
+License: MIT
+Keywords: configuration yaml object registry spring
+Platform: osx
+Platform: linux
+Platform: mswindows
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Environment :: Console
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown
+Requires-Dist: anyconfig (>=0.9.0)
+Requires-Dist: PyYAML (>=5.3.1)
+Requires-Dist: jsonschema (>=3.*)
+Requires-Dist: dpath (>=1.4.0)
+
+file: README.md
+
+

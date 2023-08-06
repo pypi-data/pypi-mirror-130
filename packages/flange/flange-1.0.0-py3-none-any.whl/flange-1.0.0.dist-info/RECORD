@@ -1,0 +1,15 @@
+flange/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+flange/cfg.py,sha256=HPuxjqgXrDH_FTh5ZA0M8HJ-gWKrJthC3sClD7znONE,23813
+flange/data.py,sha256=NGBmlhuUzIIO6CvmHEjrj90ugTbRjq2cDFNqHYTaSNs,3484
+flange/dbengine.py,sha256=JZgSVdBmPteCBXFsUPz0RsKobhoGGURrYd2rdG5eLiY,889
+flange/httpjson.py,sha256=ptil49H6hLF5jAkaEfdNsrC2fAmacvlPDua-j2jixkk,565
+flange/iterutils.py,sha256=3zQBCuhX4MbSWcuCs2DW-nd6cAp8VUa0slzINBiOCI0,48775
+flange/model.py,sha256=wbTEasv1xNt9cm-ovzcUmdTNhXaYSP9NoJv5eAFk83Y,4237
+flange/source.py,sha256=Kxl7iLpL6ZVSn1YhBk-YbmKaikGsJohHuGkXVGn0Muc,1985
+flange/url_scheme_python.py,sha256=UzfjwJGE0NyCHdy5meq2tWaouwiYub2PeHSniDmxFPM,3048
+flange/util/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flange-1.0.0.dist-info/LICENSE,sha256=r7EUJuCdpAoa5Pj6F93Ma2pS0U3wTCm8W80G64cwYk0,1057
+flange-1.0.0.dist-info/METADATA,sha256=FTSQyb4X3U0SkzsPsb1cVkdT7tS8A4ExamzN6q7cv64,1155
+flange-1.0.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+flange-1.0.0.dist-info/top_level.txt,sha256=XEdmSXEjP1Wn_UQW3sDfsh_o5VbOXUgkkJxETP2H0xQ,7
+flange-1.0.0.dist-info/RECORD,,
