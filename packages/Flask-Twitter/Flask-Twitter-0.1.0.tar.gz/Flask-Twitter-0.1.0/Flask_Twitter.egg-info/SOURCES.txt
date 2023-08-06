@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+Flask_Twitter.egg-info/PKG-INFO
+Flask_Twitter.egg-info/SOURCES.txt
+Flask_Twitter.egg-info/dependency_links.txt
+Flask_Twitter.egg-info/not-zip-safe
+Flask_Twitter.egg-info/requires.txt
+Flask_Twitter.egg-info/top_level.txt
