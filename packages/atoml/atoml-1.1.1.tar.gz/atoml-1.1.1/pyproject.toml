@@ -1,0 +1,46 @@
+[build-system]
+requires = [ "pdm-pep517",]
+build-backend = "pdm.pep517.api"
+
+[project]
+name = "atoml"
+requires-python = ">=3.6"
+dependencies = []
+description = "Yet another style preserving TOML library"
+readme = "README.md"
+dynamic = []
+classifiers = [ "License :: OSI Approved :: MIT License", "Operating System :: MacOS", "Operating System :: Microsoft :: Windows", "Operating System :: POSIX :: Linux", "Programming Language :: Python :: 3 :: Only", "Programming Language :: Python :: 3.6", "Programming Language :: Python :: 3.7", "Programming Language :: Python :: 3.8", "Programming Language :: Python :: 3.9", "Programming Language :: Python :: 3.10", "Programming Language :: Python :: Implementation :: CPython", "Programming Language :: Python :: Implementation :: PyPy", "Topic :: Software Development :: Libraries :: Python Modules",]
+version = "1.1.1"
+[[project.authors]]
+name = "Frost Ming"
+email = "mianghong@gmail.com"
+
+[[project.authors]]
+name = "Sébastien Eustace"
+email = "sebastien@eustace.io"
+
+[tool.black]
+line-length = 88
+include = "\\.pyi?$"
+exclude = "/(\n    \\.git\n  | \\.hg\n  | \\.mypy_cache\n  | \\.tox\n  | \\.venv\n  | _build\n  | build\n  | dist\n  | tests/toml-test\n)/\n"
+
+[tool.isort]
+profile = "black"
+atomic = true
+lines_after_imports = 2
+lines_between_types = 1
+known_first_party = [ "atoml",]
+known_third_party = [ "pytest",]
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+Homepage = "https://github.com/frostming/atoml.git"
+Repository = "https://github.com/frostming/atoml.git"
+
+[tool.pdm.version]
+use_scm = true
+
+[tool.pdm.dev-dependencies]
+test = [ "pytest", "pytest-cov", "pyyaml~=5.4",]
