@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ncat/__init__.py
+ncat/ncat.py
+ncat.egg-info/PKG-INFO
+ncat.egg-info/SOURCES.txt
+ncat.egg-info/dependency_links.txt
+ncat.egg-info/top_level.txt
