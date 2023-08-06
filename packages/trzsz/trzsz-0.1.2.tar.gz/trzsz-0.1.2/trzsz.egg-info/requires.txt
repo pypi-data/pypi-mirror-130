@@ -1,0 +1,3 @@
+trzsz-libs
+trzsz-svr
+trzsz-iterm2
