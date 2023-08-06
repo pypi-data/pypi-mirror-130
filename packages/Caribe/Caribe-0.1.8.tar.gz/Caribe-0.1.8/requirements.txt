@@ -1,0 +1,4 @@
+gingerit==0.8.2
+nltk==3.6.3
+transformer==4.12.5
+pandas
