@@ -1,0 +1,8 @@
+setup.py
+spam/__init__.py
+spam/main.py
+spam_yo_friends.egg-info/PKG-INFO
+spam_yo_friends.egg-info/SOURCES.txt
+spam_yo_friends.egg-info/dependency_links.txt
+spam_yo_friends.egg-info/requires.txt
+spam_yo_friends.egg-info/top_level.txt
