@@ -1,0 +1,24 @@
+# Ignore vim tmp files
+*.swp
+*.swo
+.netrwhist
+
+# Ignore some Python-related stuff
+__pycache__/
+*.egg
+*.egg-info
+.tox/
+_version.py
+
+# Virtual environment
+env/
+venv/
+virt/
+
+# Build folders
+build/
+BUILD/
+dist/
+
+# Git and mergetool stuff
+*.orig
