@@ -1,0 +1,9 @@
+v1.3.0 -- Ability to play with the content
+v1.2.5 -- Remove a bug on the request procedure
+v1.2.5 -- Remove debug prints
+v1.2.3 -- Corrections
+v1.2.0 -- Add HTTPS connection, add any kind of HTTP METHOD request
+v1.1.0 -- Add Purge JSON and XML tests
+v0.1.12 -- bug fix
+v0.1.0 -- Initial release
+
