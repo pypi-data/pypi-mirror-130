@@ -1,0 +1,34 @@
+# elemenpy
+
+[![CircleCI](https://circleci.com/gh/import-brain/elemenpy/tree/main.svg?style=svg)](https://circleci.com/gh/import-brain/elemenpy/tree/main)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2bc4a20139594a93b6a75f52d87b920c)](https://www.codacy.com/gh/import-brain/elemenpy/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=import-brain/elemenpy&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/2bc4a20139594a93b6a75f52d87b920c)](https://www.codacy.com/gh/import-brain/elemenpy/dashboard?utm_source=github.com&utm_medium=referral&utm_content=import-brain/elemenpy&utm_campaign=Badge_Coverage)
+
+Hello! elemenpy is a small Python periodic table module that is used for calling certain information about an element.
+
+## Installation
+
+1. Install Python and pip [here](https://www.python.org), if they are not installed already.
+2. Go to your command-line interface of choice and write the command ```pip install elemenpy```.
+
+## Usage
+
+Elemenpy needs to be imported with the usage of ```import elements``` at the top of the Python file.
+
+Examples of usage:
+
+```python
+from elements import elements
+
+print(elements.symbol(1)) # should be H
+print(elements.name(27)) # should be Cobalt
+print(elements.mass(59)) # should be 140.9077
+```
+
+## Contributing
+
+The Elemenpy team welcomes all contributions, please see the contributing guidelines file [here](CONTRIBUTING.md).
+
+## Testing
+
+Elemenpy requires ```pytest``` to run its tests in the tests/ directory. All pull requests to the main branch will be linted and tested by CircleCI. In addition, CircleCI will upload a coverage report to Codacy, allowing us to see current test coverage and other code smells.

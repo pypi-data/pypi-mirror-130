@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+elemenpy.egg-info/PKG-INFO
+elemenpy.egg-info/SOURCES.txt
+elemenpy.egg-info/dependency_links.txt
+elemenpy.egg-info/requires.txt
+elemenpy.egg-info/top_level.txt
+elements/__init__.py
+elements/classes.py
+elements/elements.py
+elements/lists.py
+tests/__init__.py
+tests/test_classes.py
+tests/test_elements_dict.py
+tests/test_elements_integration.py
+tests/test_lists.py
