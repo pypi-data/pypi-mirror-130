@@ -1,0 +1,8 @@
+setup.py
+TIREX.egg-info/PKG-INFO
+TIREX.egg-info/SOURCES.txt
+TIREX.egg-info/dependency_links.txt
+TIREX.egg-info/requires.txt
+TIREX.egg-info/top_level.txt
+tirex/__init__.py
+tirex/tirex.py

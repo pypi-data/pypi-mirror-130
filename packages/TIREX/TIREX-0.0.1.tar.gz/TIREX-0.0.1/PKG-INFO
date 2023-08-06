@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: TIREX
+Version: 0.0.1
+Summary: Dimensionality Reduction in extreme regions
+Home-page: UNKNOWN
+Author: Anass Aghbalou
+Author-email: anass.aghbalou@hotmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,Dimensionality reduction,Large/extreme values,Machine learning,regression,anomaly detection
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
