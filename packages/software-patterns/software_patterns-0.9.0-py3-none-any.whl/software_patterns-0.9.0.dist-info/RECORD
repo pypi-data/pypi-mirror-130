@@ -1,0 +1,9 @@
+software_patterns/__init__.py,sha256=DRiyqHJ0-uK443gBfiaYQMZ3LiRr34UEfnnI_kMkiNk,287
+software_patterns/memoize.py,sha256=1YO4e1nUqkKa7qLf1ge6YnUV0IlVcnnReWpp-H-289A,2587
+software_patterns/notification.py,sha256=t7z8LZcZFvuBkPaaMJoHxIKlH_DEPvDkdiVxJwlcMa4,3194
+software_patterns/proxy.py,sha256=k--j6JR1te3fu2H8VEwjTzkmpRqDOpA5cttmnkc3V9w,1787
+software_patterns/subclass_registry.py,sha256=m0pOOxM66P32QBT-1ZoJWjyFLOY00ZYOFrTUOX1Rw7Y,4422
+software_patterns-0.9.0.dist-info/METADATA,sha256=ENRJKuc-lzJTIEe1kb42ttAk7BJjuk-kH9NYiyxCoOk,5218
+software_patterns-0.9.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+software_patterns-0.9.0.dist-info/top_level.txt,sha256=gs9auJGlz6dh0RwkJl8OV_o1KCBfnNn-sowcsIVF1UI,18
+software_patterns-0.9.0.dist-info/RECORD,,
