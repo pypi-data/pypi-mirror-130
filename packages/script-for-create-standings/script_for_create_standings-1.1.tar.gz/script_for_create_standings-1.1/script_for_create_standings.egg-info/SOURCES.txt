@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+script_for_create_standings/__init__.py
+script_for_create_standings/racer.py
+script_for_create_standings/racer_time.py
+script_for_create_standings.egg-info/PKG-INFO
+script_for_create_standings.egg-info/SOURCES.txt
+script_for_create_standings.egg-info/dependency_links.txt
+script_for_create_standings.egg-info/top_level.txt
