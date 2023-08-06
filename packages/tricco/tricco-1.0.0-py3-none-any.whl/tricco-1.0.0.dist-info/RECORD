@@ -1,0 +1,10 @@
+tricco/__init__.py,sha256=XaHjGqsJEpz0_5V6fjyUC7b0nd94o1ytVft_zLLpCqw,220
+tricco/compute.py,sha256=wPRaNxxkEsd2h0BET7mkRlG_oDL-qIcj7O80VK7WlwY,8143
+tricco/cubulation_functions.py,sha256=BgX42jHlSFnprATw-mlZ9-lorJWRR-tNcY1YHR2MMiI,11514
+tricco/grid_functions.py,sha256=2A4OkFbrbZN27fCaN8mWHrWir88_CF4VHBFnZJc9gbs,517
+tricco/prepare.py,sha256=dk2F82U79rFTnY6iY6ISGJm9Cib33ueG0N1rf-Et9hU,4440
+tricco-1.0.0.dist-info/LICENSE,sha256=_OAuu2kcdozeGUr76RuAJf17H0kDHzOZbeskalkm8OI,35150
+tricco-1.0.0.dist-info/METADATA,sha256=tjlH40I4aXvAESTJ-MG7sSL5PBOvlDbA33G7bCWKchY,644
+tricco-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tricco-1.0.0.dist-info/top_level.txt,sha256=ZPkZUzrBXgMcFnH3n4p_IGJFAeycbKNJzLJXj3OV3aI,7
+tricco-1.0.0.dist-info/RECORD,,
