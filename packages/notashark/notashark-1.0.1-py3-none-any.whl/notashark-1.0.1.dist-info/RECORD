@@ -1,0 +1,14 @@
+notashark/__init__.py,sha256=l7aaagcJ_hXfH9JKDzB_DfwUiinxaPTlvRybNJ3kJRo,955
+notashark/__main__.py,sha256=qoy8ci4QMXemptHEMBULE_JEGJgCIVZkN0rOVNopYm4,811
+notashark/cli.py,sha256=fsHvVnO6B03UyOsqi3NA5C4X6ECsLKfD6lS5DuRvbtM,5226
+notashark/discord_bot.py,sha256=urLUpNwxHTF6oKl5ptkFnHsPa70MIGMg382fayL_pKc,15838
+notashark/embeds.py,sha256=dKPRyQBj6RoWImJU-__I_ZVUkFZOU9twTbaKjzbVz3s,9175
+notashark/fetcher.py,sha256=U8FjVkrg198FJB7Ok4ymML-qD02kZ2VnOBAjHdwuzYM,12492
+notashark/parts.py,sha256=dJk91I5UhQ_tGUPQ2QVJgYMGz00WTtYiF5RrAepvD88,2188
+notashark/settings.py,sha256=7gRFpUmKVqmArPyAYTUNsSi5b4VNTXJkVKWUVde8C0k,3972
+notashark-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+notashark-1.0.1.dist-info/METADATA,sha256=vpcr_Em5Ksrp9mD5g0hB1zjxwm79CyLZOqd8wxCEKhY,2711
+notashark-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+notashark-1.0.1.dist-info/entry_points.txt,sha256=JrCUD2i1A7jxgszvwSzW4r4J5XPr56myjK-QSjl_ahw,50
+notashark-1.0.1.dist-info/top_level.txt,sha256=pIukSD9DZVu4FEsTIYpOMwjrbnrw1gMcHM95coamSFo,10
+notashark-1.0.1.dist-info/RECORD,,
