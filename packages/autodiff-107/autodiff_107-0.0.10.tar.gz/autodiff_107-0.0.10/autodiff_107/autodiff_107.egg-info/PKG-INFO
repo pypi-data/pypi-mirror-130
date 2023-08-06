@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: autodiff-107
+Version: 0.0.10
+Summary: An automatic differentiation package built as the final project for CS107
+Home-page: https://github.com/cs107-errajexi/autodiff_107
+Author: Eryk Pecyna, Raphael Pellegrin, Jean-Guillaume Brasier, Xiyu Yang
+Author-email: erykpecyna@college.harvard.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+[![Build Status](https://app.travis-ci.com/cs107-errajexi/cs107-FinalProject.svg?token=MV6ZCvzJMZTkyEnN1o6m&branch=main)](https://app.travis-ci.com/cs107-errajexi/cs107-FinalProject)
+[![codecov](https://codecov.io/gh/cs107-errajexi/cs107-FinalProject/branch/main/graph/badge.svg?token=DGJBAM78NF)](https://codecov.io/gh/cs107-errajexi/cs107-FinalProject)
+[![docs](https://img.shields.io/static/v1.svg?label=docs&message=0.0.2&color=blue)](https://jgbrasier.github.io/cs107test/)
+
+![autodiff-107](figs/logo.png)
+
+AC207 Fall 21
+
+Group number 18
+
+
+## Team:
+1. Raphael Pellegrin: 	raphaelpellegrin@g.harvard.edu
+2. Jean Guillaume Brasier: jbrasier@g.harvard.edu
+3. Eryk Pecyna: erykpecyna@college.harvard.edu
+4. Xiyu Yang: xiyuyang@fas.harvard.edu
+
+
