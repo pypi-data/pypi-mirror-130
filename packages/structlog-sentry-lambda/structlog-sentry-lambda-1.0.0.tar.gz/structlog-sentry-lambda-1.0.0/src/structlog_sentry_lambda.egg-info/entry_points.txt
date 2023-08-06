@@ -1,0 +1,3 @@
+[console_scripts]
+structlog_sentry_lambda = structlog_sentry_lambda:main
+
