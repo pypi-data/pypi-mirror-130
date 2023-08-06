@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: digitallab
+Version: 1.4.3.3
+Summary: digitallab is a python package for conducting large-scale computational experiments.
+Home-page: https://gitlab.com/Dnis/dlab
+Author: Dennis Kreber
+Author-email: dnis.kk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: pymongo
+Requires-Dist: sacred
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: tables
+Requires-Dist: pick
+
+# Digital Lab (digitallab)
+## Introduction
+**digitallab** is a python package for conducting large-scale computational experiments. The underlying framework
+is based on the module [sacred](https://sacred.readthedocs.io/en/stable/). It extends its functionality by
+allowing batches of experiments, repetitions of experiments with different seeds, and parallel execution
+of experiments. Furthermore, it provides tools to evaluate the experiments via plots or tables.
+
+## Dependencies
+### Python packages:
+* numpy
+* tqdm
+* sacred
+* pandas
+* seaborn
+* matplotlib
+* pytables
+* pick
+
+### Optional dependencies:
+#### For using MongoDB:
+* pymongo
+* MongoDB database
+
+#### For using TinyDB:
+* tinydb (~=3.15.2)
+* tinydb-serialization (~=1.0.4)
+* hashsf
+
+## Installation
+### Via pip
+Run
+
+    pip install --user digitallab
+
+### From source
+Clone the project to your hard drive and run the command
+
+    python3 setup.py install --user
+    
+in the project folder.
+    
+## Example
+### Conducting experiments
+Assume we want to compare the run times and quality of three methods (`fast`, `slow`, `special`). 
+`fast` and `slow` are taking the same arguments while `special` requires an extra parameter. 
+We want to compare two instances "A" and "B". The three methods are defined as follows:
+
+    import numpy as np
+    
+    def slow(config):
+        np.random.seed(config["seed"])
+        return_dict = dict()
+        if config["instance"] == "A":
+            return_dict["runtime"] = np.max(np.random.normal(1000, scale=300), 0)
+            return_dict["value"] = np.random.normal(1, scale=0.5)
+        else:
+            return_dict["runtime"] = np.max(np.random.normal(10000, scale=300), 0)
+            return_dict["value"] = np.random.normal(10, scale=0.5)
+        return return_dict
+
+
+    def fast(config):
+        np.random.seed(config["seed"])
+        return_dict = dict()
+        if config["instance"] == "A":
+            return_dict["runtime"] = np.max(np.random.normal(200, scale=100), 0)
+            return_dict["value"] = np.random.normal(2, scale=0.7)
+        else:
+            return_dict["runtime"] = np.max(np.random.normal(2000, scale=100), 0)
+            return_dict["value"] = np.random.normal(20, scale=0.7)
+        return return_dict
+    
+    
+    def special(config):
+        np.random.seed(config["seed"])
+        return_dict = dict()
+        if config["instance"] == "A":
+            return_dict["runtime"] = np.max(np.random.normal(500, scale=100), 0)
+            return_dict["value"] = np.random.normal(1.5, scale=config["scale"])
+        else:
+            return_dict["runtime"] = np.max(np.random.normal(5000, scale=100), 0)
+            return_dict["value"] = np.random.normal(15, scale=config["scale"])
+        return return_dict
+        
+Then we can run the experiments. For the purpose of this example we will be using TinyDB, however 
+MongoDB is highly recommended and should be the preferred database for storing experimental results. 
+
+    from dlab.lab import Lab
+    
+    # create the lab
+    lab = Lab("example").add_tinydb_storage("example_db")
+    
+Then we assign two dictonaries which define our experiments. `digitallab` will provide every
+possible combination of parameters to our experiment function. Additionally, every
+parameter combination will be submitted as often as specified by the field `number_of_repetitions`
+ (each time with a different seed). By the way, a field `seed` is added for each config 
+ with the specific seed. The results of the experiments can be deleted and the experiments 
+ repeated and the given seeds will be identical.  
+ 
+ Mandatory keys in a settings file are `experiment`, `sub_experiment`, `version`, and 
+ `number_of_repetitions`.
+ 
+    standard_setting = {
+        "experiment": "test",
+        "sub_experiment": "standard",
+        "version": "1",
+        "number_of_repetitions": 10,
+        "method": ["slow", "fast"],
+        "instance": ["A", "B"]
+    }
+
+    special_setting = {
+        "experiment": "test",
+        "sub_experiment": "special",
+        "version": "1",
+        "number_of_repetitions": 10,
+        "method": "special",
+        "scale": [0.1, 0.5, 1],
+        "instance": ["A", "B"]
+    }
+            
+Finally we can define our experiment function and run the experiments:
+    
+    @lab.experiment
+    def main(_config):
+        if _config["method"] == "fast":
+            return fast(_config)
+        elif _config["method"] == "slow":
+            return slow(_config)
+        elif _config["method"] == "special":
+            return special(_config)
+     
+### Evaluating experiments
+To be done...
+            
+            
+    
+## ToDos
+The project is work in progress and there are still some tasks to be done:
+* Documentation
+* Examples
+* Add support for SQL
+* Faster caching!
+* Experiments should not run if they do not have a matching experiment name
+* UI (perhaps)
+
