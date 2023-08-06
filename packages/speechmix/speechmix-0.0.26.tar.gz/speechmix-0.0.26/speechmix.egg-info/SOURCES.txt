@@ -1,0 +1,14 @@
+.gitignore
+README.md
+requirement.txt
+setup.py
+example/requirement.txt
+example/train.py
+speechmix/__init__.py
+speechmix/model.py
+speechmix.egg-info/PKG-INFO
+speechmix.egg-info/SOURCES.txt
+speechmix.egg-info/dependency_links.txt
+speechmix.egg-info/not-zip-safe
+speechmix.egg-info/requires.txt
+speechmix.egg-info/top_level.txt
