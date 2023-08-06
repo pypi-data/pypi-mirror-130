@@ -1,0 +1,15 @@
+timewarpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/core.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/datasets.py,sha256=Gf63q0siP2vQXVdkn5cLTtPYtnQXO9MV4LtMygYvhfM,335
+timewarpy/postprocess.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/preprocess.py,sha256=WuslR0066inzgoUeWj1NTcZABQKp4qxFidmyEOq3X-E,1072
+timewarpy/sample_data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/sample_data/energydata_complete.csv,sha256=KCC_cSrQJ1yxi4WgUlCSYQDY5l67n00tAWypHqFSol0,11979363
+timewarpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/tests/test_datasets.py,sha256=Umf_VjvspUERudytBlOw-cqU8I4E19SsxnLPZDApzTg,122
+timewarpy/tests/test_preprocess.py,sha256=gQS1gKDn0JzpLiXOtZbajen_ywNYwu2y_FIcnqGp4-Q,227
+timewarpy-0.0.6.dist-info/LICENSE,sha256=SoJRIX2B8v7O7ZuijyjfP28nTodajRZ5N-36ZcLHDmc,1519
+timewarpy-0.0.6.dist-info/METADATA,sha256=eOEqDyEjoCBrDcxl6zx5qSrT22BM1GWjgslbSCdjTDo,914
+timewarpy-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+timewarpy-0.0.6.dist-info/top_level.txt,sha256=43TaxLmo2JgBAHFtdq6Xz8tSGCXtUaG2eTly1fJIMJU,10
+timewarpy-0.0.6.dist-info/RECORD,,
