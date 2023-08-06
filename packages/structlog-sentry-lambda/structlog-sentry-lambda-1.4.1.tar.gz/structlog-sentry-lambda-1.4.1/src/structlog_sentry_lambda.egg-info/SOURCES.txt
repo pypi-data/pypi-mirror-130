@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/structlog_sentry_lambda/__init__.py
+src/structlog_sentry_lambda/_config.py
+src/structlog_sentry_lambda/structlog_sentry.py
+src/structlog_sentry_lambda.egg-info/PKG-INFO
+src/structlog_sentry_lambda.egg-info/SOURCES.txt
+src/structlog_sentry_lambda.egg-info/dependency_links.txt
+src/structlog_sentry_lambda.egg-info/requires.txt
+src/structlog_sentry_lambda.egg-info/top_level.txt
