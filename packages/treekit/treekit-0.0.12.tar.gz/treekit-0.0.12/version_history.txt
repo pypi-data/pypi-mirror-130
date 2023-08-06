@@ -1,0 +1,46 @@
+2021-12-08
+----------
+ver 0.0.12: created two classes, and added a function under the class tree
+
+class TreeNode - to work with the tree class
+class tree - for general tree structure, not just binarytree
+tree.remove_invalid_parentheses()
+
+
+2021-11-30
+----------
+ver 0.0.10: add find_maximum_path_sum()
+
+binarytree.find_maximum_path_sum()
+
+
+2021-11-27 ~ 2021-11-28
+-----------------------
+ver 0.0.6 ~ 0.0.9: added the following, while updating some description about input data being an array (as opposed to level order)
+
+binarytree.levelorder
+binarytree.flatten() # two arguments: (1) target: 'preorder' or 'inorder', (2) inplace: True/False
+binarytree.data
+
+
+2021-11-26
+----------
+ver 0.0.5: added the class bst for binary search tree, and its functions:
+
+bst.from_sortedarray()
+bst.from_preorder()
+
+
+2021-11-25
+----------
+ver 0.0.3 - 0.0.4: some optimization for binarytree.show(), and added the following functions
+
+binarytree.height
+binarytree.inorder
+binarytree.preorder
+binarytree.postorder
+
+
+2021-11-24
+----------
+ver 0.0.2: initial version. added classes binarytree and Node
