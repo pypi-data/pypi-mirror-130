@@ -1,0 +1,18 @@
+setuptools>=20.2
+packaging
+requests
+certifi
+pika
+urllib3<2.0,>=1.1.5
+portalocker>=1.2.1
+bdbag>=1.6.0
+globus_sdk<4
+fair-research-login>=0.2.6
+fair-identifiers-client>=0.5
+jsonschema>=3.1
+
+[:python_version <= "2.7"]
+scandir
+
+[:python_version <= "3.5"]
+portalocker<2.0
