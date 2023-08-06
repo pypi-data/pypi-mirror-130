@@ -1,0 +1,11 @@
+wayremap/__init__.py,sha256=sw06J51sbVoLiOevyb0gR-llgZoagscqdzAOmmrXK50,91
+wayremap/config.py,sha256=DDvQbATQpLWI1fDEnX_xg4Z4cCeGQAJJU0Ye4i5L7hg,2856
+wayremap/constants.py,sha256=CXG70JarnFmpps5aWHrV_vO2coIpjFtGOKUFOLPr0ik,10200
+wayremap/ecodes.py,sha256=fW5VyhQHna49mkOFtdYPtzer2-_vDWs8EAZuZ24VI7Y,21420
+wayremap/i3ipc-test.py,sha256=YAi62KeTJzFudkIZcK4kepAgABwEtP-AEweNtwzGLyo,400
+wayremap/main.py,sha256=SOavN2NvxpJoKAELJUPBwVbCSzFzxn0mZZuqNQJIHsI,4426
+wayremap/os-test.py,sha256=qL_Tm7_wpdAZYYdNYn1IF7n_e01nohBwjoQQi8QGTl8,268
+wayremap-0.0.8.dist-info/LICENSE,sha256=3x-4-MXq2h_4B67FrdeekLKPTn2vMpJEhuM26Ob1Ezg,1066
+wayremap-0.0.8.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+wayremap-0.0.8.dist-info/METADATA,sha256=YlrfXPUE5TI1azp94kEBNFChZ39FtvIVYZ-n5F0XA0c,4984
+wayremap-0.0.8.dist-info/RECORD,,
