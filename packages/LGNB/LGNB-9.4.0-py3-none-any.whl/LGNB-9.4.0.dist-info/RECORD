@@ -1,0 +1,12 @@
+BBData/__init__.py,sha256=vQriMsYhVZXGdrrrzz0wlNBFHbwUSdmHmCZ_ON2q1Z0,536
+BBData/config.py,sha256=xgKG7QKmrTw9TL-ebgYsgcqdKPd7fdu2y2_Q88VIz1s,1763
+BBData/lib.py,sha256=1ucYzVAueopvrwYBt6mYC3lrYlXe327XjFcRhmZmnmM,5399
+BBData/reader_utils.py,sha256=q0i3BP7Rsqo_QteHjhSdjreUaRo-OTxhewSJXX1pqV4,30425
+BBData/saver_utils.py,sha256=mAEdC-15Zd1ZbdIucsbeoiQ5fGm0r8kvLZkflitgSM0,3781
+BBData/tools.py,sha256=QmgpAfDRuD5yVVKn5KrG5SvIK15wa-NPgKX8c63rVM0,4749
+BBData/utils.py,sha256=k_tbCqJJWHhmM5vIUB6GaWdCSF00N4FcV106vyrGs8o,3339
+LGNB-9.4.0.dist-info/LICENSE,sha256=GSAKapQH5ZIGWlpQTA7v5YrfECyaxaohUb1vJX-qepw,1090
+LGNB-9.4.0.dist-info/METADATA,sha256=mnMczYsu4yyhSS4HZXxqYCkVqRDF-uIqb4JmaJw-t_o,191
+LGNB-9.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LGNB-9.4.0.dist-info/top_level.txt,sha256=Plf3L-APGBGgrfA-Uq-UgpIgLpymgWd69cTOwzQsA1I,7
+LGNB-9.4.0.dist-info/RECORD,,
