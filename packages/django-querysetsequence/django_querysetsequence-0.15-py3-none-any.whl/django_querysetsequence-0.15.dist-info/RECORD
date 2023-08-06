@@ -1,0 +1,13 @@
+queryset_sequence/__init__.py,sha256=stuh92BNfyt06q5TdRqU9u0UQXxRO3HR8Wz7OnR7C0g,37366
+queryset_sequence/pagination.py,sha256=qgZXkzUA_TOjegR783leshi8A2MJP9Rh1U8VKS9PLXo,8607
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/models.py,sha256=Z5WgVdGtiwjjIuFUjJQBpYYklavgOL21xZ8T3NoABFc,1761
+tests/settings.py,sha256=KKKxZOUf4swXD3T7rhQkaGKB66XUhj5N1SVV1uZnZUg,933
+tests/test_pagination.py,sha256=KRoMTBJnm6-rYspRXG9-YI0bGBvI-ZMeiTBm9ngq7yQ,9475
+tests/test_querysetsequence.py,sha256=lUul1OaXhcFl-mtalgvvA6fANqxxFtM3WJqAfTQpWuU,61890
+tests/test_values.py,sha256=Lq_XFSE9gX4TAvMLb55ybyEOUU2e0Xkkrkf7Qvh3CqY,12936
+django_querysetsequence-0.15.dist-info/LICENSE,sha256=mL8AXEwJxaWQBGVw-vyIrtFzR86f5Qw0ODyfhBCc3Ro,777
+django_querysetsequence-0.15.dist-info/METADATA,sha256=hnThDEPElL4m1LAPNMcQCXqyBWBFr-Kl6DbgUAvaUOw,4452
+django_querysetsequence-0.15.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_querysetsequence-0.15.dist-info/top_level.txt,sha256=12kobFPjHRH4_Xj90PWDeF5XjMA-ntd910OTrj1utW0,24
+django_querysetsequence-0.15.dist-info/RECORD,,
