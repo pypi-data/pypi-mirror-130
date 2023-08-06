@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: typeprint
+Version: 0.0.2
+Summary: Print like someone is typing
+Home-page: https://github.com/a-tharva/type
+Author: Atharva Bhandvalkar
+Author-email: <atharv.bhandvalkar@gmail.com>
+License: MIT
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+# typePrint
+
+## Description
+
+Still in development.
+
+This module will print like someone is typing.
+
+## Installation
+
+```bash
+> pip install typePrint
+```
+
+## Use within another Python script
+
+```python
+>>> import typePrint as tp
+
+>>> tp.typeHuman('Some text here')
+Some text here
+```
+
+Change Log
+==========
+
+0.0.1 (16/11/2021)
+-------------------
+- First Release
+
+0.0.2 (08/12/2021)
+-------------------
+- Renaming project
+
