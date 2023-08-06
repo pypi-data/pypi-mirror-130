@@ -1,0 +1,11 @@
+slackers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackers/hooks.py,sha256=BundpiARbTsVavNREcs44Ktq_-O-d-NyUrnY_cGL32o,971
+slackers/models.py,sha256=aBYPVlTP9LdNGaI8PvHJb1jGNW3_ia4a8o2azr2DElk,953
+slackers/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slackers/registry.py,sha256=hdEcML_6kBGh5Yuo5uPKe1iV1wGHjlf0ISvAJR9G7UE,327
+slackers/server.py,sha256=-gdK5G0xxpDGeksMz3uFfsOoxayKeh8Xa39GZ4TbjrE,3450
+slackers/verification.py,sha256=rCMJVOG4UfP6sMrOYmX4L-prR8pFMeLrcQWAWrt7Kqc,1335
+slackers-1.0.1.dist-info/LICENSE,sha256=Vhwl_LM5tuHM64PtmvQuHUYHuZCAjYmCvRShdcuEo7Q,1075
+slackers-1.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+slackers-1.0.1.dist-info/METADATA,sha256=Y52l5yDPMSP1V5l6-y6Nrxbm4L-BWCd6EldMUidQrKM,8437
+slackers-1.0.1.dist-info/RECORD,,
