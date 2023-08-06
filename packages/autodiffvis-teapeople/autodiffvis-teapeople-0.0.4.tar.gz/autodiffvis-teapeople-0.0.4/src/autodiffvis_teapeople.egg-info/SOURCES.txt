@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/autodiff/__init__.py
+src/autodiff/autodiff.py
+src/autodiff/visualizer.py
+src/autodiffvis_teapeople.egg-info/PKG-INFO
+src/autodiffvis_teapeople.egg-info/SOURCES.txt
+src/autodiffvis_teapeople.egg-info/dependency_links.txt
+src/autodiffvis_teapeople.egg-info/requires.txt
+src/autodiffvis_teapeople.egg-info/top_level.txt
