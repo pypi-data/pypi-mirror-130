@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/periodical/__init__.py
+src/periodical/check_periodicity.py
+src/periodical_dh.egg-info/PKG-INFO
+src/periodical_dh.egg-info/SOURCES.txt
+src/periodical_dh.egg-info/dependency_links.txt
+src/periodical_dh.egg-info/top_level.txt
