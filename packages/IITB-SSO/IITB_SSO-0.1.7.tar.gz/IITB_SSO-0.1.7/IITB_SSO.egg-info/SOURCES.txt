@@ -1,0 +1,6 @@
+setup.py
+IITB_SSO.egg-info/PKG-INFO
+IITB_SSO.egg-info/SOURCES.txt
+IITB_SSO.egg-info/dependency_links.txt
+IITB_SSO.egg-info/requires.txt
+IITB_SSO.egg-info/top_level.txt
