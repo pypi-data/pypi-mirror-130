@@ -1,0 +1,9 @@
+sshtunnel_requests/__init__.py,sha256=Hnjk43Ttz6HXYeXpncQ9pw235fGE14SOACP7FX0nfE4,912
+sshtunnel_requests/_api.py,sha256=jn4j8XyKqyvtO4FoluF9s-56KHoazWpfWfojctXsW4E,900
+sshtunnel_requests/sessions.py,sha256=R8zOI7yoYyiaI8CjML5e6mRONGKxNuG_7Ry4hPc7f-I,2212
+sshtunnel_requests/ssh.py,sha256=PiYgG2jaKvczHM76S95FAiafAE2S2D1khUW4RqihfH8,3917
+sshtunnel_requests-0.0.3.dist-info/LICENSE,sha256=eDwKEWq-EWm9ObVzrd09kliHGvyVf4E1RFPvJW9zWAE,1072
+sshtunnel_requests-0.0.3.dist-info/METADATA,sha256=OqnZEGqBXcoFr4wnK_0FO3GpR8yMQpswAF52btzy4o4,472
+sshtunnel_requests-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sshtunnel_requests-0.0.3.dist-info/top_level.txt,sha256=g1fg7iUkVDX23gmTpZz6XEhZOhcMkA4kqGveJzro4P8,19
+sshtunnel_requests-0.0.3.dist-info/RECORD,,
