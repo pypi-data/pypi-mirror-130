@@ -1,0 +1,7 @@
+persistent_filters/__init__.py,sha256=aStgXXs7D6t2RrVlWxwtxqK4ySSvk6V-kCFwB6G5P6M,188
+persistent_filters/apps.py,sha256=BZRkPPYvLTSRgbjOSwZH3q3pJPBJ82H-CEq8oMJECEs,150
+persistent_filters/middleware.py,sha256=Sq1sP-Vgu8YSVBdyZwv3FmWpM-xYc-_2PA2eWyIhG84,1284
+django_persistent_filters-0.1.dist-info/METADATA,sha256=aBdacz990hZeeEYBemoJMCgTbOmSawbbNNjhnxPnhL4,975
+django_persistent_filters-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_persistent_filters-0.1.dist-info/top_level.txt,sha256=9mB7zayaIeOZiFe2crVPzBxydTN_1__mK_dME2GglnM,19
+django_persistent_filters-0.1.dist-info/RECORD,,
