@@ -1,0 +1,11 @@
+nectaapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nectaapi/comparison.py,sha256=Wkp_RLeQHkYVky-YZPM8-TZCi9m_QF9PnDTL0UaTguc,1516
+nectaapi/schools.py,sha256=m78g1n02ABYXSnCvCUXk1LBCbpcV29jVkW86uUeT9Zw,3000
+nectaapi/student.py,sha256=W0gvA775pDqQ7rEoDJF6V8x-xqcPw9zWUSbiV7weZ64,3099
+nectaapi/students.py,sha256=Yhilrlp1Y8M08DucYthu_OIRmrNsIn7SrKXAw2E6R7c,3760
+nectaapi/summary.py,sha256=VJs39L7YadueEv0ztxEWoI2CnzioVc1qjK64oFFIqA0,9697
+nectaapi-2.0.0.dist-info/LICENSE,sha256=RrAl7lVMJPjl_ygqo0yRwurqriu8efPdA1DrsTiy-gc,1092
+nectaapi-2.0.0.dist-info/METADATA,sha256=ycIVp5JVRxWCagoJdGZ_JqNc0IgE51-ffA1wEtEPV04,6480
+nectaapi-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nectaapi-2.0.0.dist-info/top_level.txt,sha256=cWERvZF9X-XRyRo4LezM2nWF7-QlhvSuP4JkyXminGM,9
+nectaapi-2.0.0.dist-info/RECORD,,
