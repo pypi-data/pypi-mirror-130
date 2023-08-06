@@ -1,0 +1,7 @@
+README.md
+setup.py
+morningstar_calculations/__init__.py
+morningstar_calculations.egg-info/PKG-INFO
+morningstar_calculations.egg-info/SOURCES.txt
+morningstar_calculations.egg-info/dependency_links.txt
+morningstar_calculations.egg-info/top_level.txt
