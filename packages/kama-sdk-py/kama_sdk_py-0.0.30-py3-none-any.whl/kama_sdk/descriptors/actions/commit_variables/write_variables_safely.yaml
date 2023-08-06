@@ -1,0 +1,22 @@
+kind: MultiAction
+id: sdk.action.write_variables_safely
+title: Safely write variables
+info: Ensure dry run works, then overwrite ${get::self>>vars_level} with new vars
+sub_actions:
+
+  - inherit: sdk.action.template_merge_current
+    new_values: get::parent>>values
+
+  - kind: KubectlDryRunAction
+    res_descs: get::parent>>res_descs
+
+  - kind::CreateBackupAction
+
+  - kind: WriteManifestVarAction
+    id: sdk.action.write_manifest_variables
+    title: "Replace ${get::self>>parent} variables"
+    info: get::self>>title
+
+
+debug_props: [values, ktea]
+error_telem_props: get::self>>debug_props

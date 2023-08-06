@@ -1,0 +1,32 @@
+# End to end action for a standard operation step. Almost identical
+# to Holy Kubernetes Sequence (sdk.action.commit_template_appy_safely).
+# The difference is that we must care NOT to patch `user_vars` with
+# the inline assignments (i.e the secrets).
+
+# The first sub-action is a customized variant of a safely-patch action
+# that handles the inline variables.
+
+# Then, in the second sub-action where we template the manifest, we merge
+# the inlines into merged manifest variables.
+
+kind: MultiAction
+id: "sdk.action.commit_template_apply_step"
+inherit: "sdk.action.patch_variables_step_safely"
+ktea: "get::sdk.supplier.config.ktea"
+sub_actions:
+
+  - kind: MultiAction
+    inherit: "sdk.action.patch_variables_step_safely"
+    commit: "get::parent>>commit"
+
+  - kind: TemplateManifestAction
+    values:
+      kind: MergeSupplier
+      source:
+        - "get::kind::MergedVarsSupplier"
+        - "get::self>>commit->.inline"
+
+  - kind: KubectlApplyAction
+    res_descs: "get::parent>>res_descs"
+
+  - "kind::AwaitKaosSettledAction"

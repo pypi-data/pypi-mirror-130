@@ -1,0 +1,80 @@
+kind: ColumnSpec
+id: "sdk.column_spec.resources.namespace"
+title: "Namespace"
+index: -1_000_000
+weight: -1_000_000
+resource_kinds: "*"
+view_spec:
+  type: Text
+  text: "get::self>>item=>namespace"
+  style: [hacker]
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.kind"
+title: "Kind"
+index: 0
+weight: 2
+resource_kinds: "*"
+view_spec:
+  type: Text
+  text: "get::self>>item=>kind"
+  style: [hacker]
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.latest_checkup"
+title: "Last Checkup"
+index: 4
+weight: 1
+resource_kinds: "*"
+view_spec:
+  type: LastCheckupSummary
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.name"
+title: "Name"
+index: 1
+weight: 1_000_000
+resource_kinds: "*"
+view_spec:
+  type: Text
+  text: "get::self>>item=>name"
+  style: [bold]
+  action:
+    type: "goto_detail_page"
+    page_spec_id: "get::parent>>detail_page_name"
+    resource_namespace: "get::self>>item=>namespace"
+    resource_name: "get::self>>item=>name"
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.associations"
+title: "Related"
+resource_kinds: "*"
+index: 5_000
+weight: 2
+view_spec:
+  type: "Associations"
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.created_at"
+title: "Created"
+resource_kinds: "*"
+index: 1_000_000
+weight: 1_000_000
+view_spec:
+  type: Text
+  template:
+    type: Timestamp
+    timestamp:
+      kind: Supplier
+      serializer: "str"
+      source: get::parent>>item=>created_at

@@ -1,0 +1,9 @@
+# Template the manifest using the current application variables
+# minus some variables given by `victim_keys`.
+
+kind: TemplateManifestAction
+id: sdk.action.template_unset_current
+values:
+  kind: UnsetSupplier
+  victim_keys: get::parent>>victim_keys
+  source: get::kind::MergedVarsSupplier

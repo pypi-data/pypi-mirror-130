@@ -1,0 +1,6 @@
+DEFAULT_EVENT_TYPE = 'action'
+OP_STEP_EVENT_TYPE = 'operation_step'
+PREFLIGHT_EVENT_TYPE = 'preflight_check'
+HEALTH_CHECK_EVENT_TYPE = 'health_check'
+SET_VAR_EVENT_TYPE = 'set_var'
+UNSET_VAR_EVENT_TYPE = 'unset_var'

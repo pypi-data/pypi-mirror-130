@@ -1,0 +1,23 @@
+kind: ConfigSupplier
+id: sdk.supplier.config.default_vars
+field_key: default_vars
+
+---
+
+kind: ConfigSupplier
+id: sdk.supplier.namespace
+field_key: ns
+
+---
+
+kind: Supplier
+id: sdk.supplier.injections_ktea
+source:
+  type: virtual
+  uri: InlineInjectionsVktea
+
+---
+
+kind: ConfigSupplier
+id: sdk.supplier.config.ktea
+field_key: ktea

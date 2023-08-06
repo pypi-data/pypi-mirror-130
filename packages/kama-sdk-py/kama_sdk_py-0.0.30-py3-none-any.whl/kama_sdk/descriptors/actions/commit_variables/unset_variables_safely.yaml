@@ -1,0 +1,20 @@
+kind: MultiAction
+id: sdk.action.unset_variables_safely
+title: Safely unset variables
+info: Ensure dry run works, then unset vars from ${get::self>>vars_level}
+
+sub_actions:
+  - inherit: sdk.action.template_unset_current
+    victim_keys: get::parent>>victim_keys
+
+  - kind: KubectlDryRunAction
+    res_descs: get::parent>>res_descs
+
+  - kind::CreateBackupAction
+
+  - kind: UnsetManifestVarsAction
+    id: sdk.action.unset_manifest_vars
+    title: "Unset variables from ${get::parent>>vars_level}"
+    info: get::self>>resolved_title
+
+debug_props: [values, ktea, res_descs, outkomes]

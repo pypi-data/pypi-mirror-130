@@ -1,0 +1,49 @@
+kind: ColumnSpec
+id: "sdk.column_spec.resources.workloads.memory"
+title: "Memory"
+resource_kinds: ["deployment", "pod", "replicaset"]
+view_spec_model:
+  inherit: "sdk.view_spec.resources.workloads_resource_usage"
+  unit_type: "bytes"
+  metric_type: "memory"
+
+---
+
+kind: ColumnSpec
+id: "sdk.column_spec.resources.workloads.cpu"
+title: "CPU"
+resource_kinds: ["deployment", "pod", "replicaset"]
+view_spec_model:
+  inherit: "sdk.view_spec.resources.workloads_resource_usage"
+  unit_type: "cores"
+  metric_type: "cpu"
+
+---
+
+kind: ColumnSpec
+id: "sdk.view_spec.resources.deployment_pod_statuses"
+title: "Pods"
+resource_kinds: [deployment, services]
+view_spec:
+  type: StatusDotGrid
+  shape: "hexagon"
+  shapeSize: "7px"
+  style:
+    width: "80px"
+  data:
+    kind: Supplier
+    inherit: sdk.supplier.pods_to_dots_format
+    pods: "get::parent>>item=>pods"
+
+---
+
+kind: ViewSpec
+id: "sdk.view_spec.resources.workloads_resource_usage"
+spec:
+  type: GaugeAndInfo
+  unitType: "get::self>>unit_type"
+  data:
+    kind: ResourceUsageSupplier
+    id: "sdk.supplier.site-usage-supplier"
+    workloads: [get::parent>>item]
+    upper_bound_type: "${get::self>>metric_type}_limit"

@@ -1,0 +1,29 @@
+kind: VariableCategory
+id: "sdk.variable-category.networking"
+title: "Networking"
+info: "HTTP, HTTPS, DNS, SSH settings"
+graphic: language
+
+---
+
+kind: VariableCategory
+id: "sdk.variable-category.compute"
+title: "Workloads"
+info: "All things performance and functionality"
+graphic: build
+
+---
+
+kind: VariableCategory
+id: "sdk.variable-category.security"
+title: Security
+info: "Network policies, RBAC and admin access"
+graphic: security
+
+---
+
+kind: VariableCategory
+id: "sdk.variable-category.storage"
+title: Storage
+info: "PVCs, StorageClass, and backups"
+graphic: save
