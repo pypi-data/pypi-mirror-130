@@ -1,0 +1,9 @@
+matcher/__init__.py,sha256=vo7r_DP8EQFKvqJ59kzU4JOtUR7uUBNbP-aOvacMagI,799
+matcher/plugin.py,sha256=ET3AC0DyjHUX3ftQs4p7G6pOJh6cUkeDWJX7v30cy0Q,10872
+pytest_matcher-1.4.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+pytest_matcher-1.4.0.dist-info/METADATA,sha256=7iU-4EiW2FVSY_iicxs56LvVv56pr3Y5MgHGaq6FolE,3034
+pytest_matcher-1.4.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+pytest_matcher-1.4.0.dist-info/entry_points.txt,sha256=ZyXCfEQGSjRogSGaKnjKvgbCMnSu03d1HKFcuvJdXwo,50
+pytest_matcher-1.4.0.dist-info/top_level.txt,sha256=WnVq9AdRHbavK6kn2zlt3QpgW621BX4V64vkO2loNic,8
+pytest_matcher-1.4.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+pytest_matcher-1.4.0.dist-info/RECORD,,
