@@ -1,0 +1,3 @@
+[nornir.plugins.connections]
+akamai=nornir_akamai.plugins.connections:AkamaiRestClient
+

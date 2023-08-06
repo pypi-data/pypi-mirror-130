@@ -1,0 +1,11 @@
+nornir_akamai/__init__.py,sha256=ev4Ynd1W88XYlQy_gBdSGCPAbBo-PMnnvc7tCXpVLXE,46
+nornir_akamai/plugins/__init__.py,sha256=7HSnCypsA5IsLxMbc6oCurglncKWOWbXCf5bCsqd-c8,28
+nornir_akamai/plugins/connections/__init__.py,sha256=vZAs1sCy0NGNDpN0SQ21U62fmA-9YbrubuGpJy1N5y8,257
+nornir_akamai/plugins/connections/akamai.py,sha256=Om1QlTFnjyIFMVKrBeV21V8R88t1gDwPzIkrOiK4fNQ,3797
+nornir_akamai/plugins/tasks/__init__.py,sha256=GPx4f-xOIIM4CUvFGtRcv86fg9xp_loWRh7bcguTvwA,26
+nornir_akamai/plugins/tasks/v1/__init__.py,sha256=Q15URHwygtceM2iUJC2EkLRibOvZdg2JKrZsjdQvZKc,57
+nornir_akamai/plugins/tasks/v1/global_traffic_management.py,sha256=YBNzIU22xEKNePRRXBJpbezMevx7YSFF2xXt8oa1SHs,1693
+nornir_akamai-0.0.1.dist-info/entry_points.txt,sha256=xvHFeH5Bw82zzZH6edfj0j0JQ2-EFM3hNgi0N1pQ5wk,88
+nornir_akamai-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+nornir_akamai-0.0.1.dist-info/METADATA,sha256=yMfvPzUgZ7RjtJr3vA_QMKf2IhWCCCYo7_mXdh-eqg4,1662
+nornir_akamai-0.0.1.dist-info/RECORD,,
