@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+my_system.egg-info/PKG-INFO
+my_system.egg-info/SOURCES.txt
+my_system.egg-info/dependency_links.txt
+my_system.egg-info/requires.txt
+my_system.egg-info/top_level.txt
+system/1.0beta5.zip

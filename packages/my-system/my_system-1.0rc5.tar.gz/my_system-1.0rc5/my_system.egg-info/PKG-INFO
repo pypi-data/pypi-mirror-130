@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: my-system
+Version: 1.0rc5
+Summary: Nearly release ...
+Home-page: https://github.com
+Author: mc_creater
+Author-email: guoxiuchen20170402@163.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+system
+---
+**What can it do?**
+___
+>it based from downloader.You can make mods for it.Put mod file and lilbraries in to dic.The file name must equals class name.
+---
+>You can write word on it.
+---
+>after downloaded it,you can open the zip file "{path}/---.zip" and use it.
+
+
+About Author
+---
+**Author's e-mail**
+***
+>email:guoxiuchen20170402@163.com
+
+
+
+
+
+
+
+
+
+
+
