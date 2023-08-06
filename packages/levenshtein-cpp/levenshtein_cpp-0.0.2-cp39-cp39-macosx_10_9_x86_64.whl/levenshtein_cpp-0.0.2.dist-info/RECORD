@@ -1,0 +1,11 @@
+levenshtein.cpython-39-darwin.so,sha256=HFBHZW3It6eWWG_OXvFX3sjYyJx1Q57qPn37411llIY,132392
+levenshtein/__init__.pyi,sha256=TSCkNSgkZFOpY1vd1tJlJQMYhNS5RaX43jPWlnUitVQ,121
+levenshtein/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+levenshtein/inc/levenshtein.hpp,sha256=ePHNimwHRUA-EFbR46YTmTp6LQOcpcnllutVd8ORuus,234
+levenshtein/src/levenshtein.cpp,sha256=0DSwbs0HHHga4CtYNtNZM-ACOHprx6Al_awBSJvFCro,978
+levenshtein/src/module.cpp,sha256=hm8LB_5Suo8rBlnQ04Bo2KryIcIvAiolKXGwXIDnyxI,432
+levenshtein_cpp-0.0.2.dist-info/LICENSE,sha256=U5X1RrbQL8M2fhrSdvmW82Wk1kZl77M3q-u3_1Jsy9A,1074
+levenshtein_cpp-0.0.2.dist-info/METADATA,sha256=SIG2n_L_CCdKtQT_k84tI-kofq31BlWL-acx9f1IIpI,935
+levenshtein_cpp-0.0.2.dist-info/WHEEL,sha256=JIE30nfOWUuazI4Vcfiuv_cYm-SkZCh6YOqQQjhm90A,109
+levenshtein_cpp-0.0.2.dist-info/top_level.txt,sha256=MKfgf0PyG2dUPhC83k04YwIrjn1XPe8XW2FvSU7egxo,12
+levenshtein_cpp-0.0.2.dist-info/RECORD,,
