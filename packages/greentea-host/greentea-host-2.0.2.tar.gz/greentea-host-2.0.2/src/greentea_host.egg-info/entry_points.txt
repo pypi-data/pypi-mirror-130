@@ -1,0 +1,3 @@
+[console_scripts]
+htrun = htrun.htrun:main
+
