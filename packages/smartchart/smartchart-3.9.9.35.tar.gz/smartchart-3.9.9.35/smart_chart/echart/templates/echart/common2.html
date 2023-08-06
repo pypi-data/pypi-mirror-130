@@ -1,0 +1,15 @@
+{% extends "echart/base.html" %}
+{% block head %}{% endblock %}
+{% block body %}
+<body {{body}}>
+
+<vue id="vue_app">
+    {% for div in div_list %}
+      {{div}}
+    {% endfor %}
+</vue>
+</body>
+{% endblock %}
+{% block javascript %}<script type="text/javascript" src="/static/echart/dist/extension/echarts-liquidfill.min.js"></script>
+<script type="text/javascript" src="/static/echart/dist/extension/ecStat.min.js"></script>
+<script type="text/javascript" src="/static/echart/dist/extension/echarts-wordcloud.min.js"></script>{% endblock %}

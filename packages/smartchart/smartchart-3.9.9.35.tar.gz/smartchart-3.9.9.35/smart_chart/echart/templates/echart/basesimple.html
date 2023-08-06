@@ -1,0 +1,12 @@
+<!doctype html><html><head><title>{{title}}</title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta http-equiv="X-UA-Compatible" content="IE=edge">{{contentrefresh|safe}}
+{% block head %}{% endblock %}</head>
+<link rel="icon" type="image.png" href="/static/images/favicon.ico"><link rel="stylesheet" href="/static/js/fun.css?_=1">
+{% if dv %}<script src="/static/echart/opt/vue.js"></script><script src="/static/echart/opt/dv.js"></script>{% endif %}<script src="/static/js/jquery-2.2.3.min.js"></script>
+{% if devhead %}<link rel="stylesheet" href="/static/js/dev.css?_=1">{% endif %}
+{% autoescape off %}{{linkhead}}{{devhead}}{% block body %}{% endblock %}{% endautoescape %}
+</html><script type="text/javascript" src="/static/echart/dist/echarts.min.js"></script><script src="/static/js/fun.js?_=1"></script><script src="/static/echart/theme/{{theme}}"></script>
+{% if devhead %}<script src="/static/js/dev.js?_=1"></script>{% endif %}
+{{footer|safe}}{% block javascript %}{% endblock %}
+<script>var charts = [];{{echart_main|safe}}window.onresize = function(){for(var i = 0; i < charts.length; i++){charts[i].resize();}};
+function print(item){console.log(item)};</script>
+<!--powered by smartchart.cn,Designed by JohnYan mailto:84345999@qq.com, https://gitee.com/smartchart/smartchart you need keep this-->
