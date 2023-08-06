@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+MyReplitDB.egg-info/PKG-INFO
+MyReplitDB.egg-info/SOURCES.txt
+MyReplitDB.egg-info/dependency_links.txt
+MyReplitDB.egg-info/requires.txt
+MyReplitDB.egg-info/top_level.txt
+myreplitdb/__init__.py
+myreplitdb/database.py
+myreplitdb/errors.py
