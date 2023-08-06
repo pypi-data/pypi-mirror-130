@@ -1,0 +1,11 @@
+keyscraper/__init__.py,sha256=kP5MF3dzfpgnvf59qPpIwtC1H-Qs_NhbyFJw5w00j2E,105
+keyscraper/convert.py,sha256=u4XH1_757d4zznlG7g9bENH_Ct1kV_gjuAH-LkmiLBM,6466
+keyscraper/dynamicscraper.py,sha256=08noy7-U-tDVPDCYXfYzEOTWTHXFfEOehTuMtzJkuzg,21179
+keyscraper/google_images.py,sha256=3iPndvU-ALko8yPwemy1AvrrRxDQEDhDrJqX9AchFs8,14624
+keyscraper/staticscraper.py,sha256=pGsqj8D0e2Tw2_plZa_MPoCa0tslxc1B1phmsPZpeY8,14488
+keyscraper/utils.py,sha256=79e5DELlzZxLPHaj0fVQuN2uwMKF2bOi7mzRV1zIY0U,13205
+keyscraper-1.0.2.dist-info/LICENSE,sha256=AoxsYjHLiDy5jGQJ1doNgoEv9JgXZIDF5pW1lL9VexY,1067
+keyscraper-1.0.2.dist-info/METADATA,sha256=TseVA6b6e_pEzl07SO6Bv_0SIZVICIOUbhyJOqXn-jk,756
+keyscraper-1.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+keyscraper-1.0.2.dist-info/top_level.txt,sha256=xvj_oxXR3BxWQ-nbz2M7ngJKcz_dOtNk1WNhCV9z21A,11
+keyscraper-1.0.2.dist-info/RECORD,,
