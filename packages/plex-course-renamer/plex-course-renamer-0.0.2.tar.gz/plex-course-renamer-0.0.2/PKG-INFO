@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: plex-course-renamer
+Version: 0.0.2
+Summary: 
+Author: Eric Warren
+Author-email: ericwarren99@hotmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: click (>=8.0.3,<9.0.0)
