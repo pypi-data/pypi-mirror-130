@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: batServe
+Version: 1.0rc1
+Summary: simple, useful file server | part of batBelt
+Home-page: https://github.com/notAI-tech/batBelt
+Author: BEDAPUDI PRANEETH
+Author-email: praneeth@bpraneeth.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+Requires-Dist: epyk
+Requires-Dist: psutil
+Requires-Dist: falcon
+Requires-Dist: gevent
+Requires-Dist: gunicorn
+
+
+<p align="center">
+    <h1 align="center">batServe</h1>
+    <p align="center">simple, useful file server | part of <b><i>batBelt</i></b></p>
+</p>
+
+
+
+
