@@ -1,0 +1,11 @@
+jmspack/NLTSA.py,sha256=OihCD7BR38A3Pt94RbZs8RB-bpdwJsBDum8lwTjTuEI,26914
+jmspack/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+jmspack/frequentist_statistics.py,sha256=39l_taP6R7itXw31F7pxJwZVyLo6EynKWJ92ifvDcAw,29116
+jmspack/internal_utils.py,sha256=_xuuJIejY0Fyp50eDI4442lmKBBsoKe26TpO9R5sdNg,10725
+jmspack/ml_utils.py,sha256=-Ql-UHvckyy9FTcCFH01UHyPWhNeORTBFlbhIgzW2Dg,30399
+jmspack/utils.py,sha256=iCnIYDT-6Y5Suq8kbDp3u4U4QFu29E_mZ9YyIbBJ44E,5054
+jmspack-0.1.1.dist-info/LICENSE,sha256=nQsw60S5qbkm9lItdYiddXCeSF-pVVKXwV161pudQsY,1519
+jmspack-0.1.1.dist-info/METADATA,sha256=JtLx1BDvjVekzDs_yKfd8mzS0QeCRE8L374V9igsOZE,1794
+jmspack-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+jmspack-0.1.1.dist-info/top_level.txt,sha256=oFfF5XgQeWDFew44kQaqifTD28olaoskFkbYb5L8Jdw,8
+jmspack-0.1.1.dist-info/RECORD,,
