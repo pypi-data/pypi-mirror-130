@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+REFPROPConnector/__init__.py
+REFPROPConnector/constants.py
+REFPROPConnector/refprop_calculator.py
+REFPROP_connector.egg-info/PKG-INFO
+REFPROP_connector.egg-info/SOURCES.txt
+REFPROP_connector.egg-info/dependency_links.txt
+REFPROP_connector.egg-info/requires.txt
+REFPROP_connector.egg-info/top_level.txt
