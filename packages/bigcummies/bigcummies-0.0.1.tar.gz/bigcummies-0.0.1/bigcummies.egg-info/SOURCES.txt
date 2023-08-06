@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+bigcummies/__init__.py
+bigcummies/myprofile.py
+bigcummies.egg-info/PKG-INFO
+bigcummies.egg-info/SOURCES.txt
+bigcummies.egg-info/dependency_links.txt
+bigcummies.egg-info/top_level.txt
