@@ -1,0 +1,12 @@
+numpy
+pandas
+scipy
+tqdm
+statsmodels
+tabulate
+pyro-ppl
+torch
+
+[plots]
+matplotlib
+seaborn

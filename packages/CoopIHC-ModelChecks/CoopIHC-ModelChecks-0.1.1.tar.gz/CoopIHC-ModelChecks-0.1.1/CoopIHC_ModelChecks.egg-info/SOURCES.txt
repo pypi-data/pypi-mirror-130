@@ -1,0 +1,13 @@
+README.md
+setup.py
+CoopIHC_ModelChecks.egg-info/PKG-INFO
+CoopIHC_ModelChecks.egg-info/SOURCES.txt
+CoopIHC_ModelChecks.egg-info/dependency_links.txt
+CoopIHC_ModelChecks.egg-info/requires.txt
+CoopIHC_ModelChecks.egg-info/top_level.txt
+modelchecks/__init__.py
+modelchecks/__version__.py
+modelchecks/core.py
+modelchecks/utils.py
+test/test_bayesian.py
+test/test_modelchecks.py
