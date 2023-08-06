@@ -1,0 +1,10 @@
+insutance/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+insutance/answer.py,sha256=pFbck8Ofr3paydPK7uMwI08tFaR6K3xykypZR2_doZ8,1837
+insutance/command.py,sha256=pHbof5f2K0dJ6dae7MwqgR3jafP7JCa4QIZwaiNoE3I,523
+insutance/main.py,sha256=F59iSfH8D9R-iKKkqLrC7C-_fS_amK7BnWUn3IOhQME,640
+insutance/question_data.py,sha256=Z5O_RZ4YcvLcLAfZmeWZDu8rO6g8_YMXrHvD07gyXR0,389
+insutance-0.0.1.dist-info/METADATA,sha256=4yR-5y4UFmVLvnsAqKdOnfnNZ9qrk1S7x26-f9koZt0,266
+insutance-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+insutance-0.0.1.dist-info/entry_points.txt,sha256=yqgMMhWZMBhKHB9Sg94dSvljmTqmB70n17XtsqQQteg,45
+insutance-0.0.1.dist-info/top_level.txt,sha256=STFhQ8IXjcyDlm-jk3PEcMYh2GtcQXdjVtDqxm03Ces,10
+insutance-0.0.1.dist-info/RECORD,,
