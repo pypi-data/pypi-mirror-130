@@ -1,0 +1,3 @@
+[console_scripts]
+siphon = siphon.cli:main
+

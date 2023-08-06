@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: siphon-data
+Version: 0.6.0
+Summary: A data engineering utility library for siphoning data around
+Home-page: https://github.com/mitchelllisle/siphon
+Author: Mitchell Lisle
+Author-email: m.lisle90@gmail.com
+License: GNU General Public License v3
+Keywords: siphon
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7
+License-File: LICENSE
+
+UNKNOWN
+
