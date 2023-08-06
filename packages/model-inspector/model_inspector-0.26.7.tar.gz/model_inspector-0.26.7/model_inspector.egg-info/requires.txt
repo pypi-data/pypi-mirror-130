@@ -1,0 +1,17 @@
+fastcore
+IPython>7
+matplotlib>=3.4.2
+numpy
+pandas
+scikit-learn>=0.24
+scipy
+seaborn
+tqdm
+waterfallcharts
+
+[dev]
+black
+flake8
+ipdb
+nbdev
+nbqa
