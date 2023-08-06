@@ -1,0 +1,11 @@
+multiplanet/__init__.py,sha256=FZFkaKu2Zx4lI5SizA9dZBhCzPP-rL2BcGa6CMK0Rwk,382
+multiplanet/mpstatus.py,sha256=_dgUGq33Jlh1bzVbOBqwIKkpIIeZGcla2KuWHfgIY50,1545
+multiplanet/multiplanet.py,sha256=qc-F6FhHzI3_-F0gSwqu4iaobOKM2QT_IH5S_UEDNyI,10157
+multiplanet/multiplanet_module.py,sha256=xqdLoPHpcvugZijD2Ipxd6flPHOEcG0tmmJ-8ZOKbVc,383
+multiplanet/multiplanet_version.py,sha256=jfMYUkKiruYd9cM9tY-_mLygW0fRj75GOhW2tEhKhOI,21
+multiplanet-2.0.0.dist-info/LICENSE,sha256=oZpn4X86vBC9ox5YCXpzRuNcbJQSkrz7hU40juDKa0g,1085
+multiplanet-2.0.0.dist-info/METADATA,sha256=etEFPcxr_ih6UcdxcvNr2suvUnnwh05Nu9iG9FgqgSQ,1500
+multiplanet-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+multiplanet-2.0.0.dist-info/entry_points.txt,sha256=99QMsF-AMSbLEVzkNBlAWgl3IwiqQOkR-n-m9vCLGGw,109
+multiplanet-2.0.0.dist-info/top_level.txt,sha256=E5u5oBY9yHZYe8DJvmI3m4IpTpWk13_IHk4ipmRtyN4,12
+multiplanet-2.0.0.dist-info/RECORD,,
