@@ -1,0 +1,9 @@
+click
+datasette
+requests
+scipy
+scikit-learn
+matplotlib
+nltk
+textacy==0.10.1
+word2vec
