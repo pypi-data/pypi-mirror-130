@@ -1,0 +1,21 @@
+(11, 19, 12, 14)
+(12, 11, 11, 13)
+(13, 19, 17, 10)
+(13, 9, 16, 11)
+(14, 11, 16, 9)
+(14, 8, 23, 13)
+(15, 16, 7, 12)
+(15, 17, 11, 10)
+(16, 15, 10, 13)
+(16, 18, 15, 9)
+(17, 13, 15, 11)
+(17, 16, 13, 11)
+(18, 15, 15, 9)
+(19, 15, 14, 11)
+: 10 rows, 25 columns, 50 nonzeros
+Academic license - for non-commercial use only - expires 2022-01-15
+Non-dominated vectors found: 14
+Read LP format model from file ../tests/examples/ozlen_2014_paper.lp
+Reading time = 0.00 seconds
+Set parameter Username
+Solver calls: 82

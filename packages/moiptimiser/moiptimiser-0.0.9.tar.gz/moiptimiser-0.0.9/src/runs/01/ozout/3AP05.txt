@@ -1,0 +1,19 @@
+(21, 55, 47)
+(23, 46, 43)
+(24, 45, 38)
+(27, 36, 58)
+(28, 40, 43)
+(28, 48, 35)
+(30, 31, 39)
+(31, 30, 34)
+(34, 29, 44)
+(39, 28, 53)
+(41, 37, 31)
+(50, 24, 44)
+: 10 rows, 25 columns, 50 nonzeros
+Academic license - for non-commercial use only - expires 2022-01-15
+Non-dominated vectors found: 12
+Read LP format model from file ../tests/examples/3AP05.lp
+Reading time = 0.00 seconds
+Set parameter Username
+Solver calls: 24
