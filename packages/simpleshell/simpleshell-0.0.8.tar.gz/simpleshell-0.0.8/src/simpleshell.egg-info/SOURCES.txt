@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/simpleshell/__init__.py
+src/simpleshell.egg-info/PKG-INFO
+src/simpleshell.egg-info/SOURCES.txt
+src/simpleshell.egg-info/dependency_links.txt
+src/simpleshell.egg-info/top_level.txt
