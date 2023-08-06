@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+noxfile.py
+requirements.txt
+setup.py
+test_ucon.py
+ucon.py
+.github/workflows/publish.yaml
+.github/workflows/tests.yaml
+ucon.egg-info/PKG-INFO
+ucon.egg-info/SOURCES.txt
+ucon.egg-info/dependency_links.txt
+ucon.egg-info/top_level.txt
