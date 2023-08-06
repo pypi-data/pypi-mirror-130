@@ -1,0 +1,11 @@
+jax_finufft.libs/libfftw3-17cc48a2.so.3.3.2,sha256=MNRmyR8sGmzAVZ3zf18eArh0xqeAI-Hbo3j814-Nqug,1631216
+jax_finufft.libs/libfftw3f-4367ce36.so.3.3.2,sha256=8LgNcM9fjakp72ijt8wXPSO8lggvdsVobqyNDZl_E5o,1582816
+jax_finufft-0.0.3.dist-info/LICENSE,sha256=R37kprb3xRu-3wmfroy1aXjbx_RcFoRHOfoNLGC0FD0,10947
+jax_finufft-0.0.3.dist-info/RECORD,,
+jax_finufft-0.0.3.dist-info/top_level.txt,sha256=jhWEXsZXc-2g-T_8a8S66HMdFyE7Qrv_AlnO-wkkPwQ,12
+jax_finufft-0.0.3.dist-info/WHEEL,sha256=WFXPCOI-ThRoH7E2CwDLOlUPkbmQtopY299vGw7gCrA,142
+jax_finufft-0.0.3.dist-info/METADATA,sha256=oeK6Yl-SqlIngaiLxQgGhxsSR6wtlqcurOIbCX7-irY,4019
+jax_finufft/jax_finufft_version.py,sha256=cqMRlSvtXNenfrMB-M-Tt6_yTB4wzKdaO5USAZtNm0o,142
+jax_finufft/__init__.py,sha256=GvmWyJno07MQN-eB0a1iqiz7RXWCvVTCz9JQD-rTNeY,730
+jax_finufft/jax_finufft.cpython-39-x86_64-linux-gnu.so,sha256=n5U1wtIUv-G8w3ym2Y8U-GcUhNBltxSRFoxfhKrSXEo,612864
+jax_finufft/ops.py,sha256=2QYSHcReSQj2jYE-duEgmX-qNpofDB20muZj8yfufEE,13194
