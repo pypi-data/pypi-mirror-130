@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: change-event-service
+Version: 1.0.0
+Summary: Change Event Service
+Home-page: https://github.com/mantis-software-company/change-event-service
+Author: Ramazan Çetin
+Author-email: lramazancetinl@gmail.com
+License: UNKNOWN
+Platform: all
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >3.8.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: Flask (~=2.0.2)
+Requires-Dist: flask-smorest (~=0.35.0)
+Requires-Dist: Flask-SQLAlchemy (~=2.5.1)
+Requires-Dist: SQLAlchemy (~=1.4.25)
+Requires-Dist: apscheduler (==3.8.1)
+Requires-Dist: pika (==1.2.0)
+Requires-Dist: pyctuator (~=0.16.0)
+Requires-Dist: psycopg2-binary (~=2.9.2)
+Requires-Dist: marshmallow (~=3.14.0)
+Requires-Dist: SQLAlchemy-Utils (~=0.37.8)
+Requires-Dist: requests (~=2.26.0)
+
+#Change-Event Query
+
+## How it Works?
+This project written with [Flask web framework](https://flask.palletsprojects.com/en/2.0.x/). It use [flask-smorest](https://flask-smorest.readthedocs.io/en/latest/index.html) for REST API, [Pyctuator](https://github.com/SolarEdgeTech/pyctuator) for actuator endpoint and [Flask-SQLAlchemy](https://flask-sqlalchemy.palletsprojects.com/en/2.x/) for handle DB queries. Swagger UI documentation and API validations handled by flask-smorest itself. flask-smorest uses [Marshmallow](https://marshmallow.readthedocs.io/en/stable/index.html) models for marshalling and unmarshalling objects in request and response. This models also used by Swagger UI and [Pika](https://pika.readthedocs.io/en/stable/).
+##Run In Development Environments
+
+Open project in PyCharm, set environment variables and run `app.py`
+
+##Environment Variables
+* AMQP_HOST : Set host name of rabbitmq
+* AMQP_VIRTUAL_HOST: Set virtual host name of rabbitmq
+* AMQP_QUEUE: Set queue name of rabbitmq
+* AMQP_USER:  Set username of rabbitmq
+* AMQP_PASSWORD: Set password of rabbitmq
+* AMQP_EXCHANGE: Set exchange of rabbitmq
+* AMQP_ROUTING_KEY: Set routing key of rabbitmq
+* TBL_NAME: Set table name to insert
+* API_TITLE=Set api name;
+* API_VERSION= Set api version;
+* OPENAPI_URL_PREFIX= Set Open api url prefix
+* OPENAPI_SWAGGER_UI_PATH=Set Open api url prefix
+* OPENAPI_JSON_PATH= Set open api json path
+* OPENAPI_SWAGGER_UI_URL= Set swagger ui url
+* ACTUATOR_BASE_URI= Set actuator base url
+* POSTGRES_USER= Set username of database
+* POSTGRES_URL= Set url of database
+* POSTGRES_PASS= Set password of database
+* POSTGRES_DB= Set db name of database
+
+Other application settings in [config.py](change_event_service/config.py)
+
