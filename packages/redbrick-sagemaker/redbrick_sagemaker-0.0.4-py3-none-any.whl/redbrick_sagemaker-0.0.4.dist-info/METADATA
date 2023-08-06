@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: redbrick-sagemaker
+Version: 0.0.4
+Summary: RedBrick AI and AWS Sagemaker integration
+Home-page: https://github.com/redbrick-ai/redbrick-sagemaker
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7.0, <3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: redbrick-sdk (>=0.6.13)
+Requires-Dist: sagemaker (==2.60.0)
+Requires-Dist: boto3 (==1.20.11)
+Requires-Dist: mxnet (>=1.5.0)
+Requires-Dist: opencv-python (==4.5.4.60)
+Provides-Extra: dev
+Requires-Dist: wheel (==0.35.1) ; extra == 'dev'
+Requires-Dist: pytest-mock (==3.3.1) ; extra == 'dev'
+Requires-Dist: pytest (==6.1.2) ; extra == 'dev'
+Requires-Dist: black (==21.7b0) ; extra == 'dev'
+Requires-Dist: mypy (==0.790) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.3) ; extra == 'dev'
+Requires-Dist: pylint (==2.11.1) ; extra == 'dev'
+Requires-Dist: pycodestyle (==2.6.0) ; extra == 'dev'
+Requires-Dist: pydocstyle (==5.1.1) ; extra == 'dev'
+Requires-Dist: flake8 (==3.8.4) ; extra == 'dev'
+Requires-Dist: flake8-print (==3.1.4) ; extra == 'dev'
+Requires-Dist: eradicate (==1.0) ; extra == 'dev'
+Requires-Dist: pytest-cov (>=2.8.1) ; extra == 'dev'
+Requires-Dist: pytest-asyncio (==0.12.0) ; extra == 'dev'
+Requires-Dist: pytest-eradicate (==0.0.5) ; extra == 'dev'
+Requires-Dist: pytest-pycodestyle (==2.2.0) ; extra == 'dev'
+Requires-Dist: pytest-pydocstyle (==2.2.0) ; extra == 'dev'
+Requires-Dist: pytest-black (==0.3.12) ; extra == 'dev'
+Requires-Dist: pytest-pylint (==0.17.0) ; extra == 'dev'
+Requires-Dist: pytest-mypy (==0.7.0) ; extra == 'dev'
+Requires-Dist: pytest-flake8 (==1.0.6) ; extra == 'dev'
+Requires-Dist: pytest-randomly (==3.4.1) ; extra == 'dev'
+
+# redbrick-sagemaker
+
+This package is an integration between RedBrick AI and AWS sagemaker to allow end-to-end Active Learning on computer vision datasets.
+
+The objective of Active Learning is to label your data in order of information gain to your model. Following this strategy can drastically reduce the amount of data you have to label by only labeling those images that help your model improve.
+
+This package will help you run a full end-to-end process where you will be able to iteratively label your dataset and train your model in true Active Learning fashion.
+
+## Setup
+
+### Install the redbrick_sagemaker package
+
+```bash
+pip install redbrick_sagemaker
+```
+
+### Create an s3 bucket
+
+You will need to create an s3 bucket where your training and model files will get stored. Please follow <a href="https://docs.aws.amazon.com/AmazonS3/latest/userguide/create-bucket-overview.html">this tutorial</a> to create an s3 bucket through the CLI, SDK or AWS console.
+
+> **_NOTE:_** Create your bucket with the `sagemaker` part of the name, so that you can conditionally give it access. For example - `redbrick-sagemaker-bucket`.
+
+### Create sagemaker role
+
+> **_NOTE:_** We reccommend you run the `redbrick_sagemaker` package within a Sagemaker Notebook instance. If you do this, you won't have to create a Sagemaker Execution Role.
+
+If you're running `redbrick_sagemaker` outside of a Sagemaker Notebook, you need to create a Sagemaker Execution role to allow sagemaker to perform operations on your behalf. Please see <a href="https://docs.aws.amazon.com/sagemaker/latest/dg/sagemaker-roles.html">this tutorial</a> for creating a `AmazonSageMakerFullAccess` role. After creating the role, <i>make a note of the ARN</i>.
+
+## Use
+
+Standard RedBrick AI set up:
+
+```python
+api_key="TODO"
+org_id="TODO"
+project_id="TOOD"
+
+# The bucket where sagemaker will read/write predictions and training input/outputs.
+s3_bucket_name="TODO"
+s3_bucket_prefix="TODO"
+
+# OPTIONAL: Add the sagemaker execution role you created here.
+# only required if you are running redbrick_sagemaker outside of an AWS sagemaker notebook instance.
+# If runnning inside a sagemaker notebook, set role=None
+role="TODO"
+```
+
+Create a RedBrick AI Active Learning object:
+
+```python
+import redbrick_sagemaker
+
+active_learner = redbrick_sagemaker.ActiveLearner(
+    api_key,
+    org_id,
+    project_id,
+    s3_bucket=bucket,
+    s3_bucket_prefix=bucket_prefix,
+    iam_role=role
+)
+```
+
+Begin an Active Learning cycle. Running this for the first time will start a hyperparameter optimization job to train your model.
+
+```python
+active_learner.run()
+```
+
+Check on the status of your hyperparameter job.
+
+```python
+active_learner.describe()
+```
+
+You can have a detailed view on the progress of your hyperparameter tuning job on your <a href="https://ap-south-1.console.aws.amazon.com/sagemaker/home?region=ap-south-1#/hyper-tuning-jobs">AWS console</a>.
+
+<figure>
+    <img width=800 src="readme/readme-sage.png"/>
+    <figcaption> Sagemaker AWS console. </figcaption>
+</figure>
+
+Once your hyperparameter job is complete, you can re-run to perform inference and update Active Learning priorities.
+
+```python
+active_learning.run()
+```
+
+If your hyperparameter job is still processing, but there is a model job that has completed, you can force run an inference.
+
+```python
+active_learning.run(force_run=True)
+```
+
+If you want to run training, and inference in one go synchronously, you can simply do:
+
+```python
+active_learning.run(wait=True)
+```
+
+Please see the flowchart below for an explanation of the different states and flows.
+
+<figure>
+    <img width=800 src="readme/readme.png"/>
+    <figcaption> RedBrick Sagemaker active learning flow. </figcaption>
+</figure>
+
+
