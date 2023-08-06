@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: GammaRec
+Version: 1.0.9
+Summary: Video capture recording and preview.
+Home-page: http://github.com/3snow_p7im/GammaRec
+Author: Wild Mouse
+Author-email: 3snowp7im@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: pygobject
+
+UNKNOWN
+
