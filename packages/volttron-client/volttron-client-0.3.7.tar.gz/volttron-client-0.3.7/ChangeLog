@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.3.7
+------
+
+* Removed zope from requirements
