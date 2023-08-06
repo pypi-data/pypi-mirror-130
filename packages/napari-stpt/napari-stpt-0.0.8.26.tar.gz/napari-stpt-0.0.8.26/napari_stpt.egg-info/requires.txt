@@ -1,0 +1,11 @@
+napari
+numpy
+xarray
+qtpy
+pyqt5
+SimpleITK
+opencv-python
+zarr
+stardist
+tensorflow
+napari-animation
