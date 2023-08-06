@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: ascendfly
+Version: 0.5
+Summary: Ascend inference framework
+Home-page: https://gitee.com/ascend-fae/ascendfly
+Author: zhengguojian
+Author-email: kfengzheng@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ascend detection and classification
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
