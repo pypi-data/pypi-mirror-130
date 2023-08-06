@@ -1,0 +1,11 @@
+LICENSE.txt.txt
+README.md
+setup.py
+dashboard_pkg/__init__.py
+dashboard_pkg/covid_data_handler.py
+dashboard_pkg/covid_news_handling.py
+dashboard_pkg/main.py
+dashboard_pkg_mtrenchard.egg-info/PKG-INFO
+dashboard_pkg_mtrenchard.egg-info/SOURCES.txt
+dashboard_pkg_mtrenchard.egg-info/dependency_links.txt
+dashboard_pkg_mtrenchard.egg-info/top_level.txt
