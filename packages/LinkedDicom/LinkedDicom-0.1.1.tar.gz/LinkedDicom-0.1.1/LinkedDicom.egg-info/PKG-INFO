@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: LinkedDicom
+Version: 0.1.1
+Summary: A package to extract DICOM header data and store this in RDF
+Home-page: http://pypi.python.org/pypi/LinkedDicom/
+Author: Johan van Soest
+Author-email: j.vansoest@maastrichtuniversity.nl
+License: LICENSE.txt
+Description: LinkedDicom
+        
+Platform: UNKNOWN
