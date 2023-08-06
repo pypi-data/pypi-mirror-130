@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+kilonovanet/__init__.py
+kilonovanet/cvae.py
+kilonovanet/kilonovanet.py
+kilonovanet/observations.py
+kilonovanet.egg-info/PKG-INFO
+kilonovanet.egg-info/SOURCES.txt
+kilonovanet.egg-info/dependency_links.txt
+kilonovanet.egg-info/requires.txt
+kilonovanet.egg-info/top_level.txt
