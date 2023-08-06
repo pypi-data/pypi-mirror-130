@@ -1,0 +1,9 @@
+correlation_integral.cpython-310-x86_64-linux-gnu.so,sha256=1UVkfKo_49XSyKIHvFoll5aIlDWSgIS1ua80uTm6MXY,217928
+correlation_integral.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+correlation_integral.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+correlation_integral.libs/libgfortran-040039e1.so.5.0.0,sha256=R6s7aClbCjzomQpEjef6sRq928Fg-IlZcsqapxLPhtA,2686064
+correlation_integral-0.0.5.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+correlation_integral-0.0.5.dist-info/RECORD,,
+correlation_integral-0.0.5.dist-info/top_level.txt,sha256=G8J_0QOjvTkyR8eftn5mC8kMb-wjWWJbqtAmS34OZNs,21
+correlation_integral-0.0.5.dist-info/WHEEL,sha256=6B0vZ-Dd34LpGZN_4Y_GbBSl1fSb7keGXRzuHUFcOBA,152
+correlation_integral-0.0.5.dist-info/METADATA,sha256=u2fNcxJvgTQEtthkHQ2k7sOoW1Fppjl0t5lapMh8yf4,2638
