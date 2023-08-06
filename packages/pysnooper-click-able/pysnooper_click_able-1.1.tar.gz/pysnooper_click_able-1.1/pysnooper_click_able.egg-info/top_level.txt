@@ -1,0 +1,2 @@
+pysnooper042
+pysnooper_click_able
