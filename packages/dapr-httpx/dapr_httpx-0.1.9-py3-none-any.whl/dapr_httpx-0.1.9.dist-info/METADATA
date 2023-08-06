@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dapr-httpx
+Version: 0.1.9
+Summary: ✨dapr ➕ ✨httpx is awesome
+Author: Ben
+Author-email: moon791017@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.21.1,<0.22.0)
