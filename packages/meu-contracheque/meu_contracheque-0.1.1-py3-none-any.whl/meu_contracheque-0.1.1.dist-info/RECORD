@@ -1,0 +1,12 @@
+meu_contracheque/__init__.py,sha256=R91clogGcRPMndpvg7S0aLQVrEkrzTynVYN0rtQLP94,235
+meu_contracheque/cli.py,sha256=9VQ30u75l3OfKAAG-za_j9xK8cr37uht7PF7GmOic4A,597
+meu_contracheque/mg_all_periods.py,sha256=kKni0QA04rWwx2B9dAEaVd8M0e7yxeJ2zYoDL0dE8uc,2379
+meu_contracheque/mg_last_period.py,sha256=gm_WP9iV2c0h79cyd9-p1TavR3mMMkvUhxdCm9k56Hg,2382
+meu_contracheque/scraping_mg.py,sha256=yf9giDTT5EhjIO81sqqBKKo7JjFUrK9Iz_Q0usLFQoY,8090
+meu_contracheque/time_reader.py,sha256=V2wFcZfovt-CqKYQAIi6X4bx3CNZ7_Z-Tb7Ngs9Wg6A,517
+meu_contracheque-0.1.1.dist-info/LICENCE.txt,sha256=Pf9DPB5zt6mixVsoKZOUI5Ww8BDGKT-fT8YeO4Hf9F8,1062
+meu_contracheque-0.1.1.dist-info/METADATA,sha256=OSPGdLm6HIZYLHEyh-dbRWgOh_ZwoYL6RNO_ojNAkv4,6206
+meu_contracheque-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+meu_contracheque-0.1.1.dist-info/entry_points.txt,sha256=k4f1krK7ozjOcE2t_NzhUjgSDDOcrc3PRsEbElfWwjc,83
+meu_contracheque-0.1.1.dist-info/top_level.txt,sha256=KTLVXzchvAoJTBCLmMaH6hy-_4-WiTTzw4w45kdq3Wo,17
+meu_contracheque-0.1.1.dist-info/RECORD,,
