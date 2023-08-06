@@ -1,0 +1,9 @@
+README.md
+setup.py
+python-package/modelverse/__init__.py
+python-package/modelverse/utils.py
+python-package/modelverse/version.py
+python-package/modelverse.egg-info/PKG-INFO
+python-package/modelverse.egg-info/SOURCES.txt
+python-package/modelverse.egg-info/dependency_links.txt
+python-package/modelverse.egg-info/top_level.txt
