@@ -1,0 +1,8 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+genomeIO.egg-info/PKG-INFO
+genomeIO.egg-info/SOURCES.txt
+genomeIO.egg-info/dependency_links.txt
+genomeIO.egg-info/top_level.txt
