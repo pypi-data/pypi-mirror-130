@@ -1,0 +1,3 @@
+[console_scripts]
+audiomass = audiomass.cli:main
+
