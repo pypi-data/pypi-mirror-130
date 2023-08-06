@@ -1,0 +1,4 @@
+[console_scripts]
+fa=func_assistant.main:greeting
+fa-start=func_assistant.start:script_start
+

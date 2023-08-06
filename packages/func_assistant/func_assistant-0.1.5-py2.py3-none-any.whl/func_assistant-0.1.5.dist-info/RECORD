@@ -1,0 +1,8 @@
+func_assistant/__init__.py,sha256=fXyVrzts8qKceO_L7ora8jP2pK_Y6AfHHKbcki-KNPA,50
+func_assistant/main.py,sha256=C4t5EbrGctX8aDyMH8g4_Tmg6Y3CzkHNiW29X6ZZUlw,220
+func_assistant/start.py,sha256=_fjazr5sinXbMhlf5TXAGRHL3HULaRkjvz2LyfvKTkI,158
+func_assistant-0.1.5.dist-info/entry_points.txt,sha256=hTo9uCrnie-mbzQVCgfWzSpOaROKHfLhmuZLAOg_Eb8,94
+func_assistant-0.1.5.dist-info/LICENSE,sha256=dg31eoNRIw3jOT4m0KY42-2MTWmTFZoN7oRNqbeCr_A,1080
+func_assistant-0.1.5.dist-info/WHEEL,sha256=shCMacp_UZLzAaixE0UnHyDo5SCwd4EEmV8I_p7y88s,99
+func_assistant-0.1.5.dist-info/METADATA,sha256=R87DFR17nJXju1z5G4UDGhGPEIbDBpstdOENu4jtJ0A,256
+func_assistant-0.1.5.dist-info/RECORD,,
