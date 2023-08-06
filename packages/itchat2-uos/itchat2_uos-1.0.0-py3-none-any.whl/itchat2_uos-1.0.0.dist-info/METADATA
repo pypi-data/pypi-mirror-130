@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: itchat2-uos
+Version: 1.0.0
+Summary: 
+Author: aox.lei
+Author-email: 2387813033@qq.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyQRCode (>=1.2.1,<2.0.0)
+Requires-Dist: pypng (>=0.0.21,<0.0.22)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
