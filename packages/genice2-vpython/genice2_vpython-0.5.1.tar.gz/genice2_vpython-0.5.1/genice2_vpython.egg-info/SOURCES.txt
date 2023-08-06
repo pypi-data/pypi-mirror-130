@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+genice2_vpython/__init__.py
+genice2_vpython.egg-info/PKG-INFO
+genice2_vpython.egg-info/SOURCES.txt
+genice2_vpython.egg-info/dependency_links.txt
+genice2_vpython.egg-info/entry_points.txt
+genice2_vpython.egg-info/requires.txt
+genice2_vpython.egg-info/top_level.txt
+genice2_vpython/formats/__init__.py
+genice2_vpython/formats/vpython.py
