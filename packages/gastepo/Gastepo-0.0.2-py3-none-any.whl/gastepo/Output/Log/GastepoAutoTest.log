@@ -1,0 +1,2 @@
+[30m2021-11-30 17:52:03,397 [INFO:GastepoAutoTest] (PostmanUtils.py:generate_testcase:914) ~ [Initial]：开始将聚合后的Postman集合文档转换生成表格测试用例......[0m
+[30m2021-11-30 17:52:03,575 [INFO:GastepoAutoTest] (PostmanUtils.py:generate_testcase:923) ~ [Done]：聚合后的Postman集合文档已自动生成.xls格式的表格测试用例，路径为"/Users/mayer/Project/PycharmProjects/MileStone/Automation/Gastepo/Gastepo/TestSuite/TestCase/ApiTestCase_stg.xls".[0m
