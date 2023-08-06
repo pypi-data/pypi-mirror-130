@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/sfbulkapiv2/__init__.py
+src/sfbulkapiv2/__version__.py
+src/sfbulkapiv2/bulk.py
+src/sfbulkapiv2.egg-info/PKG-INFO
+src/sfbulkapiv2.egg-info/SOURCES.txt
+src/sfbulkapiv2.egg-info/dependency_links.txt
+src/sfbulkapiv2.egg-info/top_level.txt
