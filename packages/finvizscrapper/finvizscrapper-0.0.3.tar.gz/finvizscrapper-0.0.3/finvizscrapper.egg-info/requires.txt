@@ -1,0 +1,6 @@
+pandas
+bs4
+urllib3
+nltk
+matplotlib
+lxml
