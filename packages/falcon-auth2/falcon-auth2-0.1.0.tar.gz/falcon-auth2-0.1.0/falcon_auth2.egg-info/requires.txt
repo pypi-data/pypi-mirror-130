@@ -1,0 +1,7 @@
+falcon>=2
+
+[async]
+greenlet!=0.4.17
+
+[jwt]
+authlib>=0.15.5
