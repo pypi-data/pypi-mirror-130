@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+csv2cleartable/__init__.py
+csv2cleartable.egg-info/PKG-INFO
+csv2cleartable.egg-info/SOURCES.txt
+csv2cleartable.egg-info/dependency_links.txt
+csv2cleartable.egg-info/top_level.txt
+csv2table.egg-info/SOURCES.txt
+csv2table.egg-info/dependency_links.txt
+csv2table.egg-info/requires.txt
+csv2table.egg-info/top_level.txt
