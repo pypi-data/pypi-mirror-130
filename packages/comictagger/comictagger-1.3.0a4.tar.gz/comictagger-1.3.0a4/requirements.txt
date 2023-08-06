@@ -1,0 +1,6 @@
+beautifulsoup4 >= 4.1
+PyPDF2==1.24
+configparser
+natsort
+pillow>=4.3.0
+requests
