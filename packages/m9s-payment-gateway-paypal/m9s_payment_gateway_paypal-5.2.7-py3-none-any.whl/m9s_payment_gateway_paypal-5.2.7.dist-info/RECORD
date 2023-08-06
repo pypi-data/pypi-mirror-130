@@ -1,0 +1,17 @@
+trytond/modules/payment_gateway_paypal/__init__.py,sha256=Whll1ac9Zl5i7Da8Emwzt0wqGDJeykkgjbpwnJ9zkzU,472
+trytond/modules/payment_gateway_paypal/checkout.py,sha256=kIzFeg_IBfh8a9lz_WrFVzvuCRGWrntuTAocDgaR07I,6415
+trytond/modules/payment_gateway_paypal/payment.py,sha256=jeoj-svnvf9j1MHSk1mf8FHmhwBb0EwGtC01eVz0iNY,508
+trytond/modules/payment_gateway_paypal/sale.py,sha256=Hii4W9H_zbv5U7W0nJtRZYUsLyi5SrkAPL4ndoU2qk8,506
+trytond/modules/payment_gateway_paypal/transaction.py,sha256=G4DEnB8ghJo7T0ZJjnH1l6iR1BzgeuDjJjqAgriBVjg,9613
+trytond/modules/payment_gateway_paypal/transaction.xml,sha256=KzRt5qNG1G4IaWzn5zFEV2qNzTNc_xa7iyJhds-aPFk,451
+trytond/modules/payment_gateway_paypal/tryton.cfg,sha256=yr6l9e0tcPO03lPOydGQnF_jJaYGkU2KNbum2Br450E,175
+trytond/modules/payment_gateway_paypal/locale/de.po,sha256=GFLRsfEX74xkIgCvEHziyuBB3W1I6-CCFF3Y7kgWvaA,1735
+trytond/modules/payment_gateway_paypal/tests/__init__.py,sha256=bMeo22K8JYLOLKooZuOUbcW6qWDy8lqLOyez0BPD-WU,318
+trytond/modules/payment_gateway_paypal/tests/test_payment_gateway_paypal.py,sha256=SNlaP1poaOamsyRMXHdExgGquKCZr4rmtkfGboBjiJM,539
+trytond/modules/payment_gateway_paypal/view/gateway_form.xml,sha256=T-Xno5N0d9BxWxEhIQJ249zn6uCytPNA1rdPX2p_Hbo,579
+m9s_payment_gateway_paypal-5.2.7.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+m9s_payment_gateway_paypal-5.2.7.dist-info/METADATA,sha256=YXYzY-2WW9lPIv_WJTUlyeLZFsxw9OHry6HhRf8jGPM,3552
+m9s_payment_gateway_paypal-5.2.7.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+m9s_payment_gateway_paypal-5.2.7.dist-info/entry_points.txt,sha256=U6qJ4kH-5ioyLzzxoupSjVpeAl1kG9wJPLoH8wnPAsA,95
+m9s_payment_gateway_paypal-5.2.7.dist-info/top_level.txt,sha256=1UNriCfRfjRjutJbJ_B8i13huVUoV_Otp9RlW3mCfw4,8
+m9s_payment_gateway_paypal-5.2.7.dist-info/RECORD,,
