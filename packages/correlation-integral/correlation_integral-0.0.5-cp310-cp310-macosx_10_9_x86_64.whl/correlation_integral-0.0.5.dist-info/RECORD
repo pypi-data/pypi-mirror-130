@@ -1,0 +1,10 @@
+correlation_integral.cpython-310-darwin.so,sha256=Bgrbjy7bXiMa3uwqmubuevwXykMVxgLd869Ji24arlU,98272
+correlation_integral.dylibs/libgfortran.5.dylib,sha256=x8W95LP6LZYhLOWU9-IjFwLbA0obv4WlVmcL0DiHbKQ,3352064
+correlation_integral.dylibs/libquadmath.0.dylib,sha256=Rgt4QBdnzR6JrOPmE5---G0LSyp0C4ddo0-TlXlj7nQ,364624
+correlation_integral.dylibs/libgcc_s.1.dylib,sha256=H6N_aRvfSLd1ubCoQvstGMahbVJYLWbqhGi3odldvVg,189568
+correlation_integral.dylibs/libgomp.1.dylib,sha256=CioNyFdfyz_EdcAJzgjZEQwWTvA59B28v0RONAydzPY,394688
+correlation_integral-0.0.5.dist-info/RECORD,,
+correlation_integral-0.0.5.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+correlation_integral-0.0.5.dist-info/WHEEL,sha256=QN3MNOFrRIeE9ccPTe5mH4Q_A2DBDdD7_qUigvuJeQU,111
+correlation_integral-0.0.5.dist-info/top_level.txt,sha256=G8J_0QOjvTkyR8eftn5mC8kMb-wjWWJbqtAmS34OZNs,21
+correlation_integral-0.0.5.dist-info/METADATA,sha256=u2fNcxJvgTQEtthkHQ2k7sOoW1Fppjl0t5lapMh8yf4,2638
