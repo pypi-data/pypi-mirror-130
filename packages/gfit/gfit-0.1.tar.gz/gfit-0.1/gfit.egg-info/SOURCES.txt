@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+gfit/__init__.py
+gfit/internal.py
+gfit/util.py
+gfit.egg-info/PKG-INFO
+gfit.egg-info/SOURCES.txt
+gfit.egg-info/dependency_links.txt
+gfit.egg-info/requires.txt
+gfit.egg-info/top_level.txt
