@@ -1,0 +1,9 @@
+pandiet/__init__.py,sha256=fYQujpM5LyG1q3McTis-gapFRBlLiGa3lcyin-55iXA,215
+pandiet/core.py,sha256=lkSRvbOHTNjzVZaKHBzoYatw6s8mVqUu2p4MXAcYeX8,5807
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=dFA1qIos1W3koKPphII5j2NyRzuBQo2uM3f-Wpm1tyU,321
+pandiet-0.1.6.dist-info/LICENSE,sha256=uU_fjdcN__r0UJVQ0AgDoCMIJgGDvn7nxLl8Qfk4za8,1518
+pandiet-0.1.6.dist-info/METADATA,sha256=TjzHutel_YdfrDYJUZI2ptY5e6hs-7LyjuxSzFt1eHU,1540
+pandiet-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pandiet-0.1.6.dist-info/top_level.txt,sha256=Tw4Qy_y21_DtilNdQmLObSd15IdJYAZdCfGJZfHODXE,14
+pandiet-0.1.6.dist-info/RECORD,,
