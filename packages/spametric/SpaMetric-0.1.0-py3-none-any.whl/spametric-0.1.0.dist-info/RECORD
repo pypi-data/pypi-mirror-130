@@ -1,0 +1,11 @@
+SpaMetric/__init__.py,sha256=hHGn5IhCkEx7X4zzawxrR8JMbr2543de2C7u6mzEnts,316
+SpaMetric/_compat.py,sha256=h2_onHE-eFFr7cBqzWL6t-5leO-AeWlJlexVEsj6e2g,167
+SpaMetric/_metric_learning.py,sha256=vlxksKFOWrlsC7lmkBZQQ_W470bKLHfDd0NusS7vy5U,4762
+SpaMetric/_metric_learning_minibatch.py,sha256=BxQb6LcaCYW1dJldl8W37pTQ6K8iGD-B74IhEeA1ROg,7887
+SpaMetric/_reference_centers.py,sha256=FcGBV8jDeTvPzBwpYv7A-dp4fsMaO-rbGf6HcZ3Tyj8,3799
+SpaMetric/_solve.py,sha256=VqHWIBvIc6Aoj6-CahJidr0xx2kNa_w-zvClll4ZIQk,4234
+SpaMetric/_spatial_reconstruction.py,sha256=XIm7LXUoRrDJ8ZJzWJQQ6BdZi8j1YPZOEzGrZ53y05w,2970
+SpaMetric/_utils.py,sha256=ue4F1XyknRDmB0TOY2O5NrjInfJovgAGVvwz5joWu4c,552
+spametric-0.1.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+spametric-0.1.0.dist-info/METADATA,sha256=wN0gwlxeEZNYPiZgnhENO7Nh3q1Hj4dxW3P9kulfR_0,2122
+spametric-0.1.0.dist-info/RECORD,,
