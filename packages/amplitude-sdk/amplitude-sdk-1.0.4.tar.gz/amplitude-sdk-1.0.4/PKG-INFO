@@ -1,0 +1,51 @@
+Metadata-Version: 1.0
+Name: amplitude-sdk
+Version: 1.0.4
+Summary: Amplitude Python 3 SDK.
+Home-page: https://github.com/paulokuong/amplitude
+Author: Paulo Kuong
+Author-email: UNKNOWN
+License: MIT
+Description: Amplitude Python SDK
+        --------------------
+        
+        SDK for Amplitude API
+        
+            | SDK for Amplitude API.
+            | https://developers.amplitude.com/docs
+            | https://github.com/paulokuong/amplitude
+        
+        Requirements
+        ------------
+        
+        -  Python 3.7.0
+        
+        Goal
+        ----
+        
+        | To provide a python API client for Amplitude API.
+        | (More clients to be implemented)
+        
+        Code sample
+        -----------
+        
+        | Requesting Behavioral Cohorts API
+        
+        .. code:: python
+        
+          from amplitude_sdk import BehavioralCohortsClient
+          b = BehavioralCohortsClient(
+          api_key='xxxxxxx',
+          secret='yyyyyyyy')
+          b.list_cohorts()
+        
+        
+        Contributors
+        ------------
+        
+        -  Paulo Kuong (`@paulokuong`)
+        
+        .. @pkuong: https://github.com/paulokuong
+        
+Keywords: amplitude sdk Amplitude v2  bahav HTTP api V2 Batch Event Upload  Identify  Attribution  Behavioral Cohorts  Chart Annotations  Dashboard REST  Export  Group Identify  Releases  SCIM  Taxonomy  User Privacy  User Profile
+Platform: UNKNOWN

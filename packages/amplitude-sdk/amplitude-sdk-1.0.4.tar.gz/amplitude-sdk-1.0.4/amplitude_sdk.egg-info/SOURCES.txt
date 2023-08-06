@@ -1,0 +1,9 @@
+README.rst
+setup.py
+amplitude_sdk/__init__.py
+amplitude_sdk/clients.py
+amplitude_sdk.egg-info/PKG-INFO
+amplitude_sdk.egg-info/SOURCES.txt
+amplitude_sdk.egg-info/dependency_links.txt
+amplitude_sdk.egg-info/not-zip-safe
+amplitude_sdk.egg-info/top_level.txt
