@@ -1,0 +1,4 @@
+[console_scripts]
+csv_converter=brant_csv_converter.converter:converter
+json_converter=brant_csv_converter.converter:converter2
+
