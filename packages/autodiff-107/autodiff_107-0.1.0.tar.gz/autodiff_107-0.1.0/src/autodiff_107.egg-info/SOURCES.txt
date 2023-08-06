@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/autodiff_107/__init__.py
+src/autodiff_107/diff.py
+src/autodiff_107/math.py
+src/autodiff_107/optim.py
+src/autodiff_107/rootfind.py
+src/autodiff_107/viz.py
+src/autodiff_107.egg-info/PKG-INFO
+src/autodiff_107.egg-info/SOURCES.txt
+src/autodiff_107.egg-info/dependency_links.txt
+src/autodiff_107.egg-info/requires.txt
+src/autodiff_107.egg-info/top_level.txt
