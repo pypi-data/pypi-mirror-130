@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cputil
+Version: 1.1
+Summary: CNN深度学习项目工具包
+Home-page: UNKNOWN
+Author: feiyue_chen
+Author-email: 1049465452@qq.com
+License: UNKNOWN
+Description: CNN深度学习项目工具包,包括数据清洗，数据加载器以及docker接口测试
+Platform: UNKNOWN
