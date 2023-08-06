@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<!-- The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<tryton>
+    <data group="1">
+        <record model="ir.message" id="no_party_for_project">
+            <field name="text">Could not find party with code: %(party_code)s</field>
+        </record>
+        <record model="ir.message" id="multiple_roundup_projects">
+	    <field name="text">Several open roundup projects found:
+
+
+%(projects)s
+
+It is only one open Roundp project allowed.
+</field>
+        </record>
+        <record model="ir.message" id="multiple_roundup_tasks">
+	    <field name="text">'Several roundup tasks relating to the same issue found:
+
+%(tasks)s
+
+It is only one task per issue allowed.
+</field>
+        </record>
+    </data>
+</tryton>

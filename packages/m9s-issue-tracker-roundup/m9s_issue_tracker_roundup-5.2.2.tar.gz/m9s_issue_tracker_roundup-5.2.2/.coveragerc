@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.issue_tracker_roundup
+
+[report]
+omit = */tests/*,*/setup.py
