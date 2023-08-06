@@ -1,0 +1,2 @@
+item_url: "http://localhost/$nid/$name"
+upload_dir: "/vagrant/output/"
