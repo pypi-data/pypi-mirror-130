@@ -1,0 +1,3 @@
+[console_scripts]
+cdn-proxy=cdn_proxy.__main__:main
+
