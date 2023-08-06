@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: indev
+Version: 0.0.1
+Summary: Package containing some basic developer helpers
+Home-page: https://github.com/BhMbOb/Py-InDev
+Author: Bailey3D
+Author-email: contact@bailey3d.com
+License: MIT
+Description: InDev
+        --------
+        Python package for basic development helpers
+        
+            >>> import indev.decorators
+            >>> 
+            >>> @indev.decorators.todo("This is an example of a TODO!")
+            >>> def foo():
+            >>>     pass
+        
+Keywords: developer indev helpers todo decorators
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
