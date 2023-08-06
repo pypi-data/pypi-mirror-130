@@ -1,0 +1,7 @@
+README.md
+setup.py
+moconf.egg-info/PKG-INFO
+moconf.egg-info/SOURCES.txt
+moconf.egg-info/dependency_links.txt
+moconf.egg-info/requires.txt
+moconf.egg-info/top_level.txt
