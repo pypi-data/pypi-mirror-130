@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pynavt=pynavt.__init__:main
+    
