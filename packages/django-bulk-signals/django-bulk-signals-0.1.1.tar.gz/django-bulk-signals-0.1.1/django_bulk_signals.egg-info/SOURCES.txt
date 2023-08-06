@@ -1,0 +1,16 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bulk_signals/__init__.py
+bulk_signals/apps.py
+bulk_signals/signals.py
+django_bulk_signals.egg-info/PKG-INFO
+django_bulk_signals.egg-info/SOURCES.txt
+django_bulk_signals.egg-info/dependency_links.txt
+django_bulk_signals.egg-info/requires.txt
+django_bulk_signals.egg-info/top_level.txt
+tests/migrations/0001_initial.py
+tests/migrations/__init__.py
