@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aria2-rpc-client
+Version: 0.4.0
+Summary: Aria2 RPC Client
+Home-page: https://github.com/ozkansen/aria2_rpc_client
+License: MIT
+Author: Özkan ŞEN
+Author-email: ozkansen@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/ozkansen/aria2_rpc_client
