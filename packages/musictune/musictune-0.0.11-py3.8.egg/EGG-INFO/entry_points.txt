@@ -1,0 +1,7 @@
+[console_scripts]
+tune-cluster = musictune.scripts.start_cluster:main
+tune-pzf2zarr = musictune.scripts.pzf2zarr:main
+tune-scout = musictune.scripts.scout_3:main
+tune-stitchzarr = musictune.scripts.stitching:main
+tune-zarr2tif = musictune.scripts.zarr2tif:main
+
