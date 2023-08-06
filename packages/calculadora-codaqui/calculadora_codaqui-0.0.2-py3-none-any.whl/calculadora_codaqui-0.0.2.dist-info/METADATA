@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: calculadora-codaqui
+Version: 0.0.2
+Summary: Está é uma calculadora mantida pela Codaqui.
+License: MIT
+Author: Codaqui
+Author-email: contato@codaqui.dev
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
