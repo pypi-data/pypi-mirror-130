@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: i-lazy
+Version: 0.1.0
+Summary: A small collection of Python laziness.
+Home-page: https://github.com/ppeetteerrs/i-lazy-python.git
+Keywords: utility,data_structure,helper,simple,common
+Author: Peter Yuen
+Author-email: ppeetteerrsx@gmail.com
+Requires-Python: >=3.8,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: flatdict (>=4.0.1,<5.0.0)
+Project-URL: Repository, https://github.com/ppeetteerrs/i-lazy-python.git
