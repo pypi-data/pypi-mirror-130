@@ -1,0 +1,9 @@
+README.md
+setup.py
+c_log/__init__.py
+c_log/config.py
+c_log/main.py
+c_log.egg-info/PKG-INFO
+c_log.egg-info/SOURCES.txt
+c_log.egg-info/dependency_links.txt
+c_log.egg-info/top_level.txt

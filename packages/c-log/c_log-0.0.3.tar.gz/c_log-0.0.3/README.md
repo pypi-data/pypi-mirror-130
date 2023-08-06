@@ -1,0 +1,48 @@
+# c_log
+Микропакет для цветного вывода на стандартный вывод
+Актуальная версия пакета `0.0.3`
+
+## Как использовать
+Пример установки пакета
+
+```shell
+python3 -m pip install c-log==0.0.3
+```
+
+Пример использование пакета
+```python
+import time
+from c_log import msg
+
+msg.ok('Test message')
+msg.ok('Test message', 'core')
+time.sleep(1)
+msg.info('Test message')
+msg.info('Test message', 'core')
+time.sleep(1)
+msg.warn('Test message')
+msg.warn('Test message', 'core')
+time.sleep(1)
+msg.error('Test message')
+msg.error('Test message', 'core')
+```
+Пример стандартного вывода
+```shell
+ 2021-12-13 13:56:30 [OK] Test message 
+ 2021-12-13 13:56:30 [OK] [CORE] Test message 
+ 2021-12-13 13:56:31 [INFO] Test message 
+ 2021-12-13 13:56:31 [INFO] [CORE] Test message 
+ 2021-12-13 13:56:32 [WARN] Test message 
+ 2021-12-13 13:56:32 [WARN] [CORE] Test message 
+ 2021-12-13 13:56:33 [ERROR] Test message 
+ 2021-12-13 13:56:33 [ERROR] [CORE] Test message
+```
+
+## Сборка пакета
+
+```shell
+python3 setup.py sdist bdist_wheel
+```
+```shell
+twine upload dist/*
+```
