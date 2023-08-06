@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+src/hello_guys_dinh_sm.py
+src/hello_guys_dinh_sm.egg-info/PKG-INFO
+src/hello_guys_dinh_sm.egg-info/SOURCES.txt
+src/hello_guys_dinh_sm.egg-info/dependency_links.txt
+src/hello_guys_dinh_sm.egg-info/requires.txt
+src/hello_guys_dinh_sm.egg-info/top_level.txt

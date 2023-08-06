@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hello-guys-dinh-sm
+Version: 0.0.2
+Summary: Hands-on on software deployment, licenses, docstrings, doctests and sphinx documentation.
+Home-page: https://github.com/Dinh-SM/Package-Deployment-Test
+Author: DINH Son-Michel
+Author-email: son-michel.dinh@insa-lyon.fr
+License: LICENSE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Package-Deployment-Test
+
+Hands-on on software deployment, licenses, docstrings, doctests and sphinx documentation.
+
+## Documentation
+
+https://dinh-sm.github.io/Package-Deployment-Test/
+
+
