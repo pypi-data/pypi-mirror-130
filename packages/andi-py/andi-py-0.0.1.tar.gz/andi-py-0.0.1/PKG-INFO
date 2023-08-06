@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: andi-py
+Version: 0.0.1
+Summary: Analog Discovery 2 python API
+Home-page: https://github.com/fkolbl/andi
+Author: Florian Kolbl - Yannick Bornat - Louis Regnacq
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+file: README.md
+
