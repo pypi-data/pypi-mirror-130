@@ -1,0 +1,2 @@
+ipyvuetify<2,>=1.7.0
+voila>=0.2.10
