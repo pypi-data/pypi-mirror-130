@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: eisenradio
+Version: 0.8.27
+Summary: Play radio. Record radio. Style your App.
+Home-page: UNKNOWN
+Author: René Horn
+Author-email: rene_horn@gmx.net
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: setuptools
+Requires-Dist: flask-cors
+Requires-Dist: configparser
+Requires-Dist: requests
+Requires-Dist: urllib3
+
+Web radio expandable collection with advanced features in a browser of your choice.
+Give your radio a name, description and a nice picture.
+
+ * each radio has a display
+ * dark mode for your dark thoughts
+ * server/app runs in a terminal window
+ * written in Python and Java script
+ * runs on Flask and SQLite
+
+Installation help:
+Python Interpreter software must be installed.
+
+	xxx Linux xxx:
+	--------------
+	pip3 install eisenradio
+	python3 -m eisenradio.app
+
+
+	xxx Windows xxx:
+	----------------
+	pip install eisenradio
+	
+	run app in cmd: python -m eisenradio.app
+	create a "eisenradio.bat" file name on desktop, paste: python -m eisenradio.app
+	
+	change the save folder (navigation bar) to a personal folder
+	if you have to restore your win installation, the python packages with content are dead
+
