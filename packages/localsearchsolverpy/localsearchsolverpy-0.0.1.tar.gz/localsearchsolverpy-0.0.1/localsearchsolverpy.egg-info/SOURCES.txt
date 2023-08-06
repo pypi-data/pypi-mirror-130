@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+localsearchsolverpy/__init__.py
+localsearchsolverpy/commons.py
+localsearchsolverpy/iterated_local_search.py
+localsearchsolverpy/restarting_local_search.py
+localsearchsolverpy.egg-info/PKG-INFO
+localsearchsolverpy.egg-info/SOURCES.txt
+localsearchsolverpy.egg-info/dependency_links.txt
+localsearchsolverpy.egg-info/top_level.txt
