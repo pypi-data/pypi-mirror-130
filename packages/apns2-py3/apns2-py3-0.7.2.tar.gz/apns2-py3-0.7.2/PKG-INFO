@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: apns2-py3
+Version: 0.7.2
+Summary: A python library for interacting with the Apple Push Notification Service via HTTP/2 protocol
+Home-page: https://github.com/ramananda-kairi/PyApns2-py3
+Author: Ramananda Kairi
+Author-email: ramananda.kairi@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
+Provides-Extra: tests
