@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+d2py/__init__.py
+d2py.egg-info/PKG-INFO
+d2py.egg-info/SOURCES.txt
+d2py.egg-info/dependency_links.txt
+d2py.egg-info/top_level.txt
+d2py/utils/__init__.py
+d2py/utils/file.py
