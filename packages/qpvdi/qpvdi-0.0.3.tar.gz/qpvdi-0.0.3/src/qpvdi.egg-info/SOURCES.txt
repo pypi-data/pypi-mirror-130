@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/qpvdi/__init__.py
+src/qpvdi/injector.py
+src/qpvdi.egg-info/PKG-INFO
+src/qpvdi.egg-info/SOURCES.txt
+src/qpvdi.egg-info/dependency_links.txt
+src/qpvdi.egg-info/top_level.txt
