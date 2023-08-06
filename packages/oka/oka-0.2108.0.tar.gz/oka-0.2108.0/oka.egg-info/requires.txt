@@ -1,0 +1,9 @@
+requests
+python-dotenv
+idict
+
+[dev]
+check-manifest
+
+[test]
+coverage
