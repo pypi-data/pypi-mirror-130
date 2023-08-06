@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: system-check
+Version: 0.1.3.324382b0
+Summary: Check Python properties.
+Home-page: UNKNOWN
+Author: cheny0y0, REGE
+Author-email: cyy144881@icloud.com
+License: UNKNOWN
+Description: # system-check
+        
+        ## Usage
+        
+        This package is using for check Python properties.
+        
+        ## How to use it
+        
+        Import it by: `from syschk import *`. No any additional modules or packages will be installed.
+        
+        To check is there a variable named `True` :
+        ```python3
+        from syschk import *
+        check_exists("True") # Returns 1 if it exists
+        ```
+        
+        To check what is the value of `sys.version` :
+        ```python3
+        from syschk import *
+        import sys
+        check_value("sys.version")
+        ```
+        
+        To check is there a module named `threading` :
+        ```python3
+        from syschk import *
+        check_run("import threading") # This will not be really imported because it's in a function
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Android
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Other OS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: iOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown

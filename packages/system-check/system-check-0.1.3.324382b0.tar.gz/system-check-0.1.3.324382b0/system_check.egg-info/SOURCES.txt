@@ -1,0 +1,8 @@
+README.md
+setup.py
+syschk/__init__.py
+system_check.egg-info/PKG-INFO
+system_check.egg-info/SOURCES.txt
+system_check.egg-info/dependency_links.txt
+system_check.egg-info/top_level.txt
+system_check.egg-info/zip-safe
