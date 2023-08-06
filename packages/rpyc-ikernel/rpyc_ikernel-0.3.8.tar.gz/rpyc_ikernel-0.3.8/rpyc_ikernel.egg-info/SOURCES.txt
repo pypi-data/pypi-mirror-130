@@ -1,0 +1,15 @@
+MANIFEST.in
+readme.md
+setup.py
+rpyc_ikernel/__init__.py
+rpyc_ikernel/__main__.py
+rpyc_ikernel/adb.py
+rpyc_ikernel/compat.py
+rpyc_ikernel/install.py
+rpyc_ikernel/kernel.py
+rpyc_ikernel/scheduler.py
+rpyc_ikernel.egg-info/PKG-INFO
+rpyc_ikernel.egg-info/SOURCES.txt
+rpyc_ikernel.egg-info/dependency_links.txt
+rpyc_ikernel.egg-info/requires.txt
+rpyc_ikernel.egg-info/top_level.txt
