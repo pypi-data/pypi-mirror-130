@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+netbox_demo/__init__.py
+netbox_demo/signals.py
+netbox_demo.egg-info/PKG-INFO
+netbox_demo.egg-info/SOURCES.txt
+netbox_demo.egg-info/dependency_links.txt
+netbox_demo.egg-info/not-zip-safe
+netbox_demo.egg-info/top_level.txt
