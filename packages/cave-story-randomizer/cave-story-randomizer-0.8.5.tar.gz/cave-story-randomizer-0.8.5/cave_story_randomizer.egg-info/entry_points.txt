@@ -1,0 +1,3 @@
+[pyinstaller40]
+hook-dirs = pre_edited_cs.__pyinstaller:get_hook_dirs
+
