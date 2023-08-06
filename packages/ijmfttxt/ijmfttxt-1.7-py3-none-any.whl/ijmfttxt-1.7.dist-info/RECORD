@@ -1,0 +1,13 @@
+ijmfttxt/__init__.py,sha256=f2HR5-MjjwL7p8-igAPZ1MwYvrCRiwKZ4nm3gaxule8,45
+ijmfttxt/apds.py,sha256=DQh3nqYNqtWMmUMUrDwYd36D8TTea1axvZg70C-4ydY,12642
+ijmfttxt/color.py,sha256=UVDhfYHQT0iR382-DnpeWKQrpDdZCztZz8TKWpXQF3k,6441
+ijmfttxt/constants.py,sha256=-9kSuzQH3TAKJKhOcjaivEO1Nn1_FR45oWaoo7FZYvc,3725
+ijmfttxt/keyboard.py,sha256=L5wlijIJ2CPobzd7rIdVzGnsU5a6xikaZL-sKIeY6I8,3430
+ijmfttxt/txt.py,sha256=62b0Fu-ol8VL2c4AgGbCa__4j-3VixByMiUjH7c29No,4306
+ijmfttxt/ftrobopy/__init__.py,sha256=aPPHnOdn68CglhfCZw6cli4BoWs1biqlVJVY_89zLJ0,25
+ijmfttxt/ftrobopy/ftrobopy.py,sha256=4iYCND8qRYTPC3QvgYwOYX0mVrxP0pB1dWj6RcZLKw4,119724
+ijmfttxt-1.7.dist-info/LICENSE,sha256=zUc-0wie3StGUt7Q1CioFZlc4GSTPRp1ODlLStSSsH8,1094
+ijmfttxt-1.7.dist-info/METADATA,sha256=tAUqvnLvaEOSIpAPq_fE6t5bf0dptUw_HxRlo7oWKR0,662
+ijmfttxt-1.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ijmfttxt-1.7.dist-info/top_level.txt,sha256=a399MZMB-vg3-JKSO4DeGkX4TgW6oV48gkpx-5U3j60,27
+ijmfttxt-1.7.dist-info/RECORD,,
