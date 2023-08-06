@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: mp2hudcolor
+Version: 1.0.0
+Summary: Modifies an existing NTWK file for Metroid Prime 2: Echoes and changing the color of the HUD.
+Home-page: https://github.com/toasterparty/mp2hudcolor
+Author: toasterparty
+Author-email: toasterparty@derpymail.org
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+README.md
+
