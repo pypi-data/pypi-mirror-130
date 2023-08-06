@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+hydronas.egg-info/PKG-INFO
+hydronas.egg-info/SOURCES.txt
+hydronas.egg-info/dependency_links.txt
+hydronas.egg-info/not-zip-safe
+hydronas.egg-info/top_level.txt
+src/__init__.py
+src/helloworld.py
