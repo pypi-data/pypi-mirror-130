@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: myqlm-interop
+Version: 1.5.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Atos Quantum Lab
+License: Atos myQLM EULA
+Platform: UNKNOWN
+License-File: LICENSE
+License-File: NOTICE
+Requires-Dist: qat-lang (>=0.0.6)
+Requires-Dist: numpy
+Requires-Dist: ply
+Provides-Extra: all
+Requires-Dist: qiskit (==0.30.0) ; extra == 'all'
+Requires-Dist: symengine ; extra == 'all'
+Requires-Dist: cirq (==0.11.1) ; (python_version < "3.8") and extra == 'all'
+Requires-Dist: projectq (==0.6.1.post0) ; (python_version < "3.9") and extra == 'all'
+Requires-Dist: pyquil (==3.0.0) ; (python_version >= "3.7") and extra == 'all'
+Requires-Dist: quantum-grove (==1.7.0) ; (python_version >= "3.7") and extra == 'all'
+Requires-Dist: cirq (==0.12.0) ; (python_version >= "3.8") and extra == 'all'
+Requires-Dist: projectq (==0.7.0) ; (python_version >= "3.9") and extra == 'all'
+Provides-Extra: cirq_binder
+Requires-Dist: cirq (==0.11.1) ; (python_version < "3.8") and extra == 'cirq_binder'
+Requires-Dist: cirq (==0.12.0) ; (python_version >= "3.8") and extra == 'cirq_binder'
+Provides-Extra: projectq_binder
+Requires-Dist: projectq (==0.6.1.post0) ; (python_version < "3.9") and extra == 'projectq_binder'
+Requires-Dist: projectq (==0.7.0) ; (python_version >= "3.9") and extra == 'projectq_binder'
+Provides-Extra: pyquil_binder_python_version_3.7_
+Requires-Dist: pyquil (==3.0) ; extra == 'pyquil_binder_python_version_3.7_'
+Requires-Dist: quantum-grove (==1.7.0) ; extra == 'pyquil_binder_python_version_3.7_'
+Provides-Extra: qiskit_binder
+Requires-Dist: qiskit (==0.30.0) ; extra == 'qiskit_binder'
+Requires-Dist: symengine ; extra == 'qiskit_binder'
+
+UNKNOWN
+
