@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pandas>=1.2.5
+scikit-learn>=0.24.2
+joblib==1.0.1
+statsmodels>=0.12.2
+tqdm>=4.59.0
