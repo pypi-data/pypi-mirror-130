@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: vetiver
+Version: 0.1.0
+Summary: Python parallel to R vetiver package
+Home-page: https://github.com/isabelizimm/python-vetiver
+Author: Isabel Zimmerman
+Author-email: isabel.zimmerman@rstudio.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+# vetiver 🏺
+
+<!-- badges: start -->
+
+[![Lifecycle:
+experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+Python parallel to [R vetiver](https://github.com/tidymodels/vetiver) package.
+
+## Usage
+
+
+
+## Installation
+
+Requirements
+^^^^^^^^^^^^
+
+## License
+
+## Contributing 
+
+This project is released with a [Contributor Code of
+Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html).
+By contributing to this project, you agree to abide by its terms.
+
+
+
