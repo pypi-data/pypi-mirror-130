@@ -1,0 +1,4 @@
+[console_scripts]
+jaepeto = jaepeto.docs.technical_docs:generate_documentation
+jaepeto-init = jaepeto.utils.config:create_config
+
