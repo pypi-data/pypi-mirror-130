@@ -1,0 +1,10 @@
+fact_checking/__init__.py,sha256=PIG3vQUWomVMczNPMOFlM4WnhGx7J4fcb-xkBnZRdYQ,50
+fact_checking/fact_checker.py,sha256=IHUalW_yM09v6jzydG36vU9X8G_JjdMgbe7Av-cRj3k,1495
+fact_checking/model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fact_checking/test.py,sha256=dV6mQ0eNZ9aMs78wMvfFfJ1zNk69Gh5FSk_DOSr-15w,465
+fact_checking/test_replicas.py,sha256=doss63LzIsQgy6bIYiCdqrenUURRCLqS5-Zpl3xPRys,482
+fact_checking/utils.py,sha256=SL7_8t7TMpBJznYdEswG5TKTg__iAXF0aEHi7EU7AbA,2179
+fact_checking-0.0.3.dist-info/METADATA,sha256=IzNbfLq4UV2TjGpstbwp4xu6J4HgHj0ML6yed_JLA_4,2813
+fact_checking-0.0.3.dist-info/WHEEL,sha256=DgcoKJDfsYFbFLUrngH-aDjJZvn8UqGD3gZyEvGv0dg,92
+fact_checking-0.0.3.dist-info/top_level.txt,sha256=hTMsGXpq6_QbfRTQizzvNdC1Am44o511N7_CWIQMajI,14
+fact_checking-0.0.3.dist-info/RECORD,,
