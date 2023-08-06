@@ -1,0 +1,7 @@
+numpy
+matplotlib
+xarray
+cartopy
+cftime
+ESMPy>=8.1.0
+netCDF4
