@@ -1,0 +1,12 @@
+setup.py
+mouzz/__init__.py
+mouzz/config.json
+mouzz/core.py
+mouzz/patch_keyboard.py
+mouzz/utils.py
+mouzz.egg-info/PKG-INFO
+mouzz.egg-info/SOURCES.txt
+mouzz.egg-info/dependency_links.txt
+mouzz.egg-info/entry_points.txt
+mouzz.egg-info/requires.txt
+mouzz.egg-info/top_level.txt
