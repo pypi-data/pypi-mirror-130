@@ -1,0 +1,8 @@
+knot_floer_homology/HFK_data.json,sha256=TIbsvpow0OSfQAqVOLYfYeHtaVROP4FO4JOw6jY5XQA,28054
+knot_floer_homology/__init__.py,sha256=SvvieAhyHkFV2QuBwzX4l6eOfPrPJY4HeAEZ8rMbEYs,62
+knot_floer_homology/hfk.cpython-39-darwin.so,sha256=DO95Q1BepWI6x9X8-Y66CoIKjbDFj8TxtWjCIGiGUJE,250869
+knot_floer_homology/test.py,sha256=TzDjbPCnQJSe1m5JRq6ANvrKU-1BMsaJrG5nVk30wIQ,905
+knot_floer_homology-1.1.dist-info/METADATA,sha256=un3Dl_di_Z1iY_kbMYq69J8-so1gOj4UJBU7ETlqN_8,2030
+knot_floer_homology-1.1.dist-info/WHEEL,sha256=85_Toq4UI7EZ1s81waYR6RPNsVnN1NmCNASuSy37InE,108
+knot_floer_homology-1.1.dist-info/top_level.txt,sha256=J_eNQ93UKg5w_kubUJmnTZtRmGusc0aV7IDYAbOclnE,20
+knot_floer_homology-1.1.dist-info/RECORD,,
