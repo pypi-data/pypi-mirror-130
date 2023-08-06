@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dj-datatables-view
+Version: 0.1.0
+Summary: Django datatables view fork from django-datatables-view
+Author: Longbowou
+Author-email: blandedaniel@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Django (>=4.0,<5.0)
