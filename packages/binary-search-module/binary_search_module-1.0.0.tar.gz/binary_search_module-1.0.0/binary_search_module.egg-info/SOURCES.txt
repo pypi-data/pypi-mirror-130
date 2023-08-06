@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+binary_search_module.egg-info/PKG-INFO
+binary_search_module.egg-info/SOURCES.txt
+binary_search_module.egg-info/dependency_links.txt
+binary_search_module.egg-info/top_level.txt
+project/__init__.py
+project/__main__.py
+project/binary_search.py
+project/example.py
+project/make_list_to_search.py
+project/number_giver.py
+project/tests/__init__.py
+project/tests/tests_file.py
