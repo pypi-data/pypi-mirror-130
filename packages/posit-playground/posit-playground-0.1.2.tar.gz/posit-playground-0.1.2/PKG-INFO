@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: posit-playground
+Version: 0.1.2
+Summary: Posit arithmetic library with no frills
+Home-page: https://github.com/urbanij/posit-playground
+Keywords: posit,unum,posit-arithmetic,numeric-representation
+Author: Francesco Urbani
+Author-email: francescourbanidue@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.0.0,<2.0.0)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: softposit (>=0.3.4.4,<0.4.0.0)
+Project-URL: Repository, https://github.com/urbanij/posit-playground
+Description-Content-Type: text/markdown
+
+<a href="https://github.com/urbanij/posit-playground/actions"><img src="https://github.com/urbanij/posit-playground/actions/workflows/main.yml/badge.svg"></a>
+[![codecov](https://codecov.io/gh/urbanij/posit-playground/branch/main/graph/badge.svg?token=U37RUDDRN1)](https://codecov.io/gh/urbanij/posit-playground)
+
+# posit-playground
+
+Posit library with no frills
+
+## Install
+
+- stable
+
+```sh
+pip install posit-playground
+```
+
+<!-- - main
+
+```sh
+pip install git+https://github.com/urbanij/posit-playground.git
+``` -->
+
+## Usage
+
+```python
+from posit_playground import posit
+
+p1 = posit.from_bits(
+    bits = 0b000110111011101, 
+    size = 16, 
+    es = 3,
+)
+
+p1 * p1 # implements posit multiplication
+```
+
+or better yet, launch a notebook on binder 
+
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/urbanij/posit-playground/HEAD?labpath=notebooks%2F1_posit_decode.ipynb)
+
+or visit [notebooks/1_posit_decode.ipynb](https://github.com/urbanij/posit-playground/blob/main/notebooks/1_posit_decode.ipynb)
+
+
+## Demo
+
+[![asciicast](https://asciinema.org/a/455652.svg)](https://asciinema.org/a/455652)
+
+
+Screenshot of posit-playground in action, with a corner case example in which the exponent is chopped off the bit fields
+
+![Imgur](https://imgur.com/0M8USPC.jpg)
+
