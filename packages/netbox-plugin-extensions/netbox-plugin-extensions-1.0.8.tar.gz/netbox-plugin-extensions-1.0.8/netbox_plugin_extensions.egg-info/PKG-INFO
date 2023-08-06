@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: netbox-plugin-extensions
+Version: 1.0.8
+Summary: NetBox Plugin Extensions
+Home-page: https://github.com/dansheps/netbox-plugin-extensions/
+Author: Daniel Sheppard
+Author-email: dans@dansheps.com
+Maintainer: Daniel Sheppard
+Maintainer-email: dans@dansheps.com
+License: All rights reserved
+Download-URL: https://pypi.org/project/netbox-plugin-extensions/
+Keywords: netbox,netbox-plugin
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+
+Wrappers for Netbox Generic Objects
+
