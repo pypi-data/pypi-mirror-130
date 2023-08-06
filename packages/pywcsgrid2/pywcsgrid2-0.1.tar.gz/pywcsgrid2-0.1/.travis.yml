@@ -1,0 +1,25 @@
+# travis-ci.org build & test configuration
+language: python
+
+python:
+  - "2.7"
+  - "3.6"
+
+env:
+  - MPL_VERSION=2.0.2
+  - MPL_VERSION=2.1.1
+
+
+install:
+  - time pip install sphinx
+  - time pip install numpy
+  - time pip install matplotlib==$MPL_VERSION
+  - time pip install astropy
+
+script:
+
+  # Install 
+  - python setup.py install
+  - cd doc
+  - python make.py
+  # TODO Run examples and check output (they first need to be made into unit tests)
