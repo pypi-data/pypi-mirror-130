@@ -1,0 +1,3 @@
+
+[console_scripts]
+dc6006l=dc6006l:main
