@@ -1,0 +1,4 @@
+numpy
+numba
+scipy
+py_lets_be_rational
