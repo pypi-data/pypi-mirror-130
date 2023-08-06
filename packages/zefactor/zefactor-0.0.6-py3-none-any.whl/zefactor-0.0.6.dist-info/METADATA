@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: zefactor
+Version: 0.0.6
+Summary: Flexible find and replace for refactoring projects.
+Home-page: https://github.com/alexethier/zefactor
+Author: Alex Ethier
+Author-email: aethier@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: zind
+Requires-Dist: zompt
+
+# Python Zefactor
+*zefactor* is library for renaming tokens in a project.
+
+# Zefactor features
+* Find and replace tokens in a directory.
+* Detect similar tokens in alternate case and replace with proper casing
+* Pure python
+
+# Installation
+```
+pip install zefactor
+```
+# Guided Usage
+Run zefactor without any arguments and it will provide a set of guided prompts to refactor a project.
+```
+$ zefactor
+```
+
+# Getting Started
+The guided mode can be skipped with the `-y` option. A simple example is below:
+```
+# Replace all text 'red' with 'blue'.
+# This will automtically include replacing 'RED' with 'BLUE' and 'Red' with 'Blue'
+$ zefactor -f red -r blue -y
+
+# Replace all text 'red rocket' with 'blue ship'
+# This will automatically include replacing 'RedRocket' with 'BlueShip', 'RED ROCKET' with 'BLUE SHIP' and many alternatives
+$ zefactor -f red -f rocket -r blue -r ship
+```
+# Usage
+The Zefactor CLI helps refactor projects. It will find and replace text and all variations of casing of that text.
+
+

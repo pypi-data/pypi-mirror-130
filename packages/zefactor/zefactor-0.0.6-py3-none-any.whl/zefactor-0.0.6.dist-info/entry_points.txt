@@ -1,0 +1,3 @@
+[console_scripts]
+zefactor = zefactor.run.runner:main
+
