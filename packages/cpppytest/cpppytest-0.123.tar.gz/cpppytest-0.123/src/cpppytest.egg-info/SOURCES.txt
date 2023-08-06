@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/cpppytest.egg-info/PKG-INFO
+src/cpppytest.egg-info/SOURCES.txt
+src/cpppytest.egg-info/dependency_links.txt
+src/cpppytest.egg-info/not-zip-safe
+src/cpppytest.egg-info/top_level.txt
+src/python_cpp_example/__init__.py
+src/python_cpp_example/hello.py
