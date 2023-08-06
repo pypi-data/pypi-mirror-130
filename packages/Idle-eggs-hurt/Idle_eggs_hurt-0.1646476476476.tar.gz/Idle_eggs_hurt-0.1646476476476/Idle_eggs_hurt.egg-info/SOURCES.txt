@@ -1,0 +1,9 @@
+README.md
+setup.py
+Idle_eggs_hurt/Hello.py
+Idle_eggs_hurt/Name.py
+Idle_eggs_hurt/__init__.py
+Idle_eggs_hurt.egg-info/PKG-INFO
+Idle_eggs_hurt.egg-info/SOURCES.txt
+Idle_eggs_hurt.egg-info/dependency_links.txt
+Idle_eggs_hurt.egg-info/top_level.txt
