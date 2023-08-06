@@ -1,0 +1,11 @@
+README.md
+setup.py
+kozumikku/__init__.py
+kozumikku/client.py
+kozumikku/errors.py
+kozumikku/http.py
+kozumikku.py.egg-info/PKG-INFO
+kozumikku.py.egg-info/SOURCES.txt
+kozumikku.py.egg-info/dependency_links.txt
+kozumikku.py.egg-info/requires.txt
+kozumikku.py.egg-info/top_level.txt
