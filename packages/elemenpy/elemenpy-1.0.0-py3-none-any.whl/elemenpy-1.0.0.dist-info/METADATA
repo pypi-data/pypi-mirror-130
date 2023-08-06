@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: elemenpy
+Version: 1.0.0
+Summary: A simple library for displaying an element's properties.
+Home-page: https://github.com/import-brain/elements.py
+Author: Eric Cheng
+Author-email: ericcheng9316@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: elements-py
+
+# elements.py
+
+[![CircleCI](https://circleci.com/gh/import-brain/elements.py/tree/main.svg?style=svg)](https://circleci.com/gh/import-brain/elements.py/tree/main)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/2bc4a20139594a93b6a75f52d87b920c)](https://www.codacy.com/gh/import-brain/elements.py/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=import-brain/elements.py&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://app.codacy.com/project/badge/Coverage/2bc4a20139594a93b6a75f52d87b920c)](https://www.codacy.com/gh/import-brain/elements.py/dashboard?utm_source=github.com&utm_medium=referral&utm_content=import-brain/elements.py&utm_campaign=Badge_Coverage)
+
+Hello! elements.py is a small Python periodic table module that is used for calling certain information about an element.
+
+WIP
+
+
