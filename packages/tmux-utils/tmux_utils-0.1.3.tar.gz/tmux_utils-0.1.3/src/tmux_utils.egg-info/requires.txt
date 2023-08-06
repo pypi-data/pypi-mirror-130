@@ -1,0 +1,4 @@
+bugyi.tools~=0.1.0
+pydantic
+pylogutils
+python-clap
