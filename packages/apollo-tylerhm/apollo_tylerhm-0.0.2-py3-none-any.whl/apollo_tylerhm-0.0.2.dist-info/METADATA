@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: apollo-tylerhm
+Version: 0.0.2
+Summary: Apollo checker. The most feared of all the gods
+Home-page: https://github.com/TylerMathis/apollo
+Author: Tyler Hostler-Mathis
+Author-email: tylerhm.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+# Apollo
+
+Checker complete with diff, token, and epsilon checking.
+
+
