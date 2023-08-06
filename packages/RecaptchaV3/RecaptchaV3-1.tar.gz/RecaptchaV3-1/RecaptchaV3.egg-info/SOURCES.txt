@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.py
+RecaptchaV3.egg-info/PKG-INFO
+RecaptchaV3.egg-info/SOURCES.txt
+RecaptchaV3.egg-info/dependency_links.txt
+RecaptchaV3.egg-info/requires.txt
+RecaptchaV3.egg-info/top_level.txt
+recaptcha3/__init__.py
+recaptcha3/exceptions.py
+recaptcha3/session.py
+recaptcha3/structs.py
+recaptcha3/utils.py
+recaptcha3/reCaptchaV3/__init__.py
+recaptcha3/reCaptchaV3/constants.py

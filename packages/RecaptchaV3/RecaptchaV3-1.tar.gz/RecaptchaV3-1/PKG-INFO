@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: RecaptchaV3
+Version: 1
+Summary: Bypassing reCaptcha V3 by sending HTTP requests & solving reCaptcha V2 using speech to text.
+Home-page: https://github.com/bakugo1234/PyPasser
+Author: bakugo
+License: MIT
+Keywords: Bypass reCaptcha V3,Bypass-reCaptcha-V3,Bypass reCaptcha,Bypass-reCaptcha,Bypass reCaptcha V2,Bypass-reCaptcha-V2,Solve-reCaptcha-V2,Google reCaptcha,Google-reCaptcha
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PyPasser
+bakugo
+
