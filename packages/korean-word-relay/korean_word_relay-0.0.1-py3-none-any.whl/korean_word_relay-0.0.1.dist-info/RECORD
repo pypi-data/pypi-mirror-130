@@ -1,0 +1,8 @@
+korean_word_relay/__init__.py,sha256=cl8mRhSAFMEulrSbtd8gT7QjnP16R-A_osr9hYR-tzg,81
+korean_word_relay/utils.py,sha256=SJJ4tnlom779tjs1VDNvq9oULNfe9xcTiM_U1LHFqLc,1371
+korean_word_relay/word_relay.py,sha256=58mhPyLi9_tOQtH6EPRqKlr0hVmcIvk9tpTGvMqrq-A,3868
+korean_word_relay/data/korean5800.txt,sha256=cxIhYKxctC1m80Z4Exss5AcaC1d1bDwFZ-9lRDitp_I,27131
+korean_word_relay-0.0.1.dist-info/METADATA,sha256=CVOFqwFBM-z1p4PFhJDrOs9boGtLDECAL2e3AMvzF3I,260
+korean_word_relay-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+korean_word_relay-0.0.1.dist-info/top_level.txt,sha256=BxIrxteasp6K9uZAeXNxpWvJ_nywrx6YJEdxOfrMvww,18
+korean_word_relay-0.0.1.dist-info/RECORD,,
