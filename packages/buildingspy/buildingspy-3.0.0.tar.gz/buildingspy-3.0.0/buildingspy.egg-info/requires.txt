@@ -1,0 +1,9 @@
+gitpython>=2.1
+jinja2>=2.10
+matplotlib>=2.2
+numpy>=1.14
+pytidylib>=0.3.2
+scipy>=1.1
+simplejson>=3.14
+six>=1.11
+pyfunnel>=0.3.0

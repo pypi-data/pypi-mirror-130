@@ -1,0 +1,1 @@
+index.rst:25: [redirected permanently] https://www.scipy.org/ to https://scipy.org/
