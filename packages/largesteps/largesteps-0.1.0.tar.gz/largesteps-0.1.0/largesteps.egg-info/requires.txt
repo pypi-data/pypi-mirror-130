@@ -1,0 +1,4 @@
+numpy
+cupy
+scikit-sparse
+scipy
