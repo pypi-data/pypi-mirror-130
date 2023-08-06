@@ -1,0 +1,3 @@
+[console_scripts]
+endlessh = endlessh.async_endlessh:endlessh
+
