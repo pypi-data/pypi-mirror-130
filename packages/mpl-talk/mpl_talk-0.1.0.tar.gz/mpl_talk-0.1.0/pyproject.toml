@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "mpl_talk"
+version = "0.1.0"
+description = "A library example for Modules, Packages and Libaries talk"
+authors = ["Cristian Vera <cristian.vera@mercadolibre.com>"]
+readme = "README.md"
+packages = [
+    { include = "game"},
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+urllib3 = "^1.26.7"
+
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.0"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
