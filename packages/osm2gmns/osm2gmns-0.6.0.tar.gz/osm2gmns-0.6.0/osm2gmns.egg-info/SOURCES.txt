@@ -1,0 +1,9 @@
+README.rst
+setup.py
+osm2gmns/__init__.py
+osm2gmns/settings.py
+osm2gmns.egg-info/PKG-INFO
+osm2gmns.egg-info/SOURCES.txt
+osm2gmns.egg-info/dependency_links.txt
+osm2gmns.egg-info/requires.txt
+osm2gmns.egg-info/top_level.txt
