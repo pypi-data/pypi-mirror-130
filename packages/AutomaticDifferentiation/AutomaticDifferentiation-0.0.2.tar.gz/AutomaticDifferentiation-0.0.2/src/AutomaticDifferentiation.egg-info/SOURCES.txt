@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/AutomaticDifferentiation/AutomaticDifferentiation.py
+src/AutomaticDifferentiation/ReverseAD.py
+src/AutomaticDifferentiation/__init__.py
+src/AutomaticDifferentiation.egg-info/PKG-INFO
+src/AutomaticDifferentiation.egg-info/SOURCES.txt
+src/AutomaticDifferentiation.egg-info/dependency_links.txt
+src/AutomaticDifferentiation.egg-info/top_level.txt
