@@ -1,0 +1,83 @@
+from fastapi import Depends, HTTPException
+from typing import Dict, Any, List, Union
+from pydantic import BaseModel
+from typing import Optional
+from .user import User
+from .helpers import get_current_user
+from .app import app
+from ..networking import ip, get_interface_info, create_interface, add_namespace, get_namespace_info, del_namespace
+from ..exceptions import InterfaceNotFound, NamespaceNotFound
+
+class NewInterface(BaseModel):
+	iftype: str
+	mac: Optional[str] = None
+	ip: Optional[str] = None
+	netmask: Optional[str] = None
+	state: Optional[str] = "up"
+
+@app.get("/networking/interface/{ifname}")
+def get_network_interface_info(ifname :str, current_user: User = Depends(get_current_user)) -> List[Dict[str, Union[int, None, str]]]:
+	"""
+	Returns networking information for the given interface.
+	The result will be a list of addresses:
+
+	```json
+	[
+		{"mac": "address"},
+		{"ipv4": "address"},
+		...
+	]
+	```
+	"""
+	try:
+		return list(get_interface_info(ifname))
+	except InterfaceNotFound:
+		raise HTTPException(status_code=404, detail="Interface not found")
+
+@app.put("/networking/interface/{ifname}")
+def create_new_interface(ifname :str, info :NewInterface, current_user: User = Depends(get_current_user)) -> List[Dict[str, Union[int, None, str]]]:
+	"""
+	This API can be used to create interfaces
+	"""
+	try:
+		list(get_interface_info(ifname))
+	except InterfaceNotFound:
+		create_interface(ifname, info.iftype)
+	
+	return list(get_interface_info(ifname))
+
+@app.delete("/networking/interface/{ifname}")
+def delete_interface(ifname :str, current_user: User = Depends(get_current_user)) -> List[Dict[str, Union[int, None, str]]]:
+	"""
+	This API can be used to create interfaces
+	"""
+	try:
+		if list(get_interface_info(ifname)):
+			ip.link(f"del {ifname}")
+
+			return list(get_interface_info(ifname))
+
+		raise HTTPException(status_code=404, detail="Interface could not be found after creation.")
+	except InterfaceNotFound:
+		return []
+
+@app.put("/networking/namespace/{name}")
+def create_new_namespace(name :str, current_user: User = Depends(get_current_user)) -> Dict[str, Any]:
+	"""
+	This API can be used to create interfaces
+	"""
+	add_namespace(name)
+	
+	return get_namespace_info(name)
+
+@app.delete("/networking/namespace/{name}")
+def delete_namespace(name :str, current_user: User = Depends(get_current_user)) -> Dict[str, Any]:
+	"""
+	This API can be used to create interfaces
+	"""
+	del_namespace(name)
+	
+	try:
+		return get_namespace_info(name)
+	except NamespaceNotFound:
+		return {}
