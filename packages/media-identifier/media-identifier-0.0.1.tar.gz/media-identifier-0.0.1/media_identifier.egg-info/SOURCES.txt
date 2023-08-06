@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+media_identifier/__init__.py
+media_identifier/identifier.py
+media_identifier.egg-info/PKG-INFO
+media_identifier.egg-info/SOURCES.txt
+media_identifier.egg-info/dependency_links.txt
+media_identifier.egg-info/top_level.txt
+tests/__init__.py
