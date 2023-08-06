@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: dbt-firebolt
+Version: 0.21.4
+Summary: The Firebolt adapter plugin for dbt (data build tool)
+Home-page: https://github.com/firebolt-db/dbt-firebolt
+Author: Shahar Shalev, Eric Ford, and Anders Swanson
+Author-email: eric@firebolt.io
+License: UNKNOWN
+Description: The Firebolt adapter plugin for dbt (data build tool)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
