@@ -1,0 +1,4 @@
+PyYAML==5.*
+openpyxl==3.*
+Jinja2==2.*
+yangson==1.*
