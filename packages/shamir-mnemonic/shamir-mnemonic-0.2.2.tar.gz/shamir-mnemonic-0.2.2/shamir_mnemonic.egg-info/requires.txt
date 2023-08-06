@@ -1,0 +1,11 @@
+attrs
+click<9,>=7
+colorama
+
+[dev]
+black
+flake8
+isort
+
+[tests]
+pytest
