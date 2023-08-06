@@ -1,0 +1,5 @@
+[flake8]
+max-line-length = 88
+# E501 :  line too long
+# E203 : Whitespace before ':'
+extend-ignore = E203, E501
