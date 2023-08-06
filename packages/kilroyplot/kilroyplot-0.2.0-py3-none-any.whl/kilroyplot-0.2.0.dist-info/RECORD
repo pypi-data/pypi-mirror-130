@@ -1,0 +1,10 @@
+kilroyplot/__init__.py,sha256=hIfdHh57QoWLlzrkPu0qxTnWTHFDTohpYJCmW-Ua3h0,1552
+kilroyplot/cache.py,sha256=L58rNCeXRBnsRwqIyDyn7BIsSecyhIiSeD2Jz8Gkn4I,4892
+kilroyplot/fonts.py,sha256=a81HbNw68hZ3orvPINzd74iTWLPn6ri4ULUOCflneuk,3121
+kilroyplot/plot.py,sha256=HaSG4V3XHU-Y62GHgXOJOkCDyjn6n3iiS-BA2bDlVBQ,986
+kilroyplot/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kilroyplot/utils.py,sha256=DByO5wiGs1RsaWkXq2SrZQKSWg9Jx7UOyQm_ETRAwVY,645
+kilroyplot-0.2.0.dist-info/LICENSE,sha256=JO24XtDfBeMamPj-InRw05CKk5YHlr_PJDNO50Q-zJY,1063
+kilroyplot-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kilroyplot-0.2.0.dist-info/METADATA,sha256=NwIOOb3lHA9BB6s7QpjNc_pYcefneS4HrCsUMDJtE68,1306
+kilroyplot-0.2.0.dist-info/RECORD,,
