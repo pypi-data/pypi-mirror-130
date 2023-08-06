@@ -1,0 +1,5 @@
+conflicting_with_numpy_package_requiring_numpy_1.15-0.1.data/scripts/main,sha256=tnf4kLv4W_0m23FbxhRW0XoCNQnNNhFa5AlM5g09Q7Q,57
+conflicting_with_numpy_package_requiring_numpy_1.15-0.1.dist-info/METADATA,sha256=uvR6VhG-jX3S7Qx0bf6GPsYBoMN3gYQICTzRXFvdn6o,414
+conflicting_with_numpy_package_requiring_numpy_1.15-0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+conflicting_with_numpy_package_requiring_numpy_1.15-0.1.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+conflicting_with_numpy_package_requiring_numpy_1.15-0.1.dist-info/RECORD,,

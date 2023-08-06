@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: conflicting-with-numpy-package-requiring-numpy-1.15
+Version: 0.1
+Summary: Conflicting
+Home-page: https://github.com/passkudnic
+Author: Alex
+Author-email: 123@123.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy (<1.15)
+
+UNKNOWN
+
