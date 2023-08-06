@@ -1,0 +1,14 @@
+napari_spatial_omics/__init__.py,sha256=5wPmIM1JG2sFFqNnkHj-SyLJPSHIOvHy2_f3I_Ys9G8,201
+napari_spatial_omics/_csv_io.py,sha256=Tkd6zcgCDMZKNfra2gB6m_khEZwlZSkadtBpWmr8PuQ,651
+napari_spatial_omics/_dock_widget_original.py,sha256=nKM7MB64GAcVrJ_o1Sqtzs2IyUQIIAN5aIMNJ4QRTNI,2404
+napari_spatial_omics/_function.py,sha256=NNqZEBK1SqKhiIYKc2XDaHGbEWuIuQSFNko1405jviE,3002
+napari_spatial_omics/_reader.py,sha256=1kkeCZpg91d3yWziXmlfEAFzg-NOgmZrK5OtVWOQEe8,3584
+napari_spatial_omics/_reader_function.py,sha256=oUqjXEEHoF3rHQI-iHPmH-BkDDnfISqFjI_Gbd2qQL4,400
+napari_spatial_omics/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_spatial_omics/_tests/test_function.py,sha256=wAWRotMWTeZKk7k3-uFshb79b8TrVvjgulUh2s8DnLA,122
+napari_spatial_omics-0.0.8.dist-info/LICENSE,sha256=uS05jpN-EVixO3vY1rZ1hEPIp_XdNOT7OUPf13hxiOA,1504
+napari_spatial_omics-0.0.8.dist-info/METADATA,sha256=RDDGsNbKvnbcLapHxKsyiDJN1lyeMQXcZLnIXtS-lKk,4064
+napari_spatial_omics-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_spatial_omics-0.0.8.dist-info/entry_points.txt,sha256=-EQPvgiNyajpKalpjuN0bTQ9PQhEBy5ZNIM1ik9veHA,61
+napari_spatial_omics-0.0.8.dist-info/top_level.txt,sha256=RhSidHwH56q3WQ9PQH6PPo4VOiS8BpnHplRki8Rwqvs,21
+napari_spatial_omics-0.0.8.dist-info/RECORD,,
