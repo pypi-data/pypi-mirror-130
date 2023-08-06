@@ -1,0 +1,84 @@
+kind: Predicate
+id: sdk.predicate.all-nodes-linux
+title: Ensure nodes run Linux
+info: "This application is untested for non-linux-based clusters."
+severity: error
+check_against: linux
+operator: contains
+many_policy: each_true
+challenge:
+  kind: ResourcesSupplier
+  resource_selector: "expr::nodes:*"
+  output: .[].status.node_info.operating_system
+  many: true
+
+---
+
+kind: Predicate
+id: sdk.predicate.all-node-containers-docker
+title: Ensure container runtime is docker-based
+info: "This application makes use of docker-specific features."
+severity: error
+check_against: docker
+operator: contains
+many_policy: each_true
+challenge:
+  kind: ResourcesSupplier
+  resource_selector: "expr::nodes:*"
+  output: .[].status.node_info.container_runtime_version
+  many: true
+
+---
+
+kind: Predicate
+id: sdk.predicate.metrics-server-running
+title: Ensure the Metrics Server is running
+info: "Most telemetry requires the metrics server to be running."
+severity: error
+operator: gte
+check_against: 1
+challenge:
+  kind: ResourcesSupplier
+  output: ". | length"
+  resource_selector:
+    namespace: kube-system
+    res_kind: Pod
+    label_selector:
+      k8s-app: metrics-server
+
+---
+
+kind: Predicate
+id: sdk.predicate.calico-pods-present-for-netpol
+title: Ensure Calico pods for Network Policies exist
+info: Network Policies most often use Calico pods as a backend. This verification
+  scans for such pods.
+severity: warning
+reason: "This check was performed by scanning for Calico pods in
+the kube-system namespace. If you know that Network Policies have
+a different backend, you can ignore this check. Otherwise, start
+the remediation wizard."
+operator: gte
+check_against: 1
+challenge:
+  kind: ResourcesSupplier
+  output: ". | length"
+  resource_selector:
+    res_kind: Pod
+    namespace: kube-system
+    label_selector:
+      app: calico
+
+---
+
+kind: ResourcesSupplier
+id: my-supplier
+serializer: native
+many: false
+resource_selector:
+  res_kind: Service
+  res_name: "backend"
+  namespace: nmachine
+output:
+  public_address: "external_ip"
+  private_address: "internal_ip"

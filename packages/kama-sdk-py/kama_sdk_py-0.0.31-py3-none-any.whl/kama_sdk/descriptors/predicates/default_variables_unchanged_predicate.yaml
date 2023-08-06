@@ -1,0 +1,18 @@
+kind: Predicate
+id: sdk.predicate.default_variables_unchanged
+title: Cached default variables are unchangeed
+info: Compare bundle in kamafile to fresh KTEA invokation
+reason: Both bundles are not the same. Did you manually patch the kamafile?
+challenge: get::kind::FreshDefaultsSupplier
+check_against: get::kind::DefaultVariablesSupplier
+
+---
+
+kind: ActionErrorRemediationOption
+id: sdk.remediation_option.reset_default_variables
+title: Reset default variables
+info: "Pull the the fresh bundle from the app/plugin's
+templating engine, and replace the problematic defaults variables
+in the kamafile with the result."
+match:
+  id: sdk.predicate.default_variables_unchanged

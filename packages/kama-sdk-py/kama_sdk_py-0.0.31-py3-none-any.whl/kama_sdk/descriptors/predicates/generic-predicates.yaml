@@ -1,0 +1,46 @@
+kind: Predicate
+id: sdk.predicate.is-ktea-in-sync
+title: Ensure manifest image belongs to vendor
+info: A non-vendor manifest image could mean that your application is compormised.
+check_against: https://api.codesdk.com/manifest_servers/nectar/ice-cream
+challenge: "{ktea_config/uri}"
+severity: error
+reason: "The manifest image should
+ be https://api.codesdk.com/manifest_servers/nectar/ice-cream/1.0.0
+  but it is not."
+
+---
+
+kind: Predicate
+id: sdk.predicate.all-deployments-green
+title: Ensure all pods are running normally
+info: "Ensure no pods are pending morbidly or unschedulable"
+check_against: positive
+many_policy: each_true
+challenge:
+  kind: ResourcesSupplier
+  resource_selector:
+    res_kind: Pod
+  serializer: native
+  output: ternary_status
+severity: error
+reason: "One or more pods are pending morbidly or
+are unschedulable (e.g crash loop, image pull err, insufficient CPU)."
+
+---
+
+kind: Supplier
+id: org.predicate.status-computer
+labels:
+  space: app
+  role: status-computer
+source:
+  kind: IfThenElse
+  source: get::sdk.predicate.all-deployments-green
+  if_true: running
+  else: broken
+
+---
+
+kind: Predicate
+id: sdk.predicate.is-monitoring-working

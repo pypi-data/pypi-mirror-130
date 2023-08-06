@@ -1,0 +1,17 @@
+kind: Supplier
+id: sdk.supplier.res_pods_minifier
+source: get::self>>kat_res=>pods
+serializer: native
+output:
+  name: name
+  status: phase.lower
+
+---
+
+kind: Supplier
+id: "sdk.supplier.pods_to_dots_format"
+source: "get::self>>pods"
+serializer: "native"
+output:
+  name: "name"
+  status: "phase.lower"

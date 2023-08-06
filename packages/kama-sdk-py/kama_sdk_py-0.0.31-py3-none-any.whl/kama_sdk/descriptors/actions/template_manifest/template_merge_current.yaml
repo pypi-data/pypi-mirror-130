@@ -1,0 +1,12 @@
+# Template the manifest using the current application variables
+# merged with a new bundle of variables.
+
+kind: TemplateManifestAction
+id: sdk.action.template_merge_current
+current_values: get::kind::MergedVarsSupplier
+debug_props: [config_space, _no_redefine_values, values, ktea]
+values:
+  kind: MergeSupplier
+  source:
+    - "get::self>>current_values"
+    - "get::self>>new_values"

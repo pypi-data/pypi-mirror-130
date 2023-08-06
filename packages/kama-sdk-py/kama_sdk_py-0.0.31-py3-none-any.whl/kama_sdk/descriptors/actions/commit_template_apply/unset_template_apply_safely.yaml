@@ -1,0 +1,20 @@
+kind: MultiAction
+id: sdk.action.unset_template_apply_safely
+title: Unset variables and apply manifest
+info: Safely unset variables and apply the re-templated manifest
+debug_props: [values, res_descs, outkomes]
+
+sub_actions:
+
+  - inherit: sdk.action.unset_variables_safely
+    victim_keys: get::parent>>victim_keys
+    vars_level: user_vars
+
+  - kind: TemplateManifestAction
+    values: get::kind::MergedVarsSupplier
+
+  - kind: KubectlApplyAction
+    res_descs: get::parent>>res_descs
+
+  - kind: AwaitKaosSettledAction
+    kaos: get::parent>>kaos
