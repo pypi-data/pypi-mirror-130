@@ -1,0 +1,3 @@
+[console_scripts]
+stacs = stacs.scan.entrypoint.cli:main
+
