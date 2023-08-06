@@ -1,0 +1,15 @@
+ghidra_jupyter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ghidra_jupyter/dispatcher.py,sha256=x2N6_SJJnJuNicIIn3EQrU_3RlAPl6o0SLvmYueHbT0,738
+ghidra_jupyter/installer.py,sha256=tuLbzZbORbGyqkyX0FwLQa4PPO-GeV005OI8GCG_kyY,6278
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/kernel.css,sha256=SrOn9yznJ9DypC3eWh_GLywHFhnWnanFcXvxi2wSx58,16243
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/kernel.js,sha256=PdxNUlVvkERyto_WFFU8clpvIrdfbfzenVD3j7vawyk,39983
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/kernel.json,sha256=gSwodoJxjSJ_5SAA-kKp23XHXRmoUd2ICYt_Xs8ljt4,217
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/logo-16x16.png,sha256=vLwu9l9nCYlM7JGie9UZIYotUsON7qbBYu4Vj_OO5oQ,923
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/logo-64x64.png,sha256=TnCd75QoRKg0Y9QckjnPPVrsTMLo2haXh13EZW82zpg,5678
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/wavyline-orange.gif,sha256=ywWwQbjx7h4xmNNv5ejw_wiM9W1mLQ3dSaIeoNaxouc,816
+ghidra_jupyter-1.1.0.data/data/share/jupyter/kernels/ghidra-kotlin/wavyline-red.gif,sha256=1YSSeaUynK9dWv-HozOWsus4NFOqqbtAqIibRaUxL_c,46
+ghidra_jupyter-1.1.0.dist-info/METADATA,sha256=dekKRyQcp3czk4QWMfE_VxWYVUdvayl5U997mK_gs6A,827
+ghidra_jupyter-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+ghidra_jupyter-1.1.0.dist-info/entry_points.txt,sha256=9TJRWKGPYrwSiMKAlT6IqDwemKDHS-Jq84edK4nE9JE,66
+ghidra_jupyter-1.1.0.dist-info/top_level.txt,sha256=iGv0bu0uDmV-vTSJZ0mU1mLUATAzfJvC9g4QsZAE8ek,15
+ghidra_jupyter-1.1.0.dist-info/RECORD,,
