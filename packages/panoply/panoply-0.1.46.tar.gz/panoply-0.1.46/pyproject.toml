@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "panoply"
+version = "0.1.46"
+description = "Panoply: save commands and reuse them"
+homepage = "https://github.com/jeremynac/panoply"
+repository = "https://github.com/jeremynac/panoply"
+authors = ["Jeremy Naccache"]
+license = "LICENCE"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+simple_term_menu = "^1.4.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+panoply = 'panoply.panoply:main'
