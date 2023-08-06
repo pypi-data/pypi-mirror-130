@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-setu-now
+Version: 0.0.4
+Summary: 另一个色图插件
+License: MIT
+Author: kexue
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.20.0,<0.21.0)
+Requires-Dist: webdav4 (>=0.9.3,<0.10.0)
