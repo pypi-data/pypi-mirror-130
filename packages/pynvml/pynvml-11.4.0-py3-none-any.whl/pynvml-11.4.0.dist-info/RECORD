@@ -1,0 +1,9 @@
+pynvml/__init__.py,sha256=p_wxUcw6iBwOzRhcBinGAaRv9m5XsGinHdGvd-_81VA,113
+pynvml/_version.py,sha256=cQ69X6z2ulLAJiXdutDijda38u6OmkGYymFLbgDjC9U,498
+pynvml/nvml.py,sha256=tNlAhoOfSGRhvvjPHCH6Mk1GPW4RZLJHiGzBYl9MHpA,135338
+pynvml/smi.py,sha256=QI5ZokwNYj2YM5PlhkMkvUot0-TG_KhZgCgDUN3F-Qk,137572
+pynvml-11.4.0.dist-info/LICENSE.txt,sha256=5AzAoGtclmNYvZlq9qGHrXLKd6niBcA7rqxfb_JWFCo,1496
+pynvml-11.4.0.dist-info/METADATA,sha256=Kt6O3ppOEB6p6eoMFgAxuEyWb1_Gn8oWPkEofyYFrv4,7677
+pynvml-11.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pynvml-11.4.0.dist-info/top_level.txt,sha256=-HOl6xCcXgtL7sbpp6RDht-w8fdNThSlG43OCijKlAA,7
+pynvml-11.4.0.dist-info/RECORD,,
