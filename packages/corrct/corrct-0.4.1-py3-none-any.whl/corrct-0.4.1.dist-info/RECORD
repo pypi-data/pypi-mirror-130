@@ -1,0 +1,17 @@
+corrct/VERSION,sha256=DCNthk22oDy52qwU4JrZflm-SvK0fFvbwCje109rKR4,5
+corrct/__init__.py,sha256=HjLB2i4ShORQg0LbVwkdPAERIg71Iu7C93PmocZ5xkk,813
+corrct/_projector_backends.py,sha256=kt6wnYb1pjw6vNvttAfa961jcse0aKKnyQKJyEUPjUo,18920
+corrct/corrct.py,sha256=HEYzGULQ0gKx7pd2yGR5Z75Vpg65IJwiQHow3eX_bjY,7023
+corrct/data_terms.py,sha256=SMPKWa1yygJoo1GbX36sZ-rN--DLZn4q-fU0QN0jHYs,11269
+corrct/operators.py,sha256=2yMn9jso5pbGhMBE515wjnhYwyTR57Y4RooxsgjPj8A,18779
+corrct/projectors.py,sha256=RnLohKlzVbUDBSwp29UkHhKUQAGq6fP-2eQvOiQdXTo,29847
+corrct/regularizers.py,sha256=gTaKvfuZa6b2_veheq7WbI5MS1LrqeznHik49CuftkA,21212
+corrct/solvers.py,sha256=v9tb_VnvTj3Kh-xOOXF-QYCfdX5ePnVPp7e1iALLgqk,26507
+corrct/utils_proc.py,sha256=HjfDXvK25AKaa6P06kAG6u4kwTbrRepIRz2ToQrnnHY,18756
+corrct/utils_reg.py,sha256=-UEfiP9VcX5qvIM5ekesBqFGqmn14JR_IBbUYkCX1ho,18412
+corrct/utils_test.py,sha256=0AZ01mAUtidFWnt8Th-2eorxGsRaNu1RXcH8aFcLx5M,16740
+corrct-0.4.1.dist-info/LICENSE.md,sha256=qdLjen0b2ZaFTmPsK3zevrlS1fIlZaCpacQocw8GpjU,1515
+corrct-0.4.1.dist-info/METADATA,sha256=i1gniIeU8e2-rH8Zpp-6rMi2Ks1h-iq84_iySYTZRqk,9910
+corrct-0.4.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+corrct-0.4.1.dist-info/top_level.txt,sha256=qNGv06CWTdDbX7PTppOXdGgVvsblzASJpcYzfva9Bs4,7
+corrct-0.4.1.dist-info/RECORD,,
