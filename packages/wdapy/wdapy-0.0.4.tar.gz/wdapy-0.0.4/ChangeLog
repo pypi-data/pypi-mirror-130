@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.0.4
+-----
+
+* support launch wda with tidevice, add no\_proxy
+* add XCUITestRecover
+* fix build error on github
+* little update, rename PressName to Keycode
+* Update requirements.txt
+* add some apis and unittest
+* fix tests add alert
+* add usbmux support
+* Add some api and gitignore file, Update README (#1)
+* Update README\_CN.md
