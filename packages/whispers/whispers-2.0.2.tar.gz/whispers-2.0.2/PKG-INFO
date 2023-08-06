@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: whispers
+Version: 2.0.2
+Summary: Identify secrets in static structured text
+Home-page: https://github.com/adeptex/whispers
+Author: Artëm Tsvetkov
+Author-email: linkedin@adeptex.net
+License: UNKNOWN
+Platform: any
+Provides-Extra: dev
+License-File: LICENSE
+
+UNKNOWN
+
