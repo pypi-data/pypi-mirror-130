@@ -1,0 +1,5 @@
+[console_scripts]
+yc2_adaptor = yucebio_wdladaptor.command.adaptor_v2:cli
+yc2_api = yucebio_wdladaptor.command.api:cli
+yc2_wdl = yucebio_wdladaptor.command:cli
+
