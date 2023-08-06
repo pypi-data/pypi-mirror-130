@@ -1,0 +1,17 @@
+_libheif_cffi.abi3.so,sha256=s6BAyWkgbLyX5ZVmhG69DhtDW8yaGvWTpAxI9b8LrPo,376040
+_libheif_cffi.pypy37-pp73-x86_64-linux-gnu.so,sha256=YlR6iO9KCpnf_P07kuN3sOG78FIGxOq9BhbcCBYC-s0,97280
+pyheif.libs/libde265-39780ef6.so.0.1.1,sha256=Hh-SfmBEu4A6Su18YsIBG_Y-S9SaMEgISTvyjW0JWa0,6476768
+pyheif.libs/libx265-6b0a4f49.so.199,sha256=VVydIMPxuT0mV8Cq3ZCtZQfPWIIzzRKDScIktQZL-Hg,6407792
+pyheif.libs/libaom-30e207e5.so.3.2.0,sha256=6OnqGx81_HzF7GVtHYBIiUPIvby2XBjbX4EtD5A4weI,7785480
+pyheif.libs/libheif-e23b1556.so.1.12.0,sha256=uZO6eghk-7OR05vZeLi4yNf6sJgQCf0nT57WurD62AI,13614688
+pyheif/error.py,sha256=PVRxCJRGOwN4cPu8Lyt3AMMARlKqvJ9VP1D_iOKPI2w,377
+pyheif/__init__.py,sha256=lXXj_Zp95yXZQYYCs6k5IXQOec8QB_A_dVg5tsKWVZk,425
+pyheif/constants.py,sha256=TXkfF3Vjvi0UoBtxVfJOD2U9lIXywUG0EElw1bYQ4jE,1042
+pyheif/reader.py,sha256=8OIzMCdh7IQHdqeS3_sf_0Tfweii5r-NdHP-b2XaiTM,10356
+pyheif/writer.py,sha256=IK_IkJpaBOkf5PvR2Ki2z-NUeZ-qb8cHP93ZJCwq0o0,52
+pyheif/data/version.txt,sha256=Dqd_Lx5eXvVXmymw-i1Jv_G3MJTEC4a6_cnSGQax-WI,7
+pyheif-0.6.1.dist-info/WHEEL,sha256=Elqa16_J1a0VNzCp50ZuMIPqQERg-_MwuAHlAZJ4G4o,162
+pyheif-0.6.1.dist-info/top_level.txt,sha256=3lyZLCLbAOPPv0umi9gsb8OeN94AhSw3x-8hcIVMbBM,21
+pyheif-0.6.1.dist-info/METADATA,sha256=69Zp_jWpRdPKnrcMDPAVx_Px8W0NZk8dyy_DTVhS6cI,3129
+pyheif-0.6.1.dist-info/RECORD,,
+pyheif-0.6.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
