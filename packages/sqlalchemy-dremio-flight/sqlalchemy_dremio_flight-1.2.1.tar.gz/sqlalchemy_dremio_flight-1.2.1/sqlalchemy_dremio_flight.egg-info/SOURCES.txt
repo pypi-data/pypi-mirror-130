@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+sqlalchemy_dremio_flight.egg-info/PKG-INFO
+sqlalchemy_dremio_flight.egg-info/SOURCES.txt
+sqlalchemy_dremio_flight.egg-info/dependency_links.txt
+sqlalchemy_dremio_flight.egg-info/entry_points.txt
+sqlalchemy_dremio_flight.egg-info/not-zip-safe
+sqlalchemy_dremio_flight.egg-info/requires.txt
+sqlalchemy_dremio_flight.egg-info/top_level.txt
+test/test_dremio.py
