@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/handythread/__init__.py
+src/handythread/_handythread.py
+src/handythread3.egg-info/PKG-INFO
+src/handythread3.egg-info/SOURCES.txt
+src/handythread3.egg-info/dependency_links.txt
+src/handythread3.egg-info/top_level.txt

@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: handythread3
+Version: 0.0.2
+Summary: conversion of scipy recipy from https://github.com/scipy/scipy-cookbook from python2 to python3
+Home-page: https://github.com/humblemat810/handythread3
+Author: humblemat
+Author-email: humblemat@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/humblemat810/handythread3/projects
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.0
+Description-Content-Type: text/markdown
+
+Acknowledgement to original python 2 of handythread in https://github.com/scipy/scipy-cookbook/blob/master/ipython/attachments/Multithreading/handythread.py
+
+simple code snippet
+
+```python3
+from handythread import foreach
+
+array_to_update = list(range(10))
+def f(x):
+    array_to_update[x] += 1
+    print (x)
+    time.sleep(0.2)
+foreach(f,range(10))
+    
+```
+
+
