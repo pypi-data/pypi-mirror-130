@@ -1,0 +1,3 @@
+[sentry.plugins]
+sentry_feishu = sentry_feishu.plugin:FeiShuPlugin
+

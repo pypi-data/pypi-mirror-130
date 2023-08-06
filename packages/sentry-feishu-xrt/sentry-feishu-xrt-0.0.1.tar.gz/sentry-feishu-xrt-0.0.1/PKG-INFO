@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sentry-feishu-xrt
+Version: 0.0.1
+Summary: A Sentry extension which send errors stats to FeiShu
+Home-page: UNKNOWN
+Author: ruitao.xiong
+Author-email: ruitao.xiong@horizon.ai
+License: MIT
+Keywords: sentry feishu
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Sentry-feishu
+
+`Sentry`的`飞书`通知插件
+
+
+
