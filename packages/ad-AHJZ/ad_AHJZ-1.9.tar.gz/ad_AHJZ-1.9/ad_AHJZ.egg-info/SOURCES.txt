@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+ad_AHJZ/__init__.py
+ad_AHJZ/forward_mode.py
+ad_AHJZ/optimizers.py
+ad_AHJZ/val_derv.py
+ad_AHJZ.egg-info/PKG-INFO
+ad_AHJZ.egg-info/SOURCES.txt
+ad_AHJZ.egg-info/dependency_links.txt
+ad_AHJZ.egg-info/requires.txt
+ad_AHJZ.egg-info/top_level.txt
