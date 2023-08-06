@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-spacetx-explorer = napari_spacetx_explorer
+
