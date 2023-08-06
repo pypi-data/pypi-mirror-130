@@ -1,0 +1,13 @@
+README.md,sha256=D6MxhwQtT8udnKiSsJxi8y8PowgEE5qdtp27WQ2VRLQ,988
+torch_topological/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+torch_topological/demos/summary_statistics.py,sha256=5aWu9byjAm0rAhVUSy1fTfYddO2pzk2Tyrk5JzLFkc0,1287
+torch_topological/nn/__init__.py,sha256=lBlFwJVz3WHXdM5yKFfXR1e7wpMjHGSTFfKBNrG16KM,261
+torch_topological/nn/loss.py,sha256=9b_USWB0WlBX0qmrmkxv6zg43qPAKuk12lP48ExNYKU,2908
+torch_topological/nn/vietoris_rips.py,sha256=T-jaZVa6YVuVw4WTjodAik8bZVrfpWIFQo5lpkIIQUo,3309
+torch_topological/utils/__init__.py,sha256=CwZ7iVAdP6Y6VwWMKMIiUT29PhJ3eNLoUlmtn4D2QXM,394
+torch_topological/utils/point_clouds.py,sha256=xvKwRnLBN5dAv7bu1yOnw28Zeo33N42gO3Rq9FSqmBQ,1165
+torch_topological/utils/summary_statistics.py,sha256=LElC-a-Ctm_08PgDiJKB4WEbex3TDDNYkKIi7iQV8YM,3323
+torch_topological-0.1.0.dist-info/LICENSE.md,sha256=lsIXvAZKXsAs8E36d-V1lmlWfGpVyAi0rKHIBKhetRA,1477
+torch_topological-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+torch_topological-0.1.0.dist-info/METADATA,sha256=Oql5Kf-aNXuaz4r0NZWdLgBrbd6TvwLzAtLQrwPGfBg,1635
+torch_topological-0.1.0.dist-info/RECORD,,

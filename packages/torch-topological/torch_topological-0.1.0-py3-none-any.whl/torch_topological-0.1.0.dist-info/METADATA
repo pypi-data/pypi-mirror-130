@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: torch-topological
+Version: 0.1.0
+Summary: A framework for topological machine learning based on `pytorch`.
+License: BSD-3-Clause
+Author: Bastian Rieck
+Author-email: bastian@rieck.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: giotto-ph (>=0.2.0,<0.3.0)
+Requires-Dist: giotto-tda (>=0.5.1,<0.6.0)
+Requires-Dist: matplotlib (>=3.5.0,<4.0.0)
+Requires-Dist: torch (>=1.10.0,<2.0.0)
+Description-Content-Type: text/markdown
+
+<img src="torch_topological.svg" height=128 alt="`pytorch-topological` icon" />
+
+# `pytorch-topological`: A topological machine learning framework for `pytorch`
+
+`pytorch-topological` (or `torch_topological`) is a topological machine
+learning framework for [PyTorch](https://pytorch.org). It aims to
+collect *loss terms* and *neural network layers* in order to simplify
+building the next generation of topology-based machine learning tools.
+
+`torch_topological` is still a work in progress. Stay tuned for more
+information.
+
+# Installation
+
+It is recommended to use the excellent [`poetry`](https://python-poetry.org) framework
+to install `torch_topological`:
+
+```
+poetry add torch-topological
+```
+
+Alternatively, use `pip` to install the package:
+
+```
+pip install -U torch-topological
+```
+
+# Dependencies
+
+`torch_topological` is making heavy use of [`giotto-ph`](https://github.com/giotto-ai/giotto-ph),
+a high-performance implementation of [`Ripser`](https://github.com/Ripser/ripser).
+
