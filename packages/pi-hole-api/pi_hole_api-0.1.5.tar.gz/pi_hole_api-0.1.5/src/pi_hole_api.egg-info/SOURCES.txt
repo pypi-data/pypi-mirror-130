@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pi_hole_api.egg-info/PKG-INFO
+src/pi_hole_api.egg-info/SOURCES.txt
+src/pi_hole_api.egg-info/dependency_links.txt
+src/pi_hole_api.egg-info/requires.txt
+src/pi_hole_api.egg-info/top_level.txt
+src/pihole_api/__init__.py
+src/pihole_api/_core.py
+src/pihole_api/_dns.py
+src/pihole_api/_list.py
+src/pihole_api/_main.py
