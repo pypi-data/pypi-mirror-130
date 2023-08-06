@@ -1,0 +1,9 @@
+numpy
+matplotlib
+rich
+myterial
+sklearn
+celluloid
+pyinspect
+loguru
+celluloid
