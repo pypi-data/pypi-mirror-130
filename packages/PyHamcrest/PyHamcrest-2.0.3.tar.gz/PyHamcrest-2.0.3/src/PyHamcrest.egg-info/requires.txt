@@ -1,0 +1,45 @@
+
+[dev]
+sphinx~=3.0
+alabaster~=0.7
+pytest>=5.0
+pytest-sugar
+pytest-xdist
+coverage[toml]
+types-mock
+towncrier
+twine
+pytest-mypy
+flake8
+black
+tox
+tox-pyenv
+tox-asdf
+
+[dev:platform_python_implementation != "PyPy"]
+pytest-mypy-plugins
+
+[docs]
+sphinx~=3.0
+alabaster~=0.7
+
+[tests]
+pytest>=5.0
+pytest-sugar
+pytest-xdist
+coverage[toml]
+types-mock
+
+[tests-numpy]
+pytest>=5.0
+pytest-sugar
+pytest-xdist
+coverage[toml]
+types-mock
+numpy
+
+[tests-numpy:platform_python_implementation != "PyPy"]
+pytest-mypy-plugins
+
+[tests:platform_python_implementation != "PyPy"]
+pytest-mypy-plugins
