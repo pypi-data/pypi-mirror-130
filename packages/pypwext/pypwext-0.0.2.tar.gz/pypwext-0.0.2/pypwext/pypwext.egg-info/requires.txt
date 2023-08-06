@@ -1,0 +1,6 @@
+chardetaws-requests-auth
+aws-lambda-powertools
+boto3
+botocore
+email-validator
+pydantic
