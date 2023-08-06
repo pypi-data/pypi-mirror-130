@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: OFRAK
+Version: 0.0.0
+Summary: The Open Firmware Reverse Analysis Konsole (OFRAK) is a modular framework that allows users to analyze, reverse engineer, and modify binaries.
+Home-page: https://gitlab.com/redballoonsecurity/ofrak
+Author: Red Balloon Security
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitlab.com/redballoonsecurity/ofrak/-/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Typing :: Typed
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+```
+   ____  ______ _____            _  __
+  / __ \|  ____|  __ \     /\   | |/ /
+ | |  | | |__  | |__) |   /  \  | ' / 
+ | |  | |  __| |  _  /   / /\ \ |  <  
+ | |__| | |    | | \ \  / ____ \| . \ 
+  \____/|_|    |_|  \_\/_/    \_\_|\_\
+```
+
+

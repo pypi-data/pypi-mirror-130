@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+OFRAK.egg-info/PKG-INFO
+OFRAK.egg-info/SOURCES.txt
+OFRAK.egg-info/dependency_links.txt
+OFRAK.egg-info/top_level.txt
+ofrak/__init__.py
