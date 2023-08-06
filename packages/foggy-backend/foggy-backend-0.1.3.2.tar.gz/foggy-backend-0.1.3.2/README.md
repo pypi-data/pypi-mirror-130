@@ -1,0 +1,168 @@
+# Foggy
+
+Foggy keeps photos and videos shot with a smartphone in sync between devices. 
+It does so without requiring a separate app to delete, update or add files. 
+On an iPhone you will install the app and keep on using the built-in Photos
+app to edit and sort your photos and videos. When space gets low on the device
+you move the photos to an archive on the backend and clear the phone memory 
+knowing that you have copies on the server.
+
+The name foggy is a silly reference to fog as compared to cloud. Fog is
+something that you can see and almost touch. A cloud is high up in the sky and
+you have no idea what happens up there.
+
+## Test it
+
+At the moment Foggy is much a work in progress and requires more testing and 
+development before it can be trusted as your only handler of photos and videos.
+But you can try it out with your own server (mostly tested in Arch and Debian).
+
+    sudo python3 -m pip install foggy-backend
+    sudo sh -c "cat <<EOF > /etc/systemd/system/foggy@.service
+    [Unit]
+    Description=foggy syncronization backend service
+
+    [Service]
+    User=%i
+    Type=simple
+    ExecStart=/usr/local/bin/foggy
+    Restart=on-failure
+    RestartSec=5s
+
+    [Install]
+    WantedBy=multi-user.target
+    EOF"
+
+If you do not have the possibility to run pip you can symlink the launch-script
+like so:
+
+    ln -s scripts/run_server /usr/local/bin/
+    chmod +x scripts/run_server
+
+Finally reload the systemd daemon and start the service:
+
+    sudo systemctl daemon-reload
+    sudo systemctl enable foggy@$USER
+    sudo systemctl start foggy@$USER
+    
+After this you can build the Xcode-project from the `ios` folder and deploy it to
+a simulator or physical device. The app should then connect to the server and you
+should be able to sync the device with the server.
+
+The backend will create a folder in `$HOME/pictures/` for each device that is 
+synced. If you want this folder elsewhere it is recommended to symlink it to
+another directory or set the environment variable `FOGGY_USERS_ROOT`. Note that
+this will currently allow non-users on the backend host system to register and
+sync.
+
+
+### Raspbian instruction
+
+With a clean Raspbian installation here is what you do to get going. Login through
+ssh or directly on the pi and add your user. E.g.:
+
+    sudo useradd -m -G sudo mrfog
+    sudo passwd mrfog
+
+Logout and login with your new user. Run these commands to update and initiate the
+system:
+
+    sudo userdel pi
+    sudo apt update ; sudo apt upgrade
+    sudo apt install git
+    
+After that you can follow above instructions.
+
+
+## Current limitations
+
+Here are some limitations that needs to be taken into consideration:
+
+- Use only one active backend server on the local network. There is no way to control
+which backend is connected so you will not know which server gets connected.
+
+
+# Developers documentation
+
+## Server and app connection
+
+The connection between the server and the app is initiated with a 
+
+## Style and formatting
+
+The code is formatted with *black* and linted with *pylint*.
+
+Format all code with black:
+
+    black  --target-version py38 --exclude 'vendor/*.?' rednas tests
+
+### Tests
+
+There are two test suites to be run, one for the `foggy-backend` Python package
+and one for the `foggy-ios` iOS app. Here is how to run them:
+
+#### `foggy-backend`
+
+    pipenv sync --dev
+    pipenv run pytest foggy-backend/tests
+
+#### `foggy-ios`
+
+    1. Initialize the backend virtualenv:
+
+        pipenv sync --dev
+
+    2. Start the `python-backend` server:
+
+        bash scripts/run_test_backend
+
+    3. Build and run the tests in XCode (CMD-U)
+
+### Test packaging
+
+    pipenv run python setup.py sdist bdist_wheel
+    pipenv run twine upload --repository testpypi dist/*
+
+
+## Make a release
+
+    1. Set the version
+    2. Build the package:
+
+        rm -Rf dist
+        pipenv run python setup.py sdist bdist_wheel
+
+    3. Test the release:
+        
+        pipenv run twine upload dist/* --verbose -r testpypi
+
+    4. Make the release
+       
+        pipenv run twine upload dist/* --verbose
+    
+    3. Tag the commit with the release
+
+        git tag 0.1.0
+        git push --tags
+
+## 6. Build and test Synology DSM package
+
+    1. Clone ...
+
+    2. Build the package (run docker command from folder above the spskrc repo directory):
+
+        docker run -it -v (pwd):/spksrc -e TAR_CMD="fakeroot tar" ghcr.io/synocommunity/spksrc /bin/bash
+        cd spksrc/spk/foggy-backend/
+        make clean && make TCVERSION=7.0
+
+    3. Copy the .spk file to the Synology DSM system, e.g.:
+
+        scp packages/foggy-backend_noarch-dsm7_0.1.2-1.spk quagmire.local:.
+
+    4. Install manually:
+
+        sudo synopkg install foggy-backend_noarch-dsm7_0.1.2-1.spk
+
+    5. Grant sc-foggy-backend permissions rwx for homes/$USER/pictures
+
+        TODO: fix so that the installer does this.
