@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+spaceant.egg-info/PKG-INFO
+spaceant.egg-info/SOURCES.txt
+spaceant.egg-info/dependency_links.txt
+spaceant.egg-info/requires.txt
+spaceant.egg-info/top_level.txt
