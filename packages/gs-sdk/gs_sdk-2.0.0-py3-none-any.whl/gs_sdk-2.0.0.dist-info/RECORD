@@ -1,0 +1,13 @@
+gs_sdk/ComputeProxy.py,sha256=aiYcBcEiAKyq0FUi9E5TJCnxT7Aj4Bgb6WndyopqjUA,7373
+gs_sdk/PWConfig.py,sha256=guLh_uNjCw-Q6O49UH1ARRTNIY_UPQ3PktTxcKwkX9A,2182
+gs_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gs_sdk/camera.py,sha256=UXC2VTU-IF2HrkM4raFdA2NeY3boCYr2wJ6IKuChd5o,1828
+gs_sdk/config.py,sha256=-Os2IV3BhDzve1gY-2YujrRYAezMuZEJj-pCsT0pZCY,401
+gs_sdk/consul_client.py,sha256=E4kNe8rix1PRdG9tcfCjCx37OPzeQ8-hVPEVxx3g1wY,5131
+gs_sdk/main.py,sha256=v-Lsovo7k1fufxpMfEa1ClyXwgPRqS3UwJZ7uXSAgs8,7788
+gs_sdk/test_video.py,sha256=Ofi4NezcSYfiBaVNG8nM5nY7Z-F8RWpE80g2vH8O8nc,552
+gs_sdk/test_video_sdk.py,sha256=2kf6Ghq7Be3KFc7oN7GXnwhGGL9y6WnNwAisqmJDxiM,1859
+gs_sdk-2.0.0.dist-info/METADATA,sha256=tOMlPXkvoIQdtXzpZ4pDz4btnXEzoIlqjst6ceaWziQ,1493
+gs_sdk-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gs_sdk-2.0.0.dist-info/top_level.txt,sha256=NhyW1vXBJ9dArbshkEWI4L0dgZ1Ldx3FxeIdErAI2Ug,7
+gs_sdk-2.0.0.dist-info/RECORD,,
