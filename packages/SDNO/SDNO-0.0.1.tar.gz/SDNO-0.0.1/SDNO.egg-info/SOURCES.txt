@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+SDNO.egg-info/PKG-INFO
+SDNO.egg-info/SOURCES.txt
+SDNO.egg-info/dependency_links.txt
+SDNO.egg-info/not-zip-safe
+SDNO.egg-info/top_level.txt
+src/__init__.py
+src/helloworld.py
