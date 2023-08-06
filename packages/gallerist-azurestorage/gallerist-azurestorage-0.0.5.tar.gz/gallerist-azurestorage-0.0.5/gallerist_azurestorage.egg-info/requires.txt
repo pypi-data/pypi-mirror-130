@@ -1,0 +1,2 @@
+gallerist>=0.0.6
+azure-storage-blob==12.9.0
