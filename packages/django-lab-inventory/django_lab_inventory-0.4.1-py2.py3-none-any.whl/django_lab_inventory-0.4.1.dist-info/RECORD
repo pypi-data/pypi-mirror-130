@@ -1,0 +1,17 @@
+inventory/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inventory/admin.py,sha256=bizsjXVtfi8w0TyoTxEHuyZU_0dT0TViuUgJTPjDwBo,1962
+inventory/models.py,sha256=j-tt-bsZl9cErqCYZbZX3iisV9rcPks4yvFSwfrxWss,7132
+inventory/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+inventory/urls.py,sha256=wbOpOcOxlFxjsxjCNg6Acyid6thABc0k7gt3bU9LMiU,381
+inventory/views.py,sha256=59W7tROiSf1lrwA4Yd8albNV2aScOfhcZRqSnfrEE18,1134
+inventory/templates/base_view.html,sha256=VvvwqfeAn-IcOtyDNhb3Y6az2FjGP7pN0oFlKEb84R8,2635
+inventory/templates/inventory/base.html,sha256=6DE3456l71XBH9gVtXZv2PwaaNeSsg_p2gXJs2z6cJQ,2440
+inventory/templates/inventory/index.html,sha256=lckiWrUgwDpcaA0syXFRd13zoXhaN-M5MEt92Wimrv8,1161
+inventory/templates/inventory/item.html,sha256=EyNpU_4-R4Bg--meZrzggYzK4KrGfTEb5euIeUcppWE,2152
+inventory/templates/inventory/order.html,sha256=KtT_HAWVYNFXNCmqCk47HSFQ4DSEk278bdb8VecX404,1583
+inventory/templates/inventory/orders.html,sha256=y3t37PqCZVx5GnO-S3EDycyGNqjhtx2olJeCJGX08IY,781
+django_lab_inventory-0.4.1.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+django_lab_inventory-0.4.1.dist-info/METADATA,sha256=dQFt9zVrCa2VOnMVv33PP4qmPVxeuGhdCsH8vmu5300,1928
+django_lab_inventory-0.4.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+django_lab_inventory-0.4.1.dist-info/top_level.txt,sha256=Aa2qQL83daQCBMHizsLTZqw3sXuGDAJNbPzP668oNw4,10
+django_lab_inventory-0.4.1.dist-info/RECORD,,
