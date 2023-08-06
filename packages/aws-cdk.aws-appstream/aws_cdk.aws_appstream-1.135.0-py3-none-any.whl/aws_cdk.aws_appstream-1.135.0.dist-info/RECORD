@@ -1,0 +1,10 @@
+aws_cdk/aws_appstream/__init__.py,sha256=A9QkikKZndjsWmZoYaDfPK9VGx9A3fAOMwV8FePZAfI,226921
+aws_cdk/aws_appstream/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_appstream/_jsii/__init__.py,sha256=LH1zrwOhs37cCUoSkeg5Fg0a-NAApBn__4a0vOjBmZk,390
+aws_cdk/aws_appstream/_jsii/aws-appstream@1.135.0.jsii.tgz,sha256=N5VWCBLmrvsA-UVneLweTnvFrWbI9FK7-hq5ImQHiio,77475
+aws_cdk.aws_appstream-1.135.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_appstream-1.135.0.dist-info/METADATA,sha256=g0eG1lu3r7Pg9yIR_fGdNFHcOH-3g6vKCXbGW6n6Pe4,2501
+aws_cdk.aws_appstream-1.135.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_appstream-1.135.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_appstream-1.135.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_appstream-1.135.0.dist-info/RECORD,,
