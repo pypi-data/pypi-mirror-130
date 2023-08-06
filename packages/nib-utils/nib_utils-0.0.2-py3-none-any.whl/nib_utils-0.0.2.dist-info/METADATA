@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: nib-utils
+Version: 0.0.2
+Summary: the site package for nib dev team
+Home-page: https://github.com/NIB-DEVELOPMENT/NIB_utils.git
+Author: NIB-Dev-Team
+Author-email: NIB_IT_Dev@nib-bahamas.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/NIB-DEVELOPMENT/NIB_utils.git/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NIB_utils
+----
+This is the source code for the NIB-UTIL site package. You can find instructions on how to update, download and add to this site package in the NIB dev team documentation repo.
+
