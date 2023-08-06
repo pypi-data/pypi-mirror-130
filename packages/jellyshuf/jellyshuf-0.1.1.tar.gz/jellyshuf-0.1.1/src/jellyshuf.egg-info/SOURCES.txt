@@ -1,0 +1,15 @@
+LICENSE
+LICENSE-mopidy-jellyfin
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/jellyshuf/__init__.py
+src/jellyshuf/jellyfin.py
+src/jellyshuf/settings.py
+src/jellyshuf.egg-info/PKG-INFO
+src/jellyshuf.egg-info/SOURCES.txt
+src/jellyshuf.egg-info/dependency_links.txt
+src/jellyshuf.egg-info/entry_points.txt
+src/jellyshuf.egg-info/requires.txt
+src/jellyshuf.egg-info/top_level.txt
