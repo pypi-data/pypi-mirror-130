@@ -1,0 +1,11 @@
+verbose: false
+debug: false
+loglevel: warning
+logpath: /tmp/example_etl
+
+source_name: file
+dest_name: file
+process_name: strip
+
+#file_source_path: /tmp/foo.txt
+#file_dest_path: /tmp/bar.txt

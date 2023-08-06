@@ -1,0 +1,12 @@
+[console_scripts]
+example_etl = example_etl.cmdline:main
+
+[example_etl.dest]
+file = example_etl.dest.file:FileDest
+
+[example_etl.process]
+strip = example_etl.process.strip:StripProcess
+
+[example_etl.source]
+file = example_etl.source.file:FileSource
+
