@@ -1,0 +1,7 @@
+packelf/__init__.py,sha256=KGjZ97uDEz8SLQffdPjka_ey6F1kXo0TUvh1simanak,49
+packelf/cli.py,sha256=9DrXQlms3uj5t5j0FyPmCTN5q4mhNlO1Un2p7vXrF_Q,4593
+packelf-0.2.0.dist-info/entry_points.txt,sha256=dABGGwO9O7PdH7DWgvSVEHXcrnwVvcHl8BbW-nf73qo,44
+packelf-0.2.0.dist-info/LICENSE,sha256=mO2UbjvWR_hYM1XsNjMJ5oWmISHTnAPNZm_gmQg5F5w,1082
+packelf-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+packelf-0.2.0.dist-info/METADATA,sha256=vaIkXpoyFwmOLwW0PMAqYwB_nNRYmA_0XjCVm1DVsOM,1281
+packelf-0.2.0.dist-info/RECORD,,
