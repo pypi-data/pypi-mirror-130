@@ -1,0 +1,14 @@
+.gitignore
+LICENSE
+README.md
+checksignature.py
+noxfile.py
+requirements.txt
+setup.py
+test_checksignature.py
+.github/workflows/publish.yaml
+.github/workflows/tests.yaml
+checksignature.egg-info/PKG-INFO
+checksignature.egg-info/SOURCES.txt
+checksignature.egg-info/dependency_links.txt
+checksignature.egg-info/top_level.txt
