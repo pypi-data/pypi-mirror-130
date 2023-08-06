@@ -1,0 +1,3 @@
+[console_scripts]
+tiffit = tiffit.tiffit:main
+
