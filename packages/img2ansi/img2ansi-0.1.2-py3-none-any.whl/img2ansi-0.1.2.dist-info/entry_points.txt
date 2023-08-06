@@ -1,0 +1,5 @@
+[console_scripts]
+img2ascii=img2ansi.img2ascii:main
+img2block=img2ansi.img2block:main
+img2braile=img2ansi.img2braile:main
+
