@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: torchedit
+Version: 0.1
+Summary: for modify torchvision model out_features
+Home-page: https://github.com/jun9729/torchvision_model_edit
+Author: LEEJEONGJUN
+Author-email: 1212879@naver.com
+License: UNKNOWN
+Download-URL: https://github.com/jun9729/torchvision_model_edit/archive/master.zip
+Keywords: pypi deploy
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+Requires-Dist: torch
+Requires-Dist: torchvision
+
+UNKNOWN
+
+
