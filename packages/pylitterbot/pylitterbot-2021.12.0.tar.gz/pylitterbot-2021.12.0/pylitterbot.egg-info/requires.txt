@@ -1,0 +1,12 @@
+Authlib>=0.15.5
+httpx>=0.18.2
+pytz
+
+[lint]
+black
+isort
+
+[test]
+pytest
+pytest-asyncio
+pytest-cov
