@@ -1,0 +1,9 @@
+dashboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dashboard/covid_data_handler.py,sha256=UNwXHLi8jU8t4NZ2zEUd6JtG7fAFklWhmfqr7RNt1rE,4774
+dashboard/covid_news_handling.py,sha256=wTMNgFIj3GBsjkZHjJEihHnZrEMRv0jIY0qKAeg8Jbs,1742
+dashboard/main.py,sha256=4KCUWQsCtXqE6NwpoakoKZhdMl3R3XtM1aDYzcZv9GU,6529
+dashboard/time_handler.py,sha256=RgRAQ-CA6OIGkJ3a1VVP8JB-8bUdTwseYCiaxt4u1GY,1372
+covid_dashboard_jadam-0.0.1.dist-info/METADATA,sha256=MJ7c5-dwiZJY2j7Jx7AQLcs60F0EBYfdXj641lztGdQ,1308
+covid_dashboard_jadam-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+covid_dashboard_jadam-0.0.1.dist-info/top_level.txt,sha256=nUjTqzgVogKOY9x6wFtA4q49KTJadlMNYm7wGoqlPMg,10
+covid_dashboard_jadam-0.0.1.dist-info/RECORD,,
