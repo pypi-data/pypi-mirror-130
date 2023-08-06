@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/steamsales/__init__.py
+src/steamsales.egg-info/PKG-INFO
+src/steamsales.egg-info/SOURCES.txt
+src/steamsales.egg-info/dependency_links.txt
+src/steamsales.egg-info/requires.txt
+src/steamsales.egg-info/top_level.txt
