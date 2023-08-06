@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/techman.egg-info/PKG-INFO
+src/techman.egg-info/SOURCES.txt
+src/techman.egg-info/dependency_links.txt
+src/techman.egg-info/top_level.txt
