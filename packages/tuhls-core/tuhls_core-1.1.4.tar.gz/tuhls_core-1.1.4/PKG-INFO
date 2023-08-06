@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: tuhls_core
+Version: 1.1.4
+Summary: 
+Author-email: "Herbert Rusznak (tlb)" <herbert.rusznak@gmail.com>
+Requires-Python: >=3.8
+Requires-Dist: django
+Requires-Dist: django-configurations[cache,database,email,search]
+Requires-Dist: plumbum
+Requires-Dist: python-dotenv
+Requires-Dist: django-environ
+Requires-Dist: psycopg2
+Requires-Dist: whitenoise
+Requires-Dist: gunicorn
+Requires-Dist: meinheld
+Requires-Dist: sentry-sdk
+Requires-Dist: django-redis
+Requires-Dist: django-q
+Requires-Dist: django-q-email
+Requires-Dist: django-cors-headers
+Requires-Dist: djangorestframework
+Requires-Dist: drf-spectacular
+Requires-Dist: djoser
+Requires-Dist: django-templated-mail
+Requires-Dist: geoip2
+Requires-Dist: PyICU
+Requires-Dist: pdfminer.six
+Requires-Dist: reportlab
+Requires-Dist: svglib
+Requires-Dist: django-crispy-forms
+Requires-Dist: crispy-tailwind
+Requires-Dist: django-debug-toolbar ; extra == "dev"
+Requires-Dist: django-mail-panel ; extra == "dev"
+Requires-Dist: parameterized ; extra == "dev"
+Requires-Dist: mypy ; extra == "dev"
+Requires-Dist: django-stubs ; extra == "dev"
+Requires-Dist: djangorestframework-stubs ; extra == "dev"
+Requires-Dist: django_coverage_plugin ; extra == "dev"
+Requires-Dist: tblib ; extra == "dev"
+Requires-Dist: pyupgrade ; extra == "dev"
+Requires-Dist: pytest ; extra == "dev"
+Requires-Dist: pytest-cov ; extra == "dev"
+Requires-Dist: freezegun ; extra == "dev"
+Requires-Dist: django-extensions ; extra == "dev"
+Requires-Dist: Werkzeug ; extra == "dev"
+Project-URL: Source, https://gitlab.com/tuhls/tuhls_core
+Provides-Extra: dev
