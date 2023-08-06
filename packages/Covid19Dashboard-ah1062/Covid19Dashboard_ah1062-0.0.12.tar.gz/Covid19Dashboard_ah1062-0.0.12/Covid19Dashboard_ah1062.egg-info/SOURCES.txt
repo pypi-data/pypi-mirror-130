@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+Covid19Dashboard_ah1062/covid_data_handler.py
+Covid19Dashboard_ah1062/covid_news_handling.py
+Covid19Dashboard_ah1062/dashboard.py
+Covid19Dashboard_ah1062/test_covid_data_handler.py
+Covid19Dashboard_ah1062/test_dashboard.py
+Covid19Dashboard_ah1062/test_news_data_handling.py
+Covid19Dashboard_ah1062.egg-info/PKG-INFO
+Covid19Dashboard_ah1062.egg-info/SOURCES.txt
+Covid19Dashboard_ah1062.egg-info/dependency_links.txt
+Covid19Dashboard_ah1062.egg-info/top_level.txt
