@@ -1,0 +1,3 @@
+linora>=1.0.0
+rarfile
+requests
