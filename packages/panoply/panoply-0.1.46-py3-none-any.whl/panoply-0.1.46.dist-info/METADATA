@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: panoply
+Version: 0.1.46
+Summary: Panoply: save commands and reuse them
+Home-page: https://github.com/jeremynac/panoply
+License: LICENCE
+Author: Jeremy Naccache
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: simple_term_menu (>=1.4.1,<2.0.0)
+Project-URL: Repository, https://github.com/jeremynac/panoply

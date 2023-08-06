@@ -1,0 +1,9 @@
+panoply/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panoply/__main__.py,sha256=mHr_utl-_8lxUoONlEzdHdhvGppZ2zMrowhvA4ZYrDc,32
+panoply/__version__.py,sha256=RPjQ5Y0AiaPLfWvQ71qrhQNq1NbU9aCHLb9B242Whhg,63
+panoply/commands.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+panoply/panoply.py,sha256=TIlQCyJCEhn6cMVYPoWDNeSlN-J2suQ-n7aget6an-4,2995
+panoply-0.1.46.dist-info/entry_points.txt,sha256=IVnhPAYiKUY_kAqi8R07oygQastXZfFnglBMDzHPzWc,48
+panoply-0.1.46.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+panoply-0.1.46.dist-info/METADATA,sha256=Mi6_EGTlAjsb5jt8hQYLHu2F9RZIfXJnf8ZpG9jq2kQ,525
+panoply-0.1.46.dist-info/RECORD,,
