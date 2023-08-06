@@ -1,0 +1,19 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+name: rtds
+channels:
+  - defaults
+dependencies:
+  - python==3.7
+  - numpy
+  - scipy
+  - matplotlib
+  - pandas==0.24.2
+  - sphinx>=1.6
+  - pandoc
+  - nbconvert!=5.4
+  - ipykernel
+  - pip
+  - pip:
+      - ..[doc]
+      - nbsphinx
