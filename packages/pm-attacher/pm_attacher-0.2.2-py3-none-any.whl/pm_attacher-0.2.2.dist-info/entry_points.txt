@@ -1,0 +1,3 @@
+[console_scripts]
+pm-attacher=pm_attacher.main:app
+
