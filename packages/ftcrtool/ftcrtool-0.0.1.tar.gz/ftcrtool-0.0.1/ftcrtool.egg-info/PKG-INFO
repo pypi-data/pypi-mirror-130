@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ftcrtool
+Version: 0.0.1
+Summary: post or update Code Review
+Home-page: https://gitlab.futunn.com/terrytan/ftcrtool
+Author: terrytan
+Author-email: terrytan@futunn.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# FTCRTool
+
+This is a tool for posting or updating code review in ReviewBoard. You can use
+
+
+
+

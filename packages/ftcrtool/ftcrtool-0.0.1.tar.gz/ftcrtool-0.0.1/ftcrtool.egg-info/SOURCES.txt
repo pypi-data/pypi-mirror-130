@@ -1,0 +1,8 @@
+README.md
+setup.py
+ftcrtool/__init__.py
+ftcrtool/ftcrtool.py
+ftcrtool.egg-info/PKG-INFO
+ftcrtool.egg-info/SOURCES.txt
+ftcrtool.egg-info/dependency_links.txt
+ftcrtool.egg-info/top_level.txt
