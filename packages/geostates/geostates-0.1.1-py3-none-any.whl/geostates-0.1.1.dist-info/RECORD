@@ -1,0 +1,15 @@
+geostates/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+geostates/plot.py,sha256=e5ygKCT3FNKI9iliHdSeUHfB2BsQ5m9DeVOsxSuN7RU,20363
+geostates/states.py,sha256=d4lAv0y7IlxrpeGT0kOUBpAt_eidSm_bvEE6t1MmpBk,1552
+geostates/utils.py,sha256=HzX_uv5tR2bzivQaFomhDjwdha3T7zZqDXrOYRiAkTo,541
+geostates/shapefiles/__init__.py,sha256=vmhU3lJ1t7USxQOrfewwLwUQdSb1HA8JN0huXS69pjw,781
+geostates/shapefiles/cb_2018_us_county_500k/cb_2018_us_county_500k.dbf,sha256=dilRWAp2Gv6yZ9mvdQWYXM7L4HNBtup2L08SqHVZu1E,527301
+geostates/shapefiles/cb_2018_us_county_500k/cb_2018_us_county_500k.shp,sha256=utF31FqNqq16ehzJnK9xc9A1lH8bh_ESu9FSbFhiSIc,16869220
+geostates/shapefiles/cb_2018_us_county_500k/cb_2018_us_county_500k.shx,sha256=UZxtLwWoR-TSlykzZ3ozmdeLu-zHzJzeGtvxBN4dJZg,25964
+geostates/shapefiles/cb_2018_us_state_500k/cb_2018_us_state_500k.shp,sha256=kQyk19ZJDOKGgArIV_zThOABsUC8WbXCw2PAZWRSCcc,4721868
+geostates/shapefiles/cb_2018_us_state_500k/cb_2018_us_state_500k.shx,sha256=gZF_hA6YaNLtog44s5IqZ_HHCREvfv5YQCM31Q6K_V8,548
+geostates-0.1.1.dist-info/LICENSE.txt,sha256=fre7VZ5BnQu5mGIcmwOqtPvyva8Hmq_0dS1cmxIDdpc,1070
+geostates-0.1.1.dist-info/METADATA,sha256=Uh95Rcr68v4kT8Cn1ZIPQd9sf47pxNRV0XEAMVrRVHY,2176
+geostates-0.1.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+geostates-0.1.1.dist-info/top_level.txt,sha256=ZoGbofptka2OpXGylU25qICX6FOjNfi1nD4RQy_3Cbk,10
+geostates-0.1.1.dist-info/RECORD,,
