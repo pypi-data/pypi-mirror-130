@@ -1,0 +1,117 @@
+PYTHON setup.py build_ext --inplace
+PYTHON -c "import runner"
+
+######## setup.py ########
+
+from Cython.Build.Dependencies import cythonize
+from distutils.core import setup
+
+setup(ext_modules=cythonize("*.pyx"))
+
+######## notheaptype.pyx ########
+
+cdef class Base:
+    pass
+
+NonEmptyLayout = type(list())
+
+cdef class Foo(Base, NonEmptyLayout):
+    pass
+
+######## notheaptype2.pyx ########
+
+cdef class Base:
+    cdef int somelayout
+
+cdef class Left(Base):
+    pass
+
+cdef class Right(Base):
+    pass
+
+Other = type(Right())
+
+cdef class Diamond(Left, Other):
+    pass
+
+######## wrongbase.pyx ########
+
+cdef class Base:
+    pass
+
+Str = type("")
+
+cdef class X(Base, Str):
+    pass
+
+######## badmro.pyx ########
+
+class Py(object):
+    pass
+
+cdef class X(object, Py):
+    pass
+
+######## nodict.pyx ########
+
+cdef class Base:
+    pass
+
+class Py(object):
+    pass
+
+cdef class X(Base, Py):
+    pass
+
+######## oldstyle.pyx ########
+# cython: language_level=2
+
+cdef class Base:
+    cdef dict __dict__
+
+class OldStyle:
+    pass
+
+cdef class Foo(Base, OldStyle):
+    pass
+
+######## runner.py ########
+
+import sys
+
+try:
+    import notheaptype
+    assert False
+except TypeError as msg:
+    assert str(msg) == "best base 'list' must be equal to first base 'notheaptype.Base'"
+
+try:
+    import notheaptype2
+    assert False
+except TypeError as msg:
+    assert str(msg) == "base class 'notheaptype2.Right' is not a heap type and has non-empty C layout"
+
+try:
+    import wrongbase
+    assert False
+except TypeError as msg:
+    assert str(msg) == "best base 'str' must be equal to first base 'wrongbase.Base'"
+
+try:
+    import badmro
+    assert False
+except TypeError as msg:
+    assert str(msg).startswith("Cannot create a consistent method resolution")
+
+try:
+    import nodict
+    assert False
+except TypeError as msg:
+    assert str(msg) == "extension type 'nodict.X' has no __dict__ slot, but base type 'Py' has: either add 'cdef dict __dict__' to the extension type or add '__slots__ = [...]' to the base type"
+
+try:
+    # This should work on Python 3 but fail on Python 2
+    import oldstyle
+    assert sys.version_info[0] >= 3
+except TypeError as msg:
+    assert str(msg) == "base class 'OldStyle' is an old-style class"
