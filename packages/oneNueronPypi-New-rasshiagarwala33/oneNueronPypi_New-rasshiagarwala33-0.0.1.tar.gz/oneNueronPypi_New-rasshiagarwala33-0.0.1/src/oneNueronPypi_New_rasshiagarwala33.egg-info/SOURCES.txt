@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/oneNueron/__init__.py
+src/oneNueron/perceptron.py
+src/oneNueronPypi_New_rasshiagarwala33.egg-info/PKG-INFO
+src/oneNueronPypi_New_rasshiagarwala33.egg-info/SOURCES.txt
+src/oneNueronPypi_New_rasshiagarwala33.egg-info/dependency_links.txt
+src/oneNueronPypi_New_rasshiagarwala33.egg-info/requires.txt
+src/oneNueronPypi_New_rasshiagarwala33.egg-info/top_level.txt
