@@ -1,0 +1,16 @@
+click
+cloudpickle
+entrypoints
+gitpython
+pyyaml
+protobuf
+pytz
+requests
+Flask
+gunicorn
+cython
+numpy
+pandas
+querystring_parser
+sqlparse
+sqlalchemy
