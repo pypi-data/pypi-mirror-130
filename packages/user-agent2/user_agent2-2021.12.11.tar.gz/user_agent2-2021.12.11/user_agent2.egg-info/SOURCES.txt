@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+user_agent2/__init__.py
+user_agent2/base.py
+user_agent2/util.py
+user_agent2.egg-info/PKG-INFO
+user_agent2.egg-info/SOURCES.txt
+user_agent2.egg-info/dependency_links.txt
+user_agent2.egg-info/requires.txt
+user_agent2.egg-info/top_level.txt
