@@ -1,0 +1,168 @@
+==========
+heist-salt
+==========
+
+.. image:: https://img.shields.io/badge/made%20with-pop-teal
+   :alt: Made with pop, a Python implementation of Plugin Oriented Programming
+   :target: https://pop.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-heist-teal
+   :alt: Made with heist, a POP plugin to create network tunnels for distributing and managing agents
+   :target: https://heist.readthedocs.io/
+
+.. image:: https://img.shields.io/badge/made%20with-python-yellow
+   :alt: Made with Python
+   :target: https://www.python.org/
+
+About
+=====
+
+The whole point of Heist is to make deployment and management
+of Salt easy!
+
+Before you start please be advised that a more detailed quickstart is
+available in the docs for `heist-salt <https://heist-salt.readthedocs.io/en/latest/>`__.
+
+What is POP?
+------------
+
+This project is built with `pop <https://pop.readthedocs.io/>`__, a Python-based
+implementation of *Plugin Oriented Programming (POP)*. POP seeks to bring
+together concepts and wisdom from the history of computing in new ways to solve
+modern computing problems.
+
+For more information:
+
+* `Intro to Plugin Oriented Programming (POP) <https://pop-book.readthedocs.io/en/latest/>`__
+* `pop-awesome <https://gitlab.com/saltstack/pop/pop-awesome>`__
+* `pop-create <https://gitlab.com/saltstack/pop/pop-create/>`__
+
+What is Heist?
+--------------
+
+This project is built with `Heist <https://heist.readthedocs.io>`__, a POP
+plugin that creates network tunnels for distributing and managing agents. While
+it has been originally built to deploy and manage Salt minions (``heist-salt``),
+it can be used to distribute and manage other agents or plugins if extended to
+do so.
+
+Getting Started
+===============
+
+Prerequisites
+-------------
+
+* Python 3.6+
+* git *(if installing from source, or contributing to the project)*
+
+Installation
+------------
+
+.. note::
+
+   If wanting to contribute to the project, and setup your local development
+   environment, see the ``CONTRIBUTING.rst`` document in the source repository
+   for this project.
+
+If wanting to use ``heist-salt``, you can do so by either
+installing from PyPI or from source.
+
+Install from PyPI
++++++++++++++++++
+
+To install the latest version from PyPI:
+
+.. code-block:: bash
+
+    # Requires Python 3.6+
+    pip install heist-salt
+
+Install from source
++++++++++++++++++++
+
+``heist-salt`` can also be installed from source:
+
+.. code-block:: bash
+
+   # Requires git and Python 3.6+
+   git clone git@gitlab.com:saltstack/pop/heist-salt.git
+   cd heist-salt
+   pip install -e .
+
+Usage
+=====
+
+Setting up a Salt master
+------------------------
+
+Don't worry, this is a snap!  Once Heist is installed you will need a
+Salt master to connect to. If you have an existing Salt master running
+you can skip this section, just run ``heist`` on your Salt master.
+
+Download the all-in-one Salt binary for Linux (Windows coming soon!):
+
+For Linux:
+
+.. code-block:: bash
+
+    wget https://repo.saltproject.io/salt/singlebin/3003.3-1/salt-3003.3-1-linux-amd64.tar.gz
+
+This is to install the 3003.3 version of Salt. You can view the directory listing here:
+https://repo.saltproject.io/salt/singlebin/ to see all of the Salt versions available for download.
+
+Extract the tarball:
+
+.. code-block:: bash
+
+   tar -xvf salt-3003.3-1-linux-amd64.tar.gz
+
+This will extract a single file named `salt`. You can now use this single binary to
+run the Salt master.
+
+.. code-block:: bash
+
+    chmod +x salt
+    sudo ./salt master
+
+Now you have a running Salt master to control your minions!
+
+Making your roster
+------------------
+
+A Roster is a file used by Heist to map login information to the
+systems in your environment. This file can be very simple and just
+needs to tell Heist where your systems are and how to log into them
+via ssh. Open a file called ``roster.cfg`` and add the data needed to connect
+to a remote system via ssh:
+
+.. code-block:: yaml
+
+    192.168.4.4:
+      username: fred
+      password: freds_password
+
+The roster files typically all live inside of a roster directory. But to get
+started will execute a single roster file with ``heist``:
+
+.. code-block:: bash
+
+    heist salt.minion -R roster.cfg
+
+Assuming your roster is correct, heist will now connect to the remote
+system, deploy a Salt minion, and connect it to your running master! Now you
+can use the same binary that you started the master with to accept your new
+minion's keys:
+
+.. code-block:: bash
+
+    ./salt key -A
+
+Then give your minion a few seconds to authenticate and then run your first
+``salt`` command on the newly set up minion:
+
+.. code-block:: bash
+
+    ./salt \* test.version
+
+That's it! Now that the minion is up you can run ``salt`` commands on it at breakneck
+speed, the full power of Salt is at your fingertips!!
