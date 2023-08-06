@@ -1,0 +1,46 @@
+Metadata-Version: 1.1
+Name: chattyraspi-script
+Version: 0.0.1
+Summary: Chattyraspi tool to run arbitrary command
+Home-page: https://github.com/fcracker79/chattyraspi-script
+Author: fcracker79
+Author-email: fcracker79@gmail.com
+License: MIT
+Description: ChattyRaspi script
+        ==================
+        
+        ChattyRaspi script allows you to run arbitrary code on your machine by
+        using Alexa interface.
+        
+        Installation
+        ------------
+        
+        .. code:: sh
+        
+           pip install chattyraspi-script
+        
+        Basic examples
+        --------------
+        
+        .. code:: bash
+        
+        
+           $> chattyraspi-script \
+                  --config-file devices_configuration.yaml \
+                  --on-cmd "systemctl start openvpn.service" \
+                  --off-cmd "systemctl stop openvpn.service" \
+                  --is-on-cmd "systemctl status openvpn.service"
+        
+        
+Keywords: alexa smart-home
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

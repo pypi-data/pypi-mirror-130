@@ -1,0 +1,3 @@
+[console_scripts]
+chattyraspi_script = chattyraspi_script.cli:main
+

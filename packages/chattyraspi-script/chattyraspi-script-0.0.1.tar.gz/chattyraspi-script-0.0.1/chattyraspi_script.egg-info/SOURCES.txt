@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+chattyraspi_script/__init__.py
+chattyraspi_script/cli.py
+chattyraspi_script.egg-info/PKG-INFO
+chattyraspi_script.egg-info/SOURCES.txt
+chattyraspi_script.egg-info/dependency_links.txt
+chattyraspi_script.egg-info/entry_points.txt
+chattyraspi_script.egg-info/not-zip-safe
+chattyraspi_script.egg-info/requires.txt
+chattyraspi_script.egg-info/top_level.txt
