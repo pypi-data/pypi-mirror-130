@@ -1,0 +1,3 @@
+[console_scripts]
+labelcloud = labelcloud.__main__:main
+
