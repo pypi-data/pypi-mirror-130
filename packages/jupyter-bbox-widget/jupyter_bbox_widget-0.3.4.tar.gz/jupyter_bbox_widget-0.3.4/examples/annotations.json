@@ -1,0 +1,50 @@
+{
+    "fruit.jpg": [
+        {
+            "x": 373,
+            "y": 176,
+            "width": 184,
+            "height": 204,
+            "label": "apple"
+        }
+    ],
+    "fruit2.jpg": [
+        {
+            "x": 106,
+            "y": 137,
+            "width": 230,
+            "height": 302,
+            "label": "apple"
+        }
+    ],
+    "fruit3.jpg": [
+        {
+            "x": 293,
+            "y": 329,
+            "width": 146,
+            "height": 131,
+            "label": "lemon"
+        },
+        {
+            "x": 486,
+            "y": 360,
+            "width": 145,
+            "height": 181,
+            "label": "lemon"
+        },
+        {
+            "x": 418,
+            "y": 369,
+            "width": 81,
+            "height": 149,
+            "label": "lemon"
+        },
+        {
+            "x": 568,
+            "y": 175,
+            "width": 127,
+            "height": 122,
+            "label": "lemon"
+        }
+    ]
+}
