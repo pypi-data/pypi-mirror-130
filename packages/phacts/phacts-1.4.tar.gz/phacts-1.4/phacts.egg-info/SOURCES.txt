@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+phacts.py
+setup.py
+phacts/__init__.py
+phacts/lifestyle.pkl.xz
+phacts/load_data.py
+phacts.egg-info/PKG-INFO
+phacts.egg-info/SOURCES.txt
+phacts.egg-info/dependency_links.txt
+phacts.egg-info/not-zip-safe
+phacts.egg-info/requires.txt
+phacts.egg-info/top_level.txt
