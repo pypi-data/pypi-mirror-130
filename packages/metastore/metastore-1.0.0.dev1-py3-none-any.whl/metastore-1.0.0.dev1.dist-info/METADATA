@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: metastore
+Version: 1.0.0.dev1
+Summary: Metastore Python SDK.
+Home-page: UNKNOWN
+Author: Metastore Developers
+Author-email: metastoredevelopers@gmail.com
+License: BSD-3-Clause
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+License-File: LICENSE.md
+Requires-Dist: dask (>=2021.10.0)
+Provides-Extra: development
+Requires-Dist: setuptools (>=58.2.0) ; extra == 'development'
+Requires-Dist: autopep8 (>=1.6.0) ; extra == 'development'
+Requires-Dist: pylint (>=2.12.0) ; extra == 'development'
+Requires-Dist: pytest (>=6.2.0) ; extra == 'development'
+Requires-Dist: twine (>=3.7.0) ; extra == 'development'
+
+UNKNOWN
+
