@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.cfg
+src/banglanews/__init__.py
+src/banglanews/prothomalo.py
+src/banglanews.egg-info/PKG-INFO
+src/banglanews.egg-info/SOURCES.txt
+src/banglanews.egg-info/dependency_links.txt
+src/banglanews.egg-info/top_level.txt
