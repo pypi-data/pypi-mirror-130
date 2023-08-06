@@ -1,0 +1,8 @@
+aria2_rpc_client/__init__.py,sha256=tOpMO5okavL7i4C8YFlMd0OsRGiGSbrW5FvbQ5Zqo6U,190
+aria2_rpc_client/client.py,sha256=n2nwCBgXw6lMnVbR7tilQmsw-eyqJbswB1UWkG5sygk,7754
+aria2_rpc_client/connection.py,sha256=_yJsI9AR0ITPYozpexGpnIP5CbkD3HyIPJOBj1AXu9M,558
+aria2_rpc_client/options.py,sha256=ULv9dB7MkxsKk1h9i3B3UNlMLn0c1d4nP4wKucb1lYg,964
+aria2_rpc_client/types.py,sha256=WVFf8iBu--suH6tY91OhEFWXY68Hnb_vOozcO-lh59Y,383
+aria2_rpc_client-0.4.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+aria2_rpc_client-0.4.1.dist-info/METADATA,sha256=6Nrh9FZpFWAasgHPQaPcxey8dzcIqrUmcxFeFgSNGPE,556
+aria2_rpc_client-0.4.1.dist-info/RECORD,,
