@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/stringutils_sangdv.egg-info/PKG-INFO
+src/stringutils_sangdv.egg-info/SOURCES.txt
+src/stringutils_sangdv.egg-info/dependency_links.txt
+src/stringutils_sangdv.egg-info/entry_points.txt
+src/stringutils_sangdv.egg-info/requires.txt
+src/stringutils_sangdv.egg-info/top_level.txt
+src/utils/__init__.py
+src/utils/package_data.dat
+src/utils/simple.py
