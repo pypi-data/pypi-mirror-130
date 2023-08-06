@@ -1,0 +1,7 @@
+shared_ds/__init__.py,sha256=JNND1Ct3xOkDmNUnV60aQr95ItvtGLpdoC5EM3GrM0M,81
+shared_ds/shared_array.py,sha256=zecvJb9mNmzDcNeccsTQ_gNLEV6-2mT4uW4iGDIrfNo,5101
+shared_ds/shared_bytes_io.py,sha256=pJKSsRP3vxTeVYDMxTOAdGSArHrZ99Wme_amDUoBb54,2661
+shared_ds-0.0.5.dist-info/METADATA,sha256=z010VXMojyr0zZu6arZBXG_s9VkJBeW8PfIBPRuS58Y,1816
+shared_ds-0.0.5.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+shared_ds-0.0.5.dist-info/top_level.txt,sha256=4hbFtYAD7zobXdqt8YcmIKpWm5m0Wzb2iYPyrZiFRv8,10
+shared_ds-0.0.5.dist-info/RECORD,,
