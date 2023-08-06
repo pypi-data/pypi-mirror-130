@@ -1,0 +1,7 @@
+include README.rst
+include LICENSE
+include requirements.txt
+graft is_num
+recursive-exclude * *.py[co]
+include versioneer.py
+include is_num/_version.py
