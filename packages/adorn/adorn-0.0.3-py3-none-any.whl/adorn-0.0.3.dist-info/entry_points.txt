@@ -1,0 +1,3 @@
+[console_scripts]
+adorn=adorn.__main__:main
+
