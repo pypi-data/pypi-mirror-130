@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ox-secrets
+Version: 0.1.1
+Summary: Simple secret server for python
+Home-page: http://github.com/emin63/ox_secrets
+Author: Emin Martinian
+Author-email: emin.martinian@gmail.com
+License: custom
+Description: Introduction
+        ============
+        
+        FIXME
+        
+Keywords: secret management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
