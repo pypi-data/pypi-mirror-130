@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+listgits/__init__.py
+listgits/listgits.py
+listgits.egg-info/PKG-INFO
+listgits.egg-info/SOURCES.txt
+listgits.egg-info/dependency_links.txt
+listgits.egg-info/entry_points.txt
+listgits.egg-info/top_level.txt
