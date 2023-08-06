@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/scipyx/__init__.py
+src/scipyx/_ellip.py
+src/scipyx/_interpolation.py
+src/scipyx/_krylov.py
+src/scipyx/_nonlinear.py
+src/scipyx/_optimize.py
+src/scipyx.egg-info/PKG-INFO
+src/scipyx.egg-info/SOURCES.txt
+src/scipyx.egg-info/dependency_links.txt
+src/scipyx.egg-info/requires.txt
+src/scipyx.egg-info/top_level.txt
