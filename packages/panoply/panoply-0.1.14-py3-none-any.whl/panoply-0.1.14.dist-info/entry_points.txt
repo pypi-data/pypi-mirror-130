@@ -1,0 +1,3 @@
+[console_scripts]
+panoply=panoply.panoply:main
+
