@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fitrd/__init__.py
+src/fitrd/fitrd.py
+src/fitrd.egg-info/PKG-INFO
+src/fitrd.egg-info/SOURCES.txt
+src/fitrd.egg-info/dependency_links.txt
+src/fitrd.egg-info/requires.txt
+src/fitrd.egg-info/top_level.txt
