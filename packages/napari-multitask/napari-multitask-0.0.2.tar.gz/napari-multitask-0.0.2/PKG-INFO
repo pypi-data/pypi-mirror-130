@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: napari-multitask
+Version: 0.0.2
+Summary: Multitasking in napari
+Home-page: UNKNOWN
+Author: Hanjin Liu
+Author-email: liuhanjin-sc@g.ecc.u-tokyo.ac.jp
+License: BSD 3-Clause
+Download-URL: https://github.com/hanjinliu/napari-multitask
+Platform: UNKNOWN
+Classifier: Framework :: napari
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# napari-multitask
+
+Multitasking on napari.
+
+![](https://github.com/hanjinliu/napari-multitask/raw/main/Figs/output.gif)
+
+Layers and opened dock widgets are stored in the task panels below. Switch your tasks at any time.
+
+# Installation
+
+```
+pip install napari-multitask
+```
+
+
