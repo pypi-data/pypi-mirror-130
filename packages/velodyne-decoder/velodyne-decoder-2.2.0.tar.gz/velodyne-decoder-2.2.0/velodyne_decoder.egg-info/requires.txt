@@ -1,0 +1,9 @@
+numpy
+importlib_resources
+dpkt
+
+[tests]
+pytest
+requests
+pathlib
+rosbag
