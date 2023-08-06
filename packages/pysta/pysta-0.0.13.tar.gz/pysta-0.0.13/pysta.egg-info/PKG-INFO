@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pysta
+Version: 0.0.13
+Summary: Python SensorThings Client
+Home-page: https://github.com/NMWDI/pysta
+Author: Jake Ross
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# PySTA
+Python SensorThings API client
+
+
