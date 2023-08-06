@@ -1,0 +1,12 @@
+popups/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popups/admin.py,sha256=xNfiDtBdYQKKvuCBzh2XJuSI4YmLIGONqM0e1bEggfY,592
+popups/apps.py,sha256=th5PhyWdRxMUqWjbduvC95P2T4hq1yE6Xj8dFUkdyIw,150
+popups/models.py,sha256=ZDPXSc6KtbcHt_ylONfdA9S0nYlLJWfRP2bbkQrfweg,2134
+popups/tests.py,sha256=2uDafv3Ns6f7Vy1ekUtgYxCZEi1KRyesZDTAFhYcX-E,63
+popups/urls.py,sha256=f01hl2x-KIfkHLyuEnP4oM1qzhj0aYEmKZDcgWTF1CI,136
+popups/views.py,sha256=tALEVIS9rFK0OhqOQuYLZd5SWkK4f3QNSo82LbNsZiA,969
+django_popups-0.0.2.dist-info/LICENSE,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+django_popups-0.0.2.dist-info/METADATA,sha256=37QUuja7nim57hQ-PRMsqJhdHseHgn5NBI7RklTElyo,935
+django_popups-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_popups-0.0.2.dist-info/top_level.txt,sha256=yIYfaE_K50_VyVFsECjoSAWc8AvVoLu0rMoyqEt1htA,7
+django_popups-0.0.2.dist-info/RECORD,,
