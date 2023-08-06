@@ -1,0 +1,3 @@
+[console_scripts]
+cjolowicz-scripts=cjolowicz_scripts.__main__:main
+
