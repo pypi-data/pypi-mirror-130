@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ery4z_toolbox
+Version: 3.2
+Summary: My personal toolbox, containing ready to use server and client with RSA and AES encryption
+Home-page: https://github.com/Ery4z/ery4z-toolbox
+Author: Ery4z
+Author-email: prog.ery4z@gmail.com
+License: MIT
+Download-URL: https://github.com/Ery4z/ery4z-toolbox/archive/refs/tags/v3.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
