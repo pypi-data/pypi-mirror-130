@@ -1,0 +1,4 @@
+[console_scripts]
+cjolowicz-scripts=cjolowicz_scripts.__main__:main
+stardate=cjolowicz_scripts.stardate:main
+
