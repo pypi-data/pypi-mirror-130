@@ -1,0 +1,64 @@
+name: test
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    name: Test P${{ matrix.python-version }}, Dj${{ matrix.django-version-number }}, PSQL${{matrix.postgres-version}}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: [3.6, 3.7, 3.8, 3.9]
+        postgres-version: [10, 11, 12, 13]
+        django-version-number: [2, 3]
+        include:
+        - django-version-number: 2
+          django-version: Django==2.2
+        - django-version-number: 3
+          django-version: Django>=3.2,<4.0
+    services:
+      postgres:
+        image: thorinschiffer/postgres-plpython:${{ matrix.postgres-version }}
+        env:
+          POSTGRES_PASSWORD: postgres
+        ports:
+        - 5432:5432
+        volumes:
+        - ${{github.workspace}}:/app
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{ matrix.python-version }}
+        cache: pip
+    - name: Install Dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements_test.txt
+        pip install -U "${{matrix.django-version}}"
+        ls /opt/hostedtoolcache/Python/
+        cp -R /opt/hostedtoolcache/Python/${{ matrix.python-version }}*/x64/lib/python${{ matrix.python-version }}/site-packages/ ${{github.workspace}}/venv/
+    - name: Download code climate client
+      run: |
+        curl -L https://codeclimate.com/downloads/test-reporter/test-reporter-latest-linux-amd64 > ./cc-test-reporter
+        chmod +x ./cc-test-reporter
+        GIT_BRANCH=$GITHUB_REF GIT_COMMIT_SHA=$GITHUB_SHA ./cc-test-reporter before-build
+
+    - name: Run Tests
+      env:
+        DATABASE_URL: postgres://postgres:postgres@localhost/postgres
+        PLPY_ENV_PATHS: /app/venv,/app/src/
+        PLPY_PROJECT_PATH: /app
+      run: |
+        pip install -e .
+        pytest --junitxml=test-results/junit.xml --cov-report=xml --cov=. .
+    - name: Report coverage
+      uses: paambaati/codeclimate-action@v3.0.0
+      env:
+        CC_TEST_REPORTER_ID: ${{ secrets.CC_TEST_REPORTER_ID }}
+      if: matrix.python-version == 3.7 && matrix.postgres-version == 13 && matrix.django-version-number == 3

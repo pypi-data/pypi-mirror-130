@@ -1,0 +1,40 @@
+[build-system]
+# AVOID CHANGING REQUIRES: IT WILL BE UPDATED BY PYSCAFFOLD!
+requires = ["setuptools>=46.1.0", "setuptools_scm[toml]>=5", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+# See configuration details in https://github.com/pypa/setuptools_scm
+version_scheme = "post-release"
+local_scheme= "no-local-version"
+
+[tool.pycln]
+all = true
+
+[tool.flake8]
+exclude = ".git,__pycache__,docs/source/conf.py,old,build,dist,*/migrations/*,*/settings/*,*.wsgi"
+max-complexity = 10
+max-line-length = 120
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["django_plpy"]
+omit = ["*/tests/*", "*/migrations/*", "*/urls.py", "*/settings.py", "*/asgi.py", "manage.py", "setup.py"]
+
+[tool.coverage.report]
+# Regexes for lines to exclude from consideration
+exclude_lines = [
+"pragma: no cover",
+"def __repr__",
+"raise AssertionError",
+"raise NotImplementedError",
+"if 0:",
+"if __name__ == .__main__.:",
+]
+skip_covered = true
+sort = "Miss"
+ignore_errors = true
+skip_empty = true

@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  postgres:
+    image: thorinschiffer/postgres-plpython:13
+    volumes:
+    - app:/app
+    - python_env:/env
+    ports:
+    - 8432:5432
+    environment:
+    - POSTGRES_DB=postgres
+    - POSTGRES_USER=postgres
+    - POSTGRES_PASSWORD=postgres
+volumes:
+  app:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../
+  python_env:
+    driver: local
+    driver_opts:
+      type: none
+      o: bind
+      device: ../venv/lib/python3.7/site-packages
