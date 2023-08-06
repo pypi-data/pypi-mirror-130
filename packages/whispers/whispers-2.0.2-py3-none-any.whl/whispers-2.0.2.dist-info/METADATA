@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: whispers
+Version: 2.0.2
+Summary: Identify secrets in static structured text
+Home-page: https://github.com/adeptex/whispers
+Author: Artëm Tsvetkov
+Author-email: linkedin@adeptex.net
+License: UNKNOWN
+Platform: any
+License-File: LICENSE
+Requires-Dist: dataclasses
+Requires-Dist: luhn
+Requires-Dist: lxml
+Requires-Dist: pyyaml
+Requires-Dist: astroid
+Requires-Dist: jproperties
+Requires-Dist: jellyfish
+Requires-Dist: beautifulsoup4
+Provides-Extra: dev
+Requires-Dist: autoflake (~=1.4) ; extra == 'dev'
+Requires-Dist: autopep8 (~=1.5) ; extra == 'dev'
+Requires-Dist: black (~=19.10b0) ; extra == 'dev'
+Requires-Dist: coverage (~=4.5) ; extra == 'dev'
+Requires-Dist: coverage-badge (~=1.0) ; extra == 'dev'
+Requires-Dist: flake8 (~=3.9) ; extra == 'dev'
+Requires-Dist: isort (~=5.9) ; extra == 'dev'
+Requires-Dist: pytest (~=6.2) ; extra == 'dev'
+Requires-Dist: pytest-mock (~=3.6) ; extra == 'dev'
+Requires-Dist: pip-tools (~=6.2) ; extra == 'dev'
+Requires-Dist: wheel (~=0.37) ; extra == 'dev'
+Requires-Dist: twine (~=3.4) ; extra == 'dev'
+
+UNKNOWN
+
