@@ -1,0 +1,19 @@
+channels:
+- wietsedv
+- conda-forge
+
+platforms:
+- linux-64
+- osx-arm64
+
+dependencies:
+- python ==3.9.*
+- pip >=21.1.3
+- click >=8.0.1
+- ensureconda >=1.4.1
+- ruamel.yaml >=0.17.10
+- yapf >=0.31.0
+- pip:
+  - pip-tools >=6.2.0
+- shellingham >=1.4.0
+- semantic_version >=2.8.5
