@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: IITB-SSO
+Version: 0.1.10
+Summary: Python package to integrate IIT Bomaby SSO login to your project
+Home-page: https://github.com/NihalSargaiya9/IITB-SSO
+Author: Nihal Sargaiya
+Author-email: nihalsargaiya4@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Sample usage:
+- index.py
+```from IITB_SSO import ssoVerification
+from flask import Flask,request
+from werkzeug.utils import redirect
+app = Flask(__name__)
+
+@app.route('/')
+def new():
+	finalData = ssoVerification(request)
+	return finalData
+
+if __name__ == '__main__':
+	app.run(debug=True)
+
