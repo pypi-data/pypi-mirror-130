@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ds-utility
+Version: 0.1.1
+Summary: Utility functions for Data Science related works.
+Home-page: https://www.linkedin.com/in/skshahidur/
+Author: skshahidur
+Author-email: skshahidur@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/skshahidur/ds-utility/archive/refs/tags/0.1.0.tar.gz
+Keywords: DSUTILS,DSUTILITIES,DATASCIENCEUTILITY,DATASCIENCEUTILITIES
+Platform: UNKNOWN
+Requires-Python: >=3.9.0
+Provides-Extra: mlflow
+Provides-Extra: plot
+Provides-Extra: all
+License-File: LICENSE
+
+UNKNOWN
+
