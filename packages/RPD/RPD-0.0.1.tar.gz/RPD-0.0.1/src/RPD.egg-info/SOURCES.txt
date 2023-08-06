@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+requirements.txt
+setup.py
+src/RPD.egg-info/PKG-INFO
+src/RPD.egg-info/SOURCES.txt
+src/RPD.egg-info/dependency_links.txt
+src/RPD.egg-info/requires.txt
+src/RPD.egg-info/top_level.txt
+src/rpd/__init__.py
+src/rpd/py.typed
