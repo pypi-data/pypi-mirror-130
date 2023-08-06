@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: minidelegate
+Version: 0.0.1
+Summary: Package for delegate based methods via decorators
+Home-page: https://github.com/BhMbOb/Py-Delegate
+Author: Bailey3D
+Author-email: contact@bailey3d.com
+License: MIT
+Description: UNKNOWN
+Keywords: developer delegate helpers decorators
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
