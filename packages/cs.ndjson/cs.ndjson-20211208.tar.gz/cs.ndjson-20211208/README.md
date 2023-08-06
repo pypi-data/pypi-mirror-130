@@ -1,0 +1,61 @@
+Utilities for working with newline delimited JSON (NDJSON) files.
+
+*Latest release 20211208*:
+Initial PyPI release.
+
+## Function `append_ndjson(arg, *a, **kw)`
+
+Append an iterable of objects to a file as newline delimited JSON.
+
+## Function `scan_ndjson(arg, *a, **kw)`
+
+Read a newline delimited JSON file, yield instances of `dictclass`
+(default `dict`, otherwise a class which can be instantiated
+by `dictclass(a_dict)`).
+
+`error_list` is an optional list to accrue `(lineno,exception)` tuples
+for errors encountered during the scan.
+
+## Class `UUIDNDJSONMapping(cs.obj.SingletonMixin,cs.mappings.IndexedSetMixin)`
+
+A subclass of `IndexedSetMixin` which maintains records
+from a newline delimited JSON file.
+
+### Method `UUIDNDJSONMapping.__init__(self, filename, dictclass=<class 'cs.mappings.UUIDedDict'>, create=False)`
+
+Initialise the mapping.
+
+Parameters:
+* `filename`: the file containing the newline delimited JSON data;
+  this need not yet exist
+* `dictclass`: a optional `dict` subclass to hold each record,
+  default `UUIDedDict`
+* `create`: if true, ensure the file exists
+  by transiently opening it for append if it is missing;
+  default `False`
+
+### Method `UUIDNDJSONMapping.add_backend(self, record)`
+
+Append `record` to the backing file.
+
+### Method `UUIDNDJSONMapping.rewrite_backend(self)`
+
+Rewrite the backing file.
+
+Because the record updates are normally written in append mode,
+a rewrite will be required every so often.
+
+### Method `UUIDNDJSONMapping.scan(self)`
+
+Scan the backing file, yield records.
+
+## Function `write_ndjson(arg, *a, **kw)`
+
+Transcribe an iterable of objects to a file as newline delimited JSON.
+
+# Release Log
+
+
+
+*Release 20211208*:
+Initial PyPI release.
