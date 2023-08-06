@@ -1,0 +1,17 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+MPHTAD/ADforward.py
+MPHTAD/ADreverse.py
+MPHTAD/__init__.py
+MPHTAD/elementary_func.py
+MPHTAD/elementary_func_reverse.py
+MPHTAD/optimizer.py
+MPHTAD/root_finder.py
+MPHTAD/vector_autodiff.py
+MPHTAD.egg-info/PKG-INFO
+MPHTAD.egg-info/SOURCES.txt
+MPHTAD.egg-info/dependency_links.txt
+MPHTAD.egg-info/requires.txt
+MPHTAD.egg-info/top_level.txt
