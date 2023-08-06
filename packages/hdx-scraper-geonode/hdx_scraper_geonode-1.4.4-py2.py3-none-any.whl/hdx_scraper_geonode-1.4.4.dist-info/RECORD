@@ -1,0 +1,11 @@
+hdx/scraper/geonode/__init__.py,sha256=6stz_YFBRP_lguydVylsTgSmj3VTb6WFq8Sp45WYQyY,22
+hdx/scraper/geonode/geonodetohdx.py,sha256=9Tj8jX-OUTPY-zwRWtMxpxXZv3gQ54LjSKsTs_wuB0w,17637
+hdx/scraper/geonode/hdx_geonode.yml,sha256=HNvtSI7Oxs6EoojFwCLUVjMktkj8kgaPNYhFX9B6YAg,1699
+hdx/scraper/geonode/version.py,sha256=dnxxv7IGk8gE00-I2N7JTBoyIRgpFaxol0LWE9ob3WI,278
+hdx/scraper/geonode/version.txt,sha256=8LZyMhqJSE9NqFn_x0G7_otbaT04f34F-Exd5iWhzGE,5
+hdx_scraper_geonode-1.4.4.dist-info/LICENSE,sha256=wc-4GpMn-ODs-U_bTe1YCiPVgvcjzrpYOx2wPuyAeII,1079
+hdx_scraper_geonode-1.4.4.dist-info/METADATA,sha256=iDLwC5NHCqrA-T_TpG02bXH9puojDeikJZQDUPqHyaM,2505
+hdx_scraper_geonode-1.4.4.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+hdx_scraper_geonode-1.4.4.dist-info/top_level.txt,sha256=cfo3TyDjnu-B1jb_itPPFQCH00c5VT5GuZ30eNrGmlI,4
+hdx_scraper_geonode-1.4.4.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+hdx_scraper_geonode-1.4.4.dist-info/RECORD,,
