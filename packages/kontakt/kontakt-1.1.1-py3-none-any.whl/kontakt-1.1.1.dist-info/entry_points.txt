@@ -1,0 +1,4 @@
+[kontakt.example]
+blue = kontakt.examples:Blue
+red = kontakt.examples:Red
+
