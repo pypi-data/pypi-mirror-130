@@ -1,0 +1,3 @@
+[console_scripts]
+tap-clockify=tap_clockify.tap:TapClockify.cli
+
