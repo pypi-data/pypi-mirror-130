@@ -1,0 +1,4 @@
+[console_scripts]
+motu-client = motuclient.motuclient:main
+motuclient = motuclient.motuclient:main
+
