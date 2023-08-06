@@ -1,0 +1,24 @@
+name: ifthen
+
+args:
+  condition: Callable[[T], bool]
+  data: T
+
+tasks:
+  ifthen:
+    input: $COMPONENT_INPUT
+    function: typhoon.flow_control.filter
+    args:
+      filter_func: !Py $ARG.condition
+      data: !Py $ARG.data
+
+  ifelse:
+    input: $COMPONENT_INPUT
+    function: typhoon.flow_control.filter
+    args:
+      filter_func: !Py "lambda x: not $ARG.condition(x)"
+      data: !Py $ARG.data
+
+output:
+  - ifthen
+  - ifelse
