@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: codesim
+Version: 0.0.0
+Summary: A tool to measure code similarity.
+Home-page: https://github.com/StardustDL/codesim
+Author: StardustDL
+Author-email: stardustdl@163.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/StardustDL/codesim
+Project-URL: Changes, https://github.com/StardustDL/codesim/releases
+Project-URL: Documentation, https://github.com/StardustDL/codesim
+Project-URL: Bug Tracker, https://github.com/StardustDL/codesim/issues
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# codesim
+
+## Install
+
+1. Install Python(>=3.7) and pip
+2. Install requirements.
+
+```sh
+cd src
+pip install -r requirements.txt
+```
+
+## Usage
+
+```sh
+cd src
+python -m codesim <file1> <file2>
+```
+
+## Alternative
+
+Build and install a portable Python Wheel package.
+
+```sh
+cd src
+python -m pip install --upgrade build twine
+python -m build -o ../dist
+python -m pip install ../dist/codesim-0.0.1-py3-none-any.whl
+
+codesim <file1> <file2>
+```
+

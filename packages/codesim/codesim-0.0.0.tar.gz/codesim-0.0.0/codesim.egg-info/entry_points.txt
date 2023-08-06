@@ -1,0 +1,3 @@
+[console_scripts]
+codesim = codesim.__main__:main
+

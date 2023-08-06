@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+codesim/__init__.py
+codesim/__main__.py
+codesim.egg-info/PKG-INFO
+codesim.egg-info/SOURCES.txt
+codesim.egg-info/dependency_links.txt
+codesim.egg-info/entry_points.txt
+codesim.egg-info/requires.txt
+codesim.egg-info/top_level.txt
