@@ -1,0 +1,10 @@
+misc_funcs_module/__init__.py,sha256=qhwUVrlaNNQKPkR14lUDG8KURMTU50BjlhlUMKLVOe8,45
+misc_funcs_module/add.py,sha256=5k52n8qo0OiTBQqi4PcIqVeozM3Jf70sP79aZ-22uGo,167
+misc_funcs_module/subtract.py,sha256=T8nOLTBGRGayR1nxZyAswLTeiMpNg_ySUerh8dYPX4g,176
+misc_funcs_module/extras/__init__.py,sha256=5SuVwR817qX0frkWK5IISJa8xl8Z3NEUeGt9qkDiMIg,50
+misc_funcs_module/extras/divide.py,sha256=or-qte9QtFM-K4ke2V098WfQtrKF2BeBqeYVttPY_kY,170
+misc_funcs_module/extras/multiply.py,sha256=RV5oEI0zWM6Yv8T8q49wdO_Jc-Ah96wZpracs-WaVjg,173
+misc_funcs_module-0.0.1.dist-info/METADATA,sha256=stc1Bje3lm1py67d0sXzYwG_pEOLqjgs0S40MTWfdj4,597
+misc_funcs_module-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+misc_funcs_module-0.0.1.dist-info/top_level.txt,sha256=mscbCj_mqsgRH9L4ohZKUGlC77vynaFR8bCUvCDTi4E,18
+misc_funcs_module-0.0.1.dist-info/RECORD,,
