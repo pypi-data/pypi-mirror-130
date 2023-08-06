@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: nashledger
+Version: 0.0.1
+Summary: Python library for connecting to the Nash Framework
+Home-page: https://bitbucket.org/dans0l/erp_sync
+Author: Dansol Obondo
+Author-email: dansol@nashafrica.co
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Nasheq E.R.P. Standardized A.P.I.s python integrations
+
+## Quick Guide
+Below are the steps on how to get the web app up and running
+
+1.	Clone it:
+```bash
+    git clone https://dans0l@bitbucket.org/dans0l/erp_sync.git
+```
+2.	Cd into it:
+```bash
+    cd erp_sync
+```
+3.	Create a venv
+```bash
+    python3 -m venv venv
+```
+4.	Activate venv:
+```bash
+    Mac/Linux: source venv/bin/activate
+    Windows: venv\Scripts\activate
+```
+5.	Install the requirements
+```bash
+    pip install -r requirements.txt
+```
+6.	Start Coding
+7.	Look at the sample docs.ipynb file on getting started
+
