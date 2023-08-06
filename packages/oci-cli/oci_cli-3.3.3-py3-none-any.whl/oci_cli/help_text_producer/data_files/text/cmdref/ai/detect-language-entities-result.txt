@@ -1,0 +1,14 @@
+detect-language-entities-result
+*******************************
+
+
+Description
+===========
+
+Result of entities detect call.
+
+
+Available Commands
+==================
+
+* detect-language-entities

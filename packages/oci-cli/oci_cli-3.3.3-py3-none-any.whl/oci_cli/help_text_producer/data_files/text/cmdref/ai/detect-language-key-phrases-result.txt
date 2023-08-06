@@ -1,0 +1,14 @@
+detect-language-key-phrases-result
+**********************************
+
+
+Description
+===========
+
+Result of a language keyPhrases detect call.
+
+
+Available Commands
+==================
+
+* detect-language-key-phrases
