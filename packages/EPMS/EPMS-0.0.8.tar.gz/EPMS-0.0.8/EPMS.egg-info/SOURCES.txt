@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+EPMS/__init__.py
+EPMS/deserialization.py
+EPMS/serialization.py
+EPMS.egg-info/PKG-INFO
+EPMS.egg-info/SOURCES.txt
+EPMS.egg-info/dependency_links.txt
+EPMS.egg-info/top_level.txt
