@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: reqwests
+Version: 0.1.0
+Summary: Pythonic API Wrapper For Discord And Anime Enjoyers
+Home-page: https://github.com/RPSMain/reqwests
+Author: RPS
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Framework :: AsyncIO
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Reqwests
+========
+Asynchronous API Wrapper For Discord And Anime Enjoyers
+

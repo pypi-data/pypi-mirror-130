@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/reqwests/__init__.py
+src/reqwests.egg-info/PKG-INFO
+src/reqwests.egg-info/SOURCES.txt
+src/reqwests.egg-info/dependency_links.txt
+src/reqwests.egg-info/requires.txt
+src/reqwests.egg-info/top_level.txt
+src/reqwests/types/__init__.py
+src/reqwests/types/snowflake.py
