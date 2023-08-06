@@ -1,0 +1,3 @@
+[console_scripts]
+htmlpull=htmlpull.cli:cli
+
