@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: packelf
+Version: 0.2.0
+Summary: Pack ELF files in a given path to make them relocatable
+Home-page: https://github.com/fixpoint/packelf
+License: MIT
+Keywords: Linux
+Author: Fixpoint, Inc.
+Author-email: developer@fixpoint.co.jp
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Build Tools
+Project-URL: Repository, https://github.com/fixpoint/packelf
+Description-Content-Type: text/markdown
+
+# packelf
+
+A _packelf_ packs ELF files by relocating linked shared objects.
+It copies linked shared objects into `.lib` directory of the given path and rewrite `rpath` of ELF files by [patchelf][] to make them relocatable.
+
+## Requirements
+
+- [patchelf][]
+
+[patchelf]: https://nixos.org/patchelf.html
+
+## Limitation
+
+- It may break ELF files which already use `rpath` to change reference of shared objects
+
+## See also
+
+- [refreeze-scripts](https://github.com/fixpoint/refreeze-scripts) - Make EXE files in `Scripts` directory relocatable
+
