@@ -1,0 +1,37 @@
+# RelyComply Python Client and CLI
+
+**BETA RELEASE**
+
+This package contains the python client and CLI for the RelyComply platform:
+
+> RelyComply is an end-to-end Anti-Money Laundering (AML) Plaftorm, managing detection, risk management and automation of your AML compliance requirements
+
+The CLI makes configuration of the system substantially simpler and allows for a full configuration-as-devops experience. 
+
+The python client exposes both a lower level GraphQL client which makes it easy to interact with the GraphQL APi in a pythonic manner. As well as a higher-level integration client that provides useful routines for common integration tasks.
+
+## RelyComplyGQLClient
+
+A flexible and intelligent GraphQL client for RelyComply. This client will create methods
+that match the mutation sand queries of the RelyComply API, and expose them with familiar
+calling conventions. It also handles paging as well as simplifying the returned structures.
+
+Queries can be called with their lowerCase field name and any filter arguments as kwargs, e.g.:
+
+```python
+client.products(nameContain="ZA") # Will return a list of products
+client.products(nameContain="ZA", _iter=True) # Will return a lazy generator
+client.products(name="retailZA", _only=True) # Will return only the first object or None
+```
+
+Mutations can be called in a similar way, but arguments will be lifted into the $input variable
+
+```python
+client.createProduct(name="retailZA", label="South African Retail) # Returns the created product
+```
+
+The interface is automatically generated from the GQL schema as well as the CLI support templates. Thus it should always be in sync with the latest features on the platform.
+
+## RelyComplyClient
+
+## CLI
