@@ -1,0 +1,7 @@
+ocrd>=2.20.0
+shapely>=1.7.1
+scikit-image
+numpy
+rapidfuzz
+opencv-python-headless
+ocrd-fork-pycocotools
