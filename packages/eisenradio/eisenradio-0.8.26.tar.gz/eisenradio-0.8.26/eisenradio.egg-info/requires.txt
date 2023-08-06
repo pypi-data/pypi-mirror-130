@@ -1,0 +1,5 @@
+setuptools
+flask_cors
+configparser
+requests
+urllib3
