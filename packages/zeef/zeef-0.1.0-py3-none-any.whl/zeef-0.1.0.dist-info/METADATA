@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: zeef
+Version: 0.1.0
+Summary: A Python Framework for Deep Active Learning
+Home-page: https://github.com/MLSysOps/zeef
+Author: Yizheng Huang
+Author-email: huangyz0918@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/MLSysOps/zeef/archive/master.zip
+Keywords: active learning,deep learning,data processing,data mining,neural networks
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (>=1.21.2)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: setuptools (==58.0.4)
+Requires-Dist: torch (>=1.10.0)
+Requires-Dist: torchvision (==0.11.1)
+Requires-Dist: tqdm (==4.62.3)
+
+# Zeef: Active Learning for Data-Centric AI
+
+[![build](https://github.com/MLSysOps/zeef/actions/workflows/main.yml/badge.svg)](https://github.com/MLSysOps/zeef/actions/workflows/main.yml) [![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FMLSysOps%2Fdeepal.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FMLSysOps%2Fdeepal?ref=badge_shield)
+
+Zeef is an active learning framework that can be applied to deep learning scenarios leak of labeled data. It contains many built-in data selection algorithms to reduce the labor of data annotation.
+
+
+## Installation 
+
+```shell
+pip install zeef
+```
+
+For the local development, you can install from the [Anaconda](https://www.anaconda.com/) environment by 
+
+```shell
+conda env create -f environment.yml
+```
+
+A quick MNIST CNN example can be found in [here](./examples/main.py). Run 
+
+```shell
+conda activate zeef
+python main.py
+```
+
+to start the quick demonstration. 
+
+## Quick Start
+
+We can start from the most easy example: random select data points from an unlabeled data pool.
+
+```python
+from zeef.data import Pool
+from zeef.strategy import RandomSampling
+
+# define the pool and active learning strategy. 
+pool = Pool(torch_dataset_class, unlabeled_data)
+strategy = RandomSampling(pool, network)
+
+# start the active learning.
+data_ids = strategy.query(1000)
+# label those 1k sampled data points.
+pool.label_by_ids(data_ids, data_labels) 
+# retrain the model
+strategy.learn()
+# test the model
+predictions = strategy.predict(test_x, test_y)
+```
+
+## License
+
+[Apache License 2.0](./LICENSE)
+
+
