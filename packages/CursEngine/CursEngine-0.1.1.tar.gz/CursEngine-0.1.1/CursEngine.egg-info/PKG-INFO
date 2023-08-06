@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: CursEngine
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Xeouz
+Author-email: agencyxhq@gmail.com
+License: MIT
+Description: # CursEngine 1
+        ## Python, Pixel Game Development Engine. Currently in development stage
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
