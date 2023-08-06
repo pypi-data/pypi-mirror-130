@@ -1,0 +1,9 @@
+README.md
+setup.py
+aldServer/__init__.py
+aldServer/server.py
+aldServer/templateEngine.py
+aldServer.egg-info/PKG-INFO
+aldServer.egg-info/SOURCES.txt
+aldServer.egg-info/dependency_links.txt
+aldServer.egg-info/top_level.txt
