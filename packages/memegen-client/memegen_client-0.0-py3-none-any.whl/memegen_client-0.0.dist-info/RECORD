@@ -1,0 +1,13 @@
+memegen/__init__.py,sha256=LwgmBfdoMIpTcVLXYYeVOHBEJ3BaCdA7FU3MbPVoPzs,182
+memegen/__main__.py,sha256=pqpzCXgWgJr0E0XSb2m-CJD3CumV1HmP2pZG6OLggC8,140
+memegen/cli.py,sha256=GO2D9rQfF5OXomzT9wIBBVNLDnJhLJ6KpvQESibLji8,301
+memegen/gui.py,sha256=BYtvVnhT6Jbwu_qCw1kLw37lFvbEAINmlLAwvQCn1qY,2842
+memegen/tests/__init__.py,sha256=LURUPwwDqcFmVe1XvEzadPdXxro8RdEF-rTaMw-AfiI,34
+memegen/tests/conftest.py,sha256=EffQgj1CGLH_NMojxA65U-shHYJ4UD_nlrPMsz7etBQ,267
+memegen/tests/test_utils.py,sha256=L7iDGBhwGWH5KCmquB9bd0c5eo7-cGwPaw41ETKlHus,393
+memegen/utils.py,sha256=jVRiWXlDuQkq-4CXuavgUMvhnGD--d8lD4JlTUN32ak,283
+memegen_client-0.0.dist-info/entry_points.txt,sha256=phwZ5cQhTriOnzsMAx5fKiIsLuzfYYT8z1ItBpqTGAc,44
+memegen_client-0.0.dist-info/LICENSE.md,sha256=w4evPEzBMLuQrlEfZxfdTNcTGHI-NVr1ElO0ndJxjuE,1088
+memegen_client-0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+memegen_client-0.0.dist-info/METADATA,sha256=Da8RgMIanLM2sDHY3LspZskKMPW5KRyVDlyqox56ANs,845
+memegen_client-0.0.dist-info/RECORD,,
