@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+kazutoki/Binomialdistribution.py
+kazutoki/Gaussiandistribution.py
+kazutoki/Generaldistribution.py
+kazutoki/__init__.py
+kazutoki.egg-info/PKG-INFO
+kazutoki.egg-info/SOURCES.txt
+kazutoki.egg-info/dependency_links.txt
+kazutoki.egg-info/not-zip-safe
+kazutoki.egg-info/top_level.txt
