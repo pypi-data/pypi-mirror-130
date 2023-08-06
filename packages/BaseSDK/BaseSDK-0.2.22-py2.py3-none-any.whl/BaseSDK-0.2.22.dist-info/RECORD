@@ -1,0 +1,10 @@
+BaseSDK/BASEClient.py,sha256=ES9lQJaVi3I4DwIcZ1B6Xx4W-1snmPZxt4aVgUHHalA,17290
+BaseSDK/ClientException.py,sha256=dj1Wl3iFS6ozTmPrI6Xw1pIOTquaNvd8MI7sXC8CMEw,397
+BaseSDK/Configuration.py,sha256=C4G0WdJZWxKfXhPramTd0JffOUfrA5Vi7o4tk6PNXiY,313
+BaseSDK/Utils.py,sha256=cpXfPzM_nOtuG7GJtBpKHPJhC7dMmKhVJr_ouOYfs24,1456
+BaseSDK/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+BaseSDK-0.2.22.dist-info/LICENSE.txt,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+BaseSDK-0.2.22.dist-info/METADATA,sha256=YCsdUoK8cwJW98h7MPF9-VV595Afh58wd0zwB9l4Bb4,306
+BaseSDK-0.2.22.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+BaseSDK-0.2.22.dist-info/top_level.txt,sha256=XIYmE_t6LK_WSMCWwNCDODCX7-VqepDrcyFVqO60-8o,8
+BaseSDK-0.2.22.dist-info/RECORD,,
