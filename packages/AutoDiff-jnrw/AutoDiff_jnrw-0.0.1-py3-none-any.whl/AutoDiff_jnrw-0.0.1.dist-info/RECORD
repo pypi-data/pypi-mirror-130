@@ -1,0 +1,15 @@
+autodiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodiff/backward/__init__.py,sha256=CCSG16gRGfLvqw9-blegRe0HLsqklyy-b3xTZGmq7BY,349
+autodiff/backward/function.py,sha256=GwdJoiC2hTPfyuP8QLBtvh5XDNIQ1fsHPEFLU2j3NCA,8336
+autodiff/backward/sym.py,sha256=ov7_3RWYD2b52Qfig8D82wZ5gMUaWneTNd1PIQDs8z4,10469
+autodiff/forward/__init__.py,sha256=4ZglnwMj_pKhTMp7xu4xYKRiOcOzZsrmYuZfGcx3-0k,347
+autodiff/forward/function.py,sha256=T9SHhQUEIY7GoRvBCGc6UoUhpYlO1Wt7ShgOY4jbSFY,6509
+autodiff/forward/sym.py,sha256=O93l9tiW6ZzpPy0p91EBwRbYNJSvlsy0-EKDrU4UO2k,11584
+autodiff/vector/__init__.py,sha256=upwAwiLcUL-PpYhXhNJecEQb9R26S_bpATMqR_csu_0,372
+autodiff/vector/function.py,sha256=WucxPClyu06UjEIQTGJDmZ7eTSHeZeKsg26Fvz3HnmQ,4198
+autodiff/vector/sym.py,sha256=OA69tCDOvOMwyL44d-nOfEXTjz37y255t7cutCSHzYU,9848
+AutoDiff_jnrw-0.0.1.dist-info/LICENSE,sha256=23aa8aCVYzAlZfAUDV-x8MBb2iBb2guMiWBryWz7nY8,1070
+AutoDiff_jnrw-0.0.1.dist-info/METADATA,sha256=BwyqX0dZI6iEJbLHyc5CfjQ707lBzvbotk2GpSYEQDE,581
+AutoDiff_jnrw-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+AutoDiff_jnrw-0.0.1.dist-info/top_level.txt,sha256=MwixkEq9H4SMj4_Smwm-xH3ZhV7tnVAhBff-R-LEHJk,9
+AutoDiff_jnrw-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: AutoDiff-jnrw
+Version: 0.0.1
+Summary: Package for auto-differentiation, for more details, please refer to docs folder.
+Home-page: https://github.com/cs107-jnrw/cs107-FinalProject
+Author: cs107-jnrw
+Author-email: ruicheng@fas.harvard.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+
+UNKNOWN
+
