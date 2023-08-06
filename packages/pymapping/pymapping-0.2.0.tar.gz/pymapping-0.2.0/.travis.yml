@@ -1,0 +1,22 @@
+language: python
+
+addons:
+  apt:
+    packages:
+      - gmsh
+
+python:
+  - "3.6"
+
+before_install:
+  - pip3 install -U -r test_requirements.txt
+
+install:
+  - pip3 install -U .
+
+script:
+  - cd test
+  - pytest --cov pymapping
+
+after_success:
+  - codecov
