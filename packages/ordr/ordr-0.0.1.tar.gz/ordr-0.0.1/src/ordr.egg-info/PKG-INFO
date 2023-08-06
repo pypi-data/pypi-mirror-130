@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: ordr
+Version: 0.0.1
+Summary: Python SDK for the ORDR API
+Home-page: https://ordr.menu
+Author: Francesco Boffa
+Author-email: francesco@ordr.menu
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
