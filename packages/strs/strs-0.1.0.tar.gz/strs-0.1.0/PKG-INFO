@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: strs
+Version: 0.1.0
+Summary: 🧵 String manipulation tools for the shell
+Home-page: https://github.com/alexdelorenzo/strs
+Author: Alex DeLorenzo
+License: AGPL 3.0
+Platform: UNKNOWN
+Requires-Python: >=3.10
+License-File: LICENSE
+
+UNKNOWN
+
