@@ -1,0 +1,15 @@
+README.txt
+setup.py
+autooptimizer/__init__.py
+autooptimizer/dbscan.py
+autooptimizer/decisiontree.py
+autooptimizer/kmeans.py
+autooptimizer/knn.py
+autooptimizer/logreg.py
+autooptimizer/meanshift.py
+autooptimizer/svc.py
+autooptimizer.egg-info/PKG-INFO
+autooptimizer.egg-info/SOURCES.txt
+autooptimizer.egg-info/dependency_links.txt
+autooptimizer.egg-info/requires.txt
+autooptimizer.egg-info/top_level.txt
