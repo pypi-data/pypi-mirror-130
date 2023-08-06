@@ -1,0 +1,5 @@
+SPARQLWrapper
+PyYAML
+pandas
+jsonpickle
+tabulatepylatexenc~=2.10
