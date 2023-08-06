@@ -1,0 +1,6 @@
+pyrebase4
+ctREFPROP
+setuptools
+requests
+future
+sty
