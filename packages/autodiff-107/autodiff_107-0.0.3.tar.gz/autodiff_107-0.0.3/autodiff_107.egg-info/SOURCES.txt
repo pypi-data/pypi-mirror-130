@@ -1,0 +1,16 @@
+README.md
+setup.py
+autodiff_107/__init__.py
+autodiff_107.egg-info/PKG-INFO
+autodiff_107.egg-info/SOURCES.txt
+autodiff_107.egg-info/dependency_links.txt
+autodiff_107.egg-info/top_level.txt
+autodiff_107/diff/Node.py
+autodiff_107/diff/__init__.py
+autodiff_107/diff/nodemath.py
+autodiff_107/optim/__init__.py
+autodiff_107/optim/gradient_descent.py
+tests/__init__.py
+tests/test_Node.py
+tests/test_gradient_descent.py
+tests/test_nodemath.py
