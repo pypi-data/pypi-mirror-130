@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: foxha
+Version: 1.0.2
+Summary: A MySQL High Availability tool to replace flipper
+Home-page: https://github.com/globocom/foxha/
+Author: Rafael Dantas Silva
+Author-email: rafael.dantas@corp.globo.com
+License: GPL
+Description: A MySQL High Availability tool to replace flipper
+Keywords: tool mysql
+Platform: UNKNOWN
+Provides-Extra: test
+Provides-Extra: dev
