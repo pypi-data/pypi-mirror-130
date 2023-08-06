@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.py
+src/autolgb/__init__.py
+src/autolgb/autolgb.py
+src/autolgb/logger.py
+src/autolgb/params.py
+src/autolgb/schemas.py
+src/autolgb/utils.py
+src/kaggle_autolgb.egg-info/PKG-INFO
+src/kaggle_autolgb.egg-info/SOURCES.txt
+src/kaggle_autolgb.egg-info/dependency_links.txt
+src/kaggle_autolgb.egg-info/requires.txt
+src/kaggle_autolgb.egg-info/top_level.txt
+test/test1.py
