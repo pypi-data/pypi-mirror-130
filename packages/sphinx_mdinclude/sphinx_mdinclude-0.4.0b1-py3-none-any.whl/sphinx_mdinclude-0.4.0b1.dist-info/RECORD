@@ -1,0 +1,11 @@
+sphinx_mdinclude/__init__.py,sha256=0r9NbL_PPrC48gciPQcadwZ-r-tbU34zjf-YYzLR4Os,20565
+sphinx_mdinclude/__version__.py,sha256=e5uVRSMyPk6Vs_1u_OxsEsOTIsj3y4hWZYEXObynWbk,24
+sphinx_mdinclude/tests/__init__.py,sha256=ZjwNl11xiyIrY-N4ClNnugAxpci2HlkhdueSRUfv5TQ,246
+sphinx_mdinclude/tests/__main__.py,sha256=iAHdEpPyOWvFXtECOoqIDt0U5fVgRWN9WVqxRvDP47E,163
+sphinx_mdinclude/tests/test.md,sha256=k7kUUwu00wQXajaUelx48jU4Nf7qjITt9zLSmkCf_RM,336
+sphinx_mdinclude/tests/test.rst,sha256=onH10dqDpOdn_i7tTbPF7-d4nxIms63qDPIAbvu_Dck,404
+sphinx_mdinclude/tests/test_renderer.py,sha256=X-4w79psIuQy6V250pNwRUfsi4kKwIrgXVbWeWNtgNo,23543
+sphinx_mdinclude-0.4.0b1.dist-info/LICENSE,sha256=KHKOwOy9jBceuuzOv2njlhKC_YHwarx0JMZVRraubyc,1082
+sphinx_mdinclude-0.4.0b1.dist-info/WHEEL,sha256=LVOPL_YDMEiGvRLgDK1hLkfhFCnTcxcAYZJtpNFses0,81
+sphinx_mdinclude-0.4.0b1.dist-info/METADATA,sha256=Xe5t5k-lSVeTAE7_rlkKuyzjY0nql7bo5FV7fe3KNyQ,4306
+sphinx_mdinclude-0.4.0b1.dist-info/RECORD,,
