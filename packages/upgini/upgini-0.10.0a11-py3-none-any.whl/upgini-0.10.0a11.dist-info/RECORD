@@ -1,0 +1,17 @@
+upgini/__init__.py,sha256=2Ih-yYpWvDvYw1DORhyQvyCAd8HVpJtafz_n8x5KlZ8,371
+upgini/ads.py,sha256=7KTaNZfnFc-YPTA7dOI_k8zaCFyQD6pOYsJseNbUhqc,2847
+upgini/dataset.py,sha256=9_BQ6VFW0Ds2TjwwcgRcAKV4mjJCNsO147dNNem2ars,30703
+upgini/errors.py,sha256=lmLjMCjLw2juf5KIytKkoHmQX9w3NctjFWxyOA46HcQ,1143
+upgini/feature_enricher.py,sha256=EhRswZg8t55vuduSwedkGkXAl4AB9L-s-9WiWPN4rK4,16673
+upgini/features_enricher.py,sha256=RzkoLkUVhmcIuNK3j8HjZYAEftM4DnTP_qBLmvuH7Mk,17982
+upgini/http.py,sha256=wlEb4dYvlpfS2Pi0X4wsxhNjCgxK8je2rDYv7dwATaM,17174
+upgini/metadata.py,sha256=07gYSLHWUd0cW3hhUiaL1zeoHVQASCWO-dRjp-q2uhU,3275
+upgini/search_task.py,sha256=NCQ_y0Nfy-dP9FErR24oj8hUAVuTttEmuCwgJPaZ3Kg,31156
+upgini/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upgini/utils/format.py,sha256=Yv5cvvSs2bOLUzzNu96Pu33VMDNbabio92QepUj41jU,243
+upgini/utils/metrics.py,sha256=01caDD1HFngQf-HZHeW7_hh3gk5P0UfrTFpNU7Npros,329
+upgini-0.10.0a11.dist-info/LICENSE,sha256=5RRzgvdJUu3BUDfv4bzVU6FqKgwHlIay63pPCSmSgzw,1514
+upgini-0.10.0a11.dist-info/METADATA,sha256=__rvqUySFNQE78QzBuRAkJZZ4_JU6Oxs9FMDxRPXmZo,22471
+upgini-0.10.0a11.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+upgini-0.10.0a11.dist-info/top_level.txt,sha256=OFhTGiDIWKl5gFI49qvWq1R9IKflPaE2PekcbDXDtx4,7
+upgini-0.10.0a11.dist-info/RECORD,,
