@@ -1,0 +1,3 @@
+[console_scripts]
+SDRun = SampleDistribution_1.pkg2.main:importPkgs
+

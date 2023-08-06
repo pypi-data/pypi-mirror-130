@@ -1,0 +1,14 @@
+LICENSE
+License
+README.md
+pyproject.toml
+setup.cfg
+src/NamespaceDistribution.egg-info/PKG-INFO
+src/NamespaceDistribution.egg-info/SOURCES.txt
+src/NamespaceDistribution.egg-info/dependency_links.txt
+src/NamespaceDistribution.egg-info/entry_points.txt
+src/NamespaceDistribution.egg-info/top_level.txt
+src/SampleDistribution_1/mod1.py
+src/SampleDistribution_1/pkg1/mod3.py
+src/SampleDistribution_1/pkg2/main.py
+src/SampleDistribution_2/pkg1/mod2.py
