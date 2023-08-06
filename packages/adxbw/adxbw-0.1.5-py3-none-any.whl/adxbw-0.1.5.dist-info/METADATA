@@ -1,0 +1,157 @@
+Metadata-Version: 2.1
+Name: adxbw
+Version: 0.1.5
+Summary: Automated differentiation tool developed by ucxbw
+Home-page: https://github.com/cs107-ucxbw/cs107-FinalProject/
+Author: Lanting Li, Jiaye Chen, Jenny Dong
+Author-email: lanting_li@hms.harvard.edu, jiaye_chen@hms.harvard.edu, wdong@hms.harvard.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy
+Requires-Dist: pytest
+Requires-Dist: setuptools
+
+# Group #36 cs107-FinalProject
+
+## Authors:
+
+- Lanting Li
+- Jenny Dong
+- Jiaye Chen
+
+## Introduction
+
+Automatic Differentiation (AD) is a powerful tool in optimization problem, such as root finding with Newton's method. It
+has been applied in science and engineering. We implement a python package called `adxbw`.
+
+In an optimization problem, the core is to find out in which condition we can reach the local and global maxima or
+minima and the zero points. Compared to linear functions, it's computationally harder to find the roots of non-linear
+functions. Numeric and symbolic methods (and of course manually working and coding) failed under such a high complexity
+independently. Thus, AD, which integrates the advantages of numeric and symbolic differentiation, can be used to solve
+that problem.
+
+## How to use
+
+To install:
+
+```bash
+pip install adxbw
+```
+
+### Import
+
+`import adxbw`
+
+### Univariate example:
+
+```python
+# forward-mode imbedded in node.py
+x = AD(math.e, 1)
+f = x.log()  # Default base is e
+```
+
+Output:
+
+```
+The value and derivative of current function are 1.0 and 0.36787944117144233
+```
+
+As an additional feature, we have used the forward mode AD to compute the Jacobian in Newton's root finding method. We
+wrote a wrapper for Newton's method that works for **single/multiple scalar inputs and single vector input**.
+
+For Newton's optimization with single scalar or vector input, we require the user to input an AD object with value (
+first parameter to intialize AD object) to be numeric or a numpy array and partial derivative (second parameter to
+intialize AD object) to be also scalar numeric (**CANNOT** be array or list). Then they should input a string represents
+the function to optimize with the variable named by `x_k` (see third line code below). User should be careful with
+initial guess (value of the input AD object) because it plays an important role in convergence of Newton's method.
+The `newton` function also allow other optional parameter such as learning rate and number of max iteration. Please
+check code documention for details.
+
+Newton's optimization with single scalar:
+
+```python
+from adxbw.optimization import newton
+
+x = AD(100, 1)  # 100 is the initial guess
+funct = "- x_k**2 - 2*x_k"
+temp_root = newton(funct, x)
+```
+
+Newton's optimization with single vector:
+
+```python
+x = AD(np.array([-2, -5, -8]), 1)
+funct = "- x_k**2 - 2*x_k"
+temp_root = newton(funct, x)
+```
+
+See below ***Extension*** section for further Newton's method details.
+
+### Multivariate example:
+
+Suppose you have a function $f(x, y) = x + {y}^2$, needed to evaluate at (1,2).
+
+```python
+# numpy is imported as np in package, no need to re-import
+# build input node: multivariate case x = 1, y = 2;
+x = AD(1, np.array([1, 0]))
+y = AD(2, np.array([0, 1]))
+
+f = x + y ** 2
+print(f.val)
+print(f.partial_ders)
+print(f)
+```
+
+Output:
+
+```
+5
+[1 4]
+The value and derivative of current function are 5 and [1 4]
+```
+
+Newton's optimization for multiple scalar variables:
+
+```python
+x = AD(-1, np.array([1, 0]))
+y = AD(2, np.array([0, 1]))
+# All values of the initial nodes should be scalar (single float/int)
+# Length of partial derivatives numpy array should correspond to number of variables
+temp_dict = {"x1": x, "x2": y}
+# Initialize a dictionary with keys to be customized names of variables
+
+# Use keys of the dictionary to construct the representative function string
+funct = "x1.sin() - x2.cos()"
+# First two parameters should be representative function string 
+# and dictionary of the initial nodes
+temp_root = newton_multi(funct, temp_dict, lr=0.05)
+```
+
+Similar to single input newton's, users can set different learning rate, maximum iteration. See documentation in package
+for details. (`help(adxbw.optimization.newton_multi)`)
+
+## Broader Impact and Inclusivity Statement
+
+Automatic differentiation and its potential application in root finding are the corner stones in optimization problem.
+This means that our package could be used beyond the mathematical world and more broadly in science and engineering.
+
+For example, as computational biologists, from cell signaling to gene networks, we could model cellular and molecular
+processes using nonlinear equations, and root finding using AD will enable machine-level accuracy. This implementation
+of automatic differentiation provides a convenient way for users to calculate and evaluate values and derivatives of the
+functions. People who would like to use the partial derivatives for higher level computation do not have to calculate
+the partial derivatives by hand and thus reduce a lot of unnecessary workload of the scientific researchers.
+
+However, the potential implementation errors in our package may cause negative impact when users don't realize it.
+Notably, there's no peer review process for developers to upload their packages onto any platform, such as conda and
+PyPI. The underlying bugs within the package won't be easily found by users. The misuse of those packages will
+potentially lead to error-borne results in those research project. Furthermore, the conclusion drawn or implications
+made based on those erroneous results will presumably cause significant social impacts.
+
+For example, the high school or college students who just get in touch with Calculus may misuse it that they rely
+heavily on the automatic differentiation tools to calculate derivatives. As a result, they may never learn about the
+methmatical mechanism of differentiation calculation and thus a misuse of our tool may lead to an educational failure.
+
