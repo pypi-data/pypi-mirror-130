@@ -1,0 +1,10 @@
+atmosnet/__init__.py,sha256=EQEsgTfoVnRtiRuWclWfJ7wxcPpHrsaHVBcnpeS5o64,51
+atmosnet/models.py,sha256=8iKyTOJ_pcMq2O_ChzWTL_SW33oGW15zHFgan9Rjmx8,37519
+atmosnet/utils.py,sha256=OhSz5bbn1bBobxe0RFt0pMmv0F1TF0FymJn6QVnui04,9251
+atmosnet/data/atmosnet_c3k_300neurons_cool.pkl,sha256=B6UlgWK_uY3rJHK4dkaxqEpVz5OZSgCb8XxBeBh8hhg,8076621
+atmosnet/data/atmosnet_c3k_300neurons_hot.pkl,sha256=Hf29FAWOfZ7kDVuyyQOFRe9hRW59VbkAKhAUrxTTgQo,8764749
+atmosnet-1.0.1.dist-info/LICENSE,sha256=K7l4_MN2UQzTmXHCHG17cz0AFI7piif29FLjFeJh4ZI,1070
+atmosnet-1.0.1.dist-info/METADATA,sha256=QFesEOX0egH9Qu-ZkpK8-BBnGNG7FFoe4oqeif_HWoE,1594
+atmosnet-1.0.1.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+atmosnet-1.0.1.dist-info/top_level.txt,sha256=wtXdjwM4znFVjKu8IA08wwAIinlUyeu787UfAEorePI,9
+atmosnet-1.0.1.dist-info/RECORD,,
