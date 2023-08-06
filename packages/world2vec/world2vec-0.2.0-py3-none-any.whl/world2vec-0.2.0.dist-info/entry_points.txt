@@ -1,0 +1,3 @@
+[console_scripts]
+world2vec = world2vec.__main__:main
+
