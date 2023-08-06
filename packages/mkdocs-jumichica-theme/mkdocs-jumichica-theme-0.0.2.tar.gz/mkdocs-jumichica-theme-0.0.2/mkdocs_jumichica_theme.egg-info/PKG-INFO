@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mkdocs-jumichica-theme
+Version: 0.0.2
+Summary: Jumíchica theme for MkDocs.
+Home-page: https://github.com/jumichica/mkdocs-jumichica-theme
+Author: Edwin Ariza
+Author-email: me@edwinariza.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Documentation
+Classifier: Topic :: Text Processing
+License-File: LICENSE
+
+UNKNOWN
+
