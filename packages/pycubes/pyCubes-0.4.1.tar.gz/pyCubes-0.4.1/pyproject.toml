@@ -1,0 +1,66 @@
+[tool.poetry]
+name = "pyCubes"
+version = "0.4.1"
+description = "Library for creating servers and clients for Minecraft Java Edition"
+authors = ["Dmitry Davis <dmitrydavis@protonmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/DavisDmitry/pyCubes"
+documentation = "https://pycubes.dmitrydavis.xyz"
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: System Administrators",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Topic :: Internet",
+    "Topic :: Software Development",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Typing :: Typed"
+]
+packages = [{include="cubes"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+anyio = "^3.4.0"
+nbtlib = "2.0.4"
+pydantic = "^1.8.2"
+mkdocs-material = {version = "^8.0.5", optional = true}
+mkdocs-static-i18n = {version = "^0.22", optional = true}
+pymdown-extensions = {version = "^9.1", optional = true}
+
+[tool.poetry.extras]
+docs = ["mkdocs-material", "mkdocs-static-i18n", "pymdown-extensions", "mkautodoc"]
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+flake8 = "^4.0.1"
+flake8-annotations-complexity = "^0.0.6"
+flake8-annotations-coverage = "^0.0.5"
+flake8-bandit = "^2.1.2"
+flake8-bugbear = "^21.11.29"
+isort = "^5.9.3"
+pylint = "^2.12.2"
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+trio = "^0.19.0"
+
+[tool.black]
+target-version = ['py310']
+
+[tool.isort]
+profile = "black"
+multi_line_output = 3
+
+[tool.pylint.message_control]
+disable = ["C0112", "C0114", "C0115", "C0116"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
