@@ -1,0 +1,3 @@
+[console_scripts]
+JupyterNotebookBase_setup_jupyter = JupyterNotebookBase.__setup_jupyter__:main
+
