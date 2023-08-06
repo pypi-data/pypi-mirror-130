@@ -1,0 +1,954 @@
+2021-12-07 11:23:23,720 - root - INFO - Example run for Bayesian optimization
+2021-12-07 11:23:23,720 - PARyOpt.paryopt - INFO - dimensionality: 1
+2021-12-07 11:23:23,721 - PARyOpt.paryopt - INFO - Bounds: l_bound: [-12.], u_bound: [12.]
+2021-12-07 11:23:23,721 - PARyOpt.paryopt - INFO - kernel function: sqr_exp
+2021-12-07 11:23:23,721 - PARyOpt.paryopt - INFO - acquisition function: LCB
+2021-12-07 11:23:23,721 - PARyOpt.paryopt - INFO - kernel function : theta: 1.0, theta0: 1.0
+2021-12-07 11:23:23,721 - PARyOpt.paryopt - INFO - Init finished
+2021-12-07 11:23:23,729 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:23,729 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:23,729 - root - INFO - BO initialized
+2021-12-07 11:23:24,292 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,292 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,293 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,294 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,294 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,295 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,295 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,295 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,296 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,296 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,297 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,297 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,298 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,298 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,299 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,299 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,300 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,300 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,301 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,301 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,302 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,302 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,303 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,303 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,304 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,304 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,305 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,305 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,306 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,306 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,307 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,307 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,308 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,308 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,309 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,310 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,311 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,311 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,312 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,312 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,313 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,313 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,314 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,314 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,315 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,315 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,316 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,316 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,317 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,317 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,318 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,318 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,319 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,319 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,320 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,320 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,321 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,321 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,322 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,323 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,323 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,324 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,324 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (2 points) 
+2021-12-07 11:23:24,325 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (2 points) 
+2021-12-07 11:23:24,325 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 9.317241379310344, theta0: 1.0
+2021-12-07 11:23:24,704 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:24,708 - PARyOpt.paryopt - INFO - Next location: [0.34413965], (acq value: [-242.97214063])
+2021-12-07 11:23:24,710 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 0 to 1
+2021-12-07 11:23:24,710 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 1, failed: 0 and pending: 0
+2021-12-07 11:23:24,711 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,712 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,713 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 1.
+2021-12-07 11:23:24,715 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 1.
+2021-12-07 11:23:24,715 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 3, number of iterations: 1!
+2021-12-07 11:23:24,716 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,717 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,718 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,718 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,719 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,720 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,721 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,721 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,722 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,723 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,724 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,724 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,725 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,726 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,727 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,727 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,728 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,728 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,729 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,730 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,730 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,731 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,732 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,732 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,733 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,734 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,734 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,735 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,736 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,736 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,737 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,738 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,741 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,742 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,744 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,744 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,745 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,746 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,747 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,747 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,748 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,749 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,750 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,750 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,751 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,751 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,752 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,753 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,754 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,754 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,755 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,755 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,756 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,757 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,758 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,758 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,759 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,759 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,760 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,761 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,762 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,762 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,763 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (3 points) 
+2021-12-07 11:23:24,763 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (3 points) 
+2021-12-07 11:23:24,764 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 3.5137931034482763, theta0: 1.0
+2021-12-07 11:23:24,764 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:24,777 - PARyOpt.paryopt - INFO - Next location: [3.17554498], (acq value: [-409.09338036])
+2021-12-07 11:23:24,779 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 1 to 2
+2021-12-07 11:23:24,779 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 1, failed: 0 and pending: 0
+2021-12-07 11:23:24,780 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,781 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,784 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 2.
+2021-12-07 11:23:24,787 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 2.
+2021-12-07 11:23:24,787 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 4, number of iterations: 2!
+2021-12-07 11:23:24,788 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,789 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,790 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,790 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,791 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,791 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,792 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,793 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,794 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,794 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,795 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,795 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,796 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,796 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,797 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,798 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,799 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,799 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,800 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,800 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,801 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,801 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,802 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,803 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,804 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,804 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,805 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,805 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,806 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,807 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,807 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,808 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,809 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,809 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,810 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,810 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,811 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,812 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,813 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,813 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,814 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,815 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,816 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,816 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,817 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,817 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,818 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,819 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,819 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,820 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,821 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,821 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,822 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,822 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,823 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,824 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,825 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,825 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,826 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,828 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,830 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,830 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,832 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (4 points) 
+2021-12-07 11:23:24,832 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (4 points) 
+2021-12-07 11:23:24,832 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 7.610344827586207, theta0: 1.0
+2021-12-07 11:23:25,321 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:25,334 - PARyOpt.paryopt - INFO - Next location: [1.87659231], (acq value: [2.08766612])
+2021-12-07 11:23:25,335 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 2 to 3
+2021-12-07 11:23:25,336 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 1, failed: 0 and pending: 0
+2021-12-07 11:23:25,336 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,337 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,338 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 3.
+2021-12-07 11:23:25,338 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 3.
+2021-12-07 11:23:25,338 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 5, number of iterations: 3!
+2021-12-07 11:23:25,339 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,340 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,340 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,341 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,342 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,342 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,343 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,343 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,345 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,345 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,348 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,349 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,350 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,350 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,351 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,352 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,354 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,355 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,356 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,357 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,358 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,359 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,360 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,360 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,361 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,361 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,362 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,362 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,363 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,363 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,364 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,364 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,365 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,365 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,366 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,366 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,367 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,367 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,367 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,368 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,368 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,369 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,369 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,370 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,370 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,371 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,371 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,372 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,372 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,373 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,373 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,374 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,374 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,374 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,375 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,375 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,376 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,377 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,377 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,378 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,378 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,379 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,379 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (5 points) 
+2021-12-07 11:23:25,380 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (5 points) 
+2021-12-07 11:23:25,380 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 10.0, theta0: 1.0
+2021-12-07 11:23:25,380 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:25,392 - PARyOpt.paryopt - INFO - Next location: [2.44718719], (acq value: [6.98616018])
+2021-12-07 11:23:25,394 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 3 to 4
+2021-12-07 11:23:25,394 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 1, failed: 0 and pending: 0
+2021-12-07 11:23:25,396 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,398 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,400 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 4.
+2021-12-07 11:23:25,402 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 4.
+2021-12-07 11:23:25,402 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 4!
+2021-12-07 11:23:25,404 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,405 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,406 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,407 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,409 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,409 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,411 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,411 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,413 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,413 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,415 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,415 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,417 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,418 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,419 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,420 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,421 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,422 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,423 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,424 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,425 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,426 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,428 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,428 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,430 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,430 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,432 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,432 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,434 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,434 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,436 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,437 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,438 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,439 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,441 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,443 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,446 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,447 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,449 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,449 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,451 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,452 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,452 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:25,453 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,454 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,454 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:25,456 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,456 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,456 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:25,458 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,458 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,458 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:25,460 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,460 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,461 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:25,462 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,463 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,463 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:25,464 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,465 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,465 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:25,467 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,467 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,467 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:25,469 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,470 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,470 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:25,471 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,472 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,472 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:25,473 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,474 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,474 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:25,476 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:25,476 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:25,476 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:26,035 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,062 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,091 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,109 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,129 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,156 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,188 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,205 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,243 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,270 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,285 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:26,286 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 4 to 5
+2021-12-07 11:23:26,286 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:26,287 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,287 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,288 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 5.
+2021-12-07 11:23:26,288 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 5.
+2021-12-07 11:23:26,289 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 5.
+2021-12-07 11:23:26,289 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 5!
+2021-12-07 11:23:26,290 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,290 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,291 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,291 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,292 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,292 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,293 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,293 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,294 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,294 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,295 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,295 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,296 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,296 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,297 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,297 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,298 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,298 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,299 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,299 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,300 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,300 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,301 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,302 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,302 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,303 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,303 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,304 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,304 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,305 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,305 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,306 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,306 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,307 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,308 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,308 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,309 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,310 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,312 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,312 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,313 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,314 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,314 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:26,314 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,315 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,315 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:26,316 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,316 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,316 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:26,317 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,317 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,317 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:26,318 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,318 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,318 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:26,319 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,319 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,319 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:26,320 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,320 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,320 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:26,321 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,321 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,322 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:26,322 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,323 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,323 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:26,323 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,324 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,324 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:26,324 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,325 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,325 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:26,326 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,326 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,326 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:26,326 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,349 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,379 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,394 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,418 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,444 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,475 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,493 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,531 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,556 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:26,573 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:26,574 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 5 to 6
+2021-12-07 11:23:26,574 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:26,575 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,575 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,576 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 6.
+2021-12-07 11:23:26,576 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 6.
+2021-12-07 11:23:26,578 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 6.
+2021-12-07 11:23:26,578 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 6!
+2021-12-07 11:23:26,579 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,579 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,581 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,581 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,583 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,583 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,585 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,585 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,586 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,587 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,588 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,589 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,590 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,590 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,591 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,591 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,592 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,592 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,593 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,594 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,594 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,595 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,595 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,596 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,596 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,597 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,598 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,598 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,599 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,599 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,600 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,600 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,601 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,601 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,602 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,602 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,603 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,603 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,604 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,604 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,605 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,605 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,605 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:26,606 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,606 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,606 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:26,607 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,607 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,608 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:26,608 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,609 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,609 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:26,609 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,610 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,610 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:26,612 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,612 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,612 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:26,614 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,614 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,614 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:26,615 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,615 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,616 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:26,616 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,617 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,617 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:26,617 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,618 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,618 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:26,619 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,619 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,619 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:26,620 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:26,620 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:26,620 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:27,116 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,139 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,167 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,185 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,206 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,232 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,265 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,281 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,318 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,346 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,366 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:27,367 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 6 to 7
+2021-12-07 11:23:27,368 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:27,368 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,369 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,370 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 7.
+2021-12-07 11:23:27,370 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 7.
+2021-12-07 11:23:27,372 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 7.
+2021-12-07 11:23:27,372 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 7!
+2021-12-07 11:23:27,374 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,374 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,376 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,377 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,378 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,379 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,380 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,381 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,382 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,383 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,385 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,386 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,388 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,389 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,390 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,391 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,393 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,393 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,395 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,395 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,397 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,398 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,399 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,400 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,401 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,402 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,403 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,404 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,405 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,406 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,408 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,408 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,410 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,410 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,412 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,412 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,414 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,414 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,416 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,417 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,418 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,419 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,419 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:27,420 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,421 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,421 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:27,423 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,423 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,423 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:27,425 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,425 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,425 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:27,428 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,429 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,429 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:27,438 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,439 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,439 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:27,440 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,441 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,441 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:27,443 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,444 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,444 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:27,446 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,446 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,446 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:27,448 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,448 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,449 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:27,450 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,451 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,451 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:27,452 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,453 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,453 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:27,453 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,497 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,543 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,558 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,579 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,603 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,634 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,651 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,688 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,714 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:27,728 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:27,729 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 7 to 8
+2021-12-07 11:23:27,729 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:27,730 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,730 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,732 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 8.
+2021-12-07 11:23:27,732 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 8.
+2021-12-07 11:23:27,734 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 8.
+2021-12-07 11:23:27,734 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 8!
+2021-12-07 11:23:27,735 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,736 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,737 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,738 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,740 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,740 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,742 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,742 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,744 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,746 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,748 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,749 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,750 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,751 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,753 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,753 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,755 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,755 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,757 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,757 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,759 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,759 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,761 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,761 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,763 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,764 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,765 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,766 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,767 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,768 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,769 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,770 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,771 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,772 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,774 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,774 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,776 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,776 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,778 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,778 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,780 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,780 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,781 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:27,782 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,783 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,783 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:27,784 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,785 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,785 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:27,786 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,787 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,787 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:27,789 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,789 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,789 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:27,791 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,792 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,792 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:27,794 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,794 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,794 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:27,796 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,797 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,797 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:27,798 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,799 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,799 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:27,800 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,801 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,801 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:27,803 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,803 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,803 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:27,805 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:27,805 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:27,805 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:28,352 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,380 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,414 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,430 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,450 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,478 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,514 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,538 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,595 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,636 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,661 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:28,662 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 8 to 9
+2021-12-07 11:23:28,662 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:28,663 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,663 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,665 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 9.
+2021-12-07 11:23:28,665 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 9.
+2021-12-07 11:23:28,667 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 9.
+2021-12-07 11:23:28,667 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 9!
+2021-12-07 11:23:28,669 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,670 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,676 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,677 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,679 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,681 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,683 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,684 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,685 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,686 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,687 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,688 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,689 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,690 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,692 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,692 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,694 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,694 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,696 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,696 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,698 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,699 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,701 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,701 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,703 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,703 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,705 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,705 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,707 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,708 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,709 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,710 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,712 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,720 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,722 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,723 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,724 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,725 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,726 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,727 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,729 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,729 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,729 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:28,731 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,731 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,731 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:28,733 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,733 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,734 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:28,735 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,736 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,736 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:28,737 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,738 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,738 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:28,740 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,740 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,740 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:28,742 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,742 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,742 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:28,744 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,744 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,745 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:28,746 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,747 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,747 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:28,748 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,749 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,749 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:28,750 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,751 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,751 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:28,753 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:28,753 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:28,753 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:28,753 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,784 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,824 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,843 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,881 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,912 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,944 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:28,960 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:29,000 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:29,027 - PARyOpt.paryopt - INFO - opt = 0, kappa = 1000.00
+2021-12-07 11:23:29,042 - PARyOpt.paryopt - WARNING - Could not find surrogate optima 0 (all points near population)
+2021-12-07 11:23:29,043 - PARyOpt.paryopt - INFO - Saved optimizer state from iter 9 to 10
+2021-12-07 11:23:29,043 - PARyOpt.paryopt - INFO - Cost function evaluated! Number completed: 0, failed: 0 and pending: 0
+2021-12-07 11:23:29,044 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,044 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,045 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 10.
+2021-12-07 11:23:29,045 - PARyOpt.paryopt - WARNING - Failed to evaluate any new points during iteration 10.
+2021-12-07 11:23:29,046 - PARyOpt.paryopt - INFO - Saved optimizer state for iteration 10.
+2021-12-07 11:23:29,046 - PARyOpt.paryopt - INFO - 1 iterations completed, total population: 6, number of iterations: 10!
+2021-12-07 11:23:29,047 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,047 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,048 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,048 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,049 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,049 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,050 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,050 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,051 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,051 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,052 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,052 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,053 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,054 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,054 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,055 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,055 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,056 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,057 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,057 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,058 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,058 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,059 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,059 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,060 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,060 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,061 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,061 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,062 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,062 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,063 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,064 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,066 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,067 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,070 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,071 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,072 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,073 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,073 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,074 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,074 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,075 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,075 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.586206896551724, returning penalty
+2021-12-07 11:23:29,076 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,076 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,076 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 6.927586206896551, returning penalty
+2021-12-07 11:23:29,077 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,077 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,077 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.268965517241379, returning penalty
+2021-12-07 11:23:29,078 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,078 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,078 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.610344827586207, returning penalty
+2021-12-07 11:23:29,079 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,079 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,080 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 7.951724137931034, returning penalty
+2021-12-07 11:23:29,080 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,081 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,081 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.293103448275863, returning penalty
+2021-12-07 11:23:29,081 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,082 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,082 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.63448275862069, returning penalty
+2021-12-07 11:23:29,082 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,083 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,083 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 8.975862068965517, returning penalty
+2021-12-07 11:23:29,084 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,084 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,084 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.317241379310344, returning penalty
+2021-12-07 11:23:29,085 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,085 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,085 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 9.658620689655173, returning penalty
+2021-12-07 11:23:29,086 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,086 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,086 - PARyOpt.paryopt - WARNING - Negative or zero det(K) for theta = 10.0, returning penalty
+2021-12-07 11:23:29,087 - PARyOpt.paryopt - INFO - Surrogate without failed points created! (6 points) 
+2021-12-07 11:23:29,087 - PARyOpt.paryopt - INFO - Surrogate with failed points created! (6 points) 
+2021-12-07 11:23:29,087 - PARyOpt.paryopt - INFO - Kernel function parameter optimized: theta: 6.244827586206895, theta0: 1.0
+2021-12-07 11:23:29,631 - root - INFO - Optimization done for 10 iterations, best evaluation is at [2.44718719] with cost: 5.002789192818563
+2021-12-07 11:23:29,632 - root - INFO - Data exported to ./temp/example_0_data.csv
