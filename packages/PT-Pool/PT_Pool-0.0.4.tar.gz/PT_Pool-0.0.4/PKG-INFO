@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: PT_Pool
+Version: 0.0.4
+Summary: Distibutes tasks among processes and threads.
+Home-page: https://github.com/michalmonday/PT_Pool
+Author: Michal Borowski
+Author-email: michalmonday17@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/michalmonday/PT_Pool/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+## What PT\_Pool?
+
+It's a combined process+threading pool. (having only "apply\_async" method for now)  
+
+ThreadPoolExecutor on its own doesn't utilize more than one CPU core.  
+ProcessPoolExecutor on its own is not suitable to provide concurrency (e.g. slows down the system when large number of processes are created, and doesn't allow to create more than around 1000 processes on my system).  
+
+## Installation
+
+`python3.7 -m pip install PT_Pool`  
+
+
+## Usage
+
+```python
+from PT_Pool import PT_Pool
+import time
+
+def f(x):
+    time.sleep(1)
+    return x*x
+
+def on_result(res):
+    print(res)
+
+pt_pool = PT_Pool(threads_limit = 100)
+
+pt_pool.apply_async(f, range(10), on_result=on_result)
+
+time.sleep(2)
+input('Press enter to exit...')
+```
+
+    
+
+
+
