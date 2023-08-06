@@ -1,0 +1,9 @@
+autodiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autodiff/dualnumber.py,sha256=UBbJQ9S0Es_xRRXnPbEj_YFVv3OWSFCgBWqaRJpiKOE,6277
+autodiff/node.py,sha256=U9EYuM1cYHyXM1Qzq-WW941P_bKxsMieAeZK-N5wpj8,23571
+autodiff/operatorsfunc.py,sha256=ybDDvHp4zhv6kmdx_dEpt3fy52o5FFJ2DCoj3MVpAXc,4173
+autodiff_aabj-1.0.0.dist-info/LICENSE,sha256=xF9RHJO8rcRmZoZ_D_NvRsgjiRoCvHT4NG95Sd3vVHU,1108
+autodiff_aabj-1.0.0.dist-info/METADATA,sha256=yYW6-x_DB8jZwj7y67qxhs9p3u4QwP98ZS5EDz5h8U0,1193
+autodiff_aabj-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+autodiff_aabj-1.0.0.dist-info/top_level.txt,sha256=MwixkEq9H4SMj4_Smwm-xH3ZhV7tnVAhBff-R-LEHJk,9
+autodiff_aabj-1.0.0.dist-info/RECORD,,
