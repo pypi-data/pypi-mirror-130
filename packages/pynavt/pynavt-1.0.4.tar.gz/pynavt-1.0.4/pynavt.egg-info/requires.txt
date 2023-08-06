@@ -1,0 +1,6 @@
+click
+fastapi
+uvicorn
+pydantic
+bcrypt
+pyjwt
