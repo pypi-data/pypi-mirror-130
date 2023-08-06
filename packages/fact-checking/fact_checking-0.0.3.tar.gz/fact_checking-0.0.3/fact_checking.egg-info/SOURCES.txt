@@ -1,0 +1,14 @@
+README.md
+setup.py
+fact_checking/__init__.py
+fact_checking/fact_checker.py
+fact_checking/model.py
+fact_checking/test.py
+fact_checking/test_replicas.py
+fact_checking/utils.py
+fact_checking.egg-info/PKG-INFO
+fact_checking.egg-info/SOURCES.txt
+fact_checking.egg-info/dependency_links.txt
+fact_checking.egg-info/not-zip-safe
+fact_checking.egg-info/requires.txt
+fact_checking.egg-info/top_level.txt
