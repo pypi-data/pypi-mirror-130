@@ -1,0 +1,6 @@
+numpy
+networkx
+pandas
+sbol3
+tyto
+tdqm
