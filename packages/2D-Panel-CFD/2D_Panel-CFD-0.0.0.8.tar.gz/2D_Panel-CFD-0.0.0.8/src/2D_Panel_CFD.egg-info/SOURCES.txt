@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+src/2D_Panel_CFD.egg-info/PKG-INFO
+src/2D_Panel_CFD.egg-info/SOURCES.txt
+src/2D_Panel_CFD.egg-info/dependency_links.txt
+src/2D_Panel_CFD.egg-info/top_level.txt
+src/RUN_package/P_coeff.py
+src/RUN_package/RUN-spyder.py
+src/RUN_package/RUN.py
+src/RUN_package/UV_coeff.py
+src/RUN_package/__init__.py
+src/RUN_package/boundaryDomain.py
+src/RUN_package/correction.py
+src/RUN_package/faceInterpolation.py
+src/RUN_package/initialConditions.py
+src/RUN_package/postProcessing.py
