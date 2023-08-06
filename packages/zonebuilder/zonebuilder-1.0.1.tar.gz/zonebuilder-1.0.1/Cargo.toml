@@ -1,0 +1,18 @@
+[package]
+name = "zonebuilder-py"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+# zonebuilder = "0.1.0"
+zonebuilder = { git = "https://github.com/zonebuilders/zonebuilder-rust/" }
+geojson = "0.22.2"
+geo = "0.17.1"
+
+[lib]
+name = "zonebuilder"
+crate-type = ["cdylib"]
+
+[dependencies.pyo3]
+version = "0.15.1"
+features = ["extension-module"]
