@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/nbtk/__init__.py
+src/nbtk/example.py
+src/nbtk.egg-info/PKG-INFO
+src/nbtk.egg-info/SOURCES.txt
+src/nbtk.egg-info/dependency_links.txt
+src/nbtk.egg-info/top_level.txt
