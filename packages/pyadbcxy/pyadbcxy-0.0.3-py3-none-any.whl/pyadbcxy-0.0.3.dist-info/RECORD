@@ -1,0 +1,10 @@
+pyadbcxy/__init__.py,sha256=GeR7LPlNzaNJTApm2t2soJ8UfSSXLi5ED2EHzl8bALc,246
+pyadbcxy/elementary_functions.py,sha256=-mlt89tllIslZiHUxYHRYZm3vFqjifeDfN4LsRYwfVc,11104
+pyadbcxy/forward.py,sha256=EyCn6movrYI0RfuCWO97geXqJRwBuXe83zoOGY-R3yY,4130
+pyadbcxy/reverse.py,sha256=7KPYGbZtdPTiuMD2gzVAeSyxmNWrNCy_bE3d3Q0-lus,9047
+pyadbcxy/variable.py,sha256=aXUKPIBJo7-6PKgRASq9RHYdIqDn3r0Xm0_h8VBXqPI,10690
+pyadbcxy-0.0.3.dist-info/LICENSE,sha256=mRdZfAuu1GLLXKK43IBOSVhypBAm3fbZx_GDLTTvg1Q,1129
+pyadbcxy-0.0.3.dist-info/METADATA,sha256=KVKw9gHPLHMolSq6SSqlRg5u7bGNAoyOBM-BjF86m4M,3234
+pyadbcxy-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pyadbcxy-0.0.3.dist-info/top_level.txt,sha256=ezR6XJuxU4yktyCQ-8TTsfIyXR0w4scFwhKy5HYdRWg,9
+pyadbcxy-0.0.3.dist-info/RECORD,,
