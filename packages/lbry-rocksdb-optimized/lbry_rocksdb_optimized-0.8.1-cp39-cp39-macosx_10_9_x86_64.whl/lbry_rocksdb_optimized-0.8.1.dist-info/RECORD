@@ -1,0 +1,14 @@
+rocksdb/__init__.py,sha256=YQgKLapA3vXmD3IKMFKoUOVB5JiW8J4FYkXruNMyENE,118
+rocksdb/_rocksdb.cpython-39-darwin.so,sha256=_dlDrquw-BAlJVwm8di63oGMl2ZpQhXXVzCzW5F0wl0,6991352
+rocksdb/errors.py,sha256=RsKOIViLLgQeIeH_tvRKMhBbovcB_LJMaftDWTDthvg,284
+rocksdb/interfaces.py,sha256=CHMvurcftFP_K8-SXTNv3yACshp-oDRacBXEP0gYUrM,1262
+rocksdb/merge_operators.py,sha256=QmrPV8inSmuS7ZAKYKyupA4w6gC79fNJ3SwXJdhYew4,723
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_db.py,sha256=m77IiNthnRjKCBd3VmORmq59p7wxUUWV9S9YOqyYYC8,22241
+tests/test_memtable.py,sha256=Cd1M-bnuu7HRFBuVcUxxBVoeCuTG10uAHsHh8RQ4X78,748
+tests/test_options.py,sha256=qI6hz9s9BiyqptW9c0t97L56HtNONaxcg-TAZwU9KFg,6890
+lbry_rocksdb_optimized-0.8.1.dist-info/LICENSE.md,sha256=OIqCfXtVd9oe_FOAz_ilg6SdORlGaZFnf2Dx7JdsUDM,1485
+lbry_rocksdb_optimized-0.8.1.dist-info/METADATA,sha256=PCw-gLpc1fanQ1jeYdlUCdblRGjOGI3b0FdBNlwsBoM,2198
+lbry_rocksdb_optimized-0.8.1.dist-info/WHEEL,sha256=JIE30nfOWUuazI4Vcfiuv_cYm-SkZCh6YOqQQjhm90A,109
+lbry_rocksdb_optimized-0.8.1.dist-info/top_level.txt,sha256=m5VWGwg93I0tjxQPHQOO7ajlMbo99D4MS8W-FQFlbCw,14
+lbry_rocksdb_optimized-0.8.1.dist-info/RECORD,,
