@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gister-cli
+Version: 0.0.1
+Summary: A awesome cli project.
+Home-page: UNKNOWN
+Author: Josh Andres
+Author-email: josh.an.bas@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: importlib ; python_version == "3.6"
+
+# Gister Cli
+
