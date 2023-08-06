@@ -1,0 +1,1 @@
+A simple Tarot spread telling the past, present, and future.

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: tarot
+Version: 0.0.4
+Summary: A simple Tarot spread telling the past, present, and future.
+Home-page: https://www.youtube.com/channel/UC7vVeEvOPsw7SlOA8a7KuPQ
+Author: Greg Simmons
+Author-email: gsimmons252@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/gitapps77
+Description: A simple Tarot spread telling the past, present, and future.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
