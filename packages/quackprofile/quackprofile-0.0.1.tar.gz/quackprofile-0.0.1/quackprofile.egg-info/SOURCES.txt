@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+quackprofile/MyProfile.py
+quackprofile/__init__.py
+quackprofile.egg-info/PKG-INFO
+quackprofile.egg-info/SOURCES.txt
+quackprofile.egg-info/dependency_links.txt
+quackprofile.egg-info/top_level.txt

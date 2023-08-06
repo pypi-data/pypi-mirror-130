@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: quackprofile
+Version: 0.0.1
+Summary: Quack Profile By LlamaIsTheBest
+Home-page: https://github.com/LlamaIsTheBest/QuackProfile
+Author: LlamaIsTheBest
+Author-email: WK.name25655@gmail.com
+License: MIT
+Download-URL: https://github.com/LlamaIsTheBest/QuackProfile/archive/v0.0.1.zip
+Keywords: Quack,Profile,LlamaIsTheBest
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+
+(Quack Profile) Profile Of A Duck In A Company
+==============================================
+
+PyPi: https://pypi.org/project/quackprofile/
+
+This Package Is To Show How A Duck Can Get A Profile In A Company
+
+How To Install
+~~~~~~~~~~~~~~
+
+Open CMD / Terminal
+
+.. code:: python
+
+   pip install quackprofile
+
+How To Use
+~~~~~~~~~~
+
+-  Open Idle And Type…..
+
+.. code:: python
+
+   my = Profile('Quacker')
+   my.hobby = ['Youtuber','Play Games']
+   print(my.name)
+   my.show_email()
+   my.show_myart()
+   my.show_hobby()
+
+Made By LlamaIsTheBest Hope You Enjoy :D
+
+
