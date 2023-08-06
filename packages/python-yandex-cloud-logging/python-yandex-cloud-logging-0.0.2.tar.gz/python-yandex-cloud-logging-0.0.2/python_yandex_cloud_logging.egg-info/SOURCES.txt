@@ -1,0 +1,14 @@
+COPYRIGHT
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pyclm/logging/__about__.py
+pyclm/logging/__init__.py
+python_yandex_cloud_logging.egg-info/PKG-INFO
+python_yandex_cloud_logging.egg-info/SOURCES.txt
+python_yandex_cloud_logging.egg-info/dependency_links.txt
+python_yandex_cloud_logging.egg-info/not-zip-safe
+python_yandex_cloud_logging.egg-info/requires.txt
+python_yandex_cloud_logging.egg-info/top_level.txt
