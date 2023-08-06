@@ -1,0 +1,28 @@
+Wheel-Version: 1.0
+Generator: bdist_wheel (0.37.0)
+Root-Is-Purelib: false
+Tag: py36-none-manylinux_2_5_i686
+Tag: py36-none-manylinux1_i686
+Tag: py36-none-manylinux_2_12_i686
+Tag: py36-none-manylinux2010_i686
+Tag: py37-none-manylinux_2_5_i686
+Tag: py37-none-manylinux1_i686
+Tag: py37-none-manylinux_2_12_i686
+Tag: py37-none-manylinux2010_i686
+Tag: py38-none-manylinux_2_5_i686
+Tag: py38-none-manylinux1_i686
+Tag: py38-none-manylinux_2_12_i686
+Tag: py38-none-manylinux2010_i686
+Tag: py39-none-manylinux_2_5_i686
+Tag: py39-none-manylinux1_i686
+Tag: py39-none-manylinux_2_12_i686
+Tag: py39-none-manylinux2010_i686
+Tag: py310-none-manylinux_2_5_i686
+Tag: py310-none-manylinux1_i686
+Tag: py310-none-manylinux_2_12_i686
+Tag: py310-none-manylinux2010_i686
+Tag: py311-none-manylinux_2_5_i686
+Tag: py311-none-manylinux1_i686
+Tag: py311-none-manylinux_2_12_i686
+Tag: py311-none-manylinux2010_i686
+
