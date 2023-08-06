@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "func_assistant"
+authors = [{name = "RobertCodedIt", email = "robertlove999999@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = ["License :: OSI Approved :: MIT License"]
+dynamic = ["version", "description"]
+
+[project.urls]
+Home = "https://github.com/robertCodedIt/misc-pkg"
+[project.scripts]
+fa = "func_assistant.main:greeting"
+fa-start = "func_assistant.start:script_start"
