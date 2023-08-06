@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: athos
+Version: 0.1.2
+Summary: Automated Mininet Network topology reachability and redundancy tester
+Home-page: UNKNOWN
+Author: Christoff Visser
+Author-email: christoff@iij.ad.jp
+License: UNKNOWN
+Keywords: mininet,SDN,P4
+Platform: any
+Requires-Python: >=3.6
+Requires-Dist: mininet
+
+UNKNOWN
+
+

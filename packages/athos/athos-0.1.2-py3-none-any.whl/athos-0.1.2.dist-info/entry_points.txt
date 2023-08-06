@@ -1,0 +1,3 @@
+[console_scripts]
+athos = athos.__main__:main
+

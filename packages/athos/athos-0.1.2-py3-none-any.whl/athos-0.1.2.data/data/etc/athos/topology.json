@@ -1,0 +1,572 @@
+{
+    "switch_matrix": {
+        "dp_ids": {
+            "dote": 1,
+            "kote": 3,
+            "note": 4,
+            "CES": 2
+        },
+        "links": [
+            [
+                "dote",
+                "27",
+                "note",
+                "23"
+            ],
+            [
+                "kote",
+                "23",
+                "note",
+                "24"
+            ],
+            [
+                "kote",
+                "24",
+                "dote",
+                "28"
+            ],
+            [
+                "CES",
+                "27",
+                "kote",
+                "22"
+            ]
+        ],
+        "p4": []
+    },
+    "hosts_matrix": [
+        {
+            "name": "Kamoike",
+            "interfaces": [
+                {
+                    "switch": "dote",
+                    "swport": 26,
+                    "mac": "3c:fd:fe:02:05:06",
+                    "ipv4": "202.249.2.130/24",
+                    "ipv6": "2001:200:0:fe00::f91e:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "APAN",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 1,
+                    "mac": "f0:7c:c7:a2:f7:40",
+                    "ipv4": "202.249.2.160/24",
+                    "ipv6": "2001:200:0:fe00::1dec:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "Dolphin",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 2,
+                    "mac": "00:24:38:81:0c:00",
+                    "ipv4": "202.249.2.85/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "Google",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 3,
+                    "mac": "44:aa:50:5a:2f:d0",
+                    "ipv4": "202.249.2.189/24",
+                    "ipv6": "2001:200:0:fe00::3b41:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "KDDI",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 4,
+                    "mac": "40:ce:24:0d:68:db",
+                    "ipv4": "202.249.2.110/24",
+                    "ipv6": "2001:200:0:fe00::9d4:0/64",
+                    "vlan": 2,
+                    "tagged": true
+                },
+                {
+                    "switch": "kote",
+                    "swport": 4,
+                    "mac": "40:ce:24:0d:68:db",
+                    "ipv4": "202.249.38.70/24",
+                    "ipv6": "2001:200:0:fe20::9d4:0/64",
+                    "vlan": 3000,
+                    "tagged": true
+                }
+            ]
+        },
+        {
+            "name": "M-ROOT",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 5,
+                    "mac": "fc:5b:39:d1:cd:00",
+                    "ipv4": "202.249.2.86/24",
+                    "ipv6": "2001:200:0:fe00::1d4c:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "MEX",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 6,
+                    "mac": "80:7f:f8:4f:f4:83",
+                    "ipv4": "202.249.2.112/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "MAFFIN",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 7,
+                    "mac": "80:71:1f:c2:8a:78",
+                    "ipv4": "202.249.2.155/24",
+                    "ipv6": "2001:200:0:fe00::46cd:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "MEX",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 8,
+                    "mac": "80:7f:f8:4f:0c:11",
+                    "ipv4": "202.249.2.40/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "Netnod",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 9,
+                    "mac": "00:1b:21:cc:ef:93",
+                    "ipv4": "202.249.2.180/24",
+                    "ipv6": "2001:200:0:fe00::21e2:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "Netnod",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 10,
+                    "mac": "00:1b:21:cc:ee:e3",
+                    "ipv4": "202.249.2.179/24",
+                    "ipv6": "2001:200:0:fe00::21e2:1/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "PCH-AS42",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 11,
+                    "mac": "84:78:ac:7a:4c:96",
+                    "ipv4": "202.249.2.183/24",
+                    "ipv6": "2001:200:0:fe00::2a:0/64",
+                    "vlan": 2,
+                    "tagged": true
+                },
+                {
+                    "switch": "kote",
+                    "swport": 11,
+                    "mac": "84:78:ac:7a:4c:96",
+                    "ipv4": "202.249.38.71/24",
+                    "vlan": 3000,
+                    "tagged": true
+                }
+            ]
+        },
+        {
+            "name": "JPNIC",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 12,
+                    "mac": "70:df:2f:65:b6:04",
+                    "ipv4": "202.249.2.14/24",
+                    "ipv6": "2001:200:0:fe00::9d3:1/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "APNIC",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 13,
+                    "mac": "d4:c9:3c:30:cf:85",
+                    "ipv4": "202.249.2.20/24",
+                    "ipv6": "2001:200:0:fe00::12a9:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "WIDE",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 14,
+                    "mac": "00:12:e2:c0:3f:08",
+                    "ipv4": "202.249.2.83/24",
+                    "vlan": 2,
+                    "tagged": true
+                },
+                {
+                    "switch": "kote",
+                    "swport": 14,
+                    "mac": "e4:c7:22:09:75:41",
+                    "ipv6": "2001:200:0:fe00::9c4:11/64",
+                    "vlan": 2,
+                    "tagged": true
+                },
+                {
+                    "switch": "kote",
+                    "swport": 14,
+                    "mac": "e4:c7:22:09:75:41",
+                    "ipv6": "2001:200:0:fe20::9c4:0/64",
+                    "vlan": 3000,
+                    "tagged": true
+                }
+            ]
+        },
+        {
+            "name": "A-DNS-JP",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 15,
+                    "mac": "d0:72:dc:22:07:00",
+                    "ipv4": "202.249.2.153/24",
+                    "ipv6": "2001:200:0:fe00::5cde:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "CKP",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 16,
+                    "mac": "c4:7d:4f:86:d6:10",
+                    "ipv4": "202.249.38.66/24",
+                    "ipv6": "2001:200:0:fe20::126e:0/64",
+                    "vlan": 3000,
+                    "tagged": true
+                }
+            ]
+        },
+        {
+            "name": "RIPE-RIS",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 17,
+                    "mac": "18:66:da:7e:ff:4c",
+                    "ipv4": "202.249.2.143/24",
+                    "ipv6": "2001:200:0:fe00::316e:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "JGN",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 18,
+                    "mac": "80:71:1f:c7:60:89",
+                    "ipv6": "2001:200:0:fe00::460e:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "PCH",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 19,
+                    "mac": "00:0c:29:af:0a:bb",
+                    "ipv4": "202.249.2.184/24",
+                    "ipv6": "2001:200:0:fe00::f10:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "WIDE",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 20,
+                    "mac": "74:8e:f8:61:2d:41",
+                    "ipv4": "202.249.2.124/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "IIJ",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 21,
+                    "mac": "40:ce:24:38:3d:1a",
+                    "ipv4": "202.249.2.169/24",
+                    "ipv6": "2001:200:0:fe00::9c1:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "JGN",
+            "interfaces": [
+                {
+                    "switch": "kote",
+                    "swport": 25,
+                    "mac": "d0:07:ca:d7:62:a3",
+                    "ipv6": "2001:200:0:fe00::460e:1/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "FreeBit",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 1,
+                    "mac": "b8:38:61:4e:1e:e7",
+                    "ipv4": "202.249.2.133/24",
+                    "ipv6": "2001:200:0:fe00::271d:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "GOFORS",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 2,
+                    "mac": "00:03:32:72:0c:1b",
+                    "ipv4": "202.249.2.142/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "NTT-OCN",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 3,
+                    "mac": "00:0a:85:07:15:5b",
+                    "ipv4": "202.249.2.240/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "ONKYO",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 4,
+                    "mac": "00:24:38:63:73:42",
+                    "ipv4": "202.249.2.18/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "Orange",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 5,
+                    "mac": "b8:38:61:48:eb:00",
+                    "ipv4": "202.249.2.41/24",
+                    "ipv6": "2001:200:0:fe00::fde8:10/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "K-Root",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 6,
+                    "mac": "00:1f:12:a9:d0:1f",
+                    "ipv4": "202.249.2.185/24",
+                    "ipv6": "2001:200:0:fe00::6249:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "NTT-OKN",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 21,
+                    "mac": "00:22:83:77:74:84",
+                    "ipv4": "202.249.2.194/24",
+                    "ipv6": "2001:200:0:fe00::96e5:0/64",
+                    "vlan": 2,
+                    "tagged": true
+                },
+                {
+                    "switch": "note",
+                    "swport": 21,
+                    "mac": "00:22:83:77:74:84",
+                    "ipv4": "202.249.38.68/24",
+                    "vlan": 3000,
+                    "tagged": true
+                }
+            ]
+        },
+        {
+            "name": "NTT-OCN",
+            "interfaces": [
+                {
+                    "switch": "note",
+                    "swport": 22,
+                    "mac": "00:31:46:64:ec:bf",
+                    "ipv4": "202.249.2.131/24",
+                    "ipv6": "2001:200:0:fe00::1269:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "JPNIC",
+            "interfaces": [
+                {
+                    "switch": "CES",
+                    "swport": 1,
+                    "mac": "00:1e:f7:a8:14:1a",
+                    "ipv4": "202.249.2.13/24",
+                    "ipv6": "2001:200:0:fe00::9d3:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "WIDE",
+            "interfaces": [
+                {
+                    "switch": "CES",
+                    "swport": 2,
+                    "mac": "00:0f:1f:67:32:ea",
+                    "ipv4": "202.249.2.126/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "JPRS",
+            "interfaces": [
+                {
+                    "switch": "CES",
+                    "swport": 3,
+                    "mac": "b8:c2:53:30:ac:5b",
+                    "ipv4": "202.249.2.154/24",
+                    "ipv6": "2001:200:0:fe00::46e5:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "RouteViews",
+            "interfaces": [
+                {
+                    "switch": "CES",
+                    "swport": 4,
+                    "mac": "a4:ba:db:0b:29:d2",
+                    "ipv4": "202.249.2.166/24",
+                    "ipv6": "2001:200:0:fe00::192f:0/64",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        },
+        {
+            "name": "JPIX",
+            "interfaces": [
+                {
+                    "switch": "CES",
+                    "swport": 5,
+                    "mac": "2c:54:2d:61:b4:00",
+                    "ipv4": "202.249.2.187/24",
+                    "vlan": 2,
+                    "tagged": false
+                }
+            ]
+        }
+    ]
+}
