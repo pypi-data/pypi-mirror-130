@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pareto_front/__init__.py
+pareto_front.egg-info/PKG-INFO
+pareto_front.egg-info/SOURCES.txt
+pareto_front.egg-info/dependency_links.txt
+pareto_front.egg-info/requires.txt
+pareto_front.egg-info/top_level.txt
