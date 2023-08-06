@@ -1,0 +1,10 @@
+quant_friend/__init__.py,sha256=mK2zLzIyiAQQYV_YbeGXguIdOjcGeXd-SGvacDoA0oI,110
+quant_friend/__version__.py,sha256=kZsbtPhn6QhINwrzmmUIM-htkptMBZ9f7IttEb7_brs,353
+quant_friend/api.py,sha256=YglQlNcHBYtbojgqFLEllsr7Kp_SWyrfDCK05bkKSLk,279
+quant_friend/hosts.py,sha256=hOmuRSOfAPiDbyNH9KKGLvn2f3jPuF_gygjj8j7B09c,1510
+quant_friend/notice.py,sha256=Y_VICbRhVLtYHarIf539RuMlh5vWZCEB0DJv0KhE_jQ,3773
+quant_friend/ucloud.py,sha256=TN3EkSYANpGikqzv7MZgD57HN3YVdrC03cMhfxrqTmk,1345
+quant_friend-0.0.1.dist-info/METADATA,sha256=XJW0C2FTYYjyVpgff8VnCQ95pUTwF7SBzYKUHVRhb8Q,1880
+quant_friend-0.0.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+quant_friend-0.0.1.dist-info/top_level.txt,sha256=q3jn4RE0CsVNb4Hsrgx2wv7JVLVmRnvDa8guH-89Al0,13
+quant_friend-0.0.1.dist-info/RECORD,,
