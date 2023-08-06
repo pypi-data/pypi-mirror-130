@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+Spaceinator.egg-info/PKG-INFO
+Spaceinator.egg-info/SOURCES.txt
+Spaceinator.egg-info/dependency_links.txt
+Spaceinator.egg-info/entry_points.txt
+Spaceinator.egg-info/top_level.txt
+spaceinator/__init__.py
+spaceinator/src/__init__.py
+spaceinator/src/app.py
+spaceinator/src/utils.py
