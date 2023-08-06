@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: vbcore
+Version: 1.1.0rc0
+Summary: VBCore common helpers and components
+Home-page: https://github.com/cs91chris/vbcore
+Author: cs91chris
+Author-email: cs91chris@voidbrain.me
+License: MIT
+Platform: any
+Requires-Python: >=3.8
+Requires-Dist: python-dateutil
+Requires-Dist: python-decouple
+Requires-Dist: python-dotenv
+Requires-Dist: pyyaml
+Provides-Extra: all
+Requires-Dist: python-dateutil ; extra == 'all'
+Requires-Dist: python-decouple ; extra == 'all'
+Requires-Dist: python-dotenv ; extra == 'all'
+Requires-Dist: pyyaml ; extra == 'all'
+Requires-Dist: holidays ; extra == 'all'
+Requires-Dist: requests ; extra == 'all'
+Requires-Dist: jsonschema ; extra == 'all'
+Provides-Extra: test
+Requires-Dist: python-dateutil ; extra == 'test'
+Requires-Dist: python-decouple ; extra == 'test'
+Requires-Dist: python-dotenv ; extra == 'test'
+Requires-Dist: pyyaml ; extra == 'test'
+Requires-Dist: holidays ; extra == 'test'
+Requires-Dist: requests ; extra == 'test'
+Requires-Dist: jsonschema ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+
+UNKNOWN
+
+
