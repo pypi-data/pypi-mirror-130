@@ -1,0 +1,6 @@
+tornado>=6.0
+psycopg>=3.0.4
+psycopg-c>=3.0.4
+psycopg-pool>=3.0.2
+aiomysql>=0.0.22
+motor>=2.5.1
