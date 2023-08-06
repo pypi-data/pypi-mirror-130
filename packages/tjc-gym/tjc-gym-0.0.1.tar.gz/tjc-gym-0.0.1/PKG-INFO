@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: tjc-gym
+Version: 0.0.1
+Summary: OpenAI Gym environment of Traffic Junction with continuous action space
+Home-page: https://github.com/jakobdybdahl/tjc-gym
+Author: Jakob Dybdahl, Rasmus Thorsen
+Author-email: dybdahl@smukand.dk
+License: MIT License
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# tjc-gym
+Traffic Juntion Continuous (tjc) is an extended version of the environment Traffic Junction, defined in [Learning Multiagent Communication
+with Backpropagation](https://arxiv.org/pdf/1605.07736.pdf). The environment is based on OpenAI Gym and has an continouos action space where the original is discrete.
+
+# Installation
+**TO DO**
+
+# Reference
+**TO DO**
+
+# Usage
+**TO DO**
+
+# Acknowledgement
+This environment was developed to complement @RasmusThorsen and my master thesis at @ [Aarhus University](https://www.au.dk/).
+
+
