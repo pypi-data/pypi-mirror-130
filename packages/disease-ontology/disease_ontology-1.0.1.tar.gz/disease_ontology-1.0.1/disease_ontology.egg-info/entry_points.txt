@@ -1,0 +1,3 @@
+[console_scripts]
+disease_ontology = disease_ontology.bin.main:main
+
