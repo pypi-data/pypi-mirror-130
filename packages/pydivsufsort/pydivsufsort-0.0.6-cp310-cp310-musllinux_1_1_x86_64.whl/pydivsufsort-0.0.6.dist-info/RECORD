@@ -1,0 +1,15 @@
+pydivsufsort/stringalg.cpython-310-x86_64-linux-gnu.so,sha256=7ucLzMyORfWiCHDR0avOhzd7ioMFGrV9dmq-TwKXrqM,5309664
+pydivsufsort/__init__.py,sha256=xkO7F1u42MCMzVj01pzeIzoFVoiejWI5Z0b1P_cXBqE,457
+pydivsufsort/divsufsort.py,sha256=A5XW5Bo4i8mtBGyspb9TbwpDIu99NGYY4POY2EtIRps,6119
+pydivsufsort/libdivsufsort64.so.3.0.1,sha256=0uIr12aN7dYbRhzgiQLEXyg1ostl59CV0CdQwZENHj8,59064
+pydivsufsort/dll.py,sha256=lAjEbD_avE-Y8EfC0hKORZzjOa9d0BPiVEgazyYl29A,522
+pydivsufsort/libdivsufsort.so.3.0.1,sha256=xTJ-BUrUqJsOiiz92p4J0OCxD_YJhPyTjx3DW_F742E,59040
+pydivsufsort/wonderstring.py,sha256=MZh7xdlPLIYc43xmcgxs4oJ9NRpPvSVTbWn_HhI-uxY,3747
+pydivsufsort.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+pydivsufsort.libs/libstdc++-a9383cce.so.6.0.28,sha256=AQF8xpA7y538aY2feICyHGJkLWgDpwHYribC_iWn8Bw,2447392
+pydivsufsort.libs/libgomp-cd951527.so.1.0.0,sha256=SyHus47r40U9TZTR-KCkyo-DaRiUOp_2KQDAERzw6JY,187008
+pydivsufsort-0.0.6.dist-info/LICENSE,sha256=VqjR5IgqAvu8mkb-DS-vhvQfyDUAvshijUHIk0wf3SA,1054
+pydivsufsort-0.0.6.dist-info/RECORD,,
+pydivsufsort-0.0.6.dist-info/top_level.txt,sha256=WT8xN9DXFjOdNpKxhEkWhzhmNqHoDZAl7BX6mV6Rz3s,13
+pydivsufsort-0.0.6.dist-info/WHEEL,sha256=xobt3k5KCwGovhqNwJJZzcTRHk7Ugs2zGfNVzdzIkQQ,113
+pydivsufsort-0.0.6.dist-info/METADATA,sha256=5qKEbHFdcqV5Y7rqEH-AETzDaQ-uoV97eHNhlpzmMFs,4433
