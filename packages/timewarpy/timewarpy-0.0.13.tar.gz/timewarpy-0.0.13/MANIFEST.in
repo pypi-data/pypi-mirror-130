@@ -1,0 +1,2 @@
+recursive-include timewarpy/ *.py *.csv
+include timewarpy/sample_data/energydata_complete.csv
