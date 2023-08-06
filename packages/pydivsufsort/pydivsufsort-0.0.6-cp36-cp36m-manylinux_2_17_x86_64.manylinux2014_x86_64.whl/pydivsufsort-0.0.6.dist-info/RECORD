@@ -1,0 +1,13 @@
+pydivsufsort/__init__.py,sha256=xkO7F1u42MCMzVj01pzeIzoFVoiejWI5Z0b1P_cXBqE,457
+pydivsufsort/divsufsort.py,sha256=A5XW5Bo4i8mtBGyspb9TbwpDIu99NGYY4POY2EtIRps,6119
+pydivsufsort/stringalg.cpython-36m-x86_64-linux-gnu.so,sha256=np7n6ZJ6ICt6Gya3BNuCzhvmi2uuxwgDbl983Xr9mrM,4630096
+pydivsufsort/libdivsufsort64.so.3.0.1,sha256=pY2Mk5wdnEFcdTAl-OgREMK_b48YKe2XZK8YGf_RxYE,59096
+pydivsufsort/dll.py,sha256=lAjEbD_avE-Y8EfC0hKORZzjOa9d0BPiVEgazyYl29A,522
+pydivsufsort/libdivsufsort.so.3.0.1,sha256=tZpqoBjYdmHaHhwYBE8vhalWQ29gdHdZa9S2l6le2ho,59080
+pydivsufsort/wonderstring.py,sha256=MZh7xdlPLIYc43xmcgxs4oJ9NRpPvSVTbWn_HhI-uxY,3747
+pydivsufsort.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+pydivsufsort-0.0.6.dist-info/LICENSE,sha256=VqjR5IgqAvu8mkb-DS-vhvQfyDUAvshijUHIk0wf3SA,1054
+pydivsufsort-0.0.6.dist-info/RECORD,,
+pydivsufsort-0.0.6.dist-info/top_level.txt,sha256=WT8xN9DXFjOdNpKxhEkWhzhmNqHoDZAl7BX6mV6Rz3s,13
+pydivsufsort-0.0.6.dist-info/WHEEL,sha256=CdtYEWrHtc5X47KcSSxmzTgyODOCt-se2tHGP9gLcoc,150
+pydivsufsort-0.0.6.dist-info/METADATA,sha256=5qKEbHFdcqV5Y7rqEH-AETzDaQ-uoV97eHNhlpzmMFs,4433
