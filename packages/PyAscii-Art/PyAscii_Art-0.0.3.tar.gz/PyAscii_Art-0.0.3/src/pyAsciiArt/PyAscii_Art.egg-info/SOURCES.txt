@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/pyAsciiArt/PyAscii_Art.egg-info/PKG-INFO
+src/pyAsciiArt/PyAscii_Art.egg-info/SOURCES.txt
+src/pyAsciiArt/PyAscii_Art.egg-info/dependency_links.txt
+src/pyAsciiArt/PyAscii_Art.egg-info/requires.txt
+src/pyAsciiArt/PyAscii_Art.egg-info/top_level.txt
+src/pyAsciiArt/PyAsciiArt.py
+src/pyAsciiArt/PyAscii_Art.egg-info/SOURCES.txt
