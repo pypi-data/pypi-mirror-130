@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: BomberKillers
+Version: 0.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/Tang634724712/BomberKillers
+Author: Sun Yilong,Tang Shaozhe,Li Zhipeng,Ramzan Muhammad
+Author-email: bcfogs@inf.elte.hu,qs4oz8@inf.elte.hu,g31r6t@inf.elte.hu,pn8uom@inf.elte.hu
+License: UNKNOWN
+Keywords: python game
+Platform: UNKNOWN
+Requires-Dist: pygame
+
+UNKNOWN
+
