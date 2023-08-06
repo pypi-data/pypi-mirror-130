@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: yfQuotes
+Version: 0.0.1
+Summary: package to scrape live quotes from yahoofinance using threading
+Home-page: UNKNOWN
+Author: Justin Law
+Author-email: justin.kklaw@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: beautifulsoup4 (==4.9.3aiohttp==3.8.1)
+Requires-Dist: websocket-client (==1.2.3)
+
+package to use threading to get live quotes of a list of symbols, inspired by stockquotes package
+
