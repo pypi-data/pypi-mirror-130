@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: havi
+Version: 0.0.5a0
+Summary: perform bayesian inference over physical models
+Home-page: https://github.com/bjornaer/havi
+Author: Francisco Grings, Maximiliano Schulkin
+Author-email: max.schulkin@gmail.com
+License: Apache2.0
+Download-URL: https://github.com/bjornaer/havi/archive/refs/tags/v.0.0.5-alpha.tar.gz
+Keywords: physics,scatering,bayesian,inference,data,science
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Havi
+[stands for Odin](https://en.wikipedia.org/wiki/H%C3%A1r_and_H%C3%A1rr)
+
+
+scatering model and bayesian inference
+
+---
+**Note from author**
+
+If you use our library on a research or paper please give us a citation
+
+- [PyPi](https://pypi.org/project/havi/)
+
+- [Github](https://github.com/bjornaer/havi)
+
+---
+
+### Installation
+
+    pip install havi
+
+### Usage
+
+```python
+import havi as h
+
+# scatering angles
+incident_angles = [theta, phi, psi] # incidence angles - floats
+scatered_angles = [theta,phi,psi] # scatering angles - floats
+wavelength = 0.5
+
+havi = h.Havi(incident_angles, scatered_angles, wavelength)
+
+# surface boudaries for random variables
+rms_height = (0.1, 0.8) # lower and higher boundaries
+correlation_longitude = (0.1, 0.8) # lower and higher boundaries
+dielectric_constant = (0.1, 0.8) # lower and higher boundaries
+
+havi.set_boundaries(rms_height, correlation_longitude, dielectric_constant)
+
+sigma = h.Tensor([0.5])
+observed_data = h.Tensor([-12,-7,-8])
+
+trace = havi.inference(sigma, observed) # you can plot the trace however you want OR
+havi.plot()
+```
+
+

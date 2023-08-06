@@ -1,0 +1,6 @@
+numpy
+torch
+pyro-ppl
+pyro-api
+pandas
+seaborn
