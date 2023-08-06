@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: ZMS3
+Version: 3.3.4
+Summary: ZMS: Simplified Content Modelling
+Home-page: http://www.zms-publishing.com
+Author: HOFFMANN+LIEBENBERG in association with SNTL Publishing, Berlin
+Author-email: zms@sntl-publishing.com
+License: GPLv2
+Download-URL: https://github.com/zms-publishing/ZMS3
+Keywords: zope zms cms content management system meta
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Zope2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+
+ZMS3
+=====
+
+This package is a meta package to allow to install ``ZMS`` as ``ZMS3``.
+It is necessary because ``ZMS`` previously was named ``ZMS3`` on PyPI.
+
+For documentation see https://www.zms-publishing.com/
+For sources see https://github.com/zms-publishing/ZMS
+
+
+Change log
+==========
+
+3.3.4 (2021-12-8)
+-----------------
+
+* Move all the code to the ``ZMS`` package. Making this package a placeholder.
+* The new code now lives at https://pypi.org/project/ZMS
+
+Older releases see https://pypi.org/project/ZMS3/#history
+
+

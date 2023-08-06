@@ -1,0 +1,9 @@
+CHANGES.rst
+README.rst
+setup.py
+ZMS3.egg-info/PKG-INFO
+ZMS3.egg-info/SOURCES.txt
+ZMS3.egg-info/dependency_links.txt
+ZMS3.egg-info/not-zip-safe
+ZMS3.egg-info/requires.txt
+ZMS3.egg-info/top_level.txt
