@@ -1,0 +1,26 @@
+{% extends 'base.html' %}
+
+{% block title %}<title>Entries | BrandX</title>{% endblock title %}
+
+{% block content %}
+    <hstack>
+        <h1 stretch>Entries</h1>
+        {% if user.is_authenticated %}
+            <spacer></spacer>
+            <button hx-get="{% url 'entries:add_entry' %}" hx-target="body">Add entry</button>
+        {% endif %}
+    </hstack>
+    <main>
+        {% for entry in entries %}
+            <h2><a href="{% url 'entries:view_entry' entry.slug %}" style="text-decoration: none">{{ entry.title }}</a></h2>
+            {% if entry.author.profile.avatar %}<img src="{{entry.author.profile.avatar}}" width="50" height="50" style="float: right;">{% endif %}
+            <a href="{{entry.author.get_absolute_url}}" style="text-decoration: none;">{{entry.author.profile.full_name}}</a>
+            <br>
+            <span style="font-style: italic;">{{entry.excerpt}}</span>
+        {% empty %}
+            <center>
+                <p>No entries published.</p>
+            </center>
+        {% endfor %}
+    </main>
+{% endblock content %}
