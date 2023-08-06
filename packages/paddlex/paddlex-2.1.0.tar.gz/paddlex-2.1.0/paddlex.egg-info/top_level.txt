@@ -1,0 +1,3 @@
+PaddleClas
+paddlex
+paddlex_restful
