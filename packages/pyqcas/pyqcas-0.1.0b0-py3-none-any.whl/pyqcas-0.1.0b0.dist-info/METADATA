@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: pyqcas
+Version: 0.1.0b0
+Summary: A functional eQASM simulator without timing modeling
+Home-page: https://gitee.com/hpcl_quanta/pyqcas
+Author: Xiang Fu
+Author-email: gtaifu@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://gitee.com/hpcl_quanta/pyqcas/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: quantumsim (==0.2.0)
+Requires-Dist: bitstring
+Requires-Dist: ply
+
+# Python Quantum Control Architecture Simulator (PyQCAS)
+
+A Python-based, functional eQASM simulator without modeling timing behavior.
+
+PyQCAS was originally named as PyCACTUS.
+
+## Installation
+```
+pip install pyqcas
+```
+
+## Usage
+```python
+from pyqcas.quantum_coprocessor import Quantum_coprocessor
+qcas = Quantum_coprocessor()
+qcas.upload_program(<path-to-eqasm_file>)
+qcas.execute()
+result = qcas.read_result()
+```
+The result returned is a binary block, which is the data in the memory of qcas.
+
+To inspect the progress of the simulation, you can use the following method:
+```
+qcas.set_verbose(True)
+```
+
+To inspect the execution trace, you can set the logging level:
+```
+qcas.set_log_level(log_level=logging.DEBUG)
+```
+Allowed logging levels include `DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`.
+
+## A brief introduction to eQASM:
+PyQCAS supports the eQASM instruction set architecture with a floating-point extension.
+A formal definition of the eQASM architecture can be found at [eQASM Specification](https://arxiv.org/pdf/2006.09294).
+
+The following rules applies to eQASM:
+- All characters are case **insensitive**, and extra blank is allowed between two identifiers.
+-  hash mark (`#`) starts the line comment.
+
+An overview of eQASM instructions is listed in the following table:
+![](https://gitee.com/hpcl_quanta/pyqcas/raw/master/doc/eqasm_insn_overview.png)
+
+
+**NOTE**, being a functional simulator, PyQCAS does not model the timing of quantum instructions. All `QWAIT(R)` instructions and the pre-intervals of quantum bundles are omitted during the simulation.
+
+For `Q_Op`s in the quantum bundle, PyQCAS also pre-defines a set of quantum operations as following:
+
+| Name       | Number of Target Qubits | Description                   |
+| ---------- | ----------------------- | ----------------------------- |
+| H          | 1                       | Hadamard gate                 |
+| X          | 1                       | $R_x(\pi)$                    |
+| Y          | 1                       | $R_y(\pi)$                    |
+| Z          | 1                       | $R_z(\pi)$                    |
+| S          | 1                       | $R_z(\frac{\pi}{2})$          |
+| Sdg        | 1                       | $R_z(-\frac{\pi}{2})$         |
+| T          | 1                       | $R_z(\frac{\pi}{4})$          |
+| Tdg        | 1                       | $R_z(-\frac{\pi}{4})$         |
+| X$\theta$  | 1                       | $R_x(\frac{\pi\theta}{180})$  |
+| Y$\theta$  | 1                       | $R_y(\frac{\pi\theta}{180})$  |
+| Z$\theta$  | 1                       | $R_z(\frac{\pi\theta}{180})$  |
+| Xm$\theta$ | 1                       | $R_x(-\frac{\pi\theta}{180})$ |
+| Ym$\theta$ | 1                       | $R_y(-\frac{\pi\theta}{180})$ |
+| Zm$\theta$ | 1                       | $R_z(-\frac{\pi\theta}{180})$ |
+| RX$\theta$ | 1                       | the same as X$\theta$         |
+| RY$\theta$ | 1                       | the same as Y$\theta$         |
+| RZ$\theta$ | 1                       | the same as Z$\theta$         |
+| CZ         | 2                       | Controlled Phase gate         |
+| measure    | 1                       | Measure                       |
+
+`Note:` $\theta$ is a floating point value in $[0, 180]$,  of which the decimal point is replaced by `_`. For example, `X175_5` represents $R_x(\frac{\pi\cdot 175.5}{180})$, `Xm175_5` represents $R_x(-\frac{\pi\cdot 175.5}{180})$.
+
+Since eQASM does not support floating point values, which might be required by the quantum program, PyQCAS also support an extension with the following FP instructions:
+
+| Format              | formal definition              | explanation                                                                                                                                                             |
+| ------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `FCVT.W.S rd, fs`   | `R[rd](31:0) = integer(F[fs])` | Convert the 32-bit FP number in fs into a 32-bit signed integer, and store it in rd.                                                                                    |
+| `FCVT.S.W fd, rs`   | `F[fd] = float(R[rs](31:0))`   | Convert a 32-bit signed integer in rs into a 32-bit FP number, and store it in fd.                                                                                      |
+| `FLW fd, imm(rs)`   | `F[fd] <- memory(R[rs] + imm)` | Load a 32-bit FP number from the memory address `imm + rs` and store it to the FPR `fd`.                                                                                |
+| `FSW fs, imm(rs)`   | `F[fs] -> memory(R[rs] + imm)` | Store a 32-bit FP number from the FPR `fs` to the memory address `imm + rs`.                                                                                            |
+| `FADD.S fd, fs, ft` | `F[fd] = F[fs] + F[ft]`        | Floating point addition.                                                                                                                                                |
+| `FSUB.S fd, fs, ft` | `F[fd] = F[fs] - F[ft]`        | Floating point subtraction.                                                                                                                                             |
+| `FMUL.S fd, fs, ft` | `F[fd] = F[fs] * F[ft]`        | Floating point multiplication.                                                                                                                                          |
+| `FDIV.S fd, fs, ft` | `F[fd] = F[fs] / F[ft]`        | Floating point division.                                                                                                                                                |
+| `FEQ.S rd, fs, ft`  | `R[rd] = F[fs] > F[ft]`        | Set rd when `fs` is equal to `ft`.                                                                                                                                      |
+| `FLT.S rd, fs, ft`  | `R[rd] = F[fs] < F[ft]`        | Set rd when `fs` is less than `ft`.                                                                                                                                     |
+| `FLE.S rd, fs, ft`  | `R[rd] = F[fs] <= F[ft]`       | Set rd when `fs` is less equal to `ft`.                                                                                                                                 |
+| `FMV.X.W rd, fs`    | `R[rd] = F[fs]`                | moves the single-precision value in FPR `fs` represented in IEEE 754-2008 encoding to the lower 32 bits of GPR `rd`.  NOTE: this is a direct, bit-wise move.            |
+| `FMV.W.X fd, rs`    | `F[fd] = R[rs]`                | moves the single-precision value encoded in IEEE 754-2008 standard encoding from the lower 32 bits of GPR `rs` to the FPR `fd`.  NOTE: this is a direct, bit-wise move. |
+
