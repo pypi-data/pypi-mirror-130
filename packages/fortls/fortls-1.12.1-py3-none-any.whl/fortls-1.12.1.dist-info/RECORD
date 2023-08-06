@@ -1,0 +1,17 @@
+fortls/__init__.py,sha256=jSsmhzzrkySm9OB974obisv-Ji0xJa_CE4HvsLsSvJU,29829
+fortls/_version.py,sha256=q9RpZjFwbfpEEMFyswdfS4w4YmXtukG7ffv_8nPZYHo,24
+fortls/intrinsic_funs.json,sha256=1KnbCJoL9gLLraWcKMIxCnX9UmS_qTZSStgBDSDrKYA,23790
+fortls/intrinsic_mods.json,sha256=hgj3J9O5cdZufJLUGEzfpPtzBujtot6FpMVtKCIKqgA,34266
+fortls/intrinsics.py,sha256=yDzN_4C-RHIE1YCQh0lfFNNHdlBwZ9KA7N6wGwRwP6Q,7234
+fortls/jsonrpc.py,sha256=E2ed8X0DBUozAvfY5LwauknmlRC47XhPtAtTs-vor0Q,8312
+fortls/keywords.json,sha256=VTjswVKP9viZlh5TN0MREBX8156UwUvzfYEYRFSZP28,1900
+fortls/langserver.py,sha256=OepkVYQVo_kbdAYvrJw2-raBOvMg4gNrmyCAcgZaKbU,61226
+fortls/objects.py,sha256=_fzG3EL7-VCkXkPArHhFO79leHorCwl2Dh8Dg1hqcMI,78068
+fortls/parse_fortran.py,sha256=IFH878krG8wBYQoxRwhcm6MSD7vbyDn5Hxt8--gdF9U,80231
+fortls/statements.json,sha256=kajhRczjOIJ3903gk7rVaPdcMpxlRfG8DzuLnBMm1Yc,2153
+fortls-1.12.1.dist-info/LICENSE,sha256=LcXQqvnkjPqU6HBvnNbxv1XjpureW9goVwOOjKX3LWM,1080
+fortls-1.12.1.dist-info/METADATA,sha256=QKUoGiTHGD9PFH8N8fNWKCkmLffzdY-4n5kAonWkMUs,13359
+fortls-1.12.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+fortls-1.12.1.dist-info/entry_points.txt,sha256=U7Su2zQRj9GWT8yyiOIDsk4a_P_yB5piVjbkDNjAV18,49
+fortls-1.12.1.dist-info/top_level.txt,sha256=UFlNUgTqL5SpnsE1BsxwQSgUEbhAtybI5827Rf4Ijb0,7
+fortls-1.12.1.dist-info/RECORD,,
