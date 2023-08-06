@@ -1,0 +1,14 @@
+grabber/__init__.py,sha256=zp85lHhvmPseejmy-noGsNMonCQ44oHE_rEBkkx6Qj0,171
+grabber/_dock_widget.py,sha256=URoSLbQ9XWEn1DZwkGWqEklF0Z31_yIa-xv_KpL-j8Y,203
+grabber/_version.py,sha256=sBvZKLSprkiPLvvjL0DM8Teceq9S0EKEizm5SoZt43I,142
+grabber/anchors.py,sha256=7po1pkjR-FybgYT6fsDNFBfJ1Ge_W9Bd5WI6Gqpq9zs,1972
+grabber/grabber.py,sha256=tzxUUEk9nEIlSRxaAvNRyGUX1MrtFaJ_13KbrPy9bXA,10653
+grabber/grabberwidget.py,sha256=qPIWUnVUl3Qgq2jKtPmfkD0gyvraZ5T-0dXKMrUFE2M,7474
+grabber/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+grabber/_tests/test_dock_widget.py,sha256=y54ttCZ4bL5NooSEJ1a2S-2VCC5RMFw-ngZplYWiwtY,652
+grabber_ift-0.2.1.dist-info/LICENSE,sha256=r4JXpBRSG7CgoPmOZnNWRK1jH5wdC-6rrZ8rg0ZeYDU,1096
+grabber_ift-0.2.1.dist-info/METADATA,sha256=CFCudVMEv6gbSKPVSAhZy7Oh6XF3DSXvXh3kmNnsakU,4359
+grabber_ift-0.2.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+grabber_ift-0.2.1.dist-info/entry_points.txt,sha256=RezOxOjQ9bDdWngo1sAe6QRhEbeD8YJxi7H-IPuvfbk,35
+grabber_ift-0.2.1.dist-info/top_level.txt,sha256=Y5Paz8FWVZWZfHXct751Rna9diEEulFHEMp9JzeYux4,8
+grabber_ift-0.2.1.dist-info/RECORD,,
