@@ -1,0 +1,10 @@
+setup.py
+microbot/MicroBot.py
+microbot/__init__.py
+microbot/search.py
+microbot/words.py
+microbotpkg.egg-info/PKG-INFO
+microbotpkg.egg-info/SOURCES.txt
+microbotpkg.egg-info/dependency_links.txt
+microbotpkg.egg-info/requires.txt
+microbotpkg.egg-info/top_level.txt
