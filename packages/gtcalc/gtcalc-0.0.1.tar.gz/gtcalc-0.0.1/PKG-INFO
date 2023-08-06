@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: gtcalc
+Version: 0.0.1
+Summary: Simple calculator
+Home-page: UNKNOWN
+Author: Nesfan
+Author-email: lethiyen9265@gmai.com
+License: MIT
+Description: Simple
+        
+        0.0.1:
+            simple
+Keywords: GTCALC
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6

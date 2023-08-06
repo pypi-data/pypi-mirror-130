@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+gtcalc/__init__.py
+gtcalc.egg-info/PKG-INFO
+gtcalc.egg-info/SOURCES.txt
+gtcalc.egg-info/dependency_links.txt
+gtcalc.egg-info/top_level.txt
