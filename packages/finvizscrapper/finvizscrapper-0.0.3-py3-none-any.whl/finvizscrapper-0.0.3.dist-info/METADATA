@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: finvizscrapper
+Version: 0.0.3
+Summary: this library scrapes importa information from finviz.com
+Home-page: https://github.com/kaiomarques93/finviz_scrapper
+Author: Kaio
+Author-email: kaio@crimson.ua.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: bs4
+Requires-Dist: urllib3
+Requires-Dist: nltk
+Requires-Dist: matplotlib
+Requires-Dist: lxml
+
+UNKNOWN
+
