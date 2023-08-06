@@ -1,0 +1,1 @@
+from Wav2Lip.wrapper_app import main
