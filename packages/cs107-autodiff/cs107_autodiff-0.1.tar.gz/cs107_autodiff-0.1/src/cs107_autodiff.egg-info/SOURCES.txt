@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/cs107_autodiff/__init__.py
+src/cs107_autodiff/ad.py
+src/cs107_autodiff.egg-info/PKG-INFO
+src/cs107_autodiff.egg-info/SOURCES.txt
+src/cs107_autodiff.egg-info/dependency_links.txt
+src/cs107_autodiff.egg-info/requires.txt
+src/cs107_autodiff.egg-info/top_level.txt
+src/cs107_autodiff/math_defs/__init__.py
+src/cs107_autodiff/math_defs/dual.py
+src/cs107_autodiff/math_defs/tests/__init__.py
+src/cs107_autodiff/math_defs/tests/test_dual.py
+src/cs107_autodiff/tests/__init__.py
+src/cs107_autodiff/tests/test_ad.py
