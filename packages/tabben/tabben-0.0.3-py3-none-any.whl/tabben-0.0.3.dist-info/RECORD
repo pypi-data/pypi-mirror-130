@@ -1,0 +1,13 @@
+tabben/__init__.py,sha256=ZIK0anCKGkgkxstfB342TksYHZHrvFrycfecOx9nexs,235
+tabben/autogluon.py,sha256=bJXF4I6JN8TRv9ZraGY3VrnwLWc5GAJYMVveF40pfL4,1362
+tabben/utils.py,sha256=fEIlkUmxwNIj24RQ-5sZRGDwBmrIuO8fGnV9gEdR03g,376
+tabben/datasets/__init__.py,sha256=jZCKlgWKFIe1tMpe8Gq9HpZLe49_yMKQWLLMQHxYT4o,315
+tabben/datasets/data.toml,sha256=v3xkTKUYYv1hBFrn61JCgc_zmLjZUhwlZQ-8OhVQURY,1269
+tabben/datasets/image_datasets.py,sha256=9eAf4ERhkjCChkICju_pTqAL0bCYPF_uZbACf6cSpEw,1536
+tabben/datasets/pytorch_datasets.py,sha256=-4HJVn_qgkU2AqX8SIrfXWTHFy5dzHSC-TvCIdy91es,15938
+tabben/evaluators/__init__.py,sha256=QZz38Ch9-Czz0LunfJl0MmZPbSNDbXnieerrhRW3Ehk,397
+tabben/evaluators/metrics.py,sha256=tz_tvb8fkYm7LKWZEOOJ1lghNnCgjdx-Lw0ANna2by0,299
+tabben-0.0.3.dist-info/METADATA,sha256=oE1XoyYmqCe4tlA5MNUCIA-wLPKocaYORYykwGMC76g,3012
+tabben-0.0.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+tabben-0.0.3.dist-info/top_level.txt,sha256=WCK_hpHQ2bq5N65glm_kmT9YlxwEY-Ccf7KzZpftPqs,7
+tabben-0.0.3.dist-info/RECORD,,
