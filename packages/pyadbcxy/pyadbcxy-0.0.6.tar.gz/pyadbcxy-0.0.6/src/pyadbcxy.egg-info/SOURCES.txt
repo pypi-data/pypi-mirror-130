@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyadbcxy/__init__.py
+src/pyadbcxy/elementary_functions.py
+src/pyadbcxy/forward.py
+src/pyadbcxy/reverse.py
+src/pyadbcxy/variable.py
+src/pyadbcxy.egg-info/PKG-INFO
+src/pyadbcxy.egg-info/SOURCES.txt
+src/pyadbcxy.egg-info/dependency_links.txt
+src/pyadbcxy.egg-info/requires.txt
+src/pyadbcxy.egg-info/top_level.txt
