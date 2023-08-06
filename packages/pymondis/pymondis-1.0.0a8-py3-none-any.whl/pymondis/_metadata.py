@@ -1,0 +1,5 @@
+__title__ = "pymondis"
+__version__ = "1.0.0.a8"
+__description__ = "Nieoficjalny wrapper Quatromondis API"
+__author__ = "Asapros"
+__license__ = "MIT"
