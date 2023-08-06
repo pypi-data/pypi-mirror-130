@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+norecaptcha/__init__.py
+norecaptcha/captcha.py
+norecaptcha.egg-info/PKG-INFO
+norecaptcha.egg-info/SOURCES.txt
+norecaptcha.egg-info/dependency_links.txt
+norecaptcha.egg-info/top_level.txt

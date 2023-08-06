@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: norecaptcha
+Version: 1.0.0
+Summary: Python client for the google new No CAPTCHA reCAPTCHA services.
+Home-page: https://github.com/oursky/norecaptcha
+Author: Oursky Ltd.
+Author-email: rick.mak@gmail.com
+License: MIT
+Download-URL: https://www.github.com/oursky/norecaptcha/tarball/master
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+License-File: LICENSE
+
+norecaptcha
+===========
+
+Python client for the google new No CAPTCHA reCAPTCHA services.
+
+Fork of http://recaptcha.googlecode.com/svn/trunk/recaptcha-plugins/python/
+to match the recently updated (Dec 2014) of Google Captcha usage
+
+
