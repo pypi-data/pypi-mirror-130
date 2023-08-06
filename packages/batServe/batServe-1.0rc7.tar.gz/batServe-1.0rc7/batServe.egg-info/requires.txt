@@ -1,0 +1,6 @@
+psutil
+falcon
+gevent
+gunicorn
+rich
+falcon-auth2
