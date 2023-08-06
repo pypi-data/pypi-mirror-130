@@ -1,0 +1,14 @@
+# Cl- solvation in s2 solvent
+<solute>
+# site   sigma        eps(kj/mol)    charge(e)   x   y   z
+Cl       4.83         0.05349244     -1.0         0.0 0.0 0.0
+<simulation>
+solvent s2
+tol 1.0E-7
+max_iter 200
+
+#optional analysis
+<analysis>
+rdf_peaks
+<output>
+rdf
