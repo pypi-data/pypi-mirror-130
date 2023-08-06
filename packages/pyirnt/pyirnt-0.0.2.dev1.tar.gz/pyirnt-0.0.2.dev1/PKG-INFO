@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pyirnt
+Version: 0.0.2.dev1
+Summary: A client library to facilitate fetching garbage disposal schedules from ir.nt.no
+Home-page: https://github.com/bendikrb/pyirnt
+Author: bendikrb
+License: MIT
+Project-URL: Bug Tracker, https://github.com/bendikrb/pyirnt/issues
+Project-URL: Source Code, https://github.com/bendikrb/pyirnt
+Keywords: api-client,unofficial
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >= 3.6
+Description-Content-Type: text/x-rst; charset=UTF-8
+License-File: LICENSE
+License-File: AUTHORS
+
+pyIRNT
+======
+
+.. image:: https://img.shields.io/badge/pip%20install-pyirnt-brightgreen
+    :target: https://pypi.org/project/pyirnt
+.. image:: https://img.shields.io/pypi/v/pyirnt?color=green&label=version
+    :target: https://github.com/bendikrb/pyirnt/releases
+.. image:: https://github.com/bendikrb/pyirnt/workflows/Test/badge.svg
+    :target: https://github.com/bendikrb/pyirnt/actions
+.. image:: https://img.shields.io/github/license/bendikrb/pyirnt
+    :target: https://github.com/bendikrb/pyirnt/blob/master/LICENSE
+
+:code:`pyirnt` is an open source client library which facilitates getting your garbage disposal schedule from `Innherred Renovasjon <https://ir.nt.no>`_.
+
+
+
