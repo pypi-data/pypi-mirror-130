@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: oneNeuron_pypi-jaiyesh
+Version: 0.0.2
+Summary: A perceptron package
+Home-page: https://github.com/jaiyesh/oneNeuron_pypi
+Author: jaiyesh
+Author-email: jaiyesh0002@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/jaiyesh/oneNeuron_pypi/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# oneNeuron_pypi
+oneNeuron_pypi
+
+## hOW TO USE
+
+```PYTHON
+from oneNeuron.perceptron import Perceptron
+
+## get x and y 
+
+
+model = Perceptron(eta ,epochs) #MAking an object model from class perceptron 
+model.fit(X,y) #Fit method of Perceptron class
+
+```
+
+
+
+
+# Reference-
+[official python packaging documentation](https://packaging.python.org/en/latest/tutorials/packaging-projects/)
+
+
+[github actions](https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python#publishing-to-package-registries)
+
