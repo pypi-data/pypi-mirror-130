@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: ToJyutping
+Version: 0.2.1
+Summary: 粵語拼音自動標註工具 Cantonese Pronunciation Automatic Labeling Tool
+Home-page: https://github.com/CanCLID/ToJyutping
+Author: Cantonese Computational Linguistics Infrastructure Development Workgroup
+Author-email: support@jyutping.org
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/CanCLID/ToJyutping/issues
+Project-URL: Source, https://github.com/CanCLID/ToJyutping
+Keywords: chinese cantonese nlp natural-language-processing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Natural Language :: Cantonese
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Natural Language :: Chinese (Traditional)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pygtrie
+
+# ToJyutping ![](https://github.com/CanCLID/ToJyutping/workflows/Python%20Package/badge.svg)
+
+Install:
+
+```sh
+$ pip install ToJyutping
+```
+
+Usage:
+
+```python
+>>> import ToJyutping
+>>> ToJyutping.get_jyutping_list('一瓩係乜嘢嚟㗎？')
+[('一', 'jat1'), ('瓩', 'cin1 ngaa5'), ('係', 'hai6'), ('乜', 'mat1'), ('嘢', 'je5'), ('嚟', 'lai4'), ('㗎', 'gaa3'), ('？', None)]
+>>> ToJyutping.get_jyutping('一瓩係乜嘢嚟㗎？')
+'一(jat1)瓩(cin1 ngaa5)係(hai6)乜(mat1)嘢(je5)嚟(lai4)㗎(gaa3)？'
+>>> ToJyutping.get_jyutping_text('一瓩係乜嘢嚟㗎？')
+'jat1 cin1 ngaa5 hai6 mat1 je5 lai4 gaa3'
+>>> ToJyutping.get_ipa_list('一瓩係乜嘢嚟㗎？')
+[('一', 'jɐt̚˥'), ('瓩', 't͡sʰiːn˥.ŋaː˩˧'), ('係', 'hɐi̯˨'), ('乜', 'mɐt̚˥'), ('嘢', 'jɛː˩˧'), ('嚟', 'lɐi̯˨˩'), ('㗎', 'kaː˧'), ('？', None)]
+>>> ToJyutping.get_ipa('一瓩係乜嘢嚟㗎？')
+'一[jɐt̚˥]瓩[t͡sʰiːn˥.ŋaː˩˧]係[hɐi̯˨]乜[mɐt̚˥]嘢[jɛː˩˧]嚟[lɐi̯˨˩]㗎[kaː˧]？'
+>>> ToJyutping.get_ipa_text('一瓩係乜嘢嚟㗎？')
+'jɐt̚˥.t͡sʰiːn˥.ŋaː˩˧.hɐi̯˨.mɐt̚˥.jɛː˩˧.lɐi̯˨˩.kaː˧'
+```
+
+Helper:
+
+```python
+>>> ToJyutping.jyutping2ipa('jat1')
+'jɐt̚˥'
+>>> ToJyutping.jyutping2ipa('cin1 ngaa5')
+'t͡sʰiːn˥.ŋaː˩˧'
+```
+
+Note that autocorrection is intentionally not included in this helper, and an error is thrown if strings like `jyt6` are passed into the function.
+
+
