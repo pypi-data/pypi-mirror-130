@@ -1,0 +1,31 @@
+.DS_Store
+.gitignore
+LICENSE
+README.md
+__init__.py
+example.py
+pyproject.toml
+setup.cfg
+notebooks/.DS_Store
+notebooks/Filtering Outlier POI from Patterns.ipynb
+notebooks/Local testing and development.ipynb
+notebooks/Visualizing Correlations with Patterns.ipynb
+notebooks/ingest usage.ipynb
+notebooks/initial testing - DELETE.ipynb
+src/.DS_Store
+src/safegraph_eval/.DS_Store
+src/safegraph_eval/__init__.py
+src/safegraph_eval.egg-info/PKG-INFO
+src/safegraph_eval.egg-info/SOURCES.txt
+src/safegraph_eval.egg-info/dependency_links.txt
+src/safegraph_eval.egg-info/requires.txt
+src/safegraph_eval.egg-info/top_level.txt
+src/safegraph_eval/geometry/__init__.py
+src/safegraph_eval/geometry/geometry.py
+src/safegraph_eval/ingest/.DS_Store
+src/safegraph_eval/ingest/__init__.py
+src/safegraph_eval/ingest/ingest.py
+src/safegraph_eval/plotting/__init__.py
+src/safegraph_eval/plotting/plotting.py
+src/safegraph_eval/preprocessing/__init__.py
+src/safegraph_eval/preprocessing/preprocessing.py
