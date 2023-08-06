@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/yemot/__init__.py
+src/yemot/main.py
+src/yemot.egg-info/PKG-INFO
+src/yemot.egg-info/SOURCES.txt
+src/yemot.egg-info/dependency_links.txt
+src/yemot.egg-info/top_level.txt
