@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pypicgo-tinypng-plugin
+Version: 1.0.0
+Summary: tinypng for pypicgo
+Home-page: https://github.com/AnsGoo/pypicgo-tinypng-plugin
+Author: ansgoo
+Author-email: haiven_123@163.com
+License: MIT Licence
+Description: Tinypng for pypicgo
+        ===================
+        
+        Tinypng for `PyPicGo <https://github.com/AnsGoo/PyPicGo>`__ to compress
+        images
+        
+        install
+        -------
+        
+        .. code:: shell
+        
+           pip install pypicgo-tinypng-plugin
+        
+        config
+        ------
+        
+        .. code:: yaml
+        
+           tinypng:
+             module: pypicgo_tinypng_plugin.TinypngPlugin
+             config:
+               key: xxxxxxxxxxxxxxx
+        
+Keywords: python,pypicgo,tinypng,tinify
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Description-Content-Type: text/markdown
