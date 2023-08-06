@@ -1,0 +1,27 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+POSTagger/Controller.py
+POSTagger/Model.py
+POSTagger/POSTagger.py
+POSTagger/View.py
+POSTagger/Wizard.py
+POSTagger/__init__.py
+POSTagger/exeptions.py
+POSTagger.egg-info/PKG-INFO
+POSTagger.egg-info/SOURCES.txt
+POSTagger.egg-info/dependency_links.txt
+POSTagger.egg-info/entry_points.txt
+POSTagger.egg-info/requires.txt
+POSTagger.egg-info/top_level.txt
+POSTagger/corpora/The Old Man and the Sea.txt
+POSTagger/corpora/sure_ye_tamASA.txt
+POSTagger/imgs/logo.png
+POSTagger/outputs/sohrab.xml
+POSTagger/projects/sure_ye_tamasha.proj
+POSTagger/tagsets/BijankhanTagset.csv
+POSTagger/tagsets/BrownTagset.csv
+POSTagger/tagsets/PENNTagset.csv
+POSTagger/tagsets/UPT.csv
+POSTagger/tagsets/defaultTagset.csv
