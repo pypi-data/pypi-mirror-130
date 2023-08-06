@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+myMilePackageABC/__init__.py
+myMilePackageABC/mileConverter.py
+myMilePackageABC.egg-info/PKG-INFO
+myMilePackageABC.egg-info/SOURCES.txt
+myMilePackageABC.egg-info/dependency_links.txt
+myMilePackageABC.egg-info/top_level.txt
