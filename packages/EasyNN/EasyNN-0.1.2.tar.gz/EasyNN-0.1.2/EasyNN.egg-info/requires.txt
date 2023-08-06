@@ -1,0 +1,6 @@
+matplotlib~=3.3.2
+clint>=0.5.1
+tabulate>=0.8.7
+requests>=2.26.0
+numpy>=1.21.3
+nptyping>=1.4.4
