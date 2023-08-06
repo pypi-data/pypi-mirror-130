@@ -1,0 +1,12 @@
+[package]
+name = "saku"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "saku"
+crate-type = ["cdylib"]
+
+[dependencies]
+pyo3 = {version = "0.15.1", features = ["extension-module"]}
+regex = "1.5.4"
