@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: transformerslite
+Version: 0.9
+Summary: Process, Train and Deploy small transfomer models with less code
+Home-page: https://github.com/Vishnunkumar/transformerslite
+Author: Vishnu N
+Author-email: vishnunkumar25@gmail.com
+License: MIT
+Download-URL: https://github.com/Vishnunkumar/transformerslite/archive/refs/tags/v-0.9.tar.gz
+Description: UNKNOWN
+Keywords: NLP,Deep learning,Transformers
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
