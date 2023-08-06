@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: gruntest
+Version: 0.1.0
+Summary: graphql & restful / http(s) tools
+Author: zy7y
+Author-email: 396667207@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: allure-pytest (>=2.9.45,<3.0.0)
+Requires-Dist: jsonpath (>=0.82,<0.83)
+Requires-Dist: pytest (>=6.2.5,<7.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
