@@ -1,0 +1,11 @@
+join/__init__.py,sha256=NsrPve2fm9NTZ15RlLcd6areArTKanIb7an4KT7vLtk,48
+join/api.py,sha256=uXhwRxlpwNBcwDaSLAPRtg3IEWEMd8vNsPyygVVtR-A,730
+join/base.py,sha256=N_fXh1JU3osIiN-R2Ey4dKgH5Pv5R9gFk9EB20wC5VM,11316
+join/cache.py,sha256=uRyH19hy3t2-nUcu8mHhTPM82bCWy7C1LkomkosTYqs,1478
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_join.py,sha256=aJX-Yim5697fLISswepSUd2V8ow7dwNn_qY9YbMiUmI,3812
+db_join-0.1.0.dist-info/LICENSE,sha256=WO43zXxK9psllRRLFpzDzs8G693P5WctR-RoGizgiog,1066
+db_join-0.1.0.dist-info/METADATA,sha256=ry1gUK6-I5VL2pVWsXIgi7on9WnK6J9WJMn-OAEyg7g,3655
+db_join-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+db_join-0.1.0.dist-info/top_level.txt,sha256=KsoTPyVcGbv-yaBMQureuDMbY7h6C9MAP1_2bxl8MnU,11
+db_join-0.1.0.dist-info/RECORD,,
