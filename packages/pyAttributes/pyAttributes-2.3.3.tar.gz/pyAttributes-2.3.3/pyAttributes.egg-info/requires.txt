@@ -1,0 +1,2 @@
+pyTooling>=1.5.2
+argcomplete>=1.12.3
