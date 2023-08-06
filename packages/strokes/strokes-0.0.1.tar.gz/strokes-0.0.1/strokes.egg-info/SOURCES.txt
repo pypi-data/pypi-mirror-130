@@ -1,0 +1,9 @@
+README.md
+setup.py
+strokes/__init__.py
+strokes/strokes.py
+strokes.egg-info/PKG-INFO
+strokes.egg-info/SOURCES.txt
+strokes.egg-info/dependency_links.txt
+strokes.egg-info/top_level.txt
+strokes/../data/strokeCount.json
