@@ -1,0 +1,9 @@
+agilkia/__init__.py,sha256=7ajnO-O5FLEw6QY4DwXvYxnl-v_fvOT1_RHqRjwC8dc,1854
+agilkia/data_generator.py,sha256=aAUd_e9MpUE7P9OKP6eU5ofptzj20kRwYB5_Fi4X0D0,21661
+agilkia/json_traces.py,sha256=BzOzbjFH7nBVahP2A1QvFpmGasCaMVJeGnidKcwH1wk,58371
+agilkia/random_tester.py,sha256=5eHgBY1SBik53JkBhY33wMZFgMabxpMf8EIjhVLGVg8,30567
+agilkia/trace_set_optimizer.py,sha256=k67ynPmK-MPGy04tzU2n2GV_moo6cKAqP4mzMUypGfc,44184
+agilkia-0.8.0.dist-info/LICENSE.txt,sha256=vmndkptIEv3u-2AJEzgQAwfmsZ3LokAuPnKpnWO9emY,1050
+agilkia-0.8.0.dist-info/WHEEL,sha256=o-Q2E8s7BKkCJ1EC2uQdaymZVVu2aUt1e8uTTFpzHVs,81
+agilkia-0.8.0.dist-info/METADATA,sha256=5ZBl6YDagm8pcQYQZ3d3-Z8THyxkDCuQWh31GpQZTUY,6415
+agilkia-0.8.0.dist-info/RECORD,,
