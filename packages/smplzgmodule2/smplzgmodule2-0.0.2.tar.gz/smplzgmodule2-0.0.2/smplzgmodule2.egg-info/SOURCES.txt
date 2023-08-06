@@ -1,0 +1,6 @@
+setup.py
+smplzgmodule2.egg-info/PKG-INFO
+smplzgmodule2.egg-info/SOURCES.txt
+smplzgmodule2.egg-info/dependency_links.txt
+smplzgmodule2.egg-info/requires.txt
+smplzgmodule2.egg-info/top_level.txt
