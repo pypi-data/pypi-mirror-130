@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: ipntools
+Version: 0.1
+Summary: Library that handles ip address and other networking stuff. (Really basic)
+Home-page: https://github.com/bossauh/ipntools
+Author: Philippe Mathew
+Author-email: philmattdev@gmail.com
+License: MIT
+Download-URL: https://github.com/bossauh/ipntools/archive/refs/tags/v_01.tar.gz
+Description: UNKNOWN
+Keywords: helper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
