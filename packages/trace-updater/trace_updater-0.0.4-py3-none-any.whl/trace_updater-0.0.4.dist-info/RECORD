@@ -1,0 +1,12 @@
+trace_updater/TraceUpdater.py,sha256=3_LvUEqWhuRwyX6Ofmro_8S4bvjmSCIOLVIyG5huQAE,2294
+trace_updater/__init__.py,sha256=W604OF7Equ5NqKVN3ZG0EXqG_-gp_o8txRiK3xygbsY,2255
+trace_updater/_imports_.py,sha256=isdqqElwAABlPMaTPP2qIuH39D0nWfVxRrBC-_PH4l4,72
+trace_updater/metadata.json,sha256=Ye2WSIEknn3LPqHYJagk_4YSeyj1bb9KssYnif8hLoQ,1944
+trace_updater/package-info.json,sha256=clFaxVJ7sPSDxmumuCVQCPr3uShmIV3UHjUNA9KslJQ,2350
+trace_updater/trace_updater.min.js,sha256=4P0162ezBRXPz8qp-1nM2yt_tGtqR690AbS74N94GXM,6047
+trace_updater/trace_updater.min.js.map,sha256=qGa6egfkBjxkCcByJx_fmSzNQ2XzBPg7EFAhp1xYqe8,97
+trace_updater-0.0.4.dist-info/LICENSE,sha256=qBNhnPvFyPAUfbFlDjBG9iep4XI3eqz5UrP-LojXnB8,1647
+trace_updater-0.0.4.dist-info/METADATA,sha256=XJ9iqPTbQXWCKx9kEcE05dWJQLmigmFf_HsfBXH_djA,537
+trace_updater-0.0.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+trace_updater-0.0.4.dist-info/top_level.txt,sha256=7BRmAOZgjhrbNx4OGnUmf9ucvflCDEJFXagNGA51uRQ,14
+trace_updater-0.0.4.dist-info/RECORD,,
