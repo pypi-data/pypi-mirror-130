@@ -1,0 +1,11 @@
+setup.py
+diran/__init__.py
+diran/__main__.py
+diran/file_utils.py
+diran.egg-info/PKG-INFO
+diran.egg-info/SOURCES.txt
+diran.egg-info/dependency_links.txt
+diran.egg-info/entry_points.txt
+diran.egg-info/requires.txt
+diran.egg-info/top_level.txt
+diran.egg-info/zip-safe
