@@ -1,0 +1,28 @@
+- $id: table:Table
+  comment: "Definition of a table."
+  ≡:
+    onProperty: iolanta:facet
+    hasValue:
+      $id: python://octadocs_table.facets.Table
+      iolanta:supports: iolanta:html
+
+- $id: table:columns
+  domain: table:Table
+
+- $id: table:th
+  subClassOf: iolanta:html
+  label: Render nodes as content of <th> tags in table column headers.
+  iolanta:hasDefaultFacet:
+    $id: python://octadocs_table.facets.th
+
+- $id: table:td
+  $type: iolanta:Environment
+  has-broader: iolanta:html
+  label: <td>
+  iolanta:hasDefaultFacet:
+    $id: python://octadocs.facets.default
+
+- $id: xsd:boolean
+  iolanta:datatypeFacet:
+    $id: python://octadocs.facets.bool_literal.BoolLiteral
+    iolanta:supports: table:td
