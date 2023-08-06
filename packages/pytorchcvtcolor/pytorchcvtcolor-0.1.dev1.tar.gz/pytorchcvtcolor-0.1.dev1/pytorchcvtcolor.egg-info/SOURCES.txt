@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+pytorchcvtcolor/__init__.py
+pytorchcvtcolor/cvt_color.py
+pytorchcvtcolor/gray.py
+pytorchcvtcolor/hsv.py
+pytorchcvtcolor/image.py
+pytorchcvtcolor/rgb.py
+pytorchcvtcolor/ycbcr.py
+pytorchcvtcolor.egg-info/PKG-INFO
+pytorchcvtcolor.egg-info/SOURCES.txt
+pytorchcvtcolor.egg-info/dependency_links.txt
+pytorchcvtcolor.egg-info/requires.txt
+pytorchcvtcolor.egg-info/top_level.txt
