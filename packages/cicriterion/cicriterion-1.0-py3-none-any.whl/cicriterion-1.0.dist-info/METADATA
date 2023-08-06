@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: cicriterion
+Version: 1.0
+Summary: Implementation of the cross-entropy information criterion and related algorithms.
+Home-page: https://github.com/nick-terry/CIC
+Author: Nick Terry, Youngjun Choe
+Author-email: pnterry@uw.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/nick-terry/CIC/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: cvxpy (>=1.1.12)
+Requires-Dist: dccp (>=1.0.3)
+Requires-Dist: matplotlib (>=3.3.1)
+Requires-Dist: numpy (>=1.19.2)
+Requires-Dist: pandas (>=1.1.2)
+Requires-Dist: scipy (>=1.6.3)
+
+# CIC (Cross-Entropy Information Criterion)
+
+The CIC is a statistic which can be used to design algorithms for the <a href="https://en.wikipedia.org/wiki/Boltzmann_distribution"> Boltzmann approximation problem </a>. In <a href="https://arxiv.org/abs/1704.04315"> our paper </a> the CIC is theoretically developed and an algorithm is provided for using the CIC to solve Boltzmann approximation problems.
+
+<div><img src="https://i.imgur.com/dYqp8oF.png" alt="Successive approximation of a probability distribution using our algorithm."/></div>
+
+This package contains an implementation for an algorithm described in the paper which solves the Boltzmann approximation problem using the CIC.
+
+# Installation and Use
+
+To install the latest CIC implementation using pip, run the following command:
+
+```
+pip install cicriterion
+```
+
+To see how to use the CIC implementation, you can refer to example scripts in the <a href="https://github.com/nick-terry/CIC"> project's Github repo </a>. The dependencies for the CIC implementation included with the package will cover any dependencies for experiment scripts found on the Github repo as well.
+
+
