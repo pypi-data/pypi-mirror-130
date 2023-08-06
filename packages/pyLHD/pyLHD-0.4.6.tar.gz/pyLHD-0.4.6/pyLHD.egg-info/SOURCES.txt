@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+pyLHD/LHD_optim.py
+pyLHD/OLHD.py
+pyLHD/__init__.py
+pyLHD/base_designs.py
+pyLHD/criteria.py
+pyLHD/misc.py
+pyLHD/utils.py
+pyLHD.egg-info/PKG-INFO
+pyLHD.egg-info/SOURCES.txt
+pyLHD.egg-info/dependency_links.txt
+pyLHD.egg-info/requires.txt
+pyLHD.egg-info/top_level.txt
