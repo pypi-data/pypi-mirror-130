@@ -1,0 +1,11 @@
+napari_simpleitk_image_processing/__init__.py,sha256=fffIsW0jsYwCaBgHfr6Zq0zapiCRIOy82p5GyTvxaKY,889
+napari_simpleitk_image_processing/_function.py,sha256=w_XPB15kWsIyfGjkCwLWkkPpm-kCkR0ITiOWvv-L3-0,1716
+napari_simpleitk_image_processing/_simpleitk_image_processing.py,sha256=GZaAyt0Ns_HACdGVgm9T-IlJ6iUNUB1sE9W5Yq6xk9Y,14169
+napari_simpleitk_image_processing/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_simpleitk_image_processing/_tests/test_function.py,sha256=11zoJy37UJdf2EcOp5rU2ZuAr0BtS0LRyG1XMYDL5F0,142
+napari_simpleitk_image_processing-0.1.4.dist-info/LICENSE,sha256=QOfLlzdQfLqZfhXYI3s2Bg0tnR7YHFtc-MnD35bPhWo,1532
+napari_simpleitk_image_processing-0.1.4.dist-info/METADATA,sha256=9FrcQeq4ULj_5qxv-z74GNaWBfvV3TplGofB1bcZHdM,9552
+napari_simpleitk_image_processing-0.1.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_simpleitk_image_processing-0.1.4.dist-info/entry_points.txt,sha256=PjKKSBNPWuqYssctBuTq78X_mKNsjYtNWkMMWhAqMtw,87
+napari_simpleitk_image_processing-0.1.4.dist-info/top_level.txt,sha256=1iLshOFCBuDAyEl1R3XwlNYqy1jnIvMILtqTgloEpSk,34
+napari_simpleitk_image_processing-0.1.4.dist-info/RECORD,,
