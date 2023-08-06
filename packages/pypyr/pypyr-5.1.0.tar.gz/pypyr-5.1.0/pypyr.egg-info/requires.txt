@@ -1,0 +1,15 @@
+python-dateutil
+ruamel.yaml
+tomli
+tomli-w
+
+[dev]
+bumpversion
+codecov
+flake8
+flake8-docstrings
+pytest
+pytest-cov
+setuptools
+twine
+wheel
