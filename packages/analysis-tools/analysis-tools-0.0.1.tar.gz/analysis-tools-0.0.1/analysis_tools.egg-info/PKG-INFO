@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: analysis-tools
+Version: 0.0.1
+Summary: Analysis tools for machine learning projects
+Home-page: https://github.com/djy-git/analysis-tools
+Author: Dongjin Yoon
+Author-email: djyoon0223@gmail.com
+License: UNKNOWN
+Description: # analysis-tools
+        Analysis tools for machine learning projects
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
