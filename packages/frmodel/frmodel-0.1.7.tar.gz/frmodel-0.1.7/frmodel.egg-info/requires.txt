@@ -1,0 +1,8 @@
+numpy
+seaborn
+sklearn
+scikit-image
+tqdm
+plotly
+opencv-python
+imagecodecs
