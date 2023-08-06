@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: dapr-httpx
+Version: 0.2.1
+Summary: ✨dapr ➕ ✨httpx is awesome
+Home-page: https://github.com/Benknightdark/dapr-helpers
+Keywords: dapr,httpx
+Author: Ben
+Author-email: moon791017@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.21.1,<0.22.0)
+Project-URL: Documentation, https://github.com/Benknightdark/dapr-helpers
+Project-URL: Repository, https://github.com/Benknightdark/dapr-helpers
+Description-Content-Type: text/markdown
+
+# dev
+``` bash
+poetry build
+```
