@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+checkfunc/__init__.py
+checkfunc/checkfunc.py
+checkfuncs.egg-info/PKG-INFO
+checkfuncs.egg-info/SOURCES.txt
+checkfuncs.egg-info/dependency_links.txt
+checkfuncs.egg-info/top_level.txt
