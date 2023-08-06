@@ -1,0 +1,130 @@
+<p align="center">
+    <a href="https://bit.ly/search--me"><img src="https://bit.ly/search-me-logo" width="500px" alt="SEARCH-ME"></a>
+</p>
+<p align="center">
+    <a href="https://bit.ly/search-me-paypal"><img src="https://bit.ly/search-me-logo-paypal" width="200px" alt="PayPal"></a>
+</p>
+<p align="center">
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/pypi/v/search-me.svg?style=flat-square&logo=appveyor" alt="Version"></a>
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/pypi/l/search-me.svg?style=flat-square&logo=appveyor" alt="License"></a>
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/pypi/pyversions/search-me.svg?style=flat-square&logo=appveyor" alt="Python"></a>
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/pypi/status/search-me.svg?style=flat-square&logo=appveyor" alt="Status"></a>
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/pypi/format/search-me.svg?style=flat-square&logo=appveyor" alt="Format"></a>
+    <a href="https://pypi.org/project/search-me"><img src="https://img.shields.io/bitbucket/pipelines/deploy-me/search-me/master?style=flat-square&logo=appveyor" alt="Build"></a>
+    <a href="https://pepy.tech/project/search-me"><img src="https://static.pepy.tech/personalized-badge/search-me?period=total&units=international_system&left_color=black&right_color=blue&left_text=Downloads" alt="Downloads"></a>
+    <br><br><br>
+</p>
+
+# ASYNC SEARCH-ME
+
+**Search**
+
+- Google
+- Rambler
+- Searx.
+
+**Explore**
+
+- Facebook
+- Instagram
+- Snapchat
+- Telegram
+- Tumblr
+- Twitter
+- VK
+- YouTube.
+
+## PRE-INSTALLING
+
+- For generating pdf files setup [wkhtmltopdf](https://bit.ly/download_wkhtmltopdf)
+- For downloading videos from youtube setup [youtube-dl](https://bit.ly/download_youtube-dl)
+
+## INSTALLING
+
+```bash
+pip install search-me
+```
+
+## USAGE
+
+```python
+
+import asyncio
+import logging
+
+# Import engines
+from search_me import Google, Searx, Rambler
+
+logging.basicConfig(level=logging.DEBUG)
+
+settings = {
+    "pdf_report": False,  # Export search data to pdf-documents
+    "pdf_parse": False,  # Parse generated pdf-documents, when pdf_report=True
+    "social_search": False,  # Activate search across socials
+    "socials": [  # Names of social nets
+        "vk",
+        "instagram",
+        "telegram",
+        "twitter",
+        "youtube",
+        "facebook",
+        "tumblr",
+        "snapchat"
+    ],
+    "app": {
+        "interactive": True,  # Activate CLI animation
+        "cache": True  # Caching data in .json and .pkl files
+    },
+    "web": {
+        "results": 10,  # Number of search results on page
+        "retry": 5,  # Number of retries for one query
+        "timeout": 60,  # Timeout for one request
+        "wait_min": 0.0,  # Minimum time in seconds to sleep after each query
+        "wait_max": 1.5  # Maximum time in seconds to sleep after each query
+    },
+    "pdf": {
+        "timeout": 10,  # Waiting time in seconds for create pdf-document
+        "summary_params": [
+            "ratio",  # Type of summarizing ("ratio" or "words")
+            0.2  # Value (percent of text or count of words)
+        ],
+        "text": True,  # Extract text from pdf
+        "summary": True,  # Generate summary from extracted text
+        "urls": True,  # Extract urls from pdf
+        "keywords": True  # Generate keywords from extracted text
+    },
+    "social": {
+        "posts_limit": 10,  # Number of posts
+        "timeout": 100.0,  # Timeout for one mediafile
+        "download_media": True,  # Download from Instagram, Tumblr, Youtube, Snapchat
+        "export_data": True,  # Export posts data in file
+        "export_format": "csv"  # Export file format (.csv, .xls, .html, .json)
+    }
+}
+
+# Setup engine (similarly Rambler & Searx)
+# Missed keys will fill auto
+# If settings didn't passed, default configuration will be loaded
+# search_engine = Google()
+search_engine = Google(**settings)
+
+
+async def main(engine):
+    await engine.search(*["0x0007ee", "社會信用體系"])
+    # Iterate over results until next call engine.search(...)
+    # Results will save and reset before new search
+    async for r in engine.results:
+        if not(r is None):
+            print(f"{r.q}  |   {r.rating}  |   {r.uri}")
+    await engine.search("Виктор Суворов — Аквариум ", "0x0007ee")
+
+
+loop = asyncio.get_event_loop()
+loop.run_until_complete(main(search_engine))
+
+```
+
+## LINKS
+
+- [Search Language Codes](https://bit.ly/google-lang-codes)
+- [List of Google domains](https://bit.ly/google-domains-list)
