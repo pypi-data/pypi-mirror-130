@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.py
+c19/__init__.py
+c19/representations/__init__.py
+c19/representations/factorization.py
+c19/representations/feature_construction.py
+c19/representations/sent_trans.py
+c19/representations/statistical.py
+c19rep.egg-info/PKG-INFO
+c19rep.egg-info/SOURCES.txt
+c19rep.egg-info/dependency_links.txt
+c19rep.egg-info/requires.txt
+c19rep.egg-info/top_level.txt
