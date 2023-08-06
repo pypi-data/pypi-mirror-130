@@ -1,0 +1,3 @@
+[console_scripts]
+imp-cli = imperiums_cli.main:main
+
