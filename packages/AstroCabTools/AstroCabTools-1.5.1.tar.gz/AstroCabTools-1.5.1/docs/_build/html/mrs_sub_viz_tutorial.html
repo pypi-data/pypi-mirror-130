@@ -1,0 +1,426 @@
+
+
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sub Viz Tutorial &#8212; AstroCabTools 1.5.0 documentation</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="All_tools Tutorial" href="all_tools_tutorial.html" />
+    <link rel="prev" title="Cube Ans Tutorial" href="cube_ans_tutorial.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="all_tools_tutorial.html" title="All_tools Tutorial"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="cube_ans_tutorial.html" title="Cube Ans Tutorial"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">AstroCabTools 1.5.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Sub Viz Tutorial</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="sub-viz-tutorial">
+<span id="mrs-sub-viz-tutorial"></span><h1>Sub Viz Tutorial<a class="headerlink" href="#sub-viz-tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Mrs_sub_viz allows to represent all the cubes from the four MRS Channels at the same time with the possibility to obtain the aperture, calculate the background or centroid from an area along all the cubes loaded, which can be all or some of the twelve cubes.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only works with the MIRI Cube format</p>
+</div>
+</div>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>To execute and use the too, the next libraries need to be installed:</p>
+<ul class="simple">
+<li><p>Python (tested for 3.8.0)</p></li>
+<li><p>Matplotlib (tested for 3.1.2)</p></li>
+<li><p>Numpy (tested for 1.81.1)</p></li>
+<li><p>PyQt5 (tested for 5.14.0)</p></li>
+<li><p>Seaborn (tested for 0.9.0)</p></li>
+<li><p>Lmfit (tested for 1.0.0)</p></li>
+<li><p>PyPubSub (tested for 4.0.3)</p></li>
+<li><p>Photutils (tested for 1.1.0)</p></li>
+<li><p>jwst (tested for 1.3.2)</p></li>
+</ul>
+</div>
+<div class="section" id="initial-display">
+<h2>Initial display<a class="headerlink" href="#initial-display" title="Permalink to this headline">¶</a></h2>
+<p>After the tool is loaded, a window with a menu bar and several buttons in it at the top of it will appear which will interact with the images on the canvas.</p>
+</div>
+<div class="section" id="data-insertion">
+<h2>Data insertion<a class="headerlink" href="#data-insertion" title="Permalink to this headline">¶</a></h2>
+<p>To be able to interact with the images the “Open” button in the “File” menu option on the top left of the window need to be pressed, showing a new window which will allow to insert the cubes in two different ways(see <a class="reference internal" href="#figure1-mrs-sub-viz"><span class="std std-numref">Fig. 63</span></a>):</p>
+<ol class="arabic simple">
+<li><p>Pressing the “Select directory” button which will allow to load an entire “.fits” directory, filter it by a file name if needed and assign automatically each cube on it’s associated subband based on it’s header. If there was data previously in the main window, all of it will be cleared.</p></li>
+<li><p>Pressing the “Select .fits file” button which will allow to load a single “.fits” file and associated automatically by it’s header or manually to a subband. If there was a cube in the subband where the new one will be assigned, it will delete it to add the new one, and in case there was any operation made previously, it will be done automatically to the new one.</p></li>
+</ol>
+<div class="figure align-default" id="figure1-mrs-sub-viz">
+<img alt="_images/subViz_in1.PNG" src="_images/subViz_in1.PNG" />
+</div>
+<div class="section" id="image-manipulation">
+<span id="image-manipulation-subviz"></span><h3>Image manipulation<a class="headerlink" href="#image-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>Once the cube or cubes have been loaded, they can be manipulated independently or at the same time given the next possibilities in the “Tools” option in the menu bar (see <a class="reference internal" href="#figure2-mrs-sub-viz"><span class="std std-numref">Fig. 64</span></a>)</p>
+<ul class="simple">
+<li><p>The “Set current wavelength” option which allow to change the current slice of an specific cube selected. This process will be explained in the <a class="reference internal" href="#slice-modification">Slice modification</a> section.</p></li>
+<li><p>The “interactive” option allow to use only the zoom, pan and zoom reset functionalities in a new window of a subband selected, explained in the <a class="reference internal" href="#interactive-option">Interactive option</a> section</p></li>
+<li><p>The “Manage style” option allow to change the scale, stretch and color of one or all images at the same time.</p></li>
+<li><p>The “Rectangle aperture” and “Ellipse aperture” options allow to select an area based on the type of figure and make the aperture to obtain the associated spectrum allong all subbands. This complete process will be explained in the <a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a> and <a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a> sections.</p></li>
+<li><p>The “Creation of the rectangle parameterized” and “Creaton of the ellipse paremeterized” options allow to implement the aperture as the option before but in this case, the figure is created based on the pixel coordinates or sky coordinates inserted previously. This complete process will be explained in the <a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a> and <a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a> section.</p></li>
+<li><p>The “Rectangle coordinates” and “Ellipse coordinates” options allow to see the coordinates in pixels from an specific subband selected.</p></li>
+<li><p>The “Spectrum visualization” option allow to see, the spectra made from the aperture and background operations along each subband. This complete process will be explained in the <a class="reference internal" href="#spectrum-visualization-subviz">Spectrum visualization subViz</a> section.</p></li>
+<li><p>The “Background subtraction” option allow to obtain the spectrum as a result of the background subtraction from the aperture made initially with the annulus or rectangle aperture made through this process, whose complete functionality will be explained in the <a class="reference internal" href="#background-subtraction-subviz">Background subtraction subViz</a> section.</p></li>
+<li><p>The “Calculate centroid” option allow to compute the centroid from a selected subband along all subbands, whose complete process will be explained in the <a class="reference internal" href="#centroid-functionalities">Centroid functionalities</a> section.</p></li>
+<li><p>The “Show figure” option allow to change the aperture figure from rectangle to ellipse in case of neccesity.</p></li>
+<li><p>The “Get collapsed image” option allow to obtain the spectral sum along a wavelength range selected from an specific subband, whose complete process will be explained in the COLLAPSED section.</p></li>
+<li><p>The “Show centroid coordinates” option allow to obtain in pixel values, the coordinate of the centroid in a selected subband.</p></li>
+</ul>
+<div class="figure align-default" id="figure2-mrs-sub-viz">
+<img alt="_images/subViz_re2.png" src="_images/subViz_re2.png" />
+</div>
+</div>
+</div>
+<div class="section" id="slice-modification">
+<h2>Slice modification<a class="headerlink" href="#slice-modification" title="Permalink to this headline">¶</a></h2>
+<p>Once a subband has been selected from the top left list, the first slice, which corresponds to the first wavelength, will appear on the canvas(see <a class="reference internal" href="#figure3-mrs-sub-viz"><span class="std std-numref">Fig. 65</span></a>). Using the top components, the slice can be changed with:</p>
+<ul class="simple">
+<li><p>An slider that has a range determinated from the minimum and máximum value of the wavelength. Once it has been moved, the “Slice Value” spin, the “Wavelength Value” text edit field and the current image will changed with it’s associated values based on the current wavelength, slice values and image index.</p></li>
+<li><p>An spin that can be used to changed to the slice that want to be shown. As told before, once this field change, the other components related will change too.</p></li>
+<li><p>A text field that can be used to change to the slice that want to be shown based on the approximated wavelength value. After this file change, the other componentes will change too.</p></li>
+</ul>
+<div class="figure align-default" id="figure3-mrs-sub-viz">
+<img alt="_images/subViz_re3.png" src="_images/subViz_re3.png" />
+</div>
+<div class="section" id="interactive-option">
+<h3>Interactive option<a class="headerlink" href="#interactive-option" title="Permalink to this headline">¶</a></h3>
+<p>The second option will open a new window to manipulate the image from a subband selected, however not all the funcionalities are avaliable as this option only allow to manipulate with:</p>
+<ul class="simple">
+<li><p>The Unselect option which disallow the current option selected.</p></li>
+<li><p>The Zoom option allow to make zoom to the current image with the mouse wheel and maintain that zoom along all the slices</p></li>
+<li><p>The Pan option allow to move the current image with the left mouse button and maintain that shift alonw all the slices.</p></li>
+<li><p>The Zoom reset option allow to show the image as it was initially</p></li>
+<li><p>The Style option allow to modify the scale, stretch and color of the current image without affecting the image in the main window.</p></li>
+<li><p>The Save option allow to get the current image as a .png file.</p></li>
+</ul>
+<div class="figure align-default" id="figure4-mrs-sub-viz">
+<img alt="_images/subViz_re4.png" src="_images/subViz_re4.png" />
+</div>
+</div>
+<div class="section" id="style-manipulation">
+<h3>Style manipulation<a class="headerlink" href="#style-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>The third option listed corresponds to the style which allows to change the scale, stretch and color of an specific subband selected from the list, or along all subbands, if the option located in the top right is pressed(see <a class="reference internal" href="#figure5-mrs-sub-viz"><span class="std std-numref">Fig. 67</span></a>):</p>
+<div class="figure align-default" id="figure5-mrs-sub-viz">
+<img alt="_images/subViz_re5.png" src="_images/subViz_re5.png" />
+</div>
+</div>
+<div class="section" id="rectangle-manipulation">
+<h3>Rectangle manipulation<a class="headerlink" href="#rectangle-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>Related to the rectangle manipulation, three options can be selected, where all of them require to select a subband to interact with it:</p>
+<ol class="arabic">
+<li><p>The “Rectangle aperture” option allow to obtain the aperture spectrum associated to the rectangle area.
+After the option has been selected, the two top disabled buttons mentioned in the <a class="reference internal" href="#image-manipulation-subviz">Image manipulation subViz</a>  will be active (see <a class="reference internal" href="#figure6-mrs-sub-viz"><span class="std std-numref">Fig. 68</span></a>) to allow to draw the rectangle figure along with the other options:
+1. The “Rectangle” button allow to draw the rectangle figure manually on the image.
+2. The “Make aperture” button allow to calculate the aperture based on the area of the rectangle. If a new aperture on another position wants to be made, simple move or create a new rectangle, and the press this button.
+Once the “Make aperture” button is pressed, not only the operation will be made in the current subband, but on all existent subbands. The results of the transformations coordinates of the rectangle figure and the aperture values as an spectrum for each subband will be represented in the main window and in a new window one respectively, whose functionality will be explained in the <a class="reference internal" href="#spectrum-visualization-subviz">Spectrum visualization subViz</a> section.</p></li>
+<li><p>The “Rectangle Coordinates” option will show a new window that contains the X and Y coordinates of the left, right, top and bottom side of the rectangle from a selected subband, which will update when the figure change (see <a class="reference internal" href="#figure7-mrs-sub-viz"><span class="std std-numref">Fig. 69</span></a>).</p></li>
+<li><p>The “Creation of Rectangle parameterized” option will allow to update or create in a new window the same rectangle figure as the one created in the first point given three possibilities:
+1. Create the rectangle with the center coordinates in pixels or in RA/DEC whose units are 00h00m00.00s, +/-00d00m00.00s respectively, and the width and height in pixels or arcsec.
+2. Create the rectangle calculating the centroid previously, whose process will be explained in the <a class="reference internal" href="#centroid-functionalities">Centroid functionalities</a> section,  to set the center of the rectangle as the coordinates of the centroid.
+3. Create the rectangle calculating the centroid previously.</p>
+<p>In all previous possibilities, the figure can be created or updated using the bottom left or the center coordinates along with the height and the width, which can be written in it’s associated text fields. Once the parameters had been written, pressing the associated button given the type of coordinates located at the bottom of the window will update the coordinates of it (see <a class="reference internal" href="#figure8-mrs-sub-viz"><span class="std std-numref">Fig. 70</span></a>), and make the same process as the one described in the first point.</p>
+</li>
+</ol>
+<div class="figure align-default" id="figure6-mrs-sub-viz">
+<img alt="_images/subViz_re6.png" src="_images/subViz_re6.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure7-mrs-sub-viz">
+<img alt="_images/subViz_re7.png" src="_images/subViz_re7.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure8-mrs-sub-viz">
+<img alt="_images/subViz_re8.png" src="_images/subViz_re8.png" />
+</div>
+</div>
+<div class="section" id="ellipse-manipulation">
+<h3>Ellipse manipulation<a class="headerlink" href="#ellipse-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>Related to the ellipse manipulation, three options can be selected, where all of them require to select a subband to interact with previously:</p>
+<ol class="arabic">
+<li><p>The “Ellipse aperture” option, which allow to obtain the aperture spectrum associated to the rectangle area.
+After the option has been selected, the two top disabled buttons mentioned in the <a class="reference internal" href="#image-manipulation-subviz">Image manipulation subViz</a>  will be active to allow to draw the ellipse figure along with the other options:
+1. The “Ellipse” button allow to draw the ellipse figure manually on the image.
+2. The “Make aperture” button allow to calculate the aperture based on the area of the ellipse. If a new aperture on another position wants to be made, simple move or create a new ellipse, and the press this button.
+Once the “Make aperture” button is pressed, not only the operation will be made in the current subband, but on all existent subbands. The results of the transformations coordinates of the ellipse figure and the aperture values as an spectrum for each subband will be represented in the main window and in a new window one respectively, whose functionality will be explained in the <a class="reference internal" href="#spectrum-visualization-subviz">Spectrum visualization subViz</a> section.</p></li>
+<li><p>The “Ellipse Coordinates” option will show a new window that contains the X and Y coordinates of the top and bottom side of the ellipse, and the values in pixels of the major and minor axis  from a selected subband, which will update when the figure change.</p></li>
+<li><p>The “Creation of Ellipse parameterized” option will allow to update or create in a new window the same ellipse figure as the one created in the first point given three possibilities:
+1. Create the ellipse with the center coordinates in pixels or in RA/DEC whose units are 00h00m00.00s, +/-00d00m00.00s respectively, and the axis in pixels or arcsec.
+2. Create the ellipse calculating the centroid previously, whose process will be explained in the <a class="reference internal" href="#centroid-functionalities">Centroid functionalities</a> section, to set the center of the ellipse as the coordinates of the centroid.
+3. Create the ellipse calculating the centroid previously.</p>
+<p>In all previous possibilities, the figure can be created or updated using the center coordinates along with the height and the width, which can be written in it’s associated text fields. Once the parameters had been written, pressing the associated button given the type of coordinates located at the bottom of the window will update the coordinates of it, and make the same process as the one described in the first point.</p>
+</li>
+</ol>
+</div>
+<div class="section" id="spectrum-visualization">
+<span id="spectrum-visualization-subviz"></span><h3>Spectrum visualization<a class="headerlink" href="#spectrum-visualization" title="Permalink to this headline">¶</a></h3>
+<p>After an aperture or background operation, spectra will appear, which corresponds to the represententation of each operation for each wavelength for each subband(see <a class="reference internal" href="#figure9-mrs-sub-viz"><span class="std std-numref">Fig. 71</span></a>).</p>
+<p>Along with the spectra, top and bottom buttons will be able to be pressed to use different functionalities.</p>
+<p>The top buttons corresponds with:
+1. Zoom option, which allow to select a rectangle area with the left click on the plot to zoom in or right click to zoom out.
+2. Pan option, which allow to move along the plot pressing and displacing the left click mouse button.
+3. Zoom reset option, which allow to show the plot as it was initially
+4. Select galaxy lines option, which allow to represent multiple galaxy lines from a list given its wavelength values where a redshift number can be applied to them (see <a class="reference internal" href="#figure10-mrs-sub-viz"><span class="std std-numref">Fig. 72</span></a>).</p>
+<div class="figure align-default" id="figure9-mrs-sub-viz">
+<img alt="_images/subViz_re9.png" src="_images/subViz_re9.png" />
+</div>
+<p>The bottom buttons corresponds with:</p>
+<ol class="arabic simple">
+<li><p>The “Save as png” button and “Save spectra as txt” button allows to capture in a PNG file the current plot and to get the spectra as a txt file that contains different columns depending on the number of spectra represented. The second file then can be used on the fit_line or quick_viz tool.</p></li>
+<li><p>The “Load spectrum on fitLine” button allow to import directly a set of contiguous spectra selected from the range of the three avaliable into the fitLine  (see <a class="reference internal" href="#figure11-mrs-sub-viz"><span class="std std-numref">Fig. 73</span></a>).</p></li>
+</ol>
+<div class="figure align-default" id="figure10-mrs-sub-viz">
+<img alt="_images/subViz_re10.png" src="_images/subViz_re10.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure11-mrs-sub-viz">
+<img alt="_images/subViz_re11.png" src="_images/subViz_re11.png" />
+</div>
+</div>
+<div class="section" id="background-subtraction">
+<span id="background-subtraction-subviz"></span><h3>Background subtraction<a class="headerlink" href="#background-subtraction" title="Permalink to this headline">¶</a></h3>
+<p>Another feature is the possibility to obtain the spectra resulting from the subtraction of a background delimited parametrically from the spectrum of the aperture created manually. In order to delimite the area of the background the first aperture where corresponds to the rectangle or the ellipse figure need to have been drawn, and then an annulus or rectangle aperture will be created to implement the background operation. The position in pixels of both rings to perform the annulus aperture or the center coordinates along with the height and width pixel values of the rectangle aperture will be written in the next window after pressing the “Background subtraction” option in the menu (see <a class="reference internal" href="#figure12-mrs-sub-viz"><span class="std std-numref">Fig. 74</span></a>). As a result, this operation will be performed along all existing subbands, showing the result in the main window as another figure (see <a class="reference internal" href="#figure13-mrs-sub-viz"><span class="std std-numref">Fig. 75</span></a>), and two new spectra for each subband on the spectrumVisualization window, where the red one corresponds to the annulus aperture, an the green one to the background subtraction (see <a class="reference internal" href="#figure14-mrs-sub-viz"><span class="std std-numref">Fig. 76</span></a>).</p>
+<div class="figure align-default" id="figure12-mrs-sub-viz">
+<img alt="_images/subViz_re12.png" src="_images/subViz_re12.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure13-mrs-sub-viz">
+<img alt="_images/subViz_re13.png" src="_images/subViz_re13.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure14-mrs-sub-viz">
+<img alt="_images/subViz_re14.png" src="_images/subViz_re14.png" />
+</div>
+<p>Everytime the figure is moved or resized or changed (from rectangle, ellipse or the rings), the previous spectrums will change in order to adjust to the new values.</p>
+</div>
+<div class="section" id="centroid-functionalities">
+<h3>Centroid functionalities<a class="headerlink" href="#centroid-functionalities" title="Permalink to this headline">¶</a></h3>
+<p>Calculating the centroid can be done pressing the “Calculate centroid” button or through the aperture process mentioned in the <a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a> and <a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a> section, which on both parts, it is required to follow these two steps once the subband where the centroid will be calculated is selected:</p>
+<blockquote>
+<div><ol class="arabic simple">
+<li><p>Select the wavelength range to obtain the spectral sum through this range to visualize it in an image (see <a class="reference internal" href="#figure15-mrs-sub-viz"><span class="std std-numref">Fig. 77</span></a>).</p></li>
+<li><p>Select the rectangle are where the centroid will be calculated (see <a class="reference internal" href="#figure16-mrs-sub-viz"><span class="std std-numref">Fig. 78</span></a>).</p></li>
+</ol>
+</div></blockquote>
+<div class="figure align-default" id="figure15-mrs-sub-viz">
+<img alt="_images/subViz_re15.png" src="_images/subViz_re15.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure16-mrs-sub-viz">
+<img alt="_images/subViz_re16.png" src="_images/subViz_re16.png" />
+</div>
+<p>Once the process has finished, the operation will be done for each existent subband, showing a red marker on each image, and the centroid coordinates in pixel values in a new window (see <a class="reference internal" href="#figure17-mrs-sub-viz"><span class="std std-numref">Fig. 79</span></a>).</p>
+<div class="figure align-default" id="figure17-mrs-sub-viz">
+<img alt="_images/subViz_re17.png" src="_images/subViz_re17.png" />
+</div>
+<p>Once a centroid has been calculated, it’s associated pixel coordinates from a subband can be seen, pressing the “CENTROID COORDINATES” button (see <a class="reference internal" href="#figure18-mrs-sub-viz"><span class="std std-numref">Fig. 80</span></a>).</p>
+<div class="figure align-default" id="figure18-mrs-sub-viz">
+<img alt="_images/subViz_re18.png" src="_images/subViz_re18.png" />
+</div>
+</div>
+<div class="section" id="collapsed-image">
+<h3>Collapsed image<a class="headerlink" href="#collapsed-image" title="Permalink to this headline">¶</a></h3>
+<p>Its also possible to obtain from a subband, the spectral range sum of it as an image through the “Get collapsed image” option in the “Tool” button. To get it, it is neccesary to select, from the subband where the image is going to be created, the wavelength range, this will generate the final image (see <a class="reference internal" href="#figure19-mrs-sub-viz"><span class="std std-numref">Fig. 81</span></a>) with the possibility to:</p>
+<ol class="arabic simple">
+<li><p>Reset the image to its original X and Y limits if the image have been zoom in or out with the mouse wheel.</p></li>
+<li><p>Save the image as a .fits file.</p></li>
+</ol>
+<div class="figure align-default" id="figure19-mrs-sub-viz">
+<img alt="_images/subViz_re19.png" src="_images/subViz_re19.png" />
+</div>
+</div>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<p>This example shows the whole main process to load the background spectra from an small set of MRS galaxy cube files of one of the two directory that are inside the templates, into the fitLine tool.</p>
+<p>To load the directory without any filter, first, the path of the directory must be selected pressing the “Select directory” button from the cubeLoader window, then, PRESSING the accept button will load each image to its associate subband (see <a class="reference internal" href="#figure20-mrs-sub-viz"><span class="std std-numref">Fig. 82</span></a>).</p>
+<div class="figure align-default" id="figure20-mrs-sub-viz">
+<img alt="_images/subViz_re20.png" src="_images/subViz_re20.png" />
+</div>
+<p>Once the directory has been loaded, the next part consists of getting the aperture from a specific area. To do that, it has been decided to use the rectangle figure as the aperture based on the parameterization process, using the centroid as the center of it, as shown in their process described below:</p>
+<ol class="arabic simple">
+<li><p>The “1L” subband is selected (see <a class="reference internal" href="#figure21-mrs-sub-viz"><span class="std std-numref">Fig. 83</span></a>).</p></li>
+<li><p>The “Select all wavelength range” button is pressed for a better way to decide the area where the centroid is going to be calculated (see <a class="reference internal" href="#figure22-mrs-sub-viz"><span class="std std-numref">Fig. 84</span></a>).</p></li>
+<li><p>The area where the centroid is going to be calculated is selected, pressing, and releasing the left mouse button on the rectangle area where approximately the center of the figure concurs with the center of the image.</p></li>
+<li><p>Because the center coordinates in pixel values have been calculated from the centroid, the only remaining values are the height and width size of the rectangle, which in this case it has been decided to be written in pixel, whose values are 5 and 7 respectively (see <a class="reference internal" href="#figure23-mrs-sub-viz"><span class="std std-numref">Fig. 85</span></a>).</p></li>
+<li><p>At the end, the rectangle figure has been drawn through all images and the spectra of all of them (see <a class="reference internal" href="#figure24-mrs-sub-viz"><span class="std std-numref">Fig. 86</span></a>), drawn in the spectrumVisualization window (see <a class="reference internal" href="#figure25-mrs-sub-viz"><span class="std std-numref">Fig. 87</span></a>).</p></li>
+</ol>
+<div class="figure align-default" id="figure21-mrs-sub-viz">
+<img alt="_images/subViz_re21.png" src="_images/subViz_re21.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure22-mrs-sub-viz">
+<img alt="_images/subViz_re22.png" src="_images/subViz_re22.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure23-mrs-sub-viz">
+<img alt="_images/subViz_re23.png" src="_images/subViz_re23.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure24-mrs-sub-viz">
+<img alt="_images/subViz_re24.png" src="_images/subViz_re24.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure25-mrs-sub-viz">
+<img alt="_images/subViz_re25.png" src="_images/subViz_re25.png" />
+</div>
+<p>Once the aperture spectra have been drawn, the next part consist of calculating the background subtraction from the rectangle figure using the annulus or rectangle aperture, which in this case it has been decided to use the annulus for better visualization. This process requires to select the “Background subtraction” button from the “Tools” option, and then writing the radius in pixel of the inner and outer rings, which in this example, have been set to 7 and 12 (see <a class="reference internal" href="#figure26-mrs-sub-viz"><span class="std std-numref">Fig. 88</span></a>).</p>
+<div class="figure align-default" id="figure26-mrs-sub-viz">
+<img alt="_images/subViz_re26.png" src="_images/subViz_re26.png" />
+</div>
+<p>The “Apply wedges background subtraction to each cube” button has been pressed, each of the images will be updated with its associated transformed annulus, and two new spectra for each spectrum will appear. Those two new corresponds to the mean flux value of the background for each wavelength with a red color, and the subtraction of the background aperture area from the initial spectrum with a green color (see <a class="reference internal" href="#figure27-mrs-sub-viz"><span class="std std-numref">Fig. 89</span></a>).</p>
+<div class="figure align-default" id="figure27-mrs-sub-viz">
+<img alt="_images/subViz_re27.png" src="_images/subViz_re27.png" />
+</div>
+<p>To load the fit_line tool, the “Load spectrum on fitLine” button from the previous window need to be pressed, which will show the last window associated to set the desired paramaters that are gonna be represented in the fit_line too. In this example, the spectra selected is the “Background subtracted spectrum”, the contiguous subbands selected are “1M” and “1L”, the redshift value has been set to 0.0 and the units of the wavelength and flux parameters to X and Y respectively (see <a class="reference internal" href="#figure28-mrs-sub-viz"><span class="std std-numref">Fig. 90</span></a>). After all actions have been made, the “Accept” button is pressed, and the fit_line tool appear, showing the final spectrum (see <a class="reference internal" href="#figure29-mrs-sub-viz"><span class="std std-numref">Fig. 91</span></a>).</p>
+<div class="figure align-default" id="figure28-mrs-sub-viz">
+<img alt="_images/subViz_re28.png" src="_images/subViz_re28.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure29-mrs-sub-viz">
+<img alt="_images/subViz_re29.png" src="_images/subViz_re29.png" />
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Sub Viz Tutorial</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#initial-display">Initial display</a></li>
+<li><a class="reference internal" href="#data-insertion">Data insertion</a><ul>
+<li><a class="reference internal" href="#image-manipulation">Image manipulation</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#slice-modification">Slice modification</a><ul>
+<li><a class="reference internal" href="#interactive-option">Interactive option</a></li>
+<li><a class="reference internal" href="#style-manipulation">Style manipulation</a></li>
+<li><a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a></li>
+<li><a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a></li>
+<li><a class="reference internal" href="#spectrum-visualization">Spectrum visualization</a></li>
+<li><a class="reference internal" href="#background-subtraction">Background subtraction</a></li>
+<li><a class="reference internal" href="#centroid-functionalities">Centroid functionalities</a></li>
+<li><a class="reference internal" href="#collapsed-image">Collapsed image</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="cube_ans_tutorial.html"
+                        title="previous chapter">Cube Ans Tutorial</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="all_tools_tutorial.html"
+                        title="next chapter">All_tools Tutorial</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/mrs_sub_viz_tutorial.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="all_tools_tutorial.html" title="All_tools Tutorial"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="cube_ans_tutorial.html" title="Cube Ans Tutorial"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">AstroCabTools 1.5.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Sub Viz Tutorial</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Alejandro Gorgues.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.1.
+    </div>
+  </body>
+</html>

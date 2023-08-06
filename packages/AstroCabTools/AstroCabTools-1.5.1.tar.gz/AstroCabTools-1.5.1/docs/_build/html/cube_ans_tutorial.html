@@ -1,0 +1,331 @@
+
+
+<!doctype html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cube Ans Tutorial &#8212; AstroCabTools 1.5.0 documentation</title>
+    <link rel="stylesheet" href="_static/bizstyle.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script async="async" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <script src="_static/bizstyle.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Sub Viz Tutorial" href="mrs_sub_viz_tutorial.html" />
+    <link rel="prev" title="Fit Line Tutorial" href="fit_line_tutorial.html" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--[if lt IE 9]>
+    <script src="_static/css3-mediaqueries.js"></script>
+    <![endif]-->
+  </head><body>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="mrs_sub_viz_tutorial.html" title="Sub Viz Tutorial"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="fit_line_tutorial.html" title="Fit Line Tutorial"
+             accesskey="P">previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">AstroCabTools 1.5.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Cube Ans Tutorial</a></li> 
+      </ul>
+    </div>  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="cube-ans-tutorial">
+<span id="id1"></span><h1>Cube Ans Tutorial<a class="headerlink" href="#cube-ans-tutorial" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="overview">
+<h2>Overview<a class="headerlink" href="#overview" title="Permalink to this headline">¶</a></h2>
+<p>Cube_Ans allows to represent a galaxy cube that comes from a MIRI, MUSE or MEGARA cube structure in form of an image for each slice with the options to move through each one.
+Based on the image represented, an aperture operation along with the background subtraction operation can be made on it, showing different spectra along all the slices, with the posibility to represent it in the fit_line tool.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Only works with the MIRI, MUSE or MEGARA Cube format</p>
+</div>
+</div>
+<div class="section" id="requirements">
+<h2>Requirements<a class="headerlink" href="#requirements" title="Permalink to this headline">¶</a></h2>
+<p>To execute and use the too, the next libraries need to be installed:</p>
+<ul class="simple">
+<li><p>Python (tested for 3.8.0)</p></li>
+<li><p>Matplotlib (tested for 3.1.2)</p></li>
+<li><p>Numpy (tested for 1.81.1)</p></li>
+<li><p>PyQt5 (tested for 5.14.0)</p></li>
+<li><p>Seaborn (tested for 0.9.0)</p></li>
+<li><p>Lmfit (tested for 1.0.0)</p></li>
+<li><p>PyPubSub (tested for 4.0.3)</p></li>
+<li><p>Photutils (tested for 1.1.0)</p></li>
+<li><p>jwst (tested for 1.3.2)</p></li>
+</ul>
+</div>
+<div class="section" id="initial-display">
+<h2>Initial display<a class="headerlink" href="#initial-display" title="Permalink to this headline">¶</a></h2>
+<p>After the tool is loaded, a window with a menu bar and several buttons in it at the top of it will appear which will interact with the images on the canvas.</p>
+</div>
+<div class="section" id="data-insertion">
+<h2>Data insertion<a class="headerlink" href="#data-insertion" title="Permalink to this headline">¶</a></h2>
+<p>To be able to interact with the images the “Open” button in the “File” menu option on the top left of the window need to be pressed, showing a new window which will allow to select the type of cube that is going be loaded. The selection of the cube is necessary because of the different headers that each cube has (see <a class="reference internal" href="#figure1-cube-ans"><span class="std std-numref">Fig. 44</span></a>).</p>
+<div class="figure align-default" id="figure1-cube-ans">
+<img alt="_images/cubeAns-in1.png" src="_images/cubeAns-in1.png" />
+</div>
+</div>
+<div class="section" id="data-interaction">
+<h2>Data interaction<a class="headerlink" href="#data-interaction" title="Permalink to this headline">¶</a></h2>
+<p>Once the cube has been selected, the first slice, which corresponds to the first wavelenght, will appear on the canvas (see <a class="reference internal" href="#figure2-cube-ans"><span class="std std-numref">Fig. 45</span></a>). Using the top components, the slice can be changed with:</p>
+<ul class="simple">
+<li><p>An slider that has a range determinated from the minimum and máximum value of the wavelength. Once it has been moved, the “Slice Value” spin, the “Wavelength Value” text edit field and the current image will changed with it’s associated values based on the current wavelength, slice values and image index.</p></li>
+<li><p>An spin that can be used to changed to the slice that want to be shown. As told before, once this field change, the other components related will change too.</p></li>
+<li><p>A text field that can be used to change to the slice that want to be shown based on the approximated wavelength value. After this file change, the other componentes will change too.</p></li>
+</ul>
+<div class="figure align-default" id="figure2-cube-ans">
+<img alt="_images/cubeAns-re2.png" src="_images/cubeAns-re2.png" />
+</div>
+<div class="section" id="image-manipulation">
+<span id="image-manipulation-cubeans"></span><h3>Image manipulation<a class="headerlink" href="#image-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>The “Tools” option in the menu bar contains multiple sections related to different actions (see <a class="reference internal" href="#figure3-cube-ans"><span class="std std-numref">Fig. 46</span></a>). In this section, the first part contains different choices to manipulate the images:</p>
+<ul class="simple">
+<li><p>The Unselect option which disallow the current option selected.</p></li>
+<li><p>The Zoom option allow to make zoom to the current image with the mouse wheel and maintain that zoom along all the slices</p></li>
+<li><p>The Pan option allow to move the current image with the left mouse button and maintain that shift alonw all the slices.</p></li>
+<li><p>The Zoom reset option allow to show the image as it was initially</p></li>
+<li><p>The Rectangle aperture and Ellipse aperture options allow to select an area based on the type of figure and make the aperture to obtain the associated spectrum. This complete process will be explained in the <a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a> and <a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a> sections.</p></li>
+<li><p>The Creation of the rectangle and ellipse paremeterized options allow to implement the aperture as the option before but in this case, the figure is created based on the pixel coordinates inserted previously. This complete process will be explained in the <a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a> and <a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a> section.</p></li>
+<li><p>The Rectangle coordinates and Ellipse coordinates options allow to see the coordinates in pixels of each of the figure.</p></li>
+<li><p>The Spectrum visualization option allow to see, if the window was closed before, the spectra made from the aperture and background operations. This complete process will be explained in the <a class="reference internal" href="#background-subtraction-cubeans">Background subtraction cubeAns</a> section.</p></li>
+<li><p>The Background subtraction option allow to obtain the spectrum as a result of the background subtraction from the aperture made initially and the annulus aperture made through this process along with the spectrum made from this annulus apperture, whose complete functionality will be explained in the <a class="reference internal" href="#background-subtraction-cubeans">Background subtraction cubeAns</a> section.</p></li>
+</ul>
+<div class="figure align-default" id="figure3-cube-ans">
+<img alt="_images/cubeAns-re3.png" src="_images/cubeAns-re3.png" />
+</div>
+</div>
+<div class="section" id="style-manipulation">
+<h3>Style manipulation<a class="headerlink" href="#style-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>The third option listed on the top bar corresponds to the style which allows to change the scale, stretch and color of the current image displayed (see <a class="reference internal" href="#figure4-cube-ans"><span class="std std-numref">Fig. 47</span></a>):</p>
+<ul class="simple">
+<li><p>The Color of the image can be change with a palette of them like Accent or CoolWarm</p></li>
+<li><p>The Scale of the image can be set to show it with a Min-Max interval or a ZScale</p></li>
+<li><p>The Stretch of the image can be set to use a sqrt, log or linear stretch.</p></li>
+</ul>
+<div class="figure align-default" id="figure4-cube-ans">
+<img alt="_images/cubeAns-re4.png" src="_images/cubeAns-re4.png" />
+</div>
+</div>
+<div class="section" id="rectangle-manipulation">
+<h3>Rectangle manipulation<a class="headerlink" href="#rectangle-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>Related to the rectangle manipulation, three options can be selected:</p>
+<ol class="arabic simple">
+<li><p>The “Rectangle aperture” option, which allow to obtain the aperture spectrum associated to the rectangle area.
+After the option has been selected, the rectangle figure will be able to be drawn manually on the current image (see <a class="reference internal" href="#figure5-cube-ans"><span class="std std-numref">Fig. 48</span></a>). Once the figure has been created, a new window will appear, showing the spectrum associated to the aperture along with different buttons, whose functionality will be explained in the <a class="reference internal" href="#spectrum-visualization-cubeans">Spectrum visualization cubeAns</a> section.</p></li>
+<li><p>The “Rectangle Coordinates” option will show a new window that contains the X and Y coordinates of the left, right, top and bottom side of the rectangle, which will update when the figure change (see <a class="reference internal" href="#figure6-cube-ans"><span class="std std-numref">Fig. 49</span></a>).</p></li>
+<li><p>The “Creation of Rectangle parameterized” option will allow to update or create in a new window the same rectangle figure as the one created in the first point, given the coordinates in pixels. The figure can be created or updated using the bottom left or the center coordinates along with the height and the width, which can be written in it’s associated text fields. Once the parameters had been written, the button located at the bottom of the window will update the coordinates of it (see <a class="reference internal" href="#figure7-cube-ans"><span class="std std-numref">Fig. 50</span></a>).</p></li>
+</ol>
+<div class="figure align-default" id="figure5-cube-ans">
+<img alt="_images/cubeAns-re5.png" src="_images/cubeAns-re5.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure6-cube-ans">
+<img alt="_images/cubeAns-re6.png" src="_images/cubeAns-re6.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure7-cube-ans">
+<img alt="_images/cubeAns-re7.png" src="_images/cubeAns-re7.png" />
+</div>
+</div>
+<div class="section" id="ellipse-manipulation">
+<h3>Ellipse manipulation<a class="headerlink" href="#ellipse-manipulation" title="Permalink to this headline">¶</a></h3>
+<p>Related to the ellipse manipulation, three options can be selected:</p>
+<ol class="arabic simple">
+<li><p>The “Ellipse aperture” option, which allow to obtain the aperture spectrum associated to the ellipse area.
+After the option has been selected, the ellipse figure will be able to be drawn manually on the current image. Once the figure has been created, a new window will appear, showing the spectrum associated to the aperture along with different buttons, whose functionality will be explained in the <a class="reference internal" href="#spectrum-visualization-cubeans">Spectrum visualization cubeAns</a> section.</p></li>
+<li><p>The “Ellipse Coordinates” option will show a new window that contains the X and Y coordinates of the top and bottom side of the ellipse, and the value in pixels of the major and minor axis, which will update when the figure change.</p></li>
+<li><p>The “Creation of Ellipse parameterized” option will allow to update or create in a new window the same ellipse figure as the one created in the first point, given the coordinates in pixels. The figure can be created or updated using the center coordinates along with the size of the major and minor axis, which can be written in it’s associated text fields. Once the parameters had been written, the button located at the bottom of the window will update the coordinates of it.</p></li>
+</ol>
+</div>
+<div class="section" id="spectrum-visualization">
+<span id="spectrum-visualization-cubeans"></span><h3>Spectrum visualization<a class="headerlink" href="#spectrum-visualization" title="Permalink to this headline">¶</a></h3>
+<p>As told before, an spectrum or spectra will appear, which corresponds to the representation of each aperture or background for each wavelength(see <a class="reference internal" href="#figure8-cube-ans"><span class="std std-numref">Fig. 51</span></a>). By default the zoom and pan are active in order to use them with the mouse wheel and the left click mouse correspondingly.</p>
+<p>Along with the spectra, a vertical black line appears that matches the current wavelength</p>
+<p>Below the representation, several buttons appears:</p>
+<ol class="arabic simple">
+<li><p>The “Select area for collapse image” and “Move range are for collapse image” buttons allow to obtain the total sum of each pixel from each wavelength value in a rectangular area in a new window, pressing manually the initial and final wavelength values as well as pressing the figure once created to move along the wavelength axis (see <a class="reference internal" href="#figure9-cube-ans"><span class="std std-numref">Fig. 52</span></a>).</p></li>
+<li><p>The “Show image from wavelength range” button allow to show the image created before in case it has been closed previously</p></li>
+<li><p>The “Save as png” button and “Save spectra as txt” button allows to capture in a PNG file the current plot and to get the spectra as a txt file that contains different columns depending on the number of spectra represented. The second file then can be used on the fit_line or quick_viz tool.</p></li>
+<li><p>The “Show image from wavelength range” button allow to load the spectrum selected into the fit_line tool. To make it possible, a new window will appear which require to select the redshift that will be applied to both wavelength and flux values and the units that are originally because a conversion to X and Y are gonna be applied. This process follows the same structure as if an spectrum would be loaded using the fit_line tool with the exception of the colums where both values are, that in this case are not needed. Once all had been selected, pressing the “Accept” button will apply the changes and the result will be shown in the main window of fit_line.</p></li>
+<li><p>The “Load spectrum on fitLine” button allow to import directly the spectrum selected from the range of the three avaliable into the fitLine  (see <a class="reference internal" href="#figure10-cube-ans"><span class="std std-numref">Fig. 53</span></a>).</p></li>
+</ol>
+<div class="figure align-default" id="figure8-cube-ans">
+<img alt="_images/cubeAns-re8.png" src="_images/cubeAns-re8.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure9-cube-ans">
+<img alt="_images/cubeAns-re9.png" src="_images/cubeAns-re9.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure10-cube-ans">
+<img alt="_images/cubeAns-re10.png" src="_images/cubeAns-re10.png" />
+</div>
+</div>
+<div class="section" id="background-subtraction">
+<span id="background-subtraction-cubeans"></span><h3>Background subtraction<a class="headerlink" href="#background-subtraction" title="Permalink to this headline">¶</a></h3>
+<p>Another feature is the possibility to obtain the spectrum resulting from the subtraction of a background delimited parametrically from the spectrum of the aperture created manually. In order to delimite the area of the background, the initial aperture must have been drawn, and then an annulus aperture will be created to implement the background operation. The position in pixels of both rings to perform the annulus aperture will be written in the next window after pressing the “Background subtraction” option in the menu (see <a class="reference internal" href="#figure11-cube-ans"><span class="std std-numref">Fig. 54</span></a>). As a result, two new spectra will appear on the spectrumVisualization window, where the red one corresponds to the annulus aperture, an the green one to the background subtraction (see <a class="reference internal" href="#figure12-cube-ans"><span class="std std-numref">Fig. 55</span></a>), and two new figures will appear in the main window showing the rings (see <a class="reference internal" href="#figure13-cube-ans"><span class="std std-numref">Fig. 56</span></a>).</p>
+<div class="figure align-default" id="figure11-cube-ans">
+<img alt="_images/cubeAns-re11.png" src="_images/cubeAns-re11.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure12-cube-ans">
+<img alt="_images/cubeAns-re12.png" src="_images/cubeAns-re12.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure13-cube-ans">
+<img alt="_images/cubeAns-re13.png" src="_images/cubeAns-re13.png" />
+</div>
+<p>Everytime the figure is moved or resized or changed (from rectangle, ellipse or the rings), the previous spectrums will change in order to adjust to the new values.</p>
+</div>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>The file called “e2e_asn_ch1-long_s3d.fits” located in the templates section had been used.</p>
+</div>
+<p>This first example shows the whole process to obtain the background spectrum as a result of the subtraction in the fit_line tool.</p>
+<p>After the cube have been loaded, the next part consists of getting the aperture for an specific area. In order to know the area to be selected, the color of the image has been changed into the rainbow color (see <a class="reference internal" href="#figure14-cube-ans"><span class="std std-numref">Fig. 57</span></a>), then the rectangle figure for the aperture has been selected to draw it, and the aperture spectrum, obtained (see <a class="reference internal" href="#figure15-cube-ans"><span class="std std-numref">Fig. 58</span></a>).</p>
+<div class="figure align-default" id="figure14-cube-ans">
+<img alt="_images/cubeAns-re14.png" src="_images/cubeAns-re14.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure15-cube-ans">
+<img alt="_images/cubeAns-re15.png" src="_images/cubeAns-re15.png" />
+</div>
+<p>Once the aperture spectrum is drawn, the background subtraction from the rectangle figure using the annulus can be made selecting its associated option in the menu. In this case, while the figure has already been drawn, both radius for the annulus aperture are not, for that, the radius of the rings have been set to 7 and 12 (see :numref: <cite>figure16_cube_ans</cite>).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To be able to create both rings and to make the background subtraction, the “Background subtraction” button from the “Tools” option located in the menu bar was selected.</p>
+</div>
+<div class="figure align-default" id="figure16-cube-ans">
+<img alt="_images/cubeAns-re16.png" src="_images/cubeAns-re16.png" />
+</div>
+<p>Once both rings have been drawned, the “Apply background subtraction” button need to be pressed. This action will update the window that shows the initial spectrum with two more, the red and green one, that corresponds to the mean flux value of the background for each wavelength and the subtraction of the background aperture area from the initial spectrum (see <a class="reference internal" href="#figure17-cube-ans"><span class="std std-numref">Fig. 60</span></a>).</p>
+<div class="figure align-default" id="figure17-cube-ans">
+<img alt="_images/cubeAns-re17.png" src="_images/cubeAns-re17.png" />
+</div>
+<p>In order to load the fit_line tool, the “Load spectrum on fitLine” button from the previous window need to be pressed, which will show the last window associated to set the desired paramaters that are gonna be represented in the fit_line too. In this example, the redshift value has been set to 0.0 and the units of the wavelength and flux parameters to X and Y respectively (see <a class="reference internal" href="#figure18-cube-ans"><span class="std std-numref">Fig. 61</span></a>). After all actions have been made, the “Accept” button is pressed, and the fit_line tool appear, showing the spectrum (see <a class="reference internal" href="#figure19-cube-ans"><span class="std std-numref">Fig. 62</span></a>).</p>
+<div class="figure align-default" id="figure18-cube-ans">
+<img alt="_images/cubeAns-re18.png" src="_images/cubeAns-re18.png" />
+</div>
+<div class="line-block">
+<div class="line"><br /></div>
+</div>
+<div class="figure align-default" id="figure19-cube-ans">
+<img alt="_images/cubeAns-re19.png" src="_images/cubeAns-re19.png" />
+</div>
+</div>
+</div>
+
+
+            <div class="clearer"></div>
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="index.html">Table of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">Cube Ans Tutorial</a><ul>
+<li><a class="reference internal" href="#overview">Overview</a></li>
+<li><a class="reference internal" href="#requirements">Requirements</a></li>
+<li><a class="reference internal" href="#initial-display">Initial display</a></li>
+<li><a class="reference internal" href="#data-insertion">Data insertion</a></li>
+<li><a class="reference internal" href="#data-interaction">Data interaction</a><ul>
+<li><a class="reference internal" href="#image-manipulation">Image manipulation</a></li>
+<li><a class="reference internal" href="#style-manipulation">Style manipulation</a></li>
+<li><a class="reference internal" href="#rectangle-manipulation">Rectangle manipulation</a></li>
+<li><a class="reference internal" href="#ellipse-manipulation">Ellipse manipulation</a></li>
+<li><a class="reference internal" href="#spectrum-visualization">Spectrum visualization</a></li>
+<li><a class="reference internal" href="#background-subtraction">Background subtraction</a></li>
+</ul>
+</li>
+<li><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
+</ul>
+
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="fit_line_tutorial.html"
+                        title="previous chapter">Fit Line Tutorial</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="mrs_sub_viz_tutorial.html"
+                        title="next chapter">Sub Viz Tutorial</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="_sources/cube_ans_tutorial.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="mrs_sub_viz_tutorial.html" title="Sub Viz Tutorial"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="fit_line_tutorial.html" title="Fit Line Tutorial"
+             >previous</a> |</li>
+        <li class="nav-item nav-item-0"><a href="index.html">AstroCabTools 1.5.0 documentation</a> &#187;</li>
+        <li class="nav-item nav-item-this"><a href="">Cube Ans Tutorial</a></li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2020, Alejandro Gorgues.
+      Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 3.1.1.
+    </div>
+  </body>
+</html>
