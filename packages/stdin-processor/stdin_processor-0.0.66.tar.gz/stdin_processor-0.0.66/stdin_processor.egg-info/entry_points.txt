@@ -1,0 +1,3 @@
+[console_scripts]
+sp = stdin_processor.main:run
+
