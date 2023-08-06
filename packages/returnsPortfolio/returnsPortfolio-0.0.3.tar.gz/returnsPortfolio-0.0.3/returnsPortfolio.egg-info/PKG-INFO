@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: returnsPortfolio
+Version: 0.0.3
+Summary: Calculate portfolio returns
+Home-page: UNKNOWN
+Author: Shawn Jiang
+Author-email: shawnjiang619@gmail.com
+License: MIT
+Description: Using a time series of returns and a time series of weights for each asset, the function calculates the returns of a portfolio with the same periodicity of the returns data
+Keywords: return portfolio
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
