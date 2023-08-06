@@ -1,0 +1,17 @@
+modelicares/__init__.py,sha256=vaz_rVb9JyyaqkyXMQGC4nup8NfFIoLD3c09hC6Nq5Y,4970
+modelicares/_freqplot.py,sha256=4MKGShWsAKqVvDIOFxQUo1XPFiR4ejBv_Dmt2SCCKs0,13022
+modelicares/_gui.py,sha256=wG2-kAKWNm6osXz1oS1bBWkQ2w16ZyL-euOHG2fCB8o,5370
+modelicares/_res.py,sha256=Av82eJdCg-35BE68uZoCOpHdpx-EJlTSaReX6o_uvtY,5929
+modelicares/linres.py,sha256=TefWg8WS9AmUnbI5wispElvNpI4lprqk4Az0BuqQskU,36383
+modelicares/simres.py,sha256=_M7SWobM2d-5LSolc9vJnI0PtIsttACAwb2m1U9FRm0,78153
+modelicares/texunit.py,sha256=Pu7vLe0wLQ-fnYfVnuZtBMRcpV5Se9ZGYz5tAziAY_c,8521
+modelicares/util.py,sha256=4aaw0OGukLcCC_jgai2RkNAGNxrFK3yL71UqdZOwVVo,52379
+modelicares/_io/__init__.py,sha256=oGytz0zaaHjpyovvFIbvFjrlNZ-siUXvD2cmw6rIMM4,1607
+modelicares/_io/dymola.py,sha256=01i3Je4U-h1dALkAs-vRZAaP_BTNyJqc-_hTnOMeUvI,16479
+modelicares/exps/__init__.py,sha256=hEatdMq65-yjSNtk47_bsWA5S1sB3TULZHz5TDf-kkM,35153
+modelicares/exps/doe.py,sha256=5e-4nTP0Pl9yHERuoNoi_fXdD18Xya2IrbzE3oiNSmo,1947
+Modelicares_Revised-1.0.dist-info/LICENSE.txt,sha256=5Mwxzw6w1oLTLZs6csQNPRn-3scP99P0pjQiEEMKo3U,1360
+Modelicares_Revised-1.0.dist-info/METADATA,sha256=_hkdsnqcEUoWFx_skER0eeZza9MIBsFOU0aRn8xjWso,640
+Modelicares_Revised-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Modelicares_Revised-1.0.dist-info/top_level.txt,sha256=RyD5mJrWvR2FfM2drFF7L5lSjBPwtuqAINi8OXfggO4,12
+Modelicares_Revised-1.0.dist-info/RECORD,,
