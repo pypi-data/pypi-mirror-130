@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.stock_package_shipping_label_filestore
+
+[report]
+omit = */tests/*,*/setup.py
