@@ -1,0 +1,10 @@
+apns2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+apns2/client.py,sha256=PhP6uRTIsFiWoj-OkftSKSCODFJUHwdOqKvhlvz2XLA,12521
+apns2/credentials.py,sha256=lISvdiO1KeM4pWKp7HoMY__YHinm7rdbjdPeXN9MSPo,3987
+apns2/errors.py,sha256=bOUNm-omN5r5cEHkryZ-yDF-RFSZnis3roDMJltyXYk,5179
+apns2/payload.py,sha256=82c6zXc8eScDZBGIJV2eiqWZaAubrwEH7yov86sC6F0,4376
+apns2_py3-0.7.2.dist-info/LICENSE,sha256=rjWULkDbh-2s-MIk9QtKgm-edgMJAP1vZZGtC-JMPWo,1080
+apns2_py3-0.7.2.dist-info/METADATA,sha256=d_zmGRbP1t3yJ-1nS4qz84Y--W049W6a0Zy1Xypd4-A,873
+apns2_py3-0.7.2.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+apns2_py3-0.7.2.dist-info/top_level.txt,sha256=ZHRMLFkvg0H47cGflwIIBGDK7-PH_1Hf5pz5aus12Ik,6
+apns2_py3-0.7.2.dist-info/RECORD,,
