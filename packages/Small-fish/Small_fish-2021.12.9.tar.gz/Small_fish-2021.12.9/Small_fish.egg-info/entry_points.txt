@@ -1,0 +1,3 @@
+[console_scripts]
+Small-fish = Small_fish.__main__:Smallfish
+
