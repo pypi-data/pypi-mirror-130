@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tacitus/__init__.py
+src/tacitus/_version.py
+src/tacitus/tacitus.py
+src/tacitus_notes.egg-info/PKG-INFO
+src/tacitus_notes.egg-info/SOURCES.txt
+src/tacitus_notes.egg-info/dependency_links.txt
+src/tacitus_notes.egg-info/entry_points.txt
+src/tacitus_notes.egg-info/top_level.txt

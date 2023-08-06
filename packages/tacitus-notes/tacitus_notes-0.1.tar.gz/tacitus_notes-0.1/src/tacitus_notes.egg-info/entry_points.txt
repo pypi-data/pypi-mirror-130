@@ -1,0 +1,3 @@
+[console_scripts]
+tacitus-notes = tacitus:main
+
