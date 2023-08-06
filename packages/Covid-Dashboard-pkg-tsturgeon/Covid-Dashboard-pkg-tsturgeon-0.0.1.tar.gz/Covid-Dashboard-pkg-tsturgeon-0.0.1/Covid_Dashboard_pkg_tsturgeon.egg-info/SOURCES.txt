@@ -1,0 +1,15 @@
+README.md
+license
+setup.py
+Covid_Dashboard_pkg_tsturgeon.egg-info/PKG-INFO
+Covid_Dashboard_pkg_tsturgeon.egg-info/SOURCES.txt
+Covid_Dashboard_pkg_tsturgeon.egg-info/dependency_links.txt
+Covid_Dashboard_pkg_tsturgeon.egg-info/top_level.txt
+covid_dashboard/__init__.py
+covid_dashboard/__main__.py
+covid_dashboard/covid_data_handler.py
+covid_dashboard/covid_news_handling.py
+covid_dashboard/shared_functions.py
+tests/__init__.py
+tests/test_covid_data_handler.py
+tests/test_news_data_handling.py
