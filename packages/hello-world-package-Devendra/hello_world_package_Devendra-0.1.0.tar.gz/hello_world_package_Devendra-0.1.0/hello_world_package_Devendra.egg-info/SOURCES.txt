@@ -1,0 +1,10 @@
+README.md
+setup.py
+hello_world_package_Devendra.egg-info/PKG-INFO
+hello_world_package_Devendra.egg-info/SOURCES.txt
+hello_world_package_Devendra.egg-info/dependency_links.txt
+hello_world_package_Devendra.egg-info/requires.txt
+hello_world_package_Devendra.egg-info/top_level.txt
+my_package/__init__.py
+my_package/module1.py
+my_package/module2.py
