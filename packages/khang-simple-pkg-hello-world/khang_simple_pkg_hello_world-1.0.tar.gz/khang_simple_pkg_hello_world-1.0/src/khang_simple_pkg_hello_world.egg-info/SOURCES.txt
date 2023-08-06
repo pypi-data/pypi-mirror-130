@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+src/khang_simple_pkg_hello_world.egg-info/PKG-INFO
+src/khang_simple_pkg_hello_world.egg-info/SOURCES.txt
+src/khang_simple_pkg_hello_world.egg-info/dependency_links.txt
+src/khang_simple_pkg_hello_world.egg-info/top_level.txt
+src/khangsimplepkghello/__init__.py
+src/khangsimplepkghello/simple.py
