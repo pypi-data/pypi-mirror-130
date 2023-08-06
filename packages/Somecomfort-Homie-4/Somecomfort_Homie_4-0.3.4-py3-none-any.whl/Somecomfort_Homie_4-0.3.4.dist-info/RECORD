@@ -1,0 +1,11 @@
+somecomfort_homie/__init__.py,sha256=EVh84K2XkED4bsPB10qR4q6SCbIp-6LdYq5IuJweVoo,23
+somecomfort_homie/sch.py,sha256=XTrqBxZSJN_7nc2IUsLZj9YVTMm0Y3_L1_fFWlUzv_M,4431
+somecomfort_homie/somecomfort_homie.py,sha256=hc8b9aU4f9Tk5nRgVWRtBuYYDIjR_psiNe6_I5vYaxU,4445
+somecomfort_homie/homie_device/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+somecomfort_homie/homie_device/device_honeywell_thermostat.py,sha256=PuVjTuPio_5E5t-dzqsPZ5y_6iKztatb2OS_iO4ftHI,6031
+somecomfort_homie/homie_device/device_total_comfort_account.py,sha256=MWXbU-iZqcAdGhgEs8Zj-xB270RZREb7g_4rJiDDGwU,1033
+Somecomfort_Homie_4-0.3.4.dist-info/LICENSE,sha256=XbAotLHdRgwCDG8MdxeVDlSYu32BYuf7e_U4ptiB6Zs,1085
+Somecomfort_Homie_4-0.3.4.dist-info/METADATA,sha256=R6l6BNeev6VxoYkThPFtOkIXLMOQeRX4ZEWzYZ-N0xo,1592
+Somecomfort_Homie_4-0.3.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Somecomfort_Homie_4-0.3.4.dist-info/top_level.txt,sha256=a1BVshZeRrX6yac3H-j4QIKkMVGmf1tTq__Y_LSsDFs,18
+Somecomfort_Homie_4-0.3.4.dist-info/RECORD,,
