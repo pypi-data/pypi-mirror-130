@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MSTeamsdataretrieval-neeti-sharma1
+Version: 0.0.1
+Summary: A library to handle MSTeams Attendance report
+Home-page: https://github.com/neetrophy/MSTeamsData_lib_NCI
+Author: Neeti
+Author-email: sharma1992nee@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Python library which takes MSteams attendance data as input and processes it and returns the data as list or dictionary 
+

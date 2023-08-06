@@ -1,0 +1,1 @@
+Python library which takes MSteams attendance data as input and processes it and returns the data as list or dictionary 
