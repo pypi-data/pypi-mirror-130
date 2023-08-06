@@ -1,0 +1,9 @@
+tfdevops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfdevops/cfn.py,sha256=6Cbi8kIqa0TUT3MjYq0TBGipJNcrSvXwQgRh28aLOBw,11180
+tfdevops/cli.py,sha256=R0DGSc8YPECWhFW960J0pBf293E2viDl0ooW05c9Flg,5623
+tfdevops/resource.py,sha256=vEhhsbPmizAC3LG0VAt-kj3w2SBHbnkQOUHhC8xbWnw,12148
+tfdevops/utils.py,sha256=CGiXG9YvE4mwU7VjT6ER8WjXclbyhb94iKU--2vuc7w,2830
+tfdevops-0.1.1.dist-info/entry_points.txt,sha256=apzbO66_cN4Ris31XL2P0OQGjvFAqleTcWGwO7CIx40,45
+tfdevops-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tfdevops-0.1.1.dist-info/METADATA,sha256=p8_1OnOfbILQFj9X8I7hS0PP0TC1onIF-m3DAfx73pE,3477
+tfdevops-0.1.1.dist-info/RECORD,,
