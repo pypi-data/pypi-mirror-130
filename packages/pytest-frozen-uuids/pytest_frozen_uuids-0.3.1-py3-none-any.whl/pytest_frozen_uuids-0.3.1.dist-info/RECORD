@@ -1,0 +1,12 @@
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/config.py,sha256=Gu6eL6QEGzUpOCnjsQuEmE-aR9hXE5QWMJk5iDwYPoQ,521
+src/generators.py,sha256=IgZ7Pjx-Xe5bCzcSF90bkEB5Bw8GoSxGAWRjEFUYAY8,526
+src/utils.py,sha256=dCuovJm-WfpTnu2utRzFZZ59A-B9STIgFf9MCcdYct4,1613
+tests/unit/conftest.py,sha256=5ABYPQfupRtUNABdavTH0TiTJyTk2KumwDyTMnPdCAo,30
+tests/unit/test_freeze_uuids.py,sha256=Ueu6O77o3Htgan-FTFLA2gj3egW6wGPsQaigkA09NN8,5503
+pytest_frozen_uuids-0.3.1.dist-info/LICENSE,sha256=V8bmYVz2Kp0XXiGEjaLCDeVp8Z-BeLt2_VtYKVmDVy0,1081
+pytest_frozen_uuids-0.3.1.dist-info/METADATA,sha256=nTBspORnPLHpmStFWv6PpRokHW3XjTGCG9iZDVUNlpk,2403
+pytest_frozen_uuids-0.3.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pytest_frozen_uuids-0.3.1.dist-info/entry_points.txt,sha256=-BvkgL1EYTlG1N8QiQ4fl0Hr1Yacc9GtPUTHvnxSpXs,47
+pytest_frozen_uuids-0.3.1.dist-info/top_level.txt,sha256=KW3xgkz9NLMTcmmzgKvW8RFpCFkRIQ085qzq2diFf68,10
+pytest_frozen_uuids-0.3.1.dist-info/RECORD,,

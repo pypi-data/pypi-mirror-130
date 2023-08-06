@@ -1,0 +1,3 @@
+[pytest11]
+frozen_uuids = pytest_frozen_uuids
+
