@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/mytosex.egg-info/PKG-INFO
+src/mytosex.egg-info/SOURCES.txt
+src/mytosex.egg-info/dependency_links.txt
+src/mytosex.egg-info/top_level.txt
