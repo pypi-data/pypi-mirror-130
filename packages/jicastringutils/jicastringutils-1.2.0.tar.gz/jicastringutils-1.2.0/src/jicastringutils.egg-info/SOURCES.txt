@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.py
+src/jicastringutils/__init__.py
+src/jicastringutils/process.py
+src/jicastringutils.egg-info/PKG-INFO
+src/jicastringutils.egg-info/SOURCES.txt
+src/jicastringutils.egg-info/dependency_links.txt
+src/jicastringutils.egg-info/entry_points.txt
+src/jicastringutils.egg-info/requires.txt
+src/jicastringutils.egg-info/top_level.txt
+test/test.py
