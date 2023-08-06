@@ -1,0 +1,15 @@
+flask
+pydantic
+
+[dev]
+pipenv
+pytest
+coverage
+flake8
+ipdb
+pre-commit
+black
+
+[docs]
+mkdocs
+mkdocs-material

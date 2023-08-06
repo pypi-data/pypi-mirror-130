@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+setup.py
+pydantic_webargs/__init__.py
+pydantic_webargs.egg-info/PKG-INFO
+pydantic_webargs.egg-info/SOURCES.txt
+pydantic_webargs.egg-info/dependency_links.txt
+pydantic_webargs.egg-info/not-zip-safe
+pydantic_webargs.egg-info/requires.txt
+pydantic_webargs.egg-info/top_level.txt
