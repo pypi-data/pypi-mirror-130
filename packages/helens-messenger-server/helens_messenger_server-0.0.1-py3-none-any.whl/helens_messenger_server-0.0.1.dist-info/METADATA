@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: helens-messenger-server
+Version: 0.0.1
+Summary: helens_messenger - server part
+Home-page: UNKNOWN
+Author: Helen Maksimova
+Author-email: djushiro@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyQt5
+Requires-Dist: sqlalchemy
+Requires-Dist: pycryptodome
+Requires-Dist: pycryptodomex
+
+UNKNOWN
+
