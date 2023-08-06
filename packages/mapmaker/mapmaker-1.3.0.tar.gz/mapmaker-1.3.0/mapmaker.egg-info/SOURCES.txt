@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+default.ini
+mapmaker.py
+requirements.txt
+setup.py
+mapmaker.egg-info/PKG-INFO
+mapmaker.egg-info/SOURCES.txt
+mapmaker.egg-info/dependency_links.txt
+mapmaker.egg-info/entry_points.txt
+mapmaker.egg-info/requires.txt
+mapmaker.egg-info/top_level.txt
+test/test_parse.py
+test/test_tiles.py
