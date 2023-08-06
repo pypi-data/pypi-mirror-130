@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pydantic_configmanager
+Version: 0.1.1
+Summary: Get configurations with the help of pydantic
+Home-page: UNKNOWN
+Author: Filipe Spencer Lopes
+Author-email: filipe@spncr.be
+License: UNKNOWN
+Description: *******************************************************
+        Pydantic Configuration Manager - pydantic_configmanager
+        *******************************************************
+        Get configurations with the help of pydantic
+        
+        TODO - write documentation
+        
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6.8, <4
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: test

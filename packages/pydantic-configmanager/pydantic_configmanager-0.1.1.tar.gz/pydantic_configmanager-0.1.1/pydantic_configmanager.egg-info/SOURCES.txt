@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pydantic_configmanager/__init__.py
+pydantic_configmanager/main.py
+pydantic_configmanager.egg-info/PKG-INFO
+pydantic_configmanager.egg-info/SOURCES.txt
+pydantic_configmanager.egg-info/dependency_links.txt
+pydantic_configmanager.egg-info/requires.txt
+pydantic_configmanager.egg-info/top_level.txt
