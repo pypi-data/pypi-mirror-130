@@ -1,0 +1,16 @@
+COPYING
+README.md
+setup.cfg
+doctoshotgun/__init__.py
+doctoshotgun/__main__.py
+doctoshotgun/cli.py
+doctoshotgun/doctolib.py
+doctoshotgun/exceptions.py
+doctoshotgun/tools.py
+doctoshotgun.egg-info/PKG-INFO
+doctoshotgun.egg-info/SOURCES.txt
+doctoshotgun.egg-info/dependency_links.txt
+doctoshotgun.egg-info/entry_points.txt
+doctoshotgun.egg-info/not-zip-safe
+doctoshotgun.egg-info/requires.txt
+doctoshotgun.egg-info/top_level.txt
