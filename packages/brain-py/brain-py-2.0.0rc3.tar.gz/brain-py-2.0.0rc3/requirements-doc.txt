@@ -1,0 +1,11 @@
+-r requirements.txt
+
+jaxlib>=0.1.64
+
+# document requirements
+pandoc
+Jinja2
+sphinx>=3,<4
+myst-nb
+sphinx_rtd_theme>=1.0.0
+sphinx-autodoc-typehints==1.11.1
