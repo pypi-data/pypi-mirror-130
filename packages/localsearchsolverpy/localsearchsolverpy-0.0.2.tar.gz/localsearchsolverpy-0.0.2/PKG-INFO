@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: localsearchsolverpy
+Version: 0.0.2
+Summary: A solver based on Local Search
+Home-page: https://github.com/fontanf/localsearchsolverpy
+Author: Florian Fontan
+Author-email: dev@florian-fontan.fr
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/fontanf/localsearchsolverpy/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Local Search Solver (Python)
+
+A solver based on local search.
+
+This is the Python3 version of the C++ package [fontanf/localsearchsolver](https://github.com/fontanf/localsearchsolver).
+
+## Description
+
+The goal of this repository is to provide a simple framework to quickly implement algorithms based on local search.
+
+Solving a problem only requires a couple hundred lines of code (see examples).
+
+Algorithms:
+* Restarting Local Search `restarting_local_search`
+* Iterated Local Search `iterated_local_search`
+
+## Examples
+
+[Travelling Salesman Problem](examples/travellingsalesman.py)
+
+## Usage, running examples from command line
+
+Install
+```shell
+pip3 install localsearchsolverpy
+```
+
+Running an example:
+```shell
+mkdir -p data/travellingsalesman/instance
+python3 -m examples.travellingsalesman -a generator -i data/travellingsalesman/instance
+python3 -m examples.travellingsalesman -a restarting_local_search -i data/travellingsalesman/instance_50.json
+python3 -m examples.travellingsalesman -a iterated_local_search -i data/travellingsalesman/instance_50.json
+```
+
+Update:
+```shell
+pip3 install --upgrade localsearchsolverpy
+```
+
+## Usage, Python library
+
+See examples.
+
+
+
