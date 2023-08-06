@@ -1,0 +1,8 @@
+batserve/__init__.py,sha256=HILsNNAJy4MFWFE71l9p03OyZPun8_k4E5Ux-mwOa9A,428
+batserve/__main__.py,sha256=HILsNNAJy4MFWFE71l9p03OyZPun8_k4E5Ux-mwOa9A,428
+batserve/batserve.py,sha256=Pkh7RJcOjNeFhKvw0xVDB4V86Y3zSc1UFnBHH11S4Mo,8181
+batServe-1.0rc4.dist-info/METADATA,sha256=0BmRGD5EHeZhOi23r6vG2SVUid9-sMdCmfFO1ZnikCg,841
+batServe-1.0rc4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+batServe-1.0rc4.dist-info/entry_points.txt,sha256=ELNSwo5LcgazMosanFKiv7D1bbRJ7GirxgPvi_-nmoE,44
+batServe-1.0rc4.dist-info/top_level.txt,sha256=tBNyXtClvcEKnAd5BaT4UYZ3GCLX54RXpqlRpWGhX2c,9
+batServe-1.0rc4.dist-info/RECORD,,
