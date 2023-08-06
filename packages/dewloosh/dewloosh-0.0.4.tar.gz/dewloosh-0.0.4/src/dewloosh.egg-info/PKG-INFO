@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: dewloosh
+Version: 0.0.4
+Summary: A collection of tools for common developer utility
+Home-page: https://github.com/dewloosh/dewloosh
+Author: dewloosh
+Author-email: dewloosh@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/dewloosh/dewloosh/archive/refs/tags/0_0_4.zip
+Description: # DewLoosh
+        
+        A collection of tools for common developer utility
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
