@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: viecpro-vis
+Version: 0.1.10
+Summary: Django-App providing visualisations for the APIS-VieCPro instance.
+Author: Gregor Pirgie
+Author-email: gregor.pirgie@univie.ac.at
+Requires-Python: >=3.6,<3.9
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
