@@ -1,0 +1,8 @@
+[build-system]
+requires = ["Cython>=0.15.1", "numpy>=1.10", "setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+# Pytest
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+python_files = "test_*.py"
