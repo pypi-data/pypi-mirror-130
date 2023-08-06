@@ -1,0 +1,6 @@
+[console_scripts]
+cm = coman:cli
+coman = coman:cli
+coman-bash = coman:run_bash
+coman-python = coman:run_python
+
