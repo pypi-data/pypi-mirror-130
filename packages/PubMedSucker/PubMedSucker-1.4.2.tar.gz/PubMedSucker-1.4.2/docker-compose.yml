@@ -1,0 +1,12 @@
+version: "3"
+services:
+  pms:
+    image: dzdde/pubmedsucker:3
+    environment:
+      - CONFIGS_NEO4J="{'host':'MYHOST', 'port':'9686', 'user':'neo4j','password':'MYPW'}"
+      - CONFIGS_MAX_WORKER_COUNT=31
+      - CONFIGS_EXIT_WHEN_DONE='False'
+    volumes:
+      - ./data:/data
+      - ./log:/log
+      - ./dump:/dump
