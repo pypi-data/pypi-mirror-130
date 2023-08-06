@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-image-registration
+Version: 1.0.15
+Summary: image registration by ORB/SIFT/SURF/CUDA_SURF/ORB/CUDA_ORB/matchTemplate
+Home-page: https://github.com/hakaboom/py_image_registration
+Author: hakaboom
+Author-email: 1534225986@qq.com
+License: Apache License 2.0
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
