@@ -1,0 +1,6 @@
+click
+easydict
+rich
+pyfiglet
+pytest
+ruamel.yaml

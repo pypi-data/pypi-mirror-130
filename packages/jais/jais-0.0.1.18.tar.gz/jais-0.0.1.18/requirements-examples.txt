@@ -1,0 +1,5 @@
+wandb
+matplotlib
+numpy
+pandas
+scipy
