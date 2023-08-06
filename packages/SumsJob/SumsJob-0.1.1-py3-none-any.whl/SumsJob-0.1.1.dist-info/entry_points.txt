@@ -1,0 +1,4 @@
+[console_scripts]
+gpuresource = sumsjob.gpuresource:main
+submit = sumsjob.submit:main
+
