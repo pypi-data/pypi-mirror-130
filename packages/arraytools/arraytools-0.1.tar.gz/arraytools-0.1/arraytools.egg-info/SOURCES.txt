@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+arraytools/__init__.py
+arraytools.egg-info/PKG-INFO
+arraytools.egg-info/SOURCES.txt
+arraytools.egg-info/dependency_links.txt
+arraytools.egg-info/top_level.txt
+arraytools/chararraytools/__init__.py
+arraytools/chararraytools/chararraysearchtool.py
+arraytools/chararraytools/chararraysorttool.py
+arraytools/chararraytools/chararraytools.py
+arraytools/numarraytools/__init__.py
+arraytools/numarraytools/numarraysearchtool.py
+arraytools/numarraytools/numarraysorttool.py
+arraytools/numarraytools/numarraytools.py
