@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cybernews/__init__.py
+cybernews/cybernews.py
+cybernews.egg-info/PKG-INFO
+cybernews.egg-info/SOURCES.txt
+cybernews.egg-info/dependency_links.txt
+cybernews.egg-info/requires.txt
+cybernews.egg-info/top_level.txt
