@@ -1,0 +1,9 @@
+face_recons/__init__.py,sha256=JQkhcriJ8Xgj5YS8dfJbTK6-80dAn5Wuu2dIeNo6chc,90
+face_recons/main.py,sha256=LuOf66vNB6X5mmbI9zrKCaLKr4MRZxvRoUFdmhWQMAM,1546
+face_recons/test.py,sha256=PkMvdA5ySyXPvETJzxPoP46dDh5tMCfhZFZwAkzPF9E,4101
+face_recons/train.py,sha256=EfDiB4rVyssiF2hvFWvNWtDVkRGikiTgNpPWd6zWnG8,1543
+face_recons-0.0.1.dist-info/LICENSE,sha256=wwY00s1f7eIJa-lCUMmdBwLFoj1L7vNSmiceRSQwasQ,1092
+face_recons-0.0.1.dist-info/METADATA,sha256=80fFacRjvSwycLo0d9_dr72pNApzpEKADsMxiYytpYM,3398
+face_recons-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+face_recons-0.0.1.dist-info/top_level.txt,sha256=umo-Lfh3qYWDISo_2DRiZe90AvBmGWdDeOboMgXMdks,12
+face_recons-0.0.1.dist-info/RECORD,,
