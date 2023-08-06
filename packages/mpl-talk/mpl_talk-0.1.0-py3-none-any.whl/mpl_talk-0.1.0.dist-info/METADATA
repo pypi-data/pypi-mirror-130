@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: mpl-talk
+Version: 0.1.0
+Summary: A library example for Modules, Packages and Libaries talk
+Author: Cristian Vera
+Author-email: cristian.vera@mercadolibre.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: urllib3 (>=1.26.7,<2.0.0)
+Description-Content-Type: text/markdown
+
+# mpl-talk
+
+This is a library example for Modules, Packages and Libraries talk.
+

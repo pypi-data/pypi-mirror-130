@@ -1,0 +1,15 @@
+game/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+game/image/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+game/image/change.py,sha256=YxG-pRcQsZGGDLSuHouIFbZG8-rloxd38l-wC-C9Tr0,40
+game/image/close.py,sha256=WNW34vC4AO9uv60gX50ovopRTR_vyE6_0ozH0eFVq_U,42
+game/image/open.py,sha256=MVEI27JK8rtairxboBt9tw2OTzMlPfLLXKSe_TIyA74,41
+game/level/load.py,sha256=M1W8DFERLoNVlCEA9srx0A82bSs671M9PmOhYtQDtjo,41
+game/level/over.py,sha256=kC3Gy6-dnZmawofx9QWa5vI7R5EMq14STTy0--wsmks,41
+game/level/start.py,sha256=bmLjXUPB_dkjs4PmodBo5uoTYtWGvYEwrvz55pFIn6E,41
+game/sound/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+game/sound/load.py,sha256=AGtCw4IAMhDhTTwARX5AVNNcU-D9HtgqRzNt8zb9umc,467
+game/sound/pause.py,sha256=p5lGOsMH3wrZoMwv35WhZbzMMxpDSuZKEC_55RFG2Sc,43
+game/sound/play.py,sha256=zrBKpouEwg1WvRBSQjrBX1uI3K0ylgW87217_OLh33E,43
+mpl_talk-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mpl_talk-0.1.0.dist-info/METADATA,sha256=LdgOr6zrnYDDDDyiyGJMUMKN6bD07JiUL0Qyp-INylc,625
+mpl_talk-0.1.0.dist-info/RECORD,,
