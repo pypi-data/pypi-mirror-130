@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gpiodmonitor
+Version: 0.1.0
+Summary: Monitor for signal changes using gpiod.
+Home-page: https://github.com/randomchars42/gpiodmonitor
+Author: Eike Kühn
+Author-email: eike.kuehn@pixelwoelkchen.de
+License: The Unlicense
+Project-URL: Documentation, https://github.com/randomchars42/gpiodmonitor
+Project-URL: Source, https://github.com/randomchars42/gpiodmonitor
+Project-URL: Tracker, https://github.com/randomchars42/gpiodmonitor/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, < 4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gpiodmonitor
+
+Tiny wrapper arount gpiod used to monitor and debounce button presses.
+
+
