@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: rubika
+Version: 3.0
+Summary: rubika library is a unofficial library for making bot in the rubika. this library works with rubika’s API
+Home-page: https://github.com/Bahman-Ahmadi/rubika
+Author: Bahman Ahmadi
+Author-email: bahmanahmadi.mail@gmail.com
+License: MIT
+Download-URL: https://github.com/Bahman-Ahmadi/rubika/archive/refs/tags/v_30.tar.gz
+Description: UNKNOWN
+Keywords: rubika,bot,robot,library
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
