@@ -1,0 +1,9 @@
+README.txt
+setup.py
+back_test/__init__.py
+back_test/backtest.py
+returnsPortfolio.egg-info/PKG-INFO
+returnsPortfolio.egg-info/SOURCES.txt
+returnsPortfolio.egg-info/dependency_links.txt
+returnsPortfolio.egg-info/requires.txt
+returnsPortfolio.egg-info/top_level.txt
