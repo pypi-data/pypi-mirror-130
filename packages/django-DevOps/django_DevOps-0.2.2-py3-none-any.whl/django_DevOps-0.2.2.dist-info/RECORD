@@ -1,0 +1,13 @@
+django_devops/__init__.py,sha256=idYovU-p-0SF8aYGCSip9BW6r_GyrhJJMAjOEqXv1bg,38
+django_devops/management/__init__.py,sha256=YvgSX9q8utrOqJcdMtQfgdFsjvECGJdUjBiM7wJH9eU,62
+django_devops/management/commands/__init__.py,sha256=Uxtu-DnTTlXAsVocRewzS6EEscQPB2d2zimV60J5bvQ,36
+django_devops/management/commands/devops.py,sha256=lB089C7Ue-3PwXYNoMeHuNkHvkAYrYPTTHj1b5ZmFeA,2199
+django_devops/management/commands/prep_gunicorn.py,sha256=vo5yZ3eKpVQ2K2tA9gSP2LavE8OxPgu8IT2QOIQ_KdU,2487
+django_devops/management/commands/update_services.py,sha256=cKLy35-6EoeEkziW-96nE6_HQCYLHvi06sXkeTy6ZKk,4095
+django_devops/utils/__init__.py,sha256=nrRXydC_WtgwkbGjCl7MfRJ3Bd2KA5CfQovTLIYwALM,34
+django_devops/utils/user_input.py,sha256=u-5cBmzmD4ZgiPOHRBbgMi2BxrPDV3EDWN5vGFsenNw,1164
+django_DevOps-0.2.2.dist-info/LICENSE,sha256=aiwBNjFDPE9e58st6-il2fdEU2hBsJGFbd4-M5aRkp4,1071
+django_DevOps-0.2.2.dist-info/METADATA,sha256=5wBaaTUUV8Vw7czAMSzvN6BQpyeS9fCRtM26Ecf5boQ,3296
+django_DevOps-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_DevOps-0.2.2.dist-info/top_level.txt,sha256=M1sR1wi3eF1GuZ472AopMq99TcT5OfYzw3cfAgn0D_8,14
+django_DevOps-0.2.2.dist-info/RECORD,,
