@@ -1,0 +1,15 @@
+gradescopecalendar/__init__.py,sha256=PaGqSX0JXyKefkdnr_FxxW2NjvH5Y0a9UBZf7WxVuEw,384
+gradescopecalendar/gradescopecalendar.py,sha256=OxzyK9Mvig9k7Ih8iigxuhdGE-xMMMpT2He08mYa_sY,2446
+gradescopecalendar/calendars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gradescopecalendar/calendars/gcal.py,sha256=exptlxToYQjBuxTz5KSgUQSexr83JaDh_WzLClr2Rl8,10458
+gradescopecalendar/calendars/ical.py,sha256=mRu4y674CZJclGoxlqEa4tN4bZNPb8uOAivQWNoe170,1222
+gradescopecalendar/gradescope/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gradescopecalendar/gradescope/account.py,sha256=ce0qVEyrzyaxgyYg0cGlg96NSk9UDd6fnbF3uwbE6E4,2598
+gradescopecalendar/gradescope/assignment.py,sha256=ThTo6mrBlzPE9FfOjQCvE8lIOKyMv7nH6wshpGwHrEM,2003
+gradescopecalendar/gradescope/course.py,sha256=e3056JZmAS8P2jJd21ivO5v-t4CFgjrIcG4sa7lgjGs,3630
+gradescopecalendar/gradescope/pyscope.py,sha256=DGVKUv2Kv9TdlDYcKcvPpRSszeGRquImookV_YK3bLk,2733
+gradescopecalendar-0.0.2.dist-info/LICENSE,sha256=bx5iLIKjgAdYQ7sISn7DsfHRKkoCUm1154sJJKhgqnU,35184
+gradescopecalendar-0.0.2.dist-info/METADATA,sha256=BZs2IO3igHTfaaAHjyHAXif8gZA5IO2U0rnEaMAhhfM,5954
+gradescopecalendar-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+gradescopecalendar-0.0.2.dist-info/top_level.txt,sha256=B4CIVMw7miPX8g7Qj4g8cULPa_4elpl8sTKDoYj6Avg,19
+gradescopecalendar-0.0.2.dist-info/RECORD,,
