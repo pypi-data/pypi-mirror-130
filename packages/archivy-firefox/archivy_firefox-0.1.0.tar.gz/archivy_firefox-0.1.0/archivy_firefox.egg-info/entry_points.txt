@@ -1,0 +1,4 @@
+
+        [archivy.plugins]
+        firefox=firefox:firefox
+    

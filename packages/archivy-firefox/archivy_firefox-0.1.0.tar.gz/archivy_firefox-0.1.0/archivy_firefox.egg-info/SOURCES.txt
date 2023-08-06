@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+archivy_firefox.egg-info/PKG-INFO
+archivy_firefox.egg-info/SOURCES.txt
+archivy_firefox.egg-info/dependency_links.txt
+archivy_firefox.egg-info/entry_points.txt
+archivy_firefox.egg-info/requires.txt
+archivy_firefox.egg-info/top_level.txt
+firefox/__init__.py
