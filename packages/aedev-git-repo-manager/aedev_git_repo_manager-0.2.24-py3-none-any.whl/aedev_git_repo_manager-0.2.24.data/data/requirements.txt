@@ -1,0 +1,10 @@
+PyGithub
+python-gitlab
+setuptools
+ae_base
+ae_console
+ae_inspector
+ae_literal
+aedev_setup_project
+de_setup_project
+Pillow          # for _check_resources()
