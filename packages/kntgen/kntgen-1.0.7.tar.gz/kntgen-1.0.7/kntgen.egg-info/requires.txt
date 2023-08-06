@@ -1,0 +1,9 @@
+arghandler>=1.2
+regex
+googletrans==4.0.0rc1
+requests
+pyyaml
+tqdm
+jinja2>=2.10
+pydantic
+sheetfu
