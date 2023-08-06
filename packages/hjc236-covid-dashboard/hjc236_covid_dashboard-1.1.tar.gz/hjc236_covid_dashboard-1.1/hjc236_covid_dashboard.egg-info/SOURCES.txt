@@ -1,0 +1,14 @@
+LICENSE.txt
+setup.cfg
+setup.py
+hjc236_covid_dashboard/__init__.py
+hjc236_covid_dashboard/config_handler.py
+hjc236_covid_dashboard/conftest.py
+hjc236_covid_dashboard/covid_data_handler.py
+hjc236_covid_dashboard/covid_news_handling.py
+hjc236_covid_dashboard/main.py
+hjc236_covid_dashboard/time_conversions.py
+hjc236_covid_dashboard.egg-info/PKG-INFO
+hjc236_covid_dashboard.egg-info/SOURCES.txt
+hjc236_covid_dashboard.egg-info/dependency_links.txt
+hjc236_covid_dashboard.egg-info/top_level.txt
