@@ -1,0 +1,6 @@
+#napari-plugin-engine
+#napari-spacetx-explorer
+#numpy
+#pandas
+
+-e .
