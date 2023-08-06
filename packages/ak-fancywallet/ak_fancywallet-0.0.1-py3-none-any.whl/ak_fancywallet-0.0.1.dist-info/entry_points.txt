@@ -1,0 +1,4 @@
+
+    [console_scripts]
+    ak-fancywallet=fancywallet:fancywallet
+    
