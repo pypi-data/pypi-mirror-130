@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.8.7b1
+-------
+
+* Send local timestamp in milliseconds
