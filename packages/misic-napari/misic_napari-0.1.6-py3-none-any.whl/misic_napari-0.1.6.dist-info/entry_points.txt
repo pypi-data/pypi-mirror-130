@@ -1,0 +1,3 @@
+[napari.plugin]
+misic-napari = misic_ui
+
