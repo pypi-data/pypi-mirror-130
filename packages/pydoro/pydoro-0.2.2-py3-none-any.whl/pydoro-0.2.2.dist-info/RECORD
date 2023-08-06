@@ -1,0 +1,14 @@
+pydoro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydoro/pydoro_tui.py,sha256=ao3EI1pglItIGrJ9gu46P_JCd5riIERO-WWD9Wuvvrk,4748
+pydoro/pydoro_core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydoro/pydoro_core/b15.wav,sha256=oJU0ONrTzwPb6GNRbakMQOchzEFWJCukTwBWKMNpdDo,663200
+pydoro/pydoro_core/config.py,sha256=kQjB3dJfr50kJ2KinvrWxmOyjnIMUzhXYR_TyKYCuJU,4606
+pydoro/pydoro_core/sound.py,sha256=ocZH9okRiKXalhd31xKvCynIYA3kG2HMjrS0YnzmFF4,5510
+pydoro/pydoro_core/tomato.py,sha256=FVBcEj_7v7oXNeUZFYHzIcCVXwgJfizS8dAnjKMqPqo,12715
+pydoro/pydoro_core/util.py,sha256=Nal-gXuCggcfu8b6LNDhl1fqqYzdpBblZCZJiEEoTKA,727
+pydoro-0.2.2.dist-info/LICENSE,sha256=MTjMhqH7hpl8Knh5rP-lYppTTDrxrgfRdyNb2uDue1E,1103
+pydoro-0.2.2.dist-info/METADATA,sha256=BOuiff4cZHzYOie-K3dMFdwiUm0L5Xo-nbk9p9-xDTA,4326
+pydoro-0.2.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pydoro-0.2.2.dist-info/entry_points.txt,sha256=V6Dq2glmb9YiXaUD5woVJKAI7EWqfEFNDGQPUyTJsAo,51
+pydoro-0.2.2.dist-info/top_level.txt,sha256=1EYwyOJVl45ge9uQSYlTGiqE9kMrN_oW5sefRJUculY,7
+pydoro-0.2.2.dist-info/RECORD,,
