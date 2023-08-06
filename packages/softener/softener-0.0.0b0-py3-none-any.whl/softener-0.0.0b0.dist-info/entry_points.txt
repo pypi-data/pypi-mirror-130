@@ -1,0 +1,3 @@
+[console_scripts]
+softener=softener.cli.cmds:main
+
