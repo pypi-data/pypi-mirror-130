@@ -1,0 +1,5 @@
+# Resources for sub-modules
+recursive-include ./**/res *.txt
+
+# Examples are to be excluded
+exclude ./*/datalines/example.py

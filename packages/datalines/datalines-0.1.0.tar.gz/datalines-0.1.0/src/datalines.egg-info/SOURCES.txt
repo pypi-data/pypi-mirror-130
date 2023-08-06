@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/datalines/__init__.py
+src/datalines.egg-info/PKG-INFO
+src/datalines.egg-info/SOURCES.txt
+src/datalines.egg-info/dependency_links.txt
+src/datalines.egg-info/top_level.txt
+src/datalines/dataloaders/__init__.py
+src/datalines/dataloaders/BSDS500/BSDS500.py
+src/datalines/dataloaders/BSDS500/__init__.py
+src/datalines/dataloaders/BSDS500/def_load_dataset.py
+src/datalines/dataloaders/BSDS500/res/BSDS_val68_list.txt
