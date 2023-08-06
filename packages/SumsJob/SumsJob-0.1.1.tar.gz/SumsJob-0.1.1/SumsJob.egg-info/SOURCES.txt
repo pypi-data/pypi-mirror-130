@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+SumsJob.egg-info/PKG-INFO
+SumsJob.egg-info/SOURCES.txt
+SumsJob.egg-info/dependency_links.txt
+SumsJob.egg-info/entry_points.txt
+SumsJob.egg-info/top_level.txt
+sumsjob/__about__.py
+sumsjob/__init__.py
+sumsjob/cancel.py
+sumsjob/config.py
+sumsjob/gpuresource.py
+sumsjob/submit.py
