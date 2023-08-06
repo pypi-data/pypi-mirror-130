@@ -1,0 +1,14 @@
+e_commerce/__init__.py,sha256=i_mL4Zh07NHLCXvby3FeomWCXLzRM7IUi2P7xzBoIBQ,96
+e_commerce/customer/__init__.py,sha256=i_mL4Zh07NHLCXvby3FeomWCXLzRM7IUi2P7xzBoIBQ,96
+e_commerce/customer/analysis.py,sha256=wn4dHfQ72s_EvSfL8mo6QXoFNOjZ-BblSFymhfuQDp0,1703
+e_commerce/customer/orders.py,sha256=tdwmE_WRpAqfW2Ie9s9JHCBvTz6jlze8LmARFPa_pPk,1715
+e_commerce/customer/personal_info.py,sha256=6PzD5DuJhRaX3i39igDxLBN4QQkcTChHNoJCXWKWEH4,1004
+e_commerce/seller/__init__.py,sha256=i_mL4Zh07NHLCXvby3FeomWCXLzRM7IUi2P7xzBoIBQ,96
+e_commerce/seller/personal_info.py,sha256=wACQ6bS1EkEsXHBZh4ZHktUY3AXlGGHWzR8_kfs-e4g,1746
+e_commerce/seller/product_info.py,sha256=br_Y34NXMiZKqwt0hWuJ-usvtMeNyPge9O9Qxh4kxU8,1952
+e_commerce/seller/seller_history.py,sha256=BRbq_4B92QEftVTAzCEH5AEXOTRpg8LebDXXLwJ2vlc,1276
+e_commerce-0.1.dist-info/LICENSE.txt,sha256=FhPoWQHpzIbWbzDWwzdNG-MY9F5oDEnbUUFYsTkSnNg,1080
+e_commerce-0.1.dist-info/METADATA,sha256=VNuTFoAtFjPoKacI1d4K8LfeqMpAm1Vh1jEZmvNBPkY,243
+e_commerce-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+e_commerce-0.1.dist-info/top_level.txt,sha256=tJhoFFeJSAHh7oUJ_t9O1qqTb2H07EGOteUdbM378J4,11
+e_commerce-0.1.dist-info/RECORD,,
