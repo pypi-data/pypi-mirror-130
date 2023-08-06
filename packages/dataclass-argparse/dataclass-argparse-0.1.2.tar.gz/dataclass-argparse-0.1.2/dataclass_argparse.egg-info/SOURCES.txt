@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+dataclass_argparse/__init__.py
+dataclass_argparse/dataclass_argparse.py
+dataclass_argparse/example_joined_args.py
+dataclass_argparse/example_separate_args.py
+dataclass_argparse.egg-info/PKG-INFO
+dataclass_argparse.egg-info/SOURCES.txt
+dataclass_argparse.egg-info/dependency_links.txt
+dataclass_argparse.egg-info/requires.txt
+dataclass_argparse.egg-info/top_level.txt

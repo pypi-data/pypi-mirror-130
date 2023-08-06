@@ -1,0 +1,6 @@
+
+[dev]
+pre-commit
+
+[test]
+mypy
