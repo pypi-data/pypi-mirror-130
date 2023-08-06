@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: policyglass
+Version: 0.1.0
+Summary: Understand the effective permissions of your policies
+Home-page: https://github.com/CloudWanderer-io/PolicyGlass
+Author: Sam Martin
+Author-email: samjackmartin+policyglass@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+
+UNKNOWN
+
