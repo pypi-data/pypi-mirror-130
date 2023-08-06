@@ -1,0 +1,2 @@
+func_adl_servicex==1.1.3
+tcut-to-qastle==0.5
