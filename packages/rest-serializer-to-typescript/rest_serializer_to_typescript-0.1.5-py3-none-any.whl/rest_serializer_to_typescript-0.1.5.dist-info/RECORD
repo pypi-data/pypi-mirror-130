@@ -1,0 +1,15 @@
+rest_serializer_to_typescript/__init__.py,sha256=a00GbyHQk-gwysRW_Jq-pwqvCaHsK8p5OQZ4EVXFS8o,209
+rest_serializer_to_typescript/apps.py,sha256=ajiOXaLJR6hGbEF-2Dnn9rwr8IB6dEwXLq6oN4wmtc8,130
+rest_serializer_to_typescript/main.py,sha256=_f5RsnwX7ecxBE7WzbMHxlJHLXtnPX5GYVYMHN9cIOU,3641
+rest_serializer_to_typescript/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_serializer_to_typescript/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_serializer_to_typescript/management/commands/serializer_to_ts.py,sha256=eI00r42DkIcIgJ5khtUiCZZPrNDS--Df58c6lzQFR-k,2005
+rest_serializer_to_typescript/mapping.py,sha256=33HgNkh4zQ7QrPDLUPHzCAjHGYC6C_Qcw_n0ByEGaRg,855
+rest_serializer_to_typescript/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_serializer_to_typescript/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rest_serializer_to_typescript/tests/tests.py,sha256=vHk1E2n-V9Qq0yAYHv-tUO4tmnh2ECuvUtiNVIOf6PU,2517
+rest_serializer_to_typescript/type_hinting_mapping.py,sha256=4BicsK_k9t4bieowEfFJ0WL84zND5bFo4LC5agfBbKc,96
+rest_serializer_to_typescript-0.1.5.dist-info/LICENSE,sha256=pIWHT1ZdghQrxXmMAnfQwRfiKAnXvpG-8xP3OcUE0Uc,1074
+rest_serializer_to_typescript-0.1.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+rest_serializer_to_typescript-0.1.5.dist-info/METADATA,sha256=2GK0a4RDECJB_wag6eHqbIYXKurQcBCQd3EYRMZK_vo,441
+rest_serializer_to_typescript-0.1.5.dist-info/RECORD,,
