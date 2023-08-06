@@ -1,0 +1,7 @@
+biopython
+numpy>=3.13
+plotly>=5.1.0
+matplotlib
+scipy
+pandas
+tqdm
