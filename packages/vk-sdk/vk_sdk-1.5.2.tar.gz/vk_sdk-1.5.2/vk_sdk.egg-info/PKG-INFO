@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: vk-sdk
+Version: 1.5.2
+Summary: Wrapper around vk_api library
+Home-page: https://github.com/SPRAVEDLIVO/VK-SDK
+Author: SPRAVEDLIVO
+Author-email: spravedlivo@dimden.dev
+License: AGPLv3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Powerful wrapper around vk_api library. 
+
