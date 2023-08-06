@@ -1,0 +1,8 @@
+x_clip/__init__.py,sha256=4lBm6q6GT_UU0UQdHlBRr_AsvpXTzFVNT26ZSresf28,31
+x_clip/tokenizer.py,sha256=mhjI9kDHJaNAWvMLQ1YcTAs8IAgnUabOCF6Zs_DwB6c,5155
+x_clip/x_clip.py,sha256=7IEt9kJIO4jY6iYRB3PPMOD6Bbb8YFoZZmcsOkPG8tg,13168
+x_clip-0.0.6.dist-info/LICENSE,sha256=_nRlQFj-K6BpgI2_Nt79biB7r4hZ82NmpqPOrlqm7MU,1066
+x_clip-0.0.6.dist-info/METADATA,sha256=0O0sBYfRpQzTS-wN2Ua5kwgE-Iein2eeAGreMmtXqi0,663
+x_clip-0.0.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+x_clip-0.0.6.dist-info/top_level.txt,sha256=7wZb9hys8QAv8zjsoaIx6YoJdbve_gTou8ffdOvTz5M,7
+x_clip-0.0.6.dist-info/RECORD,,
