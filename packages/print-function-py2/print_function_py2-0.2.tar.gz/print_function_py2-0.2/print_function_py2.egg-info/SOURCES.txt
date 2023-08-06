@@ -1,0 +1,8 @@
+README.md
+setup.py
+print_function_py2/__init__.py
+print_function_py2.egg-info/PKG-INFO
+print_function_py2.egg-info/SOURCES.txt
+print_function_py2.egg-info/dependency_links.txt
+print_function_py2.egg-info/top_level.txt
+print_function_py2.egg-info/zip-safe
