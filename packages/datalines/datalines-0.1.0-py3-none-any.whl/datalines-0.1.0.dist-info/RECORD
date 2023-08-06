@@ -1,0 +1,11 @@
+datalines/__init__.py,sha256=ZCT-hpMHudngIDtmnBNw5Sgs2_TDBexGXUiFRQg379w,266
+datalines/dataloaders/__init__.py,sha256=4h48YqcwVHQkAWh6e5n4AmyBB7_35Hz2mpwsHZ2l7EI,207
+datalines/dataloaders/BSDS500/BSDS500.py,sha256=_iJLPjESbHHIs1TcCgp2T0UxodU4uF71rBHN1xjhsTs,12434
+datalines/dataloaders/BSDS500/__init__.py,sha256=1OUNLITPZqVpQPwJiU2YoXCkBH6ZIpznOG5lRAtu1IA,632
+datalines/dataloaders/BSDS500/def_load_dataset.py,sha256=wz5_jiq0FKupE8Nq1sZ7nw_3XJfYefNRbjwYhJ4ozBM,5887
+datalines/dataloaders/BSDS500/res/BSDS_val68_list.txt,sha256=VKumMXmwXcnD9OIPUtMUu1rW4JtuAJmb2IsR3jpkoDA,807
+datalines-0.1.0.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+datalines-0.1.0.dist-info/METADATA,sha256=lhLaRMhnJTjl7S1nQiHffhRAVTOUu9qA76ntWIhqMrM,1736
+datalines-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+datalines-0.1.0.dist-info/top_level.txt,sha256=TUro83XtLnNlwvaVycuQ12jE7D3aRtBGZMxOe04j8JA,10
+datalines-0.1.0.dist-info/RECORD,,
