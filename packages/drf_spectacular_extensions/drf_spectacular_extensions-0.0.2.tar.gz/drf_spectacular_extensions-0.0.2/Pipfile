@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+djangorestframework = ">=3"
+drf-spectacular = ">=0.18.2"
+
+[dev-packages]
+flit = "*"
+
+[requires]
+python_version = "3.9"

@@ -1,0 +1,17 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "drf_spectacular_extensions"
+author = "Viacheslav Krachkov"
+author-email = "vskrachkov@gmail.com"
+home-page = "https://github.com/vskrachkov/drf_spectacular_extensions"
+classifiers = [ "License :: OSI Approved :: MIT License",]
+description-file = "README.md"
+requires = [
+    "drf-spectacular>=0.17.2",
+    "django>=3.2",
+    "djangorestframework>=3.10.0",
+]
+requires-python = ">=3.9"
