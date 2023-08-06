@@ -1,0 +1,3 @@
+[console_scripts]
+nicehash2mqtt = nicehash2mqtt:main
+
