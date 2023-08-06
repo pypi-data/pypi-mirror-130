@@ -1,0 +1,7 @@
+dicttoxml
+json_to_html
+prompt_toolkit
+pygments
+pyyaml
+wcwidth
+xmltodict
