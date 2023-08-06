@@ -1,0 +1,11 @@
+amp_renderer/__init__.py,sha256=COSaIOrQQ_GeVgN5WN-NePULCNjfJD2K9C_4mq-jCgg,33242
+tests/__init__.py,sha256=SQMc43OThtvCZMZs0woQSKum_Gii-H4nHsShETvH5xg,42
+tests/test_against_spec.py,sha256=GLdCGNB76XO0bmc0rnha6Kg91lwWH5cFC69LgFvqQbw,5639
+tests/test_amp_node.py,sha256=zkwvxcHktOGvZzDVYJM3JBUSeCLatqZFkB4ojetJhD8,4432
+tests/test_amp_renderer.py,sha256=RYDs5uCsJfqUGSehc7T6lucvHHGL9HOpZJqnKb345iw,2750
+tests/test_speed.py,sha256=DmFeV274YT3e91i_eA4w7cHd59JjZfUgY25CLxcuEv4,10704
+amp_renderer-2.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+amp_renderer-2.0.1.dist-info/METADATA,sha256=IAQ0BcsFg_Uw92h9NQO2GuBdnr6R8lhTSKeObF-4Tpc,5880
+amp_renderer-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+amp_renderer-2.0.1.dist-info/top_level.txt,sha256=xX4ud1ozp6bydGohNnsV1kFzb2XF_0IqbeCzj4tv-18,19
+amp_renderer-2.0.1.dist-info/RECORD,,
