@@ -1,0 +1,16 @@
+captur_ml_sdk/__init__.py,sha256=z0zCHFTcKSR0tJ6h5qrpNmRVP21QIPP8N0p7quCnnm0,23
+captur_ml_sdk/dtypes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+captur_ml_sdk/dtypes/generics/Image.py,sha256=Unc9oEni6zoYcrTtJvj37dl4Hq62qZoteLO7jAjEDsk,459
+captur_ml_sdk/dtypes/generics/__init__.py,sha256=GinBaOFt8I54EXVTZVaCgl1UBrFP9ViolthJywTmNeU,50
+captur_ml_sdk/dtypes/interfaces/BatchPredictionPostRunEventData.py,sha256=fkTc3bki-3D6VDKbETNn-QICKc5Sy1DoKCo586PeEKU,332
+captur_ml_sdk/dtypes/interfaces/BatchPredictionPreRunRequest.py,sha256=7pNt_FNpFKRSOZXNBeJQQO0QyjfbFRTsPnXuY1k2PJs,913
+captur_ml_sdk/dtypes/interfaces/BatchPredictionRunEventData.py,sha256=ZvTbtEGQ31fViEK8jgUvPO5ilxwbB2bpzEccveHNuDI,267
+captur_ml_sdk/dtypes/interfaces/MLGatewayRequest.py,sha256=nsfNHKnSVSghBrl7USYQsL9CfBYaPLBB8slOCCQYcWc,596
+captur_ml_sdk/dtypes/interfaces/__init__.py,sha256=4Hm_dKp9SUzCzugJjv_kS1Iishdu6_e2lHIjr4bPEj4,119
+captur_ml_sdk/dtypes/interfaces/exceptions.py,sha256=KaDLmQve0ksm8NYN0SZp5NgRmeZcbxqkqUN5_i-2ed8,463
+captur_ml_sdk/dtypes/interfaces/utils.py,sha256=99swlGXvVrBS2oL-plBPmoq1oOcOFzvMDN4JtZ6Jlrs,13425
+captur_ml_sdk-0.1.10.dist-info/LICENCE.md,sha256=IjQVR3fLTl0ofR1cC_kFxESTW4E7ua1-eSNp0fhCg9M,17534
+captur_ml_sdk-0.1.10.dist-info/METADATA,sha256=BO4QhzHAZyHidPQvH7Ij0suH7S2e_3dmifRIzC6e1hw,859
+captur_ml_sdk-0.1.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+captur_ml_sdk-0.1.10.dist-info/top_level.txt,sha256=tbBhzz2QUPCkYDs2ahHu9UIbRLzdGBXMebXUEI-k4gs,14
+captur_ml_sdk-0.1.10.dist-info/RECORD,,
