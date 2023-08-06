@@ -1,0 +1,9 @@
+README.txt
+setup.py
+kaiostocks/__init__.py
+kaiostocks/stocks_bot.py
+kaiostocks.egg-info/PKG-INFO
+kaiostocks.egg-info/SOURCES.txt
+kaiostocks.egg-info/dependency_links.txt
+kaiostocks.egg-info/requires.txt
+kaiostocks.egg-info/top_level.txt
