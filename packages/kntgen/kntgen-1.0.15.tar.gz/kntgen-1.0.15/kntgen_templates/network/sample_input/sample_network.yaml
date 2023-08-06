@@ -1,0 +1,57 @@
+name: Plant
+base_url: https://ls.appixi.net
+headers:
+  - title: Content-Type
+    content: application/json
+    content_type: String
+  - title: Accept
+    content: application/json, text/plain, */*
+apis:
+  - name: findPlant
+    method: post
+    endpoint: "/v3/{zoneId}/find"
+    headers:
+      - title: Authorization
+        content: keyAbc
+      - title: Accept-Language
+      - title: lang
+    request_type: PlantRequest
+    queries:
+      - title: scope
+        content: admin
+    body:
+      - title: username
+        content: kiendtvt
+      - title: role
+        content: 4
+        content-type: float
+    parts:
+      - title: name
+        content: 500
+        content-type: float
+      - title: location
+      - title: image
+        content_type: File
+      - title: images
+        content_type: List<File>
+    response_type: PlantResponse
+    response_json: >
+      {
+          "plant_overview": {
+              "section": "enum_type_plant_overview",
+              "contents": [
+                  {
+                      "title": "Aperçu",
+                      "description": " Introduite en 1964, cette variété est la plus connue des énormes fleurs noires, entièrement doubles de 5 \", rouge velouté foncé / presque noir. Extrêmement parfumée avec un doux parfum de rose ancienne. En 2004, elle est devenue la fleur officielle de l'État de l'Oklahoma. Couleur la plus sombre et performances mieux avec un peu de chaleur. Taille: 4-6 'x 3-4'. Nombre de pétales: 40-45. Superbes, grandes fleurs veloutées rouge foncé avec un agréable parfum de rose ancienne, complétant un feuillage vert riche; idéal pour le jardin, les contenants , ou le long des frontières; résistant aux maladies"
+                  }
+              ]
+          }
+      }
+  - name: findPest
+    method: post
+    endpoint: "/v3/{zoneId}/find-pest/{plantId}"
+    request_type: PestRequest
+    parts:
+      - title: image
+        content_type: File
+    response_type: PestResponse

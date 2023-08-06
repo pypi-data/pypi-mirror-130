@@ -1,0 +1,36 @@
+{
+  "current_page": 1,
+  "data": [
+    {
+      "id": 1897,
+      "name": "Chinese money plant",
+      "botanical_name": "Pilea peperomioides",
+      "common_name": "Chinese money plant, Pilea peperomioides",
+      "plant_id": 1899,
+      "data_id": 1897,
+      "plant_overview": {
+        "section": "plant_overview",
+        "contents": [
+          {
+            "title": "Aperçu",
+            "description": "Qu'est-ce qu'un Pilea peperomioides?"
+          }
+        ]
+      },
+      "images": [
+        {
+          "id": 20432,
+          "model_type": "App\\Models\\Plant",
+          "model_id": 1899,
+          "url": "images/Chinese_money_plant_main.jpg",
+          "created_at": "2021-07-12T17:19:47.000000Z",
+          "updated_at": "2021-07-12T17:19:47.000000Z"
+        }
+      ]
+    }
+  ],
+  "from": 1,
+  "per_page": 10,
+  "to": 10,
+  "total": 1139
+}

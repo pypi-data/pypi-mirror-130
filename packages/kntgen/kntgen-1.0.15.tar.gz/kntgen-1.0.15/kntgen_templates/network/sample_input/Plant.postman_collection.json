@@ -1,0 +1,598 @@
+{
+	"info": {
+		"_postman_id": "c033072a-057c-45d7-913e-16b50af741ac",
+		"name": "Plant",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "myplant",
+			"item": [
+				{
+					"name": "get my plant",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "plants_18072021",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/plants/myplant?device_id&limit&page&order",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"plants",
+								"myplant"
+							],
+							"query": [
+								{
+									"key": "device_id",
+									"value": null
+								},
+								{
+									"key": "limit",
+									"value": null
+								},
+								{
+									"key": "page",
+									"value": null
+								},
+								{
+									"key": "order",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get my plant",
+							"originalRequest": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "token",
+										"value": "plants_18072021",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "{{host}}/plants/myplant?device_id&limit&page&order",
+									"host": [
+										"{{host}}"
+									],
+									"path": [
+										"plants",
+										"myplant"
+									],
+									"query": [
+										{
+											"key": "device_id",
+											"value": null
+										},
+										{
+											"key": "limit",
+											"value": null
+										},
+										{
+											"key": "page",
+											"value": null
+										},
+										{
+											"key": "order",
+											"value": null
+										}
+									]
+								}
+							},
+							"_postman_previewlanguage": null,
+							"header": null,
+							"cookie": [],
+							"body": null
+						}
+					]
+				},
+				{
+					"name": "Check is migrated",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "token",
+								"value": "plants_18072021",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{host}}/plants/myplant/ismigrated?device_id",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"plants",
+								"myplant",
+								"ismigrated"
+							],
+							"query": [
+								{
+									"key": "device_id",
+									"value": null
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Migrate all",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "plants_18072021",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "device_id",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "my_plant",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "note",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "reminder",
+									"value": "",
+									"type": "text"
+								},
+								{
+									"key": "care_task",
+									"value": "",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/plants/myplant/migrateall",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"plants",
+								"myplant",
+								"migrateall"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "upload file",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "token",
+								"value": "plants_18072021",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "device_id",
+									"value": "giap_test",
+									"type": "text"
+								},
+								{
+									"key": "file",
+									"type": "file",
+									"src": "/Users/bg/Downloads/musa.jpg"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/plants/file/upload",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								"plants",
+								"file",
+								"upload"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Get species",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "plants_18072021",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/plants/species",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"plants",
+						"species"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "search species by name",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "token",
+						"value": "plants_18072021",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{host}}/plants/species/searchbyname?keywords[]=Cleistocactus palhuayensis&keywords[]=Cleistocactus orthogonus",
+					"host": [
+						"{{host}}"
+					],
+					"path": [
+						"plants",
+						"species",
+						"searchbyname"
+					],
+					"query": [
+						{
+							"key": "keywords[]",
+							"value": "Cleistocactus palhuayensis"
+						},
+						{
+							"key": "keywords[]",
+							"value": "Cleistocactus orthogonus"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Test generate",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Test generate",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"username\": \"beocon\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{host}}/:zoneid/plants?genres=Lotus&size=200",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":zoneid",
+								"plants"
+							],
+							"query": [
+								{
+									"key": "genres",
+									"value": "Lotus"
+								},
+								{
+									"key": "size",
+									"value": "200"
+								}
+							],
+							"variable": [
+								{
+									"key": "zoneid",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Thu, 21 Oct 2021 08:18:45 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.21"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.21"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "PHPSESSID=p6h75h545k6d6dlq43b573u5rs; path=/"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-UA-Compatible",
+							"value": "IE=edge,chrome=1"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1210"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "    \n<!--breadcrumbs-->\n<section id=\"breadcrumb\">\n    <div class=\"row\">\n        <div class=\"large-12 columns\">\n            <nav aria-label=\"You are here:\" role=\"navigation\">\n                <ul class=\"breadcrumbs\">\n                    <li>\n                        <i class=\"fa fa-home\"></i>\n                        <a href=\"/\" title=\"Trang chủ\">Trang chủ</a>\n                    </li>\n                    <li>\n                        <a href=\"Error\" title=\"0\">0</a>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </div>\n</section>\n<!--end breadcrumbs-->\n<!--end slider-->\n<section class=\"mainContent space-t-30 space-b-30\">\n    <div class=\"row\">\n        <!-- left side content area -->\n        <div class=\"large-8 columns parentbg\">\n            <h2>Error 404</h2>\n            <div class=\"error\">\nKhông thể giải quyết yêu cầu &quot;:zoneid/plants&quot;.</div>\n        </div>\n        <div class=\"large-4 columns padding-right-remove\">\n            <aside class=\"secBg sidebar\">\n                <div class=\"row\">\r\n            "
+				}
+			]
+		},
+		{
+			"name": "Test generate 2",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Test generate Upload",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "images",
+									"type": "file",
+									"src": "loading.gif"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/:zoneid/upload",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":zoneid",
+								"upload"
+							],
+							"variable": [
+								{
+									"key": "zoneid",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 22 Oct 2021 08:03:40 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.21"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.21"
+						},
+						{
+							"key": "Set-Cookie",
+							"value": "PHPSESSID=o4icmjgpfs0vhc5nbi9qv5m1l0; path=/"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-UA-Compatible",
+							"value": "IE=edge,chrome=1"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1210"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "    \n<!--breadcrumbs-->\n<section id=\"breadcrumb\">\n    <div class=\"row\">\n        <div class=\"large-12 columns\">\n            <nav aria-label=\"You are here:\" role=\"navigation\">\n                <ul class=\"breadcrumbs\">\n                    <li>\n                        <i class=\"fa fa-home\"></i>\n                        <a href=\"/\" title=\"Trang chủ\">Trang chủ</a>\n                    </li>\n                    <li>\n                        <a href=\"Error\" title=\"0\">0</a>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </div>\n</section>\n<!--end breadcrumbs-->\n<!--end slider-->\n<section class=\"mainContent space-t-30 space-b-30\">\n    <div class=\"row\">\n        <!-- left side content area -->\n        <div class=\"large-8 columns parentbg\">\n            <h2>Error 404</h2>\n            <div class=\"error\">\nKhông thể giải quyết yêu cầu &quot;:zoneid/upload&quot;.</div>\n        </div>\n        <div class=\"large-4 columns padding-right-remove\">\n            <aside class=\"secBg sidebar\">\n                <div class=\"row\">\r\n            "
+				}
+			]
+		},
+		{
+			"name": "Test generate 3",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": [
+				{
+					"name": "Test generate formurlencoded",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "secret",
+									"value": "XCS",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "{{host}}/:zoneid/list/:plantid/characteristics",
+							"host": [
+								"{{host}}"
+							],
+							"path": [
+								":zoneid",
+								"list",
+								":plantid",
+								"characteristics"
+							],
+							"variable": [
+								{
+									"key": "zoneid",
+									"value": null
+								},
+								{
+									"key": "plantid",
+									"value": null
+								}
+							]
+						}
+					},
+					"status": "Not Found",
+					"code": 404,
+					"_postman_previewlanguage": "html",
+					"header": [
+						{
+							"key": "Date",
+							"value": "Fri, 22 Oct 2021 08:16:25 GMT"
+						},
+						{
+							"key": "Server",
+							"value": "Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips PHP/7.4.21"
+						},
+						{
+							"key": "X-Powered-By",
+							"value": "PHP/7.4.21"
+						},
+						{
+							"key": "Expires",
+							"value": "Thu, 19 Nov 1981 08:52:00 GMT"
+						},
+						{
+							"key": "Cache-Control",
+							"value": "no-store, no-cache, must-revalidate"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-UA-Compatible",
+							"value": "IE=edge,chrome=1"
+						},
+						{
+							"key": "Content-Length",
+							"value": "1233"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5, max=100"
+						},
+						{
+							"key": "Connection",
+							"value": "Keep-Alive"
+						},
+						{
+							"key": "Content-Type",
+							"value": "text/html; charset=UTF-8"
+						}
+					],
+					"cookie": [],
+					"body": "    \n<!--breadcrumbs-->\n<section id=\"breadcrumb\">\n    <div class=\"row\">\n        <div class=\"large-12 columns\">\n            <nav aria-label=\"You are here:\" role=\"navigation\">\n                <ul class=\"breadcrumbs\">\n                    <li>\n                        <i class=\"fa fa-home\"></i>\n                        <a href=\"/\" title=\"Trang chủ\">Trang chủ</a>\n                    </li>\n                    <li>\n                        <a href=\"Error\" title=\"0\">0</a>\n                    </li>\n                </ul>\n            </nav>\n        </div>\n    </div>\n</section>\n<!--end breadcrumbs-->\n<!--end slider-->\n<section class=\"mainContent space-t-30 space-b-30\">\n    <div class=\"row\">\n        <!-- left side content area -->\n        <div class=\"large-8 columns parentbg\">\n            <h2>Error 404</h2>\n            <div class=\"error\">\nKhông thể giải quyết yêu cầu &quot;:zoneid/list/:plantid/characteristics&quot;.</div>\n        </div>\n        <div class=\"large-4 columns padding-right-remove\">\n            <aside class=\"secBg sidebar\">\n                <div class=\"row\">\r\n            "
+				}
+			]
+		}
+	]
+}

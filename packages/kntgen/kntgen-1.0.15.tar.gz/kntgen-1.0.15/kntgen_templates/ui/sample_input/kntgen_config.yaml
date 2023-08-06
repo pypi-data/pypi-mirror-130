@@ -1,0 +1,19 @@
+figma:
+  access_token: "{your_figma_access_token_here}"
+  file_id: "{your_figma_file_id_to_generate_here}"
+  node_id: "{your_figma_node_id_to_generate_here}"
+  maximum_svg_size_in_px: 128
+  screen_width: 375
+  screen_height: 812
+google:
+  font:
+    api_key: "{your_google_translate_api_key_here}"
+    basic_font: true
+  translate:
+    main_locale: "en"
+    placeholder: "need_to_translate"
+assets:
+  images: "./assets/images"
+  colors: "./assets/colors"
+  fonts: "./assets/fonts"
+  translations: "./assets/translations"
