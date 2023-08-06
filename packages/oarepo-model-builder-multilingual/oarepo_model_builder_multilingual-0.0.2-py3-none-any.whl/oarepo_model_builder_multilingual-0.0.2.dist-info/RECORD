@@ -1,0 +1,9 @@
+oarepo_model_builder_multilingual/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oarepo_model_builder_multilingual/property_preprocessors/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+oarepo_model_builder_multilingual/property_preprocessors/multilingual.py,sha256=lWkox6yGRh-Fk_-wxlb5_zL958R0IxChyNn4HePgdRQ,2600
+oarepo_model_builder_multilingual/schema/__init__.py,sha256=_xc1yyzETbWqvQAAAXNbFyEwLPoEvKLsmIeYyc8TBa0,530
+oarepo_model_builder_multilingual-0.0.2.dist-info/entry_points.txt,sha256=rFH0y9yhRnxmV8nFwtGaH5-KinC3_1yOVuS60wmLmYM,155
+oarepo_model_builder_multilingual-0.0.2.dist-info/LICENSE,sha256=h2uWz0OaB3EN-J1ImdGJZzc7yvfQjvHVYdUhQ-H7ypY,1064
+oarepo_model_builder_multilingual-0.0.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+oarepo_model_builder_multilingual-0.0.2.dist-info/METADATA,sha256=J-iBPY1dFru40BHWA7xPSuCol8AFXw5KzVekVdo5gxU,917
+oarepo_model_builder_multilingual-0.0.2.dist-info/RECORD,,

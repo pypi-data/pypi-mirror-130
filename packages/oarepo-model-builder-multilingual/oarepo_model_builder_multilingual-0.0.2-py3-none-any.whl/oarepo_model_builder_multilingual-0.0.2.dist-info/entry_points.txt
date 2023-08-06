@@ -1,0 +1,3 @@
+[oarepo_model_builder.property_preprocessors]
+12-multilingual=oarepo_model_builder_multilingual.property_preprocessors.multilingual:MultilangPreprocessor
+
