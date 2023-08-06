@@ -1,0 +1,13 @@
+LICENCE.txt
+README.md
+setup.py
+deloqv/Algorithme.py
+deloqv/MAP.py
+deloqv/Pr_dist.py
+deloqv/Test.py
+deloqv/__init__.py
+deloqv/data_cleaning.py
+deloqv.egg-info/PKG-INFO
+deloqv.egg-info/SOURCES.txt
+deloqv.egg-info/dependency_links.txt
+deloqv.egg-info/top_level.txt
