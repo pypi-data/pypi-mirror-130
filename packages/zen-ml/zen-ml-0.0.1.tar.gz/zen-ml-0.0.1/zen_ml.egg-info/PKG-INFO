@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: zen-ml
+Version: 0.0.1
+Summary: ZenML.
+Home-page: UNKNOWN
+Author: Sergey Kolesnikov
+Author-email: scitator@gmail.com
+License: Apache License 2.0
+Keywords: Machine Learning,Deep Learning
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6.0
+License-File: LICENSE
+
+UNKNOWN
+
