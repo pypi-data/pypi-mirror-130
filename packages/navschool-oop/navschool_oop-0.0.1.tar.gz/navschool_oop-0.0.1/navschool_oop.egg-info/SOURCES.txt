@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+navschool_oop/__init__.py
+navschool_oop/myprofile.py
+navschool_oop.egg-info/PKG-INFO
+navschool_oop.egg-info/SOURCES.txt
+navschool_oop.egg-info/dependency_links.txt
+navschool_oop.egg-info/top_level.txt
