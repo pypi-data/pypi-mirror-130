@@ -1,0 +1,121 @@
+Metadata-Version: 2.1
+Name: and-eggs
+Version: 0.0.7
+Summary: GMail Bot API
+Home-page: UNKNOWN
+Author: LemonChad
+Author-email: jaolsm6296@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+
+# AndEggs
+
+AndEggs is a Python library that allows you to create an email bot using Gmail's API.
+
+# Simple Documentation
+
+## Client Class
+
+The `Client` class will be the main entry point of your program. 
+
+### Create a Client
+
+First, create a new client by calling the `Client` constructor:
+
+```python
+    >>> from andeggs import Client
+    >>> client = Client('CommandPrefix')
+```
+
+Then, you can use the `Client` object to interact with Gmail's API.
+
+### Creating a Command
+
+To create a command, you should create an asynchronous function that will be called when the command is triggered.
+It should take in a `MailContext` object as its only parameter. This object contains all the information about the email that triggered the command.
+To turn it into a command, use the `Client.command` decorator:
+
+```python
+    >>> @client.command('CommandName')
+    >>> async def command(context: MailContext):
+    >>>     # Do something
+    >>>     pass
+```
+
+### Sending an Email
+
+To send an email, you should use the `Client.send` method:
+
+```python
+    >>> client.send(
+    >>>     to='RecipientEmail',
+    >>>     subject='Subject',
+    >>>     body='Body',
+    >>>     is_html=False,
+    >>> )
+```
+
+### Activating the Client
+
+To activate the client, you should call the `Client.run` method:
+
+```python
+    >>> client.run('youremail', 'yourpassword')
+```
+
+### Events
+
+Events are triggered when certain actions happen. Below is a list of the events that can be triggered and their parameters:
+
+* `on_ready`: Triggered when the client is started.
+* `on_message`: Triggered when a new email is received. The parameter is a `MailContext` object.
+* `on_send`: Triggered when an email is sent. The parameter is a `MailContext` object.
+* `on_command`: Triggered when a command is triggered. The parameter is a `MailContext` object.
+* `on_stop`: Triggered when the client is stopped.
+
+### Tasks
+
+A task is a function that runs in the background. You can use the `Client.task` decorator to create a task:
+
+```python
+    >>> @client.task(interval=60)
+    >>> async def task():
+    >>>     # Do something
+    >>>     pass
+```
+
+## MailContext
+
+On all of your commands, you will receive a `MailContext` object. This object contains all the information about the email that triggered the command.
+
+### Attributes
+- `sender`: A `Sender` object.
+- `subject`: The subject of the email.
+- `body`: The body of the email.
+
+### Sending an Email
+
+You can also send an email using the `MailContext.send` method:
+
+```python
+    >>> context.send(
+    >>>     'Body',
+    >>> )
+```
+
+If you want to format your text with html, you should use the `MailContext.sendf` method:
+
+```python
+    >>> context.sendf(
+    >>>     '<p>{}</p>',
+    >>>     'Body',
+    >>> )
+```
+
+
