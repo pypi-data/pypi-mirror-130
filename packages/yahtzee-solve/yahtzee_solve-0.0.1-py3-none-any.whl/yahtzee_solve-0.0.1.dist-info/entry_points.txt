@@ -1,0 +1,3 @@
+[console_scripts]
+play_yahtzee = yahtzee:play_interactive_game
+

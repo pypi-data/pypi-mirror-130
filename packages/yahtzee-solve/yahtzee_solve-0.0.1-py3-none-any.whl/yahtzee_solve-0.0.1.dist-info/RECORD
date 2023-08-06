@@ -1,0 +1,16 @@
+yahtzee/__init__.py,sha256=2D17hrY5XSIQhN5nCz-evoCrN6Swp_1we9YP8aqwBtk,214
+yahtzee/dice.py,sha256=8FE65alplhz2dvjjwZ0j1zKNS9gQFyx50BQI6rguECU,1349
+yahtzee/game.py,sha256=T1krMpf4d50wTNXYfGYro-UtEEJHH1YSmFml3xjQgRk,2274
+yahtzee/game_player.py,sha256=JIFhwgsjzIpZxpVpT0kc6IkVRKyoQOFz-DSM94JaYFc,1665
+yahtzee/game_state_values.pkl,sha256=wrlAIGzyluFyPmpbKE1fSb39pSXCbBWQs2SczkeW5wE,204859
+yahtzee/iterators.py,sha256=wx9fa7SakZd6hn6qVi-Olwx438gXLqqwosKFcETTdNI,1588
+yahtzee/payoffs.py,sha256=eLXJWmhmIn3N9T5J4HqgMvjEBYDfdENf6pfC3-bfOfI,2301
+yahtzee/play_game.py,sha256=gziPNWGV2nCfNkmGsKPFnG4TM_jjUFBqYARLx-927fo,1839
+yahtzee/run_solver.py,sha256=YS4d_8kMkQB_oac6cYYrkNcKlposBrO81TWslbBqdOs,195
+yahtzee/solve.py,sha256=y1j6l68HAL3jZrIcqGU82CwborES_qxcHj_0oAwNdJ8,2638
+yahtzee_solve-0.0.1.dist-info/LICENSE.txt,sha256=FT-WNaYll77YofC6Jatn6QwqAhRvE_Y-R56LaSWom78,1053
+yahtzee_solve-0.0.1.dist-info/METADATA,sha256=PIRrYBan-F5vF57Y6WWhtEW2dJDi8nfkW4VTDDNSC7g,3330
+yahtzee_solve-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+yahtzee_solve-0.0.1.dist-info/entry_points.txt,sha256=E1397mtoJ0Y8ynhxu0Oawh_xKwFkEyC2ffNLVp1Xgyo,64
+yahtzee_solve-0.0.1.dist-info/top_level.txt,sha256=8FwoHGlLK-kWYS8sle9iQAk7mF2c9DIk6a5XxvL2ol0,8
+yahtzee_solve-0.0.1.dist-info/RECORD,,
