@@ -1,0 +1,11 @@
+name: openfisca_us
+channels:
+  - defaults
+dependencies:
+- numpy
+- pandas
+- pip
+- pytest
+- setuptools
+- pip:
+  - jupyter-book

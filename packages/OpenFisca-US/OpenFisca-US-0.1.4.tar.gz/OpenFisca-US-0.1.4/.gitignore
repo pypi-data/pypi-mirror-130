@@ -1,0 +1,31 @@
+# Python builds
+
+*.egg-info
+*.pyc
+build
+dist
+
+# Editors
+
+.project
+.pydevproject
+.settings
+.spyderproject
+
+# OS stuff
+
+.DS_Store
+*~
+
+# Python caches
+
+.pytest_cache
+**/__pycache__
+
+# Data
+
+**/*.csv
+**/_build
+**/.ipynb_checkpoints
+.coverage
+**/*.xml
