@@ -1,0 +1,10 @@
+bootstraphistogram/__init__.py,sha256=1P9K7ObvXX6VhEYBDRlg3zyeTZ1pS3mLeIauEUwLDUA,1039
+bootstraphistogram/bootstrapefficiency.py,sha256=M9-7-PZi-uzkSsju-ylaHbD7OTy8sn8gTYyAi3l9GQc,10516
+bootstraphistogram/bootstraphistogram.py,sha256=CozWGmPQqAavwD154ra9EAi-7igO9crZ62OH5xl0VNo,13624
+bootstraphistogram/bootstrapmoment.py,sha256=jFLWVNFYzXH9lEkczGaT5Lw7uNkBemjMc3JsBS-pfuo,8267
+bootstraphistogram/plot.py,sha256=QajQZUay4HIfDWa3pjStja9pbmip2F2yHfeG-KoBkcI,5396
+bootstraphistogram/valuewithsamples.py,sha256=mZdpzbNu9gnJTJBMTips225KxiUy3I-KpL-WhwVZfmg,2110
+bootstraphistogram-0.9.0.dist-info/LICENSE.txt,sha256=J5-zl3odMu877w5WdSmql_ZRkYU4mxA1UIPJ-1FJcLo,1070
+bootstraphistogram-0.9.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+bootstraphistogram-0.9.0.dist-info/METADATA,sha256=w9c9W-58IBmCBExBhj94zC_6UVxxHM0ikFeyRD32Y_g,2797
+bootstraphistogram-0.9.0.dist-info/RECORD,,
