@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: isocodes
+Version: 2021.12.13
+Summary: This project provides lists of various ISO standards (e.g. country, language, language scripts, and currency names) in one place
+Author: Atem18
+Author-email: contact@atemlire.io
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
