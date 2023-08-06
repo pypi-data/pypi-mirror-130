@@ -1,0 +1,8 @@
+README.md
+setup.py
+schemax/__init__.py
+schemax/schemax.py
+schemax.egg-info/PKG-INFO
+schemax.egg-info/SOURCES.txt
+schemax.egg-info/dependency_links.txt
+schemax.egg-info/top_level.txt
