@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+polidoro_table/__init__.py
+polidoro_table/borders.py
+polidoro_table/cell.py
+polidoro_table/column.py
+polidoro_table/property.py
+polidoro_table/row.py
+polidoro_table/string_utils.py
+polidoro_table/table.py
+polidoro_table.egg-info/PKG-INFO
+polidoro_table.egg-info/SOURCES.txt
+polidoro_table.egg-info/dependency_links.txt
+polidoro_table.egg-info/not-zip-safe
+polidoro_table.egg-info/top_level.txt
