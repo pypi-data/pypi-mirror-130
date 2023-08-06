@@ -1,0 +1,16 @@
+wagtail_oauth2/__init__.py,sha256=lxsqC7NeP6gwI9vEO-QEtyfkBe9GcUrnb5klTPXxJtg,92
+wagtail_oauth2/resources.py,sha256=ouGKt6XbImlt_kshAzCdeEk-8KnPSfCA9pkraWv3my8,3562
+wagtail_oauth2/settings.py,sha256=i1-nML8Prc7OnVWUfpca6lshS5bcNei3rtMk_za-Ezo,136
+wagtail_oauth2/templates/login_error.html,sha256=F-Chy3kRnbFkJP_HhVP6tJRJHN8GamvHhBpvuL9SWC0,396
+wagtail_oauth2/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wagtail_oauth2/tests/apps.py,sha256=hgfIDg3Ii7m0UTUtxKmFQxEsLQUAJQNrRF2AU3wJKV8,190
+wagtail_oauth2/tests/conftest.py,sha256=RU9elM8DdvaH6VJXwCJ2bQJoO-_WutolhdEpJdkV4Vw,4820
+wagtail_oauth2/tests/settings.py,sha256=ZEGrn0YM0NLOcyVtaP4U_9_NGclFDyvE66_8NFNRbNw,1504
+wagtail_oauth2/tests/test_resources.py,sha256=EU52DhKKeNzIpwWPTJEHFNwf-xtSOhV2ST5oFIAYtIE,2334
+wagtail_oauth2/tests/test_views.py,sha256=2l3Sb3HWpP28pYOg-7IWhcaYMY5zKkx0_9cR0HCT0Zo,3070
+wagtail_oauth2/tests/urls.py,sha256=kv3iobsqLMq_ddPgY6Y8-fsSog89ZeIsZ-UopeY9ayM,311
+wagtail_oauth2/urls.py,sha256=V5-FuOW7_yMfRt1eU0j6najcmYO3eu1Dr-KXcspZoaA,330
+wagtail_oauth2/views.py,sha256=nOPcvCCyupq8cPPD-wUQUFXhSfEeMqVzdL6o3Ze9Xhk,6402
+wagtail_oauth2-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+wagtail_oauth2-0.1.0.dist-info/METADATA,sha256=H6GWcPCVKW8Ht44Ha1tSS5FPKqn8Wh2Vvs7j3QUhcuw,527
+wagtail_oauth2-0.1.0.dist-info/RECORD,,
