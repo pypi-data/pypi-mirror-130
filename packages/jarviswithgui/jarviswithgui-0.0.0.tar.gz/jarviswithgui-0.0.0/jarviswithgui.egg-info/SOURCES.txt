@@ -1,0 +1,10 @@
+LICENSE
+setup.py
+Jarvis-with-gui/Jarvis_UI.py
+Jarvis-with-gui/__init__.py
+Jarvis-with-gui/gui.py
+jarviswithgui.egg-info/PKG-INFO
+jarviswithgui.egg-info/SOURCES.txt
+jarviswithgui.egg-info/dependency_links.txt
+jarviswithgui.egg-info/requires.txt
+jarviswithgui.egg-info/top_level.txt

@@ -1,0 +1,7 @@
+pyttsx3
+speechrecognition
+wikipedia
+Pyqt5
+Pyqt5-tools
+pyjokes
+pyautogui
