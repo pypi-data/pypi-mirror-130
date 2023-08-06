@@ -1,0 +1,8 @@
+waffles/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+waffles/__main__.py,sha256=vhHNfdyRqqUTKN8o9WsP8Z-gt6051KoIvagvDgJ_IOM,78
+waffles/baker.py,sha256=OAcfOBxBlnjZqd5nUlewS9cZFF95maufHoXqQA2jlH4,482
+waffles/sprinkles.py,sha256=lYjmvuHeeCbWoqli5J5YgFErh4H9Gsb2sEMnPuRMMnM,167
+waffles/waffle.py,sha256=mYIZB5whyTnNuEYfcx82PJzwpiN-tr6ba8A5mgrHS8w,1617
+waffles-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+waffles-0.0.1.dist-info/METADATA,sha256=3_X081Qc2XpmSd9hcFyXiy2L86A11u_CyZCyuTpBL2g,487
+waffles-0.0.1.dist-info/RECORD,,
