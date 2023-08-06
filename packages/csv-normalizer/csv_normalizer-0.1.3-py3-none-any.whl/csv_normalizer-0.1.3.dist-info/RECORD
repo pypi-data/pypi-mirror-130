@@ -1,0 +1,15 @@
+src/__init__.py,sha256=IRvM037LC4EC8ywTwSqq_OizqhtVS9lLcrGYbLy0ON8,114
+src/__main__.py,sha256=onWU52YT2QgVn0yWj5rQMKEU_1h6IBeceL3tfX2sLbo,461
+src/defaults/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/defaults/default_config.py,sha256=lQsxjax_1whsPAyVV77fWaMbjRfvra73mf6GdL9l5Tg,1136
+src/modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/modules/cli_execution.py,sha256=D1pjYYLmeADmFILMmtutzSIyo5dRaemKH98irr2xrfk,2820
+src/modules/configs.py,sha256=zW9jJqOfkMiHkqNzP52EfccRNLK7dmIkLYWQJ0D8WSk,2498
+src/modules/csv_normalizer.py,sha256=Xb9f4bfNZIgKrQumnJCt9dQZtG2rNxLuTXXnH0or4PA,5530
+src/modules/file_processing.py,sha256=Jl_qaAAq2WPBWMYHWgYaKkkA-rAv2eEyICpdLmhY3Tc,798
+csv_normalizer-0.1.3.dist-info/LICENSE,sha256=YtGMLc7S1D3EHrJLYOwQcUMu5uw_-xksz-JN8f9kOdk,1076
+csv_normalizer-0.1.3.dist-info/METADATA,sha256=Zb5H7GMZRmPUMyzrSnyMWeDxhLHYh3zDxqfKZCVjRyM,4066
+csv_normalizer-0.1.3.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+csv_normalizer-0.1.3.dist-info/entry_points.txt,sha256=sFuD20xMBWrnP1PUMl0W_gg2_DsnXIwq3Is8nhzd5UY,54
+csv_normalizer-0.1.3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+csv_normalizer-0.1.3.dist-info/RECORD,,
