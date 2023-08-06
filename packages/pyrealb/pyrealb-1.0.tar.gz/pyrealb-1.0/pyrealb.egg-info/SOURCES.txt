@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+pyrealb.egg-info/PKG-INFO
+pyrealb.egg-info/SOURCES.txt
+pyrealb.egg-info/dependency_links.txt
+pyrealb.egg-info/top_level.txt
