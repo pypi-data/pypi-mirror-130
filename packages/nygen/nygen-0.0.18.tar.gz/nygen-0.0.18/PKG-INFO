@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: nygen
+Version: 0.0.18
+Summary: nygen
+Home-page: UNKNOWN
+Author: Natalie Fearnley
+Author-email: nfearnley@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/nfearnley/nygen
+Project-URL: Tracker, https://github.com/nfearnley/nygen/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# nygen
+
+Easily create new python projects
+
+## Usage
+
+`nygen init --author "Natalie Fearnley" --email "nfearnley@gmail.com" --github "nfearnley"`
+
+`cd c:\users\nfear\Desktop\coding`
+
+`nygen myproject`
+
+## Templates
+
+### Usage
+
+Templates can be specified using the `--template` option.
+
+`nygen myproject --template mytemplate`
+
+The default template is "default".
+
+### Creation
+
+Templates can be created by publishing a package that creates an entry point "nygen.templates" that points to the template's data directory.
+
+Example from a setup.cfg file:
+
+```
+[options.entry_points]
+nygen.templates =
+    default = nygen_default.template
+```
+
+You can use the [nygen_default](https://github.com/nfearnley/nygen_default) repo as an example of a working template package.
+
+
