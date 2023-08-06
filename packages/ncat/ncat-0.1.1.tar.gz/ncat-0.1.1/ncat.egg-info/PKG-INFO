@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: ncat
+Version: 0.1.1
+Summary: Python wrapper for NGS Coordinate Conversion and Transformation Tool (NCAT) API.
+Home-page: https://github.com/HaydenElza/ncat-python
+Author: Hayden Elza
+License: MIT
+Download-URL: https://github.com/HaydenElza/ncat-python/archive/refs/tags/ncat-0.1.1.tar.gz
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
