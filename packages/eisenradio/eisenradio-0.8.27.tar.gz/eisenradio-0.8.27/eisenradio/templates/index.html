@@ -1,0 +1,176 @@
+
+{% extends 'base.html' %}
+
+
+{% block content %}
+
+	<hr>
+	<h1>{% block title %} Your Eisen Radio! {% endblock %}</h1>
+	<hr>
+
+		<div class="pixies">
+			<img src="static/images/frontpage/eisenposter350.png"
+				 srcset="static/images/frontpage/eisenposter350.png 480w,
+				 		static/images/frontpage/eisenposter620.png 720w,
+				 		static/images/frontpage/eisenposter950.png 1080w"
+				 alt="">
+		</div>
+
+
+		<div class="progress" style="position: relative;">
+		  <div class="progress-bar bg-success" role="progressbar"
+			   style="width: 25%"
+			   aria-valuenow="25"
+			   aria-valuemin="0"
+			   aria-valuemax="100" id="progress_record_all"
+			   style="position: absolute;z-index: 1;">
+		  </div>
+		</div>
+
+
+		<div class="wrapper-select-boxes" style="margin-bottom:0px;margin-top:0px;">
+
+			<table border=0 style="width:25%;margin-left:auto; margin-right:auto; 
+								border-collapse: separate; border-spacing: 15px;">
+			<tr>
+				<td style="vertical-align:bottom;">
+
+				{% if combo_master_timer %}{% set timer=combo_master_timer %}{% endif -%}
+				<label for="time_record_select_all"></label>
+				<select class="form-control" aria-label="Timer select"
+						name="time_record_select_all" 
+						id="time_record_select_all" 
+						style="width:auto;"
+						onchange="setTimer(value)">
+
+						<option class="" value="0" >timer off</option>
+						<option class="" value="1" > 1</option>
+						<option class="" value="2" > 2</option>
+						<option class="" value="4" > 4</option>
+						<option class="" value="6" > 6</option>
+						<option class="" value="8" > 8</option>
+						<option class="" value="12" > 12</option>
+						<option class="" value="24" > 24</option>
+				</select>
+
+				</td>
+				<td style="vertical-align:bottom;">
+
+			    <label for="body_color_select"></label>
+                <select class="form-control" aria-label="dark mode select"
+                        name="body_color_select_all" 
+			    		id="body_color_select_all" 
+			    		style="width:auto;" 
+			    		onchange="setColor(value)">
+			    
+                  <option class="" value="" > dark mode </option>
+                  <option class="" value="#f9f9f9" > off</option>
+                  <option class="" value="#1a1a1a" > on</option>
+                </select>
+
+				</td>
+			</tr>
+		</table>
+        </div>
+
+
+          </div>
+        </div>
+
+	<hr>
+	{% set counter = 1 -%}
+    {% for post in posts%}
+		{% if not status_listen_btn_dict[post['id']] %}{% set listen_class='btn btn-primary' %} {% endif -%}
+		{% if status_listen_btn_dict[post['id']] %}{% set listen_class='btn btn-danger' %} {% endif -%}
+
+		{% if not status_record_btn_dict[post['id']] %}{% set record_class='btn btn-primary' %}{% endif -%}
+		{% if status_record_btn_dict[post['id']] %}{% set record_class='btn btn-danger' %}{% endif -%}
+
+		{% if not post['pic_comment'] %}{% set pic_comment='' %}{% endif -%}
+		{% if post['pic_comment'] %}{% set pic_comment=post['pic_comment'] %}{% endif -%}
+
+	   <div class="table-pic-edit-note" style="margin-bottom:4px;">
+
+			<table border=0 style="width:100%;border-spacing:10px;">
+			<tr>
+				<td colspan=3>
+					<div class="dot-for-link" style="float: left;">
+						<p style="margin-bottom:1px;margin-left:5px;font-size:120%;">&#8231;&nbsp;
+					</div>
+						<a href="{{ url_for('post', post_id=post['id']) }}" style="color: #2874a6;font-size:110%;text-decoration:none;"> <b>{{ post['title'] }}</a></b>
+						</p>
+				</td>
+			</tr>
+			<tr>
+				<td width=202>
+					<div class="pixies">
+					<a href="{{ url_for('post', post_id=post['id']) }}">
+						<img class="pix" src="data:{{post['pic_content_type']}};base64, {{post['pic_data']}}"  
+									alt="" style="max-width:200px;max-height:130px;">
+					</a>
+					</div>
+				</td>
+				<td width=50 style="vertical-align:bottom;">
+					<div class="edit">
+					<a href="{{ url_for('edit', id=post['id']) }}">
+						<span class="badge badge-warning" style="margin-bottom:2px;">Edit</span></a>
+					</div>
+				</td>
+				<td style="vertical-align:bottom;">
+						<span style="color:#3498db;">
+						{{ pic_comment }}</span>
+				</td>
+			</tr>
+			
+			</table>
+		</div>
+
+		<div class="station-display" id="station-display-id">
+			   <!-- placeholder=Display_{{post['id']}} -->
+			<input type="text"
+				placeholder=Display_{{ counter + loop.index0 }}
+				value="{{ request.form['title']}}"
+				readonly="readonly" style="font-size:120%;"
+				name=Display_{{post['id']}}
+				id=Display_{{post['id']}}
+				class="form-control">
+				
+		</div>
+		<div class="button-rec-lis" style="margin-bottom:0px;margin-top:4px;margin-left:0px;">
+			<button class="{{record_class}}"
+				name="Record_{{post['id']}}"
+				id=Record{{post['id']}}>Record</button>
+
+			<button class="{{listen_class}}"
+				name="Listen_{{post['id']}}"
+				id={{post['id']}}>Listen</button>
+		</div>
+		
+		<hr>
+    {% endfor%}
+
+		<div class="push-up-station" name="keep-station-buttons-above-player" style="height:75px;">
+		</div>
+
+
+		<div class="footer" style="position:fixed;bottom:0;display:block">
+				{% if current_station %}{% set station=current_station %}{% endif -%}
+				{% if current_table_id %}{% set station_id=current_table_id %}{% endif -%}
+				<label for="div_audio_control_div" id="lbl_div_audio"><a href="#{{current_table_id}}" style="color: #cccccc;text-decoration:none;">*{{station}}</a></label>
+				{% if listen_last_url %}{% set url=listen_last_url %}{% endif -%}
+				<div id="div_audio_control_div" style="bottom:0;position=relative;">
+	
+        		     <audio controls autoplay id="audio_with_controls"
+				      src={{url}}>
+					Not supported audio. Please use VLC or another Browser.</audio>
+				</div>
+				
+		</div>
+
+
+
+ <script type="text/javascript" src="{{ url_for('static', filename='/jquery/jquery-3.6.0.min.js') }}"></script>
+ <script type="text/javascript" src="{{ url_for('static', filename='/js/ea_index.js') }}"></script>
+
+{% endblock %}
+

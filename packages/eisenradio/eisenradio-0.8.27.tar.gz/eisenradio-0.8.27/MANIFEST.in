@@ -1,0 +1,24 @@
+include eisenradio/app.py
+include eisenradio/templates/about.html
+include eisenradio/templates/base.html
+include eisenradio/templates/create.html
+include eisenradio/templates/edit.html
+include eisenradio/templates/index.html
+include eisenradio/templates/page_flash.html
+include eisenradio/templates/post.html
+include eisenradio/templates/save.html
+include eisenradio/static/css/style.css
+include eisenradio/static/images/eisen.ico
+include eisenradio/static/images/python-powered-w-100x40.png
+include eisenradio/static/images/frontpage/eisenposter350.png
+include eisenradio/static/images/frontpage/eisenposter620.png
+include eisenradio/static/images/frontpage/eisenposter950.png
+include eisenradio/static/images/styles/getaradiourl.svg
+include eisenradio/static/jquery/jquery-3.6.0.min.js
+include eisenradio/static/js/ea_index.js
+include eisenradio/static/favicon.ico
+include eisenradio/lib/eisen_radio.py
+include eisenradio/app_writeable/db/database.db
+
+include eisenradio/android/eisenradio-0.8.2-armeabi-v7a-debug.apk
+include eisenradio/android/eisenradio-0.8.2-x86-debug.apk
