@@ -1,0 +1,9 @@
+certbot_dns_google/__init__.py,sha256=aU5AlJRtX5ZHTcSPHRsOCKLKA_2ebgejG23V3dhfsuo,4679
+certbot_dns_google/_internal/__init__.py,sha256=4jDudjGvVE30mTGvOjij6Ihp2Tl3mnHyZb9vAJyU_m0,74
+certbot_dns_google/_internal/dns_google.py,sha256=NkBNA5PokoG-DVPkCibdxDQAhl52fj1i0KeDgUpfP2M,13048
+certbot_dns_google-1.22.0.dist-info/LICENSE.txt,sha256=LMXecVrlqXbwhvukkwiAyeQhkUFz_IURG_9RTUdXEj8,10786
+certbot_dns_google-1.22.0.dist-info/METADATA,sha256=JGq2NN21SLHPf_i0OjbHd-ADHPy5aA6Kmk831G9GXUU,1509
+certbot_dns_google-1.22.0.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+certbot_dns_google-1.22.0.dist-info/entry_points.txt,sha256=vw7KWro_IRadswIoZRSSoajYTnc0XdFloPhGbsxad-E,86
+certbot_dns_google-1.22.0.dist-info/top_level.txt,sha256=eWLfqolcAEcj8cf1n6BlUZckOapr7aKeL01G1sIvatk,19
+certbot_dns_google-1.22.0.dist-info/RECORD,,
