@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+pygame_animatedgif/__init__.py
+pygame_animatedgif.egg-info/PKG-INFO
+pygame_animatedgif.egg-info/SOURCES.txt
+pygame_animatedgif.egg-info/dependency_links.txt
+pygame_animatedgif.egg-info/requires.txt
+pygame_animatedgif.egg-info/top_level.txt
