@@ -1,0 +1,6 @@
+$context:
+  $vocab: https://octadocs.io/github/
+  gh: https://octadocs.io/github/
+
+  updated_at:
+    $type: xsd:dateTime
