@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+napari_text_layer/__init__.py
+napari_text_layer/textlayer.py
+napari_text_layer.egg-info/PKG-INFO
+napari_text_layer.egg-info/SOURCES.txt
+napari_text_layer.egg-info/dependency_links.txt
+napari_text_layer.egg-info/entry_points.txt
+napari_text_layer.egg-info/top_level.txt
