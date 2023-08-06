@@ -1,0 +1,14 @@
+latex_suite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+latex_suite/bash_print.py,sha256=L3y_nXiAm2dewJppY0--Z7bbKGVt_JT-FAvclS9FL3o,3949
+latex_suite/bibliography.py,sha256=P3nTGm1Jxz5VyVleHU16072kmqLRsCD8pSd98tuC1U4,3473
+latex_suite/git.py,sha256=DyiLJhQ73Wo6dw0cC-GtPtReFOHDjKPk3lev52XLIeo,1488
+latex_suite/latex.py,sha256=vtYApRxXRhjsRnydHC-Xb4qy04ykqSBZcYIjUhCk4L0,15121
+latex_suite/latex_suite.py,sha256=eci-Z0Jvs0CyMnToi6xsAMOmx3jL0BzLpGZo6p2RRsM,22585
+latex_suite/search_language_errors.py,sha256=DE8p9ge90stumRzZt2Ujic9collxkFtqfDDZ1klCqeE,10955
+latex_suite/util.py,sha256=oyJPE6wKTMUPIYhJIQ2e_wg9nuFwkGgJDLBlHaAY1p0,12988
+latexsuite-0.9.4.dist-info/LICENSE.md,sha256=MfUF0yPx1Brvza8EquMekholpvaWbQWaJkx1B1_mDY0,1069
+latexsuite-0.9.4.dist-info/METADATA,sha256=xTLTtMQg4nFy2e8kzLGw2KIUm7PTJXYfiCr78eJW5rg,9791
+latexsuite-0.9.4.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+latexsuite-0.9.4.dist-info/entry_points.txt,sha256=I_DL-dljfDXFL9B6D427TF5F_f6BS6YnFknpuHI_bg4,61
+latexsuite-0.9.4.dist-info/top_level.txt,sha256=4qnhY0mEtQbUmNOo2vGvr_jfiZkkNWg2_GzFNm0zBok,12
+latexsuite-0.9.4.dist-info/RECORD,,
