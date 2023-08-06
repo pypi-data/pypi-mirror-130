@@ -1,0 +1,6 @@
+pip
+packaging
+pyrebase
+pandas
+
+[dev]
