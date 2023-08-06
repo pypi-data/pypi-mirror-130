@@ -1,0 +1,11 @@
+CHANGES
+=======
+
+1.4.6
+-----
+
+* add github workflow
+* set trust\_env to False
+* set no\_proxy since some pc socket.gethostbyname is very slow
+* callback example fix
+* add cahced\_property to alibaba
