@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: notionsci
+Version: 0.4.2
+Summary: Collection of scientific app/tool syncs for Notion
+Home-page: https://github.com/EgorDm/notionsci
+Author: Egor Dmitriev
+Author-email: egordmitriev2@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: backports.zoneinfo (==0.2.1)
+Requires-Dist: bibtexparser (==1.2.0)
+Requires-Dist: blessed (==1.17.6)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: cached-property (==1.5.2)
+Requires-Dist: certifi (==2021.5.30)
+Requires-Dist: click (==8.0.1)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: dataclass-dict-convert (==1.5.8)
+Requires-Dist: dictdiffer (==0.9.0)
+Requires-Dist: inquirer (==2.7.0)
+Requires-Dist: mistletoe (==0.7.2)
+Requires-Dist: mypy-extensions (==0.4.3)
+Requires-Dist: notion-client (==0.6.0)
+Requires-Dist: pandas (==1.3.3)
+Requires-Dist: pathlib (==1.0.1)
+Requires-Dist: platformdirs (==2.3.0)
+Requires-Dist: python-editor (==1.0.4)
+Requires-Dist: pytz (==2021.1)
+Requires-Dist: pyyaml (==5.4.1)
+Requires-Dist: pyzotero
+Requires-Dist: readchar (==2.0.1)
+Requires-Dist: rfc3986[idna2008] (==1.5.0)
+Requires-Dist: ruamel.yaml (==0.17.16)
+Requires-Dist: sgmllib3k (==1.0.0)
+Requires-Dist: simple-parsing (==0.0.16.post2)
+Requires-Dist: stringcase (==1.2.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: text-unidecode (==1.3)
+Requires-Dist: tqdm (==4.62.2)
+Requires-Dist: typing-extensions (==3.10.0.2)
+Requires-Dist: typing-inspect (==0.7.1)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: anyio (==3.3.1) ; (python_full_version >= '3.6.2')
+Requires-Dist: ruamel.yaml.clib (==0.2.6) ; (python_version < '3.10' and platform_python_implementation == 'CPython')
+Requires-Dist: numpy (==1.21.2) ; (python_version < '3.11' and python_version >= '3.7')
+Requires-Dist: future (==0.18.2) ; (python_version >= '2.6' and python_version not in '3.0, 3.1, 3.2, 3.3')
+Requires-Dist: python-dateutil (==2.8.2) ; (python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3')
+Requires-Dist: six (==1.16.0) ; (python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3')
+Requires-Dist: urllib3 (==1.26.6) ; (python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4' and python_version < '4')
+Requires-Dist: requests (==2.26.0) ; (python_version >= '2.7' and python_version not in '3.0, 3.1, 3.2, 3.3, 3.4, 3.5')
+Requires-Dist: charset-normalizer (==2.0.5) ; (python_version >= '3')
+Requires-Dist: idna (==3.2) ; (python_version >= '3')
+Requires-Dist: beautifulsoup4 (==4.10.0) ; (python_version >= '3.1')
+Requires-Dist: pyparsing (==3.0.0rc1) ; (python_version >= '3.5')
+Requires-Dist: sniffio (==1.2.0) ; (python_version >= '3.5')
+Requires-Dist: feedparser (==6.0.8) ; (python_version >= '3.6')
+Requires-Dist: h11 (==0.12.0) ; (python_version >= '3.6')
+Requires-Dist: httpcore (==0.13.7) ; (python_version >= '3.6')
+Requires-Dist: httpx (==1.0.0b0) ; (python_version >= '3.6')
+Requires-Dist: python-slugify (==5.0.2) ; (python_version >= '3.6')
+Requires-Dist: soupsieve (==2.2.1) ; (python_version >= '3.6')
+Requires-Dist: tzlocal (==4.0b1) ; (python_version >= '3.6')
+
+<!-- markdownlint-disable -->
+<div align="center">
+    <h1>NotionSci</h1>
+    <p>
+        <b>Collection of scientific app/tool syncs for <a href="https://developers.notion.com">Notion API</a></b>
+    </p>
+    <p>
+        <a href="https://pypi.org/project/notionsci"><img src="https://img.shields.io/pypi/v/notionsci.svg" alt="PyPI"></a>
+        <a href="Pipfile"><img src="https://img.shields.io/pypi/pyversions/notionsci" alt="Supported Python Versions"></a>
+        <a href="LICENSE"><img src="https://img.shields.io/github/license/EgorDm/notionsci" alt="License"></a>
+        <a href="https://github.com/ambv/black"><img src="https://img.shields.io/badge/code%20style-black-black" alt="Code style"></a>
+        <br/>
+        <a href="https://github.com/EgorDm/notionsci/actions/workflows/test.yml"><img src="https://github.com/EgorDm/notionsci/actions/workflows/test.yml/badge.svg" alt="Test"></a>
+    </p>
+    <br/>
+</div>
+<!-- markdownlint-enable -->
+
+This cli is meant to allow syncing of scienfic/reasearch tools to notion. (Such as Zotero, ...) 
+
+<!-- markdownlint-disable -->
+## Installation
+<!-- markdownlint-enable -->
+```shell
+pip install notionsci
+```
+
+## Features
+* [Zotero Synchronization](zotero.md)
+    * [References Sync (One Way)](zotero.md#references-sync-one-way)
+    * [Collections Sync (One Way)](zotero.md#collections-sync-one-way)
+* [Useful Notion Tools](notion.md)
+    * [Page Duplication](notion.md#duplicating-pages)
+    * [Workspace Trash Cleaning](notion.md#cleaning-workspace-trash)
+
+## Quick Start
+> Before getting started, configure [Notion intergration](notion.md#setting-up-connection)
+> and [Zotero integration](zotero.md#setting-up-connection).
+
+Duplicate the [Zotero Library Template](https://efficacious-alarm-7cc.notion.site/Zotero-Library-36f83fd853994420a53d818a5b67da3e)
+and synchronize the Zotero Collections with:
+
+```bash
+notionsci sync zotero collections <url or id of the cloned library template page>
+```
+
+and the References with:
+
+```bash
+notionsci sync zotero refs <url or id of the cloned library template page>
+```
+
+## [Documentation](https://egordm.github.io/notionsci/)
+
+
+
