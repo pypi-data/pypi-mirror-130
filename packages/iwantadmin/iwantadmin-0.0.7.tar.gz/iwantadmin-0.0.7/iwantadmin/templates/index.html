@@ -1,0 +1,89 @@
+{% extends "layout/default.html" %}
+
+{% block title %}Page Title 1{% endblock %}
+
+{% block app %}
+<div id="app" class="container">
+    <!-- 数据展示区 -->
+    <div class="row">
+        <!-- 表展示区 -->
+        <div class="col-sm-4" id="tables">
+            <h2><a href="?">Tables</a></h2>
+            <!-- <p>{{self}} {{self.__dict__}}</p> -->
+            <ul class="nav nav-pills nav-stacked">
+                {% for table in tables %}
+                    <li {% if model_name == table %}class="active"{% endif %}>
+                        <a href="{{request.app.state.admin_prefix}}/?model_name={{table}}">{{table}}</a>
+                    </li>
+                {% endfor %}
+            </ul>
+            <hr class="hidden-sm hidden-md hidden-lg">
+        </div>
+
+        <!-- 行展示区 -->
+        <div class="col-sm-8" id="rows">
+            <h1>{{model_name}}</h1>
+            <button type="button" class="btn btn-success">
+                <a href="{{ url_for('column_add', model_name=model_name) }}">新增 {{model_name}}</a>
+                <!-- <a href="{{request.app.state.admin_prefix}}/${table}/add">新增 {{model_name}}</a> -->
+            </button>
+            {% if not objects %}
+                <!-- 无数据情况 -->
+                <p v-if="objects.length==0">暂无数据</p>
+            {% else %}
+                <!-- 有数据情况 -->
+                <table class="table table-striped" v-if="objects.length>1">
+                    <!-- 总数 -->
+                    <!-- <p>{{objects[0]._meta.fields}}</p> -->
+                    <caption>总数：{{total}}</caption>
+                    <!-- 表头 -->
+                    <thead>
+                        <tr>
+                            {% for field in objects[0].to_dict().keys() %}
+                                <th>{{field}}</th>
+                            {% endfor %}
+                        </tr>
+                    </thead>
+                    <!-- 表体 -->
+                    <tbody>
+                        {% for item in objects %}
+                            <tr>
+                                {% for field, value in item.to_dict().items() %}
+                                    <td>{{value}}</td>
+                                {% endfor %}
+                                <td>
+                                    <div class="dropdown">
+                                        <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                                            操作<span class="caret"></span>
+                                        </button>
+                                        <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                                            <li role="presentation">
+                                                <a role="menuitem" tabindex="-1" href="{{request.app.state.admin_prefix}}/{{model_name}}/{{item.id}}/info">编辑</a>
+                                            </li>
+                                            <li role="presentation" class="divider"></li>
+                                            <li role="presentation">
+                                                <a role="menuitem" tabindex="-1" href="{{request.app.state.admin_prefix}}/{{model_name}}/{{item.id}}/delete">删除</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </td>
+                            </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            {% endif %}
+
+            {% include "include/pagination.html" %}
+        </div>
+    </div>
+
+</div>
+{% endblock %}
+
+{% block script %}
+<script>
+    function go_to_create(table) {
+        window.location = `{{request.app.state.admin_prefix}}/${table}/add`
+    }
+</script>
+{% endblock %}
