@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: hjc236_covid_dashboard
+Version: 0.2.1.2
+Summary: A python project which generates a web dashboard with COVID-19 data and relevant news articles.
+Home-page: https://github.com/hjc236/hjc236_covid_dashboard
+Author: hjc236
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/hjc236/hjc236_covid_dashboard/archive/refs/tags/v0.2.2.tar.gz
+Description: file: README.md
+Keywords: coronavirus,event-driven,dashboard
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
