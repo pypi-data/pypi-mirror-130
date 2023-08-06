@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rhealpix-geo"
+version = "0.3.0"
+description = "Objects for DGGS Cells and collections of Cells."
+authors = ["david-habgood <david.habgood@surroundaustralia.com>"]
+maintainers = ["david-habgood <david.habgood@surroundaustralia.com>"]
+readme = "README.md"
+repository = "https://github.com/surroundaustralia/rhealpix-geo"
+keywords = ["DGGS", "rHEALPix", "Geospatial"]
+license = "BSD-3-Clause"
+packages = [{ include = "rheal" }]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
