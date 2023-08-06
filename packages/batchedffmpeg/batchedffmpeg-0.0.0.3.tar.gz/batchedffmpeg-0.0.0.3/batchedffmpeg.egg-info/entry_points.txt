@@ -1,0 +1,3 @@
+[console_scripts]
+batchedffmpeg = batchedffmpeg.batchedffmpeg:main
+
