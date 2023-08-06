@@ -1,0 +1,16 @@
+COPYING
+README.md
+pyproject.toml
+setup.cfg
+aiosenz/__init__.py
+aiosenz/account.py
+aiosenz/api.py
+aiosenz/auth.py
+aiosenz/py.typed
+aiosenz/thermostat.py
+aiosenz/typing.py
+aiosenz.egg-info/PKG-INFO
+aiosenz.egg-info/SOURCES.txt
+aiosenz.egg-info/dependency_links.txt
+aiosenz.egg-info/requires.txt
+aiosenz.egg-info/top_level.txt
