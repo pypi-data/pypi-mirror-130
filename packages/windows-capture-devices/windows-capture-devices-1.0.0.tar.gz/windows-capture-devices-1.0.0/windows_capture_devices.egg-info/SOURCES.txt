@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+windows_capture_devices.cpp
+windows_capture_devices.egg-info/PKG-INFO
+windows_capture_devices.egg-info/SOURCES.txt
+windows_capture_devices.egg-info/dependency_links.txt
+windows_capture_devices.egg-info/top_level.txt
