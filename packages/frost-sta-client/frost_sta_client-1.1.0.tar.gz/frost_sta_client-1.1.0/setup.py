@@ -1,0 +1,20 @@
+import os
+from setuptools import setup, find_packages
+
+here = os.path.abspath(os.path.dirname(__file__))
+info = {}
+with open(os.path.join('frost_sta_client', '__version__.py')) as f:
+    exec(f.read(), info)
+
+
+setup(
+    name=info['__title__'],
+    version=info['__version__'],
+    description=info['__description__'],
+    author=info['__author__'],
+    author_email=info['__contact__'],
+    url=info['__url__'],
+    packages=find_packages(),
+    install_requires=['demjson3>=3.0.5', 'furl>=2.1.3', 'geojson>=2.5.0', 'jsonpickle>=2.0.0', 'requests>=2.26.0'],
+    key_words=['sta', 'ogc', 'frost', 'sensorthingsapi']
+)

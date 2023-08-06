@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: frost-sta-client
+Version: 1.1.0
+Summary: a client library to facilitate interaction with a FROST SensorThingsAPI Server
+Home-page: https://github.com/FraunhoferIOSB/FROST-Python-Client
+Author: Katharina Emde
+Author-email: katharina.emde@iosb.fraunhofer.de
+License: UNKNOWN
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
