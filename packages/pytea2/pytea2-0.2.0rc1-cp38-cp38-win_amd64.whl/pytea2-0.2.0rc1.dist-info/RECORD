@@ -1,0 +1,11 @@
+pytea/__init__.py,sha256=sBBoIxpKxEoeR26F8AqPEpvSkyaeqhnsyPi_k4a9_k4,152
+pytea/_tea.c,sha256=QHBcEd_BBLTQtdqcnlmpCcoBYsq67tBYb0XdQ5R6OyE,291303
+pytea/_tea.cp38-win_amd64.pyd,sha256=tRVEdjTcymVEgG5icYajvqK5XeGNVDvscpEmc6bLKHo,45056
+pytea/_tea.pyx,sha256=KTu9Sh2ON8efp4QcDJHky4BX1h-R_VgF_4ZsX6DkHTE,7089
+pytea/pytea.py,sha256=KohHwABCP91OXSI1qrVv0NcRSt26BurGKw2oWPeumU0,3649
+pytea/tea.pxd,sha256=2m4Item6qtxOOUO6YN9KjyDNpzj3NOe3LkO_Jf8tz2w,1133
+pytea2-0.2.0rc1.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+pytea2-0.2.0rc1.dist-info/METADATA,sha256=DDKxlrgUOj3LZ8PMh0tK6cIw0opklc-g0RvFpdXfduo,1721
+pytea2-0.2.0rc1.dist-info/WHEEL,sha256=P24hRDQapckAvHvgBBzlH5uw6rQ_oZQtKbG6drGrqOM,100
+pytea2-0.2.0rc1.dist-info/top_level.txt,sha256=FNTpMcE4TjwazvDlDkEWeu7PCB9R4dOSwGCCRTitK-o,6
+pytea2-0.2.0rc1.dist-info/RECORD,,
