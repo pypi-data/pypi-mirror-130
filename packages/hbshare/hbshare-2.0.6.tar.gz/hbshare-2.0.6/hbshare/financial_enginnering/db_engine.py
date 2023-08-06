@@ -1,0 +1,235 @@
+import os
+import pandas as pd
+import datetime
+from sqlalchemy import create_engine
+import hbshare as hbs
+
+class PrvFunDB:
+
+    def __init__(self,config):
+
+        self.sql_info=config.DBconfig
+        self.columns_name_trans=config.Columns_name_trans
+        self.mkr_code_dic=config.Mkr_code
+
+        #set up the engine
+        self.engine= create_engine("mysql+pymysql://{}:{}@{}:{}/{}".format(
+            self.sql_info['Sql_user'], self.sql_info['Sql_pass'],
+            self.sql_info['Sql_ip'], self.sql_info['port'], self.sql_info['Database']))
+
+    def read_files_2_df(self,root_dir,dirs):
+
+        # initial the output table
+        value_table = pd.DataFrame()
+        fold_dir = root_dir + "\\" + dirs
+        for root, dir, files in os.walk(fold_dir, topdown=False):
+            file_list = files
+
+        # go through all the fiels in the sub folder
+        for files in file_list:
+
+            # read the file and rename the columns
+            temp_excel = pd.read_excel(fold_dir + "\\" + files, header=3)
+
+            # check if there is any regular columns missed if yes add those columns
+            if (len(list(set(self.columns_name_trans.keys()).difference(set(temp_excel.columns)))) > 0):
+                for col in list(set(self.columns_name_trans.keys()).difference(set(temp_excel.columns))):
+                    temp_excel[col] = None
+
+            # rename all the chinese column names
+            temp_excel.rename(columns=self.columns_name_trans, inplace=True)
+
+            # add the column  stamp date and product name based on the file names,the frequence based on data
+            Stamp_date = ''.join(filter(lambda x: x.isdigit(), files.split('_')[2].split('.')[0]))
+
+            temp_excel = temp_excel[~(temp_excel['Code'].isnull())]
+
+            temp_excel['Stamp_date'] = datetime.datetime.strptime(Stamp_date, "%Y%m%d").date()
+            temp_excel['Prd_name'] = dirs
+            temp_excel['Fre'] = 'Monthly'
+
+            # combine all the tables into one output table
+            value_table = pd.concat([value_table, temp_excel], axis=0)
+
+        return value_table
+
+    def create_new_table(engine):
+
+        # generate the sql for creating the table
+        sql = """
+        CREATE TABLE PrvFund (
+                 Code  CHAR(100),
+                 Name  CHAR(100),
+                 Quant FLOAT,  
+                 Unit_cost FLOAT,
+                 Cost FLOAT,
+                 Cost_weight FLOAT,
+                 Price FLOAT,
+                 Mkt_value FLOAT,
+                 Weight FLOAT,
+                 Increased_val FLOAT,
+                 Trading_flg CHAR(20),
+                 Currency  CHAR(20),
+                 Hd_info CHAR(100),
+                 Ex_rate FLOAT,
+                 Stamp_date timestamp ,
+                 Prd_name CHAR(20),
+                 Fre CHAR(20)
+                 )
+                 """
+
+        # delect the will-be-creted table if exist already
+        with engine.connect() as con:
+            con.execute("DROP TABLE IF EXISTS PrvFund")
+            con.execute(sql)
+
+    def delete_table(self):
+
+        # delect the will-be-creted table if exist already
+        with self.engine.connect() as con:
+            con.execute("DROP TABLE IF EXISTS {}".format(self.table_name))
+
+    def write2DB(self,table_name,fold_dir,increment):
+
+        # self.delete_table()
+
+        # get all the sub fold names in the root folder
+        for root, dir, files in os.walk(fold_dir,topdown=False):
+            dir_list = dir
+
+        # for each sub folders  go through all the fiels in the it
+        for dirs in dir_list:
+
+            # save file data into dataframe
+            Input_table = self.read_files_2_df(fold_dir,dirs)
+
+            # if not increment out-dated data need to be deleted first
+            if (increment == 0):
+
+                # collect all the stamp_date that need to be deleted
+                Date_list = Input_table['Stamp_date'].unique().astype('str')
+
+                # set up the sql to count the number of data for the target stamp date
+                count_sql = """ 
+                    select count(*) as count from {0} where Prd_name= '{1}' and Stamp_date in ({2}) 
+                """.format(table_name, dirs, ','.join(["'%s'" % item for item in Date_list]))
+                count = pd.read_sql(sql=count_sql, con=self.engine)['count'][0]
+
+                # if there is out-dated data
+                if (count > 0):
+                    delete_sql = """ 
+                        delete from {0} where Prd_name= '{1}' and Stamp_date in ({2}) 
+                    """.format(table_name, dirs, ','.join(["'%s'" % item for item in Date_list]))
+                    with self.engine.connect() as con:
+                        con.execute(delete_sql)
+
+            # write dataframe into database
+            Input_table.to_sql(table_name, self.engine, index=False, if_exists='append')
+
+    def extract_from_db(self,prd_name,columns,tablename):
+
+        #read the table from the temp database
+        sql="""
+            select {0} from {1} where Prd_name= '{2}'
+        """.format(columns,tablename,prd_name)
+        df=pd.read_sql(sql,con=self.engine)
+
+        #add a new columd stock_code by translating code
+        df['Stock_code'] = None
+        for mkr_code in self.mkr_code_dic.values():
+            df=self.generate_stockcode_from_code(df,mkr_code)
+
+        #transfor datetime format to string format
+        # df['Stamp_date']=[x.strftime("%Y-%m-%d") for x in df['Stamp_date']]
+
+        return df
+
+    def generate_stockcode_from_code(self,df,code):
+
+        df.loc[df['Code'].str.startswith(code), 'Stock_code'] = \
+        df[(df['Code'].str.startswith(code)) & (df['Code'] !=code)]['Code'] \
+            .apply(lambda x: x.split(code)[1])
+        return df
+
+class HBDB:
+
+    def __init__(self,config):
+
+        self.sql_info = config.DBconfig
+        self.columns_name_trans = config.Columns_name_trans
+        self.jy_sql=config.Jy_sql
+        hbs.set_token("eTFrL1JzRVI3WGJycEp2cXFCczhwZz09")
+
+    def db2df(self,sql):
+
+        data = hbs.db_data_query('readonly', sql, page_size=5000)
+        pages=data['pages']
+        data = pd.DataFrame(data['data'])
+        if(pages>1):
+            for page in range(2,pages+1):
+                temp_data= hbs.db_data_query('readonly', sql, page_size=5000,page_num=page)
+                data=pd.concat([data,pd.DataFrame(temp_data['data'])],axis=0)
+        return data
+
+    def extract_industry(self,sec_code=None):
+
+        if(sec_code is None ):
+            #join the table with company stock code and company industry
+            #sql1 for normal stock sql2 for kechuang ban stock
+            sql1= self.jy_sql['sql_indus_a']['sql'].replace('@@','')
+            sql2 = self.jy_sql['sql_indus_b']['sql'].replace('@@','')
+        else:
+            sql1 = self.jy_sql['sql_indus_a']['sql']\
+                .replace('@@', "and A.SecuCode in ("+','.join(["'%s'" % item for item in sec_code])+")")
+            sql2 = self.jy_sql['sql_indus_b']['sql']\
+                .replace('@@', "and A.SecuCode in (" + ','.join(["'%s'" % item for item in sec_code]) + ")")
+
+        df1 = self.db2df(sql1)
+        df2 = self.db2df(sql2)
+        data=pd.concat([df1,df2],axis=0)
+
+        #some of the stocks has multiple industries,keep the latest one row
+        data = data.sort_values(by='XGRQ', ascending=False)
+        data.drop_duplicates(subset=['SECUCODE', 'SECUABBR', 'COMPANYCODE'],inplace=True,keep='first')
+        return data[['SECUCODE', 'SECUABBR', 'COMPANYCODE','FIRSTINDUSTRYNAME']]
+
+    def extract_fin_info(self,sec_code=None):
+
+        if(sec_code is None ):
+            #join the table with company stock code and company industry
+            sql = self.jy_sql['sql_fin']['sql'].replace('@@','')
+        else:
+            #filter the sql by security code range
+            sql = self.jy_sql['sql_fin']['sql']\
+                .replace('@@', "where b.SecuCode in (" + ','.join(["'%s'" % item for item in sec_code])+")")
+
+        data=self.db2df(sql)
+
+        # transfor tradingday format from yyyy-mm-dd hh-mm-ss to yyyy-mm-dd
+        data['TRADINGDAY'] = [datetime.datetime.strptime(x, "%Y-%m-%d").date() for x in
+                             (data['TRADINGDAY'].apply(lambda x: x[0:10]))]
+
+        return data
+
+    def extract_benchmark(self,benchmark_dict,sec_code=None):
+
+        if(sec_code is None ):
+            sql = self.jy_sql['sql_benchmark']['sql'].replace('@@','')
+        else:
+            #filter the sql by security code range
+            sql =self.jy_sql['sql_benchmark']['sql']\
+                .replace('@@', "and b.SecuCode in (" + ','.join(["'%s'" % item for item in sec_code])+")")
+
+        data=pd.DataFrame()
+        for benchmarks in benchmark_dict.keys():
+            sql2 = "SELECT INNERCODE FROM hsjy_gg.SecuMain where SecuCategory = 4 and SecuCode = '{}'".format(benchmark_dict[benchmarks])
+            innercode = self.db2df(sql2)['INNERCODE'][0]
+            tempdata=self.db2df(sql.replace('@IndexCode',str(innercode)))
+            tempdata['Index_type']=benchmarks
+            data=pd.concat([data,tempdata],axis=0)
+
+        # transform tradingday format from yyyy-mm-dd hh-mm-ss to yyyy-mm-dd
+        data['ENDDATE'] = [datetime.datetime.strptime(x, "%Y-%m-%d").date() for x in
+                             (data['ENDDATE'].apply(lambda x: x[0:10]))]
+
+        return data
