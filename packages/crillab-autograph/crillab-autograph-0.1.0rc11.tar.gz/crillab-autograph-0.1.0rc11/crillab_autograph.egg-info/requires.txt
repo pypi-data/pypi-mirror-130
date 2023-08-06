@@ -1,0 +1,14 @@
+Cython
+Pillow
+cycler
+kiwisolver
+matplotlib
+nose
+numpy
+pip
+plotly
+pyparsing
+python-dateutil
+retrying
+setuptools
+six
