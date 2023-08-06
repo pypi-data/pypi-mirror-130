@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: idm-mobile-client-py
+Version: 0.0.2
+Summary: Reverse-engineered IDM mobile client
+Home-page: https://github.com/rany2/idm_mobile_client_py
+Author: rany
+Author-email: ranygh@riseup.net
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/rany2/idm_mobile_client_py/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Requires-Dist: requests (>=2.25.1)
+
+UNKNOWN
+
+
