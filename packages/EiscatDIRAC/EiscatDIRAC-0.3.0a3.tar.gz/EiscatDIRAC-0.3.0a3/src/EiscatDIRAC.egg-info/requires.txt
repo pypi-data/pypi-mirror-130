@@ -1,0 +1,15 @@
+webappdirac
+setuptools
+
+[server]
+webappdirac~=4.3
+
+[testing]
+flaky
+hypothesis
+mock
+parameterized
+pytest
+pytest-cov
+pytest-mock
+pycodestyle
