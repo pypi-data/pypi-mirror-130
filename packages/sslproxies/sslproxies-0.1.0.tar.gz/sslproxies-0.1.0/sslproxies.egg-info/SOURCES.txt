@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+sslproxies/__info__.py
+sslproxies/__init__.py
+sslproxies/sslproxies.py
+sslproxies.egg-info/PKG-INFO
+sslproxies.egg-info/SOURCES.txt
+sslproxies.egg-info/dependency_links.txt
+sslproxies.egg-info/requires.txt
+sslproxies.egg-info/top_level.txt
+sslproxies/classes/Proxy.py
+sslproxies/classes/ProxyManager.py
+sslproxies/classes/__init__.py
