@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/tutle/__init__.py
+src/tutle/tutle.py
+src/tutle.egg-info/PKG-INFO
+src/tutle.egg-info/SOURCES.txt
+src/tutle.egg-info/dependency_links.txt
+src/tutle.egg-info/top_level.txt
