@@ -1,0 +1,15 @@
+README.md
+pyproject.toml
+setup.cfg
+src/ac207_autodiff.egg-info/PKG-INFO
+src/ac207_autodiff.egg-info/SOURCES.txt
+src/ac207_autodiff.egg-info/dependency_links.txt
+src/ac207_autodiff.egg-info/requires.txt
+src/ac207_autodiff.egg-info/top_level.txt
+src/autodiff/__init__.py
+src/autodiff/forward/__init__.py
+src/autodiff/forward/dual.py
+src/autodiff/forward/operations.py
+src/autodiff/reverse/__init__.py
+src/autodiff/reverse/node.py
+src/autodiff/reverse/operations.py
