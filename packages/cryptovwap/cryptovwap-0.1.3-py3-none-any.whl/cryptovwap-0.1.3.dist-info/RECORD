@@ -1,0 +1,17 @@
+cryptovwap/__init__.py,sha256=V10Z8hxlSGZEM8ktVLDE8IAX8ivoXdZpB9hLXFRe96g,23
+cryptovwap/assets/favicon.ico,sha256=4bJoeZeiDK9QNslc-rAGi-7M8NkFdWzPvowzbrxH_A8,179683
+cryptovwap/assets/style.css,sha256=SjxKdCTX-fpfain2tpg7qKsy1qnNZ0AqFjdY2QR4MzU,1281
+cryptovwap/back/__init__.py,sha256=P_U1N__36ad4C0zcA_tsBxkF2JiqAnjAkaJWMMYO490,199
+cryptovwap/back/bitvavo.py,sha256=s0XOhKigdYsXUQbzn5FKp2QC08yDcCdyKYe0Eel8yus,1815
+cryptovwap/back/exchange.py,sha256=LN6yjCLnKkag0_RTsD6reE7LVzQePN8OhjuEpRbt-Fk,941
+cryptovwap/back/helpers.py,sha256=5AEOyH-IngnR_FGiqDAsMUjzF6vrHK8QizeO7gbx3Gg,469
+cryptovwap/back/kraken.py,sha256=WQjTBxyOagTZX7U6Q3R3DP3GnBCRKCLsj3JgT7bTmIQ,1908
+cryptovwap/cli.py,sha256=B2OObZAfcKCNWJ4B6NEXaUroI2MY3Uvl7uIKWx6tz7U,88
+cryptovwap/front/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cryptovwap/front/head.py,sha256=A076uR7Hh7ySsToGlvWIggRGSLtvH6xeAPKQiITLMTo,538
+cryptovwap/front/main_page.py,sha256=cKTS9HAy0bYuoxKbv0RgECYH7-W4KjqlBd6Zlx2ebgA,4319
+cryptovwap/front/menu.py,sha256=0vjfsGYyPr_PmM1xAfM9-T1Ma57k1RkuEo8Mpy_Aftk,1651
+cryptovwap-0.1.3.dist-info/entry_points.txt,sha256=YPJLI1UQB-0InzgXsOZ23Cyy_b8uc6Ltz2hy6DucO7k,50
+cryptovwap-0.1.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cryptovwap-0.1.3.dist-info/METADATA,sha256=9sM4teEe5TRM8_1BOcGYVGtH0XzDrLzuAspMl3UFK0M,494
+cryptovwap-0.1.3.dist-info/RECORD,,
