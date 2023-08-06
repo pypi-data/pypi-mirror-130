@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: waffles
+Version: 0.0.1
+Summary: 
+Author: Shahnoza Bekbulaeva
+Author-email: shakhnoza.bekbulaeva@nttdata.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.21.1,<0.22.0)
+Requires-Dist: python-decouple (>=3.5,<4.0)
+Requires-Dist: rich (>=10.15.2,<11.0.0)
