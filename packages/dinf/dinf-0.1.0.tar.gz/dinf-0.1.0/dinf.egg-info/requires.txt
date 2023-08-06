@@ -1,0 +1,9 @@
+arviz
+cyvcf2>=0.30.14
+emcee
+numpy
+jax
+flax
+optax
+msprime>=1.0.4
+demes>=0.2.1
