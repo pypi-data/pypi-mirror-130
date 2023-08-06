@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: poetry-types
+Version: 0.2.0
+Summary: A poetry plugin that automatically adds type subs as dependencies like the mypy --install-types command.
+Home-page: https://github.com/kreyoo/poetry-types
+License: MIT
+Author: kreyoo
+Author-email: zunder325@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: poetry (>=1.2.0a2,<2.0.0)
+Project-URL: Repository, https://github.com/kreyoo/poetry-types
+Description-Content-Type: text/markdown
+
+# poetry-types
+
+This is a plugin to poetry for the upcoming poetry 1.2 plugin feature.
+It automatically installs/removes typing stubs when adding, removing or updating packages via commands.
+Additionally, there are commands you can use to trigger this plugins behaviour:
+
+- `poetry types add <package names>`
+- `poetry types remove <package names>`
+- `poetry types update`
+
+## Installation
+
+Run `poetry plugin add poetry-plugin`
+
+Note: With poetry version 1.2.0a2 poetry removes all dependencies when using `poetry remove` and so does
+`poetry types remove`. Using poetry from the git repo is recommended when testing this plugin.
+
+## TODO:
+
+- Add tests
+- Make command-line output more beautiful maybe?
+
