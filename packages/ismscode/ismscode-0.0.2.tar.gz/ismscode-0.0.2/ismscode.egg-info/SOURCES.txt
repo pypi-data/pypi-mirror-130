@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+ismscode/__init__.py
+ismscode/main.py
+ismscode.egg-info/PKG-INFO
+ismscode.egg-info/SOURCES.txt
+ismscode.egg-info/dependency_links.txt
+ismscode.egg-info/requires.txt
+ismscode.egg-info/top_level.txt
