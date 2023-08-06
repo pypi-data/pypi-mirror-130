@@ -1,0 +1,12 @@
+vsrife/IFNet_HDv3.py,sha256=8qaQ0YgCFYat-3OJ8T1aiAE2zjHX5LrswDkW808CDqQ,5461
+vsrife/RIFE_HDv3.py,sha256=mIAGQ9RkmhzKUmhNIwIDWobw99rWK7wjP7XVEdOuYSo,2942
+vsrife/__init__.py,sha256=oH0n9z-ecu5D-lcSGooUibmDYfZJyRBwWWE5iAXOBsU,3863
+vsrife/flownet.pkl,sha256=sjStjQrPy22eryeR633evaq1i9hisinHA_gHPlbZnCk,35037125
+vsrife/loss.py,sha256=GSg8h8J6yf984hCs3pGw2nY6c9fhgQabWlWTm2NpEII,4443
+vsrife/refine.py,sha256=FQUN-Ru1hNNY5mGrkV_b3q1-MN06hTyzficu0bi0tfU,3361
+vsrife/warplayer.py,sha256=bNusUihihqO3FRK856X8xaS3LMno8YP0CNEbYrafDv8,994
+vsrife-2.0.0.dist-info/LICENSE,sha256=TOnHjjjk72COaBl3aWUvIQWIiDASReAL7xEEGPSGN3E,1084
+vsrife-2.0.0.dist-info/METADATA,sha256=G1TA06rHoZmhpYM9xXZVUURwUB6kaZafNQV_NnHw07s,1136
+vsrife-2.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+vsrife-2.0.0.dist-info/top_level.txt,sha256=YrS3q0kY-u9GHnQsKvb1v7PNkvclDoMpOHmhQDfaeig,7
+vsrife-2.0.0.dist-info/RECORD,,
