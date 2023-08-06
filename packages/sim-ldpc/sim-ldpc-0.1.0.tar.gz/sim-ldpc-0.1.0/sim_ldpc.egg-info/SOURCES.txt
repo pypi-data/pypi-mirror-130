@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+ldpc/__init__.py
+ldpc/base_code.py
+sim_ldpc.egg-info/PKG-INFO
+sim_ldpc.egg-info/SOURCES.txt
+sim_ldpc.egg-info/dependency_links.txt
+sim_ldpc.egg-info/requires.txt
+sim_ldpc.egg-info/top_level.txt
