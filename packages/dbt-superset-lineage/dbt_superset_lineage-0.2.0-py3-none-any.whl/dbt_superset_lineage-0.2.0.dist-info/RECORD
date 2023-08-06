@@ -1,0 +1,9 @@
+dbt_superset_lineage/__init__.py,sha256=80fQuztimnUgI7zrd8K6FovYdhf1dQ-wuvNSBIRym_A,2100
+dbt_superset_lineage/pull_dashboards.py,sha256=QzU0p-9c-gEfytvZgK9NQqeag_2NWMPyw5o-wwZe2-k,12449
+dbt_superset_lineage/push_descriptions.py,sha256=fCmN1ruhB60UpsMPQfHqurDAnVV_TYlGAbtgQRkUyek,7490
+dbt_superset_lineage/superset_api.py,sha256=I_mt5roleTo2r_Ho5aZW0siMvI7ogEKFZQGF-WhN-_k,3370
+dbt_superset_lineage-0.2.0.dist-info/entry_points.txt,sha256=wDdgRIi-TCe9bobs1DkLWRPticr51wp0MeoKOWV9ZB0,74
+dbt_superset_lineage-0.2.0.dist-info/LICENSE.md,sha256=EQlCs3kwPtPlk-_vYR8jj3kkQPQIB1HK01MpSEW9-cA,1062
+dbt_superset_lineage-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+dbt_superset_lineage-0.2.0.dist-info/METADATA,sha256=BFzuKLl4pOZJUShF317I2Jgqia1HL8Kw1uEvycOpaMI,1890
+dbt_superset_lineage-0.2.0.dist-info/RECORD,,
