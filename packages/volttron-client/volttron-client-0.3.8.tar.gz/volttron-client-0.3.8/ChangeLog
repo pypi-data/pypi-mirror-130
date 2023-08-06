@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v0.3.8
+------
+
+* Fixed starting of agent without double quoting. Use single word with keys
