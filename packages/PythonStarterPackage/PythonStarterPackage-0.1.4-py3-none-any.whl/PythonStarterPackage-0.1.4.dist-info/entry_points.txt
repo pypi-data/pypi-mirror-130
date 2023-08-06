@@ -1,0 +1,3 @@
+[console_scripts]
+PythonStarterPackage = PythonStarterPackage.__main__:main
+
