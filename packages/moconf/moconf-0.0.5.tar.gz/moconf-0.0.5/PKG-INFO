@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: moconf
+Version: 0.0.5
+Summary: moconf is a package for configuring a Morpheus appliance.
+Home-page: https://github.com/morpheus-training/moconf
+Author: Sean Jabro
+Author-email: sjabro@morpheusdata.com
+License: Apache 2.0
+Description: # moconf
+        Python module for configuring Morpheus training environments
+        
+        ## Installation
+        
+        ```
+        pip install moconf
+        ```
+        
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.9
