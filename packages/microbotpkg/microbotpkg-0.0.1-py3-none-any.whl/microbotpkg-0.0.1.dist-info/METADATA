@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: microbotpkg
+Version: 0.0.1
+Summary: An Intelligent Bot Framework to build simple yet powerful Assistance Bots.
+Home-page: UNKNOWN
+Author: Juan Carlos Juárez
+Author-email: <jc.juarezgarcia@outlook.com>
+License: UNKNOWN
+Keywords: python,Bot,Framework
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+An Fully Customizable Intelligent Bot Framework to build simple yet powerful Assistance Bots, allowing to do Web Searches and process Natural and Boolean Responses.
+
+
