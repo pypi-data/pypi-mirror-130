@@ -1,0 +1,11 @@
+#
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:stock.package,label_file_id:"
+msgid "Label File ID"
+msgstr "Label Datei ID"
+
+msgctxt "field:stock.package,label_file_name:"
+msgid "Label File Name"
+msgstr "Label Dateiname"
