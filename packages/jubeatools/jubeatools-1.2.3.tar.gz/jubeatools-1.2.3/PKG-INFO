@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: jubeatools
+Version: 1.2.3
+Summary: A toolbox for jubeat file formats
+Home-page: https://github.com/Stepland/jubeatools
+Author: Stepland
+Author-email: 16676308+Stepland@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: construct (>=2.10,<3.0)
+Requires-Dist: construct-typing (>=0.4.2,<0.5.0)
+Requires-Dist: marshmallow (>=3.6.0,<4.0.0)
+Requires-Dist: marshmallow-dataclass[union,enum] (>=8.4.1,<9.0.0)
+Requires-Dist: more-itertools (>=8.4.0,<9.0.0)
+Requires-Dist: multidict (>=5.1.0,<6.0.0)
+Requires-Dist: parsimonious (>=0.8.1,<0.9.0)
+Requires-Dist: path (>=15.1.2,<16.0.0)
+Requires-Dist: python-constraint (>=1.4.0,<2.0.0)
+Requires-Dist: simplejson (>=3.17.0,<4.0.0)
+Requires-Dist: sortedcontainers (>=2.3.0,<3.0.0)
+Project-URL: Repository, https://github.com/Stepland/jubeatools
+Description-Content-Type: text/markdown
+
+# Jubeatools
+A toolbox to convert between jubeat file formats
+
+## How to install
+```sh
+pip install jubeatools
+```
+
+You need Python 3.8 or greater
+
+## How to use
+```sh
+jubeatools ${source} ${destination} -f ${output format} (... format specific options)
+```
+
+## Which formats are supported
+|                 |                      | input | output |
+|-----------------|----------------------|:-----:|:------:|
+| memon           | v0.2.0               | ✔️     | ✔️      |
+|                 | v0.1.0               | ✔️     | ✔️      |
+|                 | legacy               | ✔️     | ✔️      |
+| jubeat analyser | #memo2               | ✔️     | ✔️      |
+|                 | #memo1               | ✔️     | ✔️      |
+|                 | #memo                | ✔️     | ✔️      |
+|                 | mono-column (1列形式) | ✔️     | ✔️      |
+| jubeat (arcade) | .eve                 | ✔️     | ✔️      |
+| jubeat plus     | .jbsq                | ✔️     | ✔️      |
+| malody          | .mc (Pad Mode)       | ✔️     | ✔️      |
+
