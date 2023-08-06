@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: sb2sep
+Version: 1.1.2
+Summary: Separate Stellar Component Spectra and Calculate Radial Velocities in SB2 Binary Systems
+Home-page: https://github.com/jsinkbaek/sb2sep
+Author: Jeppe Sinkbæk Thomsen
+Author-email: jeppest2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# sb2sep
+Separate Stellar Component Spectra and Calculate Radial Velocities in SB2 Binary Systems
+
+Please see the [documentation](https://jsinkbaek.github.io/sb2sep/) for a description and guides on how to use the software.
+
+
