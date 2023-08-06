@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/datalines/__init__.py
+src/datalines/example.py
+src/datalines.egg-info/PKG-INFO
+src/datalines.egg-info/SOURCES.txt
+src/datalines.egg-info/dependency_links.txt
+src/datalines.egg-info/top_level.txt
