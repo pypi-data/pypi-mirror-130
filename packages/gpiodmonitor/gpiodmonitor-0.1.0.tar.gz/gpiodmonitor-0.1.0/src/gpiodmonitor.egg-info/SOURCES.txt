@@ -1,0 +1,15 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+run.sh
+setup.py
+src/gpiodmonitor/__init__.py
+src/gpiodmonitor/gpiodmonitor.py
+src/gpiodmonitor.egg-info/PKG-INFO
+src/gpiodmonitor.egg-info/SOURCES.txt
+src/gpiodmonitor.egg-info/dependency_links.txt
+src/gpiodmonitor.egg-info/entry_points.txt
+src/gpiodmonitor.egg-info/top_level.txt
+src/gpiodmonitor/log/__init__.py
+src/gpiodmonitor/log/log.py
