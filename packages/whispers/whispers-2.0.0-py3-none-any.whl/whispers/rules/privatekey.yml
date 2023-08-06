@@ -1,0 +1,9 @@
+- id: privatekey
+  description: Text resembling a private key format
+  message: Private key
+  severity: CRITICAL
+  value:
+    regex: "\
+      [\\-]{3,}BEGIN (RSA|DSA|EC|OPENSSH|PRIVATE|ENCRYPTED|PGP)? ?(PRIVATE)? KEY( BLOCK)?[\\-]{3,}\
+      "
+    ignorecase: False
