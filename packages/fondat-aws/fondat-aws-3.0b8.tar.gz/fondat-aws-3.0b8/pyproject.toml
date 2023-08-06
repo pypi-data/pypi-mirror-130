@@ -1,0 +1,38 @@
+[build-system]
+requires = ["poetry>=1.1"]
+build-backend = "poetry.masonry.api"
+
+[tool.black]
+line-length = 96
+target-version = ['py310']
+
+[tool.poetry]
+name = "fondat-aws"
+version = "3.0b8"
+description = "Fondat package for Amazon Web Services."
+readme = "README.md"
+authors = ["fondat-aws authors"]
+homepage = "https://github.com/fondat/fondat-aws/"
+documentation = "https://github.com/fondat/fondat-aws/wiki"
+license = "MIT"
+keywords = ["asgi", "framework", "resource", "openapi"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "Topic :: Software Development :: Libraries :: Application Frameworks",
+]
+packages = [
+    { include = "fondat" }
+]
+
+[tool.poetry.dependencies]
+aiobotocore = "^2.0"
+python = "^3.9"
+fondat-core = "^3.0"
+
+[tool.poetry.dev-dependencies]
+black = "^21.12b0"
+pre-commit = "^2.16"
+pytest = "^6.2"
+pytest-asyncio = "^0.16"
+pytest-cov = "^3.0"
