@@ -1,0 +1,200 @@
+graph Tree {
+node [shape=box, style="filled, rounded",color="black",penwidth="3",fontcolor="black",                 fontname=helvetica] ;
+graph [ranksep="0 equally", splines=straight,                 bgcolor=transparent, dpi=200] ;
+edge [fontname=helvetica, color=black] ;
+0 [label="nan
+Prob: 1.0
+Frac: 0.001", fillcolor="#ffc155"] ;
+1 [label="wrkstat", fillcolor="#e7a28b"] ;
+2 [label="yes
+Prob: 1.0
+Frac: 0.002", fillcolor="#c155ff"] ;
+3 [label="wrkstat", fillcolor="#f1a87b"] ;
+4 [label="nan
+Prob: 1.0
+Frac: 0.002", fillcolor="#ffc155"] ;
+5 [label="wrkstat", fillcolor="#f1aa78"] ;
+6 [label="yes
+Prob: 1.0
+Frac: 0.008", fillcolor="#c155ff"] ;
+7 [label="wrkstat", fillcolor="#f1a979"] ;
+8 [label="nan
+Prob: 1.0
+Frac: 0.001", fillcolor="#ffc155"] ;
+9 [label="satjob", fillcolor="#f5b16d"] ;
+10 [label="nan
+Prob: 1.0
+Frac: 0.006", fillcolor="#ffc155"] ;
+11 [label="satjob", fillcolor="#f5b16e"] ;
+12 [label="nan
+Prob: 1.0
+Frac: 0.02", fillcolor="#ffc155"] ;
+13 [label="satjob", fillcolor="#f5b06f"] ;
+14 [label="yes
+Prob: 1.0
+Frac: 0.014", fillcolor="#c155ff"] ;
+15 [label="satjob", fillcolor="#f2ab77"] ;
+16 [label="nan
+Prob: 1.0
+Frac: 0.055", fillcolor="#ffc155"] ;
+17 [label="wrkslf", fillcolor="#e7a28b"] ;
+18 [label="yes
+Prob: 1.0
+Frac: 0.002", fillcolor="#c155ff"] ;
+19 [label="wrkgovt", fillcolor="#919fe3"] ;
+20 [label="no
+Prob: 1.0
+Frac: 0.012", fillcolor="#55ffc1"] ;
+21 [label="wrkgovt", fillcolor="#8da6e1"] ;
+22 [label="yes
+Prob: 1.0
+Frac: 0.013", fillcolor="#c155ff"] ;
+23 [label="wrkstat", fillcolor="#e5a18d"] ;
+24 [label="nan
+Prob: 1.0
+Frac: 0.022", fillcolor="#ffc155"] ;
+25 [label="wrkstat", fillcolor="#e8a28a"] ;
+26 [label="yes
+Prob: 1.0
+Frac: 0.005", fillcolor="#c155ff"] ;
+27 [label="INDUS10", fillcolor="#b06ef5"] ;
+28 [label="yes
+Prob: 1.0
+Frac: 0.006", fillcolor="#c155ff"] ;
+29 [label="INDUS10", fillcolor="#af70f5"] ;
+30 [label="yes
+Prob: 1.0
+Frac: 0.063", fillcolor="#c155ff"] ;
+31 [label="INDUS10", fillcolor="#ae71f4"] ;
+32 [label="yes
+Prob: 1.0
+Frac: 0.004", fillcolor="#c155ff"] ;
+33 [label="wrkgovt", fillcolor="#7cc0d7"] ;
+34 [label="yes
+Prob: 1.0
+Frac: 0.003", fillcolor="#c155ff"] ;
+35 [label="ISCO88", fillcolor="#6bdace"] ;
+36 [label="yes
+Prob: 0.667
+Frac: 0.002", fillcolor="#9d8dea"] ;
+37 [label="PRES16", fillcolor="#5cf2c5"] ;
+38 [label="no
+Prob: 1.0
+Frac: 0.014", fillcolor="#55ffc1"] ;
+39 [label="wrkstat", fillcolor="#e8a18b"] ;
+40 [label="yes
+Prob: 1.0
+Frac: 0.001", fillcolor="#c155ff"] ;
+41 [label="RELHHD4", fillcolor="#bd5afd"] ;
+42 [label="yes
+Prob: 1.0
+Frac: 0.008", fillcolor="#c155ff"] ;
+43 [label="evidu", fillcolor="#bd5afc"] ;
+44 [label="yes
+Prob: 1.0
+Frac: 0.006", fillcolor="#c155ff"] ;
+45 [label="godswill", fillcolor="#ba5ffb"] ;
+46 [label="yes
+Prob: 0.8
+Frac: 0.003", fillcolor="#ab77f2"] ;
+47 [label="wrkstat", fillcolor="#efa77d"] ;
+48 [label="yes
+Prob: 1.0
+Frac: 0.024", fillcolor="#c155ff"] ;
+49 [label="SEI10", fillcolor="#be59fd"] ;
+50 [label="yes
+Prob: 1.0
+Frac: 0.096", fillcolor="#c155ff"] ;
+51 [label="SEI10", fillcolor="#bd59fd"] ;
+52 [label="yes
+Prob: 1.0
+Frac: 0.016", fillcolor="#c155ff"] ;
+53 [label="wrkgovt", fillcolor="#b764f9"] ;
+54 [label="yes
+Prob: 1.0
+Frac: 0.003", fillcolor="#c155ff"] ;
+55 [label="PRESTG105PLUS", fillcolor="#b06ef5"] ;
+56 [label="yes
+Prob: 1.0
+Frac: 0.002", fillcolor="#c155ff"] ;
+57 [label="SEI10EDUC", fillcolor="#af71f4"] ;
+58 [label="yes
+Prob: 1.0
+Frac: 0.002", fillcolor="#c155ff"] ;
+59 [label="SEI10INC", fillcolor="#ad74f3"] ;
+60 [label="yes
+Prob: 1.0
+Frac: 0.016", fillcolor="#c155ff"] ;
+61 [label="PRESTG105PLUS", fillcolor="#ab77f2"] ;
+62 [label="no
+Prob: 1.0
+Frac: 0.004", fillcolor="#55ffc1"] ;
+63 [label="wrkstat", fillcolor="#f0a97a"] ;
+64 [label="nan
+Prob: 1.0
+Frac: 0.563", fillcolor="#ffc155"] ;
+1 -- 0 [label=" nan",penwidth=3] ;
+1 -- 17 [label=" keeping house\n other\n retired\n school\n temp not working\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+3 -- 2 [label=" school",penwidth=3] ;
+3 -- 5 [label=" keeping house\n other\n retired\n temp not working\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+5 -- 4 [label=" temp not working",penwidth=3] ;
+5 -- 7 [label=" keeping house\n other\n retired\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+7 -- 6 [label=" keeping house",penwidth=3] ;
+7 -- 9 [label=" other\n retired\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+9 -- 8 [label=" very dissatisfied",penwidth=3] ;
+9 -- 11 [label=" a little dissat\n mod. satisfied\n nan\n very satisfied",penwidth=3] ;
+11 -- 10 [label=" a little dissat",penwidth=3] ;
+11 -- 13 [label=" mod. satisfied\n nan\n very satisfied",penwidth=3] ;
+13 -- 12 [label=" mod. satisfied",penwidth=3] ;
+13 -- 15 [label=" nan\n very satisfied",penwidth=3] ;
+15 -- 14 [label=" nan",penwidth=3] ;
+15 -- 16 [label=" very satisfied",penwidth=3] ;
+17 -- 3 [label=" self-employed",penwidth=3] ;
+17 -- 23 [label=" nan\n someone else",penwidth=3] ;
+19 -- 18 [label=" government",penwidth=3] ;
+19 -- 21 [label=" nan\n private",penwidth=3] ;
+21 -- 20 [label=" nan",penwidth=3] ;
+21 -- 22 [label=" private",penwidth=3] ;
+23 -- 19 [label=" school",penwidth=3] ;
+23 -- 25 [label=" keeping house\n other\n retired\n temp not working\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+25 -- 24 [label=" temp not working",penwidth=3] ;
+25 -- 39 [label=" keeping house\n other\n retired\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+27 -- 26 [label=" a",penwidth=3] ;
+27 -- 29 [label=" b\n c\n d\n e",penwidth=3] ;
+29 -- 28 [label=" b",penwidth=3] ;
+29 -- 31 [label=" c\n d\n e",penwidth=3] ;
+31 -- 30 [label=" c",penwidth=3] ;
+31 -- 33 [label=" d\n e",penwidth=3] ;
+33 -- 32 [label=" government",penwidth=3] ;
+33 -- 35 [label=" nan\n private",penwidth=3] ;
+35 -- 34 [label=" c",penwidth=3] ;
+35 -- 37 [label=" d\n e",penwidth=3] ;
+37 -- 36 [label=" clinton",penwidth=3] ;
+37 -- 38 [label=" iap\n trump",penwidth=3] ;
+39 -- 27 [label=" keeping house",penwidth=3] ;
+39 -- 47 [label=" other\n retired\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+41 -- 40 [label=" child,natural or adopted,stepchild",penwidth=3] ;
+41 -- 43 [label=" nan\n roommate,housemate",penwidth=3] ;
+43 -- 42 [label=" no",penwidth=3] ;
+43 -- 45 [label=" nan\n yes",penwidth=3] ;
+45 -- 44 [label=" nan",penwidth=3] ;
+45 -- 46 [label=" not at all likely\n not very likely",penwidth=3] ;
+47 -- 41 [label=" other",penwidth=3] ;
+47 -- 63 [label=" retired\n unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+49 -- 48 [label=" b",penwidth=3] ;
+49 -- 51 [label=" c\n d\n e",penwidth=3] ;
+51 -- 50 [label=" c",penwidth=3] ;
+51 -- 53 [label=" d\n e",penwidth=3] ;
+53 -- 52 [label=" government",penwidth=3] ;
+53 -- 55 [label=" nan\n private",penwidth=3] ;
+55 -- 54 [label=" c",penwidth=3] ;
+55 -- 57 [label=" d\n e",penwidth=3] ;
+57 -- 56 [label=" c",penwidth=3] ;
+57 -- 59 [label=" d\n e",penwidth=3] ;
+59 -- 58 [label=" c",penwidth=3] ;
+59 -- 61 [label=" d\n e",penwidth=3] ;
+61 -- 60 [label=" d",penwidth=3] ;
+61 -- 62 [label=" e",penwidth=3] ;
+63 -- 49 [label=" retired",penwidth=3] ;
+63 -- 64 [label=" unempl, laid off\n working fulltime\n working parttime",penwidth=3] ;
+{rank = same;}}
