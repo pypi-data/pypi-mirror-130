@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: yemot
+Version: 0.0.5
+Summary: connecting to yemot
+Home-page: https://github.com/davidTheDeveloperY/yemot
+Author: david Dushinski
+Author-email: bc98400@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/davidTheDeveloperY/yemot/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# Make sure you have upgraded version of pip
+Windows
+```
+py -m pip install --upgrade pip
+```
+
+Linux/MAC OS
+```
+python3 -m pip install --upgrade pip
+```
+
+
+# install yemot project
+Windows
+```
+py -m pip install yemot
+```
+
+Linux/MAC OS
+```
+python3 -m pip install yemot
+```
+
+# How to use this project
+
+
+
+
+
+
+
+### References
+https://apisale.co.il/
+
