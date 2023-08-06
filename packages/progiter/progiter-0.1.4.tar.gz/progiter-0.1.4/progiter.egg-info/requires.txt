@@ -1,0 +1,66 @@
+
+[all]
+xdoctest
+codecov
+
+[all:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[all:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[all:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[all:python_version <= "3.4"]
+typing
+
+[all:python_version >= "3.10.0"]
+pytest
+
+[all:python_version >= "3.6.0"]
+pytest-cov
+
+[docs]
+sphinx
+sphinx_rtd_theme
+
+[tests]
+xdoctest
+codecov
+
+[tests:python_version < "2.8.0" and python_version >= "2.7.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.10.0" and python_version >= "3.7.0"]
+pytest
+
+[tests:python_version < "3.5.0" and python_version >= "3.4.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.6.0" and python_version >= "3.5.0"]
+pytest
+pytest-cov
+
+[tests:python_version < "3.7.0" and python_version >= "3.6.0"]
+pytest
+
+[tests:python_version <= "3.4"]
+typing
+
+[tests:python_version >= "3.10.0"]
+pytest
+
+[tests:python_version >= "3.6.0"]
+pytest-cov
