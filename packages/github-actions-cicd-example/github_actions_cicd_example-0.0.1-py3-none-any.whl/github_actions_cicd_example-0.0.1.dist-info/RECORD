@@ -1,0 +1,11 @@
+actionscicd/__init__.py,sha256=f0wn1zjouZI8tQeICxNW2yZclJiyJE19urajDVXjH94,344
+actionscicd/somecode.py,sha256=owH9ePQXBB4tzqv1-yuL9ctd9xXTBeLNmKXkfLvNDG8,976
+actionscicd/data/__init__.py,sha256=CyLa44eSrt1FsbCKYCX4GrQjX-SkBzik2NUUurl-QuI,23
+actionscicd/data/mogi_data.tsv,sha256=qgUztvOOH4q5_qBsP6KOnuq-DL0OTTbDUZ1cP2Qqf9w,40
+tests/__init__.py,sha256=CyLa44eSrt1FsbCKYCX4GrQjX-SkBzik2NUUurl-QuI,23
+tests/test_somecode.py,sha256=H01NadKe-LwQlTWCnQ7BkWlpJQeHrlH3HL6SEQGp_ns,797
+github_actions_cicd_example-0.0.1.dist-info/LICENSE,sha256=GRnX54mUpFvogI5EQfFFjjeSDRre2gFXnA-q5e_1O7Y,1068
+github_actions_cicd_example-0.0.1.dist-info/METADATA,sha256=eYbIgsBo9VUfLGc3KB1Ps-zl44hbTnlo05agsPisqrY,5047
+github_actions_cicd_example-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+github_actions_cicd_example-0.0.1.dist-info/top_level.txt,sha256=pyrZDiPbPCl_w1t8XP_ukwT_JTBtkJkYXN9P81T40gY,18
+github_actions_cicd_example-0.0.1.dist-info/RECORD,,
