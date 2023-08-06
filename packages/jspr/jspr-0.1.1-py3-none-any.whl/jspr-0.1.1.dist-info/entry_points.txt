@@ -1,0 +1,3 @@
+[console_scripts]
+jspr=jspr.main:start
+
