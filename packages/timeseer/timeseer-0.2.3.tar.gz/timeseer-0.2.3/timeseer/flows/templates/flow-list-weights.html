@@ -1,0 +1,47 @@
+{% extends 'timeseer.html' %}
+{% from 'macros.html' import bootstrap_icon, menu_back %}
+
+{% block menu %}
+{{ menu_back(url_for('flows.display_flow', flowevaluationid=flow_evaluation.db_id, sourcename=source_name)) }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <div class="row justify-content-between">
+        <h2 class="col-sm-6 h4">Weights</h2>
+        <p class="h6">
+            {{ flow_evaluation.group.flow.name }}
+        </p>
+        <p class="text-muted">
+            By
+            <a href="{{ url_for('weight_sets.configure_weight_set', weightsetname=weight_set.name, sourcename=source_name) }}"
+               target="_blank">
+                {{ weight_set.name }}
+                <sup>{{ bootstrap_icon('box-arrow-up-right') }}</sup>
+            </a>
+            at {{ flow_evaluation.group.date|datetimeformat }}.
+        </p>
+    </div>
+</div>
+
+<div class="pt-3 my-3">
+    <table class="ts-card-table table table-sm table-borderless">
+        <thead class="table-secondary">
+            <tr class="border-bottom">
+                <th scope="col">Name</th>
+                <th scope="col" class="ts-score-column">Weight</th>
+            </tr>
+        </thead>
+        {% for weight in weights|sort(attribute='name') %}
+        <tr class="border-bottom">
+            <td>
+                {{ weight.name|capitalize }}
+            </td>
+            <td>
+                {{ weight.weight }}
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}

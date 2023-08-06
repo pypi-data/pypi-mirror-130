@@ -1,0 +1,700 @@
+{% extends 'timeseer.html' %}
+{% from 'macros.html' import alerter, bootstrap_icon, info_popover, menu_back, progress_bar_flow, visualize_series %}
+
+{% set is_disabled = analysis_state.flow_state.is_defined() and (analysis_state.flow_state.pending > 0 or analysis_state.flow_state.is_running() or (analysis_state.block_state.is_defined() and not analysis_state.block_state.is_completed()))
+    or flow.name in sources %}
+
+{% macro block_card_header(modal_target, block, results_url=none) %}
+    <div class="card-header">
+        <div class="row align-items-center">
+            <div class="col">
+                {% if missing_dependencies[block.db_id]|count > 0 %}
+                    {{ info_popover('Missing a dependency on a block with type: ' + missing_dependencies[block.db_id]|join(', '), 'exclamation-triangle', 'text-warning', placement='top') }}
+                {% endif %}
+                {{ block.configuration.block_name }}
+            </div>
+            <div class="col-auto btn-toolbar" role='group'>
+                {% if results_url is not none %}
+                <form method="GET" action="{{ results_url }}">
+                    {% if source_name is not none %}
+                    <input type="hidden" name="sourcename" value="{{ source_name }}">
+                    {% endif %}
+                    <input type='hidden' name='blockevaluationid' value='{{ block_evaluations.get(block.db_id).db_id }}'>
+                    <button type='submit' class='btn btn-secondary btn-sm'
+                    {% if block_evaluations.get(block.db_id) is none %}
+                    disabled
+                    {% endif %}>
+                        Show
+                    </button>
+                </form>
+                {% endif %}
+                <div class="btn-group ms-2">
+                    <a class="btn btn-secondary btn-sm dropdown-toggle"
+                    href="#"
+                    role="button"
+                    id="editDropdownLink"
+                    data-bs-toggle="dropdown"
+                    aria-haspopup="true"
+                    aria-expanded="false">
+                        Edit
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="editDropdownLink">
+                        <button class="dropdown-item"  data-bs-toggle="modal" data-bs-target="{{ modal_target }}{{ block.db_id }}" data-bs-block="{{ block }}" {% if is_disabled %} disabled {% endif %}>
+                            Edit block
+                        </button>
+                        <div class="dropdown-divider"></div>
+                        <form method="POST" action="{{ url_for('.delete_block', sourcename=source_name) }}">
+                            <input type='hidden' name='blockid' value='{{ block.db_id }}'>
+                            <input type='hidden' name='flowname' value='{{ flow.name }}'>
+                            <button class="dropdown-item" type='submit' {% if is_disabled %} disabled {% endif %}>
+                                Remove block
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endmacro %}
+
+{% block styles %}
+<style>
+.ts-score-card {
+    width: 25rem;
+}
+.ts-score-column {
+    width: 5.5rem;
+}
+
+#timeseries_source_score {
+    max-width: 30rem;
+    max-height: 20rem;
+}
+
+</style>
+{% endblock %}
+
+{% block menu %}
+{{ menu_back(url_for('.list_flows', sourcename=source_name)) }}
+{% endblock %}
+
+{% block main %}
+<div class="offcanvas offcanvas-end" tabindex="-1" id="flow-evaluation-group-select">
+    <div class="offcanvas-header">
+        <h3 class="offcanvas-title h5">Evaluations for {{ flow.name }}</h3>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <form>
+            <input type="hidden" name="flowevaluationid" value="{{ flow_evaluation.db_id }}">
+            <div class="row align-items-center gx-2">
+                {% if flow_evaluation_groups|count > 0 %}
+                <div class="col-md-auto">
+                    <div class="btn-group ts-dropdown-select-button">
+                        <a class="btn border border-secondary dropdown-toggle"
+                            href="#"
+                            role="button"
+                            id="groupSelectionDropdown"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="groupSelectionDropdown">
+                            <button type="submit"
+                                    class="dropdown-item ts-dropdown-action"
+                                    formmethod="POST"
+                                    formaction="{{ url_for('.remove_flow_evaluation_groups', sourcename=source_name) }}"
+                                    >
+                                    Remove selected
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                {% endif %}
+            </div>
+            <table class="ts-table ts-table-checkbox table table-borderless mt-3" data-ts-target="groupSelectionDropdown">
+                <thead class="thead-secondary">
+                    <th scope="col">
+                        {% if flow_evaluation_groups|count > 0 %}
+                        <input class="form-check-input" type="checkbox">
+                        {% endif %}
+                    </th>
+                    <th scope="col">Evaluation date</th>
+                </thead>
+                <tbody>
+                    {% for group in flow_evaluation_groups %}
+                    <tr class="border-bottom">
+                        <td>
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input" name="flowevaluationgroups" value="{{ group.db_id }}">
+                            </div>
+                        </td>
+                        <td>
+                            {% if flow_evaluation is not none and group.db_id != flow_evaluation.group.db_id %}
+                            <a class="ts-table-link text-dark text-decoration-none" href="{{ url_for('.display_flow', flowevaluationgroupid=group.db_id, seriessetname=series_set_name, sourcename=source_name) }}">
+                                {{ group.date|datetimeformat }}
+                            </a>
+                            {% else %}
+                            {{ group.date|datetimeformat }}
+                            {% endif %}
+                        </td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </form>
+    </div>
+</div>
+
+<div class="ts-section py-3 my-3">
+    <div class="row align-items-center">
+        <div class="col">
+            <h2 class="col-sm-6 h4">{{ flow.name }}</h2>
+            <p class="text-muted">
+                {% if flow.time_range.relative_date %}
+                {{ flow.time_range.relative_date }}
+                {% else %}
+                From {{ flow.time_range.start_date|datetimeformat }} to {{ flow.time_range.end_date|datetimeformat }}
+                {% endif %}
+            </p>
+        </div>
+        <div class="col-lg-auto">
+                <div class="btn-toolbar" role="group">
+                    <form>
+                        <input type="hidden" name="flowname" value="{{ flow.name }}">
+                        <button type="submit"
+                            class="btn btn-primary me-2"
+                            formmethod="POST"
+                            formaction="{{ url_for('.evaluate', sourcename=source_name) }}"
+                            {% if missing_dependencies.values()|sum(start=[])|count > 0 %}
+                            disabled
+                            {% endif %}>
+                            Evaluate
+                        </button>
+                    </form>
+
+                    <div class="btn-group">
+                        <a class="btn btn-secondary dropdown-toggle"
+                            href="#"
+                            role="button"
+                           id="editDropdownLink"
+                           data-bs-toggle="dropdown"
+                           aria-haspopup="true"
+                           aria-expanded="false">
+                            Edit
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="editDropdownLink">
+                            <button class="dropdown-item"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#addBlockModal"
+                                    {% if is_disabled %} disabled {% endif %}>
+                                Add block
+                            </button>
+                            <a class="dropdown-item {% if is_disabled %} disabled {% endif %}"
+                               href="{{ url_for('.edit_flow_time_range', flowname=flow.name, sourcename=source_name) }}"
+                               >
+                                Edit time range
+                            </a>
+                            <form>
+                                <input type="hidden" name="flowname" value="{{ flow.name }}">
+                                {% if source_name %}
+                                <input type="hidden" name="sourcename" value="{{ source_name }}">
+                                {% endif %}
+                                <button type="submit"
+                                        class="dropdown-item"
+                                        formmethod="GET"
+                                        formaction="{{ url_for('.rename_flow') }}"
+                                        {% if flow.name in sources %}
+                                        disabled
+                                        {% endif %}>
+                                    Rename flow
+                                </button>
+                            </form>
+                            {% if flow.schedule_interval is none %}
+                            <a class="dropdown-item" href="{{ url_for('.schedule_flow', flowname=flow.name, sourcename=source_name) }}">Schedule flow</a>
+                            {% else %}
+                            <form method="POST" action="{{ url_for('.remove_schedule_flow', sourcename=source_name) }}">
+                                <input type="hidden" name="flowname" value="{{ flow.name }}">
+                                <button type="submit" class="dropdown-item" >Remove schedule</button>
+                            </form>
+                            {% endif %}
+                            <div class="dropdown-divider"></div>
+                            <form method="GET" action="{{ url_for('.delete_flow', flowname=flow.name, sourcename=source_name) }}">
+                                <input type='hidden' name='flowname' value='{{ flow.name }}'>
+                                <button class="dropdown-item" type='submit' {% if is_disabled %} disabled {% endif %}>
+                                    Remove flow
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </div>
+    </div>
+</div>
+{% if flow_evaluation is not none %}
+<div class="ts-section pb-3">
+    <div class="row align-items-center">
+        <div class="col-md-5 ge-2">
+            <div class="row align-items-center">
+                <div class="fw-bold col-xxl-auto">Date range</div>
+                <small class="text-muted col-xxl">
+                    {{ flow_evaluation.group.time_range.start_date|datetimeformat }}
+                    {{ bootstrap_icon('arrow-right-short', 'text-dark') }}
+                    {{ flow_evaluation.group.time_range.end_date|datetimeformat }}
+                </small>
+            </div>
+        </div>
+        <div class="col-md ge-2">
+            <div class="row align-items-center">
+                <div class="fw-bold col-xxl-auto">Evaluation</div>
+                <div class="col-xxl">
+                    <a class="btn btn-sm bg-light text-muted text-nowrap"
+                        href="#flow-evaluation-group-select"
+                        data-bs-toggle="offcanvas">
+                        {{ flow_evaluation.group.date|datetimeformat }}
+                        {{ bootstrap_icon('three-dots-vertical') }}
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="row align-items-center">
+                {% if other_flow_evaluations|count > 1 %}
+                <div class="fw-bold col-xxl-auto">Series sets</div>
+                <div class="col-xxl">
+                    <a class="btn dropdown-toggle btn-sm bg-light text-muted"
+                        href="#"
+                        role="button"
+                        id="editSeriesSetDropdownLink"
+                        data-bs-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        {{ flow_evaluation.series_set_name }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="editSeriesSetDropdownLink">
+                        {% for evaluation in other_flow_evaluations|sort(attribute='series_set_name') %}
+                            {% if evaluation != flow_evaluation %}
+                            <a class="dropdown-item" href="{{ url_for('.display_flow', flowevaluationid=evaluation.db_id, sourcename=source_name) }}">{{ evaluation.series_set_name }}</a>
+                            {% else %}
+                            <a class="dropdown-item active">{{ evaluation.series_set_name }}</a>
+                            {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+                {% else %}
+                <div class="fw-bold col-xxl-auto">Series set</div>
+                <div class="col-xxl">
+                    <a class="btn text-muted btn-sm bg-light pe-none col-lg">
+                        {{ flow_evaluation.series_set_name }}
+                    </a>
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+<div class="modal fade" id="addBlockModal" tabindex="-1" aria-labelledby="addBlockLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="addBlockLabel">Add block</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="add-block"
+                    data-block-url="{{ url_for('.add_block', flowname=flow.name) }}"
+                    data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                    data-blocks='{{ block_configurations|list|tojson|safe }}'
+                    data-block-types='{{ block_types|sort|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{{ progress_bar_flow(
+        analysis_state,
+        url_for('flows.get_flow_analysis_state',flowevaluationid=flow_evaluation.db_id),
+        url_for('flows.cancel_flow_evaluation', flowevaluationid=flow_evaluation.db_id),
+        flow_evaluation
+    )
+}}
+
+<div class="pt-1">
+    {{ alerter() }}
+    <div class="row align-items-center">
+        <div class="col-md">
+            <div class="my-3 shadow-sm card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            Time series
+                        </div>
+                        <div class="col-auto">
+                            {% if flow_evaluation is not none %}
+                            <a class="btn btn-secondary btn-sm me-2" href="{{ url_for('.list_series', flowevaluationid=flow_evaluation.db_id, sourcename=source_name) }}">
+                                Display
+                            </a>
+                            {% endif %}
+                            {% if flow_evaluation is none or flow_evaluation.group.db_id == (flow_evaluation_groups|first).db_id %}
+                            <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editSeriesSetModal" {% if is_disabled %} disabled {% endif %}>
+                                Edit
+                            </button>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>
+                        {% if series_set is not none %}
+                        <a href="{{ url_for('series_sets.manage_series_set', seriessetname=series_set.name, sourcename=source_name) }}"
+                        target="_blank">
+                            {{ series_set.name }} <sup>{{ bootstrap_icon('box-arrow-up-right') }}</sup>
+                        </a>
+                        {% else %}
+                        <a href="{{ url_for('series_sets.preview_template', templatename=series_set_template.name, sourcename=source_name) }}"
+                        target="_blank">
+                            {{ series_set_template.name }}
+                            <sup>{{ bootstrap_icon('box-arrow-up-right') }}</sup>
+                        </a>
+                        {% endif %}
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md">
+            <div class="my-3 shadow-sm card">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            Weights
+                        </div>
+                        <div class="col-auto">
+                            {% if flow_evaluation is not none %}
+                            <a class="btn btn-secondary btn-sm me-2" href="{{ url_for('.list_weights', flowevaluationid=flow_evaluation.db_id, sourcename=source_name) }}">
+                                Display
+                            </a>
+                            {% endif %}
+                            {% if flow_evaluation is none or flow_evaluation.group.db_id == (flow_evaluation_groups|first).db_id %}
+                            <button class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#editWeightSetModal" {% if is_disabled %} disabled {% endif %}>
+                                Edit
+                            </button>
+                            {% endif %}
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <p>
+                        <a href="{{ url_for('weight_sets.configure_weight_set', weightsetname=weight_set.name, sourcename=source_name) }}"
+                        target="_blank">
+                            {{ weight_set.name }} <sup>{{ bootstrap_icon('box-arrow-up-right') }}</sup>
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editSeriesSetModal" tabindex="-1" aria-labelledby="editSeriesSetLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editSeriesSetLabel">Edit time series selection</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div data-ts-form="series-set"
+                         data-block-url="{{ url_for('.edit_series_set', flowname=flow.name) }}"
+                         {% if series_set is not none %}
+                         data-selector-type="series-set"
+                         data-selector-name="{{ series_set.name }}"
+                         {% else %}
+                         data-selector-type="series-set-template"
+                         data-selector-name="{{ series_set_template.name }}"
+                         {% endif %}
+                         data-series-sets='{{ series_sets|sort(attribute="name")|tojson|safe }}'
+                         data-series-set-templates='{{ series_set_templates|sort(attribute="name")|tojson|safe }}'>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="editWeightSetModal" tabindex="-1" aria-labelledby="editWeightSetLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="editWeightSetLabel">Edit weight set selection</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="{{url_for('.edit_flow_weight_set', flowname=flow.name, sourcename=source_name)}}" method="POST">
+                        <div class="mb-3">
+                            <input type="hidden" name="flowname" value="{{flow.name}}">
+                            <select name="weightsetname" id="weightSetSelect" class="form-select">
+                                {% for weight_set in weight_sets|sort(attribute='name') %}
+                                <option {% if weight_set.db_id == flow.weight_set.db_id %}selected{% endif %}>{{ weight_set.name }}</option>
+                                {% endfor %}
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-primary me-2">Update</button>
+                        <a href="{{ url_for('.display_flow', flowname=flow.name, sourcename=source_name) }}"
+                            class="btn btn-secondary">
+                            Cancel
+                        </a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+{% for block in blocks %}
+{% if block.configuration.block_type.name == 'UNIVARIATE_ANALYSIS' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editUnivariateAnalysesModal", block, url_for('flow_univariate.display_dashboard') ) }}
+    <div class="card-body">
+        <ul>
+            {% for module_type in block.configuration.module_types|sort %}
+            <li>{{ module_type|replace('_', ' ')|capitalize }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="modal fade" id="editUnivariateAnalysesModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editUnivariateAnalysesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editUnivariateAnalysesLabel">Edit univariate analysis types</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="analysis-types"
+                    data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                    data-available-types='{{ univariate_module_types|sort|tojson|safe }}'
+                    data-selected-types='{{ block.configuration.module_types|sort|tojson|safe }}'
+                    data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                    data-sort-order='{{ block.sort_order}}'
+                    data-blocks='{{ block_configurations|list|tojson|safe }}'
+                    data-current-block = '{{ block.configuration.to_data()|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif block.configuration.block_type.name == 'COMPARISON' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editComparisonModal", block, url_for('flow_comparison.show_comparison')) }}
+    <div class="card-body">
+        Reference time range:
+        from {{ block.configuration.reference_time_range.start_date|datetimeformat }} to {{ block.configuration.reference_time_range.end_date|datetimeformat }}
+    </div>
+</div>
+
+<div class="modal fade" id="editComparisonModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editComparisonLabel" aria-hidden="true" data-bs-focus="false">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editComparisonLabel">Edit comparison reference time range</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="comparison"
+                    data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                    data-reference-start-date='{{ block.configuration.reference_time_range.start_date }}'
+                    data-reference-end-date='{{ block.configuration.reference_time_range.end_date }}'
+                    data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                    data-sort-order='{{ block.sort_order}}'
+                    data-current-block = '{{ block.configuration.to_data()|tojson|safe }}'
+                    data-blocks='{{ block_configurations|list|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif block.configuration.block_type.name == 'MULTIVARIATE_ANALYSIS' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editMultivariateAnalysesModal", block, url_for('flow_multivariate.show_statistics')) }}
+    <div class="card-body">
+        <ul>
+            {% for module_type in block.configuration.module_types|sort %}
+            <li>{{ module_type|replace('_', ' ')|capitalize }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+<div class="modal fade" id="editMultivariateAnalysesModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editMultivariateAnalysesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editMultivariateAnalysesLabel">Edit multivariate analysis types</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="analysis-types"
+                    data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                    data-available-types='{{ multivariate_module_types|sort|tojson|safe }}'
+                    data-selected-types='{{ block.configuration.module_types|sort|tojson|safe }}'
+                    data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                    data-sort-order='{{ block.sort_order}}'
+                    data-current-block = '{{ block.configuration.to_data()|tojson|safe }}'
+                    data-blocks='{{ block_configurations|list|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif block.configuration.block_type.name == 'FILTER' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editFiltersModal", block) }}
+    <div class="card-body">
+        {% if block.configuration.filters|count == 0 %}
+        <div class="alert alert-info">No filters defined.</div>
+        {% endif %}
+        {% set univariate_filters = block.configuration.filters|selectattr('type_category.name', 'eq', 'UNIVARIATE')|list %}
+        {% set multivariate_filters = block.configuration.filters|selectattr('type_category.name', 'eq', 'MULTIVARIATE')|list %}
+        {% if univariate_filters|count > 0 %}
+        <h6>Univariate filters</h6>
+        <ul>
+            {% for filter in univariate_filters %}
+            {% if filter.series.value is defined and filter.series.value == 'ALL' %}
+            <li>{{ filter.frame_type }} (all series, {{ block.configuration.augmentation_strategy.value }})</li>
+            {% elif filter.series.value is defined and filter.series.value == 'THIS' %}
+            <li>{{ filter.frame_type }} (this series, {{ block.configuration.augmentation_strategy.value }})</li>
+            {% else %}
+            <li>{{ filter.frame_type }} ({{ visualize_series(filter.series) }}, {{ block.configuration.augmentation_strategy.value }})</li>
+            {% endif %}
+            {% endfor %}
+        </ul>
+        {% endif %}
+        {% if multivariate_filters|count > 0 %}
+        <h6>Multivariate filters</h6>
+        <ul>
+            {% for filter in multivariate_filters %}
+            <li>{{ filter.frame_type }} ({{ block.configuration.augmentation_strategy.value }})</li>
+            {% endfor %}
+        </ul>
+        {% endif %}
+    </div>
+</div>
+
+<div class="modal fade" id="editFiltersModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editFiltersLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editFiltersLabel">Edit filters</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="filters"
+                    data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                    data-series-set-url="{{ url_for('.get_series_from_series_set', flowname=flow.name) }}"
+                    data-series-set-name="{{ series_set_name }}"
+                    data-augmentation-strategies='{{ augmentation_strategies|tojson|safe }}'
+                    data-univariate-event-frame-types='{{ univariate_event_frame_types|sort|tojson|safe }}'
+                    data-multivariate-event-frame-types='{{ multivariate_event_frame_types|sort|tojson|safe }}'
+                    data-filters='{{ block.configuration.filters|map("call_method", "to_data")|list|tojson|safe }}'
+                    data-augmentation-strategy='{{ block.configuration.augmentation_strategy.value }}'
+                    data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                    data-sort-order='{{ block.sort_order}}'
+                    data-current-block = '{{ block.configuration.to_data()|tojson|safe }}'
+                    data-blocks='{{ block_configurations|list|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif block.configuration.block_type.name == 'EXPORT' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editExportModal", block) }}
+    <div class="card-body">
+        {% if block.configuration.exports|count > 0 %}
+        {% if block_evaluations.get(block.db_id) is not none %}
+        <ul>
+            <li>
+                <a href="{{ url_for('exports.list_exports', blockevaluationid=block_evaluations.get(block.db_id).db_id, sourcename=source_name) }}">
+                    Exports
+                </a>
+            </li>
+        </ul>
+        {% else %}
+        <p>Export did not run in this flow evaluation.</p>
+        {% endif %}
+        {% else %}
+        <button class="btn btn-link p-0 m-0 d-inline align-baseline" data-bs-toggle="modal" data-bs-target="#editExportModal{{ block.db_id }}">
+            Edit
+        </button> to export as XLSX.
+        {% endif %}
+    </div>
+</div>
+
+<div class="modal fade" id="editExportModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editExportLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editExportLabel">Edit exports</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="outputs"
+                     data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                     data-available-outputs='{{ exports|sort|tojson|safe }}'
+                     data-selected-outputs='{{ block.configuration.exports|tojson|safe }}'
+                     data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                     data-sort-order='{{ block.sort_order}}'
+                     data-current-block = '{{ block.configuration.to_data()|tojson|safe }}'
+                     data-blocks='{{ block_configurations|list|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% elif block.configuration.block_type.name == 'FLIGHT_EXPOSE' %}
+<div class="my-3 shadow-sm card {% if missing_dependencies[block.db_id]|count > 0 %} border-danger {% endif %}">
+    {{ block_card_header("#editFlightExposeModal", block) }}
+    <div class="card-body">
+        <ul>
+            <li>
+                {% if flow_evaluation is not none %}
+                Exposed as "{{ name_flight_source(block.configuration, flow_evaluation) }}"
+                {% else %}
+                Evaluate the flow to expose the data.
+                {% endif %}
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="modal fade" id="editFlightExposeModal{{ block.db_id }}" tabindex="-1" aria-labelledby="editFlightExposeLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="editFlightExposeLabel">Edit expose as a source</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div data-ts-form="flight-expose"
+                     data-block-url="{{ url_for('.edit_block_configuration', configurationid=block.configuration.db_id, blockid=block.db_id) }}"
+                     data-pattern='{{ block.configuration.pattern }}'
+                     data-label='Expose as a source'
+                     data-sort-order-blocks='{{ sort_order_blocks|tojson|safe }}'
+                     data-sort-order='{{ block.sort_order}}'
+                     data-current-block='{{ block.configuration.to_data()|tojson|safe }}'
+                     data-blocks='{{ block_configurations|list|tojson|safe }}'>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+</div>
+{% endblock %}
+
+{% block scripts_bottom %}
+<script src="{{ url_for('static', filename='dist/flows.js') }}"></script>
+<script src="{{ url_for('static', filename='dist/edit-flow.js') }}"></script>
+{% endblock %}

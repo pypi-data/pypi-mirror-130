@@ -1,0 +1,38 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import menu %}
+
+{% macro configure_menu(active) %}
+{{
+    menu(
+        'Configuration',
+        [
+            ('Getting started', url_for('home.configure', sourcename=source_name)),
+            ('API keys', url_for('global_preferences.create_api_key', sourcename=source_name)),
+            ('Background jobs', url_for('background_jobs.list_background_jobs', sourcename=source_name)),
+            ('Date and time', url_for('user_preferences.configure_locale', sourcename=source_name)),
+            ('Series set templates', url_for('series_sets.list_templates', sourcename=source_name)),
+            ('Series sets', url_for('series_sets.show_series_sets', sourcename=source_name)),
+            ('Sources', url_for('sources.display_configuration', sourcename=source_name)),
+            ('Time series names', url_for('user_preferences.configure_series', sourcename=source_name)),
+            ('Weight sets', url_for('weight_sets.show_weight_sets', sourcename=source_name)),
+        ],
+        active,
+    )
+}}
+{% endmacro %}
+
+{% block menu %}
+{{ configure_menu('Getting started') }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <h2 class="h4">Configure Timeseer.AI</h2>
+</div>
+
+<div class="my-3 py-3">
+    <a class="btn btn-primary" href="mailto:feedback@timeseer.ai">Make a wish</a>
+    <a class="btn btn-primary" href="mailto:bugs@timeseer.ai">Report a bug</a>
+</div>
+{% endblock %}

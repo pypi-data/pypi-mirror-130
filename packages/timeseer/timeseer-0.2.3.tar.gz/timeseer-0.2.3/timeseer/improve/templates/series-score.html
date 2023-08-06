@@ -1,0 +1,60 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import visualize_score, visualize_series_name, pagination %}
+{% from 'improve.html' import improve_menu with context %}
+
+{% block menu %}
+{{ improve_menu('Time series') }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <div class="row align-items-center gx-2">
+        <div class="col-md">
+            <h2 class="h4">Time series score</h2>
+            <p class="h6 text-break">{{ source_name }}</p>
+        </div>
+        <div class="col-md-auto">
+            <a  href="{{ url_for('.compare_series_scores', sourcename=source_name) }}"
+                class="btn btn-primary">
+                Compare scores
+            </a>
+        </div>
+    </div>
+</div>
+
+{% if series_scores|count > 0 %}
+<div class="pt-3 my-3">
+    {{ pagination(
+        paging,
+        url_for('.series_score_report', sourcename=source_name, page=paging.page-1),
+        url_for('.series_score_report', sourcename=source_name, page=paging.page+1)
+    ) }}
+    <table class="ts-table table table-borderless">
+        <thead class="thead-secondary">
+            <tr class="border-top border-bottom">
+                <th scope="col">Series name</th>
+                <th scope="col">Score (higher is better)</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for series, score in series_scores.items() %}
+            <tr class="border-bottom">
+                <td>
+                    <a class="ts-table-link text-dark fw-normal text-decoration-none" href="{{ url_for('prepare.tags', seriesid=series.series_id) }}">
+                        {{ visualize_series_name(series.name) }}
+                    </a>
+                </td>
+                {{ visualize_score(score) }}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {{ pagination(
+        paging,
+        url_for('.series_score_report', sourcename=source_name, page=paging.page-1),
+        url_for('.series_score_report', sourcename=source_name, page=paging.page+1)
+    ) }}
+</div>
+{% endif %}
+{% endblock %}

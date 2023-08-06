@@ -1,0 +1,11 @@
+{% from 'macros.html' import bootstrap_icon, menu %}
+
+{% macro improve_menu(active) %}
+{{
+menu(
+    (bootstrap_icon('arrow-left', 'h5 fw-bolder m-0', 24), url_for('.score_source', sourcename=source_name)),
+    kpi_references + [('Time series', url_for('.series_score_report', sourcename=source_name))],
+    active,
+)
+}}
+{% endmacro %}

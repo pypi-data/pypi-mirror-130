@@ -1,0 +1,43 @@
+{% extends 'tags-layout.html' %}
+
+{% block menu %}
+{{ prepare_menu('Exports') }}
+{% endblock %}
+
+{% block tags_title %}
+<h2 class="h4">Exports</h2>
+{% endblock %}
+
+{% block tags_content %}
+{% if exports|count > 0 %}
+<ul class="list-group"></ul>
+{% for export in exports|sort(attribute='date', reverse=True) %}
+{% if export.date %}
+    <li class="list-group-item">
+        <form method='POST' action="{{ url_for('.download') }}">
+            <input type="hidden" name="fileid" value="{{ export.db_id }}">
+            <input type="hidden" name="filename" value="{{ export.filename }}">
+            <div class="row align-items-center">
+                <div class="col-lg">
+                    <div class="row">
+                        <span>{{ export.filename }}</span>
+                    </div>
+                    <div class="row">
+                        <small class='text-muted'>{{ export.date|datetimeformat }}</small>
+                    </div>
+                </div>
+                <div class="col-lg-auto mt-lg-0 mt-2">
+                    <button type='submit' class="btn btn-primary">Download</button>
+                </div>
+            </div>
+        </form>
+    </li>
+{% endif %}
+{% endfor %}
+</ul>
+{% else %}
+<div class="alert alert-info">
+    No exports available.
+</div>
+{% endif %}
+{% endblock %}

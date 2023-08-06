@@ -1,0 +1,158 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import visualize_split_kpi_score %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <h2 class="h4">Get started</h2>
+</div>
+
+<div class="row my-3 py-3">
+    {% for default_flow, block_evaluation in block_evaluations.items() %}
+    <div class="col-lg-6 mb-3">
+        <div class="card shadow-sm" data-e2e="improve">
+            <div class="card-header">
+                <div class="row align-items-center">
+                    <div class="col-md">
+                        <div class="row">
+                            <div class="col-md-auto">
+                                <div class="fw-bold">{{ default_flow }}</div>
+                            </div>
+                            <div class="col-md">
+                                <a role="button" class="ts-table-link text-muted text-decoration-none pe-auto" data-bs-toggle="modal" data-bs-target="#searchSeriesModal" data-bs-flow="{{ default_flow }}" title="Click to search series">
+                                    {{ series_count[default_flow] }} series
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-auto">
+                        <div class="dropdown">
+                            <button type="button"
+                                    class="btn btn-sm btn-secondary dropdown-toggle"
+                                    data-bs-toggle="dropdown"
+                                    aria-haspopup="true"
+                                    aria-expanded="false">
+                                Show
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item"
+                                    href="{{ url_for('flows.display_flow', flowname=default_flow, sourcename=source_name) }}">
+                                    Flow configuration
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <div class="row position-relative">
+                    {% if block_evaluation is none %}
+                    {% if series_count[default_flow] == 0 %}
+                    <div class="text-muted text-center p-1">
+                        <a href="{{ url_for('sources.display_configuration', sourcename=default_flow) }}">Evaluation not started</a>
+                    </div>
+                    {% else %}
+                    <div class="text-muted text-center p-1">
+                        <a href="{{ url_for('flows.display_flow', flowname=default_flow, sourcename=source_name) }}">Evaluation not started</a>
+                    </div>
+                    {% endif %}
+
+                    {% else %}
+                        {% if state[block_evaluation].flow_state.is_completed() %}
+                        {% if state[block_evaluation].block_state.failed == state[block_evaluation].block_state.completed %}
+                            <div class="text-muted text-center p-1">
+                                <a href="{{ url_for('flows.display_flow', flowname=default_flow, sourcename=source_name) }}">Evaluation failed completely</a>
+                            </div>
+                        {% else %}
+                            {% for score in quadrant_scores[block_evaluation]|sort(attribute='name.value') %}
+                            <div class="col-md-3">
+                                {{ visualize_split_kpi_score(score.score) }}
+                                <div class="row"><small class="text-muted">{{ score.name.value|capitalize }}</small></div>
+                            </div>
+                            {% endfor %}
+                            <a href="{{ url_for ('improve.score_source', sourcename=default_flow) }}" class="stretched-link"></a>
+                            {% endif %}
+                        {% else %}
+                        <div class="text-muted text-center p-1">
+                            <a href="{{ url_for('flows.display_flow', flowname=default_flow, sourcename=source_name) }}">Evaluation in progress</a>
+                        </div>
+                        {% endif %}
+                    {% endif %}
+                </div>
+            </div>
+            {% if block_evaluation is not none %}
+            <div class="card-footer">
+                <div class="text-end text-muted">
+                    <small>Last run: {{ block_evaluation.flow_evaluation.group.date|datetimeformat }}</small>
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<div class="modal fade" id="searchSeriesModal" tabindex="-1" aria-labelledby="searchSeriesLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg modal-fullscreen-md-down">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="searchSeriesLabel">Search series</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="{{ url_for('prepare.search_series') }}" method="POST">
+                    <div class="mb-3">
+                        <label for="sourceSelect" class="form-label">Select a source</label>
+                        <select name="sourcename" id="sourceSelect" class="form-select">
+                            {% for source in sources %}
+                            <option {% if source == source_name %}selected{% endif %}>{{ source }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="seriesInput" class="form-label">Select a time series</label>
+                        <input type="text"
+                            class="form-control"
+                            id="seriesInput"
+                            name="seriesname"
+                            placeholder="Type to search time series"
+                            autocomplete="off"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <button type="submit" class="btn btn-primary">Visualize time series</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    $('#seriesInput').autoComplete({
+        bootstrapVersion: '4',
+        noResultsText: 'No matching series known.',
+        resolver: 'custom',
+        events: {
+            search: function (pattern, callback) {
+                var params = {
+                    'source': $('#sourceSelect').val(),
+                    'pattern': pattern,
+                };
+                $.ajax('{{ url_for('api.search_series_names') }}', {data: params}).done(callback);
+            },
+        },
+    });
+
+    var searchSeriesModal = document.getElementById('searchSeriesModal')
+    searchSeriesModal.addEventListener('show.bs.modal', function (event) {
+        var button = event.relatedTarget;
+        var flow = button.getAttribute('data-bs-flow');
+        var selection = document.getElementById('sourceSelect');
+        selection.value = flow;
+        document.getElementById('seriesInput').value = '';
+    });
+    searchSeriesModal.addEventListener('shown.bs.modal', function () {
+        document.getElementById('seriesInput').focus();
+    });
+</script>
+{% endblock %}

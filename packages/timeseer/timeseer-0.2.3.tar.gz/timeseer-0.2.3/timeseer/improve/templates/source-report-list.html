@@ -1,0 +1,105 @@
+{% extends 'timeseer.html' %}
+{% from 'macros.html' import alerter, bootstrap_icon, menu_back %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='dist/charts.js') }}"></script>
+{% endblock %}
+
+{% block styles %}
+<style>
+    .report-table {
+        table-layout: fixed;
+    }
+    .report-table .action, .report-table .score {
+        width: 20%;
+    }
+</style>
+{% endblock %}
+
+{% block menu %}
+{{ menu_back(url_for('.score_source', sourcename=source_name)) }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <div class="row align-items-center gx-2">
+        <div class="col-md">
+            <h2 class="h4">Reports</h2>
+            <p class="h6 text-break">{{ source_name }}</p>
+        </div>
+    </div>
+</div>
+
+<div class="pt-3 my-3">
+    {{ alerter() }}
+
+    {% if evolution|count > 1 %}
+    <div class="report-evolution">
+        <table class="visually-hidden">
+            {% for report in evolution.keys()|sort(attribute='flow_evaluation.group.date', reverse=True) %}
+            <tr data-report-url="{{ url_for('.open_report', blockevaluationid=report.db_id, sourcename=source_name) }}">
+                <td class="report-date" data-date="{{ report.flow_evaluation.group.date.isoformat() }}">{{ report.flow_evaluation.group.date|datetimeformat }}</td>
+                <td class="report-score">{{ evolution[report] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% endif %}
+
+    {% if evolution|count > 0 %}
+    <table class="ts-table table table-borderless report-table">
+        <thead class="thead-secondary">
+            <tr class="border-top border-bottom">
+                <th scope="col">Report date</th>
+                {% if evolution|count > 1 %}
+                <th scope="col">Compare to</th>
+                {% endif %}
+            </tr>
+        </thead>
+        <tbody>
+            {% for report in evolution.keys()|sort(attribute='flow_evaluation.group.date', reverse=True) %}
+            <tr class="border-bottom">
+                <td class="align-middle">
+                    <a class="ts-table-link text-dark fw-normal text-decoration-none" href="{{ url_for('.open_report', blockevaluationid=report.db_id, sourcename=source_name) }}" target="_blank">
+                        {{ report.flow_evaluation.group.date|datetimeformat }}
+                        <sup>{{ bootstrap_icon('box-arrow-up-right') }}</sup>
+                    </a>
+                </td>
+                {% if evolution|count > 1 %}
+                <td>
+                    <form action="{{ url_for('.compare_report') }}">
+                        <input type="hidden" name="sourcename" value="{{ source_name }}">
+                        <input type="hidden" name="blockevaluationid" value="{{ report.db_id }}">
+                        <input type="hidden" name="blockid" value="{{ report.block.db_id }}">
+                        <div class="row">
+                            <div class="col">
+                                <select class="form-select form-select-sm" name="compareflowevaluationid">
+                                    {% for other_report in evolution.keys() if other_report.db_id != report.db_id %}
+                                    <option value="{{ other_report.flow_evaluation.db_id }}">{{ other_report.flow_evaluation.group.date|datetimeformat }}</option>
+                                    {% endfor %}
+                                </select>
+                            </div>
+                            <div class="col-4">
+                                <button type="submit" class="btn btn-primary btn-sm">
+                                    Compare
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                </td>
+                {% endif %}
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+    {% else %}
+    <p>No reports found.</p>
+    {% endif %}
+</div>
+
+{% if evolution|count > 1 %}
+<script>
+{% include 'scripts/score-evolution.js' %}
+</script>
+{% endif %}
+{% endblock %}

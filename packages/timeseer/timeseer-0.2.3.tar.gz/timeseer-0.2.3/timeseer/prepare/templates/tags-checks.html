@@ -1,0 +1,181 @@
+{% extends 'tags-layout.html' %}
+
+{% macro get_metadata_value(metadata, group) %}
+    {% if metadata.get(group) is not none %}
+        {% if metadata[group]|count > 1 %}
+        <p class="fw-normal text-muted text-break">({{ metadata[group]|join(', ') }})</p>
+        {% else %}
+            {% if group =='data types' %}
+            <p class="fw-normal text-muted text-break">
+                ({% for value, label in metadata[group][0].mapping.items() %}
+                {{ label }}: {{ value }}
+                {% endfor %})
+            </p>
+            {% else %}
+            <p class="fw-normal text-muted text-break">({{ metadata[group][0]|numberformat }})</p>
+            {% endif %}
+        {% endif %}
+    {% endif %}
+{% endmacro %}
+
+{% block menu %}
+{{ prepare_menu('Checks') }}
+{% endblock %}
+
+{% block tags_title %}
+<h2 class="h4">Checks</h2>
+{% endblock %}
+
+{% block tags_content %}
+{% if metadata_bugs %}
+<table class="ts-table table table-borderless score-table" id="metadata_bugs">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Metadata group</th>
+            <th scope="col">Metadata bugs</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for group, bugs in metadata_bugs|groupby('metadata.group') %}
+        {% for bug in bugs|sort(attribute='metadata.name')|sort(attribute='result')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% set loop_changed = loop.changed(group) %}
+            {% if loop_changed %}
+            <th rowspan="{{ bugs|count }}">
+                {{ group|capitalize }}
+                {{ get_metadata_value(metadata, group)}}
+
+            </th>
+            {% endif %}
+            <td>{{ bug.metadata.name }} {{ info_popover(bug.metadata.short_help_text) }}</td>
+            {{ visualize_check_result(bug) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% if metadata_smells %}
+<table class="ts-table table table-borderless score-table">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Metadata group</th>
+            <th scope="col">Metadata smells</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for group, smells in metadata_smells|groupby('metadata.group') %}
+        {% for smell in smells|sort(attribute='metadata.name')|sort(attribute='result')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% if loop.changed(group) %}
+            <th rowspan="{{ smells|count }}">
+                {{ group|capitalize }}
+                {{ get_metadata_value(metadata, group)}}
+            </th>
+            {% endif %}
+            <td>{{ smell.metadata.name }} {{ info_popover(smell.metadata.short_help_text) }}</td>
+            {{ visualize_check_result(smell) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% if univariate_bugs %}
+<table class="ts-table table table-borderless score-table">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Quality KPI</th>
+            <th scope="col">Series bugs</th>
+            <th scope="col" class="score">Event frames</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for kpi, bugs in univariate_bugs|groupby('metadata.kpi') %}
+        {% for bug in bugs|sort(attribute='metadata.name')|sort(attribute='result')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% if loop.changed(kpi) %}
+            <th rowspan="{{ bugs|count }}">{{ kpi|capitalize }}</th>
+            {% endif %}
+            <td>{{ bug.metadata.name }} {{ info_popover(bug.metadata.short_help_text) }}</td>
+            <td>
+                {% if bug.metadata.event_frame_types %}
+                <div class="dropdown">
+                    <button type="button"
+                            class="btn btn-sm btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        List event frames
+                    </button>
+                    <div class="dropdown-menu">
+                        {% for type in bug.metadata.event_frame_types %}
+                        <a class="dropdown-item"
+                            href="{{ url_for('.event_frames', seriesid=series.series_id, type=type) }}">
+                            {{ type }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </td>
+            {{ visualize_check_result(bug) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% if univariate_smells %}
+<table class="ts-table table table-borderless score-table">
+    <thead class="thead-secondary">
+        <tr class="border-top border-bottom">
+            <th scope="col" class="score-grouping">Quality KPI</th>
+            <th scope="col">Series smells</th>
+            <th scope="col" class="score">Event frames</th>
+            <th scope="col" class="score">Result</th>
+        </tr>
+    </thead>
+    <tbody>
+        {% for kpi, smells in univariate_smells|groupby('metadata.kpi') %}
+        {% for smell in smells|sort(attribute='metadata.name')|sort(attribute='score')|sort(attribute='metadata.data_type') %}
+        <tr class="border-bottom">
+            {% if loop.changed(kpi) %}
+            <th rowspan="{{ smells|count }}">{{ kpi|capitalize }}</th>
+            {% endif %}
+            <td>{{ smell.metadata.name }} {{ info_popover(smell.metadata.short_help_text) }}</td>
+            <td>
+                {% if smell.metadata.event_frame_types %}
+                <div class="dropdown">
+                    <button type="button"
+                            class="btn btn-sm btn-secondary dropdown-toggle"
+                            data-bs-toggle="dropdown"
+                            aria-haspopup="true"
+                            aria-expanded="false">
+                        List event frames
+                    </button>
+                    <div class="dropdown-menu">
+                        {% for type in smell.metadata.event_frame_types %}
+                        <a class="dropdown-item"
+                            href="{{ url_for('.event_frames', seriesid=series.series_id, type=type) }}">
+                            {{ type }}
+                        </a>
+                        {% endfor %}
+                    </div>
+                </div>
+                {% endif %}
+            </td>
+            {{ visualize_check_result(smell) }}
+        </tr>
+        {% endfor %}
+        {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+{% endblock tags_content %}

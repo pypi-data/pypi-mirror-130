@@ -1,0 +1,79 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import alerter %}
+{% from 'configure.html' import configure_menu with context %}
+
+{% block menu %}
+{{ configure_menu('Weight sets') }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <div class="row align-items-center gx-2">
+        <div class="col-sm">
+            <h2 class="h4">Configure score weights</h2>
+            <p class="h6 text-break">{{ weight_set_name }}</p>
+        </div>
+        <div class="col-sm-auto">
+            <div class="btn-toolbar" role="toolbar">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="editDropdown" data-bs-toggle="dropdown">
+                        Edit
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="editDropdown">
+                        <li>
+                            <a class="dropdown-item {%if weight_set_name == default_weight_set_name %}disabled{% endif %}" href="{{ url_for('.rename_weight_set', weightsetname=weight_set_name, sourcename=source_name) }}">
+                            Rename
+                            </a>
+                        </li>
+                        {% if is_in_use %}
+                        <li data-bs-toggle="tooltip" data-bs-placement="left" title="Weight set is in use">
+                            <a class="dropdown-item disabled" tabindex="-1" aria-disabled="true">Remove</a>
+                        </li>
+                        {% else %}
+                        <li>
+                            <a class="dropdown-item {%if weight_set_name == default_weight_set_name %}disabled{% endif %}"
+                            href="{{ url_for('.remove_weight_set', weightsetname=weight_set_name, sourcename=source_name) }}">
+                                Remove
+                            </a>
+                        </li>
+                        {% endif %}
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="my-3 py-3">
+    {{ alerter() }}
+
+    <form method="POST" action="{{ url_for('.configure_weight_set', weightsetname=weight_set_name, sourcename=source_name) }}">
+        <div>
+            <table class="table table-hover">
+                {% for weight in weights|sort(attribute='name') %}
+                <tr>
+                    <td>
+                        <label class="mb-0" for="{{ weight.name|htmlid }}">
+                            {{ weight.name|capitalize }}
+                            <br>
+                            <small class="text-muted">{{ weight.kpi|capitalize }}</small>
+                        </label>
+                    </td>
+                    <td>
+                        <input type="number"
+                               step="0.1"
+                               class="form-control"
+                               id="{{ weight.name|htmlid }}"
+                               name="check-{{ weight.name }}"
+                               value="{{ weight.overridden_weight }}"
+                               placeholder="{{ weight.default_weight }}">
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,62 @@
+{% extends 'timeseer.html' %}
+
+{% from 'macros.html' import bootstrap_icon, menu_back %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='dist/charts.js') }}"></script>
+{% endblock %}
+
+{% block menu %}
+{{ menu_back(url_for('.kpi_report', sourcename=source_name, kpi=kpi.name)) }}
+{% endblock %}
+
+{% block main %}
+<div class="ts-section py-3 my-3">
+    <h2 class="h4">{{ kpi.name }} history</h2>
+    <p class="h6 text-break">{{ source_name }}</p>
+</div>
+
+<div class="pt-3 my-3">
+    <p>
+        {{ kpi.short_help_text }}
+        <a data-bs-toggle="offcanvas"
+           href="#kpi-help-text"
+           aria-controls="kpi-help-text"
+           aria-expanded="false">
+            {{ bootstrap_icon('question-circle') }}
+        </a>
+    </p>
+
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="kpi-help-text">
+        <div class="offcanvas-header">
+            <h3 class="offcanvas-title h5">{{ kpi.name }}</h3>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+        {{ kpi.html_help_text|safe }}
+        </div>
+    </div>
+
+    {% if evolution|count > 1 %}
+    <div class="report-evolution">
+        <table class="visually-hidden">
+            {% for report in evolution|sort(attribute='flow_evaluation.group.date') %}
+            <tr data-report-url="{{ url_for('.open_report', report=report.report_id) }}">
+                <td class="report-date" data-date="{{ report.flow_evaluation.group.date.isoformat() }}">{{ report.flow_evaluation.group.date|datetimeformat }}</td>
+                <td class="report-score">{{ evolution[report] }}</td>
+            </tr>
+            {% endfor %}
+        </table>
+    </div>
+    {% else %}
+    <p>
+        <a href="{{ url_for('.list_reports', sourcename=source_name) }}">Generate multiple reports</a> for "{{ source_name }}" to visualize the {{ kpi.name }} history.
+    </p>
+    {% endif %}
+</div>
+<script>
+    {% if evolution|count > 1 %}
+    {% include 'scripts/score-evolution.js' %}
+    {% endif %}
+</script>
+{% endblock %}
