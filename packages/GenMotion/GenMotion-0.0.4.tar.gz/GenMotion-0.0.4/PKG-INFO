@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: GenMotion
+Version: 0.0.4
+Summary: Deep motion generator collections
+Home-page: https://github.com/yizhouzhao/GenMotion
+Author: Yizhou Zhao, Wensi Ai
+Author-email: yizhouzhao@ucla.edu, va0817@ucla.edu
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/yizhouzhao/GenMotion/issues
+Project-URL: Documentation, https://genmotion.readthedocs.io/en/latest
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENCE
+
+*********
+GenMotion
+*********
+
+.. image:: https://github.com/yizhouzhao/genmotion/actions/workflows/CI.yml/badge.svg?branch=main
+   :target: https://github.com/yizhouzhao/genmotion/actions/workflows/CI.yml
+   :alt: CI
+
+.. image:: https://readthedocs.org/projects/genmotion/badge/?version=latest
+   :target: https://genmotion.readthedocs.io/en/latest/?badge=latest
+   :alt: Documentation Status
+
+.. image:: https://img.shields.io/pypi/v/genmotion
+   :target: https://pypi.org/project/genmotion/
+   :alt: PyPI
+   
+.. image:: https://img.shields.io/github/license/yizhouzhao/genmotion
+   :target: https://choosealicense.com/licenses/mit/
+   :alt: Licence
+   
+
+.. image:: https://raw.githubusercontent.com/yizhouzhao/genmotion/master/docs/images/cover.png
+   :alt: Title image
+   :width: 80%
+
+`GenMotion` (/gen’motion/) is a Python library for making skeletal animations. 
+It enables easy dataset loading and experiment sharing for synthesizing skeleton-Based human animation with the Python API. It also comes with a easy-to-use and industry-compatible API for `Autodesk Maya <https://www.autodesk.com/products/maya/overview?term=1-YEAR&tab=subscription>`_,
+`Maxon Cinema 4D <https://www.maxon.net/en/cinema-4d>`_, and `Blender <https://www.blender.org/>`_.
+
+You can find the full ducumentation and tutorials `here <https://genmotion.readthedocs.io/en/latest/>`_.
+
+.. contents:: **Contents of this document:**
+   :depth: 2
+
+
+Installation
+============
+
+You can install ``GenMotion`` directly from the pip library with:
+
+.. code:: shell
+
+    pip3 install genmotion
+
+
+
+Library overview
+================
+
+Working with datasets
+---------------------
+We integrate multiple skeleton-based human motion datasets in GenMotion.
+For datasets that have different parameterization of the body, we include 
+documents for meta-data descriptions and visualization tools to illustrate characteristics of each dataset.
+
+Benchmarking the state-of-the-arts
+----------------------------------
+To encourage related research in human motion generation and retrieve empirical results from most advanced methods,
+GenMotion re-produces the training procedure of character motion generation methods by reusing and cleaning the code from official implementation.
+
+Rendering
+---------
+To achieve real-time animation sampling, we provide communication interface, i.e. client and server interaction,  
+with the 3D modeling software in GenMotion.
+
+Citations
+======================
+
+If you use GenMotion in your research, please consider citing it.
+
+.. code::
+
+   @article{xxxx/xxxx,
+      author  = {Yizhou Zhao, Wensi Ai, Liang Qiu, Pan Lu, Feng Shi, Tian Han, Song-Chun Zhu},
+      title   = {GenMotion: Data-driven Motion Generators for Real-time Animation Synthesis},
+      journal = {Journal of Machine Learning Research},
+      year    = {2021},
+      volume  = {xx},
+      number  = {xx},
+      pages   = {xx},
+      url     = {xxxx}
+   }
+
