@@ -1,0 +1,43 @@
+{
+  "properties": {
+    "migration": {
+          "type": "object",
+          "properties": {
+            "enabled": {
+              "type": "boolean",
+              "default": true
+            },
+            "user": {
+              "type": "string"
+            },
+            "password": {
+              "type": "string"
+            },
+            "rollback_on_error": {
+              "type": "boolean",
+              "default": true
+            },
+            "host": {
+              "type": "string"
+            },
+            "port": {
+              "type": "integer"
+            },
+            "DB_name": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "user",
+            "password",
+            "enabled",
+            "rollback_on_error",
+            "host",
+            "port",
+            "DB_name"
+          ],
+          "additionalProperties": false
+        }
+  },
+  "required": ["migration"]
+}
