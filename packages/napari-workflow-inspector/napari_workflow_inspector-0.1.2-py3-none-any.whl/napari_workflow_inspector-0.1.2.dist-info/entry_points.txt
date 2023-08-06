@@ -1,0 +1,3 @@
+[napari.plugin]
+napari-workflow-inspector = napari_workflow_inspector
+

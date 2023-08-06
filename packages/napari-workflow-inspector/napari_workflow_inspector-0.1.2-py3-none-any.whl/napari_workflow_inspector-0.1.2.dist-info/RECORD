@@ -1,0 +1,10 @@
+napari_workflow_inspector/__init__.py,sha256=c2Ir_ExcgMsynXFpn5T6iKfR1opGaVMkH589MISe0_c,102
+napari_workflow_inspector/_dock_widget.py,sha256=W9pvRTvvOtivXXG1gG7Lz1BrEmeJmYqVxWg3npoOUac,7259
+napari_workflow_inspector/_tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_workflow_inspector/_tests/test_dock_widget.py,sha256=MEbAQAhxM01DfH5RyAczBBHBK7n73SVMdhLn_6nqXcw,750
+napari_workflow_inspector-0.1.2.dist-info/LICENSE,sha256=uLRw37f8CbWdnrptvR2vrg7ITcgJTYvi_MnRZWOXa7M,18344
+napari_workflow_inspector-0.1.2.dist-info/METADATA,sha256=hs3ahiGPGPn1gU-FrcC3YLTq2MZX8obLr2wPLI0o4cU,4804
+napari_workflow_inspector-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_workflow_inspector-0.1.2.dist-info/entry_points.txt,sha256=XrYfiZAzNN-vddWd6b91TT_Hj02v9jBDd1Lse-pTmP0,71
+napari_workflow_inspector-0.1.2.dist-info/top_level.txt,sha256=-00IBjbXe2cxPRJA4cTb31pfyS3IL_2pa4sKssGb4Mw,26
+napari_workflow_inspector-0.1.2.dist-info/RECORD,,
