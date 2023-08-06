@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: windows-capture-devices
+Version: 1.0.0
+Summary: A lightweight package to list capture devices on Windows using DirectShow
+Home-page: https://github.com/DFKI-Interactive-Machine-Learning/python-capture-device-list
+Author: Michael Barz
+Author-email: michael.barz@dfki.de
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+UNKNOWN
+
