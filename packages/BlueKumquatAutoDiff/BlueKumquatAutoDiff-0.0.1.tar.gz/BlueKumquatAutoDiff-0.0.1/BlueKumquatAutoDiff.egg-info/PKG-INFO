@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: BlueKumquatAutoDiff
+Version: 0.0.1
+Summary: Package for Automatic Differentiation functions and objects
+Home-page: https://github.com/cs107-blue-kumquat/cs107-FinalProject.git
+Author: Jailyn Clark, Mason Burlage, Caitlin Lau, Lu Yu
+Author-email: caitlinjlau@gmail.com
+License: MIT
+Description: # cs107-FinalProject
+        # Group # 15
+        ## Caitlin Lau
+        ## Jailyn Clark
+        ## Mason Burlage
+        ## Lu Yu
+        
+        ### This is the Travis CI Badge about the number of test are passing
+        [![Build Status](https://app.travis-ci.com/cs107-blue-kumquat/cs107-FinalProject.svg?branch=main)](https://app.travis-ci.com/cs107-blue-kumquat/cs107-FinalProject)
+        
+        ### This is the GitHub Badge about the number of test are passing
+        ![example workflow](https://github.com/cs107-blue-kumquat/cs107-FinalProject/actions/workflows/workflow.yml/badge.svg)
+        
+        ### This is the code cov badge about the coverage of the code 
+        [![codecov](https://codecov.io/gh/cs107-blue-kumquat/cs107-FinalProject/branch/main/graph/badge.svg?token=4NSNDZFTNS)](https://codecov.io/gh/cs107-blue-kumquat/cs107-FinalProject)
+        
+Keywords: Auto-diff
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
