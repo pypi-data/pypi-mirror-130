@@ -1,0 +1,13 @@
+covid_dashboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+covid_dashboard/__main__.py,sha256=_eSSl9lyQREQBG9RwAYUvdVtP2LXNgFEmXctwygngsM,6469
+covid_dashboard/covid_data_handler.py,sha256=8axVyXn8GehWREOmMM-shbau9WQFIxi4AOd1L9CqWRc,9298
+covid_dashboard/covid_news_handling.py,sha256=kyPxLdXQ1Mihlxd5EmLpqLf9vTk5XU-RTHDDU1Hp5EI,4902
+covid_dashboard/shared_functions.py,sha256=PWwdlYE5etOkRXBp-4Yq1hv98pUq8GvuDsJLA7SOdhM,1708
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_covid_data_handler.py,sha256=WbtrwDHxN5EH2zEKAeyKhFd_JqiAOuwNwux9h_3ZuGw,1821
+tests/test_news_data_handling.py,sha256=HnvJdBqTQlJ1oS751GhUZHA1JfsqldLfaE1UtblYx4M,1400
+Covid_Dashboard_pkg_tsturgeon-0.0.1.dist-info/METADATA,sha256=JgRgx61mkUu0oKdazRcnArfufM2g_wctmQw_x_Jb-AU,2946
+Covid_Dashboard_pkg_tsturgeon-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+Covid_Dashboard_pkg_tsturgeon-0.0.1.dist-info/license,sha256=B3UPDcq_RLtYWt3Bxd1jZ9RQEIzmBA0NRRVl6XjZzDY,1091
+Covid_Dashboard_pkg_tsturgeon-0.0.1.dist-info/top_level.txt,sha256=SllaL0X0LO_hxh7XsKT3nlFfAHmGMn74nc2hpe38bxY,22
+Covid_Dashboard_pkg_tsturgeon-0.0.1.dist-info/RECORD,,

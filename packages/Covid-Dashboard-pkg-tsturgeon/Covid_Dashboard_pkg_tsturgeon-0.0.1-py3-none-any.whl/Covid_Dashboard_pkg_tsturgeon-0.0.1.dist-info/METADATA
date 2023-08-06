@@ -1,0 +1,98 @@
+Metadata-Version: 2.1
+Name: Covid-Dashboard-pkg-tsturgeon
+Version: 0.0.1
+Summary: A Covid Dashboard to show current news and data.
+Home-page: https://github.com/Sturgeon2962/coursework
+Author: Tom Sturgeon
+Author-email: ts709@exeter.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9.7
+Description-Content-Type: text/markdown
+License-File: license
+
+# Covid-1 Dashboard Tom Sturgeon
+
+## Table of contents:
+
+- [Introduction](###Introduction)
+- [Prerequisites](###Prerequisites)
+- [Installing](###Installing)
+- [Config File](###Config-File)
+- [Running](###Running)
+- [Testing](###Testing)
+- [Documentation](###Documentation)
+- [Details](###Details)
+
+### Introduction 
+Creates a locally hosted dashboard which displays information about Covid-19\
+It dashboard displays:
+- The local 7 day infection rate
+- The national 7 day infection rate
+- The national hospital cases
+- The national death count
+- News articles collected from the Newsapi.org/
+The dashboard allows for updates to be scheduled to refresh the data and the news articles
+
+### Prerequisites
+To use the dashboard you need to have these modules:
+- python 3.9.7
+- Logging
+- Json
+- Flask
+    - Flask
+    - Render template
+    - Markup
+- Sched
+- Time
+- Datetime
+- Requests
+- uk-covid19 (https://api.coronavirus.data.gov.uk/)
+- News api ("https://newsapi.org/v2/everything")
+- Pytest
+
+### Installing
+`pip install -i https://test.pypi.org/simple/ Covid-Dashboard-pkg-tsturgeon`
+
+### Config File
+In the config file there are many customisable fields to set and on necessary field\
+The necessary is the API key for the news api, to get a key register for one at newsapi.org and then copy the key into the config file\
+The customisable key can change:
+- The title
+- The locations
+- The location type
+- The images
+- The news search terms
+- The logging file
+- The Static data file
+
+### Running
+Set the config file to what you desire.\
+Navigate to where the package has been installed and run the module in the terminal \
+Open a web browser and heat to 127.0.0.1:/5000/index (The link will also be in the logging file)\
+From this page you can:\
+- Schedule updates using the form in the lower middle of the page
+- Remove updates and news articles
+- Read the current statistics
+
+### Testing
+To test the modules it uses Pytest.\
+To run the test navigate to the package in the terminal and run pytest
+
+### Documentation
+For the documentation go to https://github.com/Sturgeon2962/coursework/ \
+The documentation is located in coursework/docs/build/html/index.html\
+You can download it the launch it in a web browser to view the documentation\
+This goes into greater deatial about how to configure the code and run it
+
+### Details
+Author: Tom Sturgeon\
+License: MIT License
+Link to source files: https://github.com/Sturgeon2962/coursework/ \
+
+
+
+
