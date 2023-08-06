@@ -1,0 +1,16 @@
+sqltree/__init__.py,sha256=FciuPcW0zE9mKlI0Nr6DVQM8PGRoCDAudff7Il6hG8A,43
+sqltree/__main__.py,sha256=6KahcxWVK97YAAT2b3iR_-WTR3fwWpj7TDUn-J84n7Q,241
+sqltree/dialect.py,sha256=PRBQXQ8KyZcHhCb3IV3Acl2-tLIcCGJazs9tu0xukWw,86
+sqltree/formatter.py,sha256=DHjKCxpJXfyqql-N3AG1hFE5eaJw8lENifHRBpRGQDg,7022
+sqltree/keywords.py,sha256=XjLf-6uWQXucc-Whm7DFZV8TGqxThK2LXtlrSjFMFc0,4199
+sqltree/location.py,sha256=wWXJIiAfnP-qJ70qVMxUnlzBpDiNZsl8eDes2vt16FQ,196
+sqltree/mangler.py,sha256=0IIa8VbbMfeGTSXQ_p6NRPrJzKpR2wtVGzyBVqlS3vc,1758
+sqltree/parser.py,sha256=UHy2ex3wEV8S9h3tJIDqFa38f-FTcEXcWbjCHVt6J40,15669
+sqltree/peeking_iterator.py,sha256=1dKNV66aV4ByzEcE6nZLssyHVJOwc-IkvzrToeLzJ0c,896
+sqltree/sqltree.py,sha256=AJwDKiBdcPMJiC3A6kpdmawS2PlYCiacgpM13o-TP2c,381
+sqltree/tokenizer.py,sha256=Wi4_k3QwQ77xGy07vo71oA97JoCxUiql2PlEQkPxkZ4,5661
+sqltree/visitor.py,sha256=IPSghoxLJ44oL2ov6iuRTiSKNihHfGY4GxSVb2jQupg,1203
+sqltree-0.1b1.dist-info/LICENSE,sha256=ieEKJ-VczfHpbzAARBk5cBwN-Qfu4_jjKLNpnH1JyAg,9161
+sqltree-0.1b1.dist-info/WHEEL,sha256=shCMacp_UZLzAaixE0UnHyDo5SCwd4EEmV8I_p7y88s,99
+sqltree-0.1b1.dist-info/METADATA,sha256=c6VZxJw8_5StxYUDh4ZRBrfTwcGwKlIygTUsB7yfExo,992
+sqltree-0.1b1.dist-info/RECORD,,
