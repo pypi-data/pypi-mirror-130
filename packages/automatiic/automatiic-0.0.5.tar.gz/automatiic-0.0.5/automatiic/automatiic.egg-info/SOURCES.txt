@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+automatiic/automatiic.egg-info/PKG-INFO
+automatiic/automatiic.egg-info/SOURCES.txt
+automatiic/automatiic.egg-info/dependency_links.txt
+automatiic/automatiic.egg-info/top_level.txt
