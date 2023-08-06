@@ -1,0 +1,11 @@
+README.md
+setup.py
+spladtool/__init__.py
+spladtool/spladtool_forward.py
+spladtool/spladtool_reverse.py
+spladtool/utils.py
+spladtool.egg-info/PKG-INFO
+spladtool.egg-info/SOURCES.txt
+spladtool.egg-info/dependency_links.txt
+spladtool.egg-info/requires.txt
+spladtool.egg-info/top_level.txt
