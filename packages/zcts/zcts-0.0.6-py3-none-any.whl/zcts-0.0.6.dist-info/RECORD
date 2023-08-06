@@ -1,0 +1,9 @@
+zcts/__init__.py,sha256=3FpaWaST76RazGQbX2zDQX27jQQMfxEeLY24UAgqWWM,463
+zcts/a_small_test.py,sha256=crKMD1nq3z-aKg9kspkfMo8H5f2XW7OyMKqQnMWhCe0,83
+zcts/cmd.py,sha256=mfDQg657ybhQsrhIPPFk51QIAWyAJ6v-Va9m6y-0Gl0,4850
+zcts/zcts.py,sha256=i8qnfpwMLSqqZt6dCb08KC-q_CgEDTjwx7WoUZYOQDg,35807
+zcts/zcts_unittest.py,sha256=BZ6EJ-msWqMg2VjVWUdnDLs7cHAMeYdx1Z0yFaBQlyY,4319
+zcts-0.0.6.dist-info/METADATA,sha256=Gcih3zcn0V9lzDSGTy2moidFSrHl8oE5wRhetCbLrBE,524
+zcts-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+zcts-0.0.6.dist-info/top_level.txt,sha256=GBZwQoLlVNDuCZRrFGTUhyffwPaTKQldZmS6wBESSrs,5
+zcts-0.0.6.dist-info/RECORD,,
