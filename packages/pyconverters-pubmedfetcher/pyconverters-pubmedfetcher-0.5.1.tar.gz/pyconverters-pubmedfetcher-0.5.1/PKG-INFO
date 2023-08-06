@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pyconverters-pubmedfetcher
+Version: 0.5.1
+Summary: DeepTranscript recognition converter based on Huggingface pipeline
+Home-page: https://github.com/oterrier/pyconverters_pubmedfetcher/
+Author: Olivier Terrier
+Author-email: olivier.terrier@kairntech.com
