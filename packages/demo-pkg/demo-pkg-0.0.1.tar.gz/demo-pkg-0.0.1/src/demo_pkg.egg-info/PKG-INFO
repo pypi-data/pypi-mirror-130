@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: demo-pkg
+Version: 0.0.1
+Summary: This ia a demo pkg.
+Home-page: https://github.com/pypa/sampleproject
+Author: Redish101
+Author-email: jiayunluo@yeah.net
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: This is a demo pkg.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
