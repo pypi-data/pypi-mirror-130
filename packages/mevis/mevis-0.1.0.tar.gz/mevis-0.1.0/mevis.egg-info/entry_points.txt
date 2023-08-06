@@ -1,0 +1,3 @@
+[console_scripts]
+mevis = mevis._internal.cli:parse
+
