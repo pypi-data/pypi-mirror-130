@@ -1,0 +1,3 @@
+[console_scripts]
+tecoroute-proxy = tecoroute_proxy:cli
+
