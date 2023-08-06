@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: splitlogger
+Version: 1.0.3
+Summary: encapsulate logger
+Home-page: UNKNOWN
+Author: Jayson
+Author-email: jaysonteng@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.*.*

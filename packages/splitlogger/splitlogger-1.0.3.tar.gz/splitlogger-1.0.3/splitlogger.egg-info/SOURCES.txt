@@ -1,0 +1,8 @@
+setup.py
+splitlogger/__init__.py
+splitlogger/logger.py
+splitlogger.egg-info/PKG-INFO
+splitlogger.egg-info/SOURCES.txt
+splitlogger.egg-info/dependency_links.txt
+splitlogger.egg-info/not-zip-safe
+splitlogger.egg-info/top_level.txt
