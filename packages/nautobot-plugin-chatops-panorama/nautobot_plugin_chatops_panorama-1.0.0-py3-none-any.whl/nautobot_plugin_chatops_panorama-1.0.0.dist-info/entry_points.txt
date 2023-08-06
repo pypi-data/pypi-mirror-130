@@ -1,0 +1,3 @@
+[nautobot.workers]
+panorama=nautobot_plugin_chatops_panorama.worker:panorama
+
