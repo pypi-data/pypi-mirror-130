@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: apphub
+Version: 2.1.0
+Summary: Swimlane Apphub API Package
+Home-page: UNKNOWN
+Author: Swimlane
+Author-email: info@swimlane.com
+License: UNKNOWN
+Keywords: dev,development
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+
+# PyAppHub
+
+Python package for Swimlane AppHub API
+
+## Install
+run `pip install apphub` from a terminal. This package is available for python 3.6 or greater.
+
+## Examples
+
+Below are a few basic python examples to get started.
+
+*Note*: If `sw_` is not found at the beginning of a name, the client will
+add it for you.
+
+```python
+from apphub import AppHub, save_to_disk, clean_response
+
+ah = AppHub('username', 'password')
+
+# Get all swimlane bundles
+get_all_bundles = ah.swimbundles.get()
+
+# Get All versions of a swimlane bundle
+get_all_versions = ah.swimbundles.get('sw_elastic_kibana')
+
+# Get One version of a swimlane bundle
+get_one_version = ah.swimbundles.get('sw_elastic_kibana', '2.0.0')
+
+ah.swimbundles.search(text="elastic")
+
+# Download bundle by version
+downloaded_bundle = ah.swimbundles.download('sw_elastic_kibana', '2.0.0')
+
+clean_response(get_all_bundles)
+
+srch_by_field = ah.swimbundles.search(fields={'vendor': "Elastic"})
+srch_by_text = ah.swimbundles.search(text="Elastic")
+# Save Latest Download Bundle to disk
+save_to_disk('/tmp/elastic_security.zip', downloaded_bundle)
+```
+
+
