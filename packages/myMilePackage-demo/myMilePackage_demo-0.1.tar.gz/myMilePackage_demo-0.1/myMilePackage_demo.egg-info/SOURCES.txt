@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+myMilePackage_demo/__init__.py
+myMilePackage_demo/mileConverter.py
+myMilePackage_demo.egg-info/PKG-INFO
+myMilePackage_demo.egg-info/SOURCES.txt
+myMilePackage_demo.egg-info/dependency_links.txt
+myMilePackage_demo.egg-info/top_level.txt
