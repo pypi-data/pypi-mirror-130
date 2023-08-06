@@ -1,0 +1,17 @@
+napari_spacetx_explorer/__init__.py,sha256=1lqqW9Z_4hycyYeTiH-snfc5-Coqidg6Dle3cJS1Eh8,391
+napari_spacetx_explorer/_csv_io.py,sha256=Tkd6zcgCDMZKNfra2gB6m_khEZwlZSkadtBpWmr8PuQ,651
+napari_spacetx_explorer/_dock_widget.py,sha256=DOOFHUshwkzNNINA5aRcEKbFuoebe-6brcyy1n1SdmY,2661
+napari_spacetx_explorer/_dock_widget_original.py,sha256=3-xHmjUL4eQY6DYlsaR74qsEr5bo8Z_7MqffAyEouy4,2073
+napari_spacetx_explorer/_function.py,sha256=_qyfZG40ghDPiSFYsZgNQw493nKJArxvEeLVf6K7N4s,3150
+napari_spacetx_explorer/_function2.py,sha256=M2R8GrlxVUneJXyOYM83X8bxr6oxFzmBcm5K_D-ef_U,1871
+napari_spacetx_explorer/_reader.py,sha256=1kkeCZpg91d3yWziXmlfEAFzg-NOgmZrK5OtVWOQEe8,3584
+napari_spacetx_explorer/_reader_function.py,sha256=MDqUiXFZW-UufkW5u9ov9pq8WcECxAwXKdhsI0O4igI,399
+napari_spacetx_explorer/_summary.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_spacetx_explorer/_tests/__init__py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_spacetx_explorer/_tests/test_plugin.py,sha256=a6UTcFJNybqd-HjfcaweRI7ionfZMxcg694M4uwZ4Fk,31
+napari_spacetx_explorer-0.1.5.dist-info/LICENSE,sha256=-LJq_tnUT5fR06x0FdM41IHAF-GUtzcDJLM-abdCQTc,1507
+napari_spacetx_explorer-0.1.5.dist-info/METADATA,sha256=ZfFCTdE-zc7dg0OLOVoWGMTQp0Wyp_s4Sw3ak-LDF58,5211
+napari_spacetx_explorer-0.1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+napari_spacetx_explorer-0.1.5.dist-info/entry_points.txt,sha256=e8lP_q_fA6MesnJJ7NmqyW3bkon6nuzl5nm6YKD_WdE,67
+napari_spacetx_explorer-0.1.5.dist-info/top_level.txt,sha256=-Nv1yAhJOPH7lUFSwYcONoZqNFf3voCBYRdUskQ2hQI,24
+napari_spacetx_explorer-0.1.5.dist-info/RECORD,,
