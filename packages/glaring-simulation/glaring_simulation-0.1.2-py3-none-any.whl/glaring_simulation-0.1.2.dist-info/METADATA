@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: glaring-simulation
+Version: 0.1.2
+Summary: Augmentation methods: glaring
+Home-page: https://github.com/thomle295/glaring_simulation
+Author: ThomLe
+Author-email: thomlestudy295@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+## The Augmentation methods: this lib help simulation glaring phenomena in image
+
+## Install:
+```
+pip3 install glaring-simulation
+```
+
+## Basic using:
+```
+from glaring_simulation import Glaring
+glaring_testing = Glaring.Glaring()
+img_path = "resource/image.jpg"
+glaring_image = glaring_testing.predict(image_path=img_path)
+cv2.imwrite("resource/glaring_image.jpg", glaring_image)
+```
+
+## Result
+### Normal image
+![Normal image](https://raw.githubusercontent.com/thomle295/glaring_simulation/main/resource/glaring_image.jpg)
+
+### Glaring image
+![Glaring image](https://raw.githubusercontent.com/thomle295/glaring_simulation/main/resource/image.jpg)
+
+
