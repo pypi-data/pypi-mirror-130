@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: maskedtensor
+Version: 0.0.1
+Summary: MaskedTensors for PyTorch
+Home-page: https://github.com/cpuhrsch/maskedtensor
+Author: Christian Puhrsch
+Author-email: cpuhrsch@fb.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/cpuhrsch/maskedtensor/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# maskedtensor
+
+## Installation
+
+For now the repository is written in Python only. You can simply install it via
+```
+pip install git+https://github.com/cpuhrsch/maskedtensor
+```
+
+## Notebooks
+
+For an introduction and instructions on how to use MaskedTensors and what they are useful for see the [notebooks](https://github.com/cpuhrsch/maskedtensor/tree/main/notebooks) folder.
+
+

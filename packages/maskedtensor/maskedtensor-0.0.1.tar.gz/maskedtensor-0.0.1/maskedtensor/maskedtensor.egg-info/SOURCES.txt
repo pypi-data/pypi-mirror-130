@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+maskedtensor/maskedtensor.egg-info/PKG-INFO
+maskedtensor/maskedtensor.egg-info/SOURCES.txt
+maskedtensor/maskedtensor.egg-info/dependency_links.txt
+maskedtensor/maskedtensor.egg-info/top_level.txt
+test/test_basics.py
+test/test_reductions.py
