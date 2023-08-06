@@ -1,0 +1,9 @@
+README.md
+setup.py
+nicehash/__init__.py
+nicehash/nicehash.py
+nicehash.egg-info/PKG-INFO
+nicehash.egg-info/SOURCES.txt
+nicehash.egg-info/dependency_links.txt
+nicehash.egg-info/requires.txt
+nicehash.egg-info/top_level.txt
