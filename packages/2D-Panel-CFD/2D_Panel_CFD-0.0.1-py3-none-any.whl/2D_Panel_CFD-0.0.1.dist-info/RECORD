@@ -1,0 +1,14 @@
+RUN_package/P_coeff.py,sha256=U4bckz-m-YR7d3cC0bVVg67fH35tlWqikfD_1gp_LDc,4084
+RUN_package/RUN-spyder.py,sha256=8TZUN2kVyFlxGE-oyGP7oL_oYNT-7qRXZXxruECsePc,11286
+RUN_package/RUN.py,sha256=8tsS0y8AGR2iMK4PDnokyWugvS2Nj2MCEDxEwMmMkso,11467
+RUN_package/UV_coeff.py,sha256=DgvC-LHqwWBTQTpYh8LDQXNOSREgK5ruU5l2WWEFfS0,10034
+RUN_package/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RUN_package/boundaryDomain.py,sha256=_LRIjGvRhqQ-pTq1aCWivE516VTIEYvf8HojmlxqC7Y,58998
+RUN_package/correction.py,sha256=CQW0L_aw8NJlVgRRfwbKVBCezMhjD1yxmBo31UBEcVk,2629
+RUN_package/faceInterpolation.py,sha256=laOHPvnTenealkK5xZQyfXQlv0xluzuY7v6iE5zqJAQ,2979
+RUN_package/initialConditions.py,sha256=1K5otC1-nAphGvsReVHBPIWExYYEmYbUp49gRSuST20,3295
+RUN_package/postProcessing.py,sha256=KrgxBYnkALvE3QP1PYJm_nqhpmRxRIVsEMiWOPDmbwQ,13795
+2D_Panel_CFD-0.0.1.dist-info/METADATA,sha256=HBdrmtua8cx6XLyGs5cEtW9ekWTw2Kp6dFk4nBiW5vE,6797
+2D_Panel_CFD-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+2D_Panel_CFD-0.0.1.dist-info/top_level.txt,sha256=G_XrFBix2XOtJfdlCqAdLGCKp5grbEozQ6Dz5EcGauQ,12
+2D_Panel_CFD-0.0.1.dist-info/RECORD,,
