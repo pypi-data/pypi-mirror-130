@@ -1,0 +1,3 @@
+[console_scripts]
+rdf2dot = rdf2dot.rdf2dot:cli
+
