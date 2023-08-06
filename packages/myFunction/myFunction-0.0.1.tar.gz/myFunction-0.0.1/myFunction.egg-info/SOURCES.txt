@@ -1,0 +1,7 @@
+setup.py
+myFunction/__init__.py
+myFunction/sentiment.py
+myFunction.egg-info/PKG-INFO
+myFunction.egg-info/SOURCES.txt
+myFunction.egg-info/dependency_links.txt
+myFunction.egg-info/top_level.txt
