@@ -1,0 +1,9 @@
+README.md
+setup.py
+MsTeamsConnector/MsTeamsConnector.py
+MsTeamsConnector/__init__.py
+MsTeamsConnector.egg-info/PKG-INFO
+MsTeamsConnector.egg-info/SOURCES.txt
+MsTeamsConnector.egg-info/dependency_links.txt
+MsTeamsConnector.egg-info/requires.txt
+MsTeamsConnector.egg-info/top_level.txt
