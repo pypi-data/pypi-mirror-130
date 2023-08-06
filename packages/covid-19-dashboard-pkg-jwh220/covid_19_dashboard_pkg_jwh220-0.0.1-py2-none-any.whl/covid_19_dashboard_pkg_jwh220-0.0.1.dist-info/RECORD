@@ -1,0 +1,10 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_covid_data_handler.py,sha256=ygtkcxqjan2qAVBWpBjwpvD_TSuSn6V1sdkEzRAOYvA,2404
+tests/test_logger.py,sha256=HlemtCQJgC418hfoMSakgD3UnlCY3UJCjX6w6HgOWV8,268
+tests/test_news_data_handling.py,sha256=9LW4SmMh8hpcOgdVu7fWMM-LtkkyP6VbeKPNt1M7UOU,1220
+tests/test_shared_functions.py,sha256=6mviYxasjOrHvdFOSJJvx-zIxcksMhm2vo3jtkg9F_k,320
+covid_19_dashboard_pkg_jwh220-0.0.1.dist-info/LICENSE,sha256=mWjn5VQELnLbIX-eKbcdTy1RQbTbjzbhLAdl9hB9ea8,1070
+covid_19_dashboard_pkg_jwh220-0.0.1.dist-info/METADATA,sha256=KGNQ3B7uqc_YHR5ZmTTeiocFTEFl2fkmtcSzktDt7GI,4910
+covid_19_dashboard_pkg_jwh220-0.0.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+covid_19_dashboard_pkg_jwh220-0.0.1.dist-info/top_level.txt,sha256=EdW7283x-lr_cbuivW8Ij7ANAP-ZJ9sLtILQseEPxXg,6
+covid_19_dashboard_pkg_jwh220-0.0.1.dist-info/RECORD,,
