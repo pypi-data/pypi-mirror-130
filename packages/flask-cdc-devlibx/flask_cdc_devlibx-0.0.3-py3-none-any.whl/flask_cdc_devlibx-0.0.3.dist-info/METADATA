@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flask-cdc-devlibx
+Version: 0.0.3
+Summary: Python DSL for setting up Flask app CDC
+Home-page: https://github.com/devlibx/flask-cdc
+Author: devlibx
+Author-email: devlibxgithub@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: kafka-python
+
+UNKNOWN
+
