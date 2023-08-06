@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/tablign/__about__.py
+src/tablign/__init__.py
+src/tablign/cli.py
+src/tablign/main.py
+src/tablign.egg-info/PKG-INFO
+src/tablign.egg-info/SOURCES.txt
+src/tablign.egg-info/dependency_links.txt
+src/tablign.egg-info/entry_points.txt
+src/tablign.egg-info/requires.txt
+src/tablign.egg-info/top_level.txt
