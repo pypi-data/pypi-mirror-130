@@ -1,0 +1,41 @@
+name: docs
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  docs:
+    runs-on: ubuntu-latest
+    container:
+      image: python
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Install katex
+        run: |
+          apt update
+          apt install -y npm
+          npm install -g katex
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r ./docs/requirements.txt
+          pip install -e .
+      - name: Compile Sphinx Docs
+        run: |
+          cd ./docs/
+          make html
+      - name: Check GitHub Pages status
+        uses: crazy-max/ghaction-github-status@v2.2.0
+        with:
+          pages_threshold: major_outage
+      - name: Deploy to GitHub Pages
+        if: success()
+        uses: crazy-max/ghaction-github-pages@v2.5.0
+        with:
+          target_branch: docs
+          build_dir: ./docs/build/html
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
