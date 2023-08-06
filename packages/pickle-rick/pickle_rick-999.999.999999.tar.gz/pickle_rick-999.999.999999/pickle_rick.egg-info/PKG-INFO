@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pickle-rick
+Version: 999.999.999999
+Summary: Tools for pickling Python objects in completely different way
+Home-page: UNKNOWN
+Author: Zipfian Science
+Author-email: about@zipfian.science
+License: Apache 2.0
+Download-URL: https://github.com/Zipfian-Science/pickle-rick/archive/v_01.tar.gz
+Description: # Pickle Rick
+        
+        
+        Pickle Rick has been renamed to '[rickled](https://pypi.org/project/rickled/)', see [here](http://blog.zipfian.science/news/2021-12-06-pickle-rick-renamed.html) for more
+        
+        You can install it:
+        
+        ```pip install rickled```
+        
+        This package will be discontinued from 31-01-2022
+Keywords: Pickle,Python
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
