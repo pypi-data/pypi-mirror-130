@@ -1,0 +1,10 @@
+fits_schema/__init__.py,sha256=FVHPBGkfhbQDi_z3v0PiKJrXXqXOx0vGW_1VaqNJi7U,22
+fits_schema/binary_table.py,sha256=gmz8F4uAtVWCfxJTXIUU9cruxXPyB6cKs5-Qx4U0cO4,9623
+fits_schema/exceptions.py,sha256=w8WoGZm3f5yxlbvR3eC_WHpNbAQbdIleZGZUFzbyWgM,1035
+fits_schema/header.py,sha256=3HnRoh0dSZa47VJuXAXpw2oZ8xrO-x3Rqa6rqxAMHEM,9547
+fits_schema/primary.py,sha256=RiluneKpWY5hdoBtAqmJIRgXi9n-C7Vln4wPdhQY2-M,616
+fits_schema/utils.py,sha256=-2YEZexHYpT8qBooJudedjEOpoXbYRXd_EmllF2FPeg,867
+fits_schema-0.5.5.dist-info/LICENSE,sha256=0WVwplP7o-BkJvexobVa3WR_aEfW9YDKbDm6SE9gvTY,1077
+fits_schema-0.5.5.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fits_schema-0.5.5.dist-info/METADATA,sha256=V8VNDP2E_8OoFo9blt7ClbcE3fZ0BcMKbX6cGTp1PG0,1557
+fits_schema-0.5.5.dist-info/RECORD,,
