@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: pysofi
+Version: v0.1.1-alpha
+Summary: first release
+Home-page: https://github.com/xiyuyi-at-LLNL/pysofi
+Author: Yuting Miao, Shimon Weiss, Xiyu Yi
+Author-email: ytmiao@ucla.edu
+License: UNKNOWN
+Download-URL: https://github.com/xiyuyi-at-LLNL/pysofi/archive/refs/tags/v0.1.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: pysofi
+Platform: UNKNOWN
