@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: phenomenal
+Version: 0.0.2
+Summary: Phenomenal By Hery Phenomenal
+Home-page: https://github.com/thitphavanh/HeryProfile
+Author: Hery Phenomenal
+Author-email: thitphavanh.psv@gmail.com
+License: MIT
+Download-URL: https://github.com/Thitphavanh/HeryProfile/archive/v0.0.2.zip
+Description: (Hery Phenomenal) ເປັນໂຕຢ່າງການອັພໂຫຼດ package ໄປຫາ pypi.org
+        ============================================================
+        
+        PyPi: https://pypi.org/project/phenomenal/
+        
+        ສະບາຍດີ ແພ໊ຄເກຈນີ້ແມ່ນແພ໊ຄເກຈທີ່ອະທິບາຍ Profile ຂອງຂ້ອຍ ແລະ
+        ສາມາດນຳໄປໃຊ້ກັບຄົນອື່ນໄດ້
+        
+        ວິທີຕິດຕັ້ງ
+        ~~~~~~~~~~~
+        
+        ເປີດ CMD / Terminal
+        
+        .. code:: python
+        
+           pip install phenomenal
+        
+        ວິທີໃຊ້ແພ໊ຄເກຈນີ້
+        ~~~~~~~~~~~~~~~~~
+        
+        -  ເປີດ IDLE ຂຶ້ນມາແລ້ວພິມ…
+        
+        .. code:: python
+        
+           from phenomenal import Profile
+        
+           my = Profile('Hery')
+           my.company = 'phenomenal'
+           my.hobby = ['Youtuber','Reading','Sleeping']
+           print(my.name)
+           my.Show_email()
+           my.Show_myart()
+           my.Show_hobby()
+           my.Show_dog()
+        
+        ພັດທະນາໂດຍ: Hery Phenomenal
+        
+        FB: https://www.facebook.com/HeryPhongsavath
+        
+        YouTube: https://www.youtube.com/PhenomenalChanel
+        
+Keywords: Hery,Profile,Hery Phenomenal
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10

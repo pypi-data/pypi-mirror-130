@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+phenomenal/__init__.py
+phenomenal/myprofile.py
+phenomenal.egg-info/PKG-INFO
+phenomenal.egg-info/SOURCES.txt
+phenomenal.egg-info/dependency_links.txt
+phenomenal.egg-info/top_level.txt
