@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tutle
+Version: 0.0.2
+Summary: A shady Turtle
+Home-page: UNKNOWN
+Author: UACTF
+Author-email: capture@the.flag
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# Turtle
+
+This turtle is well packaged.
+
