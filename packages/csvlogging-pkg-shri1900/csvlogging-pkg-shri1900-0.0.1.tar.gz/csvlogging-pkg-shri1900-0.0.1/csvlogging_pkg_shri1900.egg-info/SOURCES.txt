@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+csvlogging_pkg_shri1900.egg-info/PKG-INFO
+csvlogging_pkg_shri1900.egg-info/SOURCES.txt
+csvlogging_pkg_shri1900.egg-info/dependency_links.txt
+csvlogging_pkg_shri1900.egg-info/top_level.txt
