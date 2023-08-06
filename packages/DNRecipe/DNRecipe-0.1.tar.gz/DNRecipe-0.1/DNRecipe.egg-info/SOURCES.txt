@@ -1,0 +1,7 @@
+README.md
+pyproject.toml
+setup.py
+DNRecipe.egg-info/PKG-INFO
+DNRecipe.egg-info/SOURCES.txt
+DNRecipe.egg-info/dependency_links.txt
+DNRecipe.egg-info/top_level.txt
