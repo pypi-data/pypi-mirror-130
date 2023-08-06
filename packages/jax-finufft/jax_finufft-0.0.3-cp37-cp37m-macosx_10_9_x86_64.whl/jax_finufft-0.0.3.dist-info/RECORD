@@ -1,0 +1,12 @@
+jax_finufft/jax_finufft.cpython-37m-darwin.so,sha256=DhBXSDNtqLzrd3iSkX0sSFfx_jVrUYN4deHcGBoCuvE,359056
+jax_finufft/__init__.py,sha256=GvmWyJno07MQN-eB0a1iqiz7RXWCvVTCz9JQD-rTNeY,730
+jax_finufft/ops.py,sha256=2QYSHcReSQj2jYE-duEgmX-qNpofDB20muZj8yfufEE,13194
+jax_finufft/jax_finufft_version.py,sha256=cqMRlSvtXNenfrMB-M-Tt6_yTB4wzKdaO5USAZtNm0o,142
+jax_finufft/.dylibs/libfftw3f.3.dylib,sha256=t_smpyC_ih6BZDuGqBgi9a_wH2lazjA74akazxc88W8,3004656
+jax_finufft/.dylibs/libfftw3.3.dylib,sha256=Gd_ih4AXDRYGKy_T5eUxD1vLPOiCLr1Kz0KNM2X9YPc,2852432
+jax_finufft/.dylibs/libgcc_s.1.dylib,sha256=rI4yoIFwTIbxdGf4odC6W-xhf-dD3BR0ioddaStjtUo,188816
+jax_finufft-0.0.3.dist-info/RECORD,,
+jax_finufft-0.0.3.dist-info/LICENSE,sha256=R37kprb3xRu-3wmfroy1aXjbx_RcFoRHOfoNLGC0FD0,10947
+jax_finufft-0.0.3.dist-info/WHEEL,sha256=2X_bPPAXmFi_5DsstnYXTrjusL9f8nI0YNiUG7r3Wtk,104
+jax_finufft-0.0.3.dist-info/top_level.txt,sha256=jhWEXsZXc-2g-T_8a8S66HMdFyE7Qrv_AlnO-wkkPwQ,12
+jax_finufft-0.0.3.dist-info/METADATA,sha256=oeK6Yl-SqlIngaiLxQgGhxsSR6wtlqcurOIbCX7-irY,4019
