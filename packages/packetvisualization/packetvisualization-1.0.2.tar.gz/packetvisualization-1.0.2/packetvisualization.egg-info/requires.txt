@@ -1,0 +1,11 @@
+pyshark
+PyQt5
+pandas
+plotly
+PyQtWebEngine
+scapy
+pymongo
+python-decouple
+certifi
+liac-arff
+sklearn
