@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: sbvar
+Version: 1.0.0
+Summary: Varying parameter analysis for SBML models
+Home-page: https://github.com/racng/sbvar
+Author: Rachel Ng
+Author-email: rachelng323@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+Requires-Dist: antimony
+Requires-Dist: tellurium
+Requires-Dist: libroadrunner
+Requires-Dist: rrplugins
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: matplotlib
+Requires-Dist: anndata
+Requires-Dist: h5py
+Requires-Dist: hdf5
+Requires-Dist: scikit-learn
+
+UNKNOWN
+

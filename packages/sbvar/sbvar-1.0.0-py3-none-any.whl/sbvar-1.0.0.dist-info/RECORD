@@ -1,0 +1,14 @@
+sbvar/__init__.py,sha256=AAt2qZaEwFy1MnOZJo5rKYayvPNHKLw68riUw52rGB4,93
+sbvar/io.py,sha256=9HJlKaA-cPUWVtkbBdjypHB4V5vaKzbtqrllz1rNvfg,637
+sbvar/plotting.py,sha256=j49lngC5ggifXrnmWoRjzyM7Bhcz_Aw9AWm5WDjGkpE,1683
+sbvar/timeseries.py,sha256=MycoTw_uptUVuinNTABG5y0jYAENFtkreZ9eNNw1duM,3225
+sbvar/utils.py,sha256=TTfWiZ_RGbL7EDC081luG7a_EKdrPtRc-z0bcgNtofk,1299
+sbvar/experiment/__init__.py,sha256=sUEwlggrtVLT_3RHbAjquPLNbqLMv7ubJOyT_whPrLU,105
+sbvar/experiment/base.py,sha256=lL5wtQRVcHH-V-2iBoQclZmXHvkV4mwUnzA1UwyNpmo,15432
+sbvar/experiment/one_way.py,sha256=m8naI6B0Wo9cg0bAZ3O4wr6i7EpbiaIzjP-P13bieIU,7627
+sbvar/experiment/two_way.py,sha256=RCWNp4uCLCnIqmlQx0qrIQibEEhBhqeKaSnDABo0Qi4,8964
+sbvar-1.0.0.dist-info/LICENSE,sha256=Gg7GSwprBx0-4wdH7LNDyACfBwWX5Gelx9xqDvQ0mh8,1066
+sbvar-1.0.0.dist-info/METADATA,sha256=b2MBuhfLuvUUMjdXaD-3N1kunIg5uDa84R8okrjmxUw,794
+sbvar-1.0.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sbvar-1.0.0.dist-info/top_level.txt,sha256=lWWmGjVDYC7CCITKnrvJkdIEAA6WBVW_w1NKSlJ-ywo,23
+sbvar-1.0.0.dist-info/RECORD,,
