@@ -1,0 +1,346 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>API &#8212; autodiff_107 0.0.1 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Usage" href="usage.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="api">
+<h1>API<a class="headerlink" href="#api" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="module-autodiff_107.diff.Node">
+<span id="variables-and-derivatives"></span><h2>Variables and derivatives<a class="headerlink" href="#module-autodiff_107.diff.Node" title="Permalink to this headline">¶</a></h2>
+<dl class="py class">
+<dt id="autodiff_107.diff.Node.Node">
+<em class="property">class </em><code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">Node</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">value</span></em>, <em class="sig-param"><span class="n">fm_seed</span><span class="o">=</span><span class="default_value">0</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.Node" title="Permalink to this definition">¶</a></dt>
+<dd><p>This is the main object for variables used for Automatic Differentiation.
+Operations for the functions the user wants 
+to use will have to be done using this object. 
+Constants involved in the function can be inserted normally 
+and do not need to be wrapped in Node objects.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>value</strong> (<em>int</em><em>, </em><em>float</em>) – Value of the variable</p></li>
+<li><p><strong>fm_seed</strong> (<em>int</em><em>, </em><em>float</em>) – Seed to use in forward mode. Most likely this will be 1 for one input
+and 0 for all others, but specific use cases may warrant different
+weights. Default: 0</p></li>
+</ul>
+</dd>
+<dt class="field-even">Variables</dt>
+<dd class="field-even"><ul class="simple">
+<li><p><strong>_value</strong> – Value at which the variable is evaluated</p></li>
+<li><p><strong>_d</strong> – Value of the derivative of this Node with respect to each 
+parent at the point where this Node is evaluated.</p></li>
+<li><p><strong>_fmd</strong> – Forward mode derivative. At any point after the forward pass,
+this should store the derivative of any node with respect
+to some input as defined by the fm_seed. This could actually be
+the sum of derivatives of the node with respect to some weighting
+of inputs. If that is your use case, you likely know what you are doing.</p></li>
+</ul>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py class">
+<dt id="autodiff_107.diff.Node.Var">
+<em class="property">class </em><code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">Var</code><span class="sig-paren">(</span><em class="sig-param"><span class="o">*</span><span class="n">args</span></em>, <em class="sig-param"><span class="o">**</span><span class="n">kwargs</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.Var" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="py method">
+<dt id="autodiff_107.diff.Node.Var.value">
+<em class="property">property </em><code class="sig-name descname">value</code><a class="headerlink" href="#autodiff_107.diff.Node.Var.value" title="Permalink to this definition">¶</a></dt>
+<dd><p>This holds the value of this variable</p>
+</dd></dl>
+
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.derivative">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">derivative</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em>, <em class="sig-param"><span class="n">X</span><span class="p">:</span> <span class="n">numpy.ndarray</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.derivative" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function will return the derivative of f with respect to X. f and X must both be one dimensional but their
+lengths need not match. If f is a vector, the jacobian will be returned</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> (<em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – function evaluated at X</p></li>
+<li><p><strong>X</strong> (<em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – variable to take the derivative w.r.t</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – f and X must both be 1-dimensional</p>
+</dd>
+<dt class="field-odd">Returns</dt>
+<dd class="field-odd"><p>derivative of f w.r.t X</p>
+</dd>
+<dt class="field-even">Return type</dt>
+<dd class="field-even"><p>array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.get_fm_derivative">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">get_fm_derivative</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">Y</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.get_fm_derivative" title="Permalink to this definition">¶</a></dt>
+<dd><p>If a forward mode seed was set using set_fm_seed, this function will return the derivative
+calculated using forward mode with the set seed.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>Y</strong> (<em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – input</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>forward mode derivative</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.get_fm_seed">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">get_fm_seed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.get_fm_seed" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function will return the current seed of X to be used in forward mode</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>X</strong> (<a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em> or </em><em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – input</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>forward mode seed</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.set_fm_seed">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">set_fm_seed</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">X</span></em>, <em class="sig-param"><span class="n">seed</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.set_fm_seed" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function sets the forward mode seed for the variable X to be used in the forward pass in
+any following calculations. X and seed should have matching shapes.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>X</strong> (<em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – input</p></li>
+<li><p><strong>seed</strong> (<em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – seed</p></li>
+</ul>
+</dd>
+<dt class="field-even">Raises</dt>
+<dd class="field-even"><p><strong>ValueError</strong> – “X and seed shapes do not match”</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.value">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">value</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.value" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function takes in a numpy array returned by variable() or the result of a calculation
+using a numpy array from variable() and returns a numpy array of the numeric values of x</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> (<a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em> or </em><em>array</em><em>(</em><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node"><em>Node</em></a><em>)</em>) – input</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>value of Node</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float or array(float)</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.diff.Node.variable">
+<code class="sig-prename descclassname">autodiff_107.diff.Node.</code><code class="sig-name descname">variable</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">x</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.diff.Node.variable" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function takes a number or numpy array of numbers and returns a “variable” which
+is a numpy array of Node objects that will handle automatic differentiation</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><p><strong>x</strong> (<em>float</em><em> or </em><em>array</em><em>(</em><em>float</em><em>)</em>) – input</p>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>variable(input)</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p><a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node">Node</a> or array(<a class="reference internal" href="#autodiff_107.diff.Node.Node" title="autodiff_107.diff.Node.Node">Node</a>)</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-autodiff_107.optim.optimize">
+<span id="optimizers"></span><h2>Optimizers<a class="headerlink" href="#module-autodiff_107.optim.optimize" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="autodiff_107.optim.optimize.adagrad">
+<code class="sig-prename descclassname">autodiff_107.optim.optimize.</code><code class="sig-name descname">adagrad</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">x0</span></em>, <em class="sig-param"><span class="n">lr</span><span class="o">=</span><span class="default_value">0.1</span></em>, <em class="sig-param"><span class="n">lr_decay</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">weight_decay</span><span class="o">=</span><span class="default_value">0.0</span></em>, <em class="sig-param"><span class="n">eps</span><span class="o">=</span><span class="default_value">1e-10</span></em>, <em class="sig-param"><span class="n">max_iter</span><span class="o">=</span><span class="default_value">1000</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.optim.optimize.adagrad" title="Permalink to this definition">¶</a></dt>
+<dd><p>Adagrad algorithm: Adaptive Subgradient Methods for Online Learning and Stochastic Optimization.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> (<em>function</em><em> (</em><em>callable</em><em>)</em>) – objective function to minimize</p></li>
+<li><p><strong>x0</strong> (<em>list</em><em> or </em><em>np.array w/ dtype float</em><em> or </em><em>int</em>) – initial parameters</p></li>
+<li><p><strong>lr</strong> (<em>float</em><em>, </em><em>optional</em>) – learning rate, defaults to 0.1</p></li>
+<li><p><strong>lr_decay</strong> (<em>float</em><em>, </em><em>optional</em>) – learning rate decay, defaults to 0.</p></li>
+<li><p><strong>weight_decay</strong> (<em>float</em><em>, </em><em>optional</em>) – weight decay (L2 penalty), defaults to 0.</p></li>
+<li><p><strong>eps</strong> (<em>float</em><em>, </em><em>optional</em>) – term added to the denominator to improve numerical stability, defaults to 1e-10</p></li>
+<li><p><strong>max_iter</strong> (<em>int</em><em>, </em><em>optional</em>) – maximum number of iterations, defaults to 1000</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>function minimum after <cite>max_iter</cite> steps</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.array</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="py function">
+<dt id="autodiff_107.optim.optimize.gradient_descent">
+<code class="sig-prename descclassname">autodiff_107.optim.optimize.</code><code class="sig-name descname">gradient_descent</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">x0</span></em>, <em class="sig-param"><span class="n">lr</span><span class="o">=</span><span class="default_value">0.1</span></em>, <em class="sig-param"><span class="n">max_iter</span><span class="o">=</span><span class="default_value">1000</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.optim.optimize.gradient_descent" title="Permalink to this definition">¶</a></dt>
+<dd><p>Simple gradient descent</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> (<em>function</em><em> (</em><em>callable</em><em>)</em>) – function to minimize</p></li>
+<li><p><strong>x0</strong> (<em>list</em><em> or </em><em>np.array w/ dtype float</em><em> or </em><em>int</em>) – initial starting point for gradient descent, if x0 is too far from the minimum, algorithm might not converge</p></li>
+<li><p><strong>lr</strong> (<em>float</em>) – learning rate, default to 0.1</p></li>
+<li><p><strong>max_iter</strong> (<em>int</em>) – number of iterations to run gradient descent, default to 1000</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>function minimum after <cite>max_iter</cite> steps</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>np.array</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+<div class="section" id="module-autodiff_107.optim.rootfinding">
+<span id="root-finding"></span><h2>Root finding<a class="headerlink" href="#module-autodiff_107.optim.rootfinding" title="Permalink to this headline">¶</a></h2>
+<dl class="py function">
+<dt id="autodiff_107.optim.rootfinding.newton">
+<code class="sig-prename descclassname">autodiff_107.optim.rootfinding.</code><code class="sig-name descname">newton</code><span class="sig-paren">(</span><em class="sig-param"><span class="n">f</span></em>, <em class="sig-param"><span class="n">x0</span></em>, <em class="sig-param"><span class="n">tol</span><span class="o">=</span><span class="default_value">1e-05</span></em>, <em class="sig-param"><span class="n">maxiter</span><span class="o">=</span><span class="default_value">50</span></em><span class="sig-paren">)</span><a class="headerlink" href="#autodiff_107.optim.rootfinding.newton" title="Permalink to this definition">¶</a></dt>
+<dd><p>Newton’s root finding algorithm for single variable functions</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>f</strong> (<em>function</em><em> (</em><em>callable</em><em>)</em>) – function of a single variable x</p></li>
+<li><p><strong>x0</strong> (<em>float</em><em> or </em><em>int</em>) – initial starting point estimate</p></li>
+<li><p><strong>tol</strong> (<em>float</em><em>, </em><em>optional</em>) – root tolerance, defaults to 1e-5</p></li>
+<li><p><strong>maxiter</strong> (<em>int</em><em>, </em><em>optional</em>) – maximium number of iterations, defaults to 50</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns</dt>
+<dd class="field-even"><p>root of f</p>
+</dd>
+<dt class="field-odd">Return type</dt>
+<dd class="field-odd"><p>float</p>
+</dd>
+</dl>
+</dd></dl>
+
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">autodiff_107</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="usage.html">Usage</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">API</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#module-autodiff_107.diff.Node">Variables and derivatives</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-autodiff_107.optim.optimize">Optimizers</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#module-autodiff_107.optim.rootfinding">Root finding</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="usage.html" title="previous chapter">Usage</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2021, Jean-Guillaume Brasier, Eryk Pecyna, Raphael Pellegrin, Xiyu Yang.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.2.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/api.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

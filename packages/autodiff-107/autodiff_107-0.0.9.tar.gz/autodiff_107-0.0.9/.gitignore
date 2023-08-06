@@ -1,0 +1,14 @@
+*.swp
+*__pycache__*
+*.bash_history
+autodiff_107.egg-info/
+dist/
+
+# shinx docs
+docs/build/
+docs/source/
+docs/make.bat
+docs/*.nojekyll
+docs/Makefile
+docs/index.html
+.DS_Store

@@ -1,0 +1,10 @@
+language: python
+python:
+    - "3.6"
+before_install:
+    - pip install pytest pytest-cov
+    - pip install codecov
+script:
+    - pytest --cov=./
+after_success:
+    - bash <(curl -s https://codecov.io/bash) -t 89d80d4a-827f-41ac-99d3-eaa26f3a0f8f
