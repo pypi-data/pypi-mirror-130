@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: tokenlearner_pytorch
+Version: 0.1.0
+Summary: Unofficial PyTorch implementation of TokenLearner by Google AI
+Home-page: https://github.com/rish-16/tokenlearner-pytorch
+Author: Rishabh Anand
+Author-email: mail.rishabh.anand@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
