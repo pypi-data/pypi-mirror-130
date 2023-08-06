@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: btypes
+Version: 4.0.1b1
+Summary: Aliases with correct capitalization for built-in Python types.
+Home-page: https://github.com/thomkeh/btypes
+License: Apache 2.0
+Author: Thomas M
+Author-email: thomas5max@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Requires-Dist: typing-extensions (==4.0.1)
+Project-URL: Repository, https://github.com/thomkeh/btypes
+Description-Content-Type: text/markdown
+
+# btypes
+
+> Aliases with correct capitalization for built-in Python types.
+
+[PEP8](https://www.python.org/dev/peps/pep-0008/#class-names) states that classes should have names in CamelCase.
+However, all the built-in types are lower case: `str`, `bool`, `int`, `float`, `list`, `dict`, etc.
+This library provides aliases for all these types that are capitalized correctly.
+They are straightforward aliases and can be used exactly like the original types.
+
+## Install
+
+Requires Python 3.9+.
+
+```
+pip install btypes
+```
+
+## Examples
+
+```python
+from btypes import Int, List, Str
+
+def comma_list(lst: List[Int]) -> Str:
+    return ", ".join(Str(e) for e in lst)
+
+def range_list(limit: Int) -> List[Int]:
+    return List(range(limit))
+```
+
+Also works with pattern matching:
+```python
+from btypes import Bool, Str, Union
+
+def print_type(x: Union[Bool, Str]) -> None:
+    match x:
+        case Bool():
+            print("a boolean")
+        case Str():
+            print("a string")
+```
+
+## FAQs
+
+### Why require Python 3.9 as the minimum version?
+
+Because Python 3.9 introduced generic collections in the standard library: `list[int]`, `dict[str, float]`;
+and the whole point of `btypes` is that you can use the same identifier as constructor and as type annotation.
+

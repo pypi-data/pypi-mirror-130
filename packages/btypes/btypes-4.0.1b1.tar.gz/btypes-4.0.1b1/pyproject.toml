@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "btypes"
+version = "4.0.1-beta.1"
+description = "Aliases with correct capitalization for built-in Python types."
+authors = ["Thomas M <thomas5max@gmail.com>"]
+license = "Apache 2.0"
+readme = "README.md"
+packages = [
+  { include = "btypes" },
+]
+include=["btypes/py.typed"]
+classifiers=[
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent",
+    "Typing :: Typed",
+]
+repository="https://github.com/thomkeh/btypes"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+typing-extensions = "==4.0.1"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^0.910"
+black = "^21.11-beta.1"
+isort = "^5.10.1"
+
+[tool.black]
+target-version = ['py39']
+
+[tool.isort]
+line_length = 88
+profile = "black"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
