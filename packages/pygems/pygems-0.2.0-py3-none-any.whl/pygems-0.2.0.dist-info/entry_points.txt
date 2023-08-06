@@ -1,0 +1,6 @@
+[console_scripts]
+pygems = pygems.cli:main
+
+[pygems.demoplugin]
+hello-world = pygems.demo.helloworld:hi
+
