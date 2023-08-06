@@ -1,0 +1,16 @@
+{
+    "config": {
+        "location": "England",
+        "location_type": "nation",
+        "update_intervals": [
+            
+        ],
+        "invalid_articles": [
+
+        ]
+    },
+    "display": {},
+    "details": {
+        "news-api-key": "41335430eabc4a6ea4818b233d6a92d1"
+    }
+}
