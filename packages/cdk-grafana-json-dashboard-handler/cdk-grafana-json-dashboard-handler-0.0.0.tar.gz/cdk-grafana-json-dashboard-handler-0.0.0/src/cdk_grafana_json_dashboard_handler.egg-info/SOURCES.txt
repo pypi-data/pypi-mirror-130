@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk-grafana-json-dashboard-handler/__init__.py
+src/cdk-grafana-json-dashboard-handler/py.typed
+src/cdk-grafana-json-dashboard-handler/_jsii/__init__.py
+src/cdk-grafana-json-dashboard-handler/_jsii/cdk-grafana-json-dashboard-handler@0.0.0.jsii.tgz
+src/cdk_grafana_json_dashboard_handler.egg-info/PKG-INFO
+src/cdk_grafana_json_dashboard_handler.egg-info/SOURCES.txt
+src/cdk_grafana_json_dashboard_handler.egg-info/dependency_links.txt
+src/cdk_grafana_json_dashboard_handler.egg-info/requires.txt
+src/cdk_grafana_json_dashboard_handler.egg-info/top_level.txt
