@@ -1,0 +1,149 @@
+Metadata-Version: 2.1
+Name: nsystems
+Version: 0.1.0
+Summary: Convert numbers between different numeral systems.
+Home-page: UNKNOWN
+Author: nsystems
+Author-email: nsystems.module@gmail.com
+License: MIT
+Keywords: number,systems,system,base,base64,base32,basen,convert,number systems,number system,binary,hexadecimal,octal,decimal
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# nsystems
+
+## Info
+
+This Python package is used for converting any number from any numeral system (ex. binary), to whatever numeral system you want (if it's not greater than base64).
+
+Python offers this function, but it is very limited (you can only convert bases: 2, 8, 16).
+With our user-friendly package, you'll be able to convert between any numeral systems (> base64).
+
+&nbsp;
+___
+## Installation
+
+It's dead easy.
+
+You just run:
+```properties
+pip install nsystems
+```
+in your terminal.
+
+&nbsp;
+___
+## Usage
+
+We made our package pretty easy to use.
+
+&nbsp;
+
+### Common functions
+
+* convert()
+* base2()
+* base8()
+* base10()
+* base16()
+* base32()
+* base64()
+
+&nbsp;
+
+**convert()**
+
+This function is used to convert a number from, to whatever numeral system you want.
+
+| Arguments taken | Type       | Default value      |
+| --------------- | ---------- | ------------------ |
+| value           | str        | (no default value) |
+| to_base         | int        | 16                 |
+| from_base       | int        | 10                 |
+
+Example:
+```python
+from nsystems import convert
+
+converted = convert('123', 2)
+print(converted)
+
+# output: 1111011
+```
+
+&nbsp;
+
+**base2(), base8(), base16(), base32(), base64()**
+
+These functions are very similar to each other, so we've put them in one explanation. These are also similar to the convert() function, but have like the to_base argument fixed to the base they are.
+
+| Arguments taken | Type       | Default value      |
+| --------------- | ---------- | ------------------ |
+| value           | str        | (no default value) |
+| from_base       | int        | 10                 |
+
+Example:
+```python
+from nsystems import base64
+
+converted = base64('123')
+print(converted)
+
+# output: 1x
+```
+
+&nbsp;
+
+
+**base10()**
+
+This function converts to base10 (decimal) from any other numeral system.
+
+| Arguments taken | Type       | Default value      |
+| --------------- | ---------- | ------------------ |
+| value           | str        | (no default value) |
+| from_base       | int        | 16                 |
+
+Example:
+```python
+from nsystems import base10
+
+converted = base10('1111011', 2)
+print(converted)
+
+# output: 123
+```
+
+&nbsp;
+
+### PRO functions
+
+* characters()
+
+&nbsp;
+
+**characters()**
+
+If you want to change the character list, this function is for that.
+
+The default character list are these characters (0-9, A-Z, a-z, +, =).
+
+With this function you can choose whether you want to get large or small letters first, and the two special characters at the end (the numbers are always at the beginning).
+
+| Arguments taken     | Type                        | Default value      |
+| ---------------     | ----------                  | ------------------ |
+| AZ_or_az            | str (options: 'AZ' or 'az') | (no default value) |
+| az_or_AZ            | str (options: 'AZ' or 'az') | (no default value) |
+| special_character_1 | str                         | (no default value) |
+| special_character_2 | str                         | (no default value) |
+
+Example:
+```python
+from nsystems import characters
+
+characters('az', 'AZ', '+', '/')
+
+# now the character list is: 0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/
+```
+
