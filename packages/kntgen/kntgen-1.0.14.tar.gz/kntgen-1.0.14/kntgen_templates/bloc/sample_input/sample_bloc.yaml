@@ -1,0 +1,27 @@
+name: InAppPurchaseYaml
+need_singleton: true
+need_cloud: true
+need_custom_error: true
+events:
+  - name: FetchAvailable
+    need_check_connection: true
+    params:
+      - name: productName
+        type_name: String?
+      - name: price
+        type_name: num
+        default_value: 500
+    emit:
+      - BaseLoading
+      - Purchased
+  - name: MakeDecision
+    params:
+      - name: buy
+        type_name: bool
+states:
+  - name: Purchased
+    params:
+      - name: product
+        type_name: Product?
+  - name: FetchedListSkuFailure
+    is_error: true
