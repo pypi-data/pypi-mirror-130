@@ -1,0 +1,3 @@
+[console_scripts]
+py-clash-configer=py_clash_configer.cli.root:root
+
