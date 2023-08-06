@@ -1,0 +1,103 @@
+Metadata-Version: 2.1
+Name: diamondpy
+Version: 0.0.2
+Summary: A python game changer.
+Home-page: https://github.com/pypa/sampleproject
+Author: Ethan Burgos
+Author-email: ethanburgos010@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/pypa/sampleproject/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: sly
+
+# Diamond.PY (python addon)
+Diamond is a work-in-progress ~~programming language~~ __add-on/mod__ made with (and for) Python3. It changes some of the syntax of Python and adds more bulitins and fun features. Here's the basics about it:
+
+# display()
+a renamed print() function
+
+# prompt()
+a renamed input() function
+
+# stop()
+a renamed exit() function
+
+# dialog() __[NEW]__
+like in games and stuffs, you can display text in a dialog-like way (delayed/slowly printed for character by character) using the dialog function
+
+`dialog("Hello, World!")`
+
+# nor() __[NEW]__
+the nor gate (negated or) gives an output of 1, if both inputs are 0, it gives 1 otherwise
+
+```
+nor(a, b)
+```
+
+# getObjectByENV __[NEW]__
+you can set a environment variable (sneaky sneaky!) with this new little thingy. basically equal to `os.getenv`.
+
+# the function syntax
+starting simple enough, every function you make, add this little decorator:
+
+`@function('')`
+
+be sure to note that you can add a custom name to it
+
+then continue on the next line and add the def statement for your function like you would do normally
+
+a basic function may look like this:
+```
+@function('myfunction')
+def something():
+  display("hello world!")
+```
+
+
+# display colors
+there is a special color system in diamond called __dcolors__, which stands for diamond colors or display colors.
+
+here is the list of them thus far:
+```
+HEADER
+OKBLUE
+OKCYAN
+OKGREEN
+WARNING
+FAIL
+ENDC
+BOLD
+UNDERLINE
+```
+to use them, add one of your choice in the start of a f""/f'' string like so:
+
+lets use the HEADER color, which is like a purple color, as an example
+
+`display(f"{dcolors.HEADER}Hello World!{dcolors.ENDC}")`
+
+be sure to add `{dcolors.ENDC}` at the end, otherwise you may encounter an error or unwanted results
+
+# logic.[enter logic var here]...
+an optional way of using the local logic variables (display, prompt, stop, dime/true, nodime/false) is adding `logic.` at the start of them. here's an example:
+```
+logic.display("Hello, World!")
+# This will print out 'Hello, World'!
+```
+
+not sure why i added this but lets just go with it lol
+
+# final note
+some features will be secret, find them out for yourself ;)
+
+# thanks!
+this was made by ethan b :)
+(founder of a epic [website](glitchy))
+
+# bugs? errors?
+there's a reason this is a really small version of the project, of course at the moment, we'll sadly have bugs in the code. later, we will try to fix any funky stuff. sorry about that. :/
+
