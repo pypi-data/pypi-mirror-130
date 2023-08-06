@@ -1,0 +1,15 @@
+wheel
+click
+colorama
+cryptography
+ombott
+tornado
+renoir>=1.4.0
+requests
+rocket3
+threadsafevariable>=1.1
+pyjwt>=2.0.1
+pluralize>=0.1.7
+yatl>=20210326.1
+pydal>=20210626.3
+watchgod>=0.6
