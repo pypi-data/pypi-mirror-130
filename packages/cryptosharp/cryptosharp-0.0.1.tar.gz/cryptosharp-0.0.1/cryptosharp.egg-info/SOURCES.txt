@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+cryptosharp.egg-info/PKG-INFO
+cryptosharp.egg-info/SOURCES.txt
+cryptosharp.egg-info/dependency_links.txt
+cryptosharp.egg-info/requires.txt
+cryptosharp.egg-info/top_level.txt
+cryptosharp/BouncyCastle/BouncyCastle.Crypto.dll

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cryptosharp
+Version: 0.0.1
+Summary: wrapper around C# cryptography libraries using pythonnet
+Home-page: https://github.com/K0lb3/cryptosharp
+Author: K0lb3
+License: UNKNOWN
+Download-URL: https://github.com/K0lb3/cryptosharp/tarball/master
+Keywords: python,csharp,cryptography,pythonnet,wrapper
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cryptosharp
+
+TODO
+
+WIP:
+- Cryptography - System.Security.Cryptography 
+- BouncyCastle - Org.BouncyCastle.Crypto
+

@@ -1,0 +1,3 @@
+include cryptosharp/*.py
+
+include cryptosharp/BouncyCastle/BouncyCastle.Crypto.dll
