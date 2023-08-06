@@ -1,0 +1,14 @@
+SetSolver1/MODE.py,sha256=cFydSN994p3nuMIh_UYOUQiom7ugjeA7hrOjkqB2100,4139
+SetSolver1/MathSet.py,sha256=pVQhRLwc-uJh01Ktuq4sPxHMmCSvYpYRspEFUANBN1E,3715
+SetSolver1/MultiMathSet.py,sha256=bBmlrYn5ymiE1RVc5ffAAWB3b1jIUQTKt-4OMMhNfhU,3542
+SetSolver1/RelationMathSet.py,sha256=BwMV2PFrehObXB4gP-qUAediTxLAxrVYKF3ZxCsPzOw,9302
+SetSolver1/ResultWay.py,sha256=bm9zVF1NpVuk8bQXwcPoDWZBQY_bcRAGCypEyn4XR3w,690
+SetSolver1/SimpleMathSet.py,sha256=bZRLN_M7TEle1Wvvo1vI-85k_iYTYUT0RCInyYfsb24,4185
+SetSolver1/TinyMathSet.py,sha256=jJTs4IzVSs5kDdOovcmUMX_dFTBQlrEVHsCghHKqbko,561
+SetSolver1/__init__.py,sha256=sDkSLLl_5rBFGX1k8InjUy3hObq7wX18QEGPP0RwYDc,361
+SetSolver1/main.py,sha256=kLP-buEIGPBMVYlxz0hoT5mdAfHowzXJBZZ5t6h2wgQ,7741
+SetSolver1-1!2021.12.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+SetSolver1-1!2021.12.2.dist-info/METADATA,sha256=1yf95hN7HUjYwBTvVN94LGDaVndX0T3Gvb9-Uley_p0,3854
+SetSolver1-1!2021.12.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+SetSolver1-1!2021.12.2.dist-info/top_level.txt,sha256=rt4HIojA6fFA71ecdPERHzSKf1JXZaZLsNXamRSIdIo,11
+SetSolver1-1!2021.12.2.dist-info/RECORD,,
