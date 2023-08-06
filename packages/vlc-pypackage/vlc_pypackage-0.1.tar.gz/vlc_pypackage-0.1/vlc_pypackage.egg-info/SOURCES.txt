@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+vlc_pypackage.egg-info/PKG-INFO
+vlc_pypackage.egg-info/SOURCES.txt
+vlc_pypackage.egg-info/dependency_links.txt
+vlc_pypackage.egg-info/not-zip-safe
+vlc_pypackage.egg-info/top_level.txt
