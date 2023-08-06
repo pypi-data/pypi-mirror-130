@@ -1,0 +1,8 @@
+coloredlogs
+fastcore
+Flask
+psutil
+requests
+setuptools
+stem
+waitress
