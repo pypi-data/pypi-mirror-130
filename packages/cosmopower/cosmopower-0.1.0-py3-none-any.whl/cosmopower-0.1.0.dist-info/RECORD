@@ -1,0 +1,13 @@
+cosmopower/__init__.py,sha256=_oGGfAX1uapqHPjxgvHjb-SKvAMfCAVyiyLl6JUqI5g,227
+cosmopower/cosmopower_NN.py,sha256=gOOUFgJvq9ShdWjhANquYuM6zJg5MF6qECNtW0EEmN8,24318
+cosmopower/cosmopower_PCA.py,sha256=J8tSrK23d1i4Skk7MY3WMO-J1_oOmGQM4Rbs6sOi-bg,7177
+cosmopower/cosmopower_PCAplusNN.py,sha256=OLRbqnO8DZQ9FM616UmkulcdZf2ma_wHck1PgGiIolM,24934
+cosmopower/likelihoods/__init__.py,sha256=oSIv7X7wcWqVXZ3-C20FuQtRiM5-p7zABjdK0a1Rxfs,51
+cosmopower/likelihoods/tf_planck2018_lite/__init__.py,sha256=nQoUQ4wOTNEkMIly2xM1GG0TdGT2YH5V01OurdaZbso,112
+cosmopower/likelihoods/tf_planck2018_lite/tf_planck2018_lite.py,sha256=MRBIuu9K5TZrXu7HevZt6CF0Waxh0y8-Is6tVXDCvHU,13576
+cosmopower-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cosmopower-0.1.0.dist-info/LICENSE_EXT,sha256=v87t7Q6enF_ZFT32hWC7qO8sMyS4ijzTuTZ3W6jS_pw,636
+cosmopower-0.1.0.dist-info/METADATA,sha256=giOMAkkBAO6pHPx36bIAK94I9nZ-bjQ9bcvPxtNCaTg,14496
+cosmopower-0.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cosmopower-0.1.0.dist-info/top_level.txt,sha256=l3BeqK6jmmxNsEY5GSH_k6at1870pRzSaIXYTVl-LtU,11
+cosmopower-0.1.0.dist-info/RECORD,,
