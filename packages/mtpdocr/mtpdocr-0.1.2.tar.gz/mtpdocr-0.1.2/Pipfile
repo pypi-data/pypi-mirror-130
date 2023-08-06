@@ -1,0 +1,20 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[[source]]
+url = "https://mirror.baidu.com/pypi/simple"
+verify_ssl = true
+name = "mirrorbaidu"
+
+[packages]
+paddleocr = "2.0.1"
+paddlepaddle = {version = "*", index = "mirrorbaidu"}
+pyinstaller = "*"
+
+[dev-packages]
+pyinstaller = "*"
+
+[requires]
+python_version = "3.7"
