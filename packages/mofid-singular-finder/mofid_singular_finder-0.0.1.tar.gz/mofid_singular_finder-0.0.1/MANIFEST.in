@@ -1,0 +1,14 @@
+include *.txt
+include *.md
+
+include mofid_singular_finder/resource/stemmer/stem_irregularNounDict.pckl
+include mofid_singular_finder/resource/stemmer/stem_lex.pckl
+include mofid_singular_finder/resource/stemmer/stem_verbMap.pckl
+include mofid_singular_finder/resource/stemmer/verbStemDict.pckl
+include mofid_singular_finder/resource/stemmer/pishvand.txt
+include mofid_singular_finder/resource/stemmer/pasvand.txt
+include mofid_singular_finder/resource/stemmer/mokasar.txt
+recursive-include mofid_singular_finder *.txt
+recursive-include mofid_singular_finder *.jar
+recursive-include mofid_singular_finder *.json
+recursive-include mofid_singular_finder *.pckl
