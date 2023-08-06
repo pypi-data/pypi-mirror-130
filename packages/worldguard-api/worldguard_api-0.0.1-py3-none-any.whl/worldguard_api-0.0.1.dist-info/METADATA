@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: worldguard-api
+Version: 0.0.1
+Summary: Minecraft WorldGuard API
+Home-page: https://git.cofob.ru/cofob/worldguard_api
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: mysql-connector-python
+
+# worldguard_api
+
+
+
