@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pcjs-api
+Version: 1.0
+Summary: Php cursor
+Home-page: https://github.com/MisterMine01/PCJsApi
+Author: MisterMine01
+License: UNKNOWN
+Keywords: server,cursor
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE
+Requires-Dist: requests
+
+UNKNOWN
+
