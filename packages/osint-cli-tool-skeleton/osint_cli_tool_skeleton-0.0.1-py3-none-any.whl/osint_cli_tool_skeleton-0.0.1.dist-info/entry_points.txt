@@ -1,0 +1,3 @@
+[console_scripts]
+osint_cli_tool_skeleton = osint_cli_tool_skeleton.__init__:run
+

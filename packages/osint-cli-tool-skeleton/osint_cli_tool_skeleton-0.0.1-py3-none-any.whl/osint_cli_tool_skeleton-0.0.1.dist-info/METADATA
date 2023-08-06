@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: osint-cli-tool-skeleton
+Version: 0.0.1
+Summary: A skeleton for OSINT CLI tool
+Home-page: https://github.com/soxoj/osint-cli-tool-skeleton
+Author: Soxoj
+Author-email: soxoj@protonmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: asyncio (==3.4.3)
+
+UNKNOWN
+
