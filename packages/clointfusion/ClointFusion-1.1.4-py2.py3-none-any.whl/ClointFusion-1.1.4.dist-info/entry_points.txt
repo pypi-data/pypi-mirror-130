@@ -1,0 +1,15 @@
+[console_scripts]
+bol = ClointFusion.ClointFusion:cli_bol
+cf = ClointFusion.ClointFusion:cli_cf
+cf_like = ClointFusion.ClointFusion:cli_auto_liker
+cf_py = ClointFusion.ClointFusion:cli_cf_py
+cf_sm = ClointFusion.ClointFusion:cli_call_sm
+cf_st = ClointFusion.ClointFusion:cli_speed_test
+cf_tour = ClointFusion.ClointFusion:cli_cf_tour
+cf_tray = ClointFusion.ClointFusion:cli_whm
+cf_vlookup = ClointFusion.ClointFusion:cli_vlookup
+cf_wm = ClointFusion.ClointFusion:cli_send_whatsapp_msg
+cf_work = ClointFusion.ClointFusion:cli_bre_whm
+colab = ClointFusion.ClointFusion:cli_colab_launcher
+dost = ClointFusion.ClointFusion:cli_dost
+
