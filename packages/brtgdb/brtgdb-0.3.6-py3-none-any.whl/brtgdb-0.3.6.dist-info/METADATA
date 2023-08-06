@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: brtgdb
+Version: 0.3.6
+Summary: A simple package for db connection.
+Home-page: UNKNOWN
+Author: Peter Raso
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy (==1.4.21)
+
+# BRTG database connector
+Simple package to establish connection with mysql/mariadb database using sqlalchemy.
+
+## Prerequisite
+Environmental variables:
+
+DB_HOST=host.com
+DB_PORT=3306
+DB_USER=your_user
+DB_PASS=your_password
+
+## Installation
+From package directory:
+
+```
+pip install brtgdb
+```
+
+## Usage
+###Import
+Pristupove udaje su v subore .env
+```
+from dotenv import load_dotenv
+load_dotenv()
+```
+
+Vytovirm konektor
+```
+from brtgdb import BrtgDB
+
+db = BrtgDB()
+```
+
+### Read SQL With pandas
+```
+pd.read_sql("SELECT ....", db.conn)
+```
+
+### Execute SQL command
+```
+db.execute(query)
+```
+
+### Add table connector and usage
+```
+table = db.add_table_connector(table_name, schema_name=None)
+stmt = insert(table).values(column1= value1 , column2= value2)
+db.conn.execute(stmt) 
+```
+
+### Logging db changes
+```
+db.log_change(job_name='update_data_analysis',
+              table_name='ruz_t_data_analysis',
+              event_type='INSERT AND UPDATE',  # ERROR
+              details=json.dumps(result))
+```
+
+### Logging test results
+```
+db.log_test_results(test_run=validation_result["run_id"].run_name,
+                    status=validation_result["success"],
+                    details='See great_expectations report.')
+```
+
