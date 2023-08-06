@@ -1,0 +1,14 @@
+verdandi/__init__.py,sha256=7uYN5lBITLfrjO_qQBp67y3uwGMgBm0vLtezLRAR5s4,120
+verdandi/__main__.py,sha256=LxxAPpDCkMFzGsctfDAAbQY4M1IzKQVzTmIDTQiZxDI,120
+verdandi/benchmark.py,sha256=WS8Z5QGeHtrqk9BVeIYlSuexKYVFn5TuKufKTMApfog,1165
+verdandi/cli.py,sha256=5c53tVYenMD9Zb4LmcEapBVKC3pS-yt-XBtebiTU8nQ,2221
+verdandi/loader.py,sha256=eXuTtrFyNlYlyc6AMFmy0nOIWM61wXK_tC3UVocIewc,1756
+verdandi/main.py,sha256=mRGEv1ERm2gHGFFLdyKYXhm6tB3kH4VLmS_e87tcYa0,3802
+verdandi/result.py,sha256=IizEGc4Ca7pc5zABtRZkqEV7fWN3-agBGN4KcYeEkHI,674
+verdandi/runner.py,sha256=HqT3mkWBzfMXfzcAXIBN-sUfQ15oH4cvxkkd4i2gJEM,3489
+verdandi/utils.py,sha256=R-UyAXjVhWOrXaiCykL6ZHs4DF5p4ngU9aEOMEhcm-0,736
+verdandi-0.2.3.dist-info/entry_points.txt,sha256=1SO96T2aS6gKFaql3MF2Kc8WRIGtQFSst5V-C-WgVI4,47
+verdandi-0.2.3.dist-info/LICENSE,sha256=8MZUt1zdPRqYb__C26NmzT9b6iXIgz1nNCuItyzlGhg,1068
+verdandi-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+verdandi-0.2.3.dist-info/METADATA,sha256=_Y2NYfGSDp_ESv2CJf3Yd3uaSp5qRoRIlGs5vuEgt7M,2331
+verdandi-0.2.3.dist-info/RECORD,,
