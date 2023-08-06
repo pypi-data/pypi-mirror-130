@@ -1,0 +1,9 @@
+cloudcomponents/cdk_dynamodb_seeder/__init__.py,sha256=fvPdtc69agEls5CWjHmV58Ru4WUFC-3gIyIHiIZicLo,20822
+cloudcomponents/cdk_dynamodb_seeder/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_dynamodb_seeder/_jsii/__init__.py,sha256=6mb7m_96E9CfTTPDx40g7gNKg0sNdbc5j7_Ci4Mo6MA,566
+cloudcomponents/cdk_dynamodb_seeder/_jsii/cdk-dynamodb-seeder@1.48.0.jsii.tgz,sha256=4ZLHgHK7MgMPoEVPoSepFFiTN4n5vvLbHXL9HpSP754,364833
+cloudcomponents.cdk_dynamodb_seeder-1.48.0.dist-info/LICENSE,sha256=DC5mwzjdvc14vNIkGbMDFyOOJTkxI2b_1OtpeNA0A0A,1072
+cloudcomponents.cdk_dynamodb_seeder-1.48.0.dist-info/METADATA,sha256=wi8zTghlDM75zZz_SGaOa4_z1bJ5DnPrauYnbgyuH_U,3947
+cloudcomponents.cdk_dynamodb_seeder-1.48.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cloudcomponents.cdk_dynamodb_seeder-1.48.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_dynamodb_seeder-1.48.0.dist-info/RECORD,,
