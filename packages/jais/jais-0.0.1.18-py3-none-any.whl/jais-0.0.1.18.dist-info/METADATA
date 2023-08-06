@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: jais
+Version: 0.0.1.18
+Summary: Just Artificial Intelligence Snippets (JAIS)
+Home-page: https://github.com/VirkSaab/JAIS
+Author: Jitender Singh Virk
+Author-email: krivsj@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: easydict
+Requires-Dist: rich
+Requires-Dist: pyfiglet
+Requires-Dist: pytest
+Requires-Dist: ruamel.yaml
+
+# JAIS
+Just Artificial Intelligence Snippets
+
+
