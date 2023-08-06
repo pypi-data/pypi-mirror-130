@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: test_package_pigeon
+Version: 0.0.1
+Summary: This package is test.
+Home-page: http://github.com/account/repository
+Author: Yudai Nagano
+Author-email: alchemic4s@gmail.com
+License: BSD-3-Clause
+Keywords: pigeon,package,python,test
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+
+UNKNOWN
+

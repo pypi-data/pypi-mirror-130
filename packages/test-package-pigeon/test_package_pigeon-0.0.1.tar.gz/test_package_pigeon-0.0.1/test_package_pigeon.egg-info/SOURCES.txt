@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+test_package_pigeon/__init__.py
+test_package_pigeon/module.py
+test_package_pigeon.egg-info/PKG-INFO
+test_package_pigeon.egg-info/SOURCES.txt
+test_package_pigeon.egg-info/dependency_links.txt
+test_package_pigeon.egg-info/top_level.txt
