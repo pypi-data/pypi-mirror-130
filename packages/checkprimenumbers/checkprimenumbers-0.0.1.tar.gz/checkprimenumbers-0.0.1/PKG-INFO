@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: checkprimenumbers
+Version: 0.0.1
+Summary: PrimeNumberChecker
+Home-page: https://github.com/sandesh8888/prime-numbers
+Author: Sandesh Dhakal
+Author-email: dhakalsandesh5@gmail.com
+License: BSD 2-clause
+Description: Enter the number and check if the number is prime or not
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Microsoft :: Windows
