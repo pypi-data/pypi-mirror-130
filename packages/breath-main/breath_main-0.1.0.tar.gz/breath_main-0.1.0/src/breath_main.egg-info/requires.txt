@@ -1,0 +1,6 @@
+numpy
+google-api-python-client
+oauth2client
+breath_data
+breath_api_interface
+breath_ml
