@@ -1,0 +1,13 @@
+portia/__init__.py,sha256=fn9P-PVoSinU6lgN-UOyAR2mYXI5O-ywQxu4vPrATmE,92
+portia/core.py,sha256=aABAXBoOTJ0K0BksWuK2fJ2hSa-nHa8TlSgRq82v4NY,9560
+portia/correction.py,sha256=Kg0uvvfGZblYCBBH4WklBQqiq6n2Gg5hdt5cjSF3xYk,1535
+portia/dataset.py,sha256=0-LG1rrIQ-UUNVweBwunnRrCMF4BMF7Sk-aAZf8jGwE,3768
+portia/end_to_end.py,sha256=zvYxOnzPVm6ih9-A0INiTGg-5OZGfc4k7dUHa8G2DsU,6050
+portia/exceptions.py,sha256=vBJT5r4TV-JnCPUL6e_1XGz5lIt_ihvezSb9G3PIbds,124
+portia/la.py,sha256=XahcJ8fD7WXm7uSLq8vVrB6s-JKqAV_cJZgtJL231Qg,329
+portia/optim/__init__.py,sha256=Mq8zdrMygWxOhewOte26Z-BqykE6Iy11PNR30NBg_nc,34
+portia/optim/local_convergence.py,sha256=XCOMpTZD0ivHfSYIZkPh0W9KDv67KlLGCa0wjD0QnTk,921
+portia_grn-0.0.3.dist-info/METADATA,sha256=kUtCoj36kd3TjXwspnW_uzaGN1AHXrAhQNzR4uLGdxQ,3088
+portia_grn-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+portia_grn-0.0.3.dist-info/top_level.txt,sha256=vYFVH7QgGph1-lHx5B6voqqit-QeSsBxHssxGDOMshE,7
+portia_grn-0.0.3.dist-info/RECORD,,
