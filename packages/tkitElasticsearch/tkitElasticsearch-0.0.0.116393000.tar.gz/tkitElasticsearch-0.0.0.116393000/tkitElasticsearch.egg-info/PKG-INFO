@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: tkitElasticsearch
+Version: 0.0.0.116393000
+Summary: Terry tkitElasticsearch ,
+Home-page: https://terrychan.org
+Author: Terry Chan
+Author-email: napoler2008@gmail.com
+License: UNKNOWN
+Description: # tkit-elasticsearch-index
+        
+        fast index for elasticsearch
+        
+        # Install Docker Compose
+        
+        https://docs.docker.com/compose/install/
+        
+        > sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+        
+        > sudo chmod +x /usr/local/bin/docker-compose
+        
+        > docker-compose --version
+        
+        > docker-compose up
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
