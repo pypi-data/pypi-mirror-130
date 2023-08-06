@@ -1,0 +1,27 @@
+Sample 1: Simple Item
+r(0:1:0)
+-i
+-c
+--t
+--sb
+--t
+--t
+-b
+
+Sample 2: Post in new feeds Social App
+r(1:2.5)
+-c
+--t
+--t
+-c
+--r
+---i
+---c
+----t
+----t
+---i
+--g
+--r
+---b
+---b
+---b
