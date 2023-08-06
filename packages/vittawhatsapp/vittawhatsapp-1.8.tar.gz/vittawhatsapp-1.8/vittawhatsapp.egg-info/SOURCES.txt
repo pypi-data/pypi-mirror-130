@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+vittawhatsapp/__init__.py
+vittawhatsapp/vw.py
+vittawhatsapp.egg-info/PKG-INFO
+vittawhatsapp.egg-info/SOURCES.txt
+vittawhatsapp.egg-info/dependency_links.txt
+vittawhatsapp.egg-info/requires.txt
+vittawhatsapp.egg-info/top_level.txt
+vittawhatsapp/vitta/__init__.py
+vittawhatsapp/vitta/excecoes.py
+vittawhatsapp/vitta/log.py
+vittawhatsapp/vitta/vitta.py

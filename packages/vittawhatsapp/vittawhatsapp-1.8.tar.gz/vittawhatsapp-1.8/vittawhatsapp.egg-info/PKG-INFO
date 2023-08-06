@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vittawhatsapp
+Version: 1.8
+Summary: VittaWhatsapp é uma simples ferramenta para automação de Whatsapp
+Home-page: https://github.com/fabriciomrm/vittawhatsapp
+Author: Fabricio Roney de Amorim
+Author-email: fabriciomrm@outlook.com
+License: MIT
+Download-URL: https://github.com/fabriciomrm/vittawhatsapp.git
+Keywords: sendwhatmsg,info,playonyt,search,watch_tutorial
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+
+README.md
+
