@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: py-GameUI
+Version: 1.0.8
+Summary: A simple GUI library for pygame
+Home-page: UNKNOWN
+Author: Nolawz
+Author-email: nolawz46@gmail.com
+License: MIT
+Project-URL: Documentation, https://aman333nolawz.github.io/py-GameUI/
+Project-URL: Bug Tracker, https://github.com/aman333nolawz/py-GameUI/issues
+Project-URL: Source, https://github.com/aman333nolawz/py-GameUI/
+Keywords: python,pygame,pygame gui,py-GameUI,gui pygame,gui package for pygame
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# py-GameUI
+
+A Python package to use GUI Widgets like Button, Textinput & Slider in pygame.
+
+Install using:
+```shell
+pip install py-GameUI
+```
+
+# Documentation
+You could check out the docs at https://aman333nolawz.github.io/py-GameUI/
+
+# Usage
+
+```python
+import pygame
+
+import py_GameUI
+
+W, H = 600, 600
+screen = pygame.display.set_mode((W, H))
+
+elements = [
+    py_GameUI.Button(
+        [10, 10, 100, 100],
+        text="Hello world",
+        function=lambda: print("You clicked on the button"),
+    ),
+    py_GameUI.Input_box([10, 150, 150, 20]),
+    py_GameUI.Slider(10, 210, 10, 30),
+]
+
+while True:
+    screen.fill("#1c1c1c")
+    for event in pygame.event.get():
+        if event.type == pygame.QUIT:
+            pygame.quit()
+            exit()
+        for element in elements:
+            element.events(event)
+
+    for element in elements:
+        element.draw(screen)
+    pygame.display.flip()
+
+```
+
+
