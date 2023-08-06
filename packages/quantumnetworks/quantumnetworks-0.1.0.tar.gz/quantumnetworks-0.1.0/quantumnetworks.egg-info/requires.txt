@@ -1,0 +1,9 @@
+numpy
+scipy
+matplotlib>=3.3.0
+IPython
+networkx
+tqdm
+
+[dev]
+jupyterlab>=3.1.0
