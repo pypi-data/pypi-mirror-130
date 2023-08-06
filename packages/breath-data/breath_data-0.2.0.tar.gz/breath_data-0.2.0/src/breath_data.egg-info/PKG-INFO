@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: breath-data
+Version: 0.2.0
+Summary: BReATH data services
+Home-page: https://gitlab.com/EltonCN/breath-brazilian-research-of-atmosphere-towards-health
+Author: EltonCN, João Bonucci, Lucas Araújo, Thiago Lacerda
+Author-email: elton.nascimento@students.ic.unicamp.br, j218733@dac.unicamp.br, l240106@dac.unicamp.br, t244712@dac.unicamp.br
+License: TODO
+Project-URL: Bug Tracker, https://github.com/BReATH-Brazilian-Research/breath_data/issues
+Project-URL: Documentation, https://gitlab.com/EltonCN/breath-brazilian-research-of-atmosphere-towards-health/-/wikis/Home
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+To run the Acess Point, you will need to install and start Neo4j Desktop from its [website](https://neo4j.com/download-center/#desktop), and after that:
+
+- Create a new project
+- Add a "Local DBMS"
+  - Use for password: "password"
+- Start the server
+
