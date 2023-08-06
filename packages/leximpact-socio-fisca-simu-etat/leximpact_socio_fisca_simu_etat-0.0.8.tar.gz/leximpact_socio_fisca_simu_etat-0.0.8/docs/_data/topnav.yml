@@ -1,0 +1,10 @@
+topnav:
+- title: Topnav
+  items:
+    - title: gitlab
+      external_url: https://git.leximpact.dev/leximpact/leximpact-socio-fiscal-simu-etat/tree/main/
+
+#Topnav dropdowns
+topnav_dropdowns:
+- title: Topnav dropdowns
+  folders:

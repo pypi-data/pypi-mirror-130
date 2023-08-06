@@ -1,0 +1,20 @@
+{
+  "leximpact_socio_fisca_simu_etat": {
+    "Overview": "/",
+    "Cache": "cache.html",
+    "Config": "config.html",
+    "Agregation des assiettes de la CSG": "Assiette_CSG.html",
+    "Extraction de la fonction de r\u00e9partition du RFR": "Copule_POTE.html",
+    "Simulation CSG : Analyse des manques": "csg_10_analyse.html",
+    "Simulation de r\u00e9forme CSG : Pr\u00e9paration des donn\u00e9es": "csg_20_preparation.html",
+    "Simulation de r\u00e9forme CSG au niveau de l'Etat": "csg_30_simu_dct.html",
+    "Verif des extractions CASD": "csg_40_verif_extractions_casd.html",
+    "Simulation de r\u00e9forme pour toutes les CSG : Calcul de toutes les CSG": "csg_50_usage_copules.html",
+    "Plot distribution": "csg_55_plot_distributions.html",
+    "Reforme de la CSG en utilisant les copules": "csg_60_simu_copules.html",
+    "Test de Dask pour l'utiliser sur le CASD": "dask_playground.html",
+    "Data playground : fake data and deciles": "fake_pote.html",
+    "Syst\u00e8me de trace centralis\u00e9e": "logger.html",
+    "Structure de donn\u00e9es pour les simulations": "schema.html"
+  }
+}
