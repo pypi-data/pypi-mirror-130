@@ -1,0 +1,3 @@
+[console_scripts]
+kimimaro = kimimaro_cli:main
+
