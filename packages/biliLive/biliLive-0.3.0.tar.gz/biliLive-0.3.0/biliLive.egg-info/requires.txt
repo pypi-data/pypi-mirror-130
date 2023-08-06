@@ -1,0 +1,3 @@
+requests
+pycloudmusic163
+websocket

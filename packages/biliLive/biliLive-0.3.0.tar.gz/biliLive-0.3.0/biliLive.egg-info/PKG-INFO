@@ -1,0 +1,112 @@
+Metadata-Version: 2.1
+Name: biliLive
+Version: 0.3.0
+Summary: bilibili Python 弹幕机
+Home-page: https://github.com/FengLiuFeseliud/biliLive
+Author: FengLiuFeseliud
+Author-email: 17351198406@qq.com
+License: UNKNOWN
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# biliLive
+
+bilibili Python 弹幕机框架，使用代码快速塔建b站弹幕机，实现完全自定义
+
+## **更新**
+
+### v0.3.0
+
+1，引入 [websocket-client](https://github.com/websocket-client/websocket-client) 库实现长连接，获取更多数据
+
+2，事件 Event 添加更多事件，收到礼物，上舰，获取人气，粉丝数更新，热门榜等等...
+
+### v0.2.0
+
+1，点歌模块 PlayCloudMusic， 点歌模块事件 MusicEvent
+
+2， 将直播间事件分离出 Live 类 加入直播间事件 Event
+
+3， 加入 LiveLog  一行设置输出统一格式 并将输出内容保存进文件 （同样支持自定义）
+
+4，send_msg_loop 更名为 time_loop，sendMsgList 更名为 timeLoopList
+
+## **安装**
+
+```python
+pip install biliLive
+```
+
+点歌模块播放使用 pydub 使用请安装依赖 ffmpeg，pyaudio
+
+注意 pyaudio 必须去下面下载 然后使用 `pip install pyaudio的下载路径` 安装
+
+https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio
+
+ffmpeg 这个估计都有 没有的话下载解压将 ffmpeg 目录下的 bin 文件夹加入环境变量
+
+https://ffmpeg.org/download.html
+
+## **简单使用**
+
+```python
+from biliLive import BiliApi, commandList, liveLog
+
+"""
+设置一个打印字符串到终端的指令 名为 /text
+指令格式: /text 要打印的字符串
+并每12秒发送弹幕 弹幕内容: "12s sendMsg"
+保存日志到 ./log
+"""
+
+# 一行设置输出统一格式 并将输出内容保存进文件
+liveLog()
+
+# 默认请求头
+headers = BiliApi.bilibili_headers
+headers["cookie"] += "用户cookie"
+api = BiliApi(headers)
+
+# 指令方法 /text
+def text(commKey, msg):
+    # commKey 是后面空格的参数
+    # 如/text xxx xxx xxx 后面的[xxx, xxx, xxx]
+    # msg 当前执行该指令的弹幕
+    print(f"打印字符串 -> {commKey[0]}")
+
+# 实列化弹幕指令对像 commandList
+MyCommandList = commandList()
+
+# 绑定方法 /text
+MyCommandList.command = {
+    # 指令 /text
+    "text": text
+}
+
+# 定时发送
+MyCommandList.timeLoopList = {
+    # 秒数: 要执行的
+    # 为字符串时视为发送弹幕
+    12: "12s sendMsg"
+}
+
+# 连接房间
+live = api.live("房间号")
+# 绑定指令对像到房间
+live.bind(MyCommandList)
+
+# 开启弹幕轮查
+live.msg_loop()
+# 开启定时发送
+live.time_loop()
+# 堵塞主线程
+input("")
+```
+
+
+
