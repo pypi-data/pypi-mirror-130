@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+basicauth/__init__.py
+basicauth/decorator.py
+easy_basicauth.egg-info/PKG-INFO
+easy_basicauth.egg-info/SOURCES.txt
+easy_basicauth.egg-info/dependency_links.txt
+easy_basicauth.egg-info/requires.txt
+easy_basicauth.egg-info/top_level.txt
