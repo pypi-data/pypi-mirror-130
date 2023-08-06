@@ -1,0 +1,15 @@
+odincontrib_aws/__init__.py,sha256=22YhM1wdCPUqoPVtK4jIDNBF966irV9h99h-pTH57ek,115
+odincontrib_aws/dynamodb/__init__.py,sha256=zAKlxXo4CL75XN7pu5RFXyGVkdjtFimaHk8k9P-HhVQ,276
+odincontrib_aws/dynamodb/batch.py,sha256=wu6UFrOhE1PLlTv14IEfVWhqJ_8Uh3Dos8F0UYIuqbA,1313
+odincontrib_aws/dynamodb/exceptions.py,sha256=cEl8uHk_thyRQRjEwo7e-rW2-tTO9WC9ZIYqah4cW1Y,297
+odincontrib_aws/dynamodb/fields/__init__.py,sha256=OeGToqFQeejrjnmLvSPxtgmTcbp4Mno8gdhUHvwiTFo,8017
+odincontrib_aws/dynamodb/indexes.py,sha256=_nNRyzwCiRzQO021JLy2J03CvawW_8RQYx8Zbl2YWNk,5101
+odincontrib_aws/dynamodb/query.py,sha256=rhZtwlTx3njj0SX3ySrQbYpiANAsrM1LOk3njr1iTlY,8859
+odincontrib_aws/dynamodb/session.py,sha256=jUWS7cHbnhBd9tZZlSuzy3BI5joy-ZMrTygfhPPu5_4,12954
+odincontrib_aws/dynamodb/table.py,sha256=8kE0rd3Sbz4402U4OUnrezvhoE-oFcY9OYBn-il9Z7Y,4353
+odincontrib_aws/dynamodb/types/__init__.py,sha256=0o5Rtv8k7vEcnsxNgUU0FJZaIT4OL8z84YYrtfy7MUs,1537
+odincontrib_aws/dynamodb/utils.py,sha256=BUX1JIsnfDH1qRnbfQvtnqA89YS1Zi7YmAWVv9R9kJA,2010
+odincontrib_aws/sqs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+odincontrib.aws-0.4.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+odincontrib.aws-0.4.0.dist-info/METADATA,sha256=5PESJ5cXMi65xEEtIk7Lc1eskioUCo0VjVCHKdNK-XM,1725
+odincontrib.aws-0.4.0.dist-info/RECORD,,
