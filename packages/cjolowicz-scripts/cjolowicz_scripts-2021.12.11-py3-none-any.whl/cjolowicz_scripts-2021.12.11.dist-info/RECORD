@@ -1,0 +1,14 @@
+cjolowicz_scripts/__init__.py,sha256=KYYDw5vn3inzi08hadJTxvxu2NBaDCjSU4XM2V-W7NA,36
+cjolowicz_scripts/__main__.py,sha256=O0VxEgWpEoaa7qBjvz39lO8u0B_4oksppQN5asQ5t3k,235
+cjolowicz_scripts/compare_tools.py,sha256=pVj_45Au-qcyDkc3Mslu6c_KL-AZ0RFRw7aZuVhaJAk,4808
+cjolowicz_scripts/dependabot_rebase_all.py,sha256=8QtPxsOY57L018v80iw9CEMK0X0etbj99-vY9mfVucA,1067
+cjolowicz_scripts/mbox2maildir.py,sha256=gnE-zOuDkbKnnQR2F8EFW_jgd0BsuL96LalP42hoFfg,712
+cjolowicz_scripts/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cjolowicz_scripts/python_stdlib.py,sha256=Hw3WXxlLeTSaJK_Lpm2yE9eQIB8yh17m8Y3qN1Wjnhg,1730
+cjolowicz_scripts/stardate.py,sha256=0CwIap2WbX2REbk-JQiG4ihpSgHs3nEXM7cDtDeT_Wo,9404
+cjolowicz_scripts/yaml2json.py,sha256=rDn6DMIS8vTkZkZUKfMU2oSSCUSG81wwIW4_u5SWkJQ,267
+cjolowicz_scripts-2021.12.11.dist-info/entry_points.txt,sha256=hjb0JLIfsdftV-m2sb9KbDfLZ49KaKkANzvnbK6kEPE,321
+cjolowicz_scripts-2021.12.11.dist-info/LICENSE.rst,sha256=wyRPqa8NZBvcC8tnN1cAaLOWAEpZWgejN2quoLoy-gk,1088
+cjolowicz_scripts-2021.12.11.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+cjolowicz_scripts-2021.12.11.dist-info/METADATA,sha256=flNOaQqKySOvTGfXTviNhXDEDRqONsh493ArqjFdhA8,3546
+cjolowicz_scripts-2021.12.11.dist-info/RECORD,,
