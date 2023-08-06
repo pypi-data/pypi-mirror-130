@@ -1,0 +1,23 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+test/test_velodyne_decoder.py
+velodyne_decoder/__init__.py
+velodyne_decoder.egg-info/PKG-INFO
+velodyne_decoder.egg-info/SOURCES.txt
+velodyne_decoder.egg-info/dependency_links.txt
+velodyne_decoder.egg-info/not-zip-safe
+velodyne_decoder.egg-info/requires.txt
+velodyne_decoder.egg-info/top_level.txt
+velodyne_decoder/calibrations/Alpha Prime.yml
+velodyne_decoder/calibrations/HDL-32E.yml
+velodyne_decoder/calibrations/HDL-64E.yml
+velodyne_decoder/calibrations/Puck Hi-Res.yml
+velodyne_decoder/calibrations/Puck LITE.yml
+velodyne_decoder/calibrations/VLP-16.yml
+velodyne_decoder/calibrations/VLP-32A.yml
+velodyne_decoder/calibrations/VLP-32B.yml
+velodyne_decoder/calibrations/VLP-32C.yml
+velodyne_decoder/calibrations/VLS-128.yml
+velodyne_decoder/calibrations/__init__.py
