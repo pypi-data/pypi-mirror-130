@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/autodiff/__init__.py
+src/autodiff/dualnumber.py
+src/autodiff/operatorsfunc.py
+src/autodiff_aabj.egg-info/PKG-INFO
+src/autodiff_aabj.egg-info/SOURCES.txt
+src/autodiff_aabj.egg-info/dependency_links.txt
+src/autodiff_aabj.egg-info/requires.txt
+src/autodiff_aabj.egg-info/top_level.txt
