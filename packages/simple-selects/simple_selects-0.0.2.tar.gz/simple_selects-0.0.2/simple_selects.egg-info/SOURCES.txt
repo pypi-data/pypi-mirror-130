@@ -1,0 +1,9 @@
+setup.py
+simple_selects/__init__.py
+simple_selects/simple_selects.py
+simple_selects/test_public.py
+simple_selects.egg-info/PKG-INFO
+simple_selects.egg-info/SOURCES.txt
+simple_selects.egg-info/dependency_links.txt
+simple_selects.egg-info/requires.txt
+simple_selects.egg-info/top_level.txt
