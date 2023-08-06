@@ -1,0 +1,8 @@
+setup.py
+ananother/__init__.py
+ananother/module.py
+ananother.egg-info/PKG-INFO
+ananother.egg-info/SOURCES.txt
+ananother.egg-info/dependency_links.txt
+ananother.egg-info/requires.txt
+ananother.egg-info/top_level.txt
