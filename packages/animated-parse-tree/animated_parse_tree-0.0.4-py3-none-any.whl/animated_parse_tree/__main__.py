@@ -1,0 +1,1 @@
+from v1 import __main__
