@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+kolibri_report/__init__.py
+kolibri_report/report.py
+kolibri_report.egg-info/PKG-INFO
+kolibri_report.egg-info/SOURCES.txt
+kolibri_report.egg-info/dependency_links.txt
+kolibri_report.egg-info/requires.txt
+kolibri_report.egg-info/top_level.txt
