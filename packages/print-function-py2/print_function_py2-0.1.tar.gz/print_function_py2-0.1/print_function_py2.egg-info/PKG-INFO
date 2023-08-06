@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: print-function-py2
+Version: 0.1
+Summary: Print function for Python 1 and Python 2.
+Home-page: UNKNOWN
+Author: cheny0y0, REGE
+Author-email: cyy144881@icloud.com
+License: UNKNOWN
+Description: # print_function_py2
+        
+        ## Usage
+        
+        This package is using for print() function in Python 1 and Python 2.
+        
+        ## How to use it
+        
+        import it by: `from print_function_py2 import print3`. No any additional modules or packages will be installed.
+        
+        Use it as the built-in print() function in Python 3.
+        ```python3
+        >>> from print_function_py2 import print3
+        >>> print3("Hello", "world!", sep=", ")
+        Hello, world!
+        ```
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: Android
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Other OS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Operating System :: iOS
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.3
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
