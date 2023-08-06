@@ -1,0 +1,13 @@
+text_vectorian/__init__.py,sha256=FSti0LeWsmmyVh6xelD6P-15d4CpBBWEXKlbAqmVZpQ,152
+text_vectorian/bases.py,sha256=xHg9SH8zrVDRWbrsZdJvKeBTQi2nvQiNbEj0NZJm8T0,2191
+text_vectorian/char2vec.py,sha256=oZi7ox0EVNDwHmh5w2RL9Yva-uE-H3pCvxCowkoh5tc,2105
+text_vectorian/config.yml,sha256=3XXVbDLmVcCmVaThMLbrZaUHXJ_lx9vs2ub_o4Bq3Kk,990
+text_vectorian/default_bert_config.json,sha256=Qg4wGTE1XMdZUV4eYxfoqG_CgpoxrcoTYlck_BgV_Ls,363
+text_vectorian/sentencepiece.py,sha256=Ns4xo-RbQTjdA_Azom_UQr5XPSQjolRWxTXrsOkoiEo,2539
+text_vectorian/sp_bert.py,sha256=vvsvXtIp1p1w1iCAvy4LSyxL0YASLGstkH5V478tqzs,4563
+text_vectorian/utils.py,sha256=eIV-_YlPMyNKQyhMs8KHi9kmjngL5h_lr30LffAG3Lw,1212
+text_vectorian-0.3.0.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+text_vectorian-0.3.0.dist-info/METADATA,sha256=qQoxgOQbKyeMdFTkpxUgcB_BtWFk278ep373P8RAYPc,7141
+text_vectorian-0.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+text_vectorian-0.3.0.dist-info/top_level.txt,sha256=yrh55l_ateA5dcdJLNjicVOFSP5BVmpKRGftTRuBTvU,15
+text_vectorian-0.3.0.dist-info/RECORD,,
