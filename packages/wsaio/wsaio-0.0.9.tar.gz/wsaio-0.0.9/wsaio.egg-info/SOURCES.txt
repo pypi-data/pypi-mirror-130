@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+wsaio.egg-info/PKG-INFO
+wsaio.egg-info/SOURCES.txt
+wsaio.egg-info/dependency_links.txt
+wsaio.egg-info/top_level.txt
