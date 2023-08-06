@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: dashboard-pkg-mtrenchard
+Version: 1.0
+Summary: A covid dashboard providing the latest Covid information. To be used for demonstration.
+Home-page: https://github.com/m4ttT10/2021-Covid-Dashboard-CA
+Author: Matt Trenchard
+Author-email: mjt235@exeter.ac.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt.txt
+
+## Introduction
+
+This project is a simple covid dashboard that provides the latest covid statistics for an area as well the top covid related headlines for the nation. The dashboard is customisable, you can choose any area within the UK to have statistics from and you can update the news and covid data whenever you would like.
+
+## Prerequisites Installations
+
+This project was developed on python 3.10.0 prior versions of python may not run the project as intended.
+
+The project uses several extrernal python libraries which are listed below along with the pip command required to install the library.
+
+- UK Covid-19 API service - pip install uk-covid19
+- Requests - pip install requests
+- Flask - pip install Flask
+
+## How to use the dashboard
+
+First run the main.py file. This can be done through the command line by setting the current directory to dashboard_pkg and then running:
+
+$ python "your directory path\Covid CA\dashboard_pkg\main.py"
+
+After doing this open a web browser and enter the IP address http://127.0.0.1:5000/index into the search bar. The dashboard will then be loaded. It is fairly simple to understand and each bit of functionality is clearly labelled.
+
+To customise the dashboard you need to find the config.txt file which is located within the dashboard_pkg folder. The values stored and how they can be changed are as followed:
+
+- location - This can be changed to any area recognised by the UK covid API. The easiest way to find these areas is to use the UK covid interactive map of cases. When you click on a location it will list it's full area name which must be entered correctly into the config file.
+- nation - Can either be 'England','Wales','Scotland' or 'Northern Ireland'.
+- areaType - Can eiter be 'utla', 'ltla' or 'msoa'. To find out what type an area is use the intercative map again. It is listed directly under it's name.
+- APIKey - Not to be changed unless you fully understand it's usage.
+
+## Testing
+
+Included within dashboard_pkg is a folder called tests. These test are able to be ran with pytest to test the code still runs as intended. To run these tests yourself you must first install pytest with the command:
+
+$ pip install pytest
+
+Then set your current directory to dashboard_pkg. Finally, run the command:
+
+$ python-m pytest
+
+You will then be provided with a breakdown of the tests and whether the modules passed or failed.
+
+## Developer Documentation
+
+The project consists of 3 modules. covid_data_handler.py, covid_news_handling.py and main.py. 
+
+- covid_data_handler.py contains functions related to handling the extraction and processing of covid data. There are functions related to extracting data from both a csv file and the UK covid API service. There is also a function to calculate the interval in seconds from the current time to an entered time. This is used for scheduling updates.
+- covid_news_handling.py is responsible for calling NewsAPI's service to return the top Covid related articles in the UK. It also ensures the articles being returned haven't been seen before and the list of articles is of suitable size.
+- main.py imports functions from both other modules to create the project's user interface. It utilises the Flask library to do this. There are also additional functions related to the scheduling and remival of updates.
+
+For a more thorough breakdown of each module and it's functions visit the documentation page.
+
+## Additional Information
+
+For license information see LICENSE.txt
+
+Author - Matt Trenchard
+

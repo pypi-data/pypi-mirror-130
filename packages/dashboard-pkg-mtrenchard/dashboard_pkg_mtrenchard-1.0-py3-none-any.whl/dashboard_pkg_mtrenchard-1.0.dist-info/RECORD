@@ -1,0 +1,9 @@
+dashboard_pkg/__init__.py,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+dashboard_pkg/covid_data_handler.py,sha256=3DHu6JReLTTb4zBiSMQndH96bBnl-q-FVqI26Enp-iU,5507
+dashboard_pkg/covid_news_handling.py,sha256=FHNvh6dcHP75gdwz9surbmDcPDsH-80oWoO8iCQYKaU,2288
+dashboard_pkg/main.py,sha256=cyCE1Y8iw5rd3m2LEuaYABW253FUllk0DTKkzqFJhlo,6976
+dashboard_pkg_mtrenchard-1.0.dist-info/LICENSE.txt.txt,sha256=fpFz5ROsqPJEvkC3yI2Uzkfxx0wdoF9VWg3aPm0cDqg,1094
+dashboard_pkg_mtrenchard-1.0.dist-info/METADATA,sha256=T7RONgfUa0R7TTJkuDG0XAyzl9iN5WGYejzfUOBU0xw,4059
+dashboard_pkg_mtrenchard-1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dashboard_pkg_mtrenchard-1.0.dist-info/top_level.txt,sha256=Tz_bJXa-8UjhZgajB8nZs7Cp5vHdvpsC9bIDRiq6Ujk,14
+dashboard_pkg_mtrenchard-1.0.dist-info/RECORD,,
