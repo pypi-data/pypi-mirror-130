@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+croparray.egg-info/PKG-INFO
+croparray.egg-info/SOURCES.txt
+croparray.egg-info/dependency_links.txt
+croparray.egg-info/requires.txt
+croparray.egg-info/top_level.txt
+src/__init__.py
+src/crop_array_tools.py
