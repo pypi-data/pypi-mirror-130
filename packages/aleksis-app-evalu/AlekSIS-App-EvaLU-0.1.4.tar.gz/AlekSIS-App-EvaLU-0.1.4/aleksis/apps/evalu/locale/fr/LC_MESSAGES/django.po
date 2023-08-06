@@ -1,0 +1,873 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-07 20:20+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+#: aleksis/apps/evalu/forms.py:39
+msgid "Base data"
+msgstr ""
+
+#: aleksis/apps/evalu/forms.py:41
+msgid "Time range"
+msgstr ""
+
+#: aleksis/apps/evalu/forms.py:46
+msgid "Additional data"
+msgstr ""
+
+#: aleksis/apps/evalu/forms.py:95
+msgid "I hereby declare that I agree that my data may be collected and processed in the above sense within the context of EvaLU."
+msgstr ""
+
+#: aleksis/apps/evalu/forms.py:103
+msgid "My data should be deleted after each evaluation phase."
+msgstr ""
+
+#: aleksis/apps/evalu/forms.py:107 aleksis/apps/evalu/forms.py:121
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:57
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:71
+msgid "Evaluation password"
+msgstr ""
+
+#: aleksis/apps/evalu/menus.py:6 aleksis/apps/evalu/preferences.py:8
+msgid "EvaLU"
+msgstr ""
+
+#: aleksis/apps/evalu/menus.py:18
+#: aleksis/apps/evalu/templates/evalu/phase/list.html:8
+#: aleksis/apps/evalu/templates/evalu/phase/list.html:9
+msgid "Evaluation Phases"
+msgstr ""
+
+#: aleksis/apps/evalu/menus.py:29 aleksis/apps/evalu/models.py:547
+msgid "Evaluation parts"
+msgstr ""
+
+#: aleksis/apps/evalu/menus.py:40
+msgid "All Evaluations"
+msgstr ""
+
+#: aleksis/apps/evalu/menus.py:51
+msgid "My Evaluations"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:36
+msgid "Display Name"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:42
+msgid "Group with teachers which can register for evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:46
+msgid "First date teachers can register themselves for evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:49
+msgid "Last date teachers can register themselves for evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:52
+msgid "First date teachers can start the evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:54
+msgid "Date when all evaluations stop"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:55
+msgid "First date teachers can see results"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:57
+msgid "Privacy notice which teachers have to agree"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:63
+msgid "The start of the registration period must be before the end of the registration period."
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:71
+msgid "The start of the evaluation period must be before the end of the evaluation period."
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:77
+msgid "The registration has to be finished before the evaluation."
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:81
+msgid "The evaluation has to be finished before users can see results."
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:110 aleksis/apps/evalu/models.py:121
+#: aleksis/apps/evalu/models.py:261
+msgid "Evaluation phase"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:111
+msgid "Evaluation phases"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:124 aleksis/apps/evalu/models.py:539
+#: aleksis/apps/evalu/models.py:593
+#: aleksis/apps/evalu/templates/evalu/list.html:21
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:60
+msgid "Name"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:126
+msgid "Groups"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:163 aleksis/apps/evalu/models.py:671
+#: aleksis/apps/evalu/models.py:703
+msgid "Comparison group"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:164
+msgid "Comparison groups"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:171
+msgid "Private key"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:172
+msgid "Public key"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:175 aleksis/apps/evalu/models.py:176
+msgid "Evaluation key set"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:267 aleksis/apps/evalu/models.py:370
+msgid "Evaluated person"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:270
+msgid "Privacy notice accepted"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:272
+msgid "Delete evaluation data after this phase?"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:274
+msgid "Privacy notice accepted at"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:275
+msgid "Submitted privacy form as PDF"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:279
+msgid "Keys used to encrypt the evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:284
+msgid "Evaluation registration"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:285
+msgid "Evaluation registrations"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:378
+msgid "Group of evaluating persons"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:380
+msgid "Group name"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:381
+msgid "Evaluation unlocked"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:507 aleksis/apps/evalu/models.py:520
+#: aleksis/apps/evalu/models.py:617 aleksis/apps/evalu/models.py:709
+msgid "Evaluation group"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:508
+msgid "Evaluation groups"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:524
+msgid "Evaluated by"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:528
+msgid "Done evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:529
+msgid "Done evaluations"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:540 aleksis/apps/evalu/models.py:591
+msgid "Order"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:546 aleksis/apps/evalu/models.py:588
+msgid "Evaluation part"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:555
+msgid "Free text"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:556
+msgid "Agreement"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:560
+msgid "Is true"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:561
+msgid "Is mostly true"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:562
+msgid "Is less true"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:563
+msgid "Is not true"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:593
+msgid "as shown in results"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:596 aleksis/apps/evalu/models.py:623
+#: aleksis/apps/evalu/models.py:684
+msgid "Question"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:596
+msgid "as shown on evaluation form"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:599
+msgid "Question type"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:606
+msgid "Evaluation item"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:607
+msgid "Evaluation items"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:626
+msgid "Encrypted result"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:663
+msgid "Evaluation result"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:664
+msgid "Evaluation results"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:677
+msgid "Subject"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:687
+msgid "Result"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:695
+msgid "Comparison result"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:696
+msgid "Comparison results"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:714
+msgid "Done evaluation (comparison)"
+msgstr ""
+
+#: aleksis/apps/evalu/models.py:715
+msgid "Done evaluations (comparison)"
+msgstr ""
+
+#: aleksis/apps/evalu/preferences.py:18
+msgid "Place (for legal consents)"
+msgstr ""
+
+#: aleksis/apps/evalu/preferences.py:28
+msgid "Minimum number of persons needed for comparison groups"
+msgstr ""
+
+#: aleksis/apps/evalu/preferences.py:38
+msgid "Minimum number of results needed for comparison groups"
+msgstr ""
+
+#: aleksis/apps/evalu/tables.py:18 aleksis/apps/evalu/tables.py:41
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:16
+msgid "Edit"
+msgstr ""
+
+#: aleksis/apps/evalu/tables.py:24 aleksis/apps/evalu/tables.py:47
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:20
+msgid "Delete"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:7
+#: aleksis/apps/evalu/templates/evalu/list.html:8
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:7
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:8
+msgid "Evaluations"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:13
+msgid ""
+"\n"
+"      In the following list, you can see all evaluations you can participate or have already participated in the past.\n"
+"      If you want to participate in an evaluation, please register yourself using the \"Register\" button.\n"
+"    "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:20
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:26
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:61
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:19
+msgid "Status"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:22
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:39
+msgid "Registration period"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:23
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:43
+msgid "Evaluation period"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:24
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:69
+msgid "Registered"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:45
+msgid "Show"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:56
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:81
+msgid "Register"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:62
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:18
+msgid "Start Evaluations"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/list.html:67
+msgid "View results"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/part/create.html:6
+#: aleksis/apps/evalu/templates/evalu/part/create.html:7
+msgid "Create Evaluation Part"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/part/edit.html:6
+#: aleksis/apps/evalu/templates/evalu/part/edit.html:7
+msgid "Edit Evaluation Part"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/part/edit.html:16
+msgid "Evaluation Items"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/part/list.html:8
+#: aleksis/apps/evalu/templates/evalu/part/list.html:9
+msgid "Evaluation Parts"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/part/list.html:14
+msgid "Create evaluation part"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:10
+msgid "Evaluate"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:19
+msgid "Evaluation for "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:47
+msgid ""
+"\n"
+"                You have entered the following data. Please check them and go back if you want to change something.\n"
+"                If you are finished, please submit the evaluation.\n"
+"              "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:87
+msgid ""
+"\n"
+"                Please be sure the data you entered are correct.\n"
+"                You won't be able to change or even view the entered data after you have submitted them\n"
+"                as they will be encrypted in the next step.\n"
+"                So, if you want to be able to show the data some time in the future,\n"
+"                please note them down or make a printout.\n"
+"              "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:104
+msgid "Previous step"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:110
+msgid "Submit"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:116
+msgid "Next step"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/form.html:122
+msgid "Cancel"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:13
+msgid ""
+"\n"
+"      You can evaluate or already evaluated the following persons:\n"
+"    "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:19
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:26
+msgid "Person"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:20
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:73
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:17
+msgid "Group"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:21
+msgid "My status"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:35
+msgid "Evaluation submitted"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:38
+msgid "Not evaluated"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:44
+msgid "not yet unlocked"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/participate/list.html:49
+msgid "Start Evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/password.html:7
+#: aleksis/apps/evalu/templates/evalu/results.html:7
+msgid "Evaluation Results"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/password.html:15
+msgid "Unlock evaluation results"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/password.html:18
+msgid ""
+"\n"
+"              Please enter the password you set at the registration for the evaluation:\n"
+"            "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/password.html:27
+msgid "Unlock results"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/create.html:6
+#: aleksis/apps/evalu/templates/evalu/phase/create.html:7
+msgid "Create Evaluation Phase"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:6
+msgid "Evaluation Phase"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:12
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:12
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:12
+msgid "Back to list"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:32
+msgid "Evaluated group"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:34
+msgid "No group specified"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:35
+msgid "members"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:47
+msgid "Results available from"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:51
+msgid "Privacy notice"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:74
+msgid "Show registration"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:80
+msgid "Not registered"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/detail.html:86
+msgid "There are no persons in the group."
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/edit.html:6
+#: aleksis/apps/evalu/templates/evalu/phase/edit.html:7
+msgid "Edit Evaluation Phase"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/edit.html:18
+msgid "Comparison Groups"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/list.html:14
+msgid "Create evaluation phase"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:6
+msgid "Registration running"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:8
+msgid "Registration closed"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:10
+msgid "Evaluation running"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:12
+msgid "Evaluation closed"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:14
+msgid "Results available"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/phase/status.html:16
+msgid "Not yet started"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:6
+msgid "Evaluation Registration"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:7
+#, python-format
+msgid ""
+"Registration of %(person)s for\n"
+"  %(phase)s"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:32
+msgid "Phase"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:38
+msgid "Privacy form"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:43
+#, python-format
+msgid ""
+"\n"
+"                  Privacy form accepted at %(dt)s\n"
+"                "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:51
+msgid "Show accepted form"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:59
+msgid "Delete data after the evaluation?"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:74
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:20
+msgid "Progress"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:81
+#, python-format
+msgid ""
+"\n"
+"                  %(current)s of %(total)s students participated\n"
+"                "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/detail.html:94
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:65
+msgid "There are no groups that could evaluate you."
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:6
+msgid "Manage Evaluation Process"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:7
+#, python-format
+msgid ""
+"Manage Evaluation Process for\n"
+"  %(phase)s"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:18
+msgid "Members count"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:21
+msgid "Actions"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:29
+msgid "Unlocked for students"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:31
+msgid "Locked for students"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:36
+#, python-format
+msgid ""
+"\n"
+"              %(current)s of %(total)s students participated\n"
+"            "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:51
+msgid "Stop evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/manage.html:56
+msgid "Start evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:7
+msgid "Registration form for EvaLU"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:8
+msgid "EvaLU registration"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:11
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:16
+msgid "Registration for EvaLU – Evaluation of teaching and lesson quality"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:20
+msgid ""
+"\n"
+"        I hereby declare that I agree that my data may be collected and processed in the above sense within the context\n"
+"        of EvaLU.\n"
+"      "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:28
+msgid ""
+"\n"
+"          My data should be deleted after each evaluation phase.\n"
+"        "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:36
+msgid ""
+"\n"
+"        I can withdraw my consent to the collection and processing of my personal data\n"
+"        for the purpose of the above-mentioned evaluation at any time without giving reasons.\n"
+"      "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/print.html:45
+#, python-format
+msgid ""
+"\n"
+"        %(place)s, %(date)s\n"
+"      "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:7
+msgid "Register for an Evaluation"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:8
+#, python-format
+msgid "Register for %(phase)s"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:26
+msgid ""
+"\n"
+"              Please be aware that the data will be deleted permanently after the evaluation phase.\n"
+"              That will also prevent you from making comparisons with this data in future years.\n"
+"              It is not possible to change the above selection later.\n"
+"            "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:35
+msgid ""
+"\n"
+"              I can withdraw my consent to the collection and processing of my personal data\n"
+"              for the purpose of the above-mentioned evaluation at any time without giving reasons.\n"
+"            "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:44
+#, python-format
+msgid ""
+"\n"
+"              %(place)s, %(date)s\n"
+"            "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:58
+msgid ""
+"\n"
+"          Please select a secure password which should be used to encrypt your evaluation results. It should be hard to\n"
+"          guess and contain at least ten characters.\n"
+"        "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/registration/register.html:64
+msgid ""
+"\n"
+"            If you loose your password, there is absolutely no option to restore the evaluation results. So, please keep\n"
+"            your password in a safe place.\n"
+"          "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:9
+#, python-format
+msgid ""
+"\n"
+"    Evaluation Results of %(person)s for %(phase)s\n"
+"  "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:31
+#, python-format
+msgid "Results for %(group)s"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:37
+msgid "Average results for all items"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:45
+msgid "Answers in free text fields"
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:55
+msgid "No answers."
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:71
+#, python-format
+msgid ""
+"\n"
+"                      Results as dartboard for %(part)s\n"
+"                    "
+msgstr ""
+
+#: aleksis/apps/evalu/templates/evalu/results.html:83
+msgid "Frequency of values for single items"
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:63
+msgid "The evaluation part has been created."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:77
+msgid "The evaluation part has been deleted."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:84
+msgid "The evaluation part and it's items have been updated successfully."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:143
+msgid "The evaluation phase has been created."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:157
+msgid "The evaluation phase has been deleted."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:164
+msgid "The evaluation phase has been updated."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:232
+msgid "You have successfully registered yourself for the evaluation."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:269
+msgid "The evaluation for the group {} has been successfully unlocked."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:285
+msgid "The evaluation for the group {} has been successfully locked."
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:399
+msgid "Finish"
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:415
+msgid "The evaluation has been finished. Thank you for doing this evaluation!"
+msgstr ""
+
+#: aleksis/apps/evalu/views.py:447
+msgid "There was an error with decrypting the data. Please check if you have entered the correct password."
+msgstr ""
