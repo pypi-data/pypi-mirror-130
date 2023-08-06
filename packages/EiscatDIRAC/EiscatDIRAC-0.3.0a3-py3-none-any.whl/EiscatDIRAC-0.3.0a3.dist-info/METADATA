@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: EiscatDIRAC
+Version: 0.3.0a3
+Summary: EiscatDIRAC is an extention of the DIRAC.
+Home-page: https://github.com/Eiscat3D/EiscatDIRAC/
+License: GPL-3.0-only
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: System :: Distributed Computing
+Requires-Python: >=3.8
+Requires-Dist: webappdirac
+Requires-Dist: setuptools
+Provides-Extra: server
+Requires-Dist: webappdirac (~=4.3) ; extra == 'server'
+Provides-Extra: testing
+Requires-Dist: flaky ; extra == 'testing'
+Requires-Dist: hypothesis ; extra == 'testing'
+Requires-Dist: mock ; extra == 'testing'
+Requires-Dist: parameterized ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-mock ; extra == 'testing'
+Requires-Dist: pycodestyle ; extra == 'testing'
+
+EiscatDIRAC
+===========
+
+.. image:: https://github.com/Eiscat3D/EiscatDIRAC/workflows/Basic%20tests/badge.svg
+   :target: https://github.com/Eiscat3D/EiscatDIRAC/actions?query=workflow%3A%22Basic+tests%22+branch%3Amaster
+   :alt: Basic Tests Status
+   :align: right
+
+
+`DIRAC <https://github.com/DIRACGrid/DIRAC>`_ extension for the Eiscat 3D Collaboration, see https://eiscat.se/.
+
+
