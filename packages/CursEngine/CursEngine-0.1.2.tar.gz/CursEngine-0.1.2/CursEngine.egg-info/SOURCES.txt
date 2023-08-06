@@ -1,0 +1,9 @@
+README.md
+setup.py
+CursEngine/Curse.py
+CursEngine/Engine.py
+CursEngine/__init__.py
+CursEngine.egg-info/PKG-INFO
+CursEngine.egg-info/SOURCES.txt
+CursEngine.egg-info/dependency_links.txt
+CursEngine.egg-info/top_level.txt
