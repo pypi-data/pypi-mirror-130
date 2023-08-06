@@ -1,0 +1,8 @@
+setup.py
+onamK/__init__.py
+onamK/onam.py
+onamK.egg-info/PKG-INFO
+onamK.egg-info/SOURCES.txt
+onamK.egg-info/dependency_links.txt
+onamK.egg-info/requires.txt
+onamK.egg-info/top_level.txt
