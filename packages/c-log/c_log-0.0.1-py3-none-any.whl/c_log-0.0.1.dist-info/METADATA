@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: c-log
+Version: 0.0.1
+Summary: Colored logger
+Home-page: UNKNOWN
+Author: Andrey Bolshakov
+Author-email: andrey.bolshakov@accenture.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# c_logger
+TODO: make desc
+
+## Build
+
+```sh
+python3 setup.py sdist bdist_wheel
+```
+```sh
+twine upload dist/*
+```
+
