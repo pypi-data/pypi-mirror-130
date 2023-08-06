@@ -1,0 +1,12 @@
+bioutils>0.4
+coloredlogs
+ipython
+pysam
+requests
+requests_html
+six
+tqdm
+yoyo-migrations
+
+[dev]
+tox
