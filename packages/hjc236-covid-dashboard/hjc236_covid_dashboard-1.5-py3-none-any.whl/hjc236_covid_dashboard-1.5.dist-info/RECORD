@@ -1,0 +1,12 @@
+hjc236_covid_dashboard/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hjc236_covid_dashboard/config_handler.py,sha256=XkjF0bv0Z1RwPMLBgRLlwA-kCMVBsrMxMcNGaMxE8B8,2387
+hjc236_covid_dashboard/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hjc236_covid_dashboard/covid_data_handler.py,sha256=w8k5hRJlmTnBLBaai9aIlqJZZLA5yavJ2RRK81XunoE,9559
+hjc236_covid_dashboard/covid_news_handling.py,sha256=W_M6AIee6pM0OQ4jZq5AYPPhJ_CUZ1m39GKJFIMMyqU,3867
+hjc236_covid_dashboard/main.py,sha256=w3ouikADl7KTkoEJwDt2-WPLlJDE8zg-YRK5fztKK9I,10245
+hjc236_covid_dashboard/time_conversions.py,sha256=VjZ4NvlKf9Q9fkfL7Dt5vwaN-FAKJg7KtaQe5vRyN_s,1041
+hjc236_covid_dashboard-1.5.dist-info/LICENSE.txt,sha256=Z_R0qA8dBa_UBMGgM1fEedm0wV7CBqwIBaBEOu4iT5w,1077
+hjc236_covid_dashboard-1.5.dist-info/METADATA,sha256=QOBd2su78-D3ArSuSV56YC_WscclVp1ZZKhjLWlLZwo,7665
+hjc236_covid_dashboard-1.5.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+hjc236_covid_dashboard-1.5.dist-info/top_level.txt,sha256=6D6JTUK6iJ_QVNeH0REVm-Xm4i4ZVFZY1C4j7-Smr8A,23
+hjc236_covid_dashboard-1.5.dist-info/RECORD,,
