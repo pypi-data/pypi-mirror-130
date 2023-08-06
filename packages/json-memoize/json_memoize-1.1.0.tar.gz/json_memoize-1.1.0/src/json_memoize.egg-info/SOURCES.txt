@@ -1,0 +1,13 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/json_memoize/__init__.py
+src/json_memoize/json_memoize.py
+src/json_memoize/scratch 2.py
+src/json_memoize/scratch.py
+src/json_memoize/scratch_3.py
+src/json_memoize.egg-info/PKG-INFO
+src/json_memoize.egg-info/SOURCES.txt
+src/json_memoize.egg-info/dependency_links.txt
+src/json_memoize.egg-info/requires.txt
+src/json_memoize.egg-info/top_level.txt
