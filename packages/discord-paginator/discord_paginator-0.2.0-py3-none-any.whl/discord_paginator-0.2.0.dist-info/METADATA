@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: discord-paginator
+Version: 0.2.0
+Summary: discord paginator developed by Leafguyk
+Home-page: https://github.com/Leafguyk/discord_paginator
+Author: Leafguyk
+Author-email: leafguykk@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/Leafguyk/discord_paginator/archive/refs/heads/main.zip
+Keywords: discord
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Requires-Dist: discord.py
+Requires-Dist: discord-py-interactions
+Requires-Dist: discord-py-slash-command
+
+UNKNOWN
+
