@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: autodiff-107
+Version: 0.0.1
+Summary: An automatic differentiation package built as the final project for CS107
+Home-page: https://github.com/cs107-errajexi/autodiff_107
+Author: Eryk Pecyna, Raphael Pellegrin, Jean-Guillaume Brasier, Xiyu Yang
+Author-email: erykpecyna@college.harvard.edu
+License: UNKNOWN
+Description: TODO
+Platform: UNKNOWN
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
