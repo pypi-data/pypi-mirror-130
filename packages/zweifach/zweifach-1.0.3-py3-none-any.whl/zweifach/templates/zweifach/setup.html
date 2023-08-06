@@ -1,0 +1,13 @@
+{% extends "zweifach/base.html" %}
+
+{% block content %}
+<h1>2FA Setup</h1>
+<p>{{ device.config_url }}</p>
+{{ qrcode|safe }}
+<p>Setup your device with the QR code above and then enter the generated code in the form below to finish the setup process.</p>
+<form action="" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit">
+</form>
+{% endblock content %}
