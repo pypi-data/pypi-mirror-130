@@ -1,0 +1,116 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-dremio-flight
+Version: 1.2.4
+Summary: A SQLAlchemy dialect for Dremio via Flight interface.
+Home-page: https://github.com/weltam/sqlalchemy_dremio
+Author: Welly Tambunan
+Author-email: coach@wellytambunan.com
+License: Apache Software License
+Keywords: sqlalchemy_dremio_flight
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# SQLAlchemy Dremio
+
+
+
+This is fix dremio arrow flight connection upgrade. 
+
+Forked from https://github.com/narendrans/sqlalchemy_dremio
+
+
+
+![PyPI](https://img.shields.io/pypi/v/sqlalchemy_dremio_flight.svg)
+![Build](https://github.com/narendrans/sqlalchemy_dremio/workflows/Build/badge.svg)
+
+A SQLAlchemy dialect for Dremio via Flight interfaces.
+
+<!--ts-->
+   * [Installation](#installation)
+      * [Pre-Requisites](#pre-requisites)
+   * [Usage](#usage)
+      * [Arrow Flight](#arrow-flight)
+   * [Testing](#testing)
+   * [Superset Integration](#superset-integration)
+<!--te-->
+
+Installation
+------------
+
+`pip3 install sqlalchemy_dremio`
+
+
+Usage
+------------
+
+Arrow Flight
+------
+```diff
+- This is experiemental. Not recommended for production usage.
+```
+
+Connection String example:
+`dremio+flight://user:password@host:port/dremio`
+
+Refer https://github.com/dremio-hub/dremio-flight-connector for configuring flight endpoint in Dremio.
+
+Testing
+------------
+
+Set the environment variable DREMIO_CONNECTION_STRING:
+
+Linux:
+`export DREMIO_CONNECTION_URL="dremio://dremio:dremio123@localhost:31010/dremio"`
+
+And then run:
+
+```sh
+export DREMIO_CONNECTION_URL="dremio+flight://dremio:dremio123@localhost:32010/dremio"
+```
+
+```py
+sudo python3 setup.py install
+py.test test
+```
+
+releasing
+
+```sh
+sudo rm -rf build/ dist/ sqlalchemy_dremio_flight.egg-info/
+
+python3 -m pip install build
+
+python3 -m build --sdist
+
+twine check dist/*
+
+twine upload dist/*
+```
+
+Superset Integration
+-------------
+
+This SQLAlchemy can be used for connecting Dremio with Superset. Please check superset website for more instructions on the setup.
+
+Development
+-------------
+
+```sh
+pip install -r requirements_dev.txt
+```
+
+build
+
+```sh
+sudo python3 setup.py install
+twine upload dist/*
+```
+
+
