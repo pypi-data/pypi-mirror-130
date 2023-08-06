@@ -1,0 +1,11 @@
+README.md
+setup.py
+pytypos/__info__.py
+pytypos/__init__.py
+pytypos/_pytypos.py
+pytypos.egg-info/PKG-INFO
+pytypos.egg-info/SOURCES.txt
+pytypos.egg-info/dependency_links.txt
+pytypos.egg-info/requires.txt
+pytypos.egg-info/top_level.txt
+pytypos.egg-info/zip-safe
