@@ -1,0 +1,16 @@
+numpy
+scipy
+columnar
+matplotlib
+plotly
+fastjsonschema
+dataclasses-json
+zhinst-qcodes==0.1.4
+zhinst-toolkit==0.1.5
+pathvalidate
+typing_extensions
+quantify_core>=0.5.0
+qblox-instruments==0.5.3
+rich[jupyter]
+funcparserlib==1.0.0a0
+lmfit<=1.0.2
