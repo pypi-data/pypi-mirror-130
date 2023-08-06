@@ -1,0 +1,9 @@
+recursive-include kntgen_templates *.dart
+recursive-include kntgen_templates *.strings
+recursive-include kntgen_templates *.yml
+recursive-include kntgen_templates *.h
+recursive-include kntgen_templates *.txt
+recursive-include kntgen_templates *.md
+recursive-include kntgen_templates *.png
+recursive-include kntgen_templates *.plist
+recursive-include kntgen_templates *.kt
