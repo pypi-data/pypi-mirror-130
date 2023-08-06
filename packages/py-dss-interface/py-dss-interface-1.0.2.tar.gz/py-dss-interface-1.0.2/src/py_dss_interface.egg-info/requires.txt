@@ -1,0 +1,13 @@
+numpy
+pandas
+colorama
+
+[dev]
+pytest
+pytest-cov
+sphinx-rtd-theme
+nbsphinx
+black
+pre-commit
+tox
+twine
