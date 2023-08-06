@@ -1,0 +1,4 @@
+gravis
+networkx>2<3
+numpy>1.15<2
+setuptools>=40.0
