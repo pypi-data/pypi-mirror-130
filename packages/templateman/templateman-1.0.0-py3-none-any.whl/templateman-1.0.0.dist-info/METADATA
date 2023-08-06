@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: templateman
+Version: 1.0.0
+Summary: A simple project template manager written in Python.
+Home-page: https://github.com/varajala/templateman
+Author: Valtteri Rajalainen
+Author-email: rajalainen.valtteri@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# templateman
+A simple project template manager written in Python.
+
+Create Python scripts to automate boilerplate code creation,
+project templates, or other tasks. Templateman provides a simple
+CLI for managing these scripts.
+
+
+
