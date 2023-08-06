@@ -1,0 +1,9 @@
+sanic_metrics/__init__.py,sha256=RSJoeJm8-jij-XPZKTQxrUJQrhg0iHbGQ3LsUNP0HeU,710
+sanic_metrics/plugin.py,sha256=zXMRHaSW8GkxGd_lizuHuPFBDBkR7AvtX-KoL0Y8g_Y,18154
+sanic_metrics/util.py,sha256=k1ENupzDaKVLvH533Yk79xOHLiIM8MlU3kIcj87gzyY,722
+sanic_metrics/version.py,sha256=mujW7AtachMDSpqTkAMM8P32iVSxD9RjYCTAhb5Nguc,680
+sanic_metrics-0.0.8.dist-info/entry_points.txt,sha256=qFZ6nTGEKHGqLRnLJyvTO61dHeZj9cxwL8wfb3zZ1s4,60
+sanic_metrics-0.0.8.dist-info/LICENSE.txt,sha256=XubxalWB9VKmqsmFNIuOZ7R8p-DLof6Dwaav3-4Ycag,10177
+sanic_metrics-0.0.8.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+sanic_metrics-0.0.8.dist-info/METADATA,sha256=LBT4XZENGaR3n2NKKcXIh7IVmPKQiPd1_dKt11UE13Q,1937
+sanic_metrics-0.0.8.dist-info/RECORD,,

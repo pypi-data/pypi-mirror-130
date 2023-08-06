@@ -1,0 +1,3 @@
+[sanic_plugins]
+SanicMetrics=sanic_metrics.plugin:instance
+
