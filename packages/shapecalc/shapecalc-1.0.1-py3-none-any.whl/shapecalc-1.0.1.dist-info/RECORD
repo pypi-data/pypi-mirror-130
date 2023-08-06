@@ -1,0 +1,14 @@
+shapecalc/Circle.py,sha256=d5J4HhFB9_JK6BIlleH4X454JV3UoW6vIM_VubFDDcM,157
+shapecalc/Cone.py,sha256=IozNUh5XRiE2KG1tUv7YCVpPmWV8PE-pxX806GTy1w0,165
+shapecalc/Cube.py,sha256=LYLZRVhjhpYfjQH-GsUGisGvDfkPhwZHmfbrGIsSuAU,105
+shapecalc/Cuboid.py,sha256=k5LRGS3zrIgMy-8nYqMo4ir-5HW3mlHV14rEwVY1kf4,145
+shapecalc/Cylinder.py,sha256=VEyYFfTP1Qb2G_O4CL5ZRvHYuVUwcTFGNYOq29XTU6s,168
+shapecalc/Rectangle.py,sha256=tqD6aI0DLBQQodNxjF4kmZ0XnZ2zcEr7YUuxS5zK9aU,91
+shapecalc/Sector.py,sha256=coCEoFmZGOozVv1u2uFuKfHTkVkaSKEhdGqBHSzcznY,200
+shapecalc/Square.py,sha256=WAUN5u5ejzXO-RvN_DTB5WrOjUpKOcKdD32muVKaTBU,82
+shapecalc/Triangle.py,sha256=xEyu4iXEVfb7mFEiTRiBpVsMi_R3kHkr-NJbUmu7Zlg,93
+shapecalc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shapecalc-1.0.1.dist-info/METADATA,sha256=n_zNGxLjz00o-lsAf_iqDhtO9ZFwfiOLxaBgwZEFigo,581
+shapecalc-1.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+shapecalc-1.0.1.dist-info/top_level.txt,sha256=AHW5hzXppqjG-3Rft0fan-_Cg-ZjPGOy12OW2dX1BIw,10
+shapecalc-1.0.1.dist-info/RECORD,,
