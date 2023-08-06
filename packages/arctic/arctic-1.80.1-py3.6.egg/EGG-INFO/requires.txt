@@ -1,0 +1,12 @@
+decorator
+enum-compat
+mock
+mockextras
+pandas<=1.0.3
+numpy<=1.18.4
+pymongo<=3.11.0,>=3.6.0
+pytest-cov
+pytest
+pytz
+tzlocal
+lz4
