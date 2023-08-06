@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+Cov19DashJacobBeeson.egg-info/PKG-INFO
+Cov19DashJacobBeeson.egg-info/SOURCES.txt
+Cov19DashJacobBeeson.egg-info/dependency_links.txt
+Cov19DashJacobBeeson.egg-info/top_level.txt
+covid19DashCode/__init__.py
+covid19DashCode/application.py
+covid19DashCode/covid_data_handler.py
+covid19DashCode/covid_news_handling.py
