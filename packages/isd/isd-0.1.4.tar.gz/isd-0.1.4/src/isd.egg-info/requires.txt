@@ -1,0 +1,5 @@
+click~=8.0
+dask[distributed]~=2021.08
+pandas~=1.3
+pyarrow~=6.0
+geopandas~=0.8.0
