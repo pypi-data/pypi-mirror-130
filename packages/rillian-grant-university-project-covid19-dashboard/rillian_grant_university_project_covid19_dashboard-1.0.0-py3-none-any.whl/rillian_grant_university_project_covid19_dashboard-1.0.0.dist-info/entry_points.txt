@@ -1,0 +1,3 @@
+[console_scripts]
+covid19-dashboard = covid19_dashboard:run_app
+
