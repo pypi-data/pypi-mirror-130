@@ -1,0 +1,14 @@
+django_sites/__init__.py,sha256=u3sQLVV1ttddZ0giC22xz3vZ7RD4WmNoNNqCD3O-kr4,158
+django_sites/base.py,sha256=rxEqpKLrwrRzg_H4V_sjoXupkNdZhfOSY4YLMJk1KHo,1875
+django_sites/exceptions.py,sha256=W88BkI6o0tg6pJ0eeNLLfYPOf3xzDEQOpvexHpOSVlk,193
+django_sites/middleware.py,sha256=IOMM0Rnb45dI3gykSAbLi0s_RXQb72yT29WUIv5j2us,251
+django_sites/models.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+django_sites/tests.py,sha256=KvjTqSTyg9-_4JY5Kdtm-EEKJiYDA2TbTElrENQzM7Y,3917
+django_sites/utils.py,sha256=jh9lWZvmDuJUIk0Z81GYAJn75m5BYx0z9PEV4oLztNA,1386
+django_sites/templatetags/__init__.py,sha256=TY4mnVU3TePEd5rYcO72PpMrLsUe5s1XyhnzV40RB2g,26
+django_sites/templatetags/_sities_resolve.py,sha256=HHcroUiCsWWORMes-zkAzP0Y7ZOwGta1VMofhg4l1EA,437
+django_sites-0.11.dist-info/LICENSE,sha256=HIGRhwy7C7LNWlFFqe-XHXt1mhbxBFER3hmk4OcCOsw,1490
+django_sites-0.11.dist-info/METADATA,sha256=S1Ytr7YettqU1ucZDv6y-rgtL-N3rMtAWfEobQ5ieQY,1905
+django_sites-0.11.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+django_sites-0.11.dist-info/top_level.txt,sha256=9VzabLvGPt7WXhcD-QOEn9_g1_aWHrxGmXSEj5dr9VE,13
+django_sites-0.11.dist-info/RECORD,,
