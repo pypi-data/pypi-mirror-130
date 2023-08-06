@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+mergeconf/__init__.py
+mergeconf/exceptions.py
+mergeconf/mergeconf.py
+mergeconf/mergeconfitem.py
+mergeconf/mergeconfsection.py
+mergeconf.egg-info/PKG-INFO
+mergeconf.egg-info/SOURCES.txt
+mergeconf.egg-info/dependency_links.txt
+mergeconf.egg-info/top_level.txt
