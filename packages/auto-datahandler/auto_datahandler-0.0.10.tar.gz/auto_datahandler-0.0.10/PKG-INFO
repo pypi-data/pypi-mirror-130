@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: auto_datahandler
+Version: 0.0.10
+Summary: 数据（段落、评论、图片、视频）的自动化处理 在之前项目packageDIY的基础上进行代码的简化和整合
+Home-page: https://github.com/Tommy-pixels/auto_datahandler
+Author: 唐国钦
+Author-email: dreamertgq@163.com
+License: UNKNOWN
+Description: 数据（段落、评论、图片、视频）的自动化处理 在之前项目packageDIY的基础上进行代码的简化和整合
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.8
+Description-Content-Type: text/markdown
