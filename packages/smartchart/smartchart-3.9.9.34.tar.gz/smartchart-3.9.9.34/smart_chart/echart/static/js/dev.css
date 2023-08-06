@@ -1,0 +1,51 @@
+.devspan {position:absolute;z-index:99998;}
+.devspan:hover a, .devhead:hover select, .devhead:hover a, .show{display: initial;}
+.devspan a, .devhead select, .devhead a, .hidden {display: none}
+.devhead {background:white;position:fixed;z-index:99999;}
+
+.badge {
+    display: inline-block;
+    min-width: 10px;
+    padding: 3px 7px;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 1;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: rgb(119, 119, 119);
+    border-radius: 10px;
+}
+
+.label-info {
+    background-color: #5bc0de;
+}
+.label {
+    display: block;
+    padding: .2em .6em .3em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+
+.devhead a {
+    color: #337ab7;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.42857143;
+}
+
+.dropdown {
+    clip:rect(2px 82px 22px 2px);
+    margin:-2px;
+    width:84px;
+    height:24px;
+    line-height:24px;
+    border:1px solid #fff;
+}

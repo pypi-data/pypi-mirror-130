@@ -1,0 +1,21 @@
+{% extends "echart/base.html" %}
+{% block head %}
+<style>
+.smt {
+      border-style: dotted;
+      border-width: 0.1rem;
+}
+</style>
+{% endblock %}
+{% block body %}
+
+<div class="container_fluid">
+<div class="row_fluid" id="vue_app">
+    {% for div in div_list %}
+      {{div}}
+    {% endfor %}
+</div>
+</div>
+
+{% endblock %}
+{% block javascript %}{% endblock %}
