@@ -1,0 +1,9 @@
+pypal_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypal_api/exceptions.py,sha256=TqcPK4qxnLW7-sYBO7QZmQc18zxbu1_DHxVYigeOIpI,274
+pypal_api/pypal_dates.py,sha256=xr-VmltjDmhoQhiyKj4hkbgz-FLGMeD-B-jTEn2NmA4,6689
+pypal_api/pypal_pandas.py,sha256=UoLJH-MaAbruxkD4JhOx8pjPAT_cObrmNvoYgZNMkfY,271
+pypal_api-0.1.6.dist-info/LICENSE,sha256=EMXPLUfdaj-I0LKGMvE0E-Ht-BKSG38y8XN1XXsDfY8,1068
+pypal_api-0.1.6.dist-info/METADATA,sha256=xQTnFipCjh5zE0K2Z-h6c3jOUrTG_ZHu3i397xMi4Xc,2946
+pypal_api-0.1.6.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+pypal_api-0.1.6.dist-info/top_level.txt,sha256=7f_4nI5Ng8d74vUH-VC5b4mR40qRaiO-pNhfRndl1W8,10
+pypal_api-0.1.6.dist-info/RECORD,,
