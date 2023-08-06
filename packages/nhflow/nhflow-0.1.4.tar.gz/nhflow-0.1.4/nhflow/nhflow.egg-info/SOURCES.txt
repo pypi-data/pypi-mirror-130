@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+nhflow/nhflow.egg-info/PKG-INFO
+nhflow/nhflow.egg-info/SOURCES.txt
+nhflow/nhflow.egg-info/dependency_links.txt
+nhflow/nhflow.egg-info/top_level.txt
