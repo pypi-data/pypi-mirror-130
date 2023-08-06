@@ -1,0 +1,9 @@
+sklearn
+regex
+networkx
+statsmodels
+scipy
+torch
+seaborn
+xgboost
+mpld3
