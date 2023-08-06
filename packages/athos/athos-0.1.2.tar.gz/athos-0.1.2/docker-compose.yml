@@ -1,0 +1,41 @@
+version: '3'
+services:
+  athos:
+    build:
+      dockerfile: "./Dockerfile.athos"
+      context: "."
+    image: belthazaar/athos
+    privileged: true
+    volumes:
+     - ./etc/athos:/etc/athos
+     - .:/athos
+     - /tmp/.X11-unix:/tmp/.X11-unix
+     - /lib/modules:/lib/modules
+    entrypoint: "/athos/docker/entry.sh"
+  athos_urge:
+    build:
+      dockerfile: "./Dockerfile.athos"
+      context: "."
+    image: belthazaar/athos_urge
+    privileged: true
+    volumes:
+     - ./urge:/urge
+     - ./etc/athos:/etc/athos
+     - ./etc/faucet:/etc/faucet
+     - .:/athos
+     - /tmp/.X11-unix:/tmp/.X11-unix
+     - /lib/modules:/lib/modules
+    entrypoint: "/athos/docker/entry_urge.sh"
+  athos_faucet:
+    build:
+      dockerfile: "./Dockerfile.faucet"
+      context: "."
+    image: belthazaar/athos_faucet
+    privileged: true
+    volumes:
+    - ./etc/athos:/etc/athos
+    - ./etc/faucet:/etc/faucet
+    - .:/athos
+    - /tmp/.X11-unix:/tmp/.X11-unix
+    - /lib/modules:/lib/modules
+    entrypoint: "/athos/docker/entry.sh faucet"

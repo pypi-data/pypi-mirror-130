@@ -1,0 +1,834 @@
+dps:
+  s1:
+    dp_id: 1
+    hardware: Open vSwitch
+    interfaces:
+      1:
+        name: h1
+        acl_in: 1
+        native_vlan: 100
+      2:
+        name: h2
+        acl_in: 1
+        native_vlan: 100
+      3:
+        name: h3
+        acl_in: 1
+        native_vlan: 100
+      8:
+        name: 's1,port1.0.8,s3,port1.0.8'
+        acl_in: 1
+        native_vlan: 100
+        opstatus_reconf: false
+      10:
+        name: 's2,port1.0.10,s1,port1.0.10'
+        acl_in: 1
+        native_vlan: 100
+        opstatus_reconf: false
+  s2:
+    dp_id: 2
+    hardware: Open vSwitch
+    interfaces:
+      1:
+        name: h4
+        acl_in: 2
+        native_vlan: 100
+      2:
+        name: h5
+        acl_in: 2
+        native_vlan: 100
+      3:
+        name: h6
+        acl_in: 2
+        native_vlan: 100
+      9:
+        name: 's2,port1.0.9,s3,port1.0.9'
+        acl_in: 2
+        native_vlan: 100
+        opstatus_reconf: false
+      10:
+        name: 's2,port1.0.10,s1,port1.0.10'
+        acl_in: 2
+        native_vlan: 100
+        opstatus_reconf: false
+  s3:
+    dp_id: 3
+    hardware: Open vSwitch
+    interfaces:
+      1:
+        name: h7
+        acl_in: 3
+        native_vlan: 100
+      2:
+        name: h8
+        acl_in: 3
+        native_vlan: 100
+      3:
+        name: h9
+        acl_in: 3
+        native_vlan: 100
+      8:
+        name: 's1,port1.0.8,s3,port1.0.8'
+        acl_in: 3
+        native_vlan: 100
+        opstatus_reconf: false
+      9:
+        name: 's2,port1.0.9,s3,port1.0.9'
+        acl_in: 3
+        native_vlan: 100
+        opstatus_reconf: false
+vlans:
+  peering:
+    vid: 100
+    description: peering
+acls:
+  1:
+    - rule:
+        dl_dst: '01:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:01'
+            port: 1
+    - rule:
+        dl_dst: '00:00:00:00:00:01'
+        actions:
+          output:
+            port: 1
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.1
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:01'
+            port: 1
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::1'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:01'
+            port: 1
+    - rule:
+        dl_dst: '02:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:02'
+            port: 2
+    - rule:
+        dl_dst: '00:00:00:00:00:02'
+        actions:
+          output:
+            port: 2
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.2
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:02'
+            port: 2
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::2'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:02'
+            port: 2
+    - rule:
+        dl_dst: '03:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:03'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:03'
+        actions:
+          output:
+            port: 3
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.3
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:03'
+            port: 3
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::3'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:03'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:04'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.4
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::4'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_dst: '00:00:00:00:00:05'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.5
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::5'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_dst: '00:00:00:00:00:06'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.6
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::6'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [10,8]
+    - rule:
+        dl_dst: '00:00:00:00:00:07'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.7
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::7'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_dst: '00:00:00:00:00:08'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.8
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::8'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_dst: '00:00:00:00:00:09'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.9
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::9'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [8,10]
+  2:
+    - rule:
+        dl_dst: '01:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:04'
+            port: 1
+    - rule:
+        dl_dst: '00:00:00:00:00:04'
+        actions:
+          output:
+            port: 1
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.4
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:04'
+            port: 1
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::4'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:04'
+            port: 1
+    - rule:
+        dl_dst: '02:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:05'
+            port: 2
+    - rule:
+        dl_dst: '00:00:00:00:00:05'
+        actions:
+          output:
+            port: 2
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.5
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:05'
+            port: 2
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::5'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:05'
+            port: 2
+    - rule:
+        dl_dst: '03:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:06'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:06'
+        actions:
+          output:
+            port: 3
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.6
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:06'
+            port: 3
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::6'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:06'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:01'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.1
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::1'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:02'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.2
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::2'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:03'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.3
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::3'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [10,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:07'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.7
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::7'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_dst: '00:00:00:00:00:08'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.8
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::8'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_dst: '00:00:00:00:00:09'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.9
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::9'
+        actions:
+          output:
+            failover:
+              group_id: 3
+              ports: [9,10]
+  3:
+    - rule:
+        dl_dst: '01:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:07'
+            port: 1
+    - rule:
+        dl_dst: '00:00:00:00:00:07'
+        actions:
+          output:
+            port: 1
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.7
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:07'
+            port: 1
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::7'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:07'
+            port: 1
+    - rule:
+        dl_dst: '02:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:08'
+            port: 2
+    - rule:
+        dl_dst: '00:00:00:00:00:08'
+        actions:
+          output:
+            port: 2
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.8
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:08'
+            port: 2
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::8'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:08'
+            port: 2
+    - rule:
+        dl_dst: '03:00:00:00:00:00'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:09'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:09'
+        actions:
+          output:
+            port: 3
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.9
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:09'
+            port: 3
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::9'
+        actions:
+          output:
+            set_fields:
+              - eth_dst: '00:00:00:00:00:09'
+            port: 3
+    - rule:
+        dl_dst: '00:00:00:00:00:01'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.1
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::1'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:02'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.2
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::2'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:03'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.3
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::3'
+        actions:
+          output:
+            failover:
+              group_id: 1
+              ports: [8,9]
+    - rule:
+        dl_dst: '00:00:00:00:00:04'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.4
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::4'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_dst: '00:00:00:00:00:05'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.5
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::5'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_dst: '00:00:00:00:00:06'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x806'
+        dl_dst: 'ff:ff:ff:ff:ff:ff'
+        arp_tpa: 10.0.0.6
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
+    - rule:
+        dl_type: '0x86DD'
+        ip_proto: 58
+        icmpv6_type: 135
+        ipv6_nd_target: 'fd00::6'
+        actions:
+          output:
+            failover:
+              group_id: 2
+              ports: [9,8]
