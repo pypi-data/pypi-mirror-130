@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+carate/__init__.py
+carate/fight.py
+carate.egg-info/PKG-INFO
+carate.egg-info/SOURCES.txt
+carate.egg-info/dependency_links.txt
+carate.egg-info/not-zip-safe
+carate.egg-info/top_level.txt
