@@ -1,0 +1,8 @@
+README.md
+setup.py
+torcello.py
+Torcello.egg-info/PKG-INFO
+Torcello.egg-info/SOURCES.txt
+Torcello.egg-info/dependency_links.txt
+Torcello.egg-info/requires.txt
+Torcello.egg-info/top_level.txt
