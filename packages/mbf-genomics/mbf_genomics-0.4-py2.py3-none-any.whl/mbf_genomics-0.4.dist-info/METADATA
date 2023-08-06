@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: mbf-genomics
+Version: 0.4
+Summary: All about intervals on genomic data
+Home-page: https://github.com/TyberiusPrime/mbf_genomics
+Author: Florian Finkernagel
+Author-email: finkernagel@imt.uni-marburg.de
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: dppd-plotnine
+Requires-Dist: feather-format
+Requires-Dist: frozendict
+Requires-Dist: gtfparse
+Requires-Dist: mbf-align
+Requires-Dist: mbf-bam
+Requires-Dist: mbf-externals
+Requires-Dist: mbf-fileformats
+Requires-Dist: mbf-genomes
+Requires-Dist: mbf-qualitycontrol
+Requires-Dist: openpyxl
+Requires-Dist: pandas
+Requires-Dist: plotnine
+Requires-Dist: pyBigWig
+Requires-Dist: pypipegraph
+Requires-Dist: pysam
+Requires-Dist: scipy
+Requires-Dist: sklearn
+Requires-Dist: xlrd
+Requires-Dist: xlwt
+Provides-Extra: doc
+Requires-Dist: numpydoc ; extra == 'doc'
+Requires-Dist: sphinx ; extra == 'doc'
+Requires-Dist: sphinx-bootstrap-theme ; extra == 'doc'
+Provides-Extra: testing
+Requires-Dist: mbf-sampledata ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-icdiff ; extra == 'testing'
+Requires-Dist: requests-mock ; extra == 'testing'
+Requires-Dist: xlrd ; extra == 'testing'
+
+# mbf_genomics
+
+Genomic interval handling on steroids.
+
+
+Part of the mbf_* suite from https://github.com/IMTMarburg
+
+
