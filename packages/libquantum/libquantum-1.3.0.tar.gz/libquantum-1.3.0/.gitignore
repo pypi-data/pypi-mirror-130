@@ -1,0 +1,7 @@
+.idea
+*.iml
+*.pyc
+.mypy_cache
+build
+dist
+libquantum.egg-info
