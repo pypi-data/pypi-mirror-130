@@ -1,0 +1,8 @@
+setup.py
+marketdataserver/__init__.py
+marketdataserver/client.py
+marketdataserver/message.py
+marketdataserver.egg-info/PKG-INFO
+marketdataserver.egg-info/SOURCES.txt
+marketdataserver.egg-info/dependency_links.txt
+marketdataserver.egg-info/top_level.txt
