@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyrill-fs
+Version: 0.1.3b5
+Summary: Asynchronous streams for Python: Filesystems elements
+Home-page: https://github.com/pyrill-framework/pyrill-fs
+Author: Alfred Santacatalina
+Author-email: alfred82santa@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: pyrill (>=0.1.3)
+Provides-Extra: hdfs
+Requires-Dist: aio-service-client ; extra == 'hdfs'
+Requires-Dist: dirty-models ; extra == 'hdfs'
+Provides-Extra: s3
+Requires-Dist: aiobotocore (>=2.0.0) ; extra == 's3'
+
+=======================================
+PyRill: FileSystem abstraction elements
+=======================================
+
+TBD
+
+
