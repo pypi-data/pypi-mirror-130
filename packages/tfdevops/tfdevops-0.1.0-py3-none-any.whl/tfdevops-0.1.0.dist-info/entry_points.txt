@@ -1,0 +1,3 @@
+[console_scripts]
+tfdevops=tfdevops.cli:cli
+
