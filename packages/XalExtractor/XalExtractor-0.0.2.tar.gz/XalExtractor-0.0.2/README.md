@@ -1,0 +1,1 @@
+This library contains the spark service functions for extractors.
