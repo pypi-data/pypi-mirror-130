@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "i-lazy"
+version = "0.1.1"
+description = "A small collection of Python laziness."
+authors = ["Peter Yuen <ppeetteerrsx@gmail.com>"]
+repository = "https://github.com/ppeetteerrs/i-lazy-python.git"
+keywords = ["utility", "data_structure", "helper", "simple", "common"]
+include = ["README.md"]
+exclude = ["i_lazy/tests/"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flatdict = "^4.0.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
