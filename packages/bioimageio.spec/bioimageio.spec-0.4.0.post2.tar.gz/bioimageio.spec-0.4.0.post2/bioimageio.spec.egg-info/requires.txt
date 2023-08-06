@@ -1,0 +1,18 @@
+numpy
+marshmallow-jsonschema
+marshmallow-union
+marshmallow<4.0,>=3.6.0
+typer
+typing-extensions
+
+[:platform_system != "Emscripten"]
+requests
+ruamel.yaml
+
+[dev]
+pre-commit
+
+[test]
+pytest
+tox
+mypy
