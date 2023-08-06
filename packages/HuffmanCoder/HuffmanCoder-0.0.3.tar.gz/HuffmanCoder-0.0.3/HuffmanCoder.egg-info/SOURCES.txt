@@ -1,0 +1,8 @@
+setup.py
+HuffmanCoder/HuffmanCoder.py
+HuffmanCoder/TreeNode.py
+HuffmanCoder/__init__.py
+HuffmanCoder.egg-info/PKG-INFO
+HuffmanCoder.egg-info/SOURCES.txt
+HuffmanCoder.egg-info/dependency_links.txt
+HuffmanCoder.egg-info/top_level.txt
