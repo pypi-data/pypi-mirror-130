@@ -1,0 +1,11 @@
+genice2_vpython/__init__.py,sha256=hwGN_iSSNCe3ZUqCzMGszks7kxFf4pJzBkuoazsPF7A,56
+genice2_vpython/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice2_vpython/formats/vpython.py,sha256=vgvJmY4j20MB4gBAXLL4nic_qgkBTXTcyZFg-YTBw54,6186
+genice_vpython/__init__.py,sha256=uP4smgxSAdfHdyh4Cmy2C2PILaCEE-smMCeDpM8PAEw,56
+genice_vpython/formats/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genice_vpython/formats/vpython.py,sha256=qUj0-LDCcM95I4Fpb6u9VUTbCKzhLejQIZoEU9LtM2g,6067
+genice2_vpython-0.5.1.dist-info/METADATA,sha256=INRL5xAd1HRaIUFZIeREo3wphilEjfCs7ghC63YuVlY,1157
+genice2_vpython-0.5.1.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+genice2_vpython-0.5.1.dist-info/entry_points.txt,sha256=2y3s-kqb8mjop6lCG1N-L6P7m5aLh0QO6qy7OwJczDM,60
+genice2_vpython-0.5.1.dist-info/top_level.txt,sha256=p3r9KIh19A9-z2vOxlQswva-NThpwFpJcZ1zEDjbYqA,16
+genice2_vpython-0.5.1.dist-info/RECORD,,
