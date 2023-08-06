@@ -1,0 +1,4 @@
+setuptools>=42
+psutil>=5
+grpcio>=1.41
+grpcio-tools>=1.41

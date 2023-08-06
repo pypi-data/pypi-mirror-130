@@ -1,0 +1,3 @@
+[console_scripts]
+oocd_tool = oocd_tool.main:main
+
