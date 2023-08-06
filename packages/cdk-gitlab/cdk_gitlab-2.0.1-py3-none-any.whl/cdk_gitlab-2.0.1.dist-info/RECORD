@@ -1,0 +1,9 @@
+cdk_gitlab/__init__.py,sha256=lDYfVwlX2i2gSq1nG_l1rl-19Y9A5WbCZuk-lD0QVNE,38410
+cdk_gitlab/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk_gitlab/_jsii/__init__.py,sha256=VO7VV0rbdWQ0uexZ_7RBiDbYeGupC1iDxcTOgUsXxdQ,353
+cdk_gitlab/_jsii/cdk-gitlab@2.0.1.jsii.tgz,sha256=NLYrQIhkW_1QyH58y6EboXUVTYl-khoUc7vRwS9B_Ek,1642763
+cdk_gitlab-2.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk_gitlab-2.0.1.dist-info/METADATA,sha256=2BQSRCSWJNzQvTMgZh9638ABL3raFlODTEtg_rRWuXo,3108
+cdk_gitlab-2.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk_gitlab-2.0.1.dist-info/top_level.txt,sha256=hiE7dvEk75oulv-KUCbY_IBDBGnlQqg-gJ-K_GSB-nQ,11
+cdk_gitlab-2.0.1.dist-info/RECORD,,
