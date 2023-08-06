@@ -1,0 +1,9 @@
+README.md
+setup.py
+Covid_Dashboard_Oscar_Moores.egg-info/PKG-INFO
+Covid_Dashboard_Oscar_Moores.egg-info/SOURCES.txt
+Covid_Dashboard_Oscar_Moores.egg-info/dependency_links.txt
+Covid_Dashboard_Oscar_Moores.egg-info/top_level.txt
+dashboard_pkg/__init__.py
+dashboard_pkg/covid_data_handler.py
+dashboard_pkg/covid_news_handling.py
