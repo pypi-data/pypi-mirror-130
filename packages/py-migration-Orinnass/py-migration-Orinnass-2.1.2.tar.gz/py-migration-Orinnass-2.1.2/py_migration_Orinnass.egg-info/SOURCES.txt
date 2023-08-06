@@ -1,0 +1,11 @@
+setup.py
+migration/__init__.py
+migration/errors.py
+migration/merge_template.json
+migration/migrate_mysql.py
+migration/migration_table.sql
+py_migration_Orinnass.egg-info/PKG-INFO
+py_migration_Orinnass.egg-info/SOURCES.txt
+py_migration_Orinnass.egg-info/dependency_links.txt
+py_migration_Orinnass.egg-info/requires.txt
+py_migration_Orinnass.egg-info/top_level.txt
