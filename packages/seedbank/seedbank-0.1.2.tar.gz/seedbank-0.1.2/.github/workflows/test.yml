@@ -1,0 +1,152 @@
+name: Run Tests
+on:
+  push:
+    branches:
+      - main
+  release:
+    types: [published]
+  pull_request:
+
+jobs:
+  test:
+    name: Test with Python ${{matrix.python}} on ${{matrix.platform}}
+    runs-on: ${{matrix.platform}}-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform:
+        - macos
+        - windows
+        - ubuntu
+        python:
+        - "3.7"
+        - "3.8"
+        - "3.9"
+        - "3.10"
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python ${{matrix.python}}
+      uses: actions/setup-python@v2
+      with:
+        python-version: ${{matrix.python}}
+
+    - name: Discover Pip cache
+      id: pip-cache
+      run: |
+        echo "::set-output name=dir::$(pip cache dir)"
+      shell: bash
+
+    - name: Cache Pip wheels
+      uses: actions/cache@v1
+      with:
+        path: ${{ steps.pip-cache.outputs.dir }}
+        key: ${{ matrix.platform }}-py${{ matrix.python }}-pip-${{ hashFiles('*.egg-info/requires.txt')}}
+
+    - name: Install meta-deps
+      run: |
+        pip install -U flit
+
+    - name: Install package deps
+      run: |
+        flit install --pth-file --deps=develop
+
+    - name: Run tests
+      run: python -m pytest --cov=seedbank --cov-report=xml tests
+
+    - name: Upload coverage
+      uses: codecov/codecov-action@v1
+
+  test-extra:
+    name: Test single extra ${{matrix.extra}}
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        extra:
+        - numba
+        - torch
+        # - cupy
+        - tf
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: "3.8"
+
+    - name: Discover Pip cache
+      id: pip-cache
+      run: |
+        echo "::set-output name=dir::$(pip cache dir)"
+      shell: bash
+
+    - name: Cache Pip wheels
+      uses: actions/cache@v1
+      with:
+        path: ${{ steps.pip-cache.outputs.dir }}
+        key: ubuntu-py38-${{matrix.extra}}-pip-${{ hashFiles('*.egg-info/requires.txt')}}
+
+    - name: Install meta-deps
+      run: |
+        pip install -U flit
+
+    - name: Install package deps
+      run: |
+        flit install --pth-file --deps=develop --extras ${{matrix.extra}}
+
+    - name: Run tests
+      run: python -m pytest --cov=seedbank --cov-report=xml tests
+
+    - name: Upload coverage
+      uses: codecov/codecov-action@v1
+
+  sdist:
+    name: Build and Publish Packages
+    runs-on: ubuntu-latest
+    needs: [test, test-extra]
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 0
+
+    - name: Fetch Git tags
+      run: git fetch --tags
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install Python deps
+      run: pip install -U flit
+
+    - name: Build distribution
+      run: flit build
+
+    - name: Save archive
+      uses: actions/upload-artifact@v1
+      with:
+        name: pypi-pkgs
+        path: dist
+
+    - name: List dist dir
+      run: ls -R dist
+
+    - name: Publish PyPI packages
+      if: github.event_name == 'release'
+      run: |
+        flit publish
+      shell: bash
+      env:
+        TWINE_NON_INTERACTIVE: y
+        FLIT_USERNAME: __token__
+        FLIT_PASSWORD: ${{ secrets.PYPI_TOKEN }}
