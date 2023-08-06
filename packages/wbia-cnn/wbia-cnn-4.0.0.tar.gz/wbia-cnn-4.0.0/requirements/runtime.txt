@@ -1,0 +1,5 @@
+scikit-learn
+theano
+wbia-utool
+wbia-vtool
+wildbook-ia
