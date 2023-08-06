@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: zyl-utils
+Version: 0.0.10
+Summary: 自用utils
+Home-page: https://github.com/ZYuliang/zyl-utils
+Author: 张玉良
+Author-email: 1137379695@qq.com
+Maintainer: 张玉良
+Maintainer-email: 1137379695@qq.com
+License: UNKNOWN
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: transformers
+Requires-Dist: torch
+Requires-Dist: wandb
+Requires-Dist: loguru
+
+# _data_utils_
+- **preprocessing**
+> _class_ **Processer**
+>> **nothing**
+>> 
+
+- **analysis**
+- **processing**
+- **collection**
+- **preparation**
+
+------------------------
+
+# _model_utils_
+- **preprocessing**
+> _class_ **Processer**
+>> **nothing**
+>>
+- 模型（模型改进版，训练，预测，评估）
+
+-------------------------
+
+# _api_utils_
+- **preprocessing**
+> _class_ **Processer**
+>> **nothing**
+>>
+- 模型（模型改进版，训练，预测，评估）
+
+- ap
+部署（前端，后台，接口）
+- utils
+其他（常用算法，常用方法,测试）
+
+
