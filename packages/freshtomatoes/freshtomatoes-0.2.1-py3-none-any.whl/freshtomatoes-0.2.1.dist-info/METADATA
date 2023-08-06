@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: freshtomatoes
+Version: 0.2.1
+Summary: freshtomatoes will provide rottentomatoes scores of a given movie
+Home-page: https://github.com/freakflames29/FreshTomatoes
+Author: Sourav Das
+Author-email: sourav292922@gmail.com
+License: UNKNOWN
+Project-URL: Bug Tracker, https://github.com/freakflames29/FreshTomatoes
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+## Fresh Tomatoes
+It is a python package to get a movie's rotten tomatoes scores.
+## Useage
+```python
+import freshtomatoes as ft
+movie=ft.FreshTomatoes()
+movie.Scores("aladdin")
+```
+## Output
+`{'audiencescore': '94', 'tomatometerscore': '57'}
+`
+## Installation
+```python
+pip install freshtomatoes
+```
+
+## License
+The package is available as open source under the terms of the MIT License.
+
