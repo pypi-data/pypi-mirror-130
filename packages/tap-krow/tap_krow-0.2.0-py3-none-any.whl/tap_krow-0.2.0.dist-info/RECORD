@@ -1,0 +1,12 @@
+tap_krow/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tap_krow/auth.py,sha256=h9pDifXyDF17Bl_4XnSQ33k9OfoQvMjkszgo89I2uuw,399
+tap_krow/client.py,sha256=0svgmXYouy5m4MVhm69lCmVHh4vA4vYD6cI-sRJMEcI,7094
+tap_krow/streams.py,sha256=FrMpqq6rtfP9hcpu_cG32b7VbHsW8iyQGd4cy5hb57o,2698
+tap_krow/tap.py,sha256=_-JzYF3fNMdlJq5JADxe09qaKlWxu9wu0AjrliRq140,889
+tap_krow/tests/__init__.py,sha256=qKwCTOtkWgORtYMfWDkTSgjjNoYhKiPYVLpn6ZhVhwg,31
+tap_krow/tests/test_core.py,sha256=y2gBPUmAZ5xiHKxpnnRPpD_qUbmZG0XxB3TaaBdRIds,673
+tap_krow/tests/test_stream.py,sha256=aVSPNIQpNKTrGZuwwUdLodHna0V_W_U6gZH-GRyNfYY,6147
+tap_krow-0.2.0.dist-info/entry_points.txt,sha256=x7tQ0Bs1-Ei_jK90smi9-LwmJOZ_aB-dOopnJTZgNS4,53
+tap_krow-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tap_krow-0.2.0.dist-info/METADATA,sha256=jWFEqex6DWHh5g-O2KomPeuyxG0OxdVtUed0wBsQN1E,551
+tap_krow-0.2.0.dist-info/RECORD,,
