@@ -1,0 +1,6 @@
+build
+*_version.py
+*.so
+_skbuild
+dist
+MANIFEST
