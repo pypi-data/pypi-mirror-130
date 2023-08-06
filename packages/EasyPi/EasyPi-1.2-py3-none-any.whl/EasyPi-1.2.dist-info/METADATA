@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EasyPi
+Version: 1.2
+Summary: Easy to use
+Home-page: UNKNOWN
+Author: 자색치즈고구마
+Author-email: author@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+EasyPi 1.0
+
+pi=pi 1000digits(3.14...)(string)
+setpi(digit, mode)
+mode -> p / print pi(up to inputed digit)
+mode -> None / return pi(up to inputed digit)
+
