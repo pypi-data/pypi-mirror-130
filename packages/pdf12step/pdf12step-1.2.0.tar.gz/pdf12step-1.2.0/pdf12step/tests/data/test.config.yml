@@ -1,0 +1,22 @@
+site_url: https://example.com/
+author: Test Author Intergroup
+show_links: true
+filtercodes:
+    - C
+codemap:
+    B: BB
+meetingcodes:
+    B: Big Book
+    C: Closed
+attendance_options:
+    - hybrid
+    - in_person
+    - online
+template_dirs:
+    - test/templates
+stylesheets:
+    - test/css
+zipcodes:
+    20705: College Park
+    20707: Laurel
+    20723: Laurel
