@@ -1,0 +1,17 @@
+timewarpy/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/core.py,sha256=z5hrn-qnvuGJl2EJ1WGyUhzg1w0lBv2mvkGZm8G1kHI,3966
+timewarpy/datasets.py,sha256=F2iQbf06-e2DQ-kF6EnkdtB3qYDzIno02O-i1uohdY4,450
+timewarpy/postprocess.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/preprocess.py,sha256=5Bj1XIVjruIE6t-m51UF8IqiOP-Z66PORSQ5w0xOrdk,1247
+timewarpy/visuals.py,sha256=ay_jO1tDFPYSleYaWn4grwYn2mH9z67KNyJ58dSKI-U,2126
+timewarpy/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/examples/univariate_rnn.py,sha256=aTs2C_Cy8Try1EgvfEfp7pZcBy-fCYqcBEZnok181Fk,1177
+timewarpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+timewarpy/tests/test_core.py,sha256=5RC-yyyb0nANVIYuaaEPLQ18XIfegg4gtN9NazMWpnE,1162
+timewarpy/tests/test_datasets.py,sha256=Umf_VjvspUERudytBlOw-cqU8I4E19SsxnLPZDApzTg,122
+timewarpy/tests/test_preprocess.py,sha256=gQS1gKDn0JzpLiXOtZbajen_ywNYwu2y_FIcnqGp4-Q,227
+timewarpy-0.0.18.dist-info/LICENSE,sha256=SoJRIX2B8v7O7ZuijyjfP28nTodajRZ5N-36ZcLHDmc,1519
+timewarpy-0.0.18.dist-info/METADATA,sha256=RD2NuCWVSKSbOMbPSTm2lePiE-TMaYLOIRlJWdZUfgA,2309
+timewarpy-0.0.18.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+timewarpy-0.0.18.dist-info/top_level.txt,sha256=43TaxLmo2JgBAHFtdq6Xz8tSGCXtUaG2eTly1fJIMJU,10
+timewarpy-0.0.18.dist-info/RECORD,,
