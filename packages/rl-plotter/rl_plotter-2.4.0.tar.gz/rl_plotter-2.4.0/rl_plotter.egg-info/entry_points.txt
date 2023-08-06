@@ -1,0 +1,4 @@
+[console_scripts]
+rl_plotter = rl_plotter.plotter:main
+rl_plotter_spinup = rl_plotter.plotter_spinup:main
+
