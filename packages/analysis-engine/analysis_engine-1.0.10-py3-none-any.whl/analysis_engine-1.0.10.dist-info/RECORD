@@ -1,0 +1,12 @@
+analysis_engine/__init__.py,sha256=9EozsBnqDzcKWRDTC1DFubagFbm9pw2hazZ5VjU0tys,22
+analysis_engine/ar_data.py,sha256=xa1Hsdcm3LH7ZoyC7U-g1_qWhMYfvKk622O1F--AqjM,2490
+analysis_engine/cdg_data.py,sha256=0CIz5SJfWlkRpKQtpvanawyQeM-AVjoOuVCn7AZQyI0,41675
+analysis_engine/data.py,sha256=5aBxRh3gQCD4sIL2ubu5S62R8wxZxuRmwq0Dt5H-GcY,447225
+analysis_engine/main.py,sha256=mu_7X1BU_OaB1uR5x0WxUA8ZSjhRgXihQrYk5I8qFis,52490
+analysis_engine/top35_data.py,sha256=QZ0j4ljVGxlswN_yeXqrIIe8VmEOOsatlTRD8gG4axU,46591
+analysis_engine-1.0.10.dist-info/LICENSE,sha256=hWPv1aGwaEPTVtBzjVIjCGj-fbYRUb1FCutmKt6JRoM,1067
+analysis_engine-1.0.10.dist-info/METADATA,sha256=iifTeoz3pK4GGHaRFlmYJlptQTh7mPY7b6rijovpB_Y,5013
+analysis_engine-1.0.10.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+analysis_engine-1.0.10.dist-info/entry_points.txt,sha256=4gu6nIteYEkPrjRt65rM-nPL6KC9IxENkb5GgL0mwMY,56
+analysis_engine-1.0.10.dist-info/top_level.txt,sha256=oKvbUS4DkCestUGf7R_vlx48WE9k93Jz-nFyz281PFQ,16
+analysis_engine-1.0.10.dist-info/RECORD,,
