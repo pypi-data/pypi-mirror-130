@@ -1,0 +1,10 @@
+aws_cdk/aws_applicationinsights/__init__.py,sha256=gHCUJQDZdjMrv8aVRBmu83O8-sQUUEtbQwtVAlvNask,114304
+aws_cdk/aws_applicationinsights/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_applicationinsights/_jsii/__init__.py,sha256=qqZmDbokYj_SEPMng5iZtszNHSc8L3zJlhkRAhTlbYc,386
+aws_cdk/aws_applicationinsights/_jsii/aws-applicationinsights@1.135.0.jsii.tgz,sha256=9ezAkGy4BstKdhyrhjIwnQivq1dW7S15yukcC-QBDAE,38240
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/LICENSE,sha256=PPdRlpoLCV1CRrCV1eKpp3m0lNjchFAP4a9zfc8tRLo,11391
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/METADATA,sha256=tx7zGrr4vu68scOpoiDTIMlOgnLKsU9g95aDfIrHp0s,2521
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/NOTICE,sha256=xo56krus2e5ShfXqz_B7vuvGcMn_D0F7TjjpfTz8YMw,113
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_applicationinsights-1.135.0.dist-info/RECORD,,
