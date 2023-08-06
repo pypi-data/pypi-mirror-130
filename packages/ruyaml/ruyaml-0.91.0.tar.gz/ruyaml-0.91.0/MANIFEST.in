@@ -1,0 +1,2 @@
+prune ext*
+prune clib*
