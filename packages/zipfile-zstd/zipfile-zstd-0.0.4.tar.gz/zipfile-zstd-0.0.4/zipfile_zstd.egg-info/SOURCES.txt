@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+test/test_zipfile.py
+zipfile_zstd/__init__.py
+zipfile_zstd/_patcher.py
+zipfile_zstd/_zipfile.py
+zipfile_zstd.egg-info/PKG-INFO
+zipfile_zstd.egg-info/SOURCES.txt
+zipfile_zstd.egg-info/dependency_links.txt
+zipfile_zstd.egg-info/requires.txt
+zipfile_zstd.egg-info/top_level.txt
