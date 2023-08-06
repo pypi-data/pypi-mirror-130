@@ -1,0 +1,10 @@
+setup.py
+equirc/__init__.py
+equirc/keras_example.py
+equirc/keras_rclayers.py
+equirc/pytorch_example.py
+equirc/pytorch_rclayers.py
+equirc.egg-info/PKG-INFO
+equirc.egg-info/SOURCES.txt
+equirc.egg-info/dependency_links.txt
+equirc.egg-info/top_level.txt
