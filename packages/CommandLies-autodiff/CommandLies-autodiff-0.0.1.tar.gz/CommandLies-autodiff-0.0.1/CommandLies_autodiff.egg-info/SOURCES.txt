@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+./AutoDiff/AD.py
+./AutoDiff/__init__.py
+./CommandLies_autodiff.egg-info/PKG-INFO
+./CommandLies_autodiff.egg-info/SOURCES.txt
+./CommandLies_autodiff.egg-info/dependency_links.txt
+./CommandLies_autodiff.egg-info/requires.txt
+./CommandLies_autodiff.egg-info/top_level.txt
