@@ -1,0 +1,10 @@
+scsm/__init__.py,sha256=rC5mSlYw77Tuuf5hdjaZK0QSjdD4PkqSP-JlF08tGKY,334
+scsm/cli.py,sha256=GVS7qkqFcBjlVV7ryL9sPziORyZfvXtXwaYfboSYqcw,20833
+scsm/config.py,sha256=CZhK79PcOE19Q-igcFIb60oJZ6KFuE2xuPMu38LVrZc,2392
+scsm/core.py,sha256=WlzYPa1dDkCXb92BECJdNGEl4_pyOqPMr-V-Q9t3TeI,16682
+scsm-0.2.7.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scsm-0.2.7.dist-info/METADATA,sha256=s5r45e3inWf7YtfMXrABC4UOEqN9xncWwPykP8NQUgY,2225
+scsm-0.2.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+scsm-0.2.7.dist-info/entry_points.txt,sha256=o7dLTb5HFmHRk0mRv-UKIVbsQDhG0_37vH2QMm92wBw,40
+scsm-0.2.7.dist-info/top_level.txt,sha256=L--S1neWl5bQmdLouz0NMEUmdu2O1tlvGQ_xJBzs7jM,5
+scsm-0.2.7.dist-info/RECORD,,
