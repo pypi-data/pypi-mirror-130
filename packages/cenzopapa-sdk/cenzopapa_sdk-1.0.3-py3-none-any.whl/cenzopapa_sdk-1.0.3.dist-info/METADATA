@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: cenzopapa-sdk
+Version: 1.0.3
+Summary: UNKNOWN
+Home-page: https://github.com/Qwizi/cenzopapa-sdk
+Author: Adrian 'Qwizi' Ciołek
+Author-email: ciolek.adrian@protonmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: anyio (==3.4.0)
+Requires-Dist: asgiref (==3.4.1)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.7)
+Requires-Dist: decorators (==2.0.7)
+Requires-Dist: h11 (==0.12.0)
+Requires-Dist: httpcore (==0.14.3)
+Requires-Dist: httpx (==0.21.1)
+Requires-Dist: idna (==3.3)
+Requires-Dist: pytz (==2021.3)
+Requires-Dist: rfc3986 (==1.5.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: urllib3 (==1.26.7)
+
+UNKNOWN
+
