@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: tily
+Version: 0.0.2
+Summary: Tumor-infiltrating lymphocytes prediction based on Whole Slide Imaging.
+Home-page: https://github.com/kandabarau/wsi-til
+Author: Sergey Kandabarau
+Author-email: kandabarau@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7.4, <=3.7.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: about-time (==3.1.1)
+Requires-Dist: absl-py (==1.0.0)
+Requires-Dist: alive-progress (==2.1.0)
+Requires-Dist: astor (==0.8.1)
+Requires-Dist: attrs (==21.2.0)
+Requires-Dist: certifi (==2021.10.8)
+Requires-Dist: charset-normalizer (==2.0.9)
+Requires-Dist: gast (==0.2.2)
+Requires-Dist: google-pasta (==0.2.0)
+Requires-Dist: grapheme (==0.6.0)
+Requires-Dist: grpcio (==1.42.0)
+Requires-Dist: h5py (==2.10.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: imagecodecs (==2021.11.20)
+Requires-Dist: importlib-metadata (==4.8.2)
+Requires-Dist: iniconfig (==1.1.1)
+Requires-Dist: keras-applications (==1.0.8)
+Requires-Dist: keras-preprocessing (==1.1.2)
+Requires-Dist: markdown (==3.3.6)
+Requires-Dist: numpy (==1.17.3)
+Requires-Dist: opt-einsum (==3.3.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pillow (==8.4.0)
+Requires-Dist: pluggy (==1.0.0)
+Requires-Dist: protobuf (==3.19.1)
+Requires-Dist: py (==1.11.0)
+Requires-Dist: pyparsing (==3.0.6)
+Requires-Dist: pytest (==6.2.5)
+Requires-Dist: requests (==2.26.0)
+Requires-Dist: six (==1.16.0)
+Requires-Dist: tensorboard (==1.15.0)
+Requires-Dist: tensorflow (==1.15.5)
+Requires-Dist: tensorflow-estimator (==1.15.1)
+Requires-Dist: termcolor (==1.1.0)
+Requires-Dist: tifffile (==2021.11.2)
+Requires-Dist: toml (==0.10.2)
+Requires-Dist: typing-extensions (==4.0.1)
+Requires-Dist: urllib3 (==1.26.7)
+Requires-Dist: werkzeug (==2.0.2)
+Requires-Dist: wheel (==0.37.0)
+Requires-Dist: wrapt (==1.13.3)
+Requires-Dist: zipp (==3.6.0)
+
+# wsi_til
+[![pylint](https://github.com/kandabarau/wsi_til/actions/workflows/lint.yml/badge.svg)](https://github.com/kandabarau/wsi_til/actions/workflows/lint.yml)
+[![build](https://github.com/kandabarau/wsi_til/actions/workflows/build.yml/badge.svg)](https://github.com/kandabarau/wsi_til/actions/workflows/build.yml)
+[![release](https://github.com/kandabarau/wsi_til/actions/workflows/release.yml/badge.svg)](https://github.com/kandabarau/wsi_til/actions/workflows/release.yml)
+
+Tumor-infiltrating lymphocytes prediction based on Whole Slide Imaging.
+
+## Installation
+
+Below is instructions for Debian based systems.
+The tools uses Tensorflow v.1 and thats why requires Python 3.7
+to be installed. If you have Python below 3.7.12 already installed
+please simply run:
+
+```
+sudo make install
+```
+If you also need to install Python 3.7 please run the following:
+
+```
+sudo make all
+```
+
+## Validation
+
+1. TCGA tumor diagnostic slides (H&E stained) available at
+[Genomic Data Commons Data Portal](https://portal.gdc.cancer.gov). 
+Please download a [test slide](https://api.gdc.cancer.gov/data/82afde87-ee4c-41e1-88fc-b28b015fcc80)
+and save as `validation.svs`.
+
+2. To start the validation run the following:
+
+```bash
+python3 main.py
+```
+
+
