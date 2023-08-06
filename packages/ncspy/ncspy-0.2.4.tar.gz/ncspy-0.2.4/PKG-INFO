@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ncspy
+Version: 0.2.4
+Summary: A NoCopyrightSounds "API" wrapper written with asyncio.
+Home-page: https://github.com/Vincydotzsh/pyncs
+Author: Vincy.zsh
+Author-email: Vincysuper07@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyNCS
+
+A Python NoCopyrightSounds "API" wrapper written with asyncio.
+
+## This isn't actually an API wrapper
+This module just parses NCS' HTML page, because NCS does not have public APIs (at least not yet).
+
