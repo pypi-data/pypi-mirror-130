@@ -1,0 +1,9 @@
+numpy
+zmq
+
+[gc]
+opencv-contrib-python-headless
+opencv-python-headless
+pyqt5
+pyqtwebengine
+pyserial
