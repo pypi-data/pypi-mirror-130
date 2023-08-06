@@ -1,0 +1,8 @@
+structlog_sentry_lambda/__init__.py,sha256=sSGtexv7C8g2V2OduYn2EohaiD5trkgqcWNijeQ_3C4,391
+structlog_sentry_lambda/_config.py,sha256=5tv4KLDIm6C2IpKGIzCKSZRvwNDniXFP_yVxt2GRwYM,13314
+structlog_sentry_lambda/structlog_sentry.py,sha256=24Mpj8p8NoHw05uZGc2AMS-TWZe9d40sU6OroTlD8SA,7155
+structlog_sentry_lambda-1.1.0.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+structlog_sentry_lambda-1.1.0.dist-info/METADATA,sha256=QHVpncKNkjeEXdb7XaqZksGzg_UwknFDf0hE34PU-zw,2542
+structlog_sentry_lambda-1.1.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+structlog_sentry_lambda-1.1.0.dist-info/top_level.txt,sha256=VvPmF2ilaieLnGtZ5K7uc9QPGWY0VS02Gs5rc1oEHjU,24
+structlog_sentry_lambda-1.1.0.dist-info/RECORD,,
