@@ -1,0 +1,10 @@
+theborg/__init__.py,sha256=vgyRulVtFJFM9AUVL6DKfD5pHaAXZ6g8xQTXS77s0is,66
+theborg/classifier.py,sha256=rZOgUm2bc4Di-35Dii_ZdiX3Eh5xcFmHfMqs9grzuQI,6841
+theborg/emulator.py,sha256=WwJaqq7pi8EpCiBeaKg5VQaka4U_uttyixx2Du0z7as,2388
+theborg/model.py,sha256=4oMD8LZH-ilC7waVZHzAzg05aCQONbHYYlzjrd2lD0Y,19289
+theborg/radam.py,sha256=GHUAj90znGu9BaLdgutsaEXOfT8iAjsXc_9dhVH_Sz8,8190
+theborg-1.0.2.dist-info/LICENSE,sha256=K7l4_MN2UQzTmXHCHG17cz0AFI7piif29FLjFeJh4ZI,1070
+theborg-1.0.2.dist-info/METADATA,sha256=GhgKS8elDd8wlZW3aXzacmF-lTeZfnFnc9ZXIEEqPX0,1544
+theborg-1.0.2.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+theborg-1.0.2.dist-info/top_level.txt,sha256=uQRDY-1Hppfb1yyf6E01QOmaZZdw89kolu_Ci6570kI,8
+theborg-1.0.2.dist-info/RECORD,,
