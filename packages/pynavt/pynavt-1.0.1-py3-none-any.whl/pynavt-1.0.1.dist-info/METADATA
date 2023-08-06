@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: pynavt
+Version: 1.0.1
+Summary: pynavt is a tool to create a clean architecture project and auto generating modules
+Home-page: https://github.com/saturnavt/pynavt
+Author: Alejandro Castillo Valdes
+Author-email: saturnavt@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+
+UNKNOWN
+
