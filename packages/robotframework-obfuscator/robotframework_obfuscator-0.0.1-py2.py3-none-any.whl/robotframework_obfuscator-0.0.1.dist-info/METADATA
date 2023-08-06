@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: robotframework-obfuscator
+Version: 0.0.1
+Summary: An obfuscator for Robot Framework code
+Home-page: https://github.com/robocorp/robotframework-obfuscator
+Author: Fabio Zadrozny
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Text Editors
+Classifier: Topic :: Text Editors :: Integrated Development Environments (IDE)
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Tool
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: robotframework (>=3.2)
+Requires-Dist: robotframework-lsp (>=0.29)
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+
+Robot Framework Obfuscator
+------------------------------
+
+The Robot Framework obfuscator is a command line tool which can obfuscate Robot Framework code.
+
+
+Installing
+------------
+
+pip can be used to install the obfuscator:
+
+`pip install https://github.com/robocorp/robotframework-obfuscator/archive/master.zip`
+
+Note that dependencies must also be installed:
+
+`pip install robotframework`
+`pip install robotframework-lsp`
+
+Dependencies
+-------------
+
+It depends on `Python 3.8+`, `Robot Framework 4+` and `robotframework-lsp 0.29+`.
+
+
+Usage
+--------
+
+After installing it, it's possible to run the obfuscator with:
+
+`python -m robotframework_obfuscator --dest <dest-dir> <dir-to-obfuscate>`
+
+Where `<dest-dir>` is the directory where the obfuscated sources should be put and
+`<dir-to-obfuscate>` is the directory with the sources to obfuscate.
+
+Note that all files from the `<dir-to-obfuscate>` will be copied to the `<dest-dir>`
+but only `.robot` and `.resource` files will be obfuscated.
+
+If some keyword should not be obfuscated, it's possible to use the `--skip-keyword` option to make a call such as:
+
+`python -m robotframework_obfuscator --dest <dest-dir> --skip-keyword MyKeyword --skip-keyword AnotherKeyword <dir-to-obfuscate>`
+
+If some variable should not be obfuscated, it's possible to use the `--skip-var` option to make a call such as:
+
+`python -m robotframework_obfuscator --dest <dest-dir> --skip-var my_var --skip-var AnotherVar <dir-to-obfuscate>`
+
+
+Caveats
+--------
+
+Both keyword names and variable names will be obfuscated. If a given keyword or
+variable name was referenced in a different way (read from a file, environment
+variable, etc.), it's possible that the program may fail to execute afterwards,
+thus, it's suggested that the obfuscated version of the program is run to verify
+that the behavior is still the same.
+
+Note that keyword names passed to `Run Keyword` (or other run variants of the `Run`
+from the `BuiltIn` library) are properly translated, but if the target code has
+a some direct call to run a keyword, it may fail.
+
+It's possible to overcome this by not obfuscating a specific keyword name
+with the `--skip-keyword` option.
+
+Also note that if some variable is passed as a parameter to Robot Framework
+(or through some variables file), it's possible to use the `--skip-var` option
+to skip translating those variables.
+
+
+Notes
+------
+
+Note that the obfuscator may make your program run slower as in many cases an additional
+keyword evaluation may be needed for each keyword run -- in general, as a rule of thumb, 
+code that need to be fast, should be in Python, so, it shouldn't make much difference,
+but if the related code has too much logic leveraged in Robot Framework itself, it
+may make a difference.
+
+
+Important
+-----------
+
+This obfuscator is currently in alpha mode. Please run your program with the
+obfuscated version to make sure that the behavior is still the same.
+
+
