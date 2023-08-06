@@ -1,0 +1,11 @@
+README.md
+setup.py
+covid_dashboard_jadam.egg-info/PKG-INFO
+covid_dashboard_jadam.egg-info/SOURCES.txt
+covid_dashboard_jadam.egg-info/dependency_links.txt
+covid_dashboard_jadam.egg-info/top_level.txt
+dashboard/__init__.py
+dashboard/covid_data_handler.py
+dashboard/covid_news_handling.py
+dashboard/main.py
+dashboard/time_handler.py

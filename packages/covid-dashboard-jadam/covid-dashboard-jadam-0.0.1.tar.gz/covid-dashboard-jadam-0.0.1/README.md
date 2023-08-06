@@ -1,0 +1,25 @@
+## README
+### Introduction
+This project aims to provide a simple, personalisable dashboard for Covid data and news. Users can schedule updates to the data and news stories on top of those that already automatically occur. They can also customise what area they receive Covid data for to, as well as what sort of news they receive.
+___
+#### Prerequisites
+Designed for Python 3.9
+Sched and Flask modules
+Public Health England Covid data API module
+News Api module and **key** - can be gotten for free from https://newsapi.org/register
+___
+### Installation
+
+pip install schedule
+pip install Flask
+pip install uk-covid19
+pip install NewsApi
+___
+### Getting started
+Firstly you must open the config file and put your API key in for /key/. Next run main.py, this will start the server. The dashboard can now be accessed at http://127.0.0.1:5000/index.
+In order to change where Covid data is shown for, or what keywords are used to filter news stories, change the relevant lines in the config file
+___
+### Developer documentation
+
+___
+Author - James Adam
