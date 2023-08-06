@@ -1,0 +1,11 @@
+torchspider/__init__.py,sha256=MOQtOGvwUXyP7yRxfmWeOoJ8JMMUHE8XIEzK5pwUQ4k,116
+torchspider/callbacks.py,sha256=ETC1LUaug1eojajI4URtG25BJKybJ5UoiBLF4Zvj7xg,6712
+torchspider/data.py,sha256=gC9_n-47mF-LoO50BHlVZQJSk7b40axPco-l6046a4Y,278
+torchspider/learner.py,sha256=WMFH_GvrytcLz1rDcRhQ4DqGOWJCsFEJa2TL3EFoR40,6484
+torchspider/torch_tools.py,sha256=Fb3FJ9NW4q84W-t4ltLUVNdlfud65fz1Bp3cherBS-U,97
+torchspider/utils.py,sha256=kSSmiVEhzuyn0fPG8tm6z9NEbfczjCDxB5qn54gZxWQ,457
+torchspider-0.0.8.dist-info/LICENSE,sha256=bH3DY6c8z7LIvJAudV2h-izSJ3dbgfV9zVxN6M1-OXU,11411
+torchspider-0.0.8.dist-info/METADATA,sha256=wDVMf2GOgmBZ-nngxsCkhX0GEKMQ3yqvXPR6YrmlV-E,793
+torchspider-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torchspider-0.0.8.dist-info/top_level.txt,sha256=4CKoA3V5JBcs3rRuvleEtukPe7NQ-qAL7Fyj6WaX5Wc,12
+torchspider-0.0.8.dist-info/RECORD,,
