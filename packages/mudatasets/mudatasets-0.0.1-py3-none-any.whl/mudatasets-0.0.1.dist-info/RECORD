@@ -1,0 +1,13 @@
+mudatasets/__init__.py,sha256=JaEvhdIX9TqAvVMoOo103WTs4EyR3f95UMV6NjKvcOw,141
+mudatasets/core.py,sha256=yaADQBZGTi3n2KGnBrJdUTn0jWBAK4KlIQFEd99S21Y,11172
+mudatasets/utils.py,sha256=hBD81zAOBUcHfTr2HN7xemtB4ULlCRD8u5HnKsr5J_Q,227
+mudatasets/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mudatasets/datasets/brain3k_multiome.py,sha256=m4O2ncYJIqXA-U0tQOd_UspXDUv3xdx019E3tRSVwJk,2902
+mudatasets/datasets/brain9k_multiome.py,sha256=KWylD0AKf1mXIj5XKP2znUPQhZpe_hOdaQtLIAu46Gs,6608
+mudatasets/datasets/pbmc10k_multiome.py,sha256=wTPb9_BF-X-eGAC2Jgld1WZSCceH2wHFOBvAOOVs6yw,3153
+mudatasets/datasets/pbmc3k_multiome.py,sha256=j2d5uH6sr7jqenX2MONGrqOnC1IOz7hHdm_VnUg6JYE,3070
+mudatasets/datasets/pbmc5k_citeseq.py,sha256=zXDQqzKPlMAkIZstHcyi0FwgUuU74sgrAwdpqDJ7iIM,1694
+mudatasets-0.0.1.dist-info/LICENSE,sha256=SnyyMTmFeNiEFOZX3ZXhnipX3awaCaXESrSNLvIHyTQ,1524
+mudatasets-0.0.1.dist-info/WHEEL,sha256=LVOPL_YDMEiGvRLgDK1hLkfhFCnTcxcAYZJtpNFses0,81
+mudatasets-0.0.1.dist-info/METADATA,sha256=p0EKHnTRCNNIcnfj4UZYnpm8-57--7TMcXJSKjtBjjo,2564
+mudatasets-0.0.1.dist-info/RECORD,,
