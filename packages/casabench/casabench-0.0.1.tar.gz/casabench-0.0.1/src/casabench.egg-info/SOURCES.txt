@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/casabench.egg-info/PKG-INFO
+src/casabench.egg-info/SOURCES.txt
+src/casabench.egg-info/dependency_links.txt
+src/casabench.egg-info/requires.txt
+src/casabench.egg-info/top_level.txt
