@@ -1,0 +1,9 @@
+detacache/__init__.py,sha256=kOC6X0Kf3pA0LnduybFXgO6mCkRl01SuvApUdSf1Yoo,157
+detacache/_cacheApi.py,sha256=BqCq6nVKLjxi6sp2MKoI8BEmPNvVwuRn3JExeRXtsXE,4779
+detacache/_detaCache.py,sha256=mo-I2jYOiAj1YiBAppjct0R1_j88Lr9GiLoXw6Zkn8g,5362
+detacache/_helpers.py,sha256=vXikYHNGIYpU8AvaxQ5JmgufVSHb3PqfP4wzPS4TCis,1116
+detacache-0.0.7.dist-info/LICENSE.txt,sha256=R1jwkQwRYxv_HxdLxCeDYmY9Dlk_v5jsviiRw3MXjdo,1087
+detacache-0.0.7.dist-info/METADATA,sha256=JirSWz_7FjrFjOOGazPJvXlsR6ckhUZcqDFM-WnKbLA,1714
+detacache-0.0.7.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+detacache-0.0.7.dist-info/top_level.txt,sha256=AepoygfHmtKgXauOO9kHbCyDYbC2ajcQny58I8pXXjI,10
+detacache-0.0.7.dist-info/RECORD,,
