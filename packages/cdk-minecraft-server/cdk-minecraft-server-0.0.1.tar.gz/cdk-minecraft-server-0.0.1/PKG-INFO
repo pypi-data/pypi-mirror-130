@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cdk-minecraft-server
+Version: 0.0.1
+Summary: cdk-minecraft-server
+Home-page: https://github.com/Weasledorf-Inc/cdk-minecraft-server
+Author: Hasan Abu-Rayyan<hasanaburayyan21@gmail.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/Weasledorf-Inc/cdk-minecraft-server
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# replace this
+
+
