@@ -1,0 +1,11 @@
+autolgb/__init__.py,sha256=GeWlgpfktUMeOVCkxVwWjLyGNA8VXIZjD1fVV9yTG50,101
+autolgb/autolgb.py,sha256=qddXoUah7Fuc6FGGMDiiGEu1YjmI-fad64CrLvxaPzE,5778
+autolgb/logger.py,sha256=Cj-SIBBg1-Nm1E5_Kr7d59Kx2eYA7MD_1_uAH3foDSE,399
+autolgb/params.py,sha256=82HVaG01hvktiCkobFwvBTEVZ0DeJ_yXK_jgvUlT_S4,1124
+autolgb/schemas.py,sha256=-nRGwikOC7zqFssBSPY76sehCWCxEJqI33sY9IxFJKo,368
+autolgb/utils.py,sha256=-wiMk2fWN2pIVX_WgXRIyf0kvrFgar2N2GuD1kx66ro,7242
+kaggle_autolgb-0.0.6.dist-info/LICENCE,sha256=IprHEmxb_-Z6hhvkRyUST89qOS3d-FHLHkgO2og0JyQ,11328
+kaggle_autolgb-0.0.6.dist-info/METADATA,sha256=zqfopE-69mYmk0fKP81XLaxSm-UM6Pt4aYMcOs3uIFI,1548
+kaggle_autolgb-0.0.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+kaggle_autolgb-0.0.6.dist-info/top_level.txt,sha256=RCORtA_r-U8QnHgihBeedXLA0L_TydfrXqvGq6n_bWk,8
+kaggle_autolgb-0.0.6.dist-info/RECORD,,
