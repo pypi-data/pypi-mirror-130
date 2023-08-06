@@ -1,0 +1,5 @@
+pyyaml
+tensorflow>=2.2
+tqdm
+pandas
+mlflow
