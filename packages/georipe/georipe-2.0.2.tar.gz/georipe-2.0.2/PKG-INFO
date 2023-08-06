@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: georipe
+Version: 2.0.2
+Summary: reverse WHOIS (ripe,apnic,afrinic,lacnic,arin) and GEOIP (geo2ip, ip2geo) mass searching tool
+Home-page: https://github.com/USSCltd/georipe
+Author: USSC
+Author-email: usscltd@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: geo2ip,reverse whois,geoip,ripe,apnic,afrinic,lacnic,arin,whois,reverse,ip2geo,networks,recon,reconnaissance,world
+Platform: UNKNOWN
