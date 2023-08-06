@@ -1,0 +1,3 @@
+[console_scripts]
+latexsuite = latex_suite.latex_suite:main
+

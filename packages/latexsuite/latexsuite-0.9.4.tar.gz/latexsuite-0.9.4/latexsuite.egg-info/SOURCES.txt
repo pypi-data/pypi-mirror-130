@@ -1,0 +1,17 @@
+LICENSE.md
+README.md
+setup.py
+latex_suite/__init__.py
+latex_suite/bash_print.py
+latex_suite/bibliography.py
+latex_suite/git.py
+latex_suite/latex.py
+latex_suite/latex_suite.py
+latex_suite/search_language_errors.py
+latex_suite/util.py
+latexsuite.egg-info/PKG-INFO
+latexsuite.egg-info/SOURCES.txt
+latexsuite.egg-info/dependency_links.txt
+latexsuite.egg-info/entry_points.txt
+latexsuite.egg-info/requires.txt
+latexsuite.egg-info/top_level.txt
