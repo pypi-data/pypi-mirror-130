@@ -1,0 +1,13 @@
+financeager>=0.26.0.0
+Flask>=1.0.2
+Flask-RESTful>=0.3.5
+requests>=2.20.0
+
+[develop]
+coverage>=4.4.2
+pre-commit<2.0.0
+gitlint>=0.15.0
+
+[packaging]
+build
+twine>=1.11.0
