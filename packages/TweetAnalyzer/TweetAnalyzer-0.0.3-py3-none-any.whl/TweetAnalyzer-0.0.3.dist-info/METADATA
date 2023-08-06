@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: TweetAnalyzer
+Version: 0.0.3
+Summary: Tweet Analyzer Package
+Home-page: UNKNOWN
+Author: Daniel Becker
+Author-email: dbecker1@g.emporia.edu
+License: UNKNOWN
+Keywords: python,first package,textblob
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+
+A simple package to demonstrate the usage of TextBlob from tweet analysis
+
