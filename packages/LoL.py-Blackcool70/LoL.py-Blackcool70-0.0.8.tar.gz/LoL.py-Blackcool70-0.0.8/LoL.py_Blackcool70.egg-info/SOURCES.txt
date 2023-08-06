@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+LoL/__init__.py
+LoL/main.py
+LoL.py_Blackcool70.egg-info/PKG-INFO
+LoL.py_Blackcool70.egg-info/SOURCES.txt
+LoL.py_Blackcool70.egg-info/dependency_links.txt
+LoL.py_Blackcool70.egg-info/requires.txt
+LoL.py_Blackcool70.egg-info/top_level.txt
