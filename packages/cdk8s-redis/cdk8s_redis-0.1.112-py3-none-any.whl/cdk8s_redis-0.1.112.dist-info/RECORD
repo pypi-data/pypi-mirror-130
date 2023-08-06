@@ -1,0 +1,9 @@
+cdk8s_redis/__init__.py,sha256=5wgm3dtsmzw44yJWTfMlYJcV7UPQACqDKeguxgRxnyY,4485
+cdk8s_redis/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cdk8s_redis/_jsii/__init__.py,sha256=6Ww9j8ot_vMj63gjWpKlcKyX7SWfKrPt9nRBxbw612s,357
+cdk8s_redis/_jsii/cdk8s-redis@0.1.112.jsii.tgz,sha256=AAZcVQ83W0oOApop_T-K7y99h3bEOcAOlAfAE9M_kws,249511
+cdk8s_redis-0.1.112.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+cdk8s_redis-0.1.112.dist-info/METADATA,sha256=FxLf42dPFem3v7GrIcmP0ouqNLdN1n75r36s8sRy5mk,2001
+cdk8s_redis-0.1.112.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+cdk8s_redis-0.1.112.dist-info/top_level.txt,sha256=rMT5kvLtIesGranQ-dvpNqJ1hWEWxjhRD-SiVolTM9M,12
+cdk8s_redis-0.1.112.dist-info/RECORD,,
