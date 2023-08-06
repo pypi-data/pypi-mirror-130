@@ -1,0 +1,12 @@
+migro/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migro/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+migro/database.py,sha256=0u9d_lMSrvxLlQouBM0DW-WDr8mE79G4HHU7xI5ujJk,3042
+migro/dbt.py,sha256=4WPe-SjaqQ6gd9Cg2uJZOXlwTmjEYot-FTsHikwgJb0,521
+migro/jinja.py,sha256=u3-h3QUHgT4iuMj_goDFCzPfzvGRb9xVTfWrZqPGByE,547
+migro/main.py,sha256=8RSZqY-KO_1feLpCmxs-8NoYKJ_OV9ZCpjw5Ow4fjgE,1054
+migro/migrations.py,sha256=uIAyZl-QmA0PAZzL7b5uYTH-t09T0jnUXByCeyhWOvg,2476
+migro-0.0.1.dist-info/METADATA,sha256=Mo5lYZCpf3QgCrZWXAa_M3Zv6Uq0o1_b3laj1kYscuE,219
+migro-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+migro-0.0.1.dist-info/entry_points.txt,sha256=qoV0WhPvFDgyjN6rEsxjpXcFE4V04KdiyhnNP4cEknM,42
+migro-0.0.1.dist-info/top_level.txt,sha256=gjmDQbTqIVVKnoFtYYL1y__piqezva29gTnYLE9LFPQ,6
+migro-0.0.1.dist-info/RECORD,,
