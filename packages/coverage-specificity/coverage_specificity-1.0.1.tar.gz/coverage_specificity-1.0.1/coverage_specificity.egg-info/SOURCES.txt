@@ -1,0 +1,8 @@
+README.md
+setup.py
+cov_spec/__init__.py
+coverage_specificity.egg-info/PKG-INFO
+coverage_specificity.egg-info/SOURCES.txt
+coverage_specificity.egg-info/dependency_links.txt
+coverage_specificity.egg-info/requires.txt
+coverage_specificity.egg-info/top_level.txt
