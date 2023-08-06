@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: radbsdf
+Version: 0.0.3
+Summary: A Python wrapper of Radiance BSDF library
+Home-page: UNKNOWN
+Author: LBNL
+Author-email: taoningwang@lbl.gov
+License: {file = "License.txt"}
+Platform: UNKNOWN
+
+UNKNOWN
+
