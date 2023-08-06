@@ -1,0 +1,17 @@
+README.md
+pyproject.toml
+setup.cfg
+src/shapecalc/Circle.py
+src/shapecalc/Cone.py
+src/shapecalc/Cube.py
+src/shapecalc/Cuboid.py
+src/shapecalc/Cylinder.py
+src/shapecalc/Rectangle.py
+src/shapecalc/Sector.py
+src/shapecalc/Square.py
+src/shapecalc/Triangle.py
+src/shapecalc/__init__.py
+src/shapecalc.egg-info/PKG-INFO
+src/shapecalc.egg-info/SOURCES.txt
+src/shapecalc.egg-info/dependency_links.txt
+src/shapecalc.egg-info/top_level.txt
