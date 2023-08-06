@@ -1,0 +1,12 @@
+CHANGELOG.md,sha256=gIY-0KtrBz3jzv7vpc09aujmfcE84EpuuIk-_rkt2jM,1155
+LICENSE,sha256=ysoagsuBVGlIBSkt8nZCoLCQdQ-_q33JTOxDtWkJdVA,1457
+argo_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+argo_client/connection.py,sha256=1YQiTxMqfE_2klhlGL7lUJqCIROHOqj9bSTvKz7HW1Q,17459
+argo_client/interaction.py,sha256=f3b3RiOThXz0iTE78Q09sQiQjMq8rFgchmhnr0QIN2I,9239
+argo_client/netstring.py,sha256=w-N6v0yMcJuy_0gsfRkLHqfdN8FWSsIDzv1w8eCs5R0,1189
+argo_client/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy.ini,sha256=k7zKjD4ywkQ-NyojlDZqa6BxGfX20kPvtQSC_GbVsVA,232
+argo_client-0.0.10.dist-info/LICENSE,sha256=ysoagsuBVGlIBSkt8nZCoLCQdQ-_q33JTOxDtWkJdVA,1457
+argo_client-0.0.10.dist-info/WHEEL,sha256=VN2eEg4PHbTOniXb-cCYQPc6zUTS4dAcATjlgU3q-Lo,83
+argo_client-0.0.10.dist-info/METADATA,sha256=RewIB93pgiOpSBeMtGc7UjJ0IQNmgL8YdWatQv6Eh3w,947
+argo_client-0.0.10.dist-info/RECORD,,
