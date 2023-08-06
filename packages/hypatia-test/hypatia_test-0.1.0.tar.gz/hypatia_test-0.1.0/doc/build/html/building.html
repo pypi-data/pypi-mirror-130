@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Building and Running a Model &mdash; hypatia 0.1 documentation</title>
+      <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/wrapper.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/wrapper.css" type="text/css" />
+      <link rel="stylesheet" href="_static/css/wrapper.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+        <script src="_static/jquery.js"></script>
+        <script src="_static/underscore.js"></script>
+        <script src="_static/doctools.js"></script>
+        <script crossorigin="anonymous" integrity="sha256-Ae2Vz/4ePdIu6ZyI/5ZGsYnb+m0JlOmKPjt6XZ9JJkA=" src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.4/require.min.js"></script>
+    <script src="_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Analyzing and Visualizing a Model" href="analyzing.html" />
+    <link rel="prev" title="Contributors" href="contributors.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="index.html" class="icon icon-home"> hypatia
+          </a>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="intro.html">Introduction</a></li>
+<li class="toctree-l1"><a class="reference internal" href="installation.html">Download and Installation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="contributors.html">Contributors</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Building and Running a Model</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#building-a-model">Building a model</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#time-horizon">Time Horizon</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#time-resolution">Time resolution</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#technology-definiton">Technology Definiton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#carriers-definiton">Carriers Definiton</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#regions">Regions</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#definiton-of-sets">Definiton of sets</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#running-a-model">Running a model</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="analyzing.html">Analyzing and Visualizing a Model</a></li>
+<li class="toctree-l1"><a class="reference internal" href="examples.html">Example Gallery</a></li>
+<li class="toctree-l1"><a class="reference internal" href="formulation.html">Mathematical Formulation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="api_references.html">API Documentation</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cvxpy.html">Why CVXPY</a></li>
+</ul>
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">hypatia</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
+      <li>Building and Running a Model</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="_sources/building.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  
+<style>
+/* CSS overrides for sphinx_rtd_theme */
+
+/* 24px margin */
+.nbinput.nblast.container,
+.nboutput.nblast.container {
+    margin-bottom: 19px;  /* padding has already 5px */
+}
+
+/* ... except between code cells! */
+.nblast.container + .nbinput.container {
+    margin-top: -19px;
+}
+
+.admonition > p:before {
+    margin-right: 4px;  /* make room for the exclamation icon */
+}
+
+/* Fix math alignment, see https://github.com/rtfd/sphinx_rtd_theme/pull/686 */
+.math {
+    text-align: unset;
+}
+</style>
+<section id="building-and-running-a-model">
+<h1>Building and Running a Model<a class="headerlink" href="#building-and-running-a-model" title="Permalink to this headline"></a></h1>
+<section id="building-a-model">
+<h2>Building a model<a class="headerlink" href="#building-a-model" title="Permalink to this headline"></a></h2>
+<p>Building a model in hypatia is very simple and includes three main steps:</p>
+<ol class="arabic simple">
+<li><p>Defining the <strong>Reference Energy System (RES)</strong></p></li>
+<li><p>Filling the parameters of the model through a sets of excel file that can be generated automatically by the model</p></li>
+<li><p>Running the model after giving the parameters</p></li>
+</ol>
+<p>In order to create a RES, you just need hypatia terminology to define the correct type of technology or energy carrier.
+The RES will be defined using a couple of excel files:</p>
+<ul>
+<li><p>global.xlsx which contains the information about:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Time horizon</p></li>
+<li><p>Time resolution</p></li>
+<li><p>Golabl technologies (within the whole spatial resolution) and their type</p></li>
+<li><p>Global energy carriers and their type</p></li>
+<li><p>Nodes or regions of the model</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>a couple of other excel files defined by the name of region that should contain informatio about:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Available technologies in the region</p></li>
+<li><p>Available energy carriers in the region</p></li>
+<li><p>The carrier in and carrier out of any single technology in the region</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<section id="time-horizon">
+<h3>Time Horizon<a class="headerlink" href="#time-horizon" title="Permalink to this headline"></a></h3>
+<p>time horizon in hypatia defines the number of <strong>Years</strong> to be modeled. Every year in the time horizon is a point that model make the decisions on the
+expansion of the technologies. The acceptable time step for hypatia is one year.</p>
+</section>
+<section id="time-resolution">
+<h3>Time resolution<a class="headerlink" href="#time-resolution" title="Permalink to this headline"></a></h3>
+<p>hypatia accpets any kind of user specified time resolution from yearly, seasonal, day and night, to hourly time resultion. The time resolution will be defined by defining the timeslices and the fraction
+of every timeslice in terms of number of hours in a year.</p>
+</section>
+<section id="technology-definiton">
+<h3>Technology Definiton<a class="headerlink" href="#technology-definiton" title="Permalink to this headline"></a></h3>
+<p>hypatia uses a technology classification inspired by <a class="reference external" href="https://calliope.readthedocs.io/en/stable/index.html">Calliope</a> as follow:</p>
+<table class="colwidths-given docutils align-default" id="id1">
+<caption><span class="caption-text">hypatia technology type terminology</span><a class="headerlink" href="#id1" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Technoloy Type</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Supply</p></td>
+<td><p>Supplies an energy carrier without consuming any energy carrier within the RES</p></td>
+</tr>
+<tr class="row-odd"><td><p>Demand</p></td>
+<td><p>Only consumes an energy carrier in the RES</p></td>
+</tr>
+<tr class="row-even"><td><p>Transmission</p></td>
+<td><p>Transmit an energy carrier from the production point to the consumption point (local and cross border transmission)</p></td>
+</tr>
+<tr class="row-odd"><td><p>Conversion</p></td>
+<td><p>Supplies an energy carrier by converting (consuming) another energy carrier</p></td>
+</tr>
+<tr class="row-even"><td><p>Conversion_plus</p></td>
+<td><p>Supplies one/multiple energy carrier/s by converting (consuming) an/multiple energy carrier/s (such as CHP plants)</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="carriers-definiton">
+<h3>Carriers Definiton<a class="headerlink" href="#carriers-definiton" title="Permalink to this headline"></a></h3>
+<p>besides technology classifications, hypatia also considers different kinds of energy carriers as follow:</p>
+<table class="colwidths-given docutils align-default" id="id2">
+<caption><span class="caption-text">hypatia carrier type terminology</span><a class="headerlink" href="#id2" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 33%" />
+<col style="width: 67%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Carrier Type</p></th>
+<th class="head"><p>Definition</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Resource</p></td>
+<td><p>The energy source extracted from nature and not processed such as sun or raw oil</p></td>
+</tr>
+<tr class="row-odd"><td><p>Intermediate</p></td>
+<td><p>An energy carrier that can be consumed by <strong>non-Demand</strong> technologies</p></td>
+</tr>
+<tr class="row-even"><td><p>Demand</p></td>
+<td><p>An energy carrier that can be consumed by <strong>Demand</strong> technologies</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="regions">
+<h3>Regions<a class="headerlink" href="#regions" title="Permalink to this headline"></a></h3>
+<p>Every single region represents a site that can have multiple specified technologies and carriers of any kind. The regions can be connected through the transmission technologies for
+trading different carriers.</p>
+</section>
+<section id="definiton-of-sets">
+<h3>Definiton of sets<a class="headerlink" href="#definiton-of-sets" title="Permalink to this headline"></a></h3>
+<p>The sets of the model will be defined through a couple of excel files and by using excel tables. The first excel file that defines global sets, should be named <span class="guilabel"><span class="accelerator">g</span>lobal.xlsx</span>.
+Within this file, following information should be defined:</p>
+<ul class="simple">
+<li><p>Regions</p></li>
+<li><p>Years</p></li>
+<li><p>Technologies and Technology Category</p></li>
+<li><p>Carriers and Carrier Type</p></li>
+<li><p>Timeslices and Timeslice Fraction</p></li>
+</ul>
+<p>When the <span class="guilabel"><span class="accelerator">g</span>lobal.xlsx</span> is prepared, for every single <strong>Region</strong>, a single excel file is required which has the same name of the region. For example, if model has a region called <strong>utopia</strong>,
+the file should be named <span class="guilabel"><span class="accelerator">u</span>topia.xlsx</span>.</p>
+<p>For every single region, there is the need of defining following information:</p>
+<ul class="simple">
+<li><p>Available technologies in the region</p></li>
+<li><p>Available carriers in the region</p></li>
+<li><p>Specifing the <strong>Carrier_in</strong> and <strong>Carrier_out</strong> for the technologies.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Supply technologies have no Carrier_in and accept only Carrier_out</p></li>
+<li><p>Demand technologies have no Carrier_out and accpet only Carrier_in</p></li>
+<li><p>Conversion technologies accept only one Carrier_in and one Carrier_out</p></li>
+<li><p>Conversion_plus technologies accept multiple Carrier_in and multiple Carrier_out</p></li>
+</ul>
+</div>
+<p>When these excel files are ready, you can start creating your <strong>Model</strong> and debuging possile mistakes in the definition of sets.
+In order to initialize the model, you need to import the <span class="guilabel"><span class="accelerator">M</span>odel</span> class. For initializing the model, two inputs to the Model
+class are needed:</p>
+<ol class="arabic simple">
+<li><p>path to the folder which sets files are</p></li>
+<li><p>the mode of the model:</p></li>
+</ol>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Operational:</strong> for operational analysis just for a single year</p></li>
+<li><p><strong>Planning:</strong> for continues capacity expansion analysis</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">from</span> <span class="nn">hypatia</span> <span class="kn">import</span> <span class="n">Model</span>
+
+<span class="n">model</span> <span class="o">=</span> <span class="n">Model</span><span class="p">(</span>
+  <span class="n">path</span><span class="o">=</span> <span class="s1">&#39;path/to/sets/folder&#39;</span><span class="p">,</span>
+  <span class="n">mode</span><span class="o">=</span> <span class="s1">&#39;Planning&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>In order to have a rapid look on the model sets, you can print the model:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="n">model</span><span class="p">)</span>
+</pre></div>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Planning mode is only implementable when the time horizon is just one year.</p>
+</div>
+<p>When the sets are parsed successfully, the nexts step is to define the parameters for the model. Like sets, parameters should be prepared in a set of excel files. For every single region,
+the excle file should be called in a specific way. Assuming that model has one region called <strong>utopia</strong>,
+the file should be named <span class="guilabel"><span class="accelerator">p</span>arameters_utopia.xlsx</span>. Depending on the mode of the mode, different input parameters maybe required. Every parameter of a region should be specified in
+different sheets of the excel file. Following table represents different sheet names with a short description.</p>
+<table class="colwidths-given docutils align-default" id="id3">
+<caption><span class="caption-text">Parameters</span><a class="headerlink" href="#id3" title="Permalink to this table"></a></caption>
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 25%" />
+<col style="width: 15%" />
+<col style="width: 20%" />
+<col style="width: 20%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Sheet name</p></th>
+<th class="head"><p>Description</p></th>
+<th class="head"><p>Category</p></th>
+<th class="head"><p>Time dimension</p></th>
+<th class="head"><p>Mode</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>INV</p></td>
+<td><p>Investment cost</p></td>
+<td><p>Costs</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning</p></td>
+</tr>
+<tr class="row-odd"><td><p>F_OM</p></td>
+<td><p>Fix O&amp;M</p></td>
+<td><p>Costs</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>V_OM</p></td>
+<td><p>Variable O&amp;M</p></td>
+<td><p>Costs</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>Residual_capacity</p></td>
+<td><p>Residual capacity</p></td>
+<td><p>Calibration</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>Max_production</p></td>
+<td><p>Maximum yearly production</p></td>
+<td><p>Constraint</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>Min_production</p></td>
+<td><p>Minimum yearly production</p></td>
+<td><p>Constraint</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>Capacity_factor_tech</p></td>
+<td><p>Technology capacity factor</p></td>
+<td><p>Technical</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tech_efficiency</p></td>
+<td><p>Technology efficiency</p></td>
+<td><p>Technical</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>Specific_emission</p></td>
+<td><p>Technology activity specific emission</p></td>
+<td><p>Technical</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>AnnualProd_perunit_capacity</p></td>
+<td><p>Capacity to activity conversion</p></td>
+<td><p>Technical</p></td>
+<td><p>[-]</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>Carbon_tax</p></td>
+<td><p>Specific tax on emission</p></td>
+<td><p>Policy/Cost</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>Fix_taxsub</p></td>
+<td><p>Tax or subsidy on fix costs</p></td>
+<td><p>Policy/Cost</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>Emission_cap_annual</p></td>
+<td><p>Annual emission production budget</p></td>
+<td><p>Policy</p></td>
+<td><p>Time horizon</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>Demand</p></td>
+<td><p>Carrier deamnd for the technologies</p></td>
+<td><p>Demand</p></td>
+<td><p>Time horizon * Timeslice</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>capacity_factor_resource</p></td>
+<td><p>Resource capacity factor of technologies</p></td>
+<td><p>Availability</p></td>
+<td><p>Time horizon * Timeslice</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-odd"><td><p>carrier_ratio_in</p></td>
+<td><p>The ratio of carriers input for conversion_plus</p></td>
+<td><p>Technical</p></td>
+<td><p>Time horizon * Timeslice</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+<tr class="row-even"><td><p>carrier_ratio_out</p></td>
+<td><p>The ratio of carriers output for conversion_plus</p></td>
+<td><p>Technical</p></td>
+<td><p>Time horizon * Timeslice</p></td>
+<td><p>Planning/Operational</p></td>
+</tr>
+</tbody>
+</table>
+<p>As the excel files are supposed to follow strict format and is not easy to create all the sheets, you may use <span class="guilabel"><span class="accelerator">c</span>reate_data_excels</span> function to automatically gerneate all the excel files.
+Then, you can fill the excel files accordingly. For example, to save all the excel files in a directory called ‘parameters’:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">create_data_excels</span><span class="p">(</span>
+  <span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;parameters&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>In case that the model is multi region, an extra file will be needed (and will be created by the function) called <span class="guilabel"><span class="accelerator">p</span>arameters_connections.xlsx</span> which is specified for shaping the
+connections between the regions.</p>
+<p>When the files are filled, you can parse the data to the model by specifing the directory of the folder containing the excel files:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">read_input_data</span><span class="p">(</span>
+  <span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;parameters&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+<section id="running-a-model">
+<h2>Running a model<a class="headerlink" href="#running-a-model" title="Permalink to this headline"></a></h2>
+<p>When the inputs of the model are correctly parsed to the model, you can run the model with specifying a couple of parameters:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">run</span><span class="p">(</span>
+  <span class="n">solver</span> <span class="o">=</span> <span class="s1">&#39;solver that you prefer&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+<p>If model finds an optimum solution, you can have access to the results through <span class="guilabel"><span class="accelerator">r</span>esults</span> attribute. For saving the results to your computer, use <span class="guilabel"><span class="accelerator">t</span>o_csv</span> function:</p>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="n">model</span><span class="o">.</span><span class="n">to_csv</span><span class="p">(</span>
+  <span class="n">path</span> <span class="o">=</span> <span class="s1">&#39;path/to/directory&#39;</span>
+<span class="p">)</span>
+</pre></div>
+</div>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="contributors.html" class="btn btn-neutral float-left" title="Contributors" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="analyzing.html" class="btn btn-neutral float-right" title="Analyzing and Visualizing a Model" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2021, SESAM, Politecnico di Milano.
+ Developed by: hypatia Team.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  <script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
