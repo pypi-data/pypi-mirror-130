@@ -1,0 +1,3 @@
+[console_scripts]
+pyyaml-erb = builder:build
+

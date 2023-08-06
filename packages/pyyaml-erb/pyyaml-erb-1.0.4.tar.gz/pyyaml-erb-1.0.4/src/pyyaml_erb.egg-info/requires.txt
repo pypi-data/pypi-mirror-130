@@ -1,0 +1,7 @@
+pyyaml>=5.1
+
+[dev]
+check-manifest
+
+[test]
+coverage
