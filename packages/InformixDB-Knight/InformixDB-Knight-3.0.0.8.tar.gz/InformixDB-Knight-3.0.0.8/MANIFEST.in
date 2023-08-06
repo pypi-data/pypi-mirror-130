@@ -1,0 +1,1 @@
+include COPYRIGHT MANIFEST.in informixdb.py old_datetime.py setup.py ext/_informixdb.ec ext/datetime-compat.h tests/dbapi20.py tests/testdbapi.py tests/test_for_wsgi.py tests/test.py tests/11-py.conf tests/source_env doc/default.css doc/informixdb.css doc/Makefile doc/manual.txt

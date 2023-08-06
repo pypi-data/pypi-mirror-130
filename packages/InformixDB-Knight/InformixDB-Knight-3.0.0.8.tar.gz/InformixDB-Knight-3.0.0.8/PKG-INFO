@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: InformixDB-Knight
+Version: 3.0.0.8
+Summary: InformixDB v3.0
+Home-page: http://sourceforge.net/projects/informixdb
+Maintainer: Knight
+Maintainer-email: knightnibo@gmail.com
+License: BSD License
+Description: InformixDB is a DB-API 2.0 compliant interface for IBM Informix Work For Python3
+        databases.
+Platform: POSIX
+Platform: Microsoft Windows 95/98/NT/2000/XP
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 95/98/2000
+Classifier: Operating System :: Microsoft :: Windows :: Windows NT/2000
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Database :: Front-Ends
