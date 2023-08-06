@@ -1,0 +1,10 @@
+pretty-tables==2.*
+
+[dev]
+black
+coveralls==3.*
+flake8
+isort
+mypy
+pytest==6.*
+pytest-cov==2.*
