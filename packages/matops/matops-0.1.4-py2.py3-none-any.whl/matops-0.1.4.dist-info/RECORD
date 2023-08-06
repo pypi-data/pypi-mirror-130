@@ -1,0 +1,7 @@
+matops/__init__.py,sha256=7z4AgKi-xPxRYX834_Mxp3afnxtJHuAbHxFR23QUH2c,75
+matops/exceptions.py,sha256=IeCOwbwntddXPly2wj3Ft7x0fPV6sbpFiNGwiQO971k,91
+matops/matrix.py,sha256=HI-28Nl0sO2Uvm-bK3baCn4W9Ap6JeUjAAUAIVvjmW0,4769
+matops-0.1.4.dist-info/LICENSE,sha256=NWH6iORjzKmOhYWG-xEeGc9GDQu3sBIxqcY9G_-mtj8,1063
+matops-0.1.4.dist-info/WHEEL,sha256=shCMacp_UZLzAaixE0UnHyDo5SCwd4EEmV8I_p7y88s,99
+matops-0.1.4.dist-info/METADATA,sha256=VCAXzqeW4cj8gqgvsR9B_nKBCbPtfelH05-jqimtDGg,10132
+matops-0.1.4.dist-info/RECORD,,
