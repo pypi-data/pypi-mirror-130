@@ -1,0 +1,6 @@
+archivotron/PathGenerator.py,sha256=zw5CvGcVoTL8T_EQXhAmkmLZ1fpu5VVwfVW86ew3j4A,8217
+archivotron/__init__.py,sha256=QGiwaMW7QBe-Euy4219A9QRNchW7NoHvSrIXNdzOwLw,70
+archivotron/tests/test_PathGenerator.py,sha256=u7xhpkVALjDwYJt21jVTEvCOd99FvrJx1p_Vw_MuduA,2568
+archivotron-0.0.0rc0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+archivotron-0.0.0rc0.dist-info/METADATA,sha256=x_EWvyipTCa36JGehOH9x7LKdLskwrRqkPki7znUGmk,550
+archivotron-0.0.0rc0.dist-info/RECORD,,
