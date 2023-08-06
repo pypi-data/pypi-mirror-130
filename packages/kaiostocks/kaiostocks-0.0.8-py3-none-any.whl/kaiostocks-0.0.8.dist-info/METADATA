@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: kaiostocks
+Version: 0.0.8
+Summary: this library treats stocks data
+Home-page: https://github.com/kaiomarques93/kaiostocks
+Author: Kaio
+Author-email: akaio@crimson.ua.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: ta
+Requires-Dist: numpy
+
+UNKNOWN
+
