@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: dndcharactergenerator
+Version: 0.1.5
+Summary: A python package to generate a D&D character and populate a character sheet.
+Home-page: https://github.com/gavingro/DATA533proj3_dndCharGen.git
+Author: gavingro, kradford7
+Author-email: grochowskigavin@gmail.com, kevin.radford117@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
