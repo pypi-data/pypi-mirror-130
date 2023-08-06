@@ -1,0 +1,10 @@
+---
+project:
+  dev:
+    bms:
+      login_url: https://qa.com/v1_0/user/codePwLogin
+      username: 13820606427
+      password: sq580@99
+      validcode: 789123
+    app:
+      token: 0ffa3d5a-2223-4b3c-a673-ebcad511607a

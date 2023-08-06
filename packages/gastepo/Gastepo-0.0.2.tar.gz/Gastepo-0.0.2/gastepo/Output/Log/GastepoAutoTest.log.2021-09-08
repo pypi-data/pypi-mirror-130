@@ -1,0 +1,15 @@
+[31m2021-09-08 11:48:29,687 [ERROR:GastepoAutoTest] (DatabaseUtils.py:create_session:92) ~ [Exception]：创建REDIS数据库会话实例过程中发生异常，请检查！
+Traceback (most recent call last):
+  File "/Users/mayer/Project/PycharmProjects/MileStone/Automation/Gastepo/Gastepo/Core/Util/DatabaseUtils.py", line 67, in create_session
+    redisParam = YamlConfig(config=APPLICATION_CONFIG_FILE).get('redis', 1)[self.env]
+KeyError: 'test'[0m
+[31m2021-09-08 11:56:16,613 [ERROR:GastepoAutoTest] (DatabaseUtils.py:create_session:93) ~ [Exception]：创建REDIS数据库会话实例过程中发生异常，请检查！
+Traceback (most recent call last):
+  File "/Users/mayer/Project/PycharmProjects/MileStone/Automation/Gastepo/Gastepo/Core/Util/DatabaseUtils.py", line 71, in create_session
+    password=redisParam['password'],
+KeyError: 'password'[0m
+[31m2021-09-08 11:57:29,841 [ERROR:GastepoAutoTest] (DatabaseUtils.py:create_session:94) ~ [Exception]：创建REDIS数据库会话实例过程中发生异常，请检查！
+Traceback (most recent call last):
+  File "/Users/mayer/Project/PycharmProjects/MileStone/Automation/Gastepo/Gastepo/Core/Util/DatabaseUtils.py", line 68, in create_session
+    print(redisParam['password1'])
+KeyError: 'password1'[0m

@@ -1,0 +1,40 @@
+{
+  "GET /mock/get_xml01": {
+    "request": {
+      "path": {},
+      "header": {
+        "Content-Type": "application/xml"
+      },
+      "param": {},
+      "data": {}
+    },
+    "response": {
+      "header": {
+        "date": "Tue, 22 Jun 2021 11:30:16 GMT",
+        "server": "uvicorn",
+        "content-length": "232",
+        "content-type": "application/xml"
+      },
+      "data": {
+        "qa": {
+          "history": {
+            "id": "1",
+            "name": "Mayer",
+            "battle": [
+              {
+                "order": "o1",
+                "location": "Japan"
+              },
+              {
+                "order": "o2",
+                "location": "Korean"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "status_code": 200,
+    "trace_time": "2021-06-22 19:38:41.002499"
+  }
+}
