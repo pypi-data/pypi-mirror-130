@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tiletool
+Version: 0.9
+Summary: TileTool is a simple, base module for working with tiles, based on pygame.sprite.Sprite. With TileTool you can transfer tile-levels and drawings from different format files to tile games created on pygame. Имеется документация на русском.
+Home-page: https://github.com/gibon228/tiletool
+Author: Vincent Vega
+Author-email: kharitonov.oe@gmail.com
+License: MIT
+Description: # tiletool TileTool is a simple, base module for working with tiles, based on pygame.sprite.Sprite. 
+        With TileTool you can transfer tile-levels and drawings from different format files to tile games created on pygame. 
+        
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
