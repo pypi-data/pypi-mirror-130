@@ -1,0 +1,4 @@
+UW-RestClients-Core
+UW-RestClients-SWS~=2.3
+UW-RestClients-PWS~=2.1
+mock
