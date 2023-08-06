@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: chat-webhooks
+Version: 1.0.1
+Summary: Interact and easily use Google Chat room webhooks.
+Home-page: https://bd103.github.io
+License: Apache-2.0
+Author: BD103
+Author-email: dont@stalk.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/BD103/Chat-Webhooks
+Description-Content-Type: text/markdown
+
+# Chat Webhooks
+
+Easily interact and send messages with Google Chat's webhooks feature. This API is small, but should be a nice framework for working with any webhook.
+
+## Installation
+
+```shell
+python -m pip install -U chat_webhooks
+```
+
+## Getting Started
+
+```python
+# API Example
+from chat_webhooks import ChatWebhook
+
+chat = ChatWebhook("WEBHOOK_URL")
+chat.send("Hello, world!")
+```
+
+```shell
+# Shell example
+$ python -m chat_webhooks -w "WEBHOOK_URL"
+
+# Interactive Google Chat webhook client
+# Made by BD103
+
+> Hello, world!
+```
+
+## More Documentation
+
+You can view a short guide [here](https://bd103.github.io/Chat-Webhooks).
+
