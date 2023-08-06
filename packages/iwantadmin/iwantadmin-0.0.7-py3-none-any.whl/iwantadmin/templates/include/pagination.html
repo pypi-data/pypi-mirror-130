@@ -1,0 +1,24 @@
+<ul class="pagination" style="margin-right: 0px;">
+    {% if cur_page != 1 %}
+    <li><a href="?model_name={{model_name}}&offset=0">&laquo;</a></li>
+    <li><a href="?model_name={{model_name}}&offset={{offset-limit}}&limit={{limit}}">Previous</a></li>
+    {% endif %}
+    {% for i in range(*page_range) %}
+        <li{% if cur_page == i %} class="active"{% endif %}>
+            <a href={% if cur_page != i %}"?model_name={{model_name}}&offset={{(i-1)*limit}}&limit={{limit}}"{% else %}"#"{% endif %}>{{i}}</a>
+        </li>
+    {% endfor %}
+    {% if has_more %}
+    <li><a href="?model_name={{model_name}}&offset={{next_offset}}&limit={{limit}}">Next</a></li>
+    <li><a href="?model_name={{model_name}}&offset={{(total_page-1)*limit}}&limit={{limit}}">&raquo;</a></li>
+    {% endif %}
+</ul>
+<!-- DEBUG 数据 -->
+<!-- <p>{{ self.__dict__._TemplateReference__context }}</p>
+<p>offset: {{offset}}</p>
+<p>limit: {{limit}}</p>
+<p>next_offset: {{next_offset}}</p>
+<p>total: {{total}}</p>
+<p>has_more: {{has_more}}</p>
+<p>cur_page: {{cur_page}}</p>
+<p>total_page: {{total_page}}</p> -->

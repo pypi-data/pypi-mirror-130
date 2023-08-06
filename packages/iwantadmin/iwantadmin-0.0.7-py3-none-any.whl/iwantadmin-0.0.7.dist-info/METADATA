@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: iwantadmin
+Version: 0.0.7
+Summary: An admin pages and apis generator based on fastapi and tortoise.
+Home-page: https://github.com/zhangkai803/iwantadmin
+Author: kai.zhang
+Author-email: 1065879514@qq.com
+License: BSD License
+Keywords: fastapi,admin,tortoise
+Platform: all
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
+Requires-Dist: aiofiles (==0.8.0)
+Requires-Dist: aiomysql (==0.0.20)
+Requires-Dist: fastapi (==0.61.1)
+Requires-Dist: tortoise-orm (==0.17.5)
+Requires-Dist: uvicorn (==0.11.8)
+Requires-Dist: jinja2 (==3.0.3)
+Requires-Dist: python-multipart (==0.0.5)
+
+# iwantadmin
+
+Hi.
+
+
