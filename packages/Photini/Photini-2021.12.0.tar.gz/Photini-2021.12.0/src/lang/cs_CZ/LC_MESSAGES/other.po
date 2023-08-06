@@ -1,0 +1,1984 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2012-21, Jim Easterbrook
+# This file is distributed under the same license as the Photini package.
+#
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version:  Photini\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-12-07 14:01+0000\n"
+"PO-Revision-Date: 2021-09-18 09:26+0000\n"
+"Last-Translator: Jim Easterbrook <jim@jim-easterbrook.me.uk>\n"
+"Language: cs_CZ\n"
+"Language-Team: Czech (Czech Republic) (http://www.transifex.com/jim-"
+"easterbrook/photini/language/cs_CZ/)\n"
+"Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && "
+"n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.8.0\n"
+
+# 28c9824f50ae45349a3602a543a9badb
+#: ../../../doc/other/installation.rst:6 57aac634af2c4c1e8116eb71a05214d9
+msgid "Installation"
+msgstr ""
+
+# 404bafa445154859a17e38ce0a232e62
+#: ../../../doc/other/installation.rst:8 7c9de3fd601c4cebbcc3a5d4bb35242a
+msgid ""
+"Installing Photini is not always a simple process. On some Linux "
+"distributions you might be able to use your package manager to install "
+"everything. On other platforms you need to install several dependencies "
+"before installing Photini."
+msgstr ""
+
+# d66d3dba089249899e5eb8696502d565
+#: ../../../doc/other/installation.rst:13 5e0bc1c458d24c0c97c7ffa4343f9bbf
+msgid "Windows"
+msgstr ""
+
+# f087fb5c9716410c8023dd1192359168
+#: ../../../doc/other/installation.rst:15 2eb38e6173154f678298f53383e4c050
+msgid ""
+"Installing Photini on Windows is done in two stages. First install "
+"Python_ (if you don't already have Windows Python installed) and then use"
+" pip_ to install Photini and its dependencies."
+msgstr ""
+
+# 68ba9edb10f64278829758e661742d54
+#: ../../../doc/other/installation.rst:19 386b26c542a0445c817871687595aa91
+msgid "Python"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:21 3831b94b902448ec9b5e0c9cf72e2afc
+msgid ""
+"Python_ is absolutely essential to run Photini. It is already installed "
+"on many computers, but on Windows you will probably need to install it "
+"yourself. Go to https://www.python.org/downloads/ and choose a suitable "
+"Windows installer. I suggest you use the 64-bit stable release with the "
+"highest version number that will run on your version of Windows. Beware "
+"of using very recent versions though, as some dependencies may not have "
+"been updated to work with the latest Python."
+msgstr ""
+
+# 5ebfab1b4f6d405f85586fbc675067b6
+#: ../../../doc/other/installation.rst:27 433de1f3e4844582b73727245df33b40
+msgid ""
+"When you run the Python installer make sure you select the \"add Python "
+"to PATH\" option. If you customise your installation then make sure you "
+"still select \"pip\". If you would like other users to be able to run "
+"Photini then you need to install Python for all users."
+msgstr ""
+
+# 011df7216ce042a2b1291028f3abe7e1
+#: ../../../doc/other/installation.rst:33 81c80d10481d4d4da579186e57cd6a4a
+msgid ""
+"After installing Python, start a shell (e.g. ``cmd.exe``) and try running"
+" ``pip``::"
+msgstr ""
+
+# b407fdcb4e7947a58e1fdcaa9068de5c
+#: ../../../doc/other/installation.rst:44 c810e664eb104867af3c906238a151db
+msgid ""
+"As suggested, you should upgrade pip now. (If you installed Python for "
+"all users you will need to run the shell as administrator.) Note that "
+"``pip`` must be run as ``python -m pip`` when upgrading itself::"
+msgstr ""
+
+# afe5356c20d14cceb4d48b075b3fbb4d
+#: ../../../doc/other/installation.rst:61 e8dc48438d8647ec8d48f73c4331b472
+msgid "Photini"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:63 bb7badb9682a401ba19a8b2e31d51109
+msgid ""
+"Now that Python is installed you can install Photini and its dependencies"
+" (and their dependencies)::"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:100 a34037ea061a461e8b1ec20df81a4e44
+msgid ""
+"Note that this installed ``PySide2`` as I'm using Windows 7. On Windows "
+"10 ``PySide6`` will be installed instead. The installer tries to choose "
+"appropriate packages for your computer, but might not always get it "
+"right. If this happens you can manually uninstall the unwanted package "
+"and install the correct one with pip."
+msgstr ""
+
+# 42b17bc0c1f942c3b3cca7517df0083d
+#: ../../../doc/other/installation.rst:105 b338a02586d6456d82fb92cfa518df6a
+msgid "Now you should be able to run photini::"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:119 8c3a6bc614174ea7adc18fe65d2a3dfb
+msgid ""
+"Note the list of ``No module named ...`` statements. These are optional "
+"dependencies that add functionality to Photini, for example ``enchant`` "
+"is used for spell checking. See :ref:`installation-optional` for a full "
+"list. The easiest way to install these packages is to specify them as "
+"extras when running pip::"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:126 aef49268738441119c598edbb954ddf3
+msgid "You can do this when you first install Photini, or any time later on."
+msgstr ""
+
+#: ../../../doc/other/installation.rst:128 d9e69c54a700404c8b9b40a3a7f1658c
+msgid ""
+"Although you can run Photini from a command shell, most Windows users "
+"would probably prefer to use the start menu or a desktop icon. These can "
+"be installed with the ``photini-post-install`` command, as described in "
+":ref:`installing-menu-entries` below::"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:134 0a7a17e66da24c0d8fb0a2383230bd6b
+msgid ""
+"This will open a dialog to request administrator privileges if you are "
+"not already running your command shell as administrator."
+msgstr ""
+
+#: ../../../doc/other/installation.rst:137 4679827edfcc4f599b18fb6a0e2a0582
+msgid "Linux and MacOS"
+msgstr ""
+
+# 7bce1f431f0c46d7bdb84f1eaf7b1847
+#: ../../../doc/other/installation.rst:139 1b949f7424af43ba96559bee6552c710
+msgid ""
+"Photini is available from the package manager on some Linux "
+"distributions, but beware of versions that are very out of date. In "
+"general I recommend installing Photini with pip_ and the dependencies "
+"with the package manager, to avoid breaking other software installed on "
+"your computer by installing an incompatible version."
+msgstr ""
+
+# 3d52098daece4bb3beb57bcbd16c709d
+#: ../../../doc/other/installation.rst:142 fb4233e2eb844ff2a9314cee33123940
+msgid ""
+"See :ref:`essential-dependencies` and :ref:`installation-optional` for a "
+"full list of dependencies. Where there is a choice of package you should "
+"usually choose the one that's available from your package manager."
+msgstr ""
+
+# 06b7c76be6f946968cc9ada0439e9d88
+#: ../../../doc/other/installation.rst:145 87716c1b9ba549b3a85fd25ae670e153
+msgid ""
+"If a package is not available from the system's package manager (or is "
+"not a dependency of other software) then you can use ``pip`` to install "
+"it from PyPI_. You may need to use ``pip3`` rather than ``pip`` to "
+"install Python3 packages."
+msgstr ""
+
+# 318d2718ebaa4b398206e544f437d516
+#: ../../../doc/other/installation.rst:148 8936feeecea9432f876f0d6336528942
+msgid ""
+"Different operating systems have different names for the same packages. "
+"If you run into problems, please let me know (email jim@jim-"
+"easterbrook.me.uk) and once we've worked out what needs to be done I'll "
+"be able to improve these instructions."
+msgstr ""
+
+# cd5527000c534421953407f7476a9dcf
+#: ../../../doc/other/installation.rst:152 07217103bcad48f785db4ad7e5df1bcd
+msgid "Latest release"
+msgstr ""
+
+# e84ad7f650844ba2bad61e2c79a4978e
+#: ../../../doc/other/installation.rst:154 e0256ef2efd04d13b9d23aba9bbe8d4f
+msgid ""
+"The easiest way to install the latest release of Photini is with the pip_"
+" command::"
+msgstr ""
+
+# 40dd061a35f84bcaade3434a311b26ff
+#: ../../../doc/other/installation.rst:158 682490cb6b314386bd2033b8d104215f
+msgid ""
+"This will install Photini and any Python packages it requires, for all "
+"users. If you prefer a single-user installation, which doesn't require "
+"root permission, you can use the ``--user`` option::"
+msgstr ""
+
+# c078c7f27f514155a7e108cc42d5ee48
+#: ../../../doc/other/installation.rst:163 31e576b5e5644e2eb4dcd1fed52801a3
+msgid ""
+"You can also use pip to install the optional dependencies when you "
+"install Photini::"
+msgstr ""
+
+# 31143953010a45a68a0fe3b712b0688b
+#: ../../../doc/other/installation.rst:170 d8451981c3fa48bfa2936172b10996f7
+msgid "Development version"
+msgstr ""
+
+# c44852efe32547909646b6798aa84637
+#: ../../../doc/other/installation.rst:172 1c927e1e210f4a06af85247a8cc342b6
+msgid ""
+"If you prefer to use the development version you can use git to clone the"
+" `GitHub repository <https://github.com/jim-easterbrook/Photini>`_ or "
+"download it as a .zip or .tar.gz file and then unpack it. Then set your "
+"working directory to the Photini top level directory before continuing."
+msgstr ""
+
+# 41a67fbf44eb43d4995ddc413ec3c2cd
+#: ../../../doc/other/installation.rst:175 d668e683e0684cfb9a15911ac1648327
+msgid ""
+"You can run Photini without installing it, using the ``run_photini.py`` "
+"script::"
+msgstr ""
+
+# f06b510c53d14bacbb58aaaf1e995d3b
+#: ../../../doc/other/installation.rst:179 fba61f7969604c778bb39c2ae7ccf8f0
+msgid ""
+"This can be useful during development as the script should also work "
+"within an IDE."
+msgstr ""
+
+# b0af9264e41d47699e234fa59d40f9a1
+#: ../../../doc/other/installation.rst:181 8eb54a5cf3ec48dfa2bb3b7e2368202c
+msgid "The development version can be built and installed using pip::"
+msgstr ""
+
+# bbebdd332edc4bf6a0a828df80847ae1
+#: ../../../doc/other/installation.rst:185 534ed8406da041829af103a4403a1916
+msgid "or::"
+msgstr ""
+
+# 5a7b16aee1b944eb8cf9b2f72acffb5c
+#: ../../../doc/other/installation.rst:189 da8627cea570451cb22196ab69c68022
+msgid "You will need to install the optional dependencies separately."
+msgstr ""
+
+# 44391b52a6a44686bf570bd68ce54507
+#: ../../../doc/other/installation.rst:191 43805b292e5b4210b8c088ebd2ab6b43
+msgid ""
+"If you'd like to test or use one of Photini's translation files you will "
+"need to update and compile the translations before installing or running "
+"Photini::"
+msgstr ""
+
+# aa37196999e046308e3aa35110986593
+#: ../../../doc/other/installation.rst:196 8ebc035f87244fdb8a76b51dff1c1afc
+msgid ""
+"This requires the Qt \"linguist\" software to be installed. See :ref"
+":`localisation-program-testing` for more information about using "
+"translations."
+msgstr ""
+
+# d5a8079fdded4b68b522b6455c8a665e
+#: ../../../doc/other/installation.rst:202 035ef62b0e6b40d698d0202cb071b32a
+msgid "Installing menu entries"
+msgstr ""
+
+# 7d7ba3d8b0904619834face055d29603
+#: ../../../doc/other/installation.rst:206 0f342250eb824929a8cb257018d466e1
+msgid ""
+"In previous versions of Photini installing with pip_ created start menu "
+"(Windows) or application menu (Linux) entries to run Photini. Recent "
+"versions of pip have made this a lot more difficult, so now the menu "
+"entries need to be created after installation. Run a command window, as "
+"described in the troubleshooting_ section, then run Photini's post "
+"installation command::"
+msgstr ""
+
+# bbebdd332edc4bf6a0a828df80847ae1
+#: ../../../doc/other/installation.rst:212
+#: ../../../doc/other/installation.rst:331 534ed8406da041829af103a4403a1916
+msgid "or ::"
+msgstr ""
+
+# 39d6e623343a42b88c2490d5e24919b3
+#: ../../../doc/other/installation.rst:216 48cd443c6296417eaf88334f3cae4add
+msgid ""
+"If you only want menu entries for a single user, run the command with the"
+" ``--user`` (or ``-u``) option::"
+msgstr ""
+
+# 1a36070bc35d449baa475f4de4f7af11
+#: ../../../doc/other/installation.rst:220 f0a8e19013e34428a09811a56215602c
+msgid "The menu entries can be removed with the ``--remove`` (or ``-r``) option::"
+msgstr ""
+
+# 62c821c1983c41b3a162dec323a16315
+#: ../../../doc/other/installation.rst:224 520c939d92d54c3f8aecef358679a16c
+msgid ""
+"You need to do this **before** uninstalling Photini, as the post "
+"installation command gets deleted when Photini is uninstalled."
+msgstr ""
+
+# 1bc23098cabf4bd88bc8954933723294
+#: ../../../doc/other/installation.rst:229 fe713d84840a4d9bab0220235521bf9d
+msgid "Essential dependencies"
+msgstr ""
+
+# e84ad7f650844ba2bad61e2c79a4978e
+#: ../../../doc/other/installation.rst:231 e0256ef2efd04d13b9d23aba9bbe8d4f
+msgid "These are all required for Photini to be usable."
+msgstr ""
+
+# d18579d5f8fb42ff9007484b6c775605
+#: ../../../doc/other/installation.rst:234
+#: ../../../doc/other/installation.rst:259 c5cebed7f2dc4e0b93c375a9fa089591
+msgid "Package"
+msgstr ""
+
+# 0b005838165c46468eb6ccdda61cff21
+#: ../../../doc/other/installation.rst:234
+#: ../../../doc/other/installation.rst:259 f6432c9f70514a35b3e02115d63f91f7
+msgid "Minimum version"
+msgstr ""
+
+# 0cba7b3946614b998a9c64d984ed4ae5
+#: ../../../doc/other/installation.rst:234
+#: ../../../doc/other/installation.rst:259 76351e27e6cf4065a3a04c44db85ca83
+msgid "Typical Linux package name"
+msgstr ""
+
+# a34e13d0843c41c4baa49091160560a7
+#: ../../../doc/other/installation.rst:234
+#: ../../../doc/other/installation.rst:259 2cf1d4d21da44effa11f618b40e478a8
+msgid "PyPI package name"
+msgstr ""
+
+# 68ba9edb10f64278829758e661742d54
+#: ../../../doc/other/installation.rst:236 386b26c542a0445c817871687595aa91
+msgid "Python_"
+msgstr ""
+
+# 89f8cc6ae77747118a0ebd0982b0f0fd
+#: ../../../doc/other/installation.rst:236 9ae939fd44e9491bb349e87bf9ff588e
+msgid "3.6"
+msgstr ""
+
+# a1549f1932c54f8795f02e810b44ed31
+#: ../../../doc/other/installation.rst:236 76d423af51224075b865f200e03a0edd
+msgid "python3"
+msgstr ""
+
+# fbfba1996d874983b3176b1f1642cfd9
+#: ../../../doc/other/installation.rst:237 54d1056c84b3491c8981e0d571e4ee3a
+msgid "PyQt_ [1]"
+msgstr ""
+
+# f1d106963f0647b998aba40ce4053bd5
+#: ../../../doc/other/installation.rst:237 bf1a9283a990403191c0fe6dce950e2b
+msgid "5.0.0"
+msgstr ""
+
+# 4fb70fd2c7bb486e8b78fa8cdb76a481
+#: ../../../doc/other/installation.rst:237 61e125d3537c4a858ae5b5537334a27c
+msgid "python3-qt5 or python3-pyqt5"
+msgstr ""
+
+# c0f89f90d4a44190aa0455b76092dff8
+#: ../../../doc/other/installation.rst:237 6b446d9e1ade4e59bd2594387ae1aa40
+msgid "PyQt5"
+msgstr ""
+
+# c76ba1d930f04c858e433d4fd5ce591d
+#: ../../../doc/other/installation.rst:238 db1c4150283444a399b466941313473a
+msgid "PySide2_ [1]"
+msgstr ""
+
+# d241058c61fb4205a21092a76c8a7854
+#: ../../../doc/other/installation.rst:238 2d908c40399b417799111c38b4af1202
+msgid "5.11.0"
+msgstr ""
+
+# f00be6fa605b45c792b3cb49ee7126fa
+#: ../../../doc/other/installation.rst:238 cf3461bfb268453f823cf8dfe6d268c5
+msgid "python3-pyside2"
+msgstr ""
+
+# ac34d23cd96645cb90141b7eda588e4b
+#: ../../../doc/other/installation.rst:238 15c5f3c1ba7043d7b261141987f071ed
+msgid "PySide2"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:239 99e917a53d104896b109993fd8d25aa6
+msgid "PySide6_ [1]"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:239 37ed416f23a64762b7a15df932876703
+msgid "6.2.0"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:239 6afb9fbe8ed84dda84594ab3fb481f53
+msgid "python3-pyside6"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:239 ec5d93452c8d46b09a3610b37694a861
+msgid "PySide6"
+msgstr ""
+
+# 8a8cce78f7d5448eb31302b83c1cc302
+#: ../../../doc/other/installation.rst:240 0860151917a94a6d98df5b92d23fdc64
+msgid "QtWebEngine_ or QtWebKit_ [2]"
+msgstr ""
+
+# fe34db3c67254705b714b10b3f7da587
+#: ../../../doc/other/installation.rst:240 7f44d76aaae3459ea2d3399cb001b22c
+msgid "python3-pyqt5.qtwebkit"
+msgstr ""
+
+# 4dfbf1a87b614a33990d5f8907d183f8
+#: ../../../doc/other/installation.rst:240 a07db03179ae43f4b575f713f3859b3e
+msgid "PyQtWebEngine"
+msgstr ""
+
+# b58454a3b66f4daba09fecf36a2280cf
+#: ../../../doc/other/installation.rst:241 6d7662d00349425eb7f268fa388b789a
+msgid "`python-exiv2`_ [3]"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:241 37ed416f23a64762b7a15df932876703
+msgid "0.8.1"
+msgstr ""
+
+# f00be6fa605b45c792b3cb49ee7126fa
+#: ../../../doc/other/installation.rst:241 cf3461bfb268453f823cf8dfe6d268c5
+msgid "python-exiv2"
+msgstr ""
+
+# 06d780dc3c7c462eabdf2cae4d50cb1c
+#: ../../../doc/other/installation.rst:242 f366f694b91743eeae1f068587c962ac
+msgid "appdirs"
+msgstr ""
+
+# a15924e321914d7cad4d4e817240857c
+#: ../../../doc/other/installation.rst:242 3b35e1e104434a359a74cafa7197eb50
+msgid "1.3"
+msgstr ""
+
+# 6c2dc0ef31674c30857789e5c22c1eed
+#: ../../../doc/other/installation.rst:242 6afb9fbe8ed84dda84594ab3fb481f53
+msgid "python3-appdirs"
+msgstr ""
+
+# abe3781389884e9787a66d996926eb0b
+#: ../../../doc/other/installation.rst:243 65dbdc5f6b5849beb6576dc5d3db6204
+msgid "requests_"
+msgstr ""
+
+# 8539052200aa436cbf4677d4cf2380bb
+#: ../../../doc/other/installation.rst:243 b71adcb8518540d1a68dce8af14c481c
+msgid "2.4"
+msgstr ""
+
+# 34a1cab6caf14980ad717b1a6e5ca155
+#: ../../../doc/other/installation.rst:243 925356e1ccd64419b2ae814844cd3587
+msgid "python3-requests"
+msgstr ""
+
+# f15d2ecbd4d34be7b7646cbce911a1de
+#: ../../../doc/other/installation.rst:243 93f7dc56a5fa46a680a9c571a0217b02
+msgid "requests"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:246 05dac501ecb24cd1a8788099578c2f25
+msgid ""
+"[1] PyQt_, PySide2_, and PySide6_ are Python interfaces to the Qt GUI "
+"framework. Photini version 2020.12.0 and later can use either PyQt or "
+"PySide2, and Photini version 2021.11.0 and later can also use PySide6, so"
+" you can install whichever one you prefer. If more than one of them is "
+"installed you can choose which one Photini uses by editing its "
+":ref:`configuration file <configuration-pyqt>`."
+msgstr ""
+
+# af5997b2bdcc4031bd8dac5444424301
+#: ../../../doc/other/installation.rst:250 cf4490892f794f438287c6d26589fe19
+msgid ""
+"[2] Photini needs the Python version of either QtWebEngine_ or QtWebKit_."
+" One of these may already be included in your PyQt_ or PySide2_ "
+"installation. QtWebEngine is preferred, but is not available on all "
+"operating systems. If you have both you can choose which one Photini uses"
+" by editing its :ref:`configuration file <configuration-pyqt>`."
+msgstr ""
+
+# 88cac543086f43afb025c6c58c0a7c00
+#: ../../../doc/other/installation.rst:255 5c3f045092244209bfbe9f30b0f24f4b
+msgid ""
+"[3] `python-exiv2`_ is a new interface to the Exiv2_ library, which "
+"Photini versions 2021.9.0 onwards can use. If you cannot install it on "
+"your computer then you need to install these packages instead:"
+msgstr ""
+
+# 3b85268cedd94982a902ec899216262c
+#: ../../../doc/other/installation.rst:261 d276a2830e99426cb3a65e2cad0c15dc
+msgid "gexiv2_"
+msgstr ""
+
+# 88f17c38b83343948685013d56a4e359
+#: ../../../doc/other/installation.rst:261 37ed416f23a64762b7a15df932876703
+msgid "0.10.3"
+msgstr ""
+
+# e9e085329ffd484baeb93e940f76e1e9
+#: ../../../doc/other/installation.rst:261 6e2ef9aa3fb6454784772819f861eee0
+msgid "libgexiv2-2"
+msgstr ""
+
+# d32270e2bafc42598a6febd8ff2183fd
+#: ../../../doc/other/installation.rst:262 07f95646f67c4e72934b8460e3bb7126
+msgid "gexiv2 introspection data"
+msgstr ""
+
+# cd2abcd76b82452c8c08998f65cc176a
+#: ../../../doc/other/installation.rst:262 f4f82488f0a74821a24b13bfd7146b67
+msgid "typelib-1_0-GExiv2-0_10 or gir1.2-gexiv2-0.10"
+msgstr ""
+
+# 6cdcbe1e9fc34e19bd8dae3810e682b4
+#: ../../../doc/other/installation.rst:264 99e917a53d104896b109993fd8d25aa6
+msgid "PyGObject_ [4]"
+msgstr ""
+
+# 4412d009e8c64383a710bdb5aa51a081
+#: ../../../doc/other/installation.rst:264 0c0162aee2164f0f8208772555aa6f4e
+msgid "python3-gobject or python3-gi"
+msgstr ""
+
+# ad00d70881b64d8d936af88ac59953c8
+#: ../../../doc/other/installation.rst:266 411af30b97ef4aad91dd7401055fe084
+msgid "pgi_ [4]"
+msgstr ""
+
+# 159d28865f174b4eae96087ba0dc093b
+#: ../../../doc/other/installation.rst:266 37ed416f23a64762b7a15df932876703
+msgid "0.0.8"
+msgstr ""
+
+# 36c45941ae70460986160c8e997558f5
+#: ../../../doc/other/installation.rst:266 176e6d3a69b74928b0c55c0d437e9c56
+msgid "pgi"
+msgstr ""
+
+# 41f6fa8d4190413d9ede42e8e1043cb8
+#: ../../../doc/other/installation.rst:269 439cb762a21c46b0ad4e179c7e437e71
+msgid ""
+"This is a more circuitous way to access photograph metadata from Python. "
+"Exiv2_ is the core \"C\" library. gexiv2_ is a GObject wrapper around the"
+" Exiv2 library. It has extra \"introspection bindings\" that allow it to "
+"be used by other languages. PyGObject_ or pgi_ provide a Python interface"
+" to the introspection bindings of the GObject wrapper around the Exiv2 "
+"library."
+msgstr ""
+
+# 8d709bb23b744bbaaa73e07ce42070b5
+#: ../../../doc/other/installation.rst:275 2788539d2081451b9dabe0b5b4d17f19
+msgid ""
+"[4] pgi_ is a pure Python alternative to PyGObject_ that may be more "
+"reliable on some systems, despite its author's warnings about its "
+"experimental status. If pgi doesn't work on your system you can go back "
+"to using PyGObject by uninstalling pgi::"
+msgstr ""
+
+# 14f0b75d219f4dc8bba2c817d988022b
+#: ../../../doc/other/installation.rst:283 5f3ea7ba1bb943a98ebf37bc07679f5a
+msgid "Optional dependencies"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:285 00c43b5ddec44ad7a36f371ee49d5488
+msgid ""
+"Some of Photini's features are optional - if you don't install these "
+"packages Photini will work but the relevant feature will not be "
+"available. Linux and MacOS users should use the system's package manager "
+"to install these if possible, otherwise use pip_. The package manager "
+"names will probably have ``python-`` or ``python3-`` prefixes."
+msgstr ""
+
+# 723e4909d9f845d1b4305d828deacf97
+#: ../../../doc/other/installation.rst:290 3979f39c51b44a148bc81607e2a961f9
+msgid "Feature"
+msgstr ""
+
+# 8e1672e7fc284ef691c6987c2de594ff
+# 055ae50e8fa54948bc7391eb5f4f6c3d
+#: ../../../../README.rst:11 ../../../doc/other/installation.rst:290
+#: 214debc9b0154ec693717e45640fad08 936117019ed4439693957eaf5c67e62a
+msgid "Dependencies"
+msgstr ""
+
+# 6d7bc84af88843f7b582cbc7bef36fe9
+#: ../../../doc/other/installation.rst:292 83c9cee59ce54d8f917bc3ee9eda3d0c
+msgid "Spell check[1]"
+msgstr ""
+
+# 42dc264da508439882881d26f5deac94
+#: ../../../doc/other/installation.rst:292 9b7dddf4b05c4bf182cc6a7ec4a47716
+msgid ""
+"pyenchant_ 1.6+ or Gspell_ (e.g. ``typelib-1_0-Gspell-1_0``, "
+"``gir1.2-gspell-1``)"
+msgstr ""
+
+# f6164063ac26491f8cf3371fecce8bcb
+#: ../../../doc/other/installation.rst:293 c1a4cc73f41f4f58afdaf3cbce33c886
+msgid "Flickr upload"
+msgstr ""
+
+# 5e0e767b305c47d085d6c5fde9c9c07c
+#: ../../../doc/other/installation.rst:293 5e8e2f976ac24a3c9f4bd078a5cc6453
+msgid "`requests-oauthlib`_ 1.0+, `requests-toolbelt`_ 0.9+, keyring_ 7.0+"
+msgstr ""
+
+# 9e0e9785ad154fa1a442a95e8b7300ea
+#: ../../../doc/other/installation.rst:294 619113c522d840ec8f0d5e7d2f72c0e0
+msgid "Google Photos upload"
+msgstr ""
+
+# 6a9c08e3538d4f46ae89aa87b114f3f9
+#: ../../../doc/other/installation.rst:294 c377f7fcffe84ccfabc417dbbca74e9e
+msgid "`requests-oauthlib`_ 1.0+, keyring_ 7.0+"
+msgstr ""
+
+# 951b1bf75b1c468aab6735a0bfa03f70
+#: ../../../doc/other/installation.rst:295 ec273593bf634485adc3d72b86606f67
+msgid "Thumbnail creation[2]"
+msgstr ""
+
+# 3989501c472840fea5c8154515a18baa
+#: ../../../doc/other/installation.rst:295 5ac162f30e094630a2a1f95c432bc2ed
+msgid "FFmpeg_, Pillow_ 2.0+"
+msgstr ""
+
+# 2257bb4ef11d440d8288c8a34244f41f
+#: ../../../doc/other/installation.rst:296 1fbdefdcf78246a4ac84b95695a00d10
+msgid "Import photos from camera[3]"
+msgstr ""
+
+# b58454a3b66f4daba09fecf36a2280cf
+#: ../../../doc/other/installation.rst:296 6d7662d00349425eb7f268fa388b789a
+msgid "`python3-gphoto2`_ 0.10+"
+msgstr ""
+
+# e4641898e292446e91f084835543cd28
+#: ../../../doc/other/installation.rst:297 46a20d6b8bf948ccb1af6d064a1d667c
+msgid "Import GPS logger file"
+msgstr ""
+
+# 23075867632d47af8a827e298066f021
+#: ../../../doc/other/installation.rst:297 4ac8fc77751b48eabf1924a1ca50de36
+msgid "gpxpy_ 1.3.5+"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:300 e8e0ce836c464526b3e69fb7a1358d06
+msgid ""
+"[1] If you are using python-exiv2 for metadata access then pyenchant is "
+"the preferred spelling package. Pyenchant requires a C library and "
+"dictionaries to be installed. See the `pyenchant documentation`_ for "
+"detailed instructions. Gspell requires PyGObject or pgi to be installed "
+"as well, as described above."
+msgstr ""
+
+# a925c01f03144c93bae8af8c1a1cddea
+#: ../../../doc/other/installation.rst:305 1c3aab162f494935a87902b370ae2286
+msgid ""
+"[2] Photini can create thumbnail images using PyQt, but better quality "
+"ones can be made by installing Pillow. FFmpeg is needed to generate "
+"thumbnails for video files, but it can also make them for some still "
+"image formats."
+msgstr ""
+
+# 3d9d1a9f31e1475bba39826f39663d25
+#: ../../../doc/other/installation.rst:308 50f9a5ceedb14eabb211f865ad420f4f
+msgid ""
+"[3]Photini can import pictures from any directory on your computer (e.g. "
+"a memory card) but on Linux and MacOS systems it can also import directly"
+" from a camera if python-gphoto2 is installed. Installation of python-"
+"gphoto2 will require the \"development headers\" versions of Python and "
+"libgphoto2. You should be able to install these with your system package "
+"manager."
+msgstr ""
+
+# afe5356c20d14cceb4d48b075b3fbb4d
+#: ../../../doc/other/installation.rst:313 e8dc48438d8647ec8d48f73c4331b472
+msgid "Running Photini"
+msgstr ""
+
+# 0b57024a0fbf47c49c1f17cc3af374a1
+#: ../../../doc/other/installation.rst:315 d1d7c1f92d49462bba074d72a234a443
+msgid ""
+"If the installation has been successful you should be able to run Photini"
+" from the \"Start\" menu (Windows) or application launcher (Linux)."
+msgstr ""
+
+# 92f135e0d57a405e8ebf24d87bc5d8fa
+#: ../../../doc/other/installation.rst:320 bec7a514b2a14396a74c2d44a8e6b550
+msgid "Troubleshooting"
+msgstr ""
+
+#: ../../../doc/other/installation.rst:322 577dac614a5e4461807b9020bd897fe0
+msgid ""
+"If Photini fails to run for some reason you may be able to find out why "
+"by trying to run it in a command window. On Windows you need to run a "
+"command shell, for example ``cmd.exe``. On Linux and MacOS you can run "
+"any terminal or console program."
+msgstr ""
+
+# fb6d22638e9b47fa96ed3d2ae4639645
+#: ../../../doc/other/installation.rst:326 88e9ed6ccace4131adc7fe8162b1c2f2
+msgid ""
+"Start the Photini program as follows. If it fails to run you should get "
+"some diagnostic information::"
+msgstr ""
+
+# 18a15c4b119a4147ad394f884da5ed70
+#: ../../../doc/other/installation.rst:335 0f5b461c24c048e4ade3d06150054007
+msgid ""
+"Note the use of the ``-v`` option to increase the verbosity of Photini's "
+"message logging. This option can be repeated for even more verbosity."
+msgstr ""
+
+# f5dfb018457b40408c68496e30f27807
+#: ../../../doc/other/installation.rst:338 42a61c776d714277b287a97aac5ca736
+msgid ""
+"If you need more help, please email jim@jim-easterbrook.me.uk. It would "
+"probably be helpful to copy any diagnostic messages into your email. I "
+"would also find it useful to know what version of Photini and some of its"
+" dependencies you are running. You can find out with the ``--version`` "
+"option::"
+msgstr ""
+
+# 2abd279a2baf4af28018922fde3299d6
+#: ../../../doc/other/installation.rst:345 705e46906f5d4608bf95a074bafbef29
+msgid ""
+"Some versions of PyQt may fail to work properly with Photini, even "
+"causing a crash at startup. If this happens you may be able to circumvent"
+" the problem by editing the :ref:`Photini configuration file "
+"<configuration-pyqt>` before running Photini."
+msgstr ""
+
+# 7121afca2ae548a4bdaae71799ad3e47
+#: ../../../doc/other/installation.rst:349 1bcf9a30c7f14312a9e53bbafa052ee0
+msgid "Mailing list"
+msgstr ""
+
+# c472694901ff4a6fbf677d396ca01d0c
+#: ../../../doc/other/installation.rst:351 4714134a5d3d4d75a6b5177f0fff177e
+msgid ""
+"For more general discussion of Photini (e.g. release announcements, "
+"questions about using it, problems with installing, etc.) there is an "
+"email list or forum hosted on Google Groups. You can view previous "
+"messages and ask to join the group at "
+"https://groups.google.com/forum/#!forum/photini."
+msgstr ""
+
+# 71184cc5df114d0ea23b3e95fa7328f3
+#: ../../../doc/other/installation.rst:357 a1472ba8b6b3498a94722efdabd3ba60
+msgid "Photini documentation"
+msgstr "Dokumentace k Photini"
+
+# cd8bcb501cd84c23a8947ccb134f3897
+#: ../../../doc/other/installation.rst:359 da054923900b449ea8a1798e7679b852
+msgid ""
+"If you would like to have a local copy of the Photini documentation, and "
+"have downloaded or cloned the source files, you can install `Sphinx <http"
+"://sphinx-doc.org/index.html>`_ and then \"compile\" the documentation::"
+msgstr ""
+
+# aff737480c0f40e98be6c05d48e70c99
+#: ../../../doc/other/installation.rst:364 b4cee6bbadde445e9f983750e1fdc980
+msgid ""
+"Open ``doc/html/index.html`` with a web browser to read the local "
+"documentation."
+msgstr ""
+
+# 5ed251f42a9d402e8df9247d3a8d3e8d
+# 1da7f55b38a24be6ac0d75b801467ede
+# 789a5415d296476bbb79635bee001f50
+# 67435e51c5db4051aed8008eaf23c6b0
+# bba94debe1d64fb6b771ed076ea4785e
+#: ../../../../<rst_epilog>:4 57d83e56b045475da5429a239cb3f5bf
+#: 7040a2536947404d9c9c2b5f4fd8b39e 800de73b2d6c4765be4ba20067c3adde
+#: 81f9907e4c2b419cab3d93666a6aef41 855241f05795480ab1ab03741e9cc166
+msgid ""
+"Comments or questions? Please subscribe to the Photini mailing list "
+"https://groups.google.com/forum/#!forum/photini and let us know."
+msgstr ""
+"Máte poznámky nebo otázky? Začněte odebírat poštovní seznam Photini "
+"https://groups.google.com/forum/#!forum/photini a dejte nám vědět."
+
+# 670bcc21e1b14081979cabb28ca171af
+#: ../../../doc/other/introduction.rst:6 a03665a1966e49cd909a18d64143fa30
+msgid "Introduction"
+msgstr ""
+
+#: ../../../../README.rst:2 dc08bdd0a84c4b60a8cda7061b846b4a
+msgid ""
+"A free, easy to use, digital photograph metadata (Exif, IPTC, XMP) "
+"editing application for Linux, Windows and MacOS."
+msgstr ""
+
+# f14f2165e98c43b394d7d154826e20fe
+#: ../../../../README.rst:4 6d303020c6ac4bc98b59abf50b634d7e
+msgid ""
+"\"Metadata\" is said to mean \"data about data\". In the context of "
+"digital photographs this means information that isn't essential in order "
+"to display the image, but tells you something about it. For example a "
+"title and description of the scene or the date & time and the GPS "
+"coordinates of the camera's position when the picture was taken."
+msgstr ""
+
+# 09dac0616d9d49039cb4c4214e498ae8
+#: ../../../../README.rst:8 74e9383f24f44d8992e05c4f72904542
+msgid ""
+"\"[Photini] doesn't try to be an all-singing, all-dancing image "
+"management powerhouse - it just lets you add information to photos, "
+"quickly and easily.\""
+msgstr ""
+
+# 797eb41ccd0540ada4dba0c23c152cca
+#: ../../../../README.rst:13 5cacd96a9fac4006b0ad5488d15bca86
+msgid "`Linux Format`_ magazine, January 2013"
+msgstr ""
+
+# 4fe35bfbda1b443580e7d1af4abea28f
+#: ../../../../README.rst:12 6c1e21199f654e79bddc35d65df62f65
+msgid "Why is it called Photini? Read my `blog post`_ on how I chose a name."
+msgstr ""
+
+# a68b402aece2469a8d2fc3a6a2b28d2a
+#: ../../../../README.rst:16 913baa6628bb4bc9b6d52e7de3985c45
+msgid "Contents"
+msgstr ""
+
+# 302e186b094848dc9672a7b5a1fdbee6
+#: ../../../../README.rst:19 545760e5a2f842a9b1d58d7c7aa1dff5
+msgid "Features"
+msgstr ""
+
+# 0ad823a1b13747fb95bc8d428ca4b4cb
+#: ../../../../README.rst:3 12443c8dc9654a239076c59ab8a87c40
+msgid "Easy to use graphical interface."
+msgstr ""
+
+# 4ff9cbfd4a8949118d61bf2df5b651dd
+#: ../../../../README.rst:4 a67e708dfdf54cfc8be5a51d9cf8384f
+msgid "Set photo title, description, keywords, copyright and creator fields."
+msgstr ""
+
+# 741d860804b74c018e065d0e87094976
+#: ../../../../README.rst:5 b19fc28c519f45158b756d6030b3e5ae
+msgid "Some support for video files."
+msgstr ""
+
+# 86ad0520f8f64f8abbd5925adb3dbb59
+#: ../../../../README.rst:6 83b17dd7075a4f7e880fe629e24c0ce1
+msgid "Spell checking of some fields (optional)."
+msgstr ""
+
+# bbc811446e9d4899b0540c4cba4cd157
+#: ../../../../README.rst:7 5dfe2f7cdc2448dc9c2b65e51fbcc725
+msgid "Can set metadata for multiple images simultaneously."
+msgstr ""
+
+# 990ccd7f23454498b762b11a1c4e105b
+#: ../../../../README.rst:8 8009c82226f94ffba0b2edfded49d666
+msgid ""
+"Can adjust picture date & time and time zone (of multiple images "
+"simultaneously)."
+msgstr ""
+
+# 73da26e365ed4b95a822060459cc8a56
+#: ../../../../README.rst:9 ee40311eac6542b18736d88d1700d288
+msgid ""
+"Reads Exif, IPTC and XMP metadata, writes all three to maximise "
+"compatibility with other software."
+msgstr ""
+
+# e046b55192ad4829a0537e010a5301b9
+#: ../../../../README.rst:10 84632fcf529b4dab8da2a6bf2fd6cec0
+msgid "Writes metadata to image files or to XMP \"sidecar\" files."
+msgstr ""
+
+# fb2aad8b3b0f43d39772e4136c777945
+#: ../../../../README.rst:11 6d868f28ad664063b44673a53d219bf1
+msgid "Can import photographs from many digital cameras."
+msgstr ""
+
+# 7e97977e9f58482c8cb9fe8e58f46246
+#: ../../../../README.rst:12 ac748d5dddaa490c8212aac679888cf0
+msgid "Upload to Flickr_ and/or `Google Photos`_ with reuse of metadata."
+msgstr ""
+
+# 45e1935d790b43bbad8047a9b2d751ac
+#: ../../../../README.rst:3 b2818caa72874b158117f431478f3463
+msgid "Geotagging - search map to find named places."
+msgstr ""
+
+# 277b752e3f1b4fdabbe677abef801e39
+#: ../../../../README.rst:4 2a247b16f2ca43408687618ce103e395
+msgid "Choice of map providers - instantly switch to compare details."
+msgstr ""
+
+# 80c9d66acf1a480ea14c40be9e962ce5
+#: ../../../../README.rst:5 96ac3772385f4b59ab6ab90de69c317b
+msgid "Drag and drop images on to map to set GPS location."
+msgstr ""
+
+# b2c184ab07c945dc8ef798c987017b0a
+#: ../../../../README.rst:6 c8745349ff8a4de7b668d03c1050f0a3
+msgid "Edit coordinates if required, or clear to unset GPS data."
+msgstr ""
+
+# 64883ff278034387b1293b78a9c539b8
+#: ../../../../README.rst:7 5e47583073d24f73b21a2f7f878dd846
+msgid "Convert GPS coordinates to street address."
+msgstr ""
+
+# b97ba72343264470859ac0f0aa82a888
+#: ../../../../README.rst:8 6a168348c08645c8b45ef116d7a10549
+msgid "Suggestions for further development welcome."
+msgstr ""
+
+# 3c74c44d647041b58fcee5a929239fc2
+#: ../../../../README.rst:13 6a2681df0d694275a6ddd4ce880c18f0
+msgid "Photini requires at least the following:"
+msgstr ""
+
+# 5abfd2ee64b845a3895e84c80004c453
+#: ../../../../README.rst:15 dd861ce9639c40d1869e007460851347
+msgid "Python3: http://python.org/"
+msgstr ""
+
+#: ../../../../README.rst:16 2791382100f74c84925d3e989344c30d
+msgid ""
+"PyQt5 or PySide2 or PySide6: "
+"http://www.riverbankcomputing.co.uk/software/pyqt/ or "
+"https://doc.qt.io/qtforpython/"
+msgstr ""
+
+# 2aebcffad87f4ed392a4300644be37bb
+#: ../../../../README.rst:17 fc5e5379d37a4b958ed1331a547e091a
+msgid "python-exiv2: https://pypi.org/project/python-exiv2/"
+msgstr ""
+
+# abf4e8746f4c4914a743a24b32e3f2e9
+#: ../../../../README.rst:19 46764c6636d9442ba0e7d35ecbcee705
+msgid ""
+"For a full list of dependencies, please see the `installation "
+"documentation`_."
+msgstr ""
+
+# 9dbc65e9dae9482cbd76bbf9cdd79f1c
+#: ../../../../README.rst:4 d9b6c75cfc6d49b8aa07b77cdd475ad1
+msgid "Getting help"
+msgstr ""
+
+# 45676e019974444bbb08e1035ae8d163
+#: ../../../../README.rst:6 f94dabf0eacb4c798dcf7eff7a54cc6a
+msgid ""
+"If you encounter any problems installing or running Photini, please email"
+" jim@jim-easterbrook.me.uk and I'll respond as soon as I can. There is "
+"also an email list or forum for discussions about Photini at "
+"https://groups.google.com/forum/#!forum/photini. If you discover a bug "
+"and have a GitHub account then please file a bug report on the GitHub "
+"`\"issues\" page`_."
+msgstr ""
+
+# a2acbf43b42a4836991f8a3d94666559
+#: ../../../../README.rst:11 185c89f03d494201bc765696410ce173
+msgid "Internationalisation"
+msgstr ""
+
+# b93b5ce5a8a14180a4f3bcff8797a548
+#: ../../../../README.rst:13 44b610b386a14a4cb78cea621c302d89
+msgid ""
+"Work has begun on providing Photini in multiple languages. I rely on "
+"users to do the translation, as I am not fluent in any language other "
+"than English. If you'd like to help, please join the `Photini team on "
+"Transifex`_. For more details, see the `localisation documentation`_."
+msgstr ""
+
+# 9ee66ebe1b2b483bb4eb260b47e94751
+#: ../../../../README.rst:21 514e3032073e4b4c9b723e4287e2dc0a
+msgid "Licence"
+msgstr ""
+
+# fb7da95d6ca34b4a8f7c4e13a79c8728
+#: ../../../../README.rst:23 38d79ae8215c4bf584e49d8a491f015c
+msgid "Photini - a simple photo metadata editor."
+msgstr ""
+
+# 79153ff6c1e34dd1bfe1740fcc76d698
+#: ../../../../README.rst:24 d7c80341ef1b434fb3045de2ac5faf05
+msgid "http://github.com/jim-easterbrook/Photini"
+msgstr ""
+
+# 4d3fd7904a59438493ecd831251f31dd
+#: ../../../../README.rst:25 29c3f27a01454f35a2cf7e098a8e60c8
+msgid "Copyright (C) 2012-21  Jim Easterbrook  jim@jim-easterbrook.me.uk"
+msgstr ""
+
+# 8ebee23a9ff249efbc22a14dade549ad
+#: ../../../../README.rst:27 3a5e8372677f459c984db6791972bac0
+msgid "German translation by Jan Rimmek"
+msgstr ""
+
+# 980365300c474dd1a66321d977352786
+#: ../../../../README.rst:28 b29cd0a70f534901826bae90b2f7e8d7
+msgid "Spanish translation by Esteban Martinena & Cristos Ruiz"
+msgstr ""
+
+# 07a83cb395c64686ab332db7bfb2bf20
+#: ../../../../README.rst:29 9b41b2b70cc748f293790eb9acde3b8f
+msgid "Polish translation by \"itdawid\""
+msgstr ""
+
+# 4d9d50dd38b74fc8939d4c84f93cb825
+#: ../../../../README.rst:30 feed4b4308f74361b6d4d0cacd28607e
+msgid "Czech translation by Pavel Fric"
+msgstr ""
+
+# f875f2e7e273446aaa234dc6fd48245d
+#: ../../../../README.rst:31 42a510997e18425d890bef9fe730b0a5
+msgid "Catalan translation by Joan Juvanteny"
+msgstr ""
+
+# 788ac5c173484c2ea8c0a3786644a67c
+#: ../../../../README.rst:33 a5bd3885ea7b452894b95f00d73278e3
+msgid ""
+"This program is free software: you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the "
+"Free Software Foundation, either version 3 of the License, or (at your "
+"option) any later version."
+msgstr ""
+
+# bf91f0f0b2f44192a0ba9b26ec4a104c
+#: ../../../../README.rst:38 31c7c0ac3c15411f971e2a7bf56b66df
+msgid ""
+"This program is distributed in the hope that it will be useful, but "
+"WITHOUT ANY WARRANTY; without even the implied warranty of "
+"MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General"
+" Public License for more details."
+msgstr ""
+
+# 71bb43f2c7734a8ca1310b64381e1c1f
+#: ../../../../README.rst:43 68c10454d34b4f058f3daebb495454f8
+msgid ""
+"You should have received a copy of the GNU General Public License along "
+"with this program.  If not, see http://www.gnu.org/licenses/."
+msgstr ""
+
+# aa0bb955ffb54ebf982aa647f606d87a
+#: ../../../../README.rst:47 44ed111b94c7458fb042510253c9cc8d
+msgid "Service terms and conditions"
+msgstr ""
+
+# 4266b7cc9fd141a48384d2acb2ae2b9b
+#: ../../../../README.rst:49 e1f3519f699c40728b24d52489cb05ea
+msgid ""
+"Use of the Google map tab is subject to the `Google Maps Terms of Use`_ "
+"and `Google Privacy Policy`_."
+msgstr ""
+
+# b75870f792234c84834a6a8337af92d2
+#: ../../../../README.rst:51 ca8bd42cede04e849bc00d40bf94ca22
+msgid ""
+"Use of the Bing map tab is subject to the `Microsoft Bing Maps Terms of "
+"Use`_ and `Microsoft Privacy Statement`_."
+msgstr ""
+
+# 48e7f910137a4c68a29c9e8cae59a907
+#: ../../../../README.rst:53 944be2a4cd144bf896504ee9bd55a00e
+msgid ""
+"Use of the Mapbox map tab is subject to the `Mapbox terms of service`_ "
+"and `Mapbox privacy policy`_."
+msgstr ""
+
+# 3d480958c57249fa8bcd225556c845da
+#: ../../../../README.rst:55 16c3ecd0eafc4c6da257c8efe96eeba8
+msgid ""
+"The Flickr upload tab uses the Flickr API but is not endorsed or "
+"certified by Flickr."
+msgstr ""
+
+# 98e64a3ce5e84bc1a64f7c6cf21d6f03
+#: ../../../../README.rst:58 b4977e40b8b14333872c8b4e332afbc3
+msgid "Privacy statement"
+msgstr ""
+
+# 575b65154fe249b388b8cc4478caed09
+#: ../../../../README.rst:60 5f93d9aed08d47b892fb321605790e11
+msgid ""
+"Photini does not directly gather any information from its users, but the "
+"online services it can use (maps, Flickr, and Google Photos) may do so. "
+"You should read these services' privacy policies before using them."
+msgstr ""
+
+#: ../../../../README.rst:63 dfd9cad0d49c4c868c480d338a69693c
+msgid ""
+"Photini stores user preferences in a text file on the user's computer. "
+"The default location of this file is ``$HOME/.config/photini/`` (Linux), "
+"``$HOME/Library/Preferences/photini`` (MacOS), or "
+"``%USERPROFILE%\\AppData\\Local\\photini\\`` (Windows). OAuth_ access "
+"tokens for Flickr and Google Photos are securely stored on the user's "
+"computer using `Python keyring`_."
+msgstr ""
+
+# 4770fe2b99ea4ac088bbc38cf4f4915e
+#: ../../../../README.rst:69 5cf093615d6d4f7097898e1674a20532
+msgid "Documentation licence"
+msgstr ""
+
+# 1403ad21dcda430384700d5ab19299b2
+#: ../../../../README.rst:71 41208755413346218dc1656faf00704c
+msgid ""
+"Permission is granted to copy, distribute and/or modify the Photini "
+"documentation under the terms of the GNU Free Documentation License, "
+"Version 1.3 or any later version published by the Free Software "
+"Foundation; with no Invariant Sections, no Front-Cover Texts, and no "
+"Back-Cover Texts. A copy of the license is included in the documentation "
+"section entitled \"GNU Free Documentation License\"."
+msgstr ""
+
+# 125a0e235bd2495b8dfd375667f14f2a
+#: ../../../doc/other/localisation.rst:6 b583a3db9f4843fa8ae30f03404ccb23
+msgid "\"Localisation\""
+msgstr ""
+
+# d9408173670449848d8f3d85522a4a44
+#: ../../../doc/other/localisation.rst:8 8fbaea1088524288a9fe442c49b9569a
+msgid ""
+"Photini can be made easier to use for people who don't speak English. "
+"There are two parts to this -- the text used within the program and the "
+"documentation. I rely on users to do the translation as I can not write "
+"any other language with any fluency. You can use an online service called"
+" Transifex_ or a suitable text editor installed on your computer."
+msgstr ""
+
+# 263609c56ead44b59e43d7affd38585a
+# fbd24f8310104592b7e90bdb42576716
+# 3d96ce3f1660480ab0f4bd628a4db8e8
+#: ../../../doc/other/localisation.rst:14
+#: ../../../doc/other/localisation.rst:73
+#: ../../../doc/other/localisation.rst:176 684211c148cf4861a710f487fe22f7ad
+#: 9873e780341746d3aeecbff5550d9f20 f8f954fcdab447a692c04bdbcb81f265
+msgid "Online translation"
+msgstr ""
+
+# 4b0e6f9be85e4f21ad42a59de0df38de
+#: ../../../doc/other/localisation.rst:16 be67172bd1af436f9a2eea5645f8c4f2
+msgid ""
+"Transifex_ is an online translation service that provides free support "
+"for open source projects such as Photini. It provides an online editor, "
+"making it easy for individuals to contribute as much or as little effort "
+"as they wish. Follow the link to Transifex_ and click on \"help translate"
+" Photini\". From there you can create a free account and sign in."
+msgstr ""
+
+# a7a2a9bf9ff14e719664cf80aeb50e9a
+#: ../../../doc/other/localisation.rst:21 92429baf319a44e6ac82bf8dcc7295ba
+msgid ""
+"If your language is not included in the Photini project languages list "
+"you can ask for it to be added by clicking on \"request language\". Each "
+"language is represented by a code, e.g. ``nl`` or ``en_CA``. The longer "
+"codes are usually regional or national variations of a common language. "
+"You should choose the common language if it's not already available in "
+"Photini, moving on to the variations once the common language is done. "
+"Once your language is added you can ask to join the language team and "
+"then start translating."
+msgstr ""
+
+# 2236199f4dcc4c6fa715421053051fde
+#: ../../../doc/other/localisation.rst:27 e363bac8c0e64b9cb1cb3d8c61d36969
+msgid ""
+"The main advantages of online translation are that you don't need to "
+"install any software on your computer (apart from a web browser) and that"
+" several people can work on the same language. One disadvantage is that "
+"Transifex_ doesn't display the context in which a piece of text is used, "
+"which may make it more difficult to translate."
+msgstr ""
+
+# bfb2c348f3c54580a9fc342f99c4ed8c
+# 040bf8f093d74bbbb2c7a9b49dee60be
+#: ../../../doc/other/localisation.rst:31
+#: ../../../doc/other/localisation.rst:83
+#: ../../../doc/other/localisation.rst:182 213898e443fc45ec960bbcd7d64e2ef2
+#: 522e5259a2544cb88ea3ef4ae817d7f1 58d870fd058b4172b52a9d22481c03a8
+msgid "Offline translation"
+msgstr ""
+
+# e2ff875b0b544c48b1febccc73577d37
+#: ../../../doc/other/localisation.rst:33 b1ac3ff25b284d26be0b1557cd35bde2
+msgid ""
+"Translating Photini on your own computer will probably require extra "
+"software to be installed, but may be easier as you can see the program "
+"source where translations are used."
+msgstr ""
+
+# 75a617049a8d49d2afc1f959c9b745a4
+#: ../../../doc/other/localisation.rst:35 b6b94dbe656c48c49d5ebdbe4fa62237
+msgid ""
+"Start by installing the development version of Photini by cloning the "
+"GitHub repository (see :ref:`installation-photini`). You will also need "
+"to install the Transifex client program, Babel_ and ``pylupdate5``. If "
+"possible, install these with your operating system software manager. "
+"``pylupdate5`` should be in a package such as ``python3-qt5-devel`` or "
+"``pyqt-tools`` or similar, depending on your Linux distribution. "
+"Otherwise, you can use pip::"
+msgstr ""
+
+# 0595e1f3739b47129777bcab3333ae65
+#: ../../../doc/other/localisation.rst:43 6b2c903a4a574134b6dd77ecb1e01d71
+msgid ""
+"Start by getting the most recent translation into your chosen language "
+"from Transifex_, if there is one. For example, if you are going to "
+"translate Photini into Dutch::"
+msgstr ""
+
+# 734539d2b5154fa79f00e7330060c15d
+#: ../../../doc/other/localisation.rst:48 9eb6f83faece4543aaa8812049bb93e3
+msgid ""
+"(The ``-f`` option forces a download, even if your local file is newer "
+"than the translation on Transifex.)"
+msgstr ""
+
+# 9ec9de4d125842dd9884917ba6ab1dd2
+#: ../../../doc/other/localisation.rst:50 bd618694ab434d3dbc6996b4afe70f36
+msgid ""
+"Now update (or initialise if they don't exist) the translation files with"
+" the current program strings::"
+msgstr ""
+
+# e5f9023c5d634b02930ec0b7b480f572
+#: ../../../doc/other/localisation.rst:54 404cb35bc8d94e2b9341852333b41462
+msgid "Now you can open a translation file in your chosen editor, for example::"
+msgstr ""
+
+# 6e1b3cffe08743359d200321d7dc6af5
+#: ../../../doc/other/localisation.rst:59 74e5f266e7e1456795418dc0035682ad
+msgid ""
+"You can use any text editor for your translations, but a special purpose "
+"translation editor is preferable. The `Qt Linguist`_ program is ideal, "
+"but any editor that understands the ``.ts`` file format used for the "
+"program strings or the ``.po`` file format used for the documentation "
+"should be acceptable."
+msgstr ""
+
+# e8644983a5434834b66d8d7ed73a3626
+#: ../../../doc/other/localisation.rst:63 44c30df7922048a49e477cdd3a0e2928
+msgid "Translating the program text"
+msgstr ""
+
+# 129d85f6b7214ed0a6890defddb844af
+#: ../../../doc/other/localisation.rst:65 323a1f99fd0c4e3cb96e4e6ea3af1fd2
+msgid ""
+"If your computer is configured to use a language other than English, and "
+"Photini has already been translated into that language, then Photini "
+"should use the translation automatically. For example, this is what it "
+"might look like if your computer is configured to use Spanish."
+msgstr ""
+
+# 3983e3db11814fefb9f09a5816be4d5a
+#: ../../../doc/other/localisation.rst:70 1a1d517b4dae431caf01914771ebb4fe
+msgid ""
+"If you'd like to help by translating Photini into another language, or by"
+" improving an existing translation, this is what you need to do."
+msgstr ""
+
+# c3ba3394eec2498686fd1753545b6025
+#: ../../../doc/other/localisation.rst:75 7570129163b046ca86df60a72b19ccab
+msgid ""
+"On the Transifex site there are several \"resources\" for Photini. The "
+"one called ``photini`` contains the text strings used by the Photini "
+"program. (The others, beginning with ``doc``, contain the Photini "
+"documentation.) Click on the ``photini`` resource, then the language you "
+"want to work on, then click on the ``translate`` button. This displays a "
+"translation editing page where you can click on a text string to be "
+"translated and then type in your translation. See the :ref:`notes "
+"<localisation-program-notes>` below for things to be aware of when "
+"translating the program strings."
+msgstr ""
+
+# ae28092963e74bf9a5a7d6ff958be901
+#: ../../../doc/other/localisation.rst:85 4e65c1952deb4025b491b15094293f37
+msgid ""
+"The program strings are stored in files with names like "
+"``src/lang/nl/photini.ts``, where ``nl`` is the code for the Dutch "
+"language. You can open the translation file in any editor, but a "
+"translation tool is best. For example::"
+msgstr ""
+
+# e45bb9adcfe44702a279b5c3217026e7
+#: ../../../doc/other/localisation.rst:91 1fd62b1edc0b4141bc7cfaf1642bf3ed
+msgid ""
+"See the :ref:`notes <localisation-program-notes>` below for things to be "
+"aware of when translating the program strings."
+msgstr ""
+
+# 82c3bbd1e287454c8fd24d1fde2f2d07
+#: ../../../doc/other/localisation.rst:93
+#: ../../../doc/other/localisation.rst:192 8a53eab251644eccb4a4ddeed2b42d5c
+#: 9e8dcbdbe817452084b6d7b04389757f
+msgid ""
+"If you have a Transifex account then you should upload your translation "
+"as it progresses. This will ensure that your work isn't accidentally "
+"duplicated by other translators::"
+msgstr ""
+
+# 5fa1e71ff2984f4e86796679774536ab
+#: ../../../doc/other/localisation.rst:101
+#: ../../../doc/other/localisation.rst:200 3a73e0449d204978b6913fed3fe09818
+#: 98f520a62ceb4def8bedf14aeedcecc2
+msgid "Things to be aware of"
+msgstr ""
+
+# 0f8836471841457aad09674772f48015
+#: ../../../doc/other/localisation.rst:105 0f829fd83afe440e829c01fa02d4b1d4
+msgid "Words with special meanings"
+msgstr ""
+
+# 25e52734f8b64bd5856224e1b05640d8
+#: ../../../doc/other/localisation.rst:104 c1d715f5b933480aac762747337cd0ea
+msgid ""
+"Some of Photini's GUI elements such as ``Title / Object Name`` are named "
+"after the metadata items in the Exif, XMP or IPTC specifications. If "
+"information about these standards is available in your language it may "
+"help with translating these words."
+msgstr ""
+
+# e41cc58314d446d981b6b01051dbeaef
+#: ../../../doc/other/localisation.rst:110 bbf25fbc10b843378322b5401e157fc9
+msgid "Formatting strings"
+msgstr ""
+
+# 00a541e7f61c470c9ec81cd3aaf3f9ba
+#: ../../../doc/other/localisation.rst:108 1eabe8528ca549658dcbc49673b1a7e0
+msgid ""
+"In Python curly braces are used to include other data in a string. For "
+"example, ``Copyright ©{year} {name}. All rights reserved.`` includes the "
+"year and copyright holder's name when the program is run. You should take"
+" care not to change what's inside the braces, but you can reorder them if"
+" it's appropriate for your language."
+msgstr ""
+
+# dfba02fbae484ece8ca65f0c6ffc254c
+#: ../../../doc/other/localisation.rst:114 6738e980d5904026a0799629da515168
+msgid "Carriage returns"
+msgstr ""
+
+# f7d5a2bf8dd742f683654f1ee9aa257a
+#: ../../../doc/other/localisation.rst:113 70a290e8bf194f77abb9b877eb794e73
+msgid ""
+"Some of Photini's buttons split their labels over two or more lines to "
+"stop the button being too wide. You should split your translation in "
+"similar size pieces so it has the same number of lines."
+msgstr ""
+
+# 6b37fbd64ba0449987159c1b11ab5a16
+#: ../../../doc/other/localisation.rst:121 affa28b53bbd4c719a90ec5c657467f0
+msgid "HTML markup"
+msgstr ""
+
+# baec8f24aa404b83b73bf323c15862e1
+#: ../../../doc/other/localisation.rst:117 a691b9527b1644029ec6e1b021e3ab55
+msgid ""
+"Strings such as ``<h3>Upload to Flickr has not finished.</h3>`` include "
+"HTML markup which must be copied to your translated string. The Transifex"
+" web page includes a \"copy source string\" button that can help with "
+"this. Some strings such as ``<multiple values>`` are not HTML. The angle "
+"brackets ``<>`` are used to indicate data with a special meaning. These "
+"strings should usually be translated."
+msgstr ""
+
+# 72d3892e6828419c8d20c1d5b27e8cfb
+#: ../../../doc/other/localisation.rst:125 c3153d0a595945e5998cb935e90a6711
+msgid "Keyboard shortcuts"
+msgstr ""
+
+# b4cbfb1261434f2084d635d3b2107356
+#: ../../../doc/other/localisation.rst:124 cc3527e765ac44b295c92b497ceefe1e
+msgid ""
+"Some strings include a single ampersand character ``&`` immediately "
+"before a letter that is used as a keyboard shortcut. You should choose a "
+"suitable letter in your translation and place the ampersand "
+"appropriately."
+msgstr ""
+
+# 0160428558804d3b81e97a1cacacc267
+#: ../../../doc/other/localisation.rst:131 12fc07f22eb14869a57b27ee3aed27f5
+msgid "Plural forms"
+msgstr ""
+
+# c93145ed8d7f482c80b1822b1b2dff91
+#: ../../../doc/other/localisation.rst:128 d9023df4fc4b4ae483ae47eab65d156f
+msgid ""
+"Translations can accommodate the many ways that languages handle plurals."
+" For example in English we write \"0 files, 1 file, 2 files\". Transifex_"
+" has small buttons to select the quantity the translation applies to. "
+"Other translation editors should also handle plural forms."
+msgstr ""
+
+# bcaca18429d1433e9d43563a1614529c
+#: ../../../doc/other/localisation.rst:133 e3957a236e944e268223817b0b9db79b
+msgid ""
+"Note that Transifex may attempt to render some of this markup rather than"
+" show the raw strings. It may help if you use the settings button (a "
+"cogwheel shape) on the translation page to \"enable raw editor mode\"."
+msgstr ""
+
+# 4a1059508b194ba997395f0e9b3532a3
+#: ../../../doc/other/localisation.rst:136 2d5901e94e014bc5bf025a9f5c69ca30
+msgid ""
+"When you've finished your translation, or done a significant chunk of it,"
+" please email me (jim@jim-easterbrook.me.uk) to let me know. (If you're "
+"not using Transifex then send me your translation file directly.) If you "
+"install the development version of Photini (see :ref:`installation-"
+"photini`) you could also :ref:`test your translation <localisation-"
+"program-testing>` first."
+msgstr ""
+
+# 86070153d3624f778bd8020c433aa48b
+#: ../../../doc/other/localisation.rst:143
+#: ../../../doc/other/localisation.rst:228 18fdb31ae77a4757925f1fcb8ec6f780
+#: 970b82aaf4a24227a44501df5887f372
+msgid "Testing your translation"
+msgstr ""
+
+# e2480732bd1a4011a6ea9cc5c31d5128
+#: ../../../doc/other/localisation.rst:145 d82f9b99f5324301922f453fa87d0ede
+msgid ""
+"If you've been working online then the Transifex client is used to "
+"download your translated strings. For example, if you've been working on "
+"a Dutch translation with the language code ``nl``::"
+msgstr ""
+
+# c7450af5143a41d88d1f16caa974c891
+#: ../../../doc/other/localisation.rst:150 c66be267e1b24ff1933be436faa6bedb
+msgid ""
+"The translation file (e.g. ``src/lang/nl/photini.ts``) needs to be "
+"\"compiled\" (converted from ``.ts`` format to ``.qm`` format) before it "
+"can be used by the Photini program. This requires the ``lrelease-qt5`` "
+"program, which is part of the ``libqt5-linguist`` package on some Linux "
+"systems."
+msgstr ""
+
+# 0618fc0fb9ca435087163f81d6e380b9
+#: ../../../doc/other/localisation.rst:153 fd9a118a0b134b47b51fb11f16234a3e
+msgid "You can easily update and compile all the language files::"
+msgstr ""
+
+# 718fda14fbc14cc6b99539f6c9b1acb9
+#: ../../../doc/other/localisation.rst:158 9f4448d8d51643c2a05dc0da878290fa
+msgid "Now you can install Photini with your new translation(s)::"
+msgstr ""
+
+# 39de915bb22048618857209ea26eb53a
+#: ../../../doc/other/localisation.rst:162 0a294d8f13024c799b1d9b108ffd28ca
+msgid ""
+"Photini should use your new language if your computer's ``LANG`` "
+"environment variable is set appropriately. You can force this when "
+"running Photini from the command line::"
+msgstr ""
+
+# 5f127f79e2d94599bd4569d2b40c5805
+#: ../../../doc/other/localisation.rst:167 e0aedcda658449c89b250ec41a7bf69a
+msgid "Photini should now be using your translations."
+msgstr ""
+
+# a557ad47c26748d6b2fd1fcc9d37da4c
+#: ../../../doc/other/localisation.rst:170 a8c9ab376fa14f40a287372585426234
+msgid "Translating the documentation"
+msgstr ""
+
+# 02a604708fdd4b03824765cef82883df
+#: ../../../doc/other/localisation.rst:172 4cfdbb9880cf4709b6fa2a76a39713e1
+msgid ""
+"Translating Photini's documentation is a lot more work than translating "
+"the program itself. The `\"Read the Docs\" <https://readthedocs.org/>`_ "
+"web site can host multiple languages, and I would welcome the chance to "
+"add documentation of Photini in other languages."
+msgstr ""
+
+# ef54daa7685947569089010ef3a7b350
+#: ../../../doc/other/localisation.rst:178 b497d08f609546079f78efc509391e4f
+msgid ""
+"On the Transifex site Photini's documentation is in the resources that "
+"have names beginning with ``doc``. See the :ref:`notes <localisation-"
+"documentation-notes>` below for things to be aware of when translating "
+"the documentation."
+msgstr ""
+
+# c25d4ea7ba6e46d08863576798ce3a65
+#: ../../../doc/other/localisation.rst:184 20c420ab9c334d3f856ba6c722f026fd
+msgid ""
+"The documentation translation uses ``.po`` files as specified by the `GNU"
+" gettext <https://www.gnu.org/software/gettext/>`_ project. You can open "
+"the translation file in any editor, but a translation tool is best. For "
+"example::"
+msgstr ""
+
+# 78d48a83819e4ca38122e9509b26a0f7
+#: ../../../doc/other/localisation.rst:190 49a684690e844f718dd9b637f26a778a
+msgid ""
+"See the :ref:`notes <localisation-documentation-notes>` below for things "
+"to be aware of when translating the documentation."
+msgstr ""
+
+# a756f8aa36104e31bbbc56f2c320f04c
+#: ../../../doc/other/localisation.rst:202 2c02be0a3fbd4497811a082760370d8f
+msgid ""
+"The Photini documentation is written in `reStructuredText "
+"<http://docutils.sourceforge.net/rst.html>`_. This is a markup language "
+"that looks very like plain text, but uses certain characters to give "
+"extra meaning to some parts. You need to take extra care when the string "
+"to be translated includes such markup."
+msgstr ""
+
+# bf87721e7ebf49f485607ceacf413df0
+#: ../../../doc/other/localisation.rst:208 0de220ab119e4aa5849bde420191b8ba
+msgid "Double backquotes ``````"
+msgstr ""
+
+# afce8ee9b0a54aa6a12309c28c2fbb62
+#: ../../../doc/other/localisation.rst:207 3c5505b2c66044d2bc365310c05e83ea
+msgid ""
+"These usually mark words that are used in the Photini GUI. You may wish "
+"to include the English equivalent in brackets after your translation to "
+"help users read the documentation as the screen grabs are all from the "
+"English version."
+msgstr ""
+
+# 2deff2e4e7994df2924702432bbbe32c
+#: ../../../doc/other/localisation.rst:211 509313f0b20549b3b7fe4085fbe0aea3
+msgid "Special characters, e.g. ``(|hazard|)``"
+msgstr ""
+
+# f43b10fd567546afbc66a62aa61e3ffc
+#: ../../../doc/other/localisation.rst:211 28e6f2a51688426cb5bfd631dc3ce72e
+msgid "These refer to Unicode symbols and should not be translated."
+msgstr ""
+
+# 58eed8dde8d74f479577737cc15c9b9e
+#: ../../../doc/other/localisation.rst:214 443f2377194a4b7b9ed02cbd734697c6
+msgid "Short cross references, e.g. ``:doc:`tags```"
+msgstr ""
+
+# 63b0222ce2b84b35852e3da1980dcf0b
+#: ../../../doc/other/localisation.rst:214 cd36a0f9199e4d0493383a92065d42e3
+msgid "These should not be translated."
+msgstr ""
+
+# 72b2a4289eee4d1080f9ead50899d6a7
+#: ../../../doc/other/localisation.rst:217 c6a9caa6daa24ae6b8263f0b96a96226
+msgid ""
+"Long cross references, e.g. ``:ref:`installation <installation-"
+"optional>```"
+msgstr ""
+
+# e964d723dec8499b8a0f60cf52724f67
+#: ../../../doc/other/localisation.rst:217 45cd7f4f7d3f48d3ae1f900ee506dc10
+msgid ""
+"The text within the ``<>`` characters should not be translated, but it "
+"may be appropriate to translate the preceding link text."
+msgstr ""
+
+# 6c9d7a7f620f45ffa133e29af90c85ac
+#: ../../../doc/other/localisation.rst:220 6511a2b82ef547a0b236f1f4376de980
+msgid "External links, e.g. ```Flickr <http://www.flickr.com/>`_``"
+msgstr ""
+
+# faf26cec1cc94c83ab61151f93a2b2f0
+#: ../../../doc/other/localisation.rst:220 5b5ba46bc66c4954ab386506e8772317
+msgid ""
+"The url within the ``<>`` characters should not be translated, but it may"
+" be appropriate to translate the preceding link text."
+msgstr ""
+
+# d202e2782495444ea07787d997ffe2ac
+#: ../../../doc/other/localisation.rst:222 32cb5715bb2e47788e6acb6f06af209b
+msgid ""
+"When you've finished your translation, or done a significant chunk of it,"
+" please email me (jim@jim-easterbrook.me.uk) to let me know. (If you're "
+"not using Transifex then send me your translation file directly.)"
+msgstr ""
+
+# b4bb1ccf9f26421fb1314bce4d74ee5f
+#: ../../../doc/other/localisation.rst:230 1cef140acc294ef08bd3e87f63744fe2
+msgid ""
+"The Transifex client is used to download your translated strings. For "
+"example, if you've been working online on a Dutch translation with the "
+"language code ``nl``::"
+msgstr ""
+
+# 547b0746be8d40c3bdfbaebd0b3613cd
+#: ../../../doc/other/localisation.rst:235 62f3639e174c4fb19425397e718d2723
+msgid ""
+"If you install Sphinx_ (See :ref:`installation <installation-"
+"documentation>`) you can build a local copy of the documentation using "
+"your translation. For example, to build Dutch documentation::"
+msgstr ""
+
+# c255120135204046804188858607ddd8
+#: ../../../doc/other/localisation.rst:240 8be65a722f5a4fd2a2ded6085e900b02
+msgid ""
+"Open ``doc/html/index.html`` with a web browser to read the translated "
+"documentation."
+msgstr ""
+
+# ec7b31a1343742e7bf918835c5591f71
+#: ../../../doc/other/reading.rst:6 6eb129cb185745e5a10176452c7d2f0a
+msgid "Further reading"
+msgstr ""
+
+# fabb8be85294431698281be2054159b9
+#: ../../../doc/other/reading.rst:8 dc457b04ef5642b19af2b6eee0801c0f
+msgid ""
+"The best explanation of what should be put in each metadata field I've "
+"found is the `Guide to Photo Metadata Fields "
+"<http://www.photometadata.org/META-Resources-Field-Guide-to-Metadata>`_."
+msgstr ""
+
+# 9e6bc99ba6124e87bfa6026b6c20ba75
+#: ../../../doc/other/reading.rst:9 cbf222311f684237924c72e8ea9a277f
+msgid ""
+"`Google Maps JavaScript API "
+"<https://developers.google.com/maps/documentation/javascript/tutorial>`_."
+msgstr ""
+
+# e36521fd485d4e308ef2be3df4b19165
+#: ../../../doc/other/reading.rst:10 8279f93b714842a0b5f759be38605d3b
+msgid ""
+"`Bing Maps V8 Web Control <https://docs.microsoft.com/en-us/bingmaps/v8"
+"-web-control/>`_."
+msgstr ""
+
+# 6ce7ccf223af426f99c6bd1f9980dd7c
+#: ../../../doc/other/reading.rst:11 973fe5c2fd9d47fd94ac17265ec7f02c
+msgid ""
+"`Leaflet, an open-source JavaScript library for mobile-friendly "
+"interactive maps <http://leafletjs.com/index.html>`_."
+msgstr ""
+
+# 80b49d08d52e47e89e9a27100cbb0f4b
+#: ../../../doc/other/workflow.rst:6 6e0e76e3d81a4484b62c13357f7a52c6
+msgid "Typical workflow"
+msgstr ""
+
+# 8882461b6cd945a0bd16eebabf9bb836
+#: ../../../doc/other/workflow.rst:8 8213c172ebe5409a8294b34597a4c8bc
+msgid ""
+"This is a suggestion for how to use Photini. It roughly reflects what I "
+"do, but is just a guideline for beginners. As you gain experience you may"
+" choose to do things differently. There is no requirement to fill in all "
+"the metadata fields, nor to do them in any particular order."
+msgstr ""
+
+# b5822a20fa2d4d18895bd73ce445cc51
+#: ../../../doc/other/workflow.rst:14 9438ef4dbe134b009f3ca7513d99b050
+msgid "Make a backup copy"
+msgstr ""
+
+# 75fb20ac17e5483187f5e64e45718f59
+#: ../../../doc/other/workflow.rst:16 79afebc4dc89441ebf3c7acbf351b6f2
+msgid ""
+"Before editing any of your images' metadata you should make a backup "
+"copy. Even if I could guarantee that Photini was bug free and would never"
+" corrupt an image file, you still might have a power cut or other "
+"computer failure at just the wrong time and ruin a photograph you can "
+"never take again. Before you start, please make a backup copy of your "
+"photographs."
+msgstr ""
+
+# a849a447a37f4e02be9daf76dae8d57d
+#: ../../../doc/other/workflow.rst:21 733860434e9f42c3ae0a78adb530342f
+msgid "Load images"
+msgstr ""
+
+# 4accbf53e1a04f5cbb860c66aecd928f
+#: ../../../doc/other/workflow.rst:23 4eef449d059b4585bc621dee4c424e88
+msgid ""
+"Select the ``File`` menu ``Open images`` item (keyboard shortcut "
+"``Ctrl+O``). This opens a file selection dialog with which you can "
+"navigate to your image folder and select one or more image files to open."
+" If you prefer, you can \"drag and drop\" image files from a file manager"
+" window to the Photini editor's image selector."
+msgstr ""
+
+# d25a759c91d94f049e10029ecb29f765
+#: ../../../doc/other/workflow.rst:27 0b66a60a82a449a19c47dc9659f9ad13
+msgid ""
+"Photini doesn't set a limit to the number of files you can open "
+"simultaneously, but it's probably sensible not to open more than 30 or "
+"40, depending on the memory capacity and processing power of your "
+"computer. I usually load all the photographs taken on one day, or in one "
+"place."
+msgstr ""
+
+# a6159f7d1e404177a0f0176df257aad7
+#: ../../../doc/other/workflow.rst:30 2d869679b342499388342bc488038739
+msgid ""
+"Each image file is shown as a thumbnail image in the lower half of the "
+"Photini editor GUI. You can adjust the space allocated to this area by "
+"clicking and dragging the bar between it and the upper tab area. The "
+"thumbnails can be made larger or smaller with the ``thumbnail size`` "
+"slider. Choose a size that allows you to see a reasonable number of "
+"images, yet still tell one from another. Double click on any thumbnail to"
+" view the full size image in your default picture viewing program."
+msgstr ""
+
+# f23334ad93e9494bbbb1a4350532ca92
+#: ../../../doc/other/workflow.rst:37 5830ad5795ec48c7a7a28adeca66b02c
+msgid "Set text metadata"
+msgstr ""
+
+# a4cc867f2d8442bebedbf553fd4b15ad
+#: ../../../doc/other/workflow.rst:39 66628f8222e14107a72575310d9d97ae
+msgid ""
+"I usually start by setting the fields that are the same for all the "
+"photos I've loaded - ``Creator / Artist``, ``Copyright`` and ``Title / "
+"Object Name``. First you need to select the images whose metadata you "
+"want to change. Images are selected by clicking on their thumbnails. "
+"Shift+click and Ctrl+click can be used to select multiple images in the "
+"usual way. The quickest way to select all the images is the keyboard "
+"shortcut ``Ctrl+A``."
+msgstr ""
+
+# 2fbda16d37fd431db5020c51780a31a5
+#: ../../../doc/other/workflow.rst:45 b62e4794723a46aeada69c3058fefcf3
+msgid ""
+"The ``Creator / Artist`` and ``Copyright`` fields have ``Auto`` buttons "
+"to help fill them in. The first time you use these buttons Photini will "
+"ask for the names of the creator and the copyright owner. For amateur "
+"photographers these will probably be the same person, but in some cases "
+"the copyright might be owned by a company or some other organisation. The"
+" values you supply are saved for future use in Photini's configuration "
+"file."
+msgstr ""
+
+# d20bc90c0f404aeabf39732e4198fec5
+#: ../../../doc/other/workflow.rst:50 4687092c9da1412c827c707e23a1b32b
+msgid ""
+"If all your selected pictures have the same title then type it into the "
+"``Title / Object Name`` field now. Otherwise it's time to start selecting"
+" single images, or groups of images, and filling in the remaining text "
+"fields."
+msgstr ""
+
+# f1b16ca32e65440f8083579c3839b710
+#: ../../../doc/other/workflow.rst:53 a8165f811343466e8fbb0d864f9e1b90
+msgid ""
+"The ``Keywords`` field expects a list of words or short phrases, "
+"separated by semi-colon (;) characters."
+msgstr ""
+
+# 6abbffc8944c4109b91d2c17e53a6765
+#: ../../../doc/other/workflow.rst:56 ca9d03fef6e24a96bcdd873f9912a261
+msgid "Save your work so far"
+msgstr ""
+
+# 54e1a8c5735b4a60a720810c6d3879e2
+#: ../../../doc/other/workflow.rst:60 4d8faea630ef4ac396e348fa81d0c957
+msgid ""
+"As you proceed it's a good idea to save the images that have new metadata"
+" with the ``File`` menu ``Save images with new data`` item (keyboard "
+"shortcut ``Ctrl+S``). Any images with unsaved metadata have thumbnails "
+"marked with a warning symbol (|hazard|)."
+msgstr ""
+
+# 3d157141072e4be7bd46c8d9d41708f9
+#: ../../../doc/other/workflow.rst:64 e844c2990e544404bce452ca50891e32
+msgid "Set geolocation"
+msgstr ""
+
+# 2ede52af8eb84994a895e8a394aa1162
+#: ../../../doc/other/workflow.rst:66 492fceefda9047cb8c5cdc8f963b9219
+msgid ""
+"Amongst the commonly used image metadata items are the latitude and "
+"longitude of the position from which the photograph was taken. (Some "
+"people argue that it should be the position of the subject of the "
+"photograph, but what about photographs of the Moon?) Photini makes it "
+"easy to set the latitude and longitude of any photograph by dragging and "
+"dropping it onto a map."
+msgstr ""
+
+# 13272f41291c4742b849dc4f3658739c
+#: ../../../doc/other/workflow.rst:70 c4bfc097554b48678f8553e5c508924c
+msgid ""
+"There are currently four map tabs in the Photini editor, each of which "
+"gets maps (or aerial photographs) from a different provider: Google, "
+"Microsoft Bing, Mapbox, and Open Street Map. (Each of these providers has"
+" terms and conditions you should read and accept before using their "
+"maps.) The maps differ in appearance, and show different levels of detail"
+" for different parts of the world. You should use the one that you like "
+"best, but it's very easy to switch to another at any time."
+msgstr ""
+
+# c96513ba7318418c8f05556f0d16e0e0
+#: ../../../doc/other/workflow.rst:75 604bab8fc6584396bf7d11aeeb3dd901
+msgid ""
+"You may be able use the map's navigation and zoom controls to find the "
+"area you want, but usually you will need to use the search box. Click on "
+"``<new search>`` and type in a search term such as the name of a town. "
+"Note that the search is biased towards the current map location, so you "
+"might want to zoom out and pan to the right continent before searching. "
+"Type a search term into the box and hit return. A list of results should "
+"appear very soon, from which you can choose the one you want. Each map "
+"provider has its own search engine, so if you can't find the place you "
+"are looking for it might be worth trying a different provider."
+msgstr ""
+
+# b28c00504df6452bb80458eb22b53e35
+#: ../../../doc/other/workflow.rst:84 6c49c6a139a9414380ec85f17a758cb5
+msgid ""
+"Now zoom in and drag the map to home in on the place where your "
+"photographs were taken. Select one or more images that have a particular "
+"location and drag them onto the map. A marker should appear on the map "
+"and the latitude and longitude values will be displayed below the search "
+"box. The marker can be dragged around the map to adjust its position - "
+"you may find it easier to select the map's aerial or satellite option, at"
+" the highest zoom available, to set the exact position. Each image that "
+"has had a location set has its thumbnail marked with a flag symbol "
+"(|flag|)."
+msgstr ""
+
+# 661fb93f9e6645a69f6fe336a90e667b
+#~ msgid ""
+#~ "Python_ is absolutely essential to run"
+#~ " Photini. It is already installed on"
+#~ " many computers, but on Windows you"
+#~ " will probably need to install it "
+#~ "yourself. Go to https://www.python.org/downloads/"
+#~ " and choose a suitable Windows "
+#~ "installer. I suggest you use the "
+#~ "64-bit stable release with the highest"
+#~ " version number that will run on "
+#~ "your version of Windows."
+#~ msgstr ""
+
+# 024c83fe34e04d66aaa8854bf44d1f00
+#~ msgid ""
+#~ "Now that Python is installed you "
+#~ "can install Photini and the dependencies"
+#~ " as listed in :ref:`essential-"
+#~ "dependencies`. Start by installing PySide2_::"
+#~ msgstr ""
+
+# e31d4e01ad844c949c724b62818fa1be
+#~ msgid ""
+#~ "Note that this installed two packages,"
+#~ " pyside2 and shiboken2. This is "
+#~ "because ``pip`` knows what packages "
+#~ "other packages depend on and installs"
+#~ " them if required."
+#~ msgstr ""
+
+# b0af9264e41d47699e234fa59d40f9a1
+#~ msgid "The rest of the dependencies are installed similarly::"
+#~ msgstr ""
+
+# 5a5c26f205984027893f59be02dd431a
+#~ msgid ""
+#~ "Note the list of ``No module "
+#~ "named...`` statements. These are optional "
+#~ "dependencies that add functionality to "
+#~ "Photini, for example ``enchant`` is used"
+#~ " for spell checking. See :ref"
+#~ ":`installation-optional` for a full list."
+#~ msgstr ""
+
+# dda165546ec24cdb8c4bf3aa5e7f7cec
+#~ msgid "Photini can be started more directly from a command shell::"
+#~ msgstr ""
+
+# ce99aa8df7ee4da892576acbc86101b2
+#~ msgid ""
+#~ "However, most Windows users would "
+#~ "probably prefer to use the start "
+#~ "menu or a desktop icon. These can"
+#~ " be installed with the ``photini-"
+#~ "post-install`` command, as described in "
+#~ ":ref:`installing-menu-entries` below::"
+#~ msgstr ""
+
+# 37f2841c44ec40a4a1e85dfd28d5c3c4
+#~ msgid ""
+#~ "This will require administrator privileges "
+#~ "if you are not already running "
+#~ "your command shell as administrator."
+#~ msgstr ""
+
+# 3c19d72c2717446d823472106d31c558
+#~ msgid "Linux"
+#~ msgstr ""
+
+# 159d28865f174b4eae96087ba0dc093b
+#~ msgid "0.3.1"
+#~ msgstr ""
+
+# 88cac543086f43afb025c6c58c0a7c00
+#~ msgid ""
+#~ "[1] PyQt_ and PySide2_ are both "
+#~ "Python interfaces to the Qt GUI "
+#~ "framework. Photini version 2020.12.0 and "
+#~ "later can use either PyQt or "
+#~ "PySide2, so you can install whichever"
+#~ " one you prefer. If both are "
+#~ "installed you can choose which one "
+#~ "Photini uses by editing its "
+#~ ":ref:`configuration file <configuration-pyqt>`."
+#~ msgstr ""
+
+# d1458608f24d47b6a25f9efad792f6e9
+#~ msgid ""
+#~ "Some of Photini's features are optional"
+#~ " - if you don't install these "
+#~ "packages Photini will work but the "
+#~ "relevant feature will not be available."
+#~ " Linux users should use the system's"
+#~ " package manager to install these if"
+#~ " possible, otherwise use pip_. The "
+#~ "package manager names will probably have"
+#~ " ``python-`` or ``python3-`` prefixes."
+#~ msgstr ""
+
+# 489379bbbd4245a0b162b28624437be7
+#~ msgid ""
+#~ "[1] If you are using python-exiv2"
+#~ " for metadata access then pyenchant "
+#~ "is the preferred spelling package. Using"
+#~ " Gspell requires PyGObject or pgi to"
+#~ " be installed as well, as described"
+#~ " above."
+#~ msgstr ""
+
+# db0ee4e1f80d422aa7bf6e4b0b149a27
+#~ msgid ""
+#~ "If Photini fails to run for some"
+#~ " reason you may be able to find"
+#~ " out why by trying to run it"
+#~ " in a command window. On Windows "
+#~ "you need to run a command shell,"
+#~ " for example ``cmd.exe``. On Linux "
+#~ "you can run any terminal or "
+#~ "console program."
+#~ msgstr ""
+
+# 8931a25fd0924307bb382c35aceb00b2
+#~ msgid ""
+#~ "A free, easy to use, digital "
+#~ "photograph metadata (Exif, IPTC, XMP) "
+#~ "editing application."
+#~ msgstr ""
+
+# db174328963041ee8558fc2346206eaf
+#~ msgid ""
+#~ "PyQt5 or PySide2: "
+#~ "http://www.riverbankcomputing.co.uk/software/pyqt/ or "
+#~ "https://doc.qt.io/qtforpython/"
+#~ msgstr ""
+
+# 80e75e7e8366451b874731c6cd18ee72
+#~ msgid ""
+#~ "Photini stores user preferences in a "
+#~ "text file on the user's computer. "
+#~ "The default location of this file "
+#~ "is ``$HOME/.config/photini/`` (Linux) or "
+#~ "``%USERPROFILE%\\AppData\\Local\\photini\\`` (Windows). "
+#~ "OAuth_ access tokens for Flickr and "
+#~ "Google Photos are securely stored on "
+#~ "the user's computer using `Python "
+#~ "keyring`_."
+#~ msgstr ""
+
