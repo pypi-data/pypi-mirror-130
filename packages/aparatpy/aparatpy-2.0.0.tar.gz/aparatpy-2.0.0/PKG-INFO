@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: aparatpy
+Version: 2.0.0
+Summary: aparat.com downloader
+Home-page: https://github.com/dori-dev/aparatpy
+Author: Mohammad Dori
+Author-email: mr.dori.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# APARATPY
+
+aparatpy is a video downloader library for [aparat.com](https://aparat.com)
+
+#
+
+## Install Aparatpy
+
+```
+pip install aparatpy
+```
+
+#
+
+## Use Aparatpy
+
+```python
+from aparatpy import Main
+
+video = Main('video-url', 'video-quality')
+video.download()
+```
+
+#
+
+## Links
+
+Download Source Code: [Click Here](https://github.com/dori-dev/aparatpy/archive/refs/heads/main.zip)
+
+My Github Acount: [Click Here](https://github.com/dori-dev/)
+
+
