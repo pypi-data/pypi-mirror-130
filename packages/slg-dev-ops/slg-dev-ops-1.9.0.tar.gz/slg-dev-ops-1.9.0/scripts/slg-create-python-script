@@ -1,0 +1,81 @@
+#!/usr/bin/env python3
+import subprocess
+import os
+import argparse
+
+
+def get_arguments():
+    parser = argparse.ArgumentParser()
+
+    # argument groups can have their tickers combined (ie -su)
+    bools = parser.add_argument_group()
+
+    # REQUIRED string value
+    parser.add_argument('script_name', help="Name of the script")
+
+    parser.add_argument(
+        '-d', '--directory', default='$HOME/bin/',
+        help='The location of where this script should go (default is $HOME/bin')
+
+    # optional string value
+    parser.add_argument('-u', '--username', default="steven",
+                        help="Name of the user")
+
+    bools.add_argument(
+        '-nx', dest="make_executable", action="store_false",
+        help="By default, we make the script executable. Use this ticker to not make the script executable")
+
+    args = parser.parse_args()
+
+    return args
+
+
+TEMPLATE = """#!/usr/bin/env python3
+import subprocess
+import os
+import argparse
+
+def get_arguments():
+    parser = argparse.ArgumentParser()
+
+    # argument groups can have their tickers combined (ie -su)
+    bools = parser.add_argument_group()
+
+    # REQUIRED string value
+    parser.add_argument('arg', help='first argument')
+
+    # integer value
+    parser.add_argument('-m', '--max', default=136, type=int,
+                        help='')
+
+    # boolean (default=False; store_true means if ticked then args['ugly'] == True)
+    bools.add_argument('-u', dest='ugly', action='store_true',
+                       help='are you ugly')
+
+    # boolean (default=True; store_false means if ticked then args['sexy'] == False)
+    bools.add_argument('-s', dest='sexy', action='store_false',
+                       help='are you sexy')
+
+    args = parser.parse_args()
+
+    return args
+
+
+if __name__ == '__main__':
+    args = get_arguments()
+    print(args)
+"""
+
+
+if __name__ == "__main__":
+    args = get_arguments()
+    script_name = args.script_name
+
+    subprocess.run(
+        f"sudo -u {args.username} echo \"{TEMPLATE}\" > {args.directory}/{script_name}",
+        shell=True)
+
+    if args.make_executable:
+        subprocess.run(
+            f"sudo -u {args.username} chmod u+x {args.directory}/{script_name}",
+            shell=True)
