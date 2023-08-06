@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "universal-automl"
+packages = [
+    { include = "universal_automl" },
+]
+version = "0.1.0"
+description = ""
+authors = ["ixanthos <jordan.xanthopoulos@gmail.com>"]
+license = "Apache License 2.0"
+
+[tool.poetry.dependencies]
+python = "^3.6.2,^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "^3.0.0"
+black = "^21.12b0"
+isort = "^5.10.1"
+flake8 = "^4.0.1"
+bandit = "^1.7.1"
+safety = "^1.10.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
