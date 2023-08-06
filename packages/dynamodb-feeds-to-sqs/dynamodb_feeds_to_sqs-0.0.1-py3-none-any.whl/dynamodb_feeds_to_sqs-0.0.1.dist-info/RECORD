@@ -1,0 +1,9 @@
+feedback/DataFormation.py,sha256=YVRZ9DWJPS2nOWh0XgJFBhSucHY1rGPcFSTBHXXs-OE,236
+feedback/GetData.py,sha256=hbKK16OHkPyqzbVKNHBIZ8Fke3vNizEKzvJGUDovzyA,1226
+feedback/Scheduler.py,sha256=96sVaxqJ5F7_jd9ec9Md9gsFCRjLKhefnQ5hz4NOzgg,1736
+feedback/__init__.py,sha256=M4F5gFRYXL9Bzm8_ABJV-YgJD6kFZyb0F4HZr4_w9tY,118
+dynamodb_feeds_to_sqs-0.0.1.dist-info/LICENSE.txt,sha256=16emV2NW_vgjVOZH96VdpJwems6QhlfmuFNB9FA14Rs,1287
+dynamodb_feeds_to_sqs-0.0.1.dist-info/METADATA,sha256=rw5KyYvUPrXNIYuc7T_gMC0nC6KQwF4av3FPEzojvGQ,678
+dynamodb_feeds_to_sqs-0.0.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+dynamodb_feeds_to_sqs-0.0.1.dist-info/top_level.txt,sha256=vO3wO1kznfGFAyTaVg9zdl4we6qXVgi9qJh8Nni6jIo,9
+dynamodb_feeds_to_sqs-0.0.1.dist-info/RECORD,,
