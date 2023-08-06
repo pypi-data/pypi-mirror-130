@@ -1,0 +1,11 @@
+flake8_plugin_utils-stubs/METADATA.toml,sha256=qzdJpWPMB6x4jRojGV3sm-Ii4gYjKWHEYAT6lTTDJaY,18
+flake8_plugin_utils-stubs/__init__.pyi,sha256=ajwVtCdIdvGNaPdjHrA8J8tga31bFjGFxjZ59iziXAo,300
+flake8_plugin_utils-stubs/plugin.pyi,sha256=4he3iDNRtQ8_1AiP8zLBkHaJRRF862ulVV2hUKxNxwE,1291
+flake8_plugin_utils-stubs/utils/__init__.pyi,sha256=Xd2SqR_6iRGp8awhLf6NzmCz0CViBR6ttOZjJCrziVE,249
+flake8_plugin_utils-stubs/utils/assertions.pyi,sha256=q3uVTPm5wuHmj9zuQhgSa6BwVnLW0htLQsmMoA-3PZc,369
+flake8_plugin_utils-stubs/utils/constants.pyi,sha256=3NqlWDPxwVq_aAX4QDip2c28TwmSOQe8pOfdk8D8x9c,133
+flake8_plugin_utils-stubs/utils/equiv_nodes.pyi,sha256=IOIRJHnDDx0jdFYN65U-fDWQUlZvqZHoKr5dL4yjs-8,84
+types_flake8_plugin_utils-1.3.0.dist-info/METADATA,sha256=vBtRo8OsMrHaVQgLZGstlBUfBesW1yqVzsMMQNvZUYU,926
+types_flake8_plugin_utils-1.3.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+types_flake8_plugin_utils-1.3.0.dist-info/top_level.txt,sha256=YW9yXc6mB1PQpDjIxs0ITHquwtZd6oOW9pUlt9FwsTM,26
+types_flake8_plugin_utils-1.3.0.dist-info/RECORD,,
