@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+deepcv.egg-info/PKG-INFO
+deepcv.egg-info/SOURCES.txt
+deepcv.egg-info/dependency_links.txt
+deepcv.egg-info/top_level.txt
+src/__init__.py
+src/example.py
