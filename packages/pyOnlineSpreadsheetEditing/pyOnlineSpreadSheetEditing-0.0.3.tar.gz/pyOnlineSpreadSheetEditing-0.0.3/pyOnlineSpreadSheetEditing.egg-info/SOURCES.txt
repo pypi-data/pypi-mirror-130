@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+pyOnlineSpreadSheetEditing.egg-info/PKG-INFO
+pyOnlineSpreadSheetEditing.egg-info/SOURCES.txt
+pyOnlineSpreadSheetEditing.egg-info/dependency_links.txt
+pyOnlineSpreadSheetEditing.egg-info/requires.txt
+pyOnlineSpreadSheetEditing.egg-info/top_level.txt
+spreadsheet/__init__.py
+spreadsheet/spreadsheet.py
+spreadsheet/tableediting.py
+spreadsheet/tablequery.py
