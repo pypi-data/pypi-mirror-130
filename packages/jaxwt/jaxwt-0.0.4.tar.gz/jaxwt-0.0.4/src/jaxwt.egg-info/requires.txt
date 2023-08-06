@@ -1,0 +1,10 @@
+PyWavelets
+jax
+scipy
+matplotlib
+click
+numpy
+
+[jax_cpu]
+jax
+jaxlib
