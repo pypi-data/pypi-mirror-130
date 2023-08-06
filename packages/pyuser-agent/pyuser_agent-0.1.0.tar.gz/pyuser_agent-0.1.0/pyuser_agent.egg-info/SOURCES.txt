@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+pyuser_agent/__init__.py
+pyuser_agent/store_dump.json
+pyuser_agent/utility.py
+pyuser_agent.egg-info/PKG-INFO
+pyuser_agent.egg-info/SOURCES.txt
+pyuser_agent.egg-info/dependency_links.txt
+pyuser_agent.egg-info/top_level.txt
+pyuser_agent.egg-info/zip-safe
