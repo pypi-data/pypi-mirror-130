@@ -1,0 +1,96 @@
+name: CI
+
+on:
+  # Trigger the workflow on push or pull request,
+  # but only for the master branch
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+    types: [opened, synchronize, reopened, ready_for_review]
+  schedule:
+    - cron: '0 0 * * *'
+
+jobs:
+  build:
+    if: github.event.pull_request.draft == false
+
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: [ '3.6', '3.7', '3.8', '3.9' ]
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v2
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install dependencies
+        run: |
+          sudo apt-get install build-essential
+          pip install --upgrade pip
+          pip install -r requirements/dev.txt
+          pip install -e .[prophet]
+          pip install -e .[torch]
+          pip freeze
+      - name: Lint with flake8
+        run: |
+          flake8 alibi_detect
+      - name: Typecheck with mypy
+        run: |
+          mypy alibi_detect
+      - name: Test with pytest
+        run: |
+          pytest alibi_detect
+      - name: Build Python package
+        run: |
+          make build_pypi
+
+  docs:
+    if: github.event.pull_request.draft == false
+
+    runs-on: ubuntu-18.04
+
+    container:
+      image: readthedocs/build:latest
+      options: --user root
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Create a virtualenv to use for docs build
+        run: |
+          python3.8 -m virtualenv $HOME/docs
+      - name: Install dependencies
+        run: |
+          . $HOME/docs/bin/activate
+          python -m pip install -r requirements/docs.txt
+          python -m pip freeze
+      - name: Build documentation to html
+        run: |
+          . $HOME/docs/bin/activate
+          make build_docs
+      - name: Build documentation to pdf via latex
+        run: |
+          . $HOME/docs/bin/activate
+          make build_latex
+
+  licenses:
+    if: github.event.pull_request.draft == false
+
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set up Python 3.x
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.8'
+      - name: Check 3rd party licenses haven't changed
+        run: |
+          pip install "tox>=3.21.0,<4.0.0"
+          make licenses
+          make check_licenses
