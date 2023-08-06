@@ -1,0 +1,15 @@
+setup.py
+src/koala_task_manager/__init__.py
+src/koala_task_manager.egg-info/PKG-INFO
+src/koala_task_manager.egg-info/SOURCES.txt
+src/koala_task_manager.egg-info/dependency_links.txt
+src/koala_task_manager.egg-info/requires.txt
+src/koala_task_manager.egg-info/top_level.txt
+src/koala_task_manager/task/__init__.py
+src/koala_task_manager/task/task.py
+src/koala_task_manager/task_handler/__init__.py
+src/koala_task_manager/task_handler/task_handler.py
+src/koala_task_manager/writers/__init__.py
+src/koala_task_manager/writers/base_writer.py
+src/koala_task_manager/writers/gcs_writer.py
+src/koala_task_manager/writers/local_writer.py
