@@ -1,0 +1,2 @@
+beautifulsoup4==4.9.3aiohttp==3.8.1
+websocket-client==1.2.3
