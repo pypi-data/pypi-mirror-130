@@ -1,0 +1,8 @@
+setup.py
+assignment11Luke/__init__.py
+assignment11Luke/sentiment.py
+assignment11Luke.egg-info/PKG-INFO
+assignment11Luke.egg-info/SOURCES.txt
+assignment11Luke.egg-info/dependency_links.txt
+assignment11Luke.egg-info/requires.txt
+assignment11Luke.egg-info/top_level.txt
