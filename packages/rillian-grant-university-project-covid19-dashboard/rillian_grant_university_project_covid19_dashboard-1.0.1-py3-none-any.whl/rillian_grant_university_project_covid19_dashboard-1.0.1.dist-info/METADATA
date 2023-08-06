@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rillian-grant-university-project-covid19-dashboard
+Version: 1.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/Rillian-Grant/university-project-covid19-covid19_dashboard.git
+Author: Rillian Grant
+Author-email: rillian.grant@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Flask (==2.0.2)
+Requires-Dist: uk-covid19 (==1.2.2)
+
+UNKNOWN
+
+
