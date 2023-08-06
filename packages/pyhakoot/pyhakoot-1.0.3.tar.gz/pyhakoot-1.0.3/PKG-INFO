@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: pyhakoot
+Version: 1.0.3
+Summary: A python package to interact with Kahoot! (reupload)
+Home-page: https://github.com/theusaf/KahootPY
+Author: theusaf
+Author-email: theusafyt@gmail.com
+License: UNKNOWN
+Description: **Note: The current version in this repository is incomplete and will not work**
+        
+        # About
+        pyhakoot is a library to interact with the Kahoot API. KahootPY supports joining and interacting with quizzes and challenges.
+        
+        # Installation
+        
+        `pip install -U pyhakoot`
+        
+        # Usage
+        
+        ```py
+        from pyhakoot import client
+        bot = client()
+        bot.join(12345,"KahootPY")
+        def joinHandle():
+          pass
+        bot.on("Joined",joinHandle)
+        ```
+        
+        # Documentation:
+        Work in progress. This is taking longer than expected because I am not good at python.
+        
+Keywords: kahoot,bot
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
