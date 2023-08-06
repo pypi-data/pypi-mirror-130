@@ -1,0 +1,9 @@
+LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+hydrus/__init__.py,sha256=5LB7Zql2DXnwYYENBLgqCYtueIa5ATSPWnZk3EwQ4cM,814
+hydrus/utils.py,sha256=fx1bvkGXkOv2yXRGzXIsV7D911V2AAu7bc8oLJTzTgQ,717
+hydrus_api/__init__.py,sha256=GsrkPBGRQeyJCGTAeghs-IllQITzWzkCpmLbA62l4ps,22990
+hydrus_api/utils.py,sha256=SDEOn5-PLReXqNEl0iEqwBSnXZ-uYFSHpM2zCV3HeYU,3635
+hydrus_api-3.22.3.dist-info/LICENSE,sha256=kbZSd5WewnN2PSjvAC6DprP7pXx6NUNsnltmU2Mz1yA,34519
+hydrus_api-3.22.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+hydrus_api-3.22.3.dist-info/METADATA,sha256=FD93E2mIlYt0XgFaDeD5DkEqZrLEo6Og4d87_vKZIuw,4371
+hydrus_api-3.22.3.dist-info/RECORD,,
