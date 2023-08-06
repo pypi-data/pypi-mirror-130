@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: zmqTools
+Version: 2021.12.10
+Summary: using zmq communication
+Home-page: https://gitlab.com/freestyleteam/zmqtools
+Author: vinjent
+Author-email: visual.starman@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
+# python
+
+使用MessageQueue技術進行跨平台跨程序間的訊息傳遞,
+這裡我們主要時使zmq將Client的金融交易資料傳遞至Server端,
+並由Server端與券商API串接進行交易.
+
+在Client端的Package我們使用的類型為dealer模式建置, 
+但Server端接收時則使用Router的非同步模式,
+以利訊息可以順利接收而必免堵塞.
+
+
