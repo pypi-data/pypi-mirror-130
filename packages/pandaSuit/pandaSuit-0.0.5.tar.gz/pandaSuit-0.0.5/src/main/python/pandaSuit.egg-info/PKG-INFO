@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pandaSuit
+Version: 0.0.5
+Summary: pandas wrapper and extension for DataFrame manipulation, statistics, and plotting
+Home-page: https://github.com/AnthonyRaimondo/pandaSuit
+Author: Anthony Raimondo
+Author-email: anthonyraimondo7@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pandaSuit
+
