@@ -1,0 +1,18 @@
+import sys, importlib
+from pathlib import Path
+
+
+def import_parents(level=1):
+    global __package__
+    file = Path(__file__).resolve()
+    parent, top = file.parent, file.parents[level]
+    
+    sys.path.append(str(top))
+    try:
+        sys.path.remove(str(parent))
+    except ValueError: # already removed
+        pass
+
+    __package__ = '.'.join(parent.parts[len(top.parts):])
+    importlib.import_module(__package__) # won't be needed after that
+import_parents()
