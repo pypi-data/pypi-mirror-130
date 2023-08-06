@@ -1,0 +1,1 @@
+from .stocks_bot import data_treatment
