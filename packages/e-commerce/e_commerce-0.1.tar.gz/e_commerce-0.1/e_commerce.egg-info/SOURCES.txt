@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.py
+e_commerce/__init__.py
+e_commerce.egg-info/PKG-INFO
+e_commerce.egg-info/SOURCES.txt
+e_commerce.egg-info/dependency_links.txt
+e_commerce.egg-info/top_level.txt
+e_commerce/customer/__init__.py
+e_commerce/customer/analysis.py
+e_commerce/customer/orders.py
+e_commerce/customer/personal_info.py
+e_commerce/seller/__init__.py
+e_commerce/seller/personal_info.py
+e_commerce/seller/product_info.py
+e_commerce/seller/seller_history.py
