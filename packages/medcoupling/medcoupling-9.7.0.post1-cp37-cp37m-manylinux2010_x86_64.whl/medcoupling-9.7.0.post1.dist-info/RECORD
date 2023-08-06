@@ -1,0 +1,14 @@
+medcoupling-9.7.0.post1.data/purelib/medcoupling/MEDCoupling.py,sha256=nwQE1nhPVSioktgGQ9LS2Tf2pJEeZEqOoHduoWcnc38,637667
+medcoupling-9.7.0.post1.data/purelib/medcoupling/MEDCouplingRemapper.py,sha256=gFB5i72iD2C1qEtKqlEJwNQqTwX2_Jjn_Jdbdi9Rlfo,680320
+medcoupling-9.7.0.post1.data/purelib/medcoupling/_MEDCoupling.so,sha256=CafrQuI-keE_Vh02etEGM04ZmtXD642w9UJLJi9KJuE,9489232
+medcoupling-9.7.0.post1.data/purelib/medcoupling/_MEDCouplingRemapper.so,sha256=ILsub73Cwc7dzB0-GNQrkDWTmzljcXCSQ46GhXa54Wo,10718248
+medcoupling-9.7.0.post1.data/purelib/medcoupling/__init__.py,sha256=JmMGGlE4FM4q4dYFxzQ0od3-XpMLUgoF6ksigX6tL30,27
+medcoupling-9.7.0.post1.data/purelib/medcoupling/_medcoupling.so,sha256=XzjEtwWzjMim7shnxsGhrnCeVDPEIcyLxfkDeq9zeHo,10759912
+medcoupling-9.7.0.post1.data/purelib/medcoupling/geom2medcoupling.py,sha256=AJERWXBn_Jfcf4en1pzXna2WEE6_TMhTmvBZUiBcFSk,4013
+medcoupling-9.7.0.post1.data/purelib/medcoupling/medcoupling.py,sha256=aBoQspL3tQ_65d1tId0s1j055Y30ZC5OIg_CqRbgsIs,667004
+medcoupling-9.7.0.post1.data/purelib/medcoupling/vtk2medcoupling.py,sha256=k2hf9vJjlLc_3_p40qpVAIbTOpZ7Koy5Mm2uEikAue8,2694
+medcoupling-9.7.0.post1.dist-info/LICENSE,sha256=gb6usMw20h_qAYiOWy7kvU1E3x4beEWsJW_umFGpLNE,26426
+medcoupling-9.7.0.post1.dist-info/METADATA,sha256=xe4UiZQhH7VT0EZvkHmtPQsjU1WQZTZGkUaDF2LSC14,3757
+medcoupling-9.7.0.post1.dist-info/WHEEL,sha256=ALVm6P7J3KZb3dj6y50oqrotcJXCtsThOecoEY7RU08,112
+medcoupling-9.7.0.post1.dist-info/top_level.txt,sha256=Bb2EVJ3ypVCholSz2aALXsFmmT9iPjZsog8HYY3jrzU,12
+medcoupling-9.7.0.post1.dist-info/RECORD,,
