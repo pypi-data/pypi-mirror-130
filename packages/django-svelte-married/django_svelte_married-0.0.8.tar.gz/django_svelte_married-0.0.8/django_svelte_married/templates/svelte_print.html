@@ -1,0 +1,11 @@
+{% load static svelte %}<script type="text/javascript">
+    window.SVELTE_RENDER = {{ SVELTE_PRINT }};
+</script>
+{% if SVELTE_RELOADING_ENABLED %}
+<script>
+    window.SVELTE_RELOADING_HOSTNAME = "{{ SVELTE_RELOADING_HOSTNAME }}";
+    window.SVELTE_RELOADING_PORT = {{ SVELTE_RELOADING_PORT }};
+</script>
+<script src="{% static 'svelte/livereload.js' %}"></script>
+<script src="{% static 'public/bundle.js' %}" svelte-livereload="true"></script>
+{% endif %}

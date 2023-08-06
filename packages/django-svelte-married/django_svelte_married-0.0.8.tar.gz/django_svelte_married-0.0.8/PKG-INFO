@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: django-svelte-married
+Version: 0.0.8
+Summary: JGM stands for "Just-Got-Married", because Django and Svelte is a perfect match 🤵👰.
+Author: niespodd
+Author-email: dariusz@ticketwhat.pl
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.26.0,<3.0.0)
