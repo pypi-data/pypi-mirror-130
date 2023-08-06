@@ -1,0 +1,7 @@
+mypy
+pandas-stubs
+pre-commit
+pytest
+shed
+sphinx
+tqdm
