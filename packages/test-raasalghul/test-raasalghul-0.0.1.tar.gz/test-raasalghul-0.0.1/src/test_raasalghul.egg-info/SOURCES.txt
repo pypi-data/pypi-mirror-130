@@ -1,0 +1,10 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/example_package/__init__.py
+src/example_package/example.py
+src/test_raasalghul.egg-info/PKG-INFO
+src/test_raasalghul.egg-info/SOURCES.txt
+src/test_raasalghul.egg-info/dependency_links.txt
+src/test_raasalghul.egg-info/top_level.txt
