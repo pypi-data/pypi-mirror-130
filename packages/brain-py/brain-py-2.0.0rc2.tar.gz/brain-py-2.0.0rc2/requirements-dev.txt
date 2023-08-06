@@ -1,0 +1,7 @@
+-r requirements.txt
+
+jaxlib>=0.1.64
+numba
+
+# test requirements
+pytest
