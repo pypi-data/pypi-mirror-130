@@ -1,0 +1,3 @@
+[console_scripts]
+comotion = comotion.cli:cli
+
