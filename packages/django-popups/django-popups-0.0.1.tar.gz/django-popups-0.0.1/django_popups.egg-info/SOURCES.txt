@@ -1,0 +1,17 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+django_popups.egg-info/PKG-INFO
+django_popups.egg-info/SOURCES.txt
+django_popups.egg-info/dependency_links.txt
+django_popups.egg-info/requires.txt
+django_popups.egg-info/top_level.txt
+popups/__init__.py
+popups/admin.py
+popups/apps.py
+popups/models.py
+popups/tests.py
+popups/urls.py
+popups/views.py
