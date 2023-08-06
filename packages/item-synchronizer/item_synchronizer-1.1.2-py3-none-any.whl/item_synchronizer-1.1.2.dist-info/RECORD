@@ -1,0 +1,10 @@
+item_synchronizer/__init__.py,sha256=VBE6U4v68ggFDDrGdZskHFpXyaz-qUTxZG7CBWVbGFw,283
+item_synchronizer/helpers.py,sha256=t_63bMYCZoEC5ihC_hxHNcNyVhxfEyU-r4TMsjX5hIA,2695
+item_synchronizer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+item_synchronizer/resolution_strategy.py,sha256=UXZUKImyIZ08g6aiuduEmgkRaDh7WfiuOyuRSLLGWw0,4608
+item_synchronizer/synchronizer.py,sha256=pDRr0obzA0KnLbp3FRFCFJwLuGUZy8ZB8abniTsCo94,10409
+item_synchronizer/types.py,sha256=3q0zdSYf6PkI5GkcDCygweHgVM5VobsihBbWZIabzZY,1125
+item_synchronizer-1.1.2.dist-info/LICENSE.md,sha256=4ZZEWqQSwJvhet-fcg2rUXljTEHm45xTZ7GIrtL5UlU,1069
+item_synchronizer-1.1.2.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+item_synchronizer-1.1.2.dist-info/METADATA,sha256=CRP-f9Nl5JqlE16_L6Nw3apPootLQBoD9_9m44XTS8k,7378
+item_synchronizer-1.1.2.dist-info/RECORD,,
