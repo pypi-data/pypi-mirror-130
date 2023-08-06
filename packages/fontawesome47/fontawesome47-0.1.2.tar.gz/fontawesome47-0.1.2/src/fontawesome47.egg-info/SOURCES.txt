@@ -1,0 +1,14 @@
+.gitignore
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+.github/workflows/pypi.yml
+.vscode/settings.json
+src/fontawesome47/__init__.py
+src/fontawesome47.egg-info/PKG-INFO
+src/fontawesome47.egg-info/SOURCES.txt
+src/fontawesome47.egg-info/dependency_links.txt
+src/fontawesome47.egg-info/top_level.txt
+src/fontawesome47/fonts/fontawesome-webfont.ttf
+tests/test_font.py
