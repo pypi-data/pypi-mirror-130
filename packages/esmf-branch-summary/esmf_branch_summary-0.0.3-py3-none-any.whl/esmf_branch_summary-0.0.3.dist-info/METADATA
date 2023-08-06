@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: esmf-branch-summary
+Version: 0.0.3
+Summary: CLI tool for generating summary data of testing ESMF framework
+Home-page: UNKNOWN
+Author: Ryan Long
+Author-email: ryan.long@noaa.gov
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/x-rst
+License-File: LICENSE
+Requires-Dist: esmf-git
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: pylint ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: pytest-xdist ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: bump2version ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-forked ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+
+Standard Git Library for ESMF applications.
+
+===========================================
+
+
+
+**esmf-branch-summary** is a CLI tool for generating summary data of testing ESMF framework.
+
+
+
+
+
+Basic Usage
+
+-----------
+
+
+
+::
+
+
+
+    import esmf-branch-summary
+
+
+
+
+
+Installation
+
+------------
+
+
+
+::
+
+
+
+    $ pip install esmf-branch-summary
+
+
+
