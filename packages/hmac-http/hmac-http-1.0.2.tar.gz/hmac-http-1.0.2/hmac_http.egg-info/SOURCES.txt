@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+hmac_http/__init__.py
+hmac_http.egg-info/PKG-INFO
+hmac_http.egg-info/SOURCES.txt
+hmac_http.egg-info/dependency_links.txt
+hmac_http.egg-info/top_level.txt
