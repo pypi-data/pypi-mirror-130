@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mindsdb-streams
+Version: 0.0.4
+Summary: MindsDB Streams, provide streams capabilities to mindsdb native python library
+Home-page: https://github.com/mindsdb/mindsdb_streams
+Author: MindsDB Inc
+Author-email: jorge@mindsdb.com
+License: GPL-3.0
+Download-URL: https://pypi.org/project/mindsdb_streams/
+Description: # mindsdb_streams
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
