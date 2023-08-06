@@ -1,0 +1,53 @@
+{% extends "tileserver/baseTileViewer.html" %}
+
+{% block tileViewer %}
+
+{% include 'tileserver/_include/cesium.html' %}
+
+<div class="slidecontainer" id="opacityTool">
+    <label for="rasterOpacityRange">Raster Layer Opacity: </label>
+    <input type="range" min="1" max="100" value="100" class="overlay" id="rasterOpacityRange" onChange="updateTilesOpacity(event, value)" onInput="updateTilesOpacity(event, value)" style="top: 5px; left: 5px;">
+    <br />
+    {% include 'tileserver/_include/colors.html' %}
+</div>
+
+<script>
+    var extents = JSON.parse('{{ bounds|tojson }}');
+    var tileProvider;
+    var tileLayer;
+    var layers = viewer.scene.imageryLayers;
+
+    function updateTileLayer() {
+        layers.remove(tileLayer)
+
+        tileProvider = new Cesium.UrlTemplateImageryProvider({
+            url: tileUrl,
+            subdomains: null,
+        });
+        tileLayer = layers.addImageryProvider(tileProvider);
+    }
+    // initial call to add tile layer
+    updateTileLayer();
+
+    function updateTilesOpacity(e, value) {
+        value = Number(value) / 100.0;
+        tileLayer.alpha = value;
+    }
+
+    // Compute viewing parameters
+    var a = Cesium.Cartesian3.fromDegrees(extents.xmin, extents.ymin, 0)
+    var b = Cesium.Cartesian3.fromDegrees(extents.xmax, extents.ymax, 0)
+    var length = Math.sqrt((b.x - a.x) ** 2 + (b.y - a.y) ** 2)
+    if (length <= 5000) {
+        // Zoom out to whole globe
+        length = 20000000;
+    }
+    var center = Cesium.Cartesian3.fromDegrees(
+        ((extents.xmax - extents.xmin) / 2 + extents.xmin),
+        ((extents.ymax - extents.ymin) / 2 + extents.ymin), length)
+    viewer.camera.flyTo({
+        destination: center
+    });
+</script>
+
+{% endblock %}
