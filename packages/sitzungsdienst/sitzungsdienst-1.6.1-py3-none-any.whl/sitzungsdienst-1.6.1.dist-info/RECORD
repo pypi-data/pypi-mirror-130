@@ -1,0 +1,10 @@
+sitzungsdienst/__init__.py,sha256=Vt0fzpXTKWE__yj1ZYgYZG9aXZpKpkfVlkvMUj6ro18,203
+sitzungsdienst/cli.py,sha256=pCt7hvlTcfqI1vIxx1aZd_C9ql20BfL8ck7HhMVTmrI,5062
+sitzungsdienst/sta.py,sha256=odwGjRIanW4Z1eEdntd-mj_w-XEA41kx74r8EhrtLT4,9197
+sitzungsdienst/utils.py,sha256=YY5u_WZTwy-KMNPJsiMgPgvCIWZNsFxx55dvnmNhd2E,3858
+sitzungsdienst-1.6.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+sitzungsdienst-1.6.1.dist-info/METADATA,sha256=JlfiOOAMj8BBSQeB2ZE1QE16Bcl3yskD4zzznP-82-k,3482
+sitzungsdienst-1.6.1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+sitzungsdienst-1.6.1.dist-info/entry_points.txt,sha256=17MddGddl4ps9NeBmCvajSUjW3OWRZELaNcut1HWr0Y,66
+sitzungsdienst-1.6.1.dist-info/top_level.txt,sha256=n2CWhzpLVqekTMjq9Y-X6r4J_01h3WsMnTUJ5YbcfGQ,15
+sitzungsdienst-1.6.1.dist-info/RECORD,,
