@@ -1,0 +1,3 @@
+[console_scripts]
+csv_converter=puc_lpgomes_csvconverter.converter:converter
+
