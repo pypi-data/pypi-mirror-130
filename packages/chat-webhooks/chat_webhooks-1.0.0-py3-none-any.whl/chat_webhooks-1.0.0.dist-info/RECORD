@@ -1,0 +1,8 @@
+chat_webhooks/__init__.py,sha256=y4pYkPA0BLbiBXO4eY6nuDH3xsh2jiTEh8SuMh-YxOQ,43
+chat_webhooks/__main__.py,sha256=jfVZIeUkVEliVQWWJA5xUOAoTOOkaLH7pdblI_lMw8g,1366
+chat_webhooks/core.py,sha256=46tepoyqWZr7v8jmq6Ywpj5kShL481P_Uf6kGOkIiOY,749
+chat_webhooks/errors.py,sha256=jgZ6xAqJHtvuidZrrOt1SPDQbOgKeZnzn7Xyxb5VBG0,46
+chat_webhooks-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+chat_webhooks-1.0.0.dist-info/WHEEL,sha256=N0LZrBtofpkS5mJXgVHTCEy52Sam4D6PHQWC8HnMeTs,83
+chat_webhooks-1.0.0.dist-info/METADATA,sha256=JQZVQXmaJGuAS_8qW-nu9xqF_H-VYBwu8du1o8RMeZU,782
+chat_webhooks-1.0.0.dist-info/RECORD,,

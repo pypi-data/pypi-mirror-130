@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: chat-webhooks
+Version: 1.0.0
+Summary: Interact and easily use Google Chat room webhooks.
+Home-page: https://bd103.github.io
+License: Apache-2.0
+Author: BD103
+Author-email: dont@stalk.me
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click (>=8.0.3,<9.0.0)
+Requires-Dist: requests (>=2.26.0,<3.0.0)
+Project-URL: Repository, https://github.com/BD103/Chat-Webhooks
+Description-Content-Type: text/markdown
+
+# Python Template
+
+This is a template that I plan on using for all of my future Python projects. The rest of this README will be filled out with sections that should be covered in any project.
+
