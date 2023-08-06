@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: portfolio-simulator
+Version: 0.1.8
+Summary: A library that helps you run financial simulations using your financial assets as input.
+Home-page: https://github.com/maximehk/portfolio_simulator
+Author: Maxime
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+# Portfolio Simulator
+
+A library that helps you run financial simulations using your financial assets as input.
+
+Disclaimer: we are still very early in the development process and do not provide any guarantee about API stability.
+
+
