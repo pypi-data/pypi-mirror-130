@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: cannyfier
+Version: 0.2.3
+Summary: Show canny on any part of the screen. Better to use with video
+Home-page: UNKNOWN
+Author: Pascual Martinez
+Author-email: pascual.martinezzapata@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Real Time Video Reader
+This project aims to read the video  from the computer screen and process it
+using the Canny edges to detect lines.
+
+Allows to adjust the parameters of the Canny detection in real time through
+slide vars.
+
+It is advisable to have 2 monitors (one being captured real time and another
+that is showing the canny edges)
+
+When not having 2 monitors reduce the captured screen so the capture and The
+canny fit in one screen.
+
+## Usage of the package
+Start playing some video and then choose one of the options below. For example
+if you want to work on traffic detection / signal detection you can use:
+https://www.youtube.com/watch?v=KmntziBBTrg
+
+### You don't know the region to capture
+    from cannyfier import get_capture_coords
+    from cannyfier import Cannyfier
+
+    # This will create a window called InitWindow.
+    # 1. Move the window out of the view of the screen part you want to capture.
+    # 2. Click + Drag and Release in the window created to define the capture
+         box.
+    # 3. You can re-define the box by click again + drag and realease
+    # 4. Once satisfied with the capture box press q
+    ix, fx, iy, fy = get_capture_coords()
+
+    # 5. This part will be executed then. The capture window will be displayed
+    #    with an smaller window with 2 slide bars
+    # 6. Move both windows out of the view of the capture box
+    # 7. Adjust the sliders to your taste of cannyfier
+    # 8. To finish the cannyfier press also q
+    my_cann = Cannyfier(ix, iy, fx, fy)
+
+    # System will report you:
+    # 1. The region being captured (left, top, right bottom)
+    # 2. The average frames per second captured during the cannyfier process
+
+### You know the region to capture (x, y, x, y)
+    from cannyfier import Cannyfier
+
+    # Capture window will be displayed with an smaller window with 2 slide bars
+    # 1. Move both windows out of the view of the capture box
+    # 2. Adjust the sliders to your taste of cannyfier
+    # 3. To finish the cannyfier press also q
+    my_cann = Cannyfier(ix, iy, fx, fy)
+
+    # System will report you:
+    # 1. The region being captured (left, top, right bottom)
+    # 2. The average frames per second captured during the cannyfier process
+
+
+## Remarks
+**Press q to exit the program**
+**To define the box start always left top and end right bottom**
+
+

@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cannyfier/__init__.py
+cannyfier/cannyfier.py
+cannyfier.egg-info/PKG-INFO
+cannyfier.egg-info/SOURCES.txt
+cannyfier.egg-info/dependency_links.txt
+cannyfier.egg-info/requires.txt
+cannyfier.egg-info/top_level.txt
