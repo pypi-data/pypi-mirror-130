@@ -1,0 +1,3 @@
+[console_scripts]
+rubric = rubric:cli_entrypoint
+

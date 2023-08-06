@@ -1,0 +1,14 @@
+
+[dev_deps]
+black
+flake8
+isort
+mypy
+pre-commit
+pip-tools
+pytest
+pytest-asyncio
+twine
+build
+types-setuptools
+types-pkg_resources
