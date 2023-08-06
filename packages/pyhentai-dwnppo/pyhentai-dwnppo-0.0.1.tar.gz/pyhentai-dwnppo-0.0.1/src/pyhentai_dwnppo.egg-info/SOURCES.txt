@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/pyhentai/__init__.py
+src/pyhentai/pyhentai.py
+src/pyhentai_dwnppo.egg-info/PKG-INFO
+src/pyhentai_dwnppo.egg-info/SOURCES.txt
+src/pyhentai_dwnppo.egg-info/dependency_links.txt
+src/pyhentai_dwnppo.egg-info/top_level.txt
