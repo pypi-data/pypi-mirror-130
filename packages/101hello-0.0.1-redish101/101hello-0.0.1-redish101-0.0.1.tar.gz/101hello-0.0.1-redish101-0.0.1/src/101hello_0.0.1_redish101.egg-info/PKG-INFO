@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: 101hello-0.0.1-redish101
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pypa/sampleproject
+Author: Redish101
+Author-email: jiayunluo@yeah.net
+License: UNKNOWN
+Description-Content-Type: text/markdown
+Description: ## README.md
+        It's a example pack
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
