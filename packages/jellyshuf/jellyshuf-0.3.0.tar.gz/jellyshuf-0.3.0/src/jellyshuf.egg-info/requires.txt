@@ -1,0 +1,4 @@
+requests
+python-musicpd
+appdirs
+keyring
