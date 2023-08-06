@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+iothub_client.egg-info/PKG-INFO
+iothub_client.egg-info/SOURCES.txt
+iothub_client.egg-info/dependency_links.txt
+iothub_client.egg-info/requires.txt
+iothub_client.egg-info/top_level.txt
