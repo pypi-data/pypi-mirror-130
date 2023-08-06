@@ -1,0 +1,9 @@
+sentry-sdk
+colorama
+python-dotenv
+structlog
+orjson
+rich
+
+[test]
+coverage

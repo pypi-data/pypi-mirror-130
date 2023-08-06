@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: structlog-sentry-lambda
+Version: 1.4.2
+Summary: An AWS approved version of https://github.com/TeoZosa/structlog-sentry-logger which is compatible with AWS Lambda as well as AWS Fargate
+Home-page: https://github.com/Rungutan/structlog-sentry-lambda
+Author: Rungutan
+Author-email: support@rungutan.com
+License: UNKNOWN
+Download-URL: https://github.com/Rungutan/structlog-sentry-lambda/archive/1.4.2.tar.gz
+Project-URL: Bug Reports, https://github.com/Rungutan/structlog-sentry-lambda/issues
+Project-URL: Source, https://github.com/Rungutan/structlog-sentry-lambda/
+Keywords: rungutan rungutan-cli rungutan_cli cli load testing load-testing load_testing stressstress-testing stress_testing api api-testing api_testing api_load_testing api-load-testingapi_stress_testing api-stress-testing performance performance-testing performance_testingapi-performance-testing api_performance_testing serverless workflow-testing workflow_testingaws sentry aws-sdk aws_sdk awssdk sentry-sdk sentry_sdk sentry sdk structlog logging log loggerlambda fargate ecs console
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: BDD
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE.txt
+
+# structlog-sentry-lambda
+
+## Description
+This repository is a fork of https://github.com/TeoZosa/structlog-sentry-logger
+and all credits for this solution should go to
+@TeoZosa !!!
+
+Use this **ONLY** if you are planning to integrate this
+into AWS Lambda or AWS Fargate.
+
+For any other use-case, check the original repository.
+
+## Notes
+
+Sentry SDK Initialization is **NOT** done within this library.
+
+If you're going to use this library, you need to ensure that the
+Sentry SDK is properly initialized **before** importing
+the library.
+
+Example for a standard AWS Lambda function:
+
+filename = `libraries/sentry.py`
+```python
+import os
+import sentry_sdk
+from sentry_sdk.integrations.aws_lambda import AwsLambdaIntegration
+
+sentry_sdk.init(
+    dsn=os.environ.get('SENTRY_DSN'),
+    integrations= [AwsLambdaIntegration(timeout_warning=True)],
+    environment=os.environ.get('Workspace'),
+    send_default_pii=True,
+    traces_sample_rate=0.0,
+    release=os.environ.get('SENTRY_RELEASE')
+)
+```
+
+filename = `libraries/logger.py`
+```python
+import simplejson as json
+import structlog_sentry_lambda
+
+SENTRY_LOGGER = structlog_sentry_lambda.get_logger()
+logger = SENTRY_LOGGER.bind()
+
+
+def debug(log_message):
+    logger.debug(json.dumps(log_message, sort_keys=True, default=str))
+
+
+def error(log_message):
+    logger.error(json.dumps(log_message, sort_keys=True, default=str))
+
+
+def exception(log_message):
+    logger.exception(json.dumps(log_message, sort_keys=True, default=str))
+    
+    
+def warning(log_message):
+    logger.warning(json.dumps(log_message, sort_keys=True, default=str))
+
+
+def info(log_message):
+    logger.info(json.dumps(log_message, sort_keys=True, default=str))
+
+
+def main(log_message):
+    logger.info(json.dumps(log_message, sort_keys=True, default=str))
+
+
+def log(log_message):
+    logger.info(json.dumps(log_message, sort_keys=True, default=str))
+
+```
+
+filename = `index.py`
+
+```python
+import sys
+sys.path.append('../libraries/')
+from libraries import sentry
+from libraries import logger
+
+def main(event, context):
+    logger.info(event)
+    logger.error("Trigger an alert in Sentry")
+    return True
+```
+
+
