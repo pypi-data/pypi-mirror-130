@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+teste_libpythonpro_pypi/__init__.py
+teste_libpythonpro_pypi/github_api.py
+teste_libpythonpro_pypi.egg-info/PKG-INFO
+teste_libpythonpro_pypi.egg-info/SOURCES.txt
+teste_libpythonpro_pypi.egg-info/dependency_links.txt
+teste_libpythonpro_pypi.egg-info/not-zip-safe
+teste_libpythonpro_pypi.egg-info/requires.txt
+teste_libpythonpro_pypi.egg-info/top_level.txt
