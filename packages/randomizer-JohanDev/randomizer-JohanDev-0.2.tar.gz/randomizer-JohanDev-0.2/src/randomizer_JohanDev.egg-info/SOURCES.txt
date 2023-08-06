@@ -1,0 +1,8 @@
+pyproject.toml
+setup.cfg
+src/randomizer/__init__.py
+src/randomizer/randomizer.py
+src/randomizer_JohanDev.egg-info/PKG-INFO
+src/randomizer_JohanDev.egg-info/SOURCES.txt
+src/randomizer_JohanDev.egg-info/dependency_links.txt
+src/randomizer_JohanDev.egg-info/top_level.txt
