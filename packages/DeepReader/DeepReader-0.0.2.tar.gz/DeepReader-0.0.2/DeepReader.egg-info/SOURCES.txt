@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+DeepReader.egg-info/PKG-INFO
+DeepReader.egg-info/SOURCES.txt
+DeepReader.egg-info/dependency_links.txt
+DeepReader.egg-info/top_level.txt
