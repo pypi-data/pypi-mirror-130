@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+mailutil.py
+setup.cfg
+setup.py
+examples/send_simple_message.py
+mailutil.egg-info/PKG-INFO
+mailutil.egg-info/SOURCES.txt
+mailutil.egg-info/dependency_links.txt
+mailutil.egg-info/top_level.txt

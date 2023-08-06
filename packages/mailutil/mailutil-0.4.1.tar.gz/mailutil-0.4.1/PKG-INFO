@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mailutil
+Version: 0.4.1
+Summary: mail utility module
+Home-page: https://code.stroeder.com/pymod/python-mailutil
+Author: Michael Stroeder
+Author-email: michael@stroeder.com
+Maintainer: Michael Stroeder
+Maintainer-email: michael@stroeder.com
+License: Apache License, Version 2.0
+Download-URL: https://pypi.python.org/pypi/mailutil
+Project-URL: Code, https://code.stroeder.com/pymod/python-mailutil
+Project-URL: Issue tracker, https://code.stroeder.com/pymod/python-mailutil/issues
+Keywords: SMTP,STARTTLS
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: Email :: Email Clients (MUA)
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+mailutil:
+This module contains
+1. wrapper classes for smtplib.SMTP for better TLS support
+2. Factory function which opens SMTP connections described by URL
+
+

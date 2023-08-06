@@ -1,0 +1,3 @@
+include MANIFEST.in README.md PKG-INFO
+include mailutil.py
+include examples/*.py
