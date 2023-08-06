@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: idfm-api
+Version: 0.1.0
+Summary: API for Ile de france mobilite
+Home-page: https://github.com/droso-hass/idfm-api
+Author: drosocode
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENCE
+Requires-Dist: requests
+
+# Ile de france mobilités API
+
+## Description
+Python API wrapper for [Ile de France mobilités](https://me-deplacer.iledefrance-mobilites.fr/fiches-horaires)
+
+Allows to retreive next schedules for a stations on a specific line and traffic informations for a line.
+Metro, RER, Transilien and Tram are supported.
+
+Documentation is available on [ReadTheDocs](https://idfm-api.readthedocs.io/)
+
+You can try it out using `cli.py`
+
+
