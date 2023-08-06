@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: glaring-simulation
+Version: 0.1.0
+Summary: Augmentation methods: glaring
+Home-page: UNKNOWN
+Author: ThomLe
+Author-email: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+
+UNKNOWN
+
+
