@@ -1,0 +1,3 @@
+[console_scripts]
+ds_utility = ds_utility.cli:entrypoint
+
