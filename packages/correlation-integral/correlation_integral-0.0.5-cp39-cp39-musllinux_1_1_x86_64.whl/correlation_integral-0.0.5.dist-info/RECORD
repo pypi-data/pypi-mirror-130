@@ -1,0 +1,10 @@
+correlation_integral.cpython-39-x86_64-linux-gnu.so,sha256=-Wt4GU5fzB9IxxcbZgWDe3CNMGWCoHKkgpf3UpXJJXA,219368
+correlation_integral.libs/libquadmath-1b17c16b.so.0.0.0,sha256=yGNfu44ERi53draBnCUVWkbna7ZlCl3XuYDWqupSE-I,235680
+correlation_integral.libs/libgfortran-c4ef5775.so.5.0.0,sha256=8WqnmE4UX8t2UdwNtO6vfzXZCdwaW_dHgie-16A2iWY,1937656
+correlation_integral.libs/libgcc_s-a04fdf82.so.1,sha256=E2_sw1FhiQZsCQiywTDdBDMlSUsazp7QUYpklMz_w_s,81256
+correlation_integral.libs/libgomp-cd951527.so.1.0.0,sha256=SyHus47r40U9TZTR-KCkyo-DaRiUOp_2KQDAERzw6JY,187008
+correlation_integral-0.0.5.dist-info/LICENSE,sha256=GzeCzK17hhQQDNow0_r0L8OfLpeTKQjFQwBQU7ZUymg,32473
+correlation_integral-0.0.5.dist-info/RECORD,,
+correlation_integral-0.0.5.dist-info/top_level.txt,sha256=G8J_0QOjvTkyR8eftn5mC8kMb-wjWWJbqtAmS34OZNs,21
+correlation_integral-0.0.5.dist-info/WHEEL,sha256=mRxi25L_ciaXQrJMbYQKgZW2GStT7uu2Kudzh7CeUKs,111
+correlation_integral-0.0.5.dist-info/METADATA,sha256=u2fNcxJvgTQEtthkHQ2k7sOoW1Fppjl0t5lapMh8yf4,2638
