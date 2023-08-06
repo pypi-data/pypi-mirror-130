@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: site-scrapers
+Version: 0.0.24
+Summary: Scrape cars from dealerships
+Home-page: https://github.com/dmitrijs-balcers/site-scrapers/
+Author: Dmitrijs Balcers
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+### Installation:
+
+`pip install site-scrapers`
+
+### What this does?
+Will fetch car details from dealership (concurrently)
+
+### Usage:
+
+```python
+import asyncio
+
+from scrapers.scraper import scrape_all
+
+if __name__ == '__main__':
+    results = asyncio.run(scrape_all())
+    print(*results, sep="\n") # will output fetched car details
+```
+
+### Supported Dealerships
+https://lietotiauto.mollerauto.lv  
+https://lv.brcauto.eu  
+https://certified.inchcape.lv/auto
+
+
