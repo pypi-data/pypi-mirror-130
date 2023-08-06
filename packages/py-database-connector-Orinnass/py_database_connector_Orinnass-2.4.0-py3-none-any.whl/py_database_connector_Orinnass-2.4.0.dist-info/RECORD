@@ -1,0 +1,7 @@
+database_connector/__init__.py,sha256=KcwxyMhwP3ftKilA0CyuQ23Hg7f60Rg5ul_JGe4kKK4,127
+database_connector/api.py,sha256=h9yhAuhEXTXfSioKkZuytVCiLqTITcJ05NRBz1cKeqY,1583
+database_connector/database_connector.py,sha256=rbUgNlrORGLL9AH7oWhBswdKq0EHXAKcLrke8mMqZFo,6553
+py_database_connector_Orinnass-2.4.0.dist-info/METADATA,sha256=0BTLcg9K8CqCj82qicOS-WH5otvns3LiZqfCpzP2vPs,1932
+py_database_connector_Orinnass-2.4.0.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+py_database_connector_Orinnass-2.4.0.dist-info/top_level.txt,sha256=PrOyKh4qFSDqTanhD-mucXygBMLs-OM2pjndryyYVLs,19
+py_database_connector_Orinnass-2.4.0.dist-info/RECORD,,
