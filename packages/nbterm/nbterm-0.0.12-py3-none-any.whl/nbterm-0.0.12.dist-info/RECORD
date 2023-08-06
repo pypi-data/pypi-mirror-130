@@ -1,0 +1,14 @@
+nbterm/__init__.py,sha256=2c-IifJoYGoj7tTIBwrPoMkr1r9kHej1teF5mDV4cag,81
+nbterm/_version.py,sha256=mO4hweeouqNGVCTpMu6tFo577hN53IUPwxeiqKp6iuU,73
+nbterm/cell.py,sha256=ezn5b2UelI9YvQnq4bQF4EbGOZp2Wx1HmhCP2KQ_UI0,9792
+nbterm/format.py,sha256=oggPNKrmcKDC6wdf2MyvQSj0ec-XNSdhBtOnQcDk5XI,1443
+nbterm/help.py,sha256=mZZgxi0jWNkYnOODuje2u9KSVp94v8iJbmsJWaPgim4,2333
+nbterm/key_bindings.py,sha256=WByS60AZx2aVdG-C4LfzP5v0txvG4JMSbxNMjS2r7b4,4061
+nbterm/nbterm.py,sha256=ZwQckB35muwBU7Xd-MQbJrrNVgUrjBOZotCjddE-llY,2712
+nbterm/notebook.py,sha256=MDCVmJfdY1qCSJqYwNbLUjkDCr0B7-BU_vJG46jdoy8,14041
+nbterm-0.0.12.dist-info/LICENSE,sha256=D4RG-56mwADojKq7mjLm37ldh6SNFelKvKIEM1x1FmY,1081
+nbterm-0.0.12.dist-info/METADATA,sha256=2BzuoVstYohU3ne1G8qscGwqbi8l3acVaAZlg6vA9W4,2256
+nbterm-0.0.12.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+nbterm-0.0.12.dist-info/entry_points.txt,sha256=kWAtjJD400AI7rRgXASQ1jvaK1qY7ws8AEYBQxU8Gxs,46
+nbterm-0.0.12.dist-info/top_level.txt,sha256=2R6SvKlYsOr0BhgDCUB8bhqbWmCxT0C5uHAb42Td9YU,7
+nbterm-0.0.12.dist-info/RECORD,,
