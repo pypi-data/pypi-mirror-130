@@ -1,0 +1,124 @@
+Metadata-Version: 2.1
+Name: esinet
+Version: 0.1.2
+Summary: Solves the M/EEG inverse problem using artificial neural networks with Python 3 and the MNE library.
+Home-page: https://github.com/LukeTheHecker/esinet
+Author: Lukas Hecker
+Author-email: lukas_hecker@web.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tensorflow (>=2.4.1)
+Requires-Dist: mne (>=0.22.0)
+Requires-Dist: scipy
+Requires-Dist: colorednoise
+Requires-Dist: joblib
+Requires-Dist: jupyter
+Requires-Dist: ipykernel
+Requires-Dist: matplotlib
+Requires-Dist: pyvista (>=0.27.4)
+Requires-Dist: pyvistaqt (>=0.3.0)
+Requires-Dist: vtk (>=9.0.1)
+Requires-Dist: tqdm
+Requires-Dist: pytest
+Requires-Dist: pooch
+
+# esinet: Electric source imaging using artificial neural networks (ANNs)
+
+**esinet** let's you solve the EEG inverse problem using ANNs. It currently supports one architecture: A fully connected neural network which is trained on single time instances of M/EEG data. This model was described in our [paper](https://www.frontiersin.org/articles/10.3389/fnins.2021.569918/full).
+
+
+---
+
+<!-- ![esinet](/assets/esinet.png) -->
+<img src="assets/esinet.png" alt="esinet" width="500"/>
+
+Neural network design was created [here](http://alexlenail.me/NN-SVG/index.html)
+
+<br/><br/>
+
+## Dependencies:
+* [Python >= 3.8.3](https://www.python.org/downloads/)
+* [mne 0.22.0](https://mne.tools/stable/index.html)
+  * Follow the [installation guide](https://mne.tools/stable/install/mne_python.html#installing-mne-python-and-its-dependencies)
+* [Tensorflow>=2.4.1](https://www.tensorflow.org/)
+  * Follow the [installation guide](https://www.tensorflow.org/install)
+* [Colorednoise](https://github.com/felixpatzelt/colorednoise)
+* [joblib](https://joblib.readthedocs.io/en/latest/#)
+* [pyvista>=0.24](https://docs.pyvista.org/)
+* [pyvistaqt>=0.2.0](https://qtdocs.pyvista.org/)
+* [tqdm](https://github.com/tqdm/tqdm)
+
+<br/>
+
+# Installation from PyPi
+Use [pip](https://pip.pypa.io/en/stable/) to install esinet and all its
+dependencies from [PyPi](https://pypi.org/):
+
+```
+pip install esinet
+```
+
+<br/>
+
+# Quick start
+The following code demonstrates how to use this package:
+
+```
+from esinet import Simulation, Net
+
+# Simulate M/EEG data
+settings = dict(duration_of_trial=0.)
+sim = Simulation(fwd, info, settings=settings)
+sim.simulate(n_samples=10000)
+
+# Train neural network on the simulated data
+net = Net(fwd)
+net.fit(sim)
+
+# Perform predictions on your data
+stc = net.predict(epochs)
+
+```
+
+# First steps
+
+Check out one of the [tutorials](tutorials/) to learn how to use the package:
+
+* [Tutorial 1](tutorials/tutorial_1.ipynb): The fastest way to get started with the fully-connected ANN. This tutorial can be used as an entry point. If you want to dig deeper you should have a look at the next tutorials, too!
+* [Tutorial 2](tutorials/tutorial_2.ipynb): Use esinet with low-level functions that allow for more control over your parameters with respect to simulations and training of the neural network.
+* [Tutorial 3](tutorials/tutorial_3.ipynb): A demonstration of simulation parameters and how they affect the model performance.
+
+
+# Feedback
+Please leave your feedback and bug reports at lukas_hecker@web.de.
+
+<br/>
+
+# Literature
+Please cite us with this publication:
+
+@ARTICLE{10.3389/fnins.2021.569918,
+AUTHOR={Hecker, Lukas and Rupprecht, Rebekka and Tebartz Van Elst, Ludger and Kornmeier, Jürgen},   
+TITLE={ConvDip: A Convolutional Neural Network for Better EEG Source Imaging},      
+JOURNAL={Frontiers in Neuroscience},      
+VOLUME={15},      
+PAGES={533},     
+YEAR={2021},      
+URL={https://www.frontiersin.org/article/10.3389/fnins.2021.569918},       
+DOI={10.3389/fnins.2021.569918},      
+ISSN={1662-453X}
+}
+
+# Troubleshooting
+* Having problems with the installation? Check the [package requirements](requirements.txt)
+
+# Notes on current version
+* This version 0.1.0 is fully compatible with the mne-python package. This meant that I had to change the whole API to match the mne-python API. Please have a look at the new tutorials in order to get familiar with the new code structure or revert back to an earlier version. Check the changelog for a version list.
+
+
