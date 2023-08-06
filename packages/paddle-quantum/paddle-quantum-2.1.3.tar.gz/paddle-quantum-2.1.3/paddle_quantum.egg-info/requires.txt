@@ -1,0 +1,10 @@
+paddlepaddle>=2.2.0
+scipy
+networkx>=2.5
+matplotlib>=3.3.0
+interval
+tqdm
+openfermion
+
+[:platform_system == "Linux" or platform_system == "Darwin"]
+pyscf
