@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mamaprofile/__init__.py
+mamaprofile/myprofile.py
+mamaprofile.egg-info/PKG-INFO
+mamaprofile.egg-info/SOURCES.txt
+mamaprofile.egg-info/dependency_links.txt
+mamaprofile.egg-info/top_level.txt
