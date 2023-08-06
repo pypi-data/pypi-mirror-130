@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: tacitus-notes
+Version: 0.1
+Summary: Generate release notes from git history, using markdown syntax.
+Home-page: https://github.com/kopsha/tacitus-notes
+Author: Florin Ciurcanu
+Author-email: florin.ciurcanu@gmail.com
+License: BSD 2-Clause License
+Keywords: automatic release notes,release notes,markdown,git scraping
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# tacitus-notes
+
+[Publius Cornelius Tacitus](https://en.wikipedia.org/wiki/Tacitus) was a Roman
+historian and politician. And quite recently, he started writing notes on our git
+repositories.
+
+
+## the dream
+
+Walk through git log, up to last tag or target commit, and collect each commit
+message in a markdown format:
+- prettify it,
+- *replace ticket numbers with urls*
+- print on console
+
+## shellscript version
+
+```bash
+git describe --tags --abbrev=0
+git log $(git describe --tags --abbrev=0)..HEAD --oneline
+```
+
+
+## python version
+
+Run this script in your project directory and see what happens.
+
+```bash
+python tacitus.py
+```
+
+
+BSD 2-Clause License
+
+Copyright (c) 2021, Florin Ciurcanu
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
