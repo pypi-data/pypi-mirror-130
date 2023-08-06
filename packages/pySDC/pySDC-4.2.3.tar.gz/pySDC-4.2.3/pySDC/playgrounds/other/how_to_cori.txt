@@ -1,0 +1,14 @@
+module load python3 cray-fftw
+
+conda create -n pySDC python=3
+
+source activate pySDC
+
+conda install numpy scipy dill matplotlib numba sympy nose pep8
+
+follow https://docs.nersc.gov/programming/high-level-environments/python/#mpi4py
+
+export FFTW_LIBRARY_DIR=/opt/cray/pe/fftw/3.3.8.2/haswell/lib
+export FFTW_INCLUDE_DIR=/opt/cray/pe/fftw/3.3.8.2/haswell/include
+
+pip install mpi4py-fft

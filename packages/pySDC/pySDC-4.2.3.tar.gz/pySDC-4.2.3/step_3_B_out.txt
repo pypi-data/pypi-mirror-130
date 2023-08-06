@@ -1,0 +1,1173 @@
+2019-01-24 10:42:02,483 - controller - Controller - dump_setup - 110 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-01-24 10:42:02,483 - controller - Controller - dump_setup - 173 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    fine_comm = True
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    spread = True
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-01-24 10:42:02,483 - controller - Controller - dump_setup - 175 - INFO: ----------------------------------------------------------------------------------------------------
+2019-01-24 10:42:02,483 - controller - Controller - dump_setup - 177 - INFO: Setup overview (--> user-defined) -- END
+
+2019-01-24 10:42:02,899 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-01-24 10:42:02,904 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-01-24 10:42:02,909 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-01-24 10:42:02,914 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-01-24 10:42:02,919 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-01-24 10:42:02,923 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-01-24 10:42:02,928 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-01-24 10:42:02,933 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-01-24 10:42:02,938 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-01-24 10:42:02,942 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-01-24 10:42:02,948 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-03-21 22:01:41,873 - controller - Controller - dump_setup - 110 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-03-21 22:01:41,874 - controller - Controller - dump_setup - 173 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    fine_comm = True
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    spread = True
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-03-21 22:01:41,874 - controller - Controller - dump_setup - 175 - INFO: ----------------------------------------------------------------------------------------------------
+2019-03-21 22:01:41,874 - controller - Controller - dump_setup - 177 - INFO: Setup overview (--> user-defined) -- END
+
+2019-03-21 22:01:42,209 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-03-21 22:01:42,214 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-03-21 22:01:42,219 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-03-21 22:01:42,224 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-03-21 22:01:42,229 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-03-21 22:01:42,234 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-03-21 22:01:42,240 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-03-21 22:01:42,245 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-03-21 22:01:42,250 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-03-21 22:01:42,255 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-03-21 22:01:42,260 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-04-14 15:44:56,305 - controller - Controller - dump_setup - 110 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-04-14 15:44:56,305 - controller - Controller - dump_setup - 173 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    fine_comm = True
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    spread = True
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-04-14 15:44:56,306 - controller - Controller - dump_setup - 175 - INFO: ----------------------------------------------------------------------------------------------------
+2019-04-14 15:44:56,306 - controller - Controller - dump_setup - 177 - INFO: Setup overview (--> user-defined) -- END
+
+2019-04-14 15:44:56,644 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-04-14 15:44:56,649 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-04-14 15:44:56,654 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-04-14 15:44:56,659 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-04-14 15:44:56,664 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-04-14 15:44:56,669 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-04-14 15:44:56,674 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-04-14 15:44:56,679 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-04-14 15:44:56,685 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-04-14 15:44:56,689 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-04-14 15:44:56,694 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-04-14 16:04:22,908 - controller - Controller - dump_setup - 110 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-04-14 16:04:22,908 - controller - Controller - dump_setup - 173 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    fine_comm = True
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    spread = True
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-04-14 16:04:22,908 - controller - Controller - dump_setup - 175 - INFO: ----------------------------------------------------------------------------------------------------
+2019-04-14 16:04:22,908 - controller - Controller - dump_setup - 177 - INFO: Setup overview (--> user-defined) -- END
+
+2019-04-14 16:04:23,239 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-04-14 16:04:23,244 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-04-14 16:04:23,250 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-04-14 16:04:23,255 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-04-14 16:04:23,260 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-04-14 16:04:23,265 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-04-14 16:04:23,270 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-04-14 16:04:23,276 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-04-14 16:04:23,281 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-04-14 16:04:23,287 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-04-14 16:04:23,293 - hooks - Hooks - post_sweep - 186 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-05-20 11:06:35,301 - controller - Controller - dump_setup - 111 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-05-20 11:06:35,303 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    fine_comm = True
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    init_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-05-20 11:06:35,303 - controller - Controller - dump_setup - 176 - INFO: ----------------------------------------------------------------------------------------------------
+2019-05-20 11:06:35,303 - controller - Controller - dump_setup - 178 - INFO: Setup overview (--> user-defined) -- END
+
+2019-05-20 11:06:35,629 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-05-20 11:06:35,634 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-05-20 11:06:35,639 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-05-20 11:06:35,643 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-05-20 11:06:35,650 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-05-20 11:06:35,656 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-05-20 11:06:35,661 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-05-20 11:06:35,666 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-05-20 11:06:35,671 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-05-20 11:06:35,676 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-05-20 11:06:35,681 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-08-16 09:48:04,399 - controller - Controller - dump_setup - 111 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-08-16 09:48:04,400 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-08-16 09:48:04,400 - controller - Controller - dump_setup - 176 - INFO: ----------------------------------------------------------------------------------------------------
+2019-08-16 09:48:04,400 - controller - Controller - dump_setup - 178 - INFO: Setup overview (--> user-defined) -- END
+
+2019-08-16 09:48:04,808 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-08-16 09:48:04,813 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-08-16 09:48:04,818 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-08-16 09:48:04,823 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-08-16 09:48:04,829 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-08-16 09:48:04,834 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-08-16 09:48:04,839 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-08-16 09:48:04,844 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-08-16 09:48:04,849 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-08-16 09:48:04,853 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-08-16 09:48:04,858 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-08-16 10:16:18,691 - controller - Controller - dump_setup - 111 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-08-16 10:16:18,691 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-08-16 10:16:18,691 - controller - Controller - dump_setup - 176 - INFO: ----------------------------------------------------------------------------------------------------
+2019-08-16 10:16:18,691 - controller - Controller - dump_setup - 178 - INFO: Setup overview (--> user-defined) -- END
+
+2019-08-16 10:16:19,427 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-08-16 10:16:19,437 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-08-16 10:16:19,444 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-08-16 10:16:19,451 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-08-16 10:16:19,456 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-08-16 10:16:19,462 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-08-16 10:16:19,467 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-08-16 10:16:19,472 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-08-16 10:16:19,477 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-08-16 10:16:19,482 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-08-16 10:16:19,487 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2019-08-16 20:29:21,794 - controller - Controller - dump_setup - 111 - INFO: Setup overview (--> user-defined) -- BEGIN
+2019-08-16 20:29:21,795 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2019-08-16 20:29:21,795 - controller - Controller - dump_setup - 176 - INFO: ----------------------------------------------------------------------------------------------------
+2019-08-16 20:29:21,795 - controller - Controller - dump_setup - 178 - INFO: Setup overview (--> user-defined) -- END
+
+2019-08-16 20:29:22,238 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2019-08-16 20:29:22,244 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2019-08-16 20:29:22,252 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2019-08-16 20:29:22,258 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2019-08-16 20:29:22,265 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2019-08-16 20:29:22,271 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2019-08-16 20:29:22,276 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2019-08-16 20:29:22,283 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2019-08-16 20:29:22,292 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2019-08-16 20:29:22,305 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2019-08-16 20:29:22,313 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2020-07-28 13:11:06,664 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2020-07-28 13:11:06,665 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2020-07-28 13:11:06,665 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2020-07-28 13:11:06,665 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2020-07-28 13:11:07,954 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2020-07-28 13:11:07,960 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2020-07-28 13:11:07,967 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2020-07-28 13:11:07,973 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2020-07-28 13:11:07,979 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2020-07-28 13:11:07,984 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2020-07-28 13:11:07,990 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2020-07-28 13:11:07,995 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534545e-06
+2020-07-28 13:11:08,001 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2020-07-28 13:11:08,008 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09408029e-08
+2020-07-28 13:11:08,014 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17120544e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-06 13:21:40,322 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-06 13:21:40,323 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-06 13:21:40,323 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-06 13:21:40,323 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-06 13:21:41,236 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-06 13:21:41,241 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-06 13:21:41,246 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-06 13:21:41,252 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-06 13:21:41,258 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-06 13:21:41,264 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-06 13:21:41,269 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-06 13:21:41,275 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-06 13:21:41,281 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-06 13:21:41,286 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-06 13:21:41,291 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-06 16:02:23,376 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-06 16:02:23,377 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-06 16:02:23,377 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-06 16:02:23,377 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-06 16:02:24,268 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-06 16:02:24,275 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-06 16:02:24,282 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-06 16:02:24,287 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-06 16:02:24,294 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-06 16:02:24,299 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-06 16:02:24,304 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-06 16:02:24,309 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-06 16:02:24,315 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-06 16:02:24,322 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-06 16:02:24,327 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-06 16:59:04,690 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-06 16:59:04,691 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-06 16:59:04,691 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-06 16:59:04,691 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-06 16:59:05,617 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-06 16:59:05,623 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-06 16:59:05,629 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-06 16:59:05,635 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-06 16:59:05,641 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-06 16:59:05,646 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-06 16:59:05,652 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-06 16:59:05,657 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-06 16:59:05,663 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-06 16:59:05,669 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-06 16:59:05,675 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-12 11:06:48,819 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-12 11:06:48,820 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-12 11:06:48,820 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-12 11:06:48,820 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-12 11:06:49,663 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-12 11:06:49,669 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-12 11:06:49,675 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-12 11:06:49,681 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-12 11:06:49,687 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-12 11:06:49,693 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-12 11:06:49,699 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-12 11:06:49,705 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-12 11:06:49,711 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-12 11:06:49,717 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-12 11:06:49,723 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-12 17:13:15,143 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-12 17:13:15,143 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-12 17:13:15,144 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-12 17:13:15,144 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-12 17:13:15,998 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-12 17:13:16,006 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-12 17:13:16,012 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-12 17:13:16,018 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-12 17:13:16,024 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-12 17:13:16,029 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-12 17:13:16,036 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-12 17:13:16,042 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-12 17:13:16,048 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-12 17:13:16,054 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-12 17:13:16,059 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-27 11:51:25,282 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-27 11:51:25,284 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-27 11:51:25,284 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-27 11:51:25,284 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-27 11:54:20,389 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-27 11:54:20,389 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-27 11:54:20,390 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-27 11:54:20,390 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-27 11:54:21,087 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-27 11:54:21,094 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-27 11:54:21,100 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-27 11:54:21,107 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-27 11:54:21,113 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-27 11:54:21,120 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-27 11:54:21,126 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-27 11:54:21,133 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-27 11:54:21,139 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-27 11:54:21,146 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-27 11:54:21,153 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+2021-04-27 11:56:29,366 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-27 11:56:29,367 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-27 11:56:29,367 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-27 11:56:29,367 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-27 11:56:30,004 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-27 11:56:30,011 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-27 11:56:30,017 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-27 11:56:30,024 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-27 11:56:30,030 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-27 11:56:30,036 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-27 11:56:30,043 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-27 11:56:30,050 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-27 11:56:30,056 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-27 11:56:30,063 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-27 11:56:30,069 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-27 14:35:15,215 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-27 14:35:15,216 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-27 14:35:15,216 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-27 14:35:15,216 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-27 14:35:16,141 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-27 14:35:16,148 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-27 14:35:16,155 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-27 14:35:16,161 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-27 14:35:16,168 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-27 14:35:16,175 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-27 14:35:16,181 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-27 14:35:16,188 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-27 14:35:16,195 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-27 14:35:16,202 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-27 14:35:16,209 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-04-27 16:48:59,730 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-04-27 16:48:59,731 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-04-27 16:48:59,731 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-04-27 16:48:59,731 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-04-27 16:49:00,741 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-04-27 16:49:00,748 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-04-27 16:49:00,755 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-04-27 16:49:00,762 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-04-27 16:49:00,769 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-04-27 16:49:00,776 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-04-27 16:49:00,782 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-04-27 16:49:00,789 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-04-27 16:49:00,795 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-04-27 16:49:00,803 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-04-27 16:49:00,810 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-05-03 12:43:59,738 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-05-03 12:43:59,739 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-05-03 12:43:59,739 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-05-03 12:43:59,739 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-05-03 12:44:00,511 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-05-03 12:44:00,517 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-05-03 12:44:00,523 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-05-03 12:44:00,530 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-05-03 12:44:00,536 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-05-03 12:44:00,543 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-05-03 12:44:00,549 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-05-03 12:44:00,556 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-05-03 12:44:00,562 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-05-03 12:44:00,568 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-05-03 12:44:00,575 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-08-10 12:16:28,370 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-08-10 12:16:28,370 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-08-10 12:16:28,371 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-08-10 12:16:28,371 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-08-10 12:16:29,372 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-08-10 12:16:29,378 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-08-10 12:16:29,384 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-08-10 12:16:29,391 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-08-10 12:16:29,398 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-08-10 12:16:29,404 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-08-10 12:16:29,411 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-08-10 12:16:29,417 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-08-10 12:16:29,424 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-08-10 12:16:29,432 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-08-10 12:16:29,442 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-08-10 14:09:51,984 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-08-10 14:09:51,985 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-08-10 14:09:51,985 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-08-10 14:09:51,986 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-08-10 14:09:53,007 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-08-10 14:09:53,017 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-08-10 14:09:53,025 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-08-10 14:09:53,035 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-08-10 14:09:53,043 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-08-10 14:09:53,052 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-08-10 14:09:53,061 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-08-10 14:09:53,069 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-08-10 14:09:53,079 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-08-10 14:09:53,087 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-08-10 14:09:53,096 - hooks - Hooks - post_sweep - 200 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01
+2021-10-18 16:35:36,842 - controller - Controller - dump_setup - 109 - INFO: Setup overview (--> user-defined) -- BEGIN
+2021-10-18 16:35:36,843 - controller - Controller - dump_setup - 172 - INFO: ----------------------------------------------------------------------------------------------------
+
+Controller: <class 'pySDC.implementations.controller_classes.controller_nonMPI.controller_nonMPI'>
+    mssdc_jac = True
+    predict_type = None
+    all_to_done = False
+    logger_level = 20
+--> log_to_file = True
+    dump_setup = True
+--> fname = step_3_B_out.txt
+    use_iteration_estimator = False
+--> hook_class = <class 'pySDC.tutorial.step_3.HookClass_Particles.particle_hook'>
+
+Step: <class 'pySDC.core.Step.step'>
+--> maxiter = 20
+    Level: <class 'pySDC.core.Level.level'>
+        Level  0
+-->         dt = 0.0625
+-->         restol = 1e-08
+            nsweeps = 1
+            residual_type = full_abs
+-->         Problem: <class 'pySDC.implementations.problem_classes.PenningTrap_3D.penningtrap'>
+-->             omega_E = 4.9
+-->             omega_B = 25.0
+-->             u0 = [list([10, 0, 0]) list([100, 0, 100]) list([1]) list([1])]
+-->             nparts = 1
+-->             sig = 0.1
+-->             Data type u: <class 'pySDC.implementations.datatype_classes.particles.particles'>
+-->             Data type f: <class 'pySDC.implementations.datatype_classes.particles.fields'>
+-->             Sweeper: <class 'pySDC.implementations.sweeper_classes.boris_2nd_order.boris_2nd_order'>
+                    do_coll_update = False
+                    initial_guess = spread
+-->                 num_nodes = 3
+-->                 Collocation: <class 'pySDC.implementations.collocation_classes.gauss_radau_right.CollGaussRadau_Right'>
+
+2021-10-18 16:35:36,843 - controller - Controller - dump_setup - 174 - INFO: ----------------------------------------------------------------------------------------------------
+2021-10-18 16:35:36,843 - controller - Controller - dump_setup - 176 - INFO: Setup overview (--> user-defined) -- END
+
+2021-10-18 16:35:37,896 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  1 -- Sweep:  1 -- residual: 3.53203678e+00
+2021-10-18 16:35:37,902 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  2 -- Sweep:  1 -- residual: 2.09852117e-01
+2021-10-18 16:35:37,908 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  3 -- Sweep:  1 -- residual: 3.50301513e-02
+2021-10-18 16:35:37,914 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  4 -- Sweep:  1 -- residual: 4.67724741e-03
+2021-10-18 16:35:37,920 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  5 -- Sweep:  1 -- residual: 7.95583202e-04
+2021-10-18 16:35:37,926 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  6 -- Sweep:  1 -- residual: 1.11405073e-04
+2021-10-18 16:35:37,932 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  7 -- Sweep:  1 -- residual: 1.26902403e-05
+2021-10-18 16:35:37,938 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  8 -- Sweep:  1 -- residual: 1.16534544e-06
+2021-10-18 16:35:37,944 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration:  9 -- Sweep:  1 -- residual: 1.66968007e-07
+2021-10-18 16:35:37,950 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 10 -- Sweep:  1 -- residual: 2.09407602e-08
+2021-10-18 16:35:37,955 - hooks - Hooks - post_sweep - 197 - INFO: Process  0 on time 0.000000 at stage         IT_FINE: Level: 0 -- Iteration: 11 -- Sweep:  1 -- residual: 2.17124807e-09
+Total energy and deviation in iteration  0: 8799.5000000000 -- 0.00000000e+00
+Total energy and deviation in iteration 11: 8785.0038936088 -- 1.44961064e+01

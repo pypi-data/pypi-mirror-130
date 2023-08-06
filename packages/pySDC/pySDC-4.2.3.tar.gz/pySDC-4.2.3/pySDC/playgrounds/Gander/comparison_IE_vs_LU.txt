@@ -1,0 +1,4 @@
+
+Working with maxiter = 1
+  Error (IE/LU) vs. exact solution: 5.4916e-10 -- 5.7930e-02
+  Difference between both results: 5.7930e-02

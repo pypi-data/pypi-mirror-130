@@ -1,0 +1,76 @@
+Working with QI = LU on  1 processes...
+   Mean number of iterations: 7.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+   Std and var for number of iterations: 0.00 -- 0.00
+
+Working with QI = LU on  2 processes...
+   Mean number of iterations: 7.50
+   Range of values for number of iterations:  1 
+   Position of max/min number of iterations:  1 --  0
+   Std and var for number of iterations: 0.50 -- 0.25
+   Std and var for number of iterations: 0.50 -- 0.25
+
+Working with QI = LU on  4 processes...
+   Mean number of iterations: 8.00
+   Range of values for number of iterations:  2 
+   Position of max/min number of iterations:  3 --  0
+   Std and var for number of iterations: 0.71 -- 0.50
+   Std and var for number of iterations: 0.71 -- 0.50
+
+Working with QI = LU on  8 processes...
+   Mean number of iterations: 8.50
+   Range of values for number of iterations:  2 
+   Position of max/min number of iterations:  3 --  0
+   Std and var for number of iterations: 0.71 -- 0.50
+   Std and var for number of iterations: 0.71 -- 0.50
+
+Working with QI = LU on 16 processes...
+   Mean number of iterations: 9.56
+   Range of values for number of iterations:  5 
+   Position of max/min number of iterations: 15 --  0
+   Std and var for number of iterations: 1.27 -- 1.62
+   Std and var for number of iterations: 1.27 -- 1.62
+
+Mean number of iterations went up from 7.00 to 9.56 for QI = LU!
+
+
+Working with QI = IE on  1 processes...
+   Mean number of iterations: 15.00
+   Range of values for number of iterations:  0 
+   Position of max/min number of iterations:  0 --  0
+   Std and var for number of iterations: 0.00 -- 0.00
+   Std and var for number of iterations: 0.00 -- 0.00
+
+Working with QI = IE on  2 processes...
+   Mean number of iterations: 16.50
+   Range of values for number of iterations:  3 
+   Position of max/min number of iterations:  1 --  0
+   Std and var for number of iterations: 1.50 -- 2.25
+   Std and var for number of iterations: 1.50 -- 2.25
+
+Working with QI = IE on  4 processes...
+   Mean number of iterations: 17.75
+   Range of values for number of iterations:  4 
+   Position of max/min number of iterations:  2 --  0
+   Std and var for number of iterations: 1.64 -- 2.69
+   Std and var for number of iterations: 1.64 -- 2.69
+
+Working with QI = IE on  8 processes...
+   Mean number of iterations: 18.38
+   Range of values for number of iterations:  4 
+   Position of max/min number of iterations:  2 --  0
+   Std and var for number of iterations: 1.32 -- 1.73
+   Std and var for number of iterations: 1.32 -- 1.73
+
+Working with QI = IE on 16 processes...
+   Mean number of iterations: 18.69
+   Range of values for number of iterations:  4 
+   Position of max/min number of iterations:  2 --  0
+   Std and var for number of iterations: 0.98 -- 0.96
+   Std and var for number of iterations: 0.98 -- 0.96
+
+Mean number of iterations went up from 15.00 to 18.69 for QI = IE!
+
+
