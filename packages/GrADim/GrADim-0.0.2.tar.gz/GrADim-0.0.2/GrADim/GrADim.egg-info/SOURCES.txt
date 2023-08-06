@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+GrADim/GrADim.egg-info/PKG-INFO
+GrADim/GrADim.egg-info/SOURCES.txt
+GrADim/GrADim.egg-info/dependency_links.txt
+GrADim/GrADim.egg-info/top_level.txt
