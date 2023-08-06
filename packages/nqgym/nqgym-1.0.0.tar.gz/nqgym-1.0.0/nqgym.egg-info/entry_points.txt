@@ -1,0 +1,3 @@
+[console_scripts]
+nqgym = nqgym.cli:cli
+
