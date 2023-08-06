@@ -1,0 +1,10 @@
+SampleDistribution_1/mod1.py,sha256=GQsZykG7uq7NFBIStfZnVnMj85YPZ7gQ0MHBTyNzMqA,19
+SampleDistribution_1/pkg1/mod3.py,sha256=eMrJFmtL71A7An8KjU38Pw9djDR92KqHL-kaXn8ylpc,15
+SampleDistribution_1/pkg2/main.py,sha256=L_ZrNFiAeNNOtqlLVZ__5GJqxFkzmkJarKj2vyTpXMM,563
+SampleDistribution_2/pkg1/mod2.py,sha256=VFAyifawZveAzbuMHxjHtjDmxTEvTqBMFOY1qeA2Pzs,39
+NamespaceDistribution-0.0.2.dist-info/LICENSE,sha256=6ZLmOxVJo1yJpFYqu2Tlk7np4HUV9ZZ_o0dVuEQgd68,1091
+NamespaceDistribution-0.0.2.dist-info/METADATA,sha256=7LP-vJONnJ7U8juCKz2PPELKloSIXmYbd3ZGgxi3954,2392
+NamespaceDistribution-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+NamespaceDistribution-0.0.2.dist-info/entry_points.txt,sha256=-TBVGxv4lxTG7zsVDpnsdlTla-AuWggGeJ4wafdtO7I,69
+NamespaceDistribution-0.0.2.dist-info/top_level.txt,sha256=dvG-4-CVnfD5sCP8bn7aIPv5LMfBTFTwie15gnxN8U8,42
+NamespaceDistribution-0.0.2.dist-info/RECORD,,
