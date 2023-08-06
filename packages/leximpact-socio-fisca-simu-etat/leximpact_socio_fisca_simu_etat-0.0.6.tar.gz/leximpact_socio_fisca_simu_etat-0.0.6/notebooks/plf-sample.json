@@ -1,0 +1,25 @@
+{
+   "prelevements_sociaux.contributions_sociales.csg.activite.imposable.taux":0.08,
+   "prelevements_sociaux.contributions_sociales.csg.activite.deductible.abattement":{
+      "scale":[
+         {
+            "rate":{
+               "value":0.5
+            },
+            "threshold":{
+               "value":0
+            }
+         },
+         {
+            "rate":{
+               "value":0
+            },
+            "threshold":{
+               "value":4
+            }
+         }
+      ],
+      "start":"2021-01-01",
+      "type":"scale"
+   }
+}

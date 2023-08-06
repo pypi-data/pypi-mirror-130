@@ -1,0 +1,118 @@
+image: python:3.8-slim
+
+variables:
+  PIP_CACHE_DIR: "$CI_PROJECT_DIR/.cache/pip"
+  PIP_DOWNLOAD_DIR: ".pip"
+  # For Git, to prevent asking for user config
+  GIT_EMAIL: gitlabci@gitlab.com
+  GIT_AUTHOR_NAME: gitlabci
+  PRE_COMMIT_HOME: ${CI_PROJECT_DIR}/.cache/pre-commit
+
+services:
+  - redis:6-buster
+
+stages:
+  - init
+  - check
+  - test
+  - deploy
+
+cache:
+  key:
+    files:
+      - poetry.lock
+      - .pre-commit-config.yaml
+    prefix: ${CI_JOB_NAME}
+  paths:
+    - .venv
+    - ${PIP_CACHE_DIR}
+    - ${PIP_DOWNLOAD_DIR}
+    - ${PRE_COMMIT_HOME}
+
+before_script:
+  # git is needed for pre-commit
+  - apt update && apt install -y git make
+  # Allow caching by only downloading first:
+  - pip download --dest=${PIP_DOWNLOAD_DIR} poetry # STEP 1
+  - pip install --find-links=${PIP_DOWNLOAD_DIR} poetry # STEP 2
+  - poetry config virtualenvs.in-project true
+  - poetry install --no-root
+  - cp deploy/.env-ci notebooks/.env
+  - cp deploy/.env-ci leximpact_socio_fisca_simu_etat/.env
+  - cp deploy/.env-ci .env
+
+
+check-style:
+  stage: check
+  script:
+    - poetry run pre-commit install --install-hooks
+    - poetry run pre-commit run --all-files
+
+run-notebooks:
+  stage: test
+  needs: ["check-style"]
+  script:
+    - mkdir -p ./papermill
+    - poetry run python -m ipykernel install --name leximpact-socio-fiscal-simu-etat-kernel --user
+    - make test-nb
+  artifacts:
+    when: always
+    paths:
+      - ./papermill
+
+
+pytest:
+  stage: test
+  needs: ["check-style"]
+  script:
+    - poetry run pytest --junitxml=rspec.xml
+  # Keep the output of tests
+  artifacts:
+      when: always
+      paths:
+        - rspec.xml
+      reports:
+        junit: rspec.xml
+
+
+deploy-integ:
+  stage: deploy
+  # Prevent call of before_script because it is useless
+  before_script:
+   - ''
+  script:
+   # Install git to have ssh-agent and ssh-add
+   - apt update && apt install -y git curl
+   - eval $(ssh-agent -s)
+   - ssh-add <(echo "$SSH_PRIVATE_KEY")
+   - '[[ -f /.dockerenv ]] && mkdir -p ~/.ssh && echo -e "Host *\n\tStrictHostKeyChecking no\n\tLogLevel quiet\n" > ~/.ssh/config'
+   - ssh leximpact@$INTEGRATION_IP "cd $CI_PROJECT_NAME && git fetch --all && git reset --hard origin/$CI_COMMIT_REF_NAME && git checkout -B $CI_COMMIT_REF_NAME $CI_COMMIT_SHA && git pull origin $CI_COMMIT_REF_NAME && exit"
+   - ssh leximpact@$INTEGRATION_IP "source .bashrc && cd $CI_PROJECT_NAME && /home/leximpact/.local/bin/poetry install --no-dev && exit"
+   - ssh leximpact@$INTEGRATION_IP "systemctl --user restart leximpact-socio-fiscal-simu-api.service"
+   - sleep 5 && curl https://api-simu-etat-integ.leximpact.dev/clear_cache?secret=$INTEGRATION_CLEAR_CACHE_PASSWORD
+  when: manual
+  except:
+    - master
+  environment:
+    name: integration
+
+
+deploy-master:
+  stage: deploy
+  # Prevent call of before_script because it is useless
+  before_script:
+   - ''
+  script:
+   - apt update && apt install -y git curl
+   - eval $(ssh-agent -s)
+   - ssh-add <(echo "$SSH_PRIVATE_KEY")
+   - '[[ -f /.dockerenv ]] && mkdir -p ~/.ssh && echo -e "Host *\n\tStrictHostKeyChecking no\n\tLogLevel quiet\n" > ~/.ssh/config'
+   - ssh leximpact@$PRODUCTION_IP "cd $CI_PROJECT_NAME && git fetch --all && git reset --hard origin/master && git checkout -B $CI_COMMIT_REF_NAME $CI_COMMIT_SHA && git pull origin $CI_COMMIT_REF_NAME && exit"
+   - ssh leximpact@$PRODUCTION_IP "cd $CI_PROJECT_NAME && /home/leximpact/.local/bin/poetry install --no-dev && exit"
+   - ssh leximpact@$PRODUCTION_IP "systemctl --user restart leximpact-socio-fiscal-simu-api.service"
+   - sleep 5 && curl https://api-simu-etat-prod.leximpact.dev/clear_cache?secret=$PRODUCTION_CLEAR_CACHE_PASSWORD
+  #when: manual
+  only:
+    - master
+  environment:
+    name: production
