@@ -1,0 +1,15 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/AD/AD_forward.py
+src/AD/AD_reverse.py
+src/AD/Dual.py
+src/AD/Node.py
+src/AD/__init__.py
+src/AD/elementary.py
+src/AD/elementary_node.py
+src/swiftdiff.egg-info/PKG-INFO
+src/swiftdiff.egg-info/SOURCES.txt
+src/swiftdiff.egg-info/dependency_links.txt
+src/swiftdiff.egg-info/top_level.txt
