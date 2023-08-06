@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "the-social-network"
+version = "0.0.6"
+description = "Basic social network core."
+authors = ["Marc Feger <marc.feger@hhu.de>"]
+license = "BSD-4"
+readme = "README.md"
+homepage = "https://gitlab.cs.uni-duesseldorf.de/feger/the-social-network"
+include = ["media/account/default/Argunaut.png", "media/account/default/Planet.png"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+Django = "^3.2.9"
+djangorestframework = "^3.12.4"
+Pillow = "^8.4.0"
+
+[tool.poetry.dev-dependencies]
+django-cors-headers = "^3.10.0"
+django-dotenv = "^1.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

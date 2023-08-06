@@ -1,0 +1,424 @@
+# The Social Network
+
+The package "The Social Network" is a django base backend core element for any possible social network you can think of. You can easily create clones for all popular social networks. 
+
+## Installation
+Minimum requierments are:
+
+> [Python](https://www.python.org/downloads/) >= 3.9  
+> [Django](https://pypi.org/project/Django/) >= 3.2.9  
+> [Pillow](https://pypi.org/project/Pillow/) >= 8.4.0  
+> [djangorestframework](https://pypi.org/project/djangorestframework/) >= 3.12.4
+
+Intallation can be done by **pip** like
+
+> pip install the-social-network
+
+or download manuel on [Pypi](https://pypi.org/project/the-social-network/).
+
+## How to use
+
+If you not have already created a django python project, [create](https://docs.djangoproject.com/en/3.2/intro/tutorial01/) it at first in a new directory with the command
+
+> django-admin startproject mysite
+
+This will create a **mysite** directory in your current directory.
+
+Open the **mysite** directory and open the **settings.py**.
+Add *'the_social_network'* to **INSTALLED_APPS** and save the file.
+
+Next open the urls.py and add the following lines to your **urlpatterns**
+
+> url(r'^authentication/', include('the_social_network.urls.authenticationUrls')),  
+> url(r'^accounts/', include('the_social_network.urls.accountUrls')),  
+> url(r'^search/', include('the_social_network.urls.searchUrls')),  
+> url(r'^contents/', include('the_social_network.urls.contentUrls'))
+
+Now everything is ready to run django with **the-social-network**.
+Create the database with
+> python manage.py migrate
+
+and start the server with
+> python manage.py runserver
+
+the default django information page should showup if you open [http://127.0.0.1:8000/](http://127.0.0.1:8000/) in your browser.
+
+## Request API for the URLs
+
+In all requests (except for the request of *authentication/register/* or */authentication/login/*) you need to send the authentification token inside the header.
+For authorization use the header name "Authorization" and the value "Token <token>"
+
+#### Authentication
+##### POST url: ".../authentication/register/"
+Register a user  
+
+Requestbody:  
+```json
+{  
+    "username": "username",  
+    "password": "password",  
+    "email": "email"  
+} 
+``` 
+Responsebody:  
+```json
+{  
+    "token": "token"  
+}  
+```
+
+##### POST url: ".../authentication/login/"
+Login a user  
+
+Requestbody:  
+```json
+{  
+    "username": "username",  
+    "password": "password"  
+}  
+```
+Responsebody:  
+```json
+{  
+    "token": "token"  
+}  
+```
+
+##### POST url: ".../authentication/logout/"
+Logout a user  
+
+Requestbody: None  
+Responsebody: None  
+Success: HTTP/200  
+
+##### GET url: ".../authentication/validate/"
+Validate a token  
+
+Requestbody: None  
+Responsebody: None  
+Success: HTTP/200  
+
+#### Account
+##### GET url: ".../accounts/show/<user_id>/"
+Show a public user  
+
+Requestbody: None  
+Responsebody:  
+```json
+[{  
+    "user": {  
+        "id": ...,  
+        "username": ...,  
+        "email": ...,  
+        "date_joined": "..."  
+    },  
+    "image": "...",  
+    "biography": "...",  
+    "related_by": [],  
+    "related_to": [],  
+    "statements": []  
+}]  
+```
+
+
+##### GET url: ".../accounts/show/own/"
+Show the own user  
+
+Requestbody: None  
+Responsebody:  
+```json
+[{  
+    "user": {  
+        "id": ...,  
+        "username": ...,  
+        "email": ...,  
+        "date_joined": "..."  
+    },  
+    "image": "...",  
+    "biography": "...",  
+    "related_by": [],  
+    "related_to": [],  
+    "statements": []  
+}]  
+```
+
+##### GET url: ".../accounts/show/all/"
+Show all public users  
+
+Requestbody: None  
+Responsebody:  
+```json
+[{  
+    "user": {  
+        "id": ...,  
+        "username": ...,  
+        "email": ...,  
+        "date_joined": "..."  
+    },  
+    "image": "...",  
+    "biography": "...",  
+    "related_by": [],  
+    "related_to": [],  
+    "statements": []  
+},  
+...  
+]  
+```
+
+##### PUT url: ".../accounts/update/"
+Updates the own account. Only "Biography" and "Image" are allowed to be updated.  
+
+Requestbody:  
+```json
+{  
+    "biography": "...",  
+    "file": "..."  
+}  
+```
+Responsebody: None  
+Success: HTTP/200  
+
+##### PUT url: ".../accounts/follow/<user_id>/"
+Follow a user  
+
+Requestbody: None  
+Responsebody: None  
+Success: HTTP/200  
+
+##### PUT url: ".../accounts/unfollow/<user_id>/"
+Unfollow a user  
+
+Requestbody: None  
+Responsebody: None  
+Success: HTTP/200  
+
+##### PUT url: ".../accounts/operation/add/statement/"
+Add a statement to the own account  
+
+Requestbody:  
+```json
+{  
+    "input": "<statement>"  
+    "reactions": { "to": <reaction_to_a_statement_id>, "relation": <"attack" or "support">}   <--- optional  
+}  
+```
+Responsebody:  
+```json
+{  
+    "id": ...,  
+    "author": {  
+        "user": {  
+            "id": ...,  
+            "username": "..."  
+        },  
+        "image": "..."  
+    },  
+    "content": "...",  
+    "tagged": [],  
+    "mentioned": [],  
+    "created": "...",  
+    "relation_to_parent": ...  
+}  
+```
+Success: HTTP/200  
+
+#### Contents
+##### GET url: ".../contents/statements/get/<statement_id>/"
+Get a statement  
+
+Requestbody: None  
+Responsebody:  
+```json
+[  
+    {  
+        "id": ...,  
+        "author": {  
+            "user": {  
+                "id": ...,  
+                "username": "..."  
+            },  
+            "image": "..."  
+        },  
+        "content": "...",  
+        "tagged": [],  
+        "mentioned": [],  
+        "created": "...",  
+        "relation_to_parent": ...,  
+        "reactions": []  
+    }  
+]  
+```
+
+##### GET url: ".../contents/statements/with/hashtag/"
+Get all statements with a hashtag  
+
+Requestbody: None  
+Queryparameters: "?q=<hashtag>"  
+Responsebody:  
+```json
+[  
+    {  
+        "id": ...,  
+        "author": {  
+            "user": {  
+                "id": ...,  
+                "username": "..."  
+            },  
+            "image": "..."  
+        },  
+        "content": "...",  
+        "tagged": [],  
+        "mentioned": [],  
+        "created": "...",  
+        "relation_to_parent": ...,  
+        "reactions": []  
+    },  
+    ...  
+]  
+```
+
+##### GET url: ".../contents/statements/feed/"
+Get all statements of the accounts that are followed by the user  
+
+Requestbody: None  
+Responsebody:  
+```json
+[  
+    {  
+        "id": ...,  
+        "author": {  
+            "user": {  
+                "id": ...,  
+                "username": "..."  
+            },  
+            "image": "..."  
+        },  
+        "content": "...",  
+        "tagged": [],  
+        "mentioned": [],  
+        "created": "...",  
+        "relation_to_parent": ...,  
+        "reactions": []  
+    },  
+    ...  
+]  
+```
+
+##### GET url: ".../contents/statements/feed/pagination"
+Get statements of the accounts that are followed by the user  
+
+Requestbody: None  
+Queryparameters: "?page=<page_number>&size=<number_of_statements_per_page>"
+Responsebody:  
+```json
+{
+    "total": ...,  
+    "data": [  
+        {  
+            "id": ...,  
+            "author": {  
+                "user": {  
+                    "id": ...,  
+                    "username": "..."  
+                },  
+                "image": "..."  
+            },  
+            "content": "...",  
+            "tagged": [],  
+            "mentioned": [],  
+            "created": "...",  
+            "relation_to_parent": ...,  
+            "reactions": []  
+        },  
+        ...  
+    ]  
+}  
+```
+
+##### GET url: ".../contents/trending/hashtag/"
+Get all trending hashtags which are most used in statements  
+
+Requestbody: None  
+Reponsebody: ++++++ TODO:  Setting of a hashtag not clear ++++++  
+
+
+#### Search
+##### GET url: ".../search/"
+Searchs for a user or hashtag  
+
+Requestbody: None  
+Queryparameters: "?q=<search_query>&filter=<"user" or "hashtag">"  
+Responsebody:  
+```json
+{  
+    "accounts": [  
+                    {  
+                    "user": {  
+                        "id": ...,  
+                        "username": "...",  
+                        },  
+                    "image": "..."  
+                    },  
+                    ...  
+    ],  
+    "hashtags": [  
+                    {  
+                    "id": ...,  
+                    "tag": "..."  
+                    },  
+                    ...  
+    ]  
+}  
+```
+
+## Core Database structure
+
+The project requieres the base authentication database structure from django and extends it with the following tables:  
+
+#### the_social_network_account
+    with  
+    user_id: int as primary key and foreign key to django auth_user  
+    image: varchar(100)  
+    biography: varchar(1000)  
+
+#### the_social_network_statement
+    with  
+    id: int as primary key  
+    author_id: int as foreign key to the_social_network_account  
+    content: varchar(120)  
+    created: datetime  
+
+#### the_social_network_accounttagging
+    with  
+    id: int as primary key  
+    created: datetime  
+    account_id: int as foreign key to the_social_network_account  
+    statement_id: int as foreign key to the_social_network_statement  
+
+#### the_social_network_hashtag
+    with  
+    id: int as primary key  
+    tag: varchar(30)  
+    created: datetime  
+
+#### the_social_network_hashtagtagging
+    with  
+    id: int as primary key  
+    created: datetime  
+    hashtag_id: int as foreign key to the_social_network_hashtag  
+    statement_id: int as foreign key to the_social_network_statement  
+
+#### the_social_network_reaction
+    with  
+    id: int as primary key  
+    created: datetime  
+    vote: small uint  
+    child_id: int as foreign key to the_social_network_statement  
+    parent_id: int as foreign key to the_social_network_statement  
+
+#### the_social_network_relationship
+    with  
+    id: int as primary key  
+    created: datetime  
+    from_account_id: int as foreign key to the_social_network_account  
+    to_account_id: int as foreign key to the_social_network_account  
