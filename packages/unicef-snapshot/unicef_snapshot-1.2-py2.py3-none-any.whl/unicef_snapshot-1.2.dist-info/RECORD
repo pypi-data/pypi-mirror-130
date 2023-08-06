@@ -1,0 +1,14 @@
+unicef_snapshot/__init__.py,sha256=6VULqSGRcBbZrS39UriufXNswtcVIR6I02K9BQO4YcY,77
+unicef_snapshot/admin.py,sha256=wwKH2L9ZnfwFT97f_3wdSOWAsn9-ofL2dgL_qFYZiRk,1606
+unicef_snapshot/models.py,sha256=ENr0T6X7ivUwzFE40kGWfZe13aCq_IbH_TEB4iWuzfo,2538
+unicef_snapshot/serializers.py,sha256=sVB4lJqObhbmlbOw96Xi3wAgPec-CCMfrClSTHq7EQ0,630
+unicef_snapshot/urls.py,sha256=1WzxMATIFrCslyTrwk5euUiIXabe9Fk2V0ZVH1Jrw0c,209
+unicef_snapshot/utils.py,sha256=NIkLASC2huEg966gdJsAOn4NiUuAK_rv88AdPVLlhyg,3056
+unicef_snapshot/views.py,sha256=1KsNL2NFfgCcakE9il_Xb_S4_47Ewtx60yZ-x_jbvMs,2634
+unicef_snapshot/migrations/0001_initial.py,sha256=hnZ2_ImksZqf9Xe6taGq51M2U3dgt74EHiiivWMjECk,2036
+unicef_snapshot/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+unicef_snapshot-1.2.dist-info/LICENSE,sha256=oV6l6aJEDe4N-h_qBGtJ_F7BF1whto8gy0vRBWpqH-M,547
+unicef_snapshot-1.2.dist-info/METADATA,sha256=PjRbSOp4CwSYwno-mOE776leunpcm6zvOZrQmD_OFmk,2436
+unicef_snapshot-1.2.dist-info/WHEEL,sha256=WzZ8cwjh8l0jtULNjYq1Hpr-WCqCRgPr--TX4P5I1Wo,110
+unicef_snapshot-1.2.dist-info/top_level.txt,sha256=T9nKVBQPZZ2Gqf4d1YLo-CA5h2wI6ZNaIB6-29-Tel8,16
+unicef_snapshot-1.2.dist-info/RECORD,,
