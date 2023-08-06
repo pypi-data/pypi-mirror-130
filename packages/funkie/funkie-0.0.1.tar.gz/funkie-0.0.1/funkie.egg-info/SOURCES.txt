@@ -1,0 +1,7 @@
+README.md
+setup.py
+funkie/__init__.py
+funkie.egg-info/PKG-INFO
+funkie.egg-info/SOURCES.txt
+funkie.egg-info/dependency_links.txt
+funkie.egg-info/top_level.txt
