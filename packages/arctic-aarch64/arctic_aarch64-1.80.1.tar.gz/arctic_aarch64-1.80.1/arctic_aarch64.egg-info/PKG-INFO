@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: arctic-aarch64
+Version: 1.80.1
+Summary: AHL Research Versioned TimeSeries and Tick store
+Home-page: https://github.com/manahl/arctic
+Author: Man AHL Technology
+Author-email: ManAHLTech@ahl.com
+License: GPL
+Keywords: ahl,keyvalue,tickstore,mongo,timeseries
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+
+README>md
+
+
