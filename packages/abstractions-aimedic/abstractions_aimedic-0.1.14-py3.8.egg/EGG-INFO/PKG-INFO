@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: abstractions-aimedic
+Version: 0.1.14
+Summary: Abstractions for AIMedic's training pipeline.
+Home-page: https://gitlab.aimedic.co/soroush.moazed/abstractions.git
+Author: Soroush Moazed
+Author-email: soroush.moazed@gmail.com
+License: MIT
+Download-URL: https://github.com/iamsoroush/abstractions/archive/refs/tags/v_0.1.9.tar.gz
+Description: # Abstractions for **AIMedic**'s training pipeline
+        Abstractions for main components in *AIMedic*'s ``tensorflow``-based projects.
+        
+        # Guide
+        [Plz don't be lazy and `readthedocs`! :)](https://abstractions.readthedocs.io/en/latest/)
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
