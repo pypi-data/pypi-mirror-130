@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: epic_mpl
+Version: 0.1
+Summary: Simple image point-picking with matplotlib.
+Home-page: https://github.com/samthiele/epic
+Author: Sam Thiele
+Author-email: sam.thiele01@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/samthiele/epic
+Keywords: image point picking matplotlib
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Simply pick points using matplotlib.
+

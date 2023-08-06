@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+epic/__init__.py
+epic_mpl.egg-info/PKG-INFO
+epic_mpl.egg-info/SOURCES.txt
+epic_mpl.egg-info/dependency_links.txt
+epic_mpl.egg-info/requires.txt
+epic_mpl.egg-info/top_level.txt
