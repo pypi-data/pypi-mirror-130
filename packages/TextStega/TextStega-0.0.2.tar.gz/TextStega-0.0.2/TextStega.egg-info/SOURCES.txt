@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+TextStega/TextStega.py
+TextStega/__init__.py
+TextStega.egg-info/PKG-INFO
+TextStega.egg-info/SOURCES.txt
+TextStega.egg-info/dependency_links.txt
+TextStega.egg-info/requires.txt
+TextStega.egg-info/top_level.txt
