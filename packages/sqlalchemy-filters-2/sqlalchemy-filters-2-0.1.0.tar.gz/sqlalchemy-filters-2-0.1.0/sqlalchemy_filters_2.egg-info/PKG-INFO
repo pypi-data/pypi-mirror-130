@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-filters-2
+Version: 0.1.0
+Summary: A library to filter SQLAlchemy queries.
+Home-page: https://github.com/saurabht85/sqlalchemy-filters
+Author: Saurabh
+Author-email: tewary.saurabh@hotmail.com
+License: Apache License, Version 2.0
+Description: SQLAlchemy filters 2
+        ====================
+        
+        .. pull-quote::
+        
+            Build on top of SQLAlchemy Filter 2.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: mysql
+Provides-Extra: postgresql
+Provides-Extra: python2
