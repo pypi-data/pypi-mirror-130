@@ -1,0 +1,7 @@
+[console_scripts]
+json2yaml = odin.utils.yaml:json_main
+odin-chores = odin.chores:main
+odin-select-model = odin.model.selector:main
+odin-serve = odin.serve:main
+yaml2json = odin.utils.yaml:main
+
