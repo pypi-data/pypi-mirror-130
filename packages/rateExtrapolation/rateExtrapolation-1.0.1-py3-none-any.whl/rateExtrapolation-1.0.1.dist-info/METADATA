@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rateExtrapolation
+Version: 1.0.1
+Summary: Package returns estimations for model rates.
+Home-page: https://github.com/sarahwaity/rateExtrapolation.git
+Author: Sarah Wait
+Author-email: swait@uw.edu
+License: MIT
+Keywords: tellurium rate extrapolation
+Platform: UNKNOWN
+License-File: LICENSE
+Requires-Dist: matplotlib (==3.3.4)
+Requires-Dist: numpy (==1.19.3)
+Requires-Dist: pandas (==1.2.4)
+Requires-Dist: SBstoat (==1.161)
+Requires-Dist: tellurium (==2.2.0)
+
+This package simplifies reate determination from experimental data using SBstoat and Tellurium.
+
