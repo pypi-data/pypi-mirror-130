@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: pyOnlineSpreadSheetEditing
+Version: 0.0.1
+Summary: python Online SpreadSheet Editing tool with configurable enhancer/importer and check phase
+Home-page: https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing
+Author: Wolfgang Fahl
+Author-email: wf@bitplan.com
+Maintainer: Wolfgang Fahl
+License: Apache License
+Project-URL: Documentation, http://wiki.bitplan.com/index.php/pyOnlineSpreadSheetEditing
+Project-URL: Code, https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing
+Project-URL: Issue tracker, https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pyLodStorage (~=0.0.81)
+Requires-Dist: pyFlaskBootstrap4 (~=0.2.19)
+Requires-Dist: pandas (~=1.3.4)
+
+# pyOnlineSpreadSheetEditing
+python Online SpreadSheet Editing tool with configurable enhancer/importer and check phase
+
+[![Github Actions Build](https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing/workflows/Build/badge.svg?branch=master)](https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing/actions?query=workflow%3ABuild+branch%3Amain)
+[![GitHub issues](https://img.shields.io/github/issues/WolfgangFahl/pyOnlineSpreadSheetEditing.svg)](https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/WolfgangFahl/pyOnlineSpreadSheetEditing.svg)](https://github.com/WolfgangFahl/pyOnlineSpreadSheetEditing/issues/?q=is%3Aissue+is%3Aclosed)
+[![License](https://img.shields.io/github/license/WolfgangFahl/pyOnlineSpreadSheetEditing.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+
+
