@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+ImageStega/__init__.py
+ImageStega/stg.py
+ImageStega.egg-info/PKG-INFO
+ImageStega.egg-info/SOURCES.txt
+ImageStega.egg-info/dependency_links.txt
+ImageStega.egg-info/requires.txt
+ImageStega.egg-info/top_level.txt
