@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: donerkebab
+Version: 0.0.1
+Summary: Super easy to use selenium wrapper
+Home-page: https://github.com/ytkimirti/donerkebab
+Author: ytkimirti
+Author-email: yusuftaha9@gmail.com
+License: MIT
+Description: # Test md file
+        
+        ## Element methods
+        ```python
+        
+        
+        
+        driver = NewFirefoxDriver()
+        
+        driver.open('https://www.google.com')
+        
+        input_element = driver.get_element('input')
+        
+        # None of the element methods are modified
+        # You can look at the official selenium documentation
+        # https://www.selenium.dev/documentation/webdriver/actions_api/keyboard/#sendkeys
+        
+        # Writes hello world inside input_element
+        input_element.send_keys('Hello world')
+        
+        # clears out the text inside input_element
+        input_element.clear() 
+        
+        
+        ```
+Keywords: selenium,wrapper,chrome,firefox,easy,beginner,use,doner,kebab,chromium,headless
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
