@@ -1,0 +1,10 @@
+numpy>=1.17.0
+matplotlib!=3.5.0,>=2.2.0
+scipy>=1.5.0
+PyYAML>=5.1
+
+[GUI]
+PySide2>=5.13
+
+[txt]
+pandas>=0.14.0
