@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+my_quickbase/__init__.py
+my_quickbase/helpers.py
+my_quickbase/quickbase_queries.py
+my_quickbase/settings.py
+my_quickbase.egg-info/PKG-INFO
+my_quickbase.egg-info/SOURCES.txt
+my_quickbase.egg-info/dependency_links.txt
+my_quickbase.egg-info/requires.txt
+my_quickbase.egg-info/top_level.txt
