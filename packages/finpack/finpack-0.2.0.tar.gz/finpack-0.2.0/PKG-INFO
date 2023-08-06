@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: finpack
+Version: 0.2.0
+Summary: Super simple financial tracking.
+Author: rackreaver
+Author-email: rackreaver@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: docopt (>=0.6.2,<0.7.0)
