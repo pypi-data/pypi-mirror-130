@@ -1,0 +1,3 @@
+[console_scripts]
+mtpdocr = OCR.getCor:getCor
+

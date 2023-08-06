@@ -1,0 +1,14 @@
+OCR/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+OCR/getCor.py,sha256=H30oDlQXO2MM6btdB9QXOf4PaG2VkczlSXTe5cKbwx4,5820
+OCR/fonts/simfang.ttf,sha256=UhxvdUa062T6SwzWBLvTYzOiClfjiMjirSrQe55ZOGQ,10576012
+OCR/imgs_en/A93.jpg,sha256=Q9-Omq3FkfXYowXZLk1vOePfPPW4XEIAlDhI1oZqzOg,121778
+OCR/imgs_en/androidAlbum.jpeg,sha256=cu1M6qTU5Mz_A66XZ-zhJG7qW_H2mCc-NXMMQFtvJuM,41228
+OCR/imgs_en/androidInstall.png,sha256=VrqJ_8HCaksA-IU3UG3HJCFqNW_lLDK_WihLP3j9P-g,178712
+OCR/imgs_en/huazhii.png,sha256=DlUMQciLPzlcOZuF02IoAPjwsQjFHRWS0YkbEIAjrFs,1529079
+OCR/imgs_en/menu.png,sha256=m0rw3BzoW-lcTlybLGwhcRlhtilcw7JMd_cmn8jEgQc,29129
+mtpdocr-0.1.2.dist-info/METADATA,sha256=Mscu4nDZaSoKPmc_hy_UD_92nKUAyoQtAIeR9NfViUg,307
+mtpdocr-0.1.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+mtpdocr-0.1.2.dist-info/entry_points.txt,sha256=KPJ6H2SVIugKszVR61f8fLiglMSPyBpYihctRRoFEjI,47
+mtpdocr-0.1.2.dist-info/top_level.txt,sha256=D-cIuT7kIfOoCwFSG-F6Shx5LsExJISyde0y3jbnles,4
+mtpdocr-0.1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+mtpdocr-0.1.2.dist-info/RECORD,,
