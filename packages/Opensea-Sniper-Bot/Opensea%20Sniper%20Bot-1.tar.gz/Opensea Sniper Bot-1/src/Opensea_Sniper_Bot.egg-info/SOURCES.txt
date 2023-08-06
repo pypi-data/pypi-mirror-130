@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/Opensea_Sniper_Bot.egg-info/PKG-INFO
+src/Opensea_Sniper_Bot.egg-info/SOURCES.txt
+src/Opensea_Sniper_Bot.egg-info/dependency_links.txt
+src/Opensea_Sniper_Bot.egg-info/top_level.txt
