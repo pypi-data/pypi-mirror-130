@@ -1,0 +1,11 @@
+setup.py
+misc_funcs_module/__init__.py
+misc_funcs_module/add.py
+misc_funcs_module/subtract.py
+misc_funcs_module.egg-info/PKG-INFO
+misc_funcs_module.egg-info/SOURCES.txt
+misc_funcs_module.egg-info/dependency_links.txt
+misc_funcs_module.egg-info/top_level.txt
+misc_funcs_module/extras/__init__.py
+misc_funcs_module/extras/divide.py
+misc_funcs_module/extras/multiply.py
