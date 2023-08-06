@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: torchmd-cg
+Version: 0.0.2
+Summary: TorchMD-CG. Coarse Grained molecular dynamics with pytorch
+Home-page: https://github.com/torchmd/torchmd_cg/
+Author: Acellera
+Author-email: info@acellera.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: POSIX :: Linux
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torchmd
+Requires-Dist: schnetpack
+
+# torchmd-cg
+
+## Installation
+
+```
+conda create -n torchmd_cg
+conda activate torchmd_cg
+conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
+conda install pyyaml ipython scikit-learn tqdm
+pip install pytorch-lightning
+pip install torchmd-cg
+```
+
+## Usage
+
+```
+pip install moleculekit
+conda install seaborn pandas jupyter
+```
+Check the jupyter notebook in the `tutorial` folder
+
+

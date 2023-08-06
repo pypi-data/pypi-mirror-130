@@ -1,0 +1,11 @@
+torchmd_cg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+torchmd_cg/utils/make_deltaforces.py,sha256=ibuAAaSV3xmCpuO3tV1qq4oIFUZSlwbmoMUdrVtM8cA,2648
+torchmd_cg/utils/mappings.py,sha256=sh231AUBwZXylLg5FSz2fKBwTyuEBkgFRrVUiKaXHeA,1556
+torchmd_cg/utils/prior_fit.py,sha256=BAG19lKu90Z-2yVbIsCydhuch4yl4aNit_Mxq5DdAZg,3831
+torchmd_cg/utils/psfwriter.py,sha256=qDE5itOPRiC3SGEQ9H0FVuh_EuuMit5be0GaGGc_-RE,3063
+torchmd_cg-0.0.2.dist-info/LICENSE,sha256=WgIuZSDmcEcde5365UwC__sS0JmHQcMa7AaEJ35DMtY,1072
+torchmd_cg-0.0.2.dist-info/METADATA,sha256=UvfZeUflJ23UAR13eCSFWbiqpslFqFgQtIhuSyAi50E,902
+torchmd_cg-0.0.2.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+torchmd_cg-0.0.2.dist-info/top_level.txt,sha256=Q-eDDdKl-YooVJ6D78e2VK6vwInNZZDb_4pfvu_fcjs,11
+torchmd_cg-0.0.2.dist-info/RECORD,,
