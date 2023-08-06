@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sgai
+Version: 0.0.1
+Summary: Simple Game AI package allows to easly define an interface for a game and train a simple neural net to play it
+Home-page: https://github.com/John15321/sgai
+Author: Jan Bronicki
+Author-email: janbronicki@gmail.com
+License: MIT license
+Description: # Simple Game AI
+        
+        
+        [![image](https://img.shields.io/pypi/v/sgai.svg)](https://pypi.python.org/pypi/sgai)
+        
+        
+        **Simple Game AI package allows to easly define an interface for a game and train a simple neural net to play it**
+        
+        
+        -   Free software: MIT license
+        -   Documentation: https://John15321.github.io/sgai
+            
+        
+        ## Features
+        
+        -   TODO
+        
+        ## Credits
+        
+        This package was created with [Cookiecutter](https://github.com/cookiecutter/cookiecutter) and the [giswqs/pypackage](https://github.com/giswqs/pypackage) project template.
+        
+Keywords: sgai
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown

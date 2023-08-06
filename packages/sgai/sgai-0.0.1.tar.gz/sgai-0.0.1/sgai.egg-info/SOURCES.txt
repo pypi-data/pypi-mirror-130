@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+sgai/__init__.py
+sgai/sgai.py
+sgai.egg-info/PKG-INFO
+sgai.egg-info/SOURCES.txt
+sgai.egg-info/dependency_links.txt
+sgai.egg-info/not-zip-safe
+sgai.egg-info/top_level.txt
