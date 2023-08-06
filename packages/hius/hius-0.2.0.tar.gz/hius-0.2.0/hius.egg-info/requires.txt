@@ -1,0 +1,8 @@
+starlette
+pydantic
+
+[multipart]
+python-multipart
+
+[uvicorn]
+uvicorn
