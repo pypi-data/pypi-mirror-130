@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: b-cf-outputs
+Version: 1.0.0
+Summary: Package that helps to gather AWS CloudFormation outputs.
+Home-page: https://github.com/biomapas/B.CfOutputs.git
+Author: Laimonas Sutkus
+Author-email: laimonas.sutkus@biomapas.com
+License: Apache License 2.0
+Keywords: AWS CloudFormation Output
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# DEPRECATED
+All functionality moved to: https://github.com/Biomapas/B.AwsCf
+
+
+# Release history
+
+### 0.0.3
+Add ci/cd pipelines.
+
+### 0.0.2
+* Fix situation where stacks might not have outputs.
+* Lists stacks that only have valid statuses.
+
+### 0.0.1
+* Initial build.
+
+
