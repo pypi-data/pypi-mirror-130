@@ -1,0 +1,3 @@
+[console_scripts]
+neon_display_service = neon_display.__main__:main
+

@@ -1,0 +1,10 @@
+neon_display/__init__.py,sha256=SgifSIweHyavoZF8L5bVbRllmXW-1iXKZ-2F6f4u9J8,13517
+neon_display/__main__.py,sha256=jS-6farb_ai9aPoxocj7Yp-7UeHKMAVvDCh2cTGXDN8,2800
+neon_display/services/__init__.py,sha256=8bR4PNWrHV619EOiZGe8UpJNUTOzuxEC8L79X3nV3j0,6729
+neon_display/services/opencv_backend/__init__.py,sha256=2zFdmb4cMIwd6f4YgNGalXulu97tWktnIWbsHYEtEI4,4442
+neon_display-0.0.2a1.dist-info/LICENSE.md,sha256=KxXbLh0XZkaLbNrj5ksC1Hl04EeiMbY-I0pGhKTPBRc,1635
+neon_display-0.0.2a1.dist-info/METADATA,sha256=GrpUWacCiyjThdmk-8uPeaC-9ALfvu0cJ5xx8WcnmCY,708
+neon_display-0.0.2a1.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+neon_display-0.0.2a1.dist-info/entry_points.txt,sha256=HBSo5VDOzKA0W4El9HqfmjhDcC29OdMrpu5ZBjK5uIU,69
+neon_display-0.0.2a1.dist-info/top_level.txt,sha256=UwNbxfySYn6Piar-bMoO_QkIfGpZ87VbngvDN_8hzS8,13
+neon_display-0.0.2a1.dist-info/RECORD,,
