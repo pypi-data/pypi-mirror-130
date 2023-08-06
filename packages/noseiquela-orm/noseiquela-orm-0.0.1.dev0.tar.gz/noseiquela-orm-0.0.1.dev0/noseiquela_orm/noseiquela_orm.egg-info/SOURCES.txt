@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+noseiquela_orm/noseiquela_orm.egg-info/PKG-INFO
+noseiquela_orm/noseiquela_orm.egg-info/SOURCES.txt
+noseiquela_orm/noseiquela_orm.egg-info/dependency_links.txt
+noseiquela_orm/noseiquela_orm.egg-info/requires.txt
+noseiquela_orm/noseiquela_orm.egg-info/top_level.txt
