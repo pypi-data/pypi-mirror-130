@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: complate-cpp-for-python
+Version: 0.0.2
+Summary: Rendering of JSX based views in Python
+Home-page: https://github.com/tmehnert/complate-cpp-for-python
+Author: Torsten Mehnert
+Author-email: torsten.mhn@gmail.com
+License: Apache-2.0
+Project-URL: Documentation, https://github.com/tmehnert/complate-cpp-for-python/blob/main/USER_GUIDE.md
+Project-URL: Source Code, https://github.com/tmehnert/complate-cpp-for-python
+Project-URL: Bug Tracker, https://github.com/tmehnert/complate-cpp-for-python/issues
+Project-URL: Changelog, https://github.com/tmehnert/complate-cpp-for-python/blob/main/CHANGELOG.md
+Keywords: jsx,html,template-engine
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: C++
+Classifier: Programming Language :: C
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# complate-cpp-for-python
+
+*- Rendering of JSX based views in Python*
+
+[![Build](https://github.com/tmehnert/complate-cpp-for-python/actions/workflows/build.yml/badge.svg)](https://github.com/tmehnert/complate-cpp-for-python/actions/workflows/build.yml)
+[![Python](https://img.shields.io/badge/python-3.6%2B-blue)](https://www.python.org/downloads/)
+[![PyPI](https://img.shields.io/pypi/v/complate-cpp-for-python)](https://pypi.org/project/complate-cpp-for-python/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/tmehnert/complate-cpp-for-python/blob/main/LICENSE)
+
+[complate](https://complate.org) adapter that can be used in Python projects to render JSX based HTML views. It's a
+C++ binding and uses [complate-cpp](https://github.com/tmehnert/complate-cpp) under the hood.
+
+## Getting started
+
+### Usage
+
+For a detailed description how to use this library checkout out the [User Guide](https://github.com/tmehnert/complate-cpp-for-python/blob/main/USER_GUIDE.md).
+
+### Installation
+This library is published on PyPI, so you can install it with pip. 
+
+```shell
+pip install complate-cpp-for-python
+```
+
+### Dependencies
+
+* [complate-cpp](https://github.com/tmehnert/complate-cpp), Apache 2.0
+* [pybind11](https://github.com/pybind/pybind11), BSD-style
+  license ([Link](https://github.com/pybind/pybind11/blob/master/LICENSE))
+
+## License
+
+complate-cpp-for-python is Open Source software released under the [Apache 2.0 license](https://github.com/tmehnert/complate-cpp-for-python/blob/main/LICENSE).
+
+
