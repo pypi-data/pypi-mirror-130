@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: funkie
+Version: 0.0.1
+Summary: A sample test package
+Home-page: https://github.com/robertCodedIt/misc-pkg
+Author: RobertCodedIt
+Author-email: robertlove999999@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+this is my vanilla implementation of a package for pip
+
+
