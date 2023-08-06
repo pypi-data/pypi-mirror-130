@@ -1,0 +1,3 @@
+[console_scripts]
+makejob = makejob.bin.main:main
+
