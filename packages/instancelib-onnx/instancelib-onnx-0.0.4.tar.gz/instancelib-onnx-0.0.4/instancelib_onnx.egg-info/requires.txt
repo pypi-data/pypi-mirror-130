@@ -1,0 +1,11 @@
+instancelib
+onnxruntime
+onnx
+onnxmltools
+skl2onnx
+
+[doc2vec]
+gensim
+
+[hdf5]
+tables
