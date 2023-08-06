@@ -1,0 +1,8 @@
+shhell/__init__.py,sha256=UavKwu_3S4IFQlI4HRX7MJtIsyHR3Kh-1gOhfPde5dg,150
+shhell/command.py,sha256=akg41ECX-UNIODhxNENnd5Lx6_DcM2fwt5dGaulP9eI,1053
+shhell/executable.py,sha256=9LKfqXr0sVvP-ZTWZy4GxSus5WWk5gr0iCc337lnnuc,430
+shhell/result.py,sha256=1obnDT7GiJIUb9ixTKFOdX8dXStTj1Rn94WdnXFOGrk,206
+shhell/typehints.py,sha256=lLcf8q-R5uyAiOqgxtpaB30e6NBgkY65TQDT4ZbtBYk,60
+shhell-0.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+shhell-0.0.0.dist-info/METADATA,sha256=hJcmUseXohe33gUSSU8XhkuYMcubXhZSnGA1ur-NZhs,3532
+shhell-0.0.0.dist-info/RECORD,,
