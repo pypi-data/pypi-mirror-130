@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: ScramblerApp
+Version: 0.0.0
+Summary: A python starter package to be used as a template for creating your own python packages.
+Home-page: https://github.com/mystic-repo/ScramblerApp
+Author: Mystic
+Author-email: mystic.technology.mail@gmail.com
+License: MIT
+Keywords: starter,package,template
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Security
+Classifier: Topic :: Security :: Cryptography
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Scrambler App
+This collection of tools that makes it easy to secure and/or obfuscate messages, files, and data. It leverages encryption tools such as openssl and fernet. This tool is primarily intended for Linux.
+* Github repo: https://github.com/mystic-repo/ScramblerApp.git
+* PyPi: TBD
+
+## Installation
+This library is hosted on PyPi and can be installed via ```pip```:
+```
+pip3 install PythonStarterPackage
+```
+For manual install, see below.
+
+### Manual Install
+To manually install this package, clone this repo to your local system. After you clone the repo, navigate into the package to where the ```setup.py``` file is. Then you can use the ```pip install -e .``` command. This will install the package and all its dependencies editable mode. Then you can use the package locally or use it as the starting point for building out your own package.
+```
+pip3 install -e .
+```
+
+## Usage
+You can run the app in your terminal with:
+```
+./main.py
+```
+You can also import this module into your own project and incorporate it into your own packages. For example:
+```
+from scrambler import *
+scrambler = Scrambler()
+scrambler.run()
+```
+
+## Support and Contributions
+Our software is open source and free for public use. If you found any of these repos useful and would like to support this project financially, feel free to donate to our bitcoin address.
+
+Bitcoin Address 1: 1GZQY6hMwszqxCmbC6uGxkyD5HKPhK1Pmf
+
+![alt text](https://github.com/mystic-repo/BitcoinAddresses/blob/master/btcaddr1.png?raw=true)
+
+
+
