@@ -1,0 +1,7 @@
+setup.py
+PortsPy.egg-info/PKG-INFO
+PortsPy.egg-info/SOURCES.txt
+PortsPy.egg-info/dependency_links.txt
+PortsPy.egg-info/not-zip-safe
+PortsPy.egg-info/top_level.txt
+ports/__init__.py
