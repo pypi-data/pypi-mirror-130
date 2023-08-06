@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/cred_manage/__init__.py
+src/cred_manage/base_cred_container.py
+src/cred_manage/bitwarden.py
+src/cred_manage/flat_file.py
+src/cred_manage.egg-info/PKG-INFO
+src/cred_manage.egg-info/SOURCES.txt
+src/cred_manage.egg-info/dependency_links.txt
+src/cred_manage.egg-info/requires.txt
+src/cred_manage.egg-info/top_level.txt
