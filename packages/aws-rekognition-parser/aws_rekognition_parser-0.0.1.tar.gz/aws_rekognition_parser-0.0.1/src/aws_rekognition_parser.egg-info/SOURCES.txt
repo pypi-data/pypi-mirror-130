@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/aws_rekognition_parser.egg-info/PKG-INFO
+src/aws_rekognition_parser.egg-info/SOURCES.txt
+src/aws_rekognition_parser.egg-info/dependency_links.txt
+src/aws_rekognition_parser.egg-info/top_level.txt
+src/aws_rekognition_parser_pkg/__init__.py
+src/aws_rekognition_parser_pkg/aws_rekognition_parser.py
