@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Arabic
+Version: 0.0.1
+Summary: Arabic tools implemented in pure Python
+Home-page: https://github.com/disooqi/Arabic
+Author: Mohamed Eldesouki
+Author-email: mohamed@eldesouki.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Natural Language :: Arabic
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Academic Free License (AFL)
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+UNKNOWN
+

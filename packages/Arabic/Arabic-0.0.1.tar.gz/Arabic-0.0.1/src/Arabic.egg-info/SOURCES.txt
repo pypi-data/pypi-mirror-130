@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/Arabic.egg-info/PKG-INFO
+src/Arabic.egg-info/SOURCES.txt
+src/Arabic.egg-info/dependency_links.txt
+src/Arabic.egg-info/requires.txt
+src/Arabic.egg-info/top_level.txt
+src/arabic/__init__.py
+src/arabic/py.typed
